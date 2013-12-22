@@ -80,4 +80,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kramdown
   middleman

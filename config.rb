@@ -2,6 +2,8 @@ require "kramdown"
 #require 'lib/customization'
 #require 'lib/quotes'
 
+I18n.enforce_available_locales = true
+
 set :haml, :format => :html5
 
 set :markdown_engine, :kramdown

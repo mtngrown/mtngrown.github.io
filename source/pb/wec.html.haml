@@ -83,54 +83,6 @@ layout: pb
         %td Half AF
         %td Normal AF
 
-#note-a
-  %h4 Note A
-  %p
-    When firing FROM a hilltop or slope TO a ground-level target, the
-    Line-of-Sight is obstructed if the TARGET UNIT is directly behind a Gray
-    or Green hex-side: i.e. "directly behind" means that the intervening Gray
-    or Green hex-side(s) forms one or more of the hexagon sides of the
-    target hex itself.
-  %p Note A is the converse of Note B.
-
-#note-b
-  %h4 Note B
-  %p
-    When firing FROM ground-level TO a target on a hilltop or a slope, the
-    Line-of-Sight is obstructed if the FIRING UNIT is directly behind a Gray
-    or Green hex-side.
-  %p Note B is the converse of Note A.
-
-#note-c
-  %h4 Note C
-  %p
-    When firing FROM a hilltop TO a ground-level target, the Line-of-Sight
-    is obstructed by intervening Brown hex-side symbols if such a symbol is
-    closer to the TARGET UNIT than to the firing unit or if the symbol is
-    exactly mid-way between the two. To determine the relative position of
-    the Brown symbol, count the number of hexagon SIDES through which the
-    Line-of-Sight is traced (including the side of the firing hex and the
-    side of the target hex).
-  %p Note C is the converse of Note D.
-
-#note-d
-  %h4 Note D
-  %p
-    When firing FROM ground-level TO a target on a hilltop, the
-    Line-of-Sight is obstructed by intervening Brown hex-side symbols if
-    such a symbol is closer to the FIRING UNIT than to the target, or
-    exactly midway between the two.
-  %p Note D is the converse of Note C.
-
-#note-e
-  %h4 Note E
-  %p
-    The ONLY case in which a unit may trace an unobstructed Line-of-Sight
-    through more than ONE Orange (hilltop) hex-side symbol is when both the
-    target unit and the firing unit are on hilltops. In all other
-    situations, the LOS is obstructed if it must be traced through more than
-    one Orange hex-side.
-
 :javascript
   $(document).ready(function() {
     loadPopupBox();

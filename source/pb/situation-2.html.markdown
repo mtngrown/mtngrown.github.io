@@ -1,3 +1,7 @@
+---
+layout: pb
+---
+
 # Situation #2 - Game 1
 
 In a real sense, the Russians are set up for a slaughter, which are

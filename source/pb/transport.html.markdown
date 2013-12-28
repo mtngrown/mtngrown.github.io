@@ -21,7 +21,7 @@ into fighting position in 3 moves.
 
 ----
 
-## Turn 1 movement
+## Turn 1 - colocation
 
 ![alt text][turn_1]
 
@@ -29,7 +29,7 @@ The first move colocates the truck and the rifle company.
 
 ----
 
-## Turn 2 movement
+## Turn 2 - load
 
 ![alt text][turn_2]
 
@@ -37,7 +37,7 @@ The second move loads the rifle company for transport.
 
 ----
 
-## Turn 3 movement
+## Turn 3 - transport and unload
 
 ![alt text][turn_3]
 

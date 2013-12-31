@@ -24,7 +24,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.87534336"
+     inkscape:zoom="1.1403673"
      inkscape:cx="320.04142"
      inkscape:cy="429.76412"
      inkscape:document-units="px"
@@ -453,15 +453,15 @@
          id="tspan6719"
          y="568.85022"
          x="359.67999"
-         sodipodi:role="line">Move face up VEHICULAR units</tspan><tspan
-         id="tspan3928"
+         sodipodi:role="line">Move face up VEHICULAR units,</tspan><tspan
+         id="tspan6731"
          y="588.85022"
          x="359.67999"
-         sodipodi:role="line">at will and execute overrun</tspan><tspan
-         id="tspan6731"
+         sodipodi:role="line">execute overrun attacks, and</tspan><tspan
          y="608.85022"
          x="359.67999"
-         sodipodi:role="line">attacks.</tspan></text>
+         sodipodi:role="line"
+         id="tspan3114">dismount units as desired.</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text3930"

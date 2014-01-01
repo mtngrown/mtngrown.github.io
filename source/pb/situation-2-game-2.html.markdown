@@ -121,6 +121,10 @@ Russian truck (432) transported recon unit (131) from Grabyosh to
 1-D-11, to keep it from being overrun by a lurking PzKpfw IV (G941).
 Unfortunately, this exposed it to 81 mm mortar unit (G81).
 
+I think I made another blunder in so far as forgetting that the exit hex
+for an overrun does not have to be clear. Only the overrun unit has to
+be clear, the overrunning unit can exit on a slope, in forest, etc.
+
 ### Handicapping
 
 For this scenario, it feels like the Russians have a real edge. An

@@ -1,0 +1,119 @@
+---
+layout: pb
+---
+
+:css
+  div.tet {
+    background-color: black;
+    padding: 25px;
+    margin: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: red;
+    font-weight: bold;
+    overflow: hidden;
+  }
+
+  td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 10px;
+    background-color: white;
+  }
+
+  td.to {
+    background-color: #a3c1ad;
+  }
+
+  td.from {
+    background-color: #b0e0e6;
+  }
+
+  th.header {
+    padding: 10px;
+    background-color: #3eb489;
+  }
+
+  .errata {
+    color: red;
+  }
+
+  #inote-b {
+    display: none;
+    position: fixed;
+  }
+
+%h1 Weapons Effectiveness Chart
+
+.tet
+  %table
+    %thead
+      %tr
+        %th.header{:colspan => "4"} WEC &nbsp; WEAPONS EFFECTIVENESS CHART
+    %tbody
+      %tr
+        %td.from{:rowspan => "3"} CLASS OF<br />WEAPON<br />BEING<br />FIRED
+        %td.to{:colspan => "3"}
+          TYPE OF TARGET
+      %tr
+        %td.to{:colspan => "2"} ARMORED VEHICLES<br />(including Halftracks)
+        %td.to ALL OTHERS<br />(including trucks)
+      %tr
+        %td.to At Half-Range or Less
+        %td.to At Greater Than<br />Half-Range
+        %td.to At All Ranges
+      %tr
+        %td.from I
+        %td May attack only when<br /> using Close Assault
+        %td Attacking not allowed
+        %td Normal AF
+      %tr
+        %td.from A
+        %td Double AF
+        %td Normal AF
+        %td Half AF
+      %tr
+        %td.from H & M
+        %td Normal AF
+        %td Half AF
+        %td Normal AF
+
+%h2 Die roll modifiers (see Advanced PanzerBlitz rules)
+
+:javascript
+  $(document).ready(function() {
+    loadPopupBox();
+
+    $('#close-note-b').click(function() {
+      unloadPopupBox();
+    });
+
+    function unloadPopupBox() {
+      $('#note-b').fadeOut('slow');
+    }
+
+    function loadPopupBox() {
+      $('#note-b').fadeIn('slow');
+    }
+  });
+
+  $(function(){
+
+    var App = {
+      Models: {},
+      Collections: {},
+      Views: {}
+    };
+
+    window.App = App;
+
+
+    // Square model
+    window.App.Models.WEC = Backbone.Model.extend({});
+  });
+

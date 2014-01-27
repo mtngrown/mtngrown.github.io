@@ -17,7 +17,7 @@ conditions, and a limited number of turns to achieve victory.
 
 So how is an equal chance of winning determined?
 
-It stands to reason that changing either the order of battle or the
+It stands to reason that changing either the order of battle (OOB) or the
 victory conditions will change the balance of the situation. In some
 cases, increasing or decreasing the number of turns may also affect the
 victory conditions.
@@ -60,9 +60,124 @@ in position, and units disabled on last turn.
 
 ## Situation #3
 
-Favors Russians
+Situation #3 is a "breakthrough-type" scenario, where the Germans have
+to clear a 3-hex wide line through the Russian defense.
+
+Favors Russians, apparently very strongly as the PzKw III Gs cannot
+muster enough firepower to affect Russian infantry, and there isn't
+enough German infantry to push back. Hence, all the Russian need to do
+to win is stack infantry with artillery in wooded or town hexes, and the
+Germans will be lucky to dislodge even one.
 
 ### Rebalancing
+
+Several things could be done, either by reducing Russian OOB
+or increasing German OOB:
+
+For the Russian, one of the following would probably work:
+
+* Remove Russian infantry units, either both Guards, or both SMG, or one
+  each Guard or SMG, or 3 rifle companies. The guard units are
+  impossible to dislodge in this scenario, and the SMG units have a
+  *lot* of firepower (AF 8).
+* Remove one truck, or 3 wagons from the OOB. Because the Russians do
+  not know where the Germans will try and break through, they need to
+  start the game with some poweful units mounted and ready to move to
+  wherever the Germans are going. Remove the wheels, and the infantry
+  isn't going anywhere fast.
+* Remove one ATG and one howitzer or mortar. This will require the
+  infantry to fill in the gaps which would otherwise be covered by
+  these units.
+
+For the German player, try:
+
+* Add another PzKw III G and 3 more platoons of infantry.
+* Add add an engineer unit to the German's OOB (check to see if
+  this is historically viable). Given the Germans deployed
+  engineer units, having one in the inevitable close assaults on
+  the Russian infantry might really help even up the scenario.
+* Have reinforcements enter Board 2 on Turn 3 (or 4 or 5, whatever
+  produces the best result). These might be the above-mentioned
+  PzKw III G units, or could be PzKw III D, or PzKw II. If infantry
+  are introduced for reinforcement, have them enter dismounted, forcing
+  the German player to detail a few trucks or tracks to get them into
+  battle. A side effect of this will be to expose any German ATG or
+  mortar units which are emplaced far forward.
+* Add two more 82 mm mortars. (Unfortunately for this 1941 scenario,
+  the 122 mm mortar would not be introduced until 1942.) These tiny
+  units can reach way, way out and really hurt Russian transport units.
+
+### Winning strategy
+
+For the Russians, starting the game with everything possible already
+mounted lets most mounted units get into play by Turn 3.
+
+The Germans need to destroy as much transport as possible as early
+as possible, before the Russians get the infantry into position to
+push. While hunting down transport, the Germans also need to locate
+and destroy as many Russian long range guns and mortars.
+
+Also, the Germans need to find a position which holds a clear
+line in their rear, while blocking the Russians. Given the defensive
+strength and offensive weakness of the Russian infantry, while the
+Russians can't be easily dislodged, neither can they easily destroy a
+stack of German units in a favorable position.
+
+### Victory conditions
+
+Situation #3 is a pretty good scenario in one respect: two good players ought
+to be able to produce a draw. The Germans, if they can destroy enough
+H and M, force the Russian infantry to move, which may leave holes in
+their line elsewhere on the map. However, if they don't move that 
+infantry, the Russians risk a German breakthrough.
+
+Hence, a likely outcome is the Russian leaving one or more small holes
+(1 or 2 hexes uncovered by fire) in their line while denying the
+Germans a 3 hex strip of cleared corridor. That is, a draw.
+
+For the original OOB, victory conditions could be adjusted to the
+following:
+
+* Marginal German victory: break the Russians defensive line
+  in one or more hexes anywhere on the map.
+* Tactical German victory: achieve 3 hex corridor with Russian line 
+  intact everywhere else.
+* Decisive German victory: achieve 3 hex corridor and break the Russian
+  line in one or more hexes elsehwere.
+
+* Marginal Russian victory: hold the line intact while denying the
+  German corridor and losing more than 10 units.
+* Tactical Russian victory: deny Germans, hold the line intact, lose
+  more than 5 but less than 10 units.
+* Decisive Russian victory: hold the line, deny the Germans, lose 5 or
+  less units.
+
+These conditions are fair because the Russian player, with diligence,
+can maintain the line by simply positioning units to compensate every
+turn. If the Russian player does not pay attention to units not in the
+action, the player may not notice when the line breaks over a hex in
+one or more places.
+
+As a variant, the Russians could add the number of German units
+destroyed.
+
+For a rebalanced scenario, one which a German player might win, the
+marginal German victory could be establishing a 3 hex corridor, while
+tactical and decisive victories could be 4 to 6 hex corridor, and 7 hex
+corridor, respectively.
+
+Also, swamps could count against cleared hexes, and any corridor
+incorporating hexes on the edge of the board might have to be one or two
+hexes wider to acheive victory.
+
+
+### Variations
+
+Try the following:
+
+* Rearrange the map boards in order and aspect, then replay the scenario
+  and see how it changes.
+
 
 ## Playing to a draw
 
@@ -70,3 +185,5 @@ The original rules do not discuss fighting to a draw, but adding a
 "draw" outcome might help balance situations. With tiered victory
 conditions, when both sides achieve the same victory condition, that's a
 draw.
+
+

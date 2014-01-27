@@ -36,6 +36,29 @@ conscious thought.
   the board. Instead of choosing in advance which board the Russians enter on,
   let the dice choose. That way, the "Germans" will have to cover all sides.
   Conversely, suppose the Russians set up first as in Situation #3. Where should the
-  Germans attempt to puunch through? Throw the dice!
+  Germans attempt to punch through? Throw the dice!
+
+
+### Guidelines for Situations
+
+1. *Situation #1* The Russians can enter from any side, which is
+   problematic when playing solitaire. To randomize, roll a d4
+   (or d8) and count from North edge of board as 1, east as 2, etc.
+   If rolling a d6, just ignore rolls of 5 or 6 and re-roll until
+   1-4 is obtained.
+
+   Once a first game is determined, given an identical German
+   deployment, further games can have Russians advancing from each
+   side subsequently.
+  
+1. *Situation #2* Roll d6 to choose which board to enter on. It really
+   doesn't make a lot of difference in this situation.
+
+1. *Situation #3* Roll d6 to determine which board to exit from. This
+   ensures that the Russians won't anticipate the German push. Note that
+   a Russian strategy of having units mounted at the beginning of the
+   game practically dictates these units are located on Board 2. If the
+   German player decides to feint, the die should determine to which
+   side: even east, west odd.
 
 

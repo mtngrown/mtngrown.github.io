@@ -6,15 +6,13 @@
     .container
       .row
         .col-md-12
-          %header
-            Copyright CC Non-Commercial
-            %a{ href: '/pb' } Home
+          = partial 'layouts/pb-header'
 
     .container
       .row
         .col-md-8
           = yield
         .col-md-4
-          Sidebar
+          Stay tuned.
 
     = partial 'layouts/pb-footer'

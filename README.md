@@ -48,11 +48,13 @@ Rights Reserved, and often *explicitly* copyrighted All Rights Reserved.
 The derived works are usually disseminated in proprietry formats such as
 Microsoft Word or PDF, and images as low quality JPG or PNG.
 
-In other words, the work solely depends on the author.
+In other words, the work solely depends on the author, and with
+proprietary formats, related work has to be created completely
+from scratch.
 
 That changes here.
 
-Everything excepting explicitely trademarked material is given to you
+Everything (excepting explicitely trademarked material) is given to you
 under a liberal Creative Commons license. The text is all Markdown with
 Haml and CSS layout. The images, whereever possible, are SVG. You are
 free to:
@@ -62,11 +64,8 @@ free to:
 * If you like, send a pull request and your contribution may be added,
   as long as it meets the spirit and style of the project.
 
-If you're not familiar with the Creative Commons, please visit using the
-link:
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
+If you're not familiar with the Creative Commons, please visit:
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 Sometimes, you can't
 ====================
@@ -81,4 +80,9 @@ They can't eat it, there are thousands of great games out there, and
 increasingly, game developers who would be delighted to have someone
 riff off their work to help grow a vibrant community.
 
-When a game is held hostage, it's their loss, not yours.
+W hen a game is held hostage, it's their loss, not yours.
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+

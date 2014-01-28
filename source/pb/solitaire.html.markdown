@@ -18,6 +18,11 @@ The benefits of playing solitaire are numerous:
 4. Conversely, games can be run with a timer, where each turn is knocked
    out in, say, six to ten minutes. Playing fast will expose blunders in
    playing very quickly.
+5. Getting familiar with situations at one's leisure really helps game
+   play when you have an opponent. The first time setting up a situation
+   is the hardest and takes the longest.
+
+
 
 ### How to balance play
 

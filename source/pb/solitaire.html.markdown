@@ -24,7 +24,7 @@ The benefits of playing solitaire are numerous:
 
 
 
-### How to balance play
+### How to balance solitaire play
 
 Balancing play in solitaire games is difficult as a tendency to favor
 one side or another always seems to lurk just below the level of
@@ -59,7 +59,8 @@ conscious thought.
 1. *Situation #2* Roll d6 to choose which board to enter on. It really
    doesn't make a lot of difference in this situation.
 
-1. *Situation #3* Roll d6 to determine which board to exit from. This
+1. *Situation #3* Roll d6 to determine which board the Germans will
+   attempt to drive a corridor through. This
    ensures that the Russians won't anticipate the German push. Note that
    a Russian strategy of having units mounted at the beginning of the
    game practically dictates these units are located on Board 2. If the

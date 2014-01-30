@@ -44,19 +44,65 @@ or both 88 mm from German, replace with 76 mm. Remove one fortification
 from German, forcing a command post in the clear. Increase the turn
 length to 15 to allow Russians to optimize positioning.
 
+The difficulty rebalancing this situation is that a slight advantage to
+the Russians could drastically affect the results. Make a fortification
+a little too easy to crack, and the Russians may destroy two.
+
+### Winning strategy
+
+The Russians *must* find a way to destroy at least one command post.
+This requires getting into position to pound on a fortification for
+several turns, while taking 88 mm fire at point blank.
+
+Positioning is everything for the Germans, as they are for the most
+part, immobile.
+
+### Victory conditions
+
+
+
+----
+
 ## Situation #2
 
-Favors Russians
+Favors Russians, heavily. The Russian infantry does not move fast, but
+it's very difficult to completely stop. There is so much cover requiring
+spotting, and any unit getting close enough to destroy Russian infantry
+companies puts itself at serious risk of dangerous close assault.
+Nevertheless, there are a lot of options for rebalancing Situation #2.
 
 ### Rebalancing
 
-Add infantry or armor to German's forces. Use optional indirect fire
-rules with an added H class weapon for Germans. Require Russians to
-advance further for each victory condition, say 9 or 10 hexes for
-marginal victory. Remove infantry from Russian forces. Shorten the turn
-limit, forcing the Russians to make riskier moves. Rewrite victory
-conditions as point-based, accounting for units destroyed, Russian units
-in position, and units disabled on last turn.
+Several easy modifications allow a much better balanced scenario. Here
+are a few ideas.
+
+* Add infantry or armor to German's forces.
+* Use optional indirect fire rules with an added H class weapon for Germans.
+* Reduce Russian infantry strength by 2 or more companies.
+
+### Winning strategy
+
+For the Germans, the winning strategy is getting as far forward as fast
+as possible, and force the Russians to fight for every hex. There is no
+way to stop the Russian onslaught. The best the Germans can do is
+attempt to slow it down while the turn clock ticks.
+
+For the Russians, just the opposite: it's imperative to get enough
+infantry as far south as possible as early as possible so that the
+advance doesn't get bogged assaulting the German blocking forces.
+
+### Victory conditions
+
+* Require Russians to advance further for each victory condition, say 9 or
+  10 hexes for marginal victory. Alternatively, shorten the turn limit
+  by one or two moves, forcing the Russians to make riskier moves.
+  Either of these modifications are the easiest to implement. 
+* Rewrite victory conditions as point-based, accounting for units destroyed,
+  Russian units in position, and units disabled on last turn. This is
+  the most complex modification, but done correctly, could provide a lot
+  of insight into the scenario mechanics.
+
+----
 
 ## Situation #3
 
@@ -110,7 +156,10 @@ For the German player, try:
 ### Winning strategy
 
 For the Russians, starting the game with everything possible already
-mounted lets most mounted units get into play by Turn 3.
+mounted lets most mounted units get into play by Turn 3. It's really
+important for the Russians to maintain their line. If too many units are
+pulled off the defensive line and trucked over to the where the Germans
+are attempting to penetrate, the risk is losing fire coverage.
 
 The Germans need to destroy as much transport as possible as early
 as possible, before the Russians get the infantry into position to
@@ -159,7 +208,9 @@ action, the player may not notice when the line breaks over a hex in
 one or more places.
 
 As a variant, the Russians could add the number of German units
-destroyed.
+destroyed. Points could be subtracted for each hex found uncovered by
+fire at the end of the game. (This should be a very expensive option for
+the Russians.)
 
 For a rebalanced scenario, one which a German player might win, the
 marginal German victory could be establishing a 3 hex corridor, while
@@ -170,13 +221,26 @@ Also, swamps could count against cleared hexes, and any corridor
 incorporating hexes on the edge of the board might have to be one or two
 hexes wider to acheive victory.
 
-
 ### Variations
 
 Try the following:
 
 * Rearrange the map boards in order and aspect, then replay the scenario
   and see how it changes.
+
+
+----
+
+
+----
+http://en.wikipedia.org/wiki/M4_Sherman
+In Summer 1944, after breaking out of the bocage and moving into open
+country, U.S. tank units who were engaged at range from German defensive
+positions sometimes took 50% casualties before spotting where the fire
+was coming from.[40 Tank Tactics from Normandy to Lorraine]
+
+----
+
 
 
 ## Playing to a draw

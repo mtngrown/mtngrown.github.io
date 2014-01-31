@@ -212,6 +212,15 @@ destroyed. Points could be subtracted for each hex found uncovered by
 fire at the end of the game. (This should be a very expensive option for
 the Russians.)
 
+For yet another variant, "covered by fire" could be defined as hexes
+being covered by artillery fire only, or by artillery fire and close
+assault range of infantry. This removes the ranged fire of the Russian
+infantry, making it harder for to cover the line, and harder to move
+infantry around with without adverse consequences.
+
+Going further, the strength of line might be considered by requiring a
+certain minimum number of attack factors be brought to bear on each hex.
+
 For a rebalanced scenario, one which a German player might win, the
 marginal German victory could be establishing a 3 hex corridor, while
 tactical and decisive victories could be 4 to 6 hex corridor, and 7 hex

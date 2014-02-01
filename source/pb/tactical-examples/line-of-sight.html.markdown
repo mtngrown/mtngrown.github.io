@@ -16,4 +16,4 @@ of sight is unclear.
 
 ---
 
-[los]: /images/los-5-1.svg "Line of sight"
+[los]: /images/los-5-1.png "Line of sight"

@@ -33,7 +33,9 @@ this imbalance may be a result of superior early positioning of that
 side. Should the "stronger" side deploy poorly, the game might well swing
 radically to the "weaker" side's favor.
 
-## Sitation #1
+
+
+## Situation #1
 
 Favors Germans
 

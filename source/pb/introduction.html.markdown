@@ -1,13 +1,13 @@
 Among men of a certain age and experience, Avalon Hill's PanzerBlitz
 game brings back memories of a truly different age. Retailing for the
 vast sum (at the time) of $10, it was just within reach of enterprising
-teenagers, while still be expensive enough (by far) to ensure the game
-was tresured.
+teenagers, while still being expensive enough (by far) to ensure the game
+was treasured. At the time, gasoline was around $0.25/gallon.
 
 Fast forward 40 years.
 
 While the classical PanzerBlitz remains long, long out of print, the
-game is common on Ebay, and a copy in good condition can often be
+game is commonly sold on Ebay, and a copy in good condition can often be
 acquired for $10-$35.
 
 Even better, there is community of dedicated PanzerBlitz fans who have

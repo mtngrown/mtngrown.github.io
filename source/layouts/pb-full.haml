@@ -1,0 +1,16 @@
+<!doctype html>
+%html
+  %head
+    = partial 'layouts/head'
+  %body
+    .container
+      .row
+        .col-md-12
+          = partial 'layouts/pb-header'
+
+    .container
+      .row
+        .col-md-12
+          = yield
+
+    = partial 'layouts/pb-footer'

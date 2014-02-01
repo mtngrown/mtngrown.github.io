@@ -18,8 +18,8 @@ activity has been copied on to the web.
 
 Given the amount of material already available, why add more?
 
-The reason is simple: it's really hard to find a complete description
-and analysis of the *original* game.
+The reason is simple: it's really hard to find - in one place - 
+a complete description and analysis of the *original* game.
 
 And that's what these web pages provide: some notes on Avalon Hill's
 PanzerBlitz game played out of the box, as originally shipped.

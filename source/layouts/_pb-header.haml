@@ -6,19 +6,24 @@
   .container{style: 'background-color: black;'}
     %ul.nav.navbar-nav
       %li
+        %a{href: '/about.html'} About
+      %li
         %a{href: '/'} ConSim home
       %li
         %a{href: '/pb'} PanzerBlitz home
       %li
-        %a{href: '/pb/about'} About
-      %li
         %a{href: '/pb/playing-aids'} Playing aids
       %li
-        %a{href: '/pb/situations'} Games
+        %a{href: '/pb/games'} Games
       %li
         %a{href: '/pb/firefights'} Firefights
-      %li
-        %a{href: '/pb/examples'} Tactical examples
+      %li.dropdown
+        %a.dropdown-toggle{href: '#', "data-toggle" => 'dropdown'}
+          Tactical examples
+          %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{href: '/pb/examples/transport.html'} Transporting units
       %li
         %a{href: 'http://github.com/mtngrown/consim'} Source
 

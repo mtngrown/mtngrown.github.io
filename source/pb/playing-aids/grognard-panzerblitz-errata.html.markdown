@@ -42,21 +42,21 @@ clear hexes.
 
 ---
 
-Q. If a unit is fired upon from a woods hex or a town hex, can it return
-fire without meeting the SPOTTING RULE conditions?
+**Q. If a unit is fired upon from a woods hex or a town hex, can it return
+fire without meeting the SPOTTING RULE conditions?**
 
 A. No. SPOTTING RULE conditions must always be met.
 
 ---
 
-Q. Using the INDIRECT FIRE rule, may a friendly unit call in artillery
-fire even though a friendly CP unit does not see the enemy unit?
+**Q. Using the INDIRECT FIRE rule, may a friendly unit call in artillery
+fire even though a friendly CP unit does not see the enemy unit?**
 
 A. No.
 
 ---
 
-Q.Can block units ever be destroyed by engineers or artillery?
+**Q.Can block units ever be destroyed by engineers or artillery?**
 
 A. No.
 
@@ -311,9 +311,9 @@ DD; -3 at 1-3 odds = X.
 
 ---
 
-Q. If I had a unit on a slope hex directly behind a brown hexside, is my
+**Q. If I had a unit on a slope hex directly behind a brown hexside, is my
 unit in the LOS of a unit firing from a hilltop (assuming no other
-obstacles)?
+obstacles)?**
 
 A. Yes. Brown hexsides block LOS only when the target unit is on ground
 level (see TET).

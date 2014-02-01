@@ -1,5 +1,6 @@
 ---
 layout: pb
+title: Transporting units in PanzerBlitz
 ---
 
 # Transporting units
@@ -8,12 +9,13 @@ Getting infantry and artillery units into effective combat requires transport.
 
 ## Initial position
 
-![alt text][initial]
-
 We want to take the truck into Opustoschenia to pick up Russian rifle
 company 1001 and transport it to Hill 107. Note: this is not to advocate
 parking infantry on a hill; the hill provides an easy landmark for
 illustrating the game mechanics of transport.
+
+{:.center}
+![alt text][initial]
 
 Hill 107 is 7 hexes from 1001's current location. Moving there on its
 own would take more than half the game. Getting there by truck puts 1001
@@ -23,6 +25,7 @@ into fighting position in 3 moves.
 
 ## Turn 1 - colocation
 
+{:.center}
 ![alt text][turn_1]
 
 The first move colocates the truck and the rifle company.
@@ -31,6 +34,7 @@ The first move colocates the truck and the rifle company.
 
 ## Turn 2 - load
 
+{:.center}
 ![alt text][turn_2]
 
 The second move loads the rifle company for transport.
@@ -39,6 +43,7 @@ The second move loads the rifle company for transport.
 
 ## Turn 3 - transport and unload
 
+{:.center}
 ![alt text][turn_3]
 
 The third move transports the rifle company to Hill 107 moving 6 hexes

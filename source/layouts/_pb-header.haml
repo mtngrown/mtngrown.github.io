@@ -13,10 +13,33 @@
         %a{href: '/pb'} PanzerBlitz home
       %li
         %a{href: '/pb/playing-aids'} Playing aids
-      %li
-        %a{href: '/pb/games'} Games
+
+      %li.dropdown
+        %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}
+          Games
+          %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{href: '/pb/games/'} Overview
+            %li
+              %a{href: '/pb/games/situation-1.html'} Situation #1
+            %li
+              %a{href: '/pb/games/situation-2.html'} Situation #2, game 1
+            %li
+              %a{href: '/pb/games/situation-2-game-2.html'} Situation #2, game 2
+            %li
+              %a{href: '/pb/games/situation-2-game-3.html'} Situation #2, game 3
+            %li
+              %a{href: '/pb/games/situation-3-game-1.html'} Situation #3, games 1 & 2
+            %li
+              %a{href: '/pb/games/situation-3-game-2.html'} Situation #3, game 3
+            %li
+              %a{href: '/pb/games/situation-5-game-1.html'} Situation #5, game 1
+
+
       %li
         %a{href: '/pb/firefights'} Firefights
+
       %li.dropdown
         %a.dropdown-toggle{href: '#', "data-toggle" => 'dropdown'}
           Tactical examples

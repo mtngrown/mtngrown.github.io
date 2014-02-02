@@ -46,7 +46,7 @@ conscious thought.
 
 ### Guidelines for Situations
 
-1. *Situation #1* The Russians can enter from any side, which is
+1. **Situation #1** The Russians can enter from any side, which is
    problematic when playing solitaire. To randomize, roll a d4
    (or d8) and count from North edge of board as 1, east as 2, etc.
    If rolling a d6, just ignore rolls of 5 or 6 and re-roll until
@@ -56,15 +56,21 @@ conscious thought.
    deployment, further games can have Russians advancing from each
    side subsequently.
   
-1. *Situation #2* Roll d6 to choose which board to enter on. It really
+1. **Situation #2** Roll d6 to choose which board to enter on. It really
    doesn't make a lot of difference in this situation.
 
-1. *Situation #3* Roll d6 to determine which board the Germans will
+1. **Situation #3** Roll d6 to determine which board the Germans will
    attempt to drive a corridor through. This
    ensures that the Russians won't anticipate the German push. Note that
    a Russian strategy of having units mounted at the beginning of the
    game practically dictates these units are located on Board 2. If the
    German player decides to feint, the die should determine to which
    side: even east, west odd.
+1. **Situation #4** on hold while finding a long table for playing.
+1. **Situation #5** after one play, doesn't present any obvious
+   randomizations. Perhaps future solitaire games will expose
+   appropriate chance elements.
 
+There are surely more interesting and innovative ways to create
+solitaire playability, ideas and pointers welcome.
 

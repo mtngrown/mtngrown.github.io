@@ -23,5 +23,3 @@ a complete description and analysis of the *original* game.
 
 And that's what these web pages provide: some notes on Avalon Hill's
 PanzerBlitz game played out of the box, as originally shipped.
-
-----

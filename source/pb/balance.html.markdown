@@ -239,6 +239,57 @@ Try the following:
 * Rearrange the map boards in order and aspect, then replay the scenario
   and see how it changes.
 
+---
+
+## Situation #4
+
+(On hold while acquiring a long table.)
+
+---
+
+## Situation #5
+
+### Rebalancing
+
+Short answer: Remove one or two rifle companies, one or two artillery
+batteries and a couple of wagons or trucks from the Russian OOB.
+Frankly, the Russians didn't need to do much more than position rifle
+companies to deny ground to the Germans, which would bog down into
+ineffective direct fire on the Russians, and go-for-broke close assaults
+on the Germans. Also, consider removing one or more blocks or mines from
+Russian OOB.
+
+Conversely, to the German OOB, add 2-3 infantry platoons, or 1-2
+engineer units to help with removing mines and getting close assault
+benefits.
+
+### Winning strategy
+
+As written, if the Germans don't have all candidate units off the east
+side of Board 2 by the end of Turn 5, they might as well concede.
+
+The Russians don't even need to fight that much, just set up the mines
+and blocks, and shove rifle companies everywhere else. This practically
+guarantees the Germans will get bogged down slugging it out with Russian
+infantry.
+
+Smart players will work out all the routes across Board 1 in advance.
+The Germans need to know the fastest terrain for crossing, and the
+Russian need to deny that fast terrain.
+
+
+### Victory conditions
+
+The easiest way to rebalance is probably adjust the victory conditions:
+
+* Require Germans to leave play for 1 or 2 turns instead of 3.
+* Have the victory condition be finding cover on Board 3 instead of
+  exiting.
+* Extend the game a couple more turns, from 12 to say, 15 turns. This
+  would not necessarily make it "easier" for the Germans to win, but it
+  might make it possible.
+
+
 
 ----
 

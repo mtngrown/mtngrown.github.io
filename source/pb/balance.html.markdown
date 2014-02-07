@@ -1,3 +1,7 @@
+---
+layout: pb
+---
+
 # Balance in PanzerBlitz Situations
 
 What makes for a balanced game?

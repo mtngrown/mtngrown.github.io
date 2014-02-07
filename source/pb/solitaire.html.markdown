@@ -1,3 +1,7 @@
+---
+layout: pb
+---
+
 ## PanzerBlitz solitaire play
 
 PanzerBlitz is surprisingly easy to play solitaire, but can be surprisingly difficult

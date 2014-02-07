@@ -3,14 +3,20 @@
   %head
     = partial 'layouts/head'
   %body
-    .container
-      .row
-        .col-md-12
-          = partial 'layouts/pb-header'
+    #wrap
+      .container
+        .row
+          .col-md-12
+            = partial 'layouts/pb-header'
+
+      .container
+        .row
+          .col-md-12
+            = yield
+
+      #push
 
     .container
       .row
         .col-md-12
-          = yield
-
-    = partial 'layouts/pb-footer'
+          = partial 'layouts/pb-footer'

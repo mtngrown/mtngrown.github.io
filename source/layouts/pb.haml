@@ -3,16 +3,22 @@
   %head
     = partial 'layouts/head'
   %body
+    #wrap
+      .container
+        .row
+          .col-md-12
+            = partial 'layouts/pb-header'
+
+      .container
+        .row
+          .col-md-8
+            = yield
+          .col-md-4
+            = partial 'components/pb/sidebar'
+
+      #push
+
     .container
       .row
         .col-md-12
-          = partial 'layouts/pb-header'
-
-    .container
-      .row
-        .col-md-8
-          = yield
-        .col-md-4
-          = partial 'components/pb/sidebar'
-
-    = partial 'layouts/pb-footer'
+          = partial 'layouts/pb-footer'

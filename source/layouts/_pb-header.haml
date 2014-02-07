@@ -1,56 +1,51 @@
 %header
-  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-  Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+  %nav.navbar.navbar-default{role: 'navigation'}
+    .container{style: 'background-color: black;'}
+      %ul.nav.navbar-nav
+        %li
+          %a{href: '/about.html'} About
+        %li
+          %a{href: '/'} ConSim home
+        %li
+          %a{href: '/pb'} PanzerBlitz home
+        %li
+          %a{href: '/pb/playing-aids'} Playing aids
 
-%nav.navbar.navbar-default{role: 'navigation'}
-  .container{style: 'background-color: black;'}
-    %ul.nav.navbar-nav
-      %li
-        %a{href: '/about.html'} About
-      %li
-        %a{href: '/'} ConSim home
-      %li
-        %a{href: '/pb'} PanzerBlitz home
-      %li
-        %a{href: '/pb/playing-aids'} Playing aids
-
-      %li.dropdown
-        %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}
-          Games
-          %b.caret
-          %ul.dropdown-menu
-            %li
-              %a{href: '/pb/games/'} Overview
-            %li
-              %a{href: '/pb/games/situation-1.html'} Situation #1
-            %li
-              %a{href: '/pb/games/situation-2.html'} Situation #2, game 1
-            %li
-              %a{href: '/pb/games/situation-2-game-2.html'} Situation #2, game 2
-            %li
-              %a{href: '/pb/games/situation-2-game-3.html'} Situation #2, game 3
-            %li
-              %a{href: '/pb/games/situation-3-game-1.html'} Situation #3, games 1 & 2
-            %li
-              %a{href: '/pb/games/situation-3-game-2.html'} Situation #3, game 3
-            %li
-              %a{href: '/pb/games/situation-5-game-1.html'} Situation #5, game 1
+        %li.dropdown
+          %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}
+            Games
+            %b.caret
+            %ul.dropdown-menu
+              %li
+                %a{href: '/pb/games/'} Overview
+              %li
+                %a{href: '/pb/games/situation-1.html'} Situation #1
+              %li
+                %a{href: '/pb/games/situation-2.html'} Situation #2, game 1
+              %li
+                %a{href: '/pb/games/situation-2-game-2.html'} Situation #2, game 2
+              %li
+                %a{href: '/pb/games/situation-2-game-3.html'} Situation #2, game 3
+              %li
+                %a{href: '/pb/games/situation-3-game-1.html'} Situation #3, games 1 & 2
+              %li
+                %a{href: '/pb/games/situation-3-game-2.html'} Situation #3, game 3
+              %li
+                %a{href: '/pb/games/situation-5-game-1.html'} Situation #5, game 1
 
 
-      %li
-        %a{href: '/pb/firefights'} Firefights
+        %li
+          %a{href: '/pb/firefights'} Firefights
 
-      %li.dropdown
-        %a.dropdown-toggle{href: '#', "data-toggle" => 'dropdown'}
-          Tactical examples
-          %b.caret
-          %ul.dropdown-menu
-            %li
-              %a{href: '/pb/tactical-examples/transport.html'} Transporting units
-            %li
-              %a{href: '/pb/tactical-examples/line-of-sight.html'} Line of sight
+        %li.dropdown
+          %a.dropdown-toggle{href: '#', "data-toggle" => 'dropdown'}
+            Tactical examples
+            %b.caret
+            %ul.dropdown-menu
+              %li
+                %a{href: '/pb/tactical-examples/transport.html'} Transporting units
+              %li
+                %a{href: '/pb/tactical-examples/line-of-sight.html'} Line of sight
 
-      %li
-        %a{href: 'http://github.com/mtngrown/consim'} Source
-
-
+        %li
+          %a{href: 'http://github.com/mtngrown/consim'} Source

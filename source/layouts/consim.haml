@@ -1,0 +1,19 @@
+<!doctype html>
+%html
+  %head
+    = partial 'layouts/head'
+  %body
+    #wrap
+      = partial 'layouts/nav-global'
+
+      .container
+        .row
+          .col-md-12
+            = yield
+
+      #push
+
+    .container
+      .row
+        .col-md-12
+          -#= partial 'layouts/pb-footer'

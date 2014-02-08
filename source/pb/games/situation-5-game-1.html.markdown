@@ -31,6 +31,18 @@ do with it. Having it staring me in the face for days has induced at
 least one minor epiphany: this scenario will require several phases, and
 tactics for each phase may differ.
 
+## Scenario: Reconnaissance in force against Lutezh bridgehead on Dnieper River
+
+October 10, 1943
+
+{:.center}
+![Trenches near Lutezh Bridgehead, Ukraine](/images/trenches_near_lutezh_600.jpg)
+
+* [Photo of trenches](http://www.panoramio.com/photo/7017159)
+* [Terrain
+  view](https://maps.google.com/maps?q=google+maps+ukraine&ie=UTF-8&hq=&hnear=0x40d1d9c154700e8f:0x1068488f64010,Ukraine&gl=us&ei=CnX2UsmgHo7koASngoLoCA&ved=0CCkQ8gEwAA)
+* [Stalingrad to
+  Berlin](http://books.google.com/books?id=Pr6HhrecbZ8C&pg=PA184&lpg=PA184&dq=Lutezh+bridgehead&source=bl&ots=dFCy-81udv&sig=GWKRmga16gOHX-0u5aT2GVP4LQY&hl=en&sa=X&ei=J1r2UqjZNs3woATc0YKIBA&ved=0CDQQ6AEwAQ#v=onepage&q=Lutezh%20bridgehead&f=false) 
 
 
 ## Setting up.

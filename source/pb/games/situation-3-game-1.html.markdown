@@ -2,7 +2,7 @@
 layout: pb
 ---
 
-S3G1 - PanzerBlitz
+# Situation #3 Game 1
 
 Jan 12, 2014
 

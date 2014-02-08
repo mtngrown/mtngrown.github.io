@@ -3,25 +3,21 @@
     .navbar-collapse.collapse
       %ul.nav.navbar-nav
         %li.active
-          %a{href: "#"} Home
+          %a{href: "/"} Home
         %li
-          %a{href: "#about"} About
-        %li
-          %a{href: "#contact"} Contact
+          %a{href: "about.html"} About
         %li.dropdown
           %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
-            Dropdown
+            Games
             %b.caret
           %ul.dropdown-menu
             %li
-              %a{href: "#"} Action
+              %a{href: "pb/"} PanzerBlitz
             %li
-              %a{href: "#"} Another action
-            %li
-              %a{href: "#"} Something else here
-            %li.divider
-            %li.nav-header Nav header
-            %li
-              %a{href: "#"} Separated link
-            %li
-              %a{href: "#"} One more separated link
+              %a{href: "ode/"} Ogre Designer Edition
+            -#%li.divider
+            -#%li.nav-header Nav header
+            -#%li
+            -#  %a{href: "#"} Separated link
+            -#%li
+            -#  %a{href: "#"} One more separated link

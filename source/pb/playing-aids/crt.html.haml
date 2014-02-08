@@ -34,9 +34,17 @@ layout: pb
     background-color: #b0e0e6;
   }
 
-  th.header {
+  td.header, th.header {
     padding: 10px;
-    background-color: #3eb489;
+    background-color: #f04321;
+  }
+
+  tr.gray > td {
+    background-color: #ccc;
+  }
+
+  tr.odd > td {
+    background-color: #fc5e31;
   }
 
   .errata {
@@ -54,34 +62,116 @@ layout: pb
   %table
     %thead
       %tr
-        %th.header{:colspan => "4"} WEC &nbsp; WEAPONS EFFECTIVENESS CHART
+        %th.header{:colspan => "9"} CRT &nbsp; WEAPONS EFFECTIVENESS CHART
     %tbody
       %tr
-        %td.from{:rowspan => "3"} CLASS OF<br />WEAPON<br />BEING<br />FIRED
-        %td.to{:colspan => "3"}
-          TYPE OF TARGET
+        %td.header{:rowspan => "2"} DIE<br />ROLL
+        %td{:colspan => "7"} ODDS RATIOS
+        %td.header{:rowspan => "2"} DIE<br />ROLL
       %tr
-        %td.to{:colspan => "2"} ARMORED VEHICLES<br />(including Halftracks)
-        %td.to ALL OTHERS<br />(including trucks)
+        %td 1-4
+        %td 1-3
+        %td 1-2
+        %td 1-1
+        %td 2-1
+        %td 3-1
+        %td 4-1
+      %tr.gray
+        %td -1
+        %td D
+        %td DD
+        %td X
+        %td X
+        %td X
+        %td X
+        %td X
+        %td -1
+      %tr.gray
+        %td 0
+        %td -
+        %td D
+        %td DD
+        %td DD
+        %td X
+        %td X
+        %td X
+        %td 0
+      %tr.odd
+        %td 1
+        %td -
+        %td D
+        %td D
+        %td DD
+        %td X
+        %td X
+        %td X
+        %td 1
       %tr
-        %td.to At Half-Range or Less
-        %td.to At Greater Than<br />Half-Range
-        %td.to At All Ranges
+        %td 2
+        %td -
+        %td -
+        %td D
+        %td D
+        %td DD
+        %td X
+        %td X
+        %td 2
+      %tr.odd
+        %td 3
+        %td -
+        %td -
+        %td -
+        %td D
+        %td DD
+        %td X
+        %td X
+        %td 3
       %tr
-        %td.from I
-        %td May attack only when<br /> using Close Assault
-        %td Attacking not allowed
-        %td Normal AF
+        %td 4
+        %td -
+        %td -
+        %td -
+        %td -
+        %td D
+        %td DD
+        %td X
+        %td 4
+      %tr.odd
+        %td 5
+        %td -
+        %td -
+        %td -
+        %td -
+        %td D
+        %td DD
+        %td X
+        %td 5
       %tr
-        %td.from A
-        %td Double AF
-        %td Normal AF
-        %td Half AF
-      %tr
-        %td.from H & M
-        %td Normal AF
-        %td Half AF
-        %td Normal AF
+        %td 6
+        %td -
+        %td -
+        %td -
+        %td -
+        %td -
+        %td -
+        %td X
+        %td 6
+      %tr.gray
+        %td 7
+        %td -
+        %td -
+        %td -
+        %td -
+        %td -
+        %td -
+        %td -
+        %td 7
+
+
+
+
+
+
 
 %h2 Die roll modifiers (see Advanced PanzerBlitz rules)
 

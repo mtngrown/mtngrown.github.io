@@ -1,5 +1,5 @@
 ---
-layout: pb
+layout: consim
 ---
 
 # Conflict Simulation

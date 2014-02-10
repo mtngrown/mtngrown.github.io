@@ -11,6 +11,10 @@ html, body {
   margin: 0 auto -60px;
 }
 
+#wrap > .container {
+  padding-top: 0;
+}
+
 #push {
   height: 60px;
 }

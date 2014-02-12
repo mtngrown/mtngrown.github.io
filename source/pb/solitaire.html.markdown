@@ -2,7 +2,7 @@
 layout: pb
 ---
 
-## PanzerBlitz solitaire play
+# PanzerBlitz solitaire play
 
 PanzerBlitz is surprisingly easy to play solitaire, but can be surprisingly difficult
 to "win." It can also be surprisingly fun. Here are a few guidelines:
@@ -28,7 +28,7 @@ The benefits of playing solitaire are numerous:
 
 
 
-### How to balance solitaire play
+## How to balance solitaire play
 
 Balancing play in solitaire games is difficult as a tendency to favor
 one side or another always seems to lurk just below the level of
@@ -48,20 +48,27 @@ conscious thought.
   Germans attempt to punch through? Throw the dice!
 
 
-### Guidelines for Situations
+## Guidelines for Situations
 
 1. **Situation #1** The Russians can enter from any side, which is
-   problematic when playing solitaire. To randomize, roll a d4
+   problematic when playing solitaire, because the German side can
+   set up to exploit a known Russian entry. After the Germans set up,
+   to randomize the Russian entry roll a d4
    (or d8) and count from North edge of board as 1, east as 2, etc.
    If rolling a d6, just ignore rolls of 5 or 6 and re-roll until
-   1-4 is obtained.
+   1-4 is obtained. This way the Germans will have to consider Russians
+   coming in from any side.
 
    Once a first game is determined, given an identical German
    deployment, further games can have Russians advancing from each
    side subsequently.
   
-1. **Situation #2** Roll d6 to choose which board to enter on. It really
-   doesn't make a lot of difference in this situation.
+1. **Situation #2** After the Russians set up,
+   roll d6 to choose which board the Germans enter on.
+   It really doesn't make a lot of difference in this situation, as
+   entering from the center board in road march order puts the German
+   player 1/2 turn behind at most, regardless of where the Russian
+   advance is met.
 
 1. **Situation #3** Roll d6 to determine which board the Germans will
    attempt to drive a corridor through. This
@@ -70,11 +77,14 @@ conscious thought.
    game practically dictates these units are located on Board 2. If the
    German player decides to feint, the die should determine to which
    side: even east, west odd.
+
 1. **Situation #4** on hold while finding a long table for playing.
-1. **Situation #5** after one play, doesn't present any obvious
-   randomizations. Perhaps future solitaire games will expose
-   appropriate chance elements.
+
+1. **Situation #5** doesn't present any obvious randomizations.
+   The game could be tilted by assigning numbers to each of the Russian
+   units and locations, and enforce random placement, but this is a
+   fair bit of work.
 
 There are surely more interesting and innovative ways to create
-solitaire playability, ideas and pointers welcome.
+solitaire playability. Ideas and pointers welcome.
 

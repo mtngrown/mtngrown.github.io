@@ -159,6 +159,10 @@ For the German player, try:
   the 122 mm mortar would not be introduced until 1942.) These tiny
   units can reach way, way out and really hurt Russian transport units.
 
+Alternatively, Alan Arvold offers a historically accurate German OOB
+featuring 14 instead of 5 AFVs. Under the original specification for
+this situation, these extra armor units should help balance the battle.
+
 ### Winning strategy
 
 For the Russians, starting the game with everything possible already
@@ -236,12 +240,16 @@ Also, swamps could count against cleared hexes, and any corridor
 incorporating hexes on the edge of the board might have to be one or two
 hexes wider to acheive victory.
 
+
+
 ### Variations
 
 Try the following:
 
 * Rearrange the map boards in order and aspect, then replay the scenario
   and see how it changes.
+* Use the same OOB with 3 boards selected at random from the ImStrat
+  boards.
 
 ---
 
@@ -249,9 +257,42 @@ Try the following:
 
 (On hold while acquiring a long table.)
 
+From Avalon Hill's "The General" magazine (v. 11, #6, p. 14) in an article
+entitled "The Professional Russian," Situation #4
+is described as hopelessly tilted to the Russians. On the other hand, 
+The General published a Series Replay (v. 12, #2, p. 20) for Situation #4
+which resulted in a clear draw. The article further asserted the odds
+were 50% Russian win, 25% German win, 25% draw.
+
+Let's play it and see.
+
+
+### Rebalancing
+
+### Winning strategy
+
+### Victory conditions
+
+### Variations
+
+The playing boards for Situation #4 link end-to-end. Finding a table
+which is close to six feet long might be difficult for many people. I
+don't have one myself. One way to mitigate this is play the scenario on
+just Boards 2 and 3. Alternatively, the ends of Boards 2 and 1 can be
+folded under resulting in half boards. This way, it's possible to follow
+the action across the boards using just the parts needed.
+
 ---
 
+ 
 ## Situation #5
+
+The Russians established a bridgehead at Lutezh in early 1943, and
+Situation #5 simulates a German reconnaissance in force against the
+Russian bridgehead. Lutezh is 15-20 kilometers north of Kiev on the
+Dnieper River, probably on the west bank of the river as everything east
+of Lutezh for several kilometers is now flooded by the Kiev Reservoir.
+
 
 ### Rebalancing
 
@@ -270,7 +311,12 @@ benefits.
 ### Winning strategy
 
 As written, if the Germans don't have all candidate units off the east
-side of Board 2 by the end of Turn 5, they might as well concede.
+side of Board 2 by the end of Turn 5 (Turn 4, really), they might as
+well concede. By the time they get back on the board on Turn 8, it's
+almost impossible to get back through the Russian line.
+
+The Germans may want to keep the Wespes way in the rear, and focus on
+using the halftracks and CPs to spot Russian units.
 
 The Russians don't even need to fight that much, just set up the mines
 and blocks, and shove rifle companies everywhere else. This practically
@@ -288,7 +334,8 @@ The easiest way to rebalance is probably adjust the victory conditions:
 
 * Require Germans to leave play for 1 or 2 turns instead of 3.
 * Have the victory condition be finding cover on Board 3 instead of
-  exiting.
+  exiting. Or just having enough units on Board 3 after the Russians
+  on Turn 12.
 * Extend the game a couple more turns, from 12 to say, 15 turns. This
   would not necessarily make it "easier" for the Germans to win, but it
   might make it possible.

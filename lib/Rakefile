@@ -1,0 +1,4 @@
+desc "clean up db files"
+task :clean do
+  `rm -rf *.db *.sqlite3`
+end

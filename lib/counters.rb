@@ -24,6 +24,7 @@ ActiveRecord::Base.establish_connection(DB_SPEC)
 class Counters < ActiveRecord::Migration
   def self.up
     create_table :counters do |t|
+      t.string :type
       t.string :pb_uid
       t.string :unit_type
       t.string :af
@@ -63,7 +64,15 @@ class Counter < ActiveRecord::Base
   end
 end
 
+class German < Counter
+end
+
+class Russian < Counter
+end
+
 filename = '../data/pieces/pb_original_units_german.csv'
-Counter.import_csv(File.new(filename))
+German.import_csv(File.new(filename))
+filename = '../data/pieces/pb_original_units_russian.csv'
+Russian.import_csv(File.new(filename))
 
 

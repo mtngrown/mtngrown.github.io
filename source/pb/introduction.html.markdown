@@ -24,10 +24,3 @@ a complete description and analysis of the *original* game.
 And that's what these web pages provide: some notes on Avalon Hill's
 PanzerBlitz game played out of the box, as originally shipped.
 
-## Example fire record
-
-
-{:.center.fire-record}
-turn | firing | target | range | odds | result
--|-      -|-      -|- -|-    -|-
- 2   | G0130  | R999   | 5     | 4:1  | X

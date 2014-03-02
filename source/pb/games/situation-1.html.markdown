@@ -2,15 +2,12 @@
 layout: pb
 ---
 
-Situation # 1 PanzerBlitz
-
-# Fortified command post
+# Situation #1  Fortified command post 
 
 *Don't mess with my acht acht*
 
-Background: Situation #1
 
-Original Rules.
+Original rules.
 
 Maybe use Vassal for screenshots.
 
@@ -59,9 +56,3 @@ going to round units individually and sum all fractions before the final
 rounding. I'm thinking about extending the CRT to handle 3/2 and 2/3
 cases, possibly with 2 d6. This will require more paper and pencil work
 for combat resolution.
-
-### To do
-
-Collect all the rules governing towns for combat and movement.
-
-

@@ -2,9 +2,9 @@
 layout: pb
 ---
 
-S4G1 - PanzerBlitz
 
-# Situation 4, Game 1
+# Situation 4, German delaying action near Minsk, Game 1
+
 
 German delaying action against a mobile force during Battle of Minsk,
 July 2, 1944.
@@ -143,14 +143,12 @@ play too much, I won't use it for every turn.
 
 In the meantime, it will help me master the game board.
 
-turn | firing | from |     to    | target | type | range | odds |
-results
-        -|-        -|-        -|-           -|-          -|-       -|-
--|-          -|-
-2,         g42,  2d4, 2k2,     r953,     D,       7,        2:1,       D
-2,         g31,    2h7,     2g1,     r933,    D,       6,          1:1,
-D
-2,        G183, 2h7, 2i6, r145,            CAT,         1,       1:3,  D
+{:.center.fire-record}
+turn | firing | from |     to    | target | type | range | odds | results
+ -|-    -|-    -|-    -|-     -|-   -|-  -|-    -|-
+2 |  G42 |  2D4 |  2K2 |  R953 |   D |  7 |  2:1 | D
+2 |  G31 |  2H7 |  2G1 |  R933 |   D |  6 |  1:1 | D 
+2 | G183 |  2H7 |  2I6 |  R145 | CAT |  1 |  1:3 | D
 
 
 The table as formatted on iPad for taking notes during game play turned
@@ -183,8 +181,11 @@ German blundered putting JgPz IV in range of too many tanks, suffering a
 
 ### Balance
 
+Situation #4 feels well-balanced. 
+
 ### Variants
 
-* For players constrained by table length, the victory conditions can be
-  adjusted to play the scenario on two boards.
+* For players constrained by table length, the victory conditions could be
+  adjusted to play the scenario on two boards. For this first game, no
+  units made it on to Board 1.
 

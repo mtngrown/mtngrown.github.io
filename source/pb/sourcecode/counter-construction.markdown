@@ -36,4 +36,12 @@ It may appear small in the browser, but the image is Scalable Vector
 Graphics (SVG), an open format with freely available tools for creating
 and editing vector images.
 
+Because SVG is a text format, it's easy to examine the source code for
+the [82 mm mortar counter
+image](https://github.com/mtngrown/consim/blob/master/source/images/mortar-template.svg).
+
+Because all the material created for this site is licensed under
+Creative Commons, you are free and encouraged to download this image
+(and all the other images) for your own use, improvement or whatever.
+
 

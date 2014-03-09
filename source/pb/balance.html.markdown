@@ -255,8 +255,6 @@ Try the following:
 
 ## Situation #4
 
-(On hold while acquiring a long table.)
-
 From Avalon Hill's "The General" magazine (v. 11, #6, p. 14) in an article
 entitled "The Professional Russian," Situation #4
 is described as hopelessly tilted to the Russians. On the other hand, 
@@ -266,12 +264,37 @@ were 50% Russian win, 25% German win, 25% draw.
 
 Let's play it and see.
 
-
 ### Rebalancing
+
+The first game play (solitaire) resulted in a marginal Russian victory.
+The game felt like it could go either way almost to the end. However,
+there was a blunder in setup: two German SMGs were added to the OOB,
+which allowed one of the German ATGs to make an extra kill, and occupied
+some Russian infantry (requiring them to dismount) which essentially
+removed them from Russian victory point accumulation.
+
+If having a couple more infantry units proves to better balance the
+German forces, it might be worth altering the situations OOB
+accordingly.
+
 
 ### Winning strategy
 
+The Germans need to bottle up the Russians as early as possible, making
+the Russians earn every hex while conserving their own forces. At some
+point, the Germans will need to fall back and allow some Russian
+advance, else risk a decisive rupture of their defensive line.
+
+The Russians need to disrupt the German line as quickly as possible and
+acquire what little defensible terrain exists on Board 3 as quickly as
+possible.
+
 ### Victory conditions
+
+Given the Series Replay article mentioned above correctly estimates 50%
+Russian win, 25% German win and 25% draw, the victory conditions could
+award the draw as a marginal German victory.
+
 
 ### Variations
 
@@ -281,6 +304,13 @@ don't have one myself. One way to mitigate this is play the scenario on
 just Boards 2 and 3. Alternatively, the ends of Boards 2 and 1 can be
 folded under resulting in half boards. This way, it's possible to follow
 the action across the boards using just the parts needed.
+
+Another variation might be specifying objectives for the Russians, such
+as occupying Grabyosh and Opustochenia for two consecutive turns. This
+would probably require rebalancing the forces, specifically, reducing
+the German forces slightly to allow the Russians to penetrate.
+Alternatively, the Germans could enter on Board 3 or Board 1, or set up
+a token force on Board 1 prior to a Russian first move.
 
 ---
 

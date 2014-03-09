@@ -6,15 +6,17 @@ layout: pb
 # PanzerBush
 
 Mention "PanzerBlitz" in a room full of experienced wargamers, you're
-likely to hear a "panzerbush" snorted about.
+likely to hear the word  "panzerbush" snorted about.
 
-This is a result of the game's most controversial rule: unit forest or
-town cover must be spotted before they can be fired upon. This results
-in a game of movement, where units attempt to maintain cover as much as
-possible to avoid fire.
+This is a result of the game's most controversial rule: units located in
+hexes containing  *any* forest or town  are considered  concealed and must
+be spotted before they can be fired upon. This results in a game of
+movement, where units attempt to maintain cover as much as possible to
+avoid fire.
+
 
 Seems ridiculous. After all, the counters are right there on the map,
-anyone can them.
+anyone can see them.
 
 But let's consider the notion that *the map is not the territory*.
 
@@ -22,7 +24,7 @@ And examine the following photograph of a Panzer IV variant.
 
 {:.center}
 ![Panzer IV
-variant](/images/Bundesarchiv_Bild_101I-124-0211-18,_Im_Westen,_Panzer_IV.jpg)
+variant](/images/Bundesarchiv_Bild_101I-124-0211-18,_Im_Westen,_Panzer_IV_600.jpg)
 
 The tank is in the clear.
 

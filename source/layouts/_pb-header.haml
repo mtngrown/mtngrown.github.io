@@ -8,8 +8,20 @@
           %a{href: '/'} ConSim home
         %li
           %a{href: '/panzerblitz'} PanzerBlitz home
-        %li
-          %a{href: '/panzerblitz/playing-aids'} Playing aids
+
+        %li.dropdown
+          %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}
+            Playing aids
+            %b.caret
+            %ul.dropdown-menu
+              %li
+                %a{href: '/panzerblitz/playing-aids'} Playing aids
+              %li
+                %a{href: '/panzerblitz/playing-aids/wec.html'} Weapons Effectiveness Chart
+              %li
+                %a{href: '/panzerblitz/playing-aids/tet.html'} Target Elevation Table
+              %li
+                %a{href: '/panzerblitz/playing-aids/crt.html'} Combat Results Table
 
         %li.dropdown
           %a.dropdown-toggle{href: '#', 'data-toggle' => 'dropdown'}

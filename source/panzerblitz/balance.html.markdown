@@ -371,6 +371,62 @@ The easiest way to rebalance is probably adjust the victory conditions:
   might make it possible.
 
 
+## Situation #6
+
+Postponed pending table reservation at game store to spread out maps
+end to end.
+
+## Situation #7
+
+Apparently, Situation #7 is regarded as the worst scenario shipping in
+the original PanzerBlitz box. This alone provides a bit of intrigue. The
+general notion is that the game either runs to stalement very quickly,
+or favors the Germans as they essentially acheive their victory
+conditions by Turn 2.
+
+## Rebalancing
+
+One way to investigate a better balanced scenario would be to have the
+Russians come in from the east and the Germans from the west, opposite
+of the current scenario.
+
+Alternatively, specify the Russians as having first movement.
+
+By the start of Russian Turn 3, it's looking really grim for the
+Russians, specifically, facing a concealed Wespe on Hill 129 makes
+motion on the north end of Board 3 really problematic.
+
+It might be that having more than 10 turns helps even things out as
+well.
+
+Another way might be to add a few units to the Russian OOB, or remove a
+couple from the German, or both.
+
+## Winning strategy
+
+For the Germans, move onto Board 2 as fast as possible, hunker down.
+
+For the Russians, position units to apply concentrated force on selected
+German targets, trading units at better than 1:1.
+
+## Victory conditions
+
+The game starts with a de facto German victory, since the Germans start
+with at least as many pieces as the Russians.
+
+The scenario is designed to force Russian offensive action. The Russians
+cannot win this with the usual tactic of emplacing unkillable infantry
+to block German action.
+
+One way to make victory conditions a little more interesting is to
+require the Germans to hold some real estate. The Germans were able to
+minimize losses up until they decided to fight, which lost them the
+game. A better balanced scenario might have a few less Russian tanks,
+with a requirement that the Germans must hold one or more towns or
+hills. (This opinion is based on one game, where neither Wespe or Hummel
+got into play.)
+
+
 
 ----
 

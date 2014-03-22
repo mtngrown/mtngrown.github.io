@@ -2,22 +2,21 @@
 layout: pb
 ---
 
-S7G1 - PanzerBlitz
-
-Situation #7
+# Situation #7, Game 1, Meeting engagement during German relief of Kiev
 
 The notorious Situation #7. Among Long time players, this situation is
 held to be a slam dunk for a competent German player.
 
 Number of Russian counters: 50
+
 Number of German counters: 32
 
 ## Introduction
 
-One of the dangers of doing background research for preparation is that
-it may unwittingly introduce bias into one's perception. In this case,
-reading about Situation #7's lopsidedness has predisposed a certain lack
-of interest on my part.
+One of the dangers of doing background research for game play
+preparation is that it may unwittingly introduce bias into one's
+perception. In this case, reading about Situation #7's lopsidedness has
+predisposed a certain lack of interest on my part.
 
 While it would be nice to annotate every turn, and that is something of
 a goal with respect to the series of games I'm playing, in this case, I
@@ -25,6 +24,7 @@ may decide just to play out the scenario without worrying over much
 about taking notes. It's more important to have fun playing than to
 worry about anything. Worry defeats the whole purpose!
 
+Let's see what happens.
 
 ## Turn 1
 

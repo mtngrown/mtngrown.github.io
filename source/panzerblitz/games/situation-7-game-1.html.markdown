@@ -164,22 +164,37 @@ surround Golod.
 
 ## Turn 10
 
+Here's the situation at the top of the Turn 10:
+
+{:.center}
+![Top of Turn 10](/images/top-of-10th.jpg)
+
+This illustrates the essential difficulty of Situation #7: the Germans
+don't really need to do anything except avoid fighting.
+
+Because this was a solitaire game, I decided that the Germans would stay
+and fight instead of running around the north end of the Russian units.
+
 Germans whiffed a 3:1, which will be costly as it leaves Golod fully
 spotted, but did follow up a 2:1 dispersal with a 1:3 CAT for a kill.
 And, Lo! A Panther from Hill 132 disables the T-34 spotting, leaving
-only part of Golod spotted.
+only the east part of Golod spotted.
 
-Russians got some big kills including the Hummel on this last turn. A
-definite blunder in deploying spotting units left half of Golod
-unspotted, leaving a three stack of Germans at 4:1 covered from fire.
-Bummer for Russians.
+Russians got some big kills including the Hummel on this last turn
+as a couple of rifle companies made a close assualt on the south side of
+Bednost. This was a total German blunder and didn't need to happen.
+
+A definite Russian blunder in deploying spotting units left the west
+half of Golod unspotted, leaving a three stack of Germans at 4:1 covered
+from fire.  Bummer for Russians. However, the units in the east side of
+Golod were eliminated.
 
 
 ## AAR
 
 Final count: Germans 17, Russians 46, which is a marginal Russian
 victory. To be fair, the Germans probably lost 3-4 units by choosing to
-stay nd fight rather than bailing out, and they definitely missed a few
+stay and fight rather than bailing out, and they definitely missed a few
 critically important opportunities for for fire, which would have
 knocked the Russians back 2-3 units, at least. In short, this felt
 well-balanced to me, but that's probably because I don't have much
@@ -205,7 +220,7 @@ victory, but it might not matter.
 
 Here's a good tactic: when faced with a large choice of potential
 targets, position such that a dispersal shot on one turn allows
-repositioning for a kill on the next.
+repositioning friendly units to fire for a kill on the next.
 
 ### Blunders
 

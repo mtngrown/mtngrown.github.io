@@ -2,7 +2,6 @@
 layout: pb
 ---
 
-
 # Situation 4, Game 2
 
 March 23, 2014
@@ -112,6 +111,9 @@ didn't get the SPA on Hill 126, then would be able to fire down into
 gullies.
 
 ## AAR
+
+Final: Russians took 6 German units, got 38 units on Board 3, marginal
+victory to Russians.
 
 Big question: how are the two infantry platoons best used in this
 scenario? My next attempt will play them together so that they will be

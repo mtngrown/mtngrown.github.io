@@ -1,11 +1,27 @@
+
 <!doctype html>
 %html
   %head
     = partial 'layouts/head'
+    = stylesheet_link_tag 'ode'
   %body
+    #wrap
+      .container
+        .row
+          .col-md-12
+            = partial 'layouts/ode-header'
+
+      .container
+        .row
+          .col-md-8
+            = yield
+            -#= partial '/pb/disqus' unless current_page.data.comments == false
+          .col-md-4
+            = partial 'components/ode/sidebar'
+
+      #push
+
     .container
       .row
-        .span12
-          %h1 ODE layout
-
-          = yield
+        .col-md-12
+          = partial 'layouts/ode-footer'

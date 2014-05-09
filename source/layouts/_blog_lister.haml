@@ -1,0 +1,12 @@
+%h2 The Journal
+- blog.articles[0..4].each_with_index do |article, i|
+  .row
+    .span8
+      %article.listing{:class => (i == 0) ? 'first' : ''}
+        %h3
+          %a{:href => article.url}= article.title
+          %span= article.date.strftime('%b %e %Y')
+        = article.summary
+        .more
+          %a{:href => article.url} read on &raquo;
+

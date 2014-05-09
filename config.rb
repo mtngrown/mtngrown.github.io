@@ -15,7 +15,6 @@ set :markdown, :layout_engine => :haml
 #activate :drafts
 #activate :blog_editor
 
-=begin
 activate :blog do |blog|
   blog.sources = ":year/:month/:day/:title.html"
   blog.permalink = ":year/:month/:day/:title.html"
@@ -29,7 +28,6 @@ end
 Time.zone = "America/Los_Angeles"
 #set :time_zone "America/Los_Angeles"
 #age "/feed.xml", :layout => false
-=end
 
 =begin
 require 'rack/codehighlighter'

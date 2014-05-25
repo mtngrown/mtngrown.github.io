@@ -2,13 +2,11 @@
 layout: pb
 ---
 
-S6G1 - PanzerBlitz
-
-German (im)Mobile defense west of Dnieper Bend
+# Situation #6: German (im)mobile defense west of Dnieper Bend
 
 May 18, 2014
 
-This scenario has at least official variants, one of which has mines and
+This scenario has at least two official variants, one of which has mines and
 blocks, and one without mines and blocks.
 
 ## Turn 1

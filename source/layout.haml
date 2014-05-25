@@ -1,0 +1,43 @@
+<!doctype html>
+%html
+  %head
+    = partial 'layouts/head'
+  %body
+    .container
+
+      .row
+        .span12
+          = partial 'layouts/nav-global'
+
+      .row
+        .span8
+          #main{:role => "main"}
+            -# =partial 'layouts/current_week'
+            - if is_blog_article?
+              .headline-block
+                %h1
+                  = current_article.title
+                %h4
+                  = current_article.date
+              = yield
+              -# = partial 'layouts/blog_navigation'
+
+              %hr.blog-bottom-main
+              %h5
+                Tags
+              %ul.taglist
+                - current_article.tags.each do |tag, articles|
+                  %li.tag
+                    %a{ :href => "/tags/#{tag}.html" }=tag
+            - else # yield index.html.haml
+              = yield
+
+        .span4
+          #sidebar{:role => 'sidebar'}
+            = partial 'components/global/sidebar'
+            -# = partial 'sidebar/journal_listing'
+      .row
+        .span12
+          = partial 'layouts/footer'
+
+    -# = partial 'layouts/js'

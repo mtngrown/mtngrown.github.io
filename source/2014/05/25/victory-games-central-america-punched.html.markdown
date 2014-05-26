@@ -22,3 +22,11 @@ I put the counters into their own ziploc bag for easy access for a quick
 solo game. The full campaign runs 10-20 hours, which is not bad at
 all for this size of game. Comparable titles such as Victory Game's
 "Vietnam" can run 100-200 hours.
+
+### Next step
+
+The set up for Scenario 1 is really easy, but once it's set up, I'm very
+sure I'll have no idea how what to do next. Since this is as much about
+learning the rules, the next step should be combat. Even if it makes no
+sense from a tactical point of view, learning the rules is pretty
+important.

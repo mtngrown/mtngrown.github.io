@@ -10,6 +10,8 @@ This is a report on the May 10th Ogre meetup at Endgame. It turns out
 only Dave M. and myself showed up for this, with a brief appearance from
 Caleb, who was suffering from lack of sleep, and didn't stay very long.
 
+We ended playing 3.5 games over the course of the afternoon.
+
 Here's what went down:
 
 ## Super CP - Classic!

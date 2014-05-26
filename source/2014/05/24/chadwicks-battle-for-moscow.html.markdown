@@ -1,24 +1,28 @@
 ---
-title: Chadwicks' Battle for Moscow
+title: Chadwick's Battle for Moscow
 date: 2014-05-24 14:29 PDT
 tags: chadwick, eastern-front
 ---
 
-Battle for Moscow
 
 I've bought a few games lately. Not going to say how many. More than
 one, let's leave it at that.
 
 What I haven't done enough of is play the games I have already. Hence my
 resolution to play at least one before buying another. This tougher than
-one might think, as I don't have space to set up a long running game,
+one might think, as I don't have space to set up a long-running game,
 and I like to write my game play as I go, which slows everything down
 considerably.
+
+Enough whining, let's put something on the table.
 
 My entertainment this evening is Frank Chadwick's Battle for Moscow.
 Small map, 40 counters, rules and turn tracker, supply your own dice.
 
 Set up is easy, initial positions are marked on the map.
+
+
+## Turn 1
 
 The Germans move first, modulo the "special panzer movement" not
 employed on Turn 1. That means straight to combat!
@@ -132,7 +136,7 @@ defenders in early turns.
 Did not know to advance attacker unit after defending unit is eliminated
 or retreats. This is a pretty big blunder because the Germans really
 need every hex they can get. I'm sure the German side especially
-suffered for it as they     must advance  to win, whereas the Russians
+suffered for it as they *must* advance to win, whereas the Russians
 may or may not benefit from advancing.
 
 Germans not putting a piece which could take a 1:1 at Ryazan on the last
@@ -140,6 +144,5 @@ turn. Germans not advancing through lines during movement phase.
 
 Replaced Russians at strength 5 during mud, instead of 4.
 
-
-
-
+So, you might be wondering, which game did I buy after playing? I'll say
+only that my tax return came.

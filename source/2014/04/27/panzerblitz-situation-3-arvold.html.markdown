@@ -1,7 +1,8 @@
 ---
 title: Situation 3, the Arvold Variation
 date: 2014-04-27
-tag: panzerblitz
+tags: panzerblitz
+publisher: avalon-hill
 ---
 
 S3 - Arvold variant - PanzerBlitz

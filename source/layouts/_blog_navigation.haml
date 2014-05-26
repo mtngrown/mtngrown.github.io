@@ -1,0 +1,11 @@
+.navigation
+  .prevnav
+    - prev_article = current_article.previous_article
+    - if prev_article
+      Previous:
+      %a{ :rel => "prev", :href => prev_article.url }= prev_article.title
+  .nextnav
+    - next_article = current_article.next_article
+    - if next_article
+      Next:
+      %a{ :rel => "next", :href => next_article.url }= next_article.title

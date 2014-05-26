@@ -1,4 +1,3 @@
-
 <!doctype html>
 %html
   %head
@@ -19,6 +18,15 @@
 
               %time.updated{:pubdate => ""}= current_article.date.strftime('%b %e %Y')
               = yield :blog_article
+              = partial 'layouts/blog_navigation'
+              %hr.blog-bottom-main
+              %h5
+                Tags
+              %ul.taglist
+                - current_article.tags.each do |tag, articles|
+                  %li.tag
+                    %a{ :href => "/tags/#{tag}.html" }=tag
+
               %hr.blog-archive-template
 
           .col-md-4

@@ -1,7 +1,8 @@
 ---
 title: Victory Games Central America punched
-date: 2014-05-25 15:54 PDT
-tags:
+date: 2014-05-25
+tags: central-america, victory-games
+publisher: victory-games
 ---
 
 All completely punched. It took about a week of punching out 50-100

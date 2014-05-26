@@ -3,6 +3,7 @@ title: Ogre In May at Endgame
 date: 2014-05-11 06:47 PDT
 catergories: science-fiction
 tags: ogre, the-final-frontier, train, super-cp
+publisher: steve-jackson-games
 ---
 
 This is a report on the May 10th Ogre meetup at Endgame. It turns out

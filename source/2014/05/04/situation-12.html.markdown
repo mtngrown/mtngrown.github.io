@@ -2,6 +2,7 @@
 title: Situation 12, first play
 date: 2014-05-04
 tags: panzerblitz
+publisher: avalon-hill
 ---
 
 

@@ -21,6 +21,13 @@ activate :blog do |blog|
   blog.tag_template = 'tag.html'
   blog.layout = 'blog_layout'
 
+#  blog.custom_collections = {
+#    publisher: {
+#      link: 'publishers/{publisher}.html',
+#      template: '/publisher.haml'
+#    }
+#  }
+
   # set :blog_summary_separator, /READMORE/
   # set :blog_summary_length, 500
   #set :blog_layout_engine, "haml"

@@ -2,6 +2,7 @@
 title: Chadwick's Battle for Moscow
 date: 2014-05-24 14:29 PDT
 tags: chadwick, eastern-front
+publisher: GMT
 ---
 
 

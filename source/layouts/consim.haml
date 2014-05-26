@@ -2,18 +2,24 @@
 %html
   %head
     = partial 'layouts/head'
+    -#= stylesheet_link_tag 'consim'
+
   %body
     #wrap
       = partial 'layouts/nav-global'
 
       .container
         .row
-          .col-md-12
+          .col-md-8
             = yield
+            -#= partial '/pb/disqus' unless current_page.data.comments == false
+          .col-md-4
+            = partial 'components/consim/sidebar'
+
 
       #push
 
     .container
       .row
         .col-md-12
-          -#= partial 'layouts/pb-footer'
+          = partial 'layouts/pb-footer'

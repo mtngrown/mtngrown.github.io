@@ -1,5 +1,5 @@
 ---
-title: Situation #3, the Arvold Variation
+title: Situation 3, the Arvold Variation
 date: 2014-04-27
 tag: panzerblitz
 ---
@@ -13,7 +13,7 @@ German OOB:
 Delete: 5 Pz IVh.
 Add: 9 Pz IIIg, 1 Pz IIId, 2 Pz IVe, and 2 Pz IId.
 
-Played this with Al S at Endgame.
+Played this with Al S. at Endgame.
 
 In fact, we played two games, I won both.
 

@@ -104,3 +104,9 @@ Germans quickly emplace to slow the Russians from leaving Board 1.
 The Germans probably don't *need* to move first, but they *do* need to
 make the Russians pay to leave Board 1, which means moving towards the
 advancing Russian column immediately.
+
+There is an official variant of this scenario distributed by Avalon Hill
+in some printings of the game which allow the Germans to place a mines
+and blocks. This could make it very, very difficult for the Russians to
+win, depending on the skill of the German player to emplace the
+impediments.

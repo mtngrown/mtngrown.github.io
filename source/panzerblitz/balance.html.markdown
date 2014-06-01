@@ -14,12 +14,19 @@ winning based on skill.*
 
 This works in games where chance is involved because "playing the odds"
 is also a matter of skill, and to the extent of chance's influence,
-skill will expose the better player over a number of games.
+skill will expose the better player over a number of games. In other
+words, luck favors the better player.
 
 In PanzerBlitz, each side is given an order of battle and victory
 conditions, and a limited number of turns to achieve victory.
 
 So how is an equal chance of winning determined?
+
+That's an excellent question, and one without a simple answer. The
+problem is asymmetry of forces, which cannot be totally accounted
+for by adding up points representing unit strength. The Russian player
+has very tough infantry, and must play to the strength of that infantry.
+The German player must employ speed and armor.
 
 It stands to reason that changing either the order of battle (OOB) or the
 victory conditions will change the balance of the situation. In some
@@ -65,7 +72,8 @@ part, immobile.
 
 ### Victory conditions
 
-
+These situations need to be replayed to get a better grip on balance and
+victory conditions.
 
 ----
 
@@ -90,7 +98,7 @@ are a few ideas.
 
 For the Germans, the winning strategy is getting as far forward as fast
 as possible, and force the Russians to fight for every hex. There is no
-way to stop the Russian onslaught. The best the Germans can do is
+way to *stop* the Russian onslaught. The best the Germans can do is
 attempt to slow it down while the turn clock ticks.
 
 For the Russians, just the opposite: it's imperative to get enough
@@ -108,7 +116,12 @@ advance doesn't get bogged assaulting the German blocking forces.
   the most complex modification, but done correctly, could provide a lot
   of insight into the scenario mechanics.
 
+Overall, Situation #2 is an excellent scenario, and for a new player
+working through the scenarios in order, will be an eye-opener on just
+how tough those Russian infantry companies are.
+
 ----
+
 
 ## Situation #3
 
@@ -370,11 +383,73 @@ The easiest way to rebalance is probably adjust the victory conditions:
   would not necessarily make it "easier" for the Germans to win, but it
   might make it possible.
 
+### Variations
+
+This scenario would be an excellent candidate for using one of the
+ImStrat river maps. The German reconnaissance units could have as part
+of a victory condition requirements to get all the way to the river,
+then back through the Russian line and on to Board 3. The turn length
+should probably increase to 15. Further enhancements could include the
+Germans establishing a supply depot at some point on Board 1, and
+removing mines.
+
+---
+
 
 ## Situation #6
 
-Postponed pending table reservation at game store to spread out maps
-end to end.
+Another "long board" scenario, requiring 60" to lay out all three boards
+end to end. That's a lot of inches. Too many for most tables. However,
+the friendly local game store has tables *almost* long enough, and
+besides, the boards can often be folded and unfolded as the game play
+proceeds.
+
+Situation #6 models a delaying action. As has been repeatedly
+demonstrated, it's really hard to actually *stop* a Russian advance, but
+it's entirely feasible to slow it down.
+
+In this scenario, the Germans are grossly out numdered, and the
+two SPA platoons (Wespe and Hummel) will have a hard time finding
+targets which can be both spotted and correctly ranged.
+
+
+### Rebalancing
+
+Situation #6 as played in these two games feels relatively
+well-balanced. On the one hand, it's tough for the Germans to get the
+long range SPA effectively employed, and difficult to acquire other
+kills, on the other hand, with a bit of care, the Germans can generally
+stay well out of reach from the Russians, choosing when and where to
+sacrifice units.
+
+But the Russians have so many units, which puts a lot of pressure on the
+Germans. Any German standing to fight risks being swarmed by T-34s.
+
+### Winning strategy
+
+For the Germans, slow the Russian advance as early as possible,
+sacrificing pieces as necessary to block roads and clear terrain.
+
+For the Russians, advance as fast as possible to grab and hold terrain
+which would otherwise bottleneck the column.
+
+### Victory conditions
+
+Victory conditions for the Russians are easily adjusted by requiring
+either more or less units moving on to Board 3 by the last turn.
+
+Victory conditions for the Germans are a bit more problematic. The
+original conditions (double the Russian take from the German loss) feel
+contrived.
+
+Another way to count victory conditions is using the counts of Russian units
+left on both Boards 1 & 2. If the Russians manage to get 10 or more
+units on to Board 3 at the expense of leaving units on Board 1, that
+could count against them. This would be a very different tactical
+situation from the Russians getting all of the forces off of Board 1 and
+under cover on Board 2.
+
+---
 
 ## Situation #7
 
@@ -384,7 +459,7 @@ general notion is that the game either runs to stalement very quickly,
 or favors the Germans as they essentially acheive their victory
 conditions by Turn 2.
 
-## Rebalancing
+### Rebalancing
 
 One way to investigate a better balanced scenario would be to have the
 Russians come in from the east and the Germans from the west, opposite
@@ -402,14 +477,14 @@ well.
 Another way might be to add a few units to the Russian OOB, or remove a
 couple from the German, or both.
 
-## Winning strategy
+### Winning strategy
 
 For the Germans, move onto Board 2 as fast as possible, hunker down.
 
 For the Russians, position units to apply concentrated force on selected
 German targets, trading units at better than 1:1.
 
-## Victory conditions
+### Victory conditions
 
 The game starts with a de facto German victory, since the Germans start
 with at least as many pieces as the Russians.

@@ -455,7 +455,7 @@ under cover on Board 2.
 
 Apparently, Situation #7 is regarded as the worst scenario shipping in
 the original PanzerBlitz box. This alone provides a bit of intrigue. The
-general notion is that the game either runs to stalement very quickly,
+general notion is that the game either runs to stalemate very quickly,
 or favors the Germans as they essentially acheive their victory
 conditions by Turn 2.
 

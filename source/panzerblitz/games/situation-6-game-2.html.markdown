@@ -86,4 +86,21 @@ counter to the rules. Using halftracks as wrecks allows saving the
 Germans still don't know how to employ the long range artillery. The
 Wespe and Hummel got off one shot each.
 
+### Balance
 
+Situation #6 as played in these two games feels relatively
+well-balanced. On the one hand, it's tough for the Germans to get the
+long range SPA effectively employed, and difficult to acquire other
+kills, on the other hand, with a bit of care, the Germans can generally
+stay well out of reach from the Russians, choosing when and where to
+sacrifice units.
+
+But the Russians have so many units, which puts a lot of pressure on the
+Germans. Any German standing to fight risks being swarmed by T-34s.
+
+It wasn't apparent the first game why the Germans need to get first
+move. Since they're limited to Board 2 for set up, this move lets the
+Germans quickly emplace to slow the Russians from leaving Board 1.
+The Germans probably don't *need* to move first, but they *do* need to
+make the Russians pay to leave Board 1, which means moving towards the
+advancing Russian column immediately.

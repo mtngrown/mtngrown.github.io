@@ -8,6 +8,11 @@ An intermittent log of plays.
 
 ## June 1, 2014
 
+2. Pickd up ComIntern counter on a reorg roll, used a couple
+   of reserves to beat back fronts, then some lucky political
+   rolls got me to box 7 on political tracks. Playing the two
+   political decrees results in a 27 point win: Proud Soviet State.
+
 1. Picked up tank on a reorg, played tanks against Baltic. This was the
    first time I've used the reorg table. Got half way
    through Twilight and a few cards into Night. A roll for political

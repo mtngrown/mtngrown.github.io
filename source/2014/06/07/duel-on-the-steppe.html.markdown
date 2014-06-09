@@ -144,9 +144,11 @@ I'm tempted to just give the Russians another full move after all the
 counters are drawn, that would make it a lot easier to keep track of
 everything.
 
-
+---
 
 ## Turn 2
+
+(June 8, 2013)
 
 Game play is going very slow, time to stopwatch turns.
 
@@ -309,19 +311,27 @@ eliminated.
 
 ET: 1:23.
 
-### Current victory conditions
+
+
+### End of turn bookkeeping
+
+#### Supply
+
+All units are in supply.
+
+#### Current victory conditions
 
 Germans:
 
 * 4 Russian units eliminated
 * 11 cities held
-* 15 total points
+* **15 total points**
 
 Russians:
 
 * 2 German units eliminated
 * 1 city held
-* 3 total points
+* **3 total points**
 
 I'm starting to see where the double move for the Russians might be necessary.
 
@@ -332,11 +342,146 @@ would take a much longer time.
 Given the above, I should be able to play out a turn between 90 minutes
 and two hours.
 
+---
+
+## Turn 3
+
+This is where the Germans and the Russian SWF get loads of reinforcements.
+
+This is several hours after finishing Turn 2, had stuff to do.
+
+Setting the timer...and we're off again.
+
+Weather: S/F, snow and frozen. No air, and rivers and marches freeze
+over. This means the bridge blowing might have been a waste of time.
+We'll see.
+
+Reinforcement:
+
+* German: Reinforcement rail roll: 1. Thule/Tkf SS coming at Poltova. 3rd Pz HQ 
+  rail to Barvenkovo. 40th Pz enter at 3279, 3479.
+
+* Russian: Reinforcement rail roll: 1. VF and SWF entering from their
+  respective areas, nothing special to report.
+
+Air allotment: no air, snowing.
+
+Activation, time to start playing!
+
+Elapsed time: 32 minutes due to a lot of rules reading.
 
 
-### Turn 3
+### OKH
 
-This is where the Germans and the SWF get loads of reinforcements.
+First up, send some units back to Zaporozhe, just in case the Russians
+get a fast move to the west.
+
+ET: 48 minutes
+
+### 3rd Pz
+
+Big fight around Izyum. Not going into detail, just the results:
+
+1. 3:2, artillery +2, Russian retreat
+1. 2:1, Russian retreat 2
+1. 4:1, roll 5, Russian retreat 2.
+
+### SS Pz
+
+Move Pzs to Donets, attack Russian infantry at 4:1 with +2 artillery:
+eliminate Russian 184th Infantry.
+
+ET: 1:05
+
+Running a bit behind Turn 2.
+
+### Cr/Rs Korps
+
+What is with pulling all the Germans all at once?
+
+Unlikely, but what can you do?
+
+Anyway, moved some units around to set up ZOCs and hopefully slow down
+the onslaught.
+
+ET: 1:10
+
+### 1st Guard (SWF)
+
+Some battles:
+
+1. 2:1 on 11 Pz, `-/R2`
+2. 2:3 on 333rd Infantry, +2 artillery: `1/-`, eliminate 38 Guards.
+
+ET: 1:17
+
+### APG
+
+3:2 on 11 Pz, again, +2 artillery: `-/1R3`.
+
+APG now splits off to go recapture Stalino.
+
+ET: 1:21
+
+### 40th Army
+
+Move to encircle the Germans around Belgorod.
+
+246/88 (|||) eliminated on 4:1 roll 3: `-/R2`, eliminated.
+
+ET: 1:27
+
+### 69th Army
+
+Blows a hole in the line at the Donets, will be able to cross.
+
+### 3TA
+
+Exploits hole drilled by the 69th.
+
+* 62d Guards attacks Fhr/DR at 3:1, shift for defender woods, 2:1 with
+  some arty +2, roll 9: `-/1R2`.
+* 111th occupies Chuguev, this is a VP for Russians.
+* 3:1 on KfG A, roll 12, `-/2D2`, eliminated.
+* 4:1 on KfG FB (mechanized), +2 artillery, roll 7+2: `-/2R3`
+  eliminated.
+
+ET: 1:43
+
+### 40th Pz
+
+All units within activation range already moved by OKH.
+
+### 6th Army
+
+All units in activation range already moved.
+
+ET: 1:45
+
+
+### End of turn bookkeeping
+
+#### Supply
+
+German: 167 and GD are Low Supply.
+
+Russian units are in supply.
+
+#### Victory points
+
+Germans:
+
+* 6 Russian units eliminated.
+* 10 cities held
+* **16 total points**
+
+Russian:
+
+* 5 German units eliminated
+* 2 cities held
+* **7 total points**
+
+ET: 1:55
 
 
 
@@ -347,9 +492,14 @@ This is where the Germans and the SWF get loads of reinforcements.
 
 ### Blunders
 
-When SW Front has the first chit draw, it should move, then fight. In
+* When SW Front has the first chit draw, it should move, then fight. In
 this game, I chose it to fight then move, and there wasn't much
 available at good odds to fight.
+
+* I've been activating whatever is in range with impunity. But the rules
+  say that no combat unit can be actived more than once per game turn.
+  So I have to remember from activation to activation which units have
+  been previously activated.
 
 ### Questions
 

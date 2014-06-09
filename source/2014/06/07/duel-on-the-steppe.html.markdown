@@ -172,6 +172,7 @@ Moved everything within range to set up 4 battles:
     * (3) KfG B
 
    Russian (attacking):
+
     * (3) 38th Guards (depleted)
     * (9) 4th Guards (armored)
     * (3) 11th Armor 
@@ -187,6 +188,7 @@ Moved everything within range to set up 4 battles:
     * (8) 3rd Pz
 
    Russian (attacking):
+
     * (2) 195th division
     * (3) 178/10 armor brigade
     * (7) 3rd armor corps
@@ -202,6 +204,7 @@ Moved everything within range to set up 4 battles:
     * (3) 186/10 Armored (X)
 
    German (defending)
+
     * (7) 7th Pz (XX)
 
    9:7 is 1:1, roll 8: `1/R2`, Russian 106th eliminated, Germans retreat
@@ -217,6 +220,7 @@ Moved everything within range to set up 4 battles:
     * (6) 41st Guards (XX)
 
    German (defending)
+
     * (2) 3rd Pz HQ
     * (4) 901 Lehr (|||)
 
@@ -483,23 +487,167 @@ Russian:
 
 ET: 1:55
 
+---
 
+## Turn 4
+
+The last turn of Scenario 1.
+
+It's getting on in the evening, how fast can I crank this out? I'd like
+to have it off my table tonight.
+
+Let's get started.
+
+Weather: Clear/Frozen. So, air comes back but rivers are still frozen.
+
+Reinforcements: Rail roll: brought 2 units into Kharkov for Germans,
+roll 1 for Russians, will bring unit into Kazachia Lopam. 
+
+Air allotment: the air rules still seem confusing, so not using them.
+
+Activation...turn on the stopwatch.
+
+### OKH
+
+Again, the Germans kick off with OKH.
+
+All movement, no combat, mainly getting units north and east as fast as
+possible.
+
+ET: 0:4
+
+### AGP
+
+52 Infantry now holding Stalino, +1 VP. Other units in AGP now moving
+west.
+
+ET: 0:6
+
+### 40th Army
+
+Germans are in trouble.  Belgorod is surrounded. GD is taken, no way to
+retreat. The 167 is taken, no way to retreat. Hungarians and Cr/RS HQ is
+taken. KfG F is taken.
+
+This was a huge turn for the Russians.
+
+ET: 0:21
+
+### 3rd Pz
+
+Moved HQ to the northwest, leaving remaining units under activation of
+40 Pz.
+
+Chuguev retaken, that's a VP back to the Germans.
+
+ET: 0:26
+
+
+### 1st Guards
+
+Retreat elimination of one German unit, low odds attacks on other to no
+effect.
+
+ET: 0:34
+
+### 69th Army
+
+Going after some SS on the Donets. Picked off one of them, forgot to use
+artillery, could have had both because they were boxed in.
+
+ET: 0:39
+
+### SS Pz
+
+SS is almost eviscerated.  What it can do is help maintain supply for
+remaining units. Forced a retreat of the 160th Infantry. Every little
+bit helps.
+
+ET: 0:43
+
+### 3rd Tank Army
+
+Only unit within range which can be activated is the 62 Guards, which is
+going after 11th Pz at 2:3, attacker step loss. Try again next time.
+
+ET: 0:45
+
+### 40th Pz
+
+Some attacks defending Izuym:
+
+1. 333 attack 350 at 2:1, attacker step loss.
+2. R2 on 1G.
+
+Izyums stands for the Germans.
+
+### Cr/Rs Korps
+
+Already eliminated.
+
+ET: 0:49
+
+### End of turn bookkeeping
+
+#### Supply
+
+Irrelevant, last turn.
+
+#### Victory points
+
+Germans:
+
+* 9 cities held
+* 9 Russian units eliminated
+* **18 total points**
+
+Russians
+
+* 3 cities held
+* 7 German units eliminated
+* 4 Sashed German units eliminated (x2)
+* **18 total points**
+
+This was a German win.
 
 ---
 
 ## After action report
 
+The Germans have a hard time in this game, which is to be expected of
+anyone insisting on invading Russia.
+
+The mechanics seemed to be pretty straightforward, perhaps because for
+any rules such as air and chit pulling which I didn't understand, I just
+ignored and played what seemed to make sense.
+
+It's surprising the Germans managed to hold on as long as they did. One
+more turn and would be pretty ugly for the Germans though.
+
+The Russians can do better by moving faster and attcking more at lower
+odds to kick the Germans out of the cities for victory points.
+
+I could probably say more, but it's time to wrap it up and get ready to
+kick off the work week.
+
 
 ### Blunders
 
 * When SW Front has the first chit draw, it should move, then fight. In
-this game, I chose it to fight then move, and there wasn't much
-available at good odds to fight.
+  this game, I chose it to fight then move, and there wasn't much
+  available at good odds to fight.
 
 * I've been activating whatever is in range with impunity. But the rules
   say that no combat unit can be actived more than once per game turn.
   So I have to remember from activation to activation which units have
   been previously activated.
+
+* I've activating SS and regular units incorrectly.
+
+* Did not use the double chit pull. Just doesn't make any sense to me as
+  I'm activating everything possible on the initial chit pull. That is,
+  there would not be any units to be activated even if I used the second
+  chit pull.
 
 ### Questions
 

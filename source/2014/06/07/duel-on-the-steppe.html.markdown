@@ -26,7 +26,7 @@ Each turn is composed of five phases:
 Hexes represent about 10 kilometers of terrain.
 
 Counters represent actual Order of Battle. This is really interesting to
-me coming from games such as Chadwicks's, Battle for Moscow, PanzerBlitz
+me coming from games such as Chadwicks's Battle for Moscow, PanzerBlitz
 and Ogre, where the counters represent anonymous units.
 
 1 movement point to leave EZOC. This is different from Battle for Moscow

@@ -4,6 +4,9 @@ date: 2014-06-21 14:23 PDT
 tags: central-america
 ---
 
+*NOTE: this article is currently in a bit of draft stage, and
+will be updated after another play-through.*
+
 This afternoon's intent is to walk through the first turn of the first
 scenario "Bloody March" of Victory Game's Central America.
 

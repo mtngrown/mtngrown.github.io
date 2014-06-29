@@ -204,26 +204,64 @@ the Honduran unit:
     * The insurgents move from 2612 to 2511, reserve marker placed.
 
 * Insurgency Placement: Definitely need some insurgents here. FDN has 4
-points to spend:
+  points to spend:
 
-**Stopping point on June 28, 2014. Will pick it up again ASAP.**
+  * First attempt, emplace *FRDA* at 2511. Roll 1, +1 DRM for home country,
+    unsuccessful. Down to 3 IP. Try again...
+  * Second attempt, emplace *Qui* at 2511, roll 1, unsuccessful.  Again...
+  * Third attempt: *MLN* at 2511, roll 1, no dice.
+  * Fourth attempt: *Cond* at 2511, roll 6, success.
+
+  Well, that surely sucked for the Allied forces, considering the +1
+  provided about an 83% chance of success. Three 1s in row. Sheesh.
 
 * *FSLN Aerial Counterinsurgency*: ain't got no wings, so there's no
   aerial counterinsurgency.
 
 * First Insurgency Disbandment: not disbanding any insurgents this turn.
 
-* Air Mission:
+* Air Mission: FDN has CIA helicopter support. How shall these allows
+  employ this asset? Three options for this bird:
+    1. Air to ground combat, seems to be covered by the Bombardment
+       rules.
+    2. Close air support, requires ground combat on same target.
+    3. Transport.
 
-* Ground Combat:
+  In this case, close air support of ground combat is warranted. Since
+  there is no other air asset, a +1 Close Air Support marker is placed
+  on *Lopz* at 2510, as this is the unit coming under Allied attack.
+
+* Ground Combat, one attack, as follows:
+  * On the attack:
+    * (1) *SJec* from 2610
+    * (1) *Salz* from 2610
+    * (1) *Cond* from 2511
+    * (1) *Cim* from 2410
+    * (1) *Leg* from 2410
+    * (1) CIA helicopter
+    * 6 Total
+
+  * Defending:
+    * (3) *Lopz* at 2510
+
+  Odds 6:3 yeild 2:1, defender is leg unit in forested terrain, roll 2,
+  +1 for Close Air Support, +1 for insurgent unit attacking, one column
+  shift right for attack helicopter, from CRT value 4 yeilds `-/1,R`
+  defender step loss and retreat to 2408. Not bad, *Lopz* is a powerful unit.
+
+  Attacker chooses not to pursue, as the leg units would be giving up a
+  lot of defensive strength in the entrenched hex, and insurgency
+  reserve move can occupy that area anyway.
 
 * Reserve Movement:
+  * *SJec* and *Seg* from 2610 to 2510
+  * *Salz* from 2610 to 2511
 
-* Second Insurgency Disbandment:
+* Second Insurgency Disbandment: Keeping the single unit activated.
 
-* Helicopter Transport:
+* Helicopter Transport: mission already flown in CAS.
 
-* Return to Base:
+* Return to Base: helicopter back to Silca.
 
 * Reinforcement: no reinforcements in this scenario.
 

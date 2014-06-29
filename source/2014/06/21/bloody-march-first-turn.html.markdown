@@ -266,7 +266,12 @@ the Honduran unit:
 * Reinforcement: no reinforcements in this scenario.
 
 
-Ok, that's it for Turn 1, and we're talking hours of work here.
+Ok, that's it for Turn 1, and we're talking hours of work. Here's a
+snapshot, blurry from mobile phone but still useful:
+
+{:.center}
+![Bloody March end of Turn
+1](/images/bloody_march_turn_1_cropped_resized.jpg)
 
 
 ## Turn 2

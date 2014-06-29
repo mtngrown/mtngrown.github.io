@@ -4,8 +4,8 @@ date: 2014-06-21 14:23 PDT
 tags: central-america
 ---
 
-*NOTE: this article is currently in a bit of draft stage, and
-will be updated after another play-through.*
+*Update June 28, 2014: play continues with a serious attempt at getting
+through all five turns with the full standard rule set.*
 
 This afternoon's intent is to walk through the first turn of the first
 scenario "Bloody March" of Victory Game's Central America (CA).
@@ -154,8 +154,10 @@ ignored.
       * (2) Cim
       * 4 total defend
 
-    Odds 8:4, 2:1, roll 3, -2 DRM defender advantage for fortification, attacker step loss
-    with no retreat. That's actually not bad. Veng takes the step loss.
+      Odds 8:4, 2:1, roll 3, -2 DRM defender advantage for fortification,
+      +1 DRM for attacking insurgent, result 2 yeilds attacker step loss
+      with no retreat. That's actually not bad. *Veng* takes the step loss.
+
     Note that I'm assuming that the entrenchment forces combined defense
     as a stack. If this is not the case, a better attack would be 4:1,
     which would give a 2/3 chance of defender step loss and retreat. In
@@ -167,6 +169,11 @@ ignored.
     if a unit in a hex is attacked, all the units in that hex must be
     attacked, but each unit may be attacked independently.
 
+    A better attack may have been to attempt to get a 3:1 on one unit
+    and a 1:1 on another. This would have almost certainly resulted in
+    an attacker step loss (perhaps more than one), but it would have a
+    higher probability of a defender step loss as well.
+
 * Reserve Movement: Since the FDN *Leg* and *Cim* units have only 1 AF,
   I'll move the NI *Uman* from 2310 and *Pom* from 2510 to 2409, which will be
   punishing on FDN supply next turn. Reserve markers removed.
@@ -174,6 +181,7 @@ ignored.
 * Second Insurgency Disbandment: keeping insurgents this turn.
 
 * Helicopter Transport: FSLN has no helicopters in this scenario.
+  Bummer.
 
 * Return to Base: no helicopters.
 
@@ -195,7 +203,10 @@ the Honduran unit:
 * Insurgency Movement: the *Salz*, *Sjec* and *Seg* insurgent units:
     * The insurgents move from 2612 to 2511, reserve marker placed.
 
-* Insurgency Placement:
+* Insurgency Placement: Definitely need some insurgents here. FDN has 4
+points to spend:
+
+**Stopping point on June 28, 2014. Will pick it up again ASAP.**
 
 * *FSLN Aerial Counterinsurgency*: ain't got no wings, so there's no
   aerial counterinsurgency.
@@ -222,13 +233,88 @@ Ok, that's it for Turn 1, and we're talking hours of work here.
 
 ## Turn 2
 
+[Stay tuned.]
 
 ## Turn 3
 
+[Stay tuned.]
 
 ## Turn 4
 
+[Stay tuned.]
 
 ## Turn 5
 
+[Stay tuned.]
+
+## Some thoughts on the game
+
+
+This first play through has been quite a challenge. This is definitely
+the most complex game I've played. In terms of absolute complexity, my
+hunch is that it's near the top of a middle tier complexity, perhaps a
+6, or the bottom of top tier of complexity, maybe 7 out of 10. Most of
+the complexity is associated with the following:
+
+* Long phase sequence on each turn, 16 phases for the standard game, 19
+for the intervention game.
+
+* Large variety of combat types, including ground to ground with armor
+and infantry, air to ground, ground to air, close air support, air to
+air, probably more with the intervention game and naval and marine
+forces coming into play.
+
+* The insurgency rules add an unusual dimension to the game, almost like
+having a second game running underneath the main game. The movement,
+combat advantages and ephemeral nature of the insurgent forces requires
+a fair bit of thought for effectively employing these forces.
+
+While the above adds a fair bit of complexity, it turns out the that
+record tracks manage what could have been a bookkeeping blowout. Other
+than perhaps figuring odds, there is no need (so far) in the standard
+game to break out the Mark I lead pencil. That in itself feels like
+quite an acheivement to me.
+
+The rule book is one of the best I've seen. While it's thick-ish (~60
+pages for the standard game, 40 more for the intervention game), the
+rules are remarkably clear. So much so that the few rules which are
+vague or ambiguous really stand out. When the ambiguity is easily
+noticed, it's much easier to infer intent, or at least provide a
+reasonable house rule in lieue of a ruling.
+
+
+### No dispersal
+
+One of the odd things about the game is that it feels smaller scale than
+it is. That is, it feels company sized, but it's not, it's brigade and
+regiment sized. At a certain scale, step losses probably make more sense
+than dispersals, especially with the reorganization mechanism for
+rebuilding units.
+
+
+### Closing observations
+
+Some people are bothered that one of the basic premises of the game is
+Sandinistas acting as Soviet proxies.
+
+I can definitely understand why this is bothersome to many people, and
+to some extent, I find it a small bit bothersome myself.
+
+However, this conflict with all its associated Iran-Contra drama made
+headlines for the better part of at least a couple of years. Its one of
+only a couple of topics I recall listening to on NPR pretty much daily.
+(Another being the savings and loan scandal. I was framing houses in
+Austin at the time.)
+
+It didn't seem to be clear to NPR what, exactly, was going on down
+there.
+
+So hindsight, as they say, is 20-20.
+
+Fast forward to now, playing what was a state-of-the-art game when it
+was published, I don't have any problem suspending disbelief.
+
+In fact, if CA is "fantasy," it's no more or no less fantasy than
+Victory Games popular Fleet series, which clearly (and thankfully!)
+model hypothetical conflicts.
 

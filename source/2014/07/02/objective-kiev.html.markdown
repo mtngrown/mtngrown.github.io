@@ -1,7 +1,7 @@
 ---
 title: Objective Kiev
 date: 2014-07-02 15:21 PDT
-tags:
+tags: objective-kiev, battle-for-moscow
 ---
 
 One of the cool things about magazine games is small size, which usually

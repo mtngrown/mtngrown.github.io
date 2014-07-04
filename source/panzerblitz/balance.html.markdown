@@ -108,6 +108,13 @@ For the Russians, just the opposite: it's imperative to get enough
 infantry as far south as possible as early as possible so that the
 advance doesn't get bogged assaulting the German blocking forces.
 
+The Russians have a compelling case for using the gullies to avoid being
+overrun while moving south, with the added benefit of concealment.
+
+The Germans, faced with Russians in gullies, may need to park some
+sacrificial panzers in the gullies to slow down the advance. This may
+cost some German armor, but it may not, and every hex counts.
+
 ### Victory conditions
 
 * Require Russians to advance further for each victory condition, say 9 or
@@ -514,10 +521,16 @@ indirect fire weapons.
 
 ### Rebalancing
 
-This is one scenario where using the optional "any German unit can call
-for indirect fire" rule might make a lot of sense.
+This is one scenario where using the optional ``any German unit can call
+for indirect fire'' rule might make a lot of sense.
 
-Alternatively, or long with allowing all Germans to call in fire, reduce
+If allowing any German unit to call in any artillery is to liberal,
+allow platoon level units to call in the lighter artillery and mortar
+units, and limit the SPA indirect fire to command posts. The command
+posts, in turn, could be allowed to call fire while ``mounted'' on
+halftracks.
+
+Alternatively, or along with allowing all Germans to call in fire, reduce
 the number of mines and blocks allowed to the Russians.
 
 One of the difficulties the Germans have in all scenarios with Russian

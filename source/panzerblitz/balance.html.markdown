@@ -48,7 +48,10 @@ radically to the "weaker" side's favor.
 
 ## Situation #1
 
-Favors Germans
+Favors Germans with PL spotting, favor Russians with PB spotting.
+This is an excellent case where a slight change in rules tips the
+results in an opposite direction.
+
 
 ### Rebalancing
 
@@ -270,7 +273,7 @@ Try the following:
 
 From Avalon Hill's "The General" magazine (v. 11, #6, p. 14) in an article
 entitled "The Professional Russian," Situation #4
-is described as hopelessly tilted to the Russians. On the other hand, 
+is described as hopelessly tilted to the Russians. On the other hand,
 The General published a Series Replay (v. 12, #2, p. 20) for Situation #4
 which resulted in a clear draw. The article further asserted the odds
 were 50% Russian win, 25% German win, 25% draw.
@@ -327,7 +330,7 @@ a token force on Board 1 prior to a Russian first move.
 
 ---
 
- 
+
 ## Situation #5
 
 The Russians established a bridgehead at Lutezh in early 1943, and
@@ -501,10 +504,84 @@ with a requirement that the Germans must hold one or more towns or
 hills. (This opinion is based on one game, where neither Wespe or Hummel
 got into play.)
 
+---
 
+## Situation #8
+
+Another tough situation for the Germans, especially if playing strictly
+by the standard rules, without optional call-for-fire for SPAs and other
+indirect fire weapons.
+
+### Rebalancing
+
+This is one scenario where using the optional "any German unit can call
+for indirect fire" rule might make a lot of sense.
+
+Alternatively, or long with allowing all Germans to call in fire, reduce
+the number of mines and blocks allowed to the Russians.
+
+One of the difficulties the Germans have in all scenarios with Russian
+emplaced mines is what to do with any engineer units? Should the
+engineers attempt to clear mines, or should they work with regular
+infantry to get that odds shift for close assault?
+
+### Winning strategy
+
+The Germans *must* get indirect fire working. Specifically, getting the
+command posts into spotting positions for the SPA is really critical. It
+needs to be done as fast as possible.
+
+The Russians, on the other hand, need not do much more than throw
+infantry into the few lanes across the map not covered by mines and
+blocks, then bring the armor around while the Germans attempt to clear
+the infantry.
+
+### Victory conditions
+
+As in other scenarios requiring exiting units from the board to
+determine victory levels, the number of units required to leave can be
+adjusted up or down. Alternatively, the number of turns can be increased
+or reduced.
+
+---
+
+## Situation #9
+
+### Rebalancing
+
+### Winning strategy
+
+### Victory conditions
+
+---
+
+## Situation #12
+
+Tables turned, Russians need to clear a lane and advance through the
+teeth of some stiff German opposition. And this time, the Germans can
+easily position command posts for directing SPA fire.
+
+### Rebalancing
+
+For an inexperienced Russian player going up against an experienced
+German player, removing some or all of the mines and blocks will give
+the Russian player a lot more options for driving across the board.
+
+### Winning strategy
+
+For the Russians, driving as fast as possible to get into the SPA
+indirect fire blind zone, and taking out the command posts are critical.
+
+For the Germans, just the opposite: protect the CPs and the SPA as long
+as possible to slow up the Russian advance.
+
+
+### Victory conditions
+
+Again, adjusting the number of units which can exit is a great way to
+handicap players of unequal skill.
 
 ----
-
 
 ----
 http://en.wikipedia.org/wiki/M4_Sherman
@@ -515,13 +592,9 @@ was coming from.[40 Tank Tactics from Normandy to Lorraine]
 
 ----
 
-
-
 ## Playing to a draw
 
 The original rules do not discuss fighting to a draw, but adding a
 "draw" outcome might help balance situations. With tiered victory
 conditions, when both sides achieve the same victory condition, that's a
 draw.
-
-

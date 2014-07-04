@@ -4,6 +4,8 @@ layout: pb
 
 # Situation #3,  Game 1 - Typical 1941 Mobile Action: The Battle of Vyazma
 
+January 19, 2014
+
 When I first set up Scenario 3, I was unable to determine a way to
 randomize the German offensive plan. In previous scenario plays,
 randomly choosing the board to enter on worked well. In this scenario,

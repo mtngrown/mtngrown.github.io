@@ -3,7 +3,9 @@ layout: pb
 ---
 
 
-# Situation #3 - Game 2 (really game 3)
+# Situation #3 - Game 2
+
+January 26, 2014
 
 Revisiting Situation #3 for the third time, second time solo.
 
@@ -19,7 +21,7 @@ must force an exit through Board 1.
 Russians start to move East. Trucks and wagons rolling. Hopefully, the
 Germans don't have enough movement to feint.
 
- ## Turn 2
+## Turn 2
 
 Germans are going for fast engagement with Panzers. Mortars and
 Howitzers are set up for covering fire. Infantry is set to engage on the

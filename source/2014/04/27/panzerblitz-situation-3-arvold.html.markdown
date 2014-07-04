@@ -1,7 +1,7 @@
 ---
 title: Situation 3, the Arvold Variation
 date: 2014-04-27
-tags: panzerblitz
+tags: panzerblitz, situation-3, vyazma
 publisher: avalon-hill
 ---
 

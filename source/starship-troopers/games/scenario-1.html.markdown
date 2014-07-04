@@ -4,6 +4,9 @@ layout: pb
 
 # Scenario #1
 
+May 4, 2013
+
+
 S1G1 - Starship Troopers
 
 SST is a very curious game base on the book of the same name by Robert

@@ -2,28 +2,7 @@
 layout: pb
 ---
 
-# Situation #3 Game 1
-
-Jan 12, 2014
-
-Solo setup indicates Russian units should stay mounted until it's clear
-where the Germans are going totry and penetrate.
-
-Played Russians with Al Suarez as Germans.
-
-Turns out to be pretty tough for the Russians to keep the line covered,
-but as difficult for the Germans to force a penetration.
-
-
-## AAR
-
-### Blunders
-
-* Infantry cannot engage halftracks at range, they must close assault.
-  In this game I picked off a few halftracks with infantry parked in
-Grabyosh.
-
-# Game 2 - solo
+# Situation #3,  Game 1 - Typical 1941 Mobile Action: The Battle of Vyazma
 
 When I first set up Scenario 3, I was unable to determine a way to
 randomize the German offensive plan. In previous scenario plays,

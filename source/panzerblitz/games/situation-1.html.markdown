@@ -2,7 +2,10 @@
 layout: pb
 ---
 
-# Situation #1  Fortified command post 
+# Situation #1  Fortified command post
+
+Several games spanning the period between November 25, 2013
+and December 3, 2013.
 
 *Don't mess with my acht acht*
 

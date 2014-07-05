@@ -1,6 +1,65 @@
-\documentclass{article}
+\documentclass[10pt]{article}
 
-\usepackage{hyperref}
+\setlength{\oddsidemargin}{0.in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0.in}
+\setlength{\textheight}{8.5in}
+
+%usepackage{hyperref}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+%\usepackage{chicago}
+\usepackage{amsmath}
+\usepackage{moreverb}
+\usepackage{draftcopy}
+\usepackage{multicol}
+\usepackage{boxedminipage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{textcomp}
+
+
+\RequirePackage{fancyhdr}
+\RequirePackage[colorlinks]{hyperref}
+
+
+\RequirePackage{fancyvrb}
+\DefineVerbatimEnvironment{code}{verbatim}{fontsize=\small}
+
+\RequirePackage{color}
+%%% Find colors: http://en.wikipedia.org/wiki/List_of_colors
+\definecolor{seagreen}{rgb}{0.18, 0.55, 0.34}
+\definecolor{orangy}{cmyk}{0.0, 0.58, 0.100, 0.10}
+\definecolor{saffron}{rgb}{.96, .77, .19}
+\definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
+\definecolor{chocolate}{rgb}{0.48, 0.25, 0.0}
+\definecolor{darkraspberry}{rgb}{0.53, 0.15, 0.34}
+\definecolor{electricindigo}{rgb}{0.44, 0.0, 1.00}
+\definecolor{oldmauve}{rgb}{0.40, 0.19, 0.28}
+\definecolor{blue-violet}{rgb}{0.54, 0.17, 0.89}
+\definecolor{blue(pigment)}{rgb}{0.2, 0.2, 0.6}
+
+
+\def\bookauthor{Dave Doolin}
+\def\booklongtitle{PanzerBlitz Rules - Classic and House}
+\def\wwkeywords{panzerblitz}
+\def\wwsubject{tactical armored warfare}
+\def\wwslug{mtngrown}
+
+\hypersetup{
+ pdfauthor={\bookauthor},
+ pdftitle={\booklongtitle},
+ pdfkeywords={\wwkeywords},
+ pdfsubject={\wwsubject},
+ urlcolor=cyan,
+ pdfdisplaydoctitle=true,
+ pdfcreator={Website In A Weekend},
+ pdfproducer={\LaTeX},
+ baseurl={http://website-in-a-weekend.net/wiaw-whitepapers/\wwslug},
+ breaklinks=false,
+}
 
 \title{PanzerBlitz Rules of Play}
 
@@ -11,6 +70,7 @@
 \tableofcontents
 
 
+\begin{multicols}{2}
 
 \section{General Outline of Play}
 
@@ -1335,8 +1395,8 @@ hidden in woods, swamps, towns, or behind hills.
 \subsection{Experimental Indirect Fire}
 
 Allow any German unit(s) to perform the fire-direction
-function of a CP unit. Allow Russian
-Guards infantry this capability.
+function of a CP unit. Allow Russian Guards (and Recon)
+infantry this capability.
 
 
 
@@ -1384,26 +1444,153 @@ benefitting one side over another should allow for modifying victory
 conditions to reflect the effect of the rule change.
 
 
-\subsection{Light Artillery Supported CAT (LASCAT)}
+\subsection{Command posts}
+
+The original rules employ command posts (CPs) for optional and
+experimental rules for indirect fire. The Unit Identification Table
+lists both German and Russian ``command posts'' as consisting of
+``6 men and communications equipment.'' The word ``command'' is
+somewhat ambiguous here, and in general usage implies a command
+and control center, basically, a commanding officer and support
+staff.
+
+In PanzerBlitz, a CP is better understood as a forward observer (FO).
+
+Here are some ways to better use the CP units as FOs.
+
+\begin{enumerate}
+\item [A -] CP units may only direct fire twice per fire phase.
+\item [B -] German CP units may operate mounted from halftracks, but
+may not call for fire on the same turn as movement.
+\item [C -] Ummounted CP units can be eliminated only by overrun
+or close assault, all other successful attacks result in dispersal.
+\item [D -] Unmounted CP units should have 1 MF, but may not call for
+fire on the same turn as movement.
+\item [E -] (Optional) Consider using a ranging table for spotting at
+long distance. Spotting fire from a very long distance should be harder
+than spotting from a short distance.
+\item [F -] (Optional) Consider using a drift table when calling for
+fire at long ranges.
+\end{enumerate}
 
 
-``75mm infantry guns (2 H 12) and company mortars (3 M 12) may add their factors
-in to CAT infantry attacks if within range. Infantry guns require LOS; mortars
-may fire indirectly.''
-\href{http://boardgamegeek.com/article/15828184#15828184}{CAT support}
 
-This is for German infantry CAT (optionally CAAT) only.
+\subsection{Light Artillery Supported Close Assault (LASCAT)}
 
-Russian LASCAT limited to Guards units.
+From a forum post with an idea
+\href{http://boardgamegeek.com/article/15828184#15828184}{CAT support}:
 
-This rule will have minor effect for an inexperienced player. For scenarios
-where the balance favors the Russians, this rule may provide some balance
-for an experienced German player.
+For scenarios where the balance favors the Russians, this rule may provide some
+balance for an experienced German player.  LASCAT will likely have minor effect for an
+inexperienced player.
+
+While LASCAT is primarily for German infantry CAT, it's worth exploring
+how it might be used with the optionally CAAT rules as well.
 
 
-\subsection{CAAT}
+\begin{enumerate}
 
-Light armor assisted CAT, one way to use halftracks in close assault.
+  \item [A -] Guns employed for LASCAT may not have been fired during
+    normal fire phase.
+
+  \item [B -]
+    ``H'' class field guns require line of sight; ``M'' class mortars may
+    employ indirect fire.
+
+  \item [C -] All German infantry may employ LASCAT; only Russian Guards
+    (and possibly Recon) units may employ LASCAT.
+
+  \item [D -]
+German field guns and mortars appropriate for LASCAT:
+\begin{itemize}
+  \item 20mm light flak (4-H-10)
+  \item 75mm howitzer (2-H-12)
+  \item 81mm mortar (3-M-12)
+\end{itemize}
+
+Russian guns appropriate for LASCAT:
+\begin{itemize}
+  \item 76.2mm howitzer (3-H-10)
+  \item 82mm mortar, motorized (2-M-12)
+  \item 82mm mortar (3-M-12)
+\end{itemize}
+
+  %\item [E -] Larger guns may be employed under ``danger close'' conditions.
+\end{enumerate}
+
+
+LASCAT is limited to what would reasonably be employed on demand during
+company level operations, which rules out large field guns and SPA.
+Optionally, allow larger guns to fire under ``danger close'' conditions, and
+house rule the possibility of friendly fire on the close assaulting units.
+Danger close rules should have a real risk of friendly fire damage to
+prevent abuse. It's called danger close for a reason.
+
+
+\subsection{Combined Arms Assault (CAAT)}
+
+Combined Arms Assault Tactics (CAAT) is an armor assisted CAT, and a
+great way to use halftracks in close assault.
+
+This is a rule created by
+\href{http://boardgamegeek.com/thread/673136/combined-arms-assault-tactics-caat}{Byron Henderson}
+to reflect the tactical advantages the Germans
+possessed over the Allies early in the war.
+
+%It also makes those (generally
+%useless) 75mm armed AFV (``H'' class direct fire weapons) extremely useful in
+%rooting out enemy infantry.
+
+Note that this rule may be used during any time period of the war and for any
+nation. Players should use their discretion as to whether the forces involved
+were tactically able to perform combined-arms attacks of this sort.
+
+
+During the close assault phase, any CAT attack that is supported by armor is
+considered a Combined Arms Assault.
+
+\begin{enumerate}
+  \item [A -]
+    All CAAT take place during the Close Assault Phase and must include both
+infantry and armor type units. There must be at least as many infantry units
+involved in the attack as AFV. Trucks, wagons, motorcycles and SPA units may
+not take part in CAAT nor may they stack with units involved in CAAT during the
+attack.
+
+\item [B -]
+  Armor units may not move more than two hexes when advancing to take part in
+a CAAT and may not transport infantry. Armor may not use road movement to
+advance into a CAAT but they may use roads to negate terrain effects.
+
+\item [C -]
+  All infantry units utilizing CAAT are under the same rules and restrictions
+as when utilizing CAT.
+
+\item [D -]
+  In determining CAAT odds, use the attack strengths printed on the combat
+units. ``A'' class armor units are always halved when taking part in CAAT. If
+using CAAT against opposing infantry, ``A'' class units are not halved a second
+time (based on the WEC).
+
+\item [E -]
+  For ``I'' class armored units to take part in CAAT, the defending stack must
+include at least one non-armored unit.
+
+\item [F -]
+  Units utilizing CAAT have their effectiveness increased by subtracting 2
+from the die roll result. If engineer units are utilizing CAAT against the same
+defender(s), the effectiveness of the assault is further increased by raising
+the combat odds by one column (e.g. 2-1 becomes 3-1) in favor of the attacker.
+
+\item [G -]
+  Complete Paratroop, Ranger and Commando units utilizing CAAT have the same
+capabilities as Engineer units. These units do not require additional infantry
+units to be stacked in the same hex for this bonus.
+
+\item [H -]
+  CAAT may not be used against any hex into which the attacking vehicular
+units could not normally move.
+\end{enumerate}
 
 
 
@@ -1432,12 +1619,23 @@ Here are a few rules for adding depth to PanzerBlitz's gullies.
     for the panzer attacking infantry, and halved for the infantry close
     assaulting the panzers.
   \item [E -] Mobile units traveling in gully have 1/6 chance of breakdown
-    on exiting gully, resulting in dispersal for next turn.
+    on exiting gully anywhere other than a ford, resulting in dispersal
+    for next turn.
 \end{enumerate}
+
+Other considerations could include making balkas impassible, as they would
+be during rasputita (mud season).
 
 These simple modifications could go a long way towards balancing up scenarios
 such as presented in Situation \#2, where the Russians can basically sneak down
-the gully for a certain win.
+the gully for a certain win. Continuing the panzer blocking scenario above.
+The infantry company is free to make its one hex move out the gully and
+close assault at full strength, but it will almost surely be in open terrain
+thus vulnerable to overrun.
+
+Consider playing balka rules for scenarios south of Kiev.
+
+%% Illustrate here.
 
 \section{FAQs and more}
 
@@ -1454,7 +1652,7 @@ original rules. Here is a handy list of halftrack-specific rules.
 \item May overrun infantry and non-armored transport.
 \item Replaced by wreck counter when destroyed.
 \item May not be used for CAT in original rules.
-\item May be used for CAAT under optional rules.
+\item May be used for CAAT under house rules.
 \end{itemize}
 
 Halftracks were widely used during World War II, and it makes sense
@@ -1469,12 +1667,18 @@ specifically, to enter using a road. In any case where units enter via a road,
 ``road march order'' is assumed in force.  Road march order simulates the
 movement of a column of vehicles traveling along a road.
 
-
 Recall that roads limit stacking to one unit, where transporting and
 transported units are considered as a single unit. Passing along roads is
 subject to movement rules governing surrounding terrain.
 
-[Figure here]
+This implies that units entering the board in road march order will not
+benefit from their entire road bonus movement allowance. Using the entire
+movement allowance is possible, but only by leaving the road either before
+being in a passing situation, or paying the movement costs for adjacent
+terrain while passing.
 
+%%% [Figure here]
+
+\end{multicols}
 
 \end{document}

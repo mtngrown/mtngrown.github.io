@@ -216,6 +216,8 @@ Here are a couple of suggestions for handicapping:
 
 * Allow experimental rules for all German units able to call for
 indirect fire.
+* Add a couple of halftracks to German OOB.
+* Add more mines and blocks for the Germans.
 
 * Increase the number of turns to 12. This would likely have
 resulted in a draw, as the Russians would have been able to

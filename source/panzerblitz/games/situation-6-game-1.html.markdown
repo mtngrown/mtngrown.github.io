@@ -7,7 +7,9 @@ layout: pb
 May 18, 2014
 
 This scenario has at least two official variants, one of which has mines and
-blocks, and one without mines and blocks.
+blocks, and one without mines and blocks. This scenario did not specify
+mines and blocks.
+
 
 ## Turn 1
 

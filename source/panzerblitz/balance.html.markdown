@@ -538,6 +538,12 @@ emplaced mines is what to do with any engineer units? Should the
 engineers attempt to clear mines, or should they work with regular
 infantry to get that odds shift for close assault?
 
+More balancing ideas
+
+* Reduce the number of guards units by 2 or 3
+* Allow the German player "perfect information" on where units are
+  positioned, that is, examine stacks and what's under forts.
+
 ### Winning strategy
 
 The Germans *must* get indirect fire working. Specifically, getting the

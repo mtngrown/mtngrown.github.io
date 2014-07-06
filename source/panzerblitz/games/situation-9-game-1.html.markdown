@@ -175,19 +175,52 @@ a lot of units off the board to get a marginal victory.
 Germans are staying put this turn to force the Russians to
 to chase.
 
+Score: Germans 13, Russians 13; 14 units off board.
+
 ## Turn 9
 
+Russians attempt a 1:2 direct fire on stack of German infantry,
+roll 6, whiff. That stings, but probably making up for really
+good rolls earlier. Really sucks because the follow up CAT was
+a DD. Bummer. The Russians are going to lose this.
+
+Germans sitting tight.
+
+Score: Germans 13, Russians 15; 25 units off board.
+
 ## Turn 10
+
+Another Russian direct attempt at 1:2, got the dispersal!
+
+Germans can't make any kills, game over.
+
+Score: Germans 13, Russians 18; 32 units off board, 13 units left
+on the board.
+
+Final score: Germans 26, Russians 18, marginal German victory.
 
 ## AAR
 
 This scenario sat on the table three full days before I was able to
 get the energy to work through it. It just seemed way too imbalanced.
 
+But it turns to be *really* hard to dislodge all the Germans, and really
+hard to hide all those trucks, which have to get across the map as
+fast as possible.
+
 ### Balance
+
+This scenario seems fairly well-balanced to me.
+
+Here are a couple of suggestions for handicapping:
 
 * Allow experimental rules for all German units able to call for
 indirect fire.
+
+* Increase the number of turns to 12. This would likely have
+resulted in a draw, as the Russians would have been able to
+mount up a few more units and get them off the map.
+
 
 ### Blunders
 

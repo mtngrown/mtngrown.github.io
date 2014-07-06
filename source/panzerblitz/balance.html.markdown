@@ -566,11 +566,37 @@ or reduced.
 
 ## Situation #9
 
+The victory conditions for Situation 9 are key to the balance,
+where all Russians not exiting are counted as lost, hence, add
+to German totals.
+
 ### Rebalancing
+
+Sometimes, balance isn't enough, and experience discrepancy needs to be
+addressed.  Here are a couple of suggestions for handicapping:
+
+* Allow experimental rules for all German units able to call for indirect fire.
+* Add a couple of halftracks to German OOB.
+* Add more mines and blocks for the Germans.
+
+For the Russians, increase the number of turns to 12. This will help
+the Russian player both kill more units and get more off the map.
+
 
 ### Winning strategy
 
+For the Russians, speed.
+
+For the Germans, position light artillery to exploit exposed
+Russian transport. There is no way the Russians will be able to
+get all those trucks across the board by "panzerbushing."
+
+
 ### Victory conditions
+
+The victory conditions are good for Situation 9. Adjusting the counts
+up or down will provide a handicap for players with differing levels
+of experience.
 
 ---
 

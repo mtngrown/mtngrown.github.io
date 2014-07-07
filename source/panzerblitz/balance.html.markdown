@@ -164,6 +164,12 @@ For the Russian, one of the following would probably work:
   infantry to fill in the gaps which would otherwise be covered by
   these units.
 
+Conversely, for an inexperienced Russian player, handicap with the
+following:
+
+* Swap one or more wagons for trucks.
+* Employ LASCAT fire rules for the guards units.
+
 For the German player, try:
 
 * Add another PzKw III G and 3 more platoons of infantry.
@@ -184,7 +190,9 @@ For the German player, try:
 
 Alternatively, Alan Arvold offers a historically accurate German OOB
 featuring 14 instead of 5 AFVs. Under the original specification for
-this situation, these extra armor units should help balance the battle.
+this situation, these extra armor units help balance the battle
+very nicely.
+
 
 ### Winning strategy
 

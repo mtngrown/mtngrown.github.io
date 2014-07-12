@@ -1,7 +1,7 @@
 ---
 title: Strategy and tactics on the Eastern Front
 date: 2014-06-01 13:21 PDT
-tags: panzerblitz, battle-for-moscow, soviet-dawn
+tags: panzerblitz, battle-for-moscow, soviet-dawn, states-of-siege
 ---
 
 Yesterday, May 31, 2014, I found myself at the local tabletop venue

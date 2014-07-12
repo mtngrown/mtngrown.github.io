@@ -40,8 +40,22 @@ to clear the road through Bednost.
 
 ## Turn 1
 
+Russians move first, and it's instant analysis-paralysis: how to get as
+many units on the board without attracting sure 4:1 kills from German
+artillery pounding on trucks. Not much I can do if I want to get
+everything on the board in the first turn.
+
+Now that the Russians are all on the board, it's party time for German
+artillery. Lucky shot for one of the 75mm howitzers: rolled a 1 for a
+truck kill at 2:1 odds. Moved the ATGs into Bednost to protect against
+those SU-152s.
+
+
+Score: Germans 4, Russians 0.
 
 ## Turn 2
+
+
 
 
 ## Turn 3
@@ -69,6 +83,20 @@ to clear the road through Bednost.
 
 
 ## AAR
+
+For both these games, I've been assuming that the Russians must enter
+the east edge of Board 3 on Turn 1. That is, all the Russian units must
+enter on Turn 1, none may be left off the board for entering at a later
+time.
+
+#### Variations
+
+It might be interesting to allow the Russians to enter Board 3 whenever
+they want. On the one hand, it would allow the Russian armor to
+eliminate at least some of the German artillery before the unarmored
+Russian column continues to advance. On the other hand, it puts the
+Russians that much further behind on getting units off the board by the
+end of Turn 10.
 
 
 ### Blunders

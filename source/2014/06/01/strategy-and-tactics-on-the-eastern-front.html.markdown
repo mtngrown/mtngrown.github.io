@@ -1,7 +1,7 @@
 ---
 title: Strategy and tactics on the Eastern Front
 date: 2014-06-01 13:21 PDT
-tags: panzerblitz, battle-for-moscow
+tags: panzerblitz, battle-for-moscow, soviet-dawn
 ---
 
 Yesterday, May 31, 2014, I found myself at the local tabletop venue
@@ -27,3 +27,10 @@ the game. Since I had another city as well, it was a win for me.
 
 And a lesson that while 1:1 odds aren't that great for the attacker,
 it can still be useful to attack at 1:1.
+
+Today I got in a couple of games of Soviet Dawn. My goal was to use the
+Reorganization Table, which I had not yet used in previous games. The
+first game I lost on the political track pretty fast. I didn't score it.
+
+The second game I was able to get the Reorg table into play, and managed
+to score 27 points on a political victory, "Proud Soviet State."

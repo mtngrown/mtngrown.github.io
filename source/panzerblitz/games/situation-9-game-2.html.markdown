@@ -55,8 +55,13 @@ Score: Germans 4, Russians 0.
 
 ## Turn 2
 
+The Russians are already in a hard place. No matter where they go,
+something a-gonna get fired on. However, a bunch of units can be
+stacked in Opustchenia, and most of the rest can be tucked away behind
+hills, forests, etc. Upshot, 3 trucks remain exposed, which is 3 too
+many, but there are only 3 German guns which can reach them.
 
-
+The Germans seem to be in a fairly good position.
 
 ## Turn 3
 
@@ -84,12 +89,18 @@ Score: Germans 4, Russians 0.
 
 ## AAR
 
-For both these games, I've been assuming that the Russians must enter
-the east edge of Board 3 on Turn 1. That is, all the Russian units must
-enter on Turn 1, none may be left off the board for entering at a later
-time.
+For both these games, I've been assuming that the entire Russian force
+must enter the east edge of Board 3 on Turn 1. That is, all the Russian
+units must enter on Turn 1, none may be left off the board for entering
+at a later time. Moreover, I've been assuming the best bet is to bring
+the Russians up the road as a column.
 
-#### Variations
+It might be worthwhile to play this scenario having the Russians come in
+as a front across the east edge of the map. This would let many units
+get into cover much quicker.
+
+
+### Variations
 
 It might be interesting to allow the Russians to enter Board 3 whenever
 they want. On the one hand, it would allow the Russian armor to
@@ -100,3 +111,7 @@ end of Turn 10.
 
 
 ### Blunders
+
+* Russians should have held the trucks back a couple of turns until
+either the German 75mms were cleared, or the trucks could fund cover
+from them. This cost several units.

@@ -59,14 +59,37 @@ The Russians are already in a hard place. No matter where they go,
 something a-gonna get fired on. However, a bunch of units can be
 stacked in Opustchenia, and most of the rest can be tucked away behind
 hills, forests, etc. Upshot, 3 trucks remain exposed, which is 3 too
-many, but there are only 3 German guns which can reach them.
+many, but there are only 3 German guns which can reach them, and two
+of those are weak, 75mm howitzers.
 
-The Germans seem to be in a fairly good position.
+The Germans seem to be in a fairly good position. Only one ATG taken out
+though, the other attacks resulted in dispersals from the 75mm firing on
+trucks. Dispersal won't be enough, but it's a start.
+
+Score: Germans 5, Russians 0.
 
 ## Turn 3
 
+Russians have no fire targets yet, nothing is technically spotted. Time
+to move then. The main goal is to get everything set up to make a rush
+on Bednost, and take out the long range guns. At that point, I should
+be able to move units with impunity across the map. Not willing to risk
+the SU-152s yet, so they continue to position.
+
+Germans are about to lose some units, almost surely, hopefully they can
+take another 2 or 3 Russian units with them. And it turns out the
+Russians left a stack of trucks where the 120mm mortar could take them
+out. Great for the Germans, honest blunder on my part playing the
+Russians. Germans otherwise didn't fire so well this turn, only managing
+to disperse an SMG company. Close assaults failed. Luckily, I get
+another chance at a close assault because the Russians forgot to move
+the armor into position to take advantage of the spotting.
+
+Score: Germans 9, Russians 0.
 
 ## Turn 4
+
+Russians picked off guns on Hill 129, which will slow down casualties.
 
 
 ## Turn 5
@@ -115,3 +138,11 @@ end of Turn 10.
 * Russians should have held the trucks back a couple of turns until
 either the German 75mms were cleared, or the trucks could fund cover
 from them. This cost several units.
+
+* Tracks could be used to get guards units onto the German 75mm in two
+turns, which would remove a pesky source of annoyance as those guns keep
+picking off trucks. However, the guards were all deployed on trucks.
+
+* Losing too many trucks to Germans, some of these were just blunders
+from leaving stacks in the clear. The whole point of stacking is to get
+all the vehicles behind cover.

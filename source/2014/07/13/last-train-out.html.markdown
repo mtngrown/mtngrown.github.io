@@ -15,3 +15,5 @@ train just as or after it pulled out. My forces got slaughtered, but all
 I needed was to stop the train.
 
 Seems like a fairly well balanced scenario.
+
+Meanwhile, Al S and Dave M played the same scenario and had a good time.

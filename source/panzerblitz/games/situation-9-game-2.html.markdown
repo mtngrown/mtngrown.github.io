@@ -133,16 +133,43 @@ just enough firepower to reliably pick off trucks. I need to play the
 scenario again, and next time, make the Germans run all over the map
 instead of getting all bottled up.
 
+Germans whiffed direct fire, managed a single CAT, still in the running
+if the Russians don't make the necessary kills.
+
+Score: Russians 10, Germans 9.
+
 ## Turn 8
 
+Russians chewing away at Bednost, very slow progress, going to be a lot
+of Russian units on the board at the end of the game.
+
+And I think I've lost track of the turn counter here, and made a double
+move by the Germans, because the way it looks right now, it's a decisive
+victory for the Germans. The reason is the Germans set up units on the
+escape road out, and there is no way the Russians will be able to
+dislodge them in two turns.
 
 ## Turn 9
 
+Playing it out...Russians missed a 4:1 roll 6 on mortar in forest, which
+traps the two tanks on the board.
+
+Germans picked off another truck.
+
+Score: Germans 17, Russians 13.
 
 ## Turn 10
 
+Russians get 4 units off the board. Total crush by the Germans, despite
+the German losses. Embarrassing.
+
 
 ## AAR
+
+The German victory here is spoiled by the fact I lost track of the turn
+counter around Turn 8, and may have both fired and moved the Germans
+twice. If this is true, the second move blocked the Russian exit from
+the board almost completely by occupying the road on the way out.
 
 For both these games, I've been assuming that the entire Russian force
 must enter the east edge of Board 3 on Turn 1. That is, all the Russian
@@ -153,6 +180,12 @@ the Russians up the road as a column.
 It might be worthwhile to play this scenario having the Russians come in
 as a front across the east edge of the map. This would let many units
 get into cover much quicker.
+
+The biggest lesson from this game is just avoid the German ATGs.
+Wherever they are, go somewhere else. If they're in Bednost, let them
+stay there, and trap them with sacrificial guards units so they can't
+get out. Then bolt to secure the exit road immediately, before the
+Germans figure out they need to block it.
 
 
 ### Variations

@@ -4,7 +4,7 @@ date: 2014-06-21 14:23 PDT
 tags: central-america
 ---
 
-*Update June 28, 2014: play continues with a serious attempt at getting
+*Update June 29, 2014: play continues with a serious attempt at getting
 through all five turns with the full standard rule set.*
 
 This afternoon's intent is to walk through the first turn of the first

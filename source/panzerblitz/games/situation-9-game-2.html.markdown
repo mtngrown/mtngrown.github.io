@@ -90,16 +90,48 @@ Score: Germans 9, Russians 0.
 ## Turn 4
 
 Russians picked off guns on Hill 129, which will slow down casualties.
+Then more positioning, and dispersing some infantry around Bednost. The
+armor is swinging west to ensure an easy retreat path by knocking the
+howitzer off Hill 135.
 
+Germans are in a boat load of hurt. A couple of dispersals, no units
+eliminated this turn.
+
+Score: Germans 9, Russians 2.
 
 ## Turn 5
 
 
+Russians positioning, not taking any units, trying to get into position
+to squash Bednost. Time is getting critical.
+
+Germans managing to whiff all direct fire. Managed to disperse some
+T-34s, but that is all.
+
+Score: Germans 9, Russians 2.
+
 ## Turn 6
 
+Russians move armor around Bednost, just at the half way range of 3
+hexes on a range 6 75mm ATG. It's a risk as two ATGs in Bednost could
+keep two armor pieces pinned. However, a massive close assault removes
+one of the ATGs, hence, worst case for Russians is losing 1 armor.
+
+Germans were only able to disperse, but they have reoccupied Bednost,
+which makes it hard for the Russians.
+
+Score: Germans 9, Russians 6.
 
 ## Turn 7
 
+The Russians are going to have a really hard time getting off the board.
+The Germans are just hard enough to kill to slow everything down, and
+have just enough firepower to kill lots and lots of trucks. Given 11, 12
+turns, it would be decisive Russian victory no problem at all. As it
+stands right now, the Germans have the Russians all bottled up, with
+just enough firepower to reliably pick off trucks. I need to play the
+scenario again, and next time, make the Germans run all over the map
+instead of getting all bottled up.
 
 ## Turn 8
 

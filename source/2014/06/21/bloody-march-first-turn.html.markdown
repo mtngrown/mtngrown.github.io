@@ -274,29 +274,194 @@ snapshot, blurry from mobile phone but still useful:
 1](/images/bloody_march_turn_1_cropped_resized.jpg)
 
 
+Score: FDN 4, FSLN 0.
+
+This is the FDN's game to lose, by dint of setting up on the Las Vegas
+village for 4 VPs.
+
+
 ## Turn 2
 
-[Stay tuned.]
+July 27, 2014
+
+Picking up where we left off a month ago...
+
+### FSLN phases
+
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+
+### FDN phases
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+Score:
 
 ## Turn 3
 
 [Stay tuned.]
 
+### FSLN phases
+
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+
+### FDN phases
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+Score:
+
+
+
 ## Turn 4
 
 [Stay tuned.]
+
+### FSLN phases
+
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+
+### FDN phases
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+Score:
 
 ## Turn 5
 
 [Stay tuned.]
 
-## Some thoughts on the game
+### FSLN phases
 
 
-This first play through has been quite a challenge. This is definitely
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+
+### FDN phases
+
+* Supply:
+* Ground unit reorganization:
+* Regular Ground Unit Movement:
+* Insurgency Movement:
+* Insurgency Placement:
+* *Allied Aerial Counterinsurgency*:
+* First Insurgency Disbandment:
+* Air Mission:
+* Ground Combat:
+* Reserve Movement:
+* Second Insurgency Disbandment:
+* Helicopter Transport:
+* Return to Base:
+* Reinforcement:
+
+Score:
+
+
+## After Action Report
+
+
+### Some thoughts on the game
+
+This first full play through has been quite a challenge. This is definitely
 the most complex game I've played. In terms of absolute complexity, my
 hunch is that it's near the top of a middle tier complexity, perhaps a
-6, or the bottom of top tier of complexity, maybe 7 out of 10. Most of
+6, or the bottom of top tier of complexity, maybe 7, out of 9. Most of
 the complexity is associated with the following:
 
 * Long phase sequence on each turn, 16 phases for the standard game, 19

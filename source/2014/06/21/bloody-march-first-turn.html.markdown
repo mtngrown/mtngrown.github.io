@@ -289,7 +289,40 @@ Picking up where we left off a month ago...
 ### FSLN phases
 
 
-* Supply:
+* Supply: On Turn 1, it's a reasonable assumption that all units are in
+supply, given that the Honduran unit is specifically marked out of
+supply. (Which turns out to be specified in Section 9.4.)
+The situation hasn't changed all that much for Turn 2, but it's
+worth working through the supply rules in more detail, as it might be a
+way to dislodge the FDN from their entrenched position in Las Vegas.
+
+  Recall that each player must trace supply during Supply Phase
+  regardless of which is the phasing player.
+
+  First, supply can be obtained from
+
+  * Supply Sources, which come in two flavors:  green-bordered hexes,
+  and Supply Source markers
+  * Supply Depots, which are counters placed in specific hexes and used
+    once. No Supply Depots in this scenario.
+  * Moving Logistical Support Units (counters markers "lsu"), none in
+  this scenario.
+  * Friendly entrenchments.
+
+  Since there are no Supply Depots or LSUs in this scenario, we use green-bordered
+  hexes.
+
+
+  Tracing supply for FSLN: pretty much everything can be traced into the
+  town of Ocotal (hex 2012). Note that the Honduran unit HN 4 is
+  threatening the FSLN's supply line.
+
+  For FDN, the situation is a bit more complicated. All the insurgent
+  units appear to be out of supply, other than being supplied via the
+  entrenchment emplacement in Las Vegas (hex 2410). We'll call them in
+  supply and carry on.
+
+
 * Ground unit reorganization:
 * Regular Ground Unit Movement:
 * Insurgency Movement:

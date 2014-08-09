@@ -2,7 +2,7 @@
 title: Ogre In May at Endgame
 date: 2014-05-11 06:47 PDT
 catergories: science-fiction
-tags: ogre, the-final-frontier, train, super-cp
+tags: ogre, train, super-cp, final-frontier
 publisher: steve-jackson-games
 ---
 

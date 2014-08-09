@@ -4,6 +4,12 @@ date: 2014-08-08
 tags: final-frontier
 ---
 
+Finding time to play a complete game of anything lasting more than
+30 minutes is increasingly more difficult these days. Hence, being
+able to record positions, tear down, and reset an ongoing game allows
+more games to be played in smaller time increments. I enjoy pushing
+cardboard too much to use computer-ported (VASSAL) games.
+
 From last week's [Final Frontier set
 up](/2014/08/03/final-frontier-setting-up-and-starting.html), we
 continue the game, starting from Turn 1 for real.

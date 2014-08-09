@@ -32,7 +32,7 @@
 %%% Find colors: http://en.wikipedia.org/wiki/List_of_colors
 \definecolor{seagreen}{rgb}{0.18, 0.55, 0.34}
 \definecolor{orangy}{cmyk}{0.0, 0.58, 0.100, 0.10}
-\definecolor{saffron}{rgb}{.96, .77, .19}
+\definecolor{saffron}{rgb}{0.96, 0.77, 0.19}
 \definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
 \definecolor{chocolate}{rgb}{0.48, 0.25, 0.0}
 \definecolor{darkraspberry}{rgb}{0.53, 0.15, 0.34}
@@ -48,7 +48,7 @@
 \def\wwsubject{tactical armored warfare}
 \def\wwslug{mtngrown}
 
-\hypersetup{
+\hypersetup{%
  pdfauthor={\bookauthor},
  pdftitle={\booklongtitle},
  pdfkeywords={\wwkeywords},
@@ -75,6 +75,22 @@
 
 \section{Introduction}
 \section{Game Components}
+
+Most wargame rules have an counter images illustrating the meaning of values,
+abbreviations and symbols on the counters. The Final Frontier does not! In a
+spirit of contribution, here is an illustration of a counter, with the associated
+explanation.
+
+\begin{center}
+  \includegraphics[width=100pt]{../../source/images/final-frontier-frigate.pdf}
+\end{center}
+
+\begin{itemize}
+  \item ``FG'' stands for Frigate.
+  \item The top row of numbers are ordered by Beam - Missile - Damage value.
+  \item Any bottom number would be a surface combat value.
+\end{itemize}
+
 \section{Preparation For Play}
 \section{Sequence Of Play}
 
@@ -105,17 +121,33 @@ and colonies. This number is entered first.
 * The GNP is updated by adding the income to the previous turn's GNP.
 
 * The ``Total'' column tracks the Build Points, which are best recorded
-as an explicit sum of the current Build Point allotment from GNP and
-NI, and the remainder BPs from the previous turn. For example, suppose
-1 BP left over and 3 are allotted. Record this in the ``Total'' column
+as an explicit sum of the current Build Point allotment cross-referenced
+from GNP and NI, and the remainder BPs from the previous turn. For example,
+suppose 1 BP left over and 3 are allotted. Record this in the ``Total'' column
 as ``3 + 1'' instead of ``4.''.
 
 \section{Political Events}
 \subsection{National Interest Level}
 \subsection{Colonization}
-%\section{}
-%\section{}
-%\section{}
+
+\section{Space Movement}
+
+\section{Space Combat}
+
+\section{Space-Surface Interaction}
+
+\section{Surface Combat}
+
+\section{Earth}
+
+\section{Random Events}
+
+\section{Victory Conditions}
+
+\section{Designer's Notes}
+
+\section{Game Credits}
+
 
 \section{FAQs and more}
 
@@ -153,5 +185,34 @@ record.
 
 The status record also records the position on the planets.
 
+\subsection{Counter re-creation}
+
+The counters as shipped are 7/16" square. I'm ``re-creating'' a few of the
+counters for game play aid using Inkscape, and saving in SVG format.
+
+{\tt DISPLAY= inkscape final-frontier-frigate.svg --export-pdf=final-frontier-frigate.pdf}
+
+Some notes on the ship counters:
+
+\begin{itemize}
+  \item The font, evidently, is Compacta, but not bold. That said, Compacta Bold
+    is a pretty close fit.
+  \item For a nominal 5/8" counter, set the numbers at the top to 12 pt, the letters
+    denoting ship type to 11 pt.
+  \item With Inkscape, the font stroke should be set to zero, using the fill color to
+    draw out the glyphs.
+  \item On the ship outlines, set the stroke color to white, which provides a subtle pop
+    to the silhouette.
+  \item The stroke width on the ships is ???
+\end{itemize}
+
+The colors can be approximated using RGB values:
+
+\begin{itemize}
+    \item Chartreuse:
+    \item Magenta:
+    \item Cyan:
+    \item Yellow:
+\end{itemize}
 
 \end{document}

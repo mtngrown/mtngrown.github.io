@@ -31,11 +31,14 @@ $20-$30.
 
 It's not that difficult. Look for games for which:
 
-* All the pieces are punched.
-* Box has considerable wear.
-* If you can find scanned copies of rules, counters, maps or
-  other game pieces, it's sometimes possible to find *mostly*
-  complete games for cheap.
+* all the pieces are punched,
+* the box has considerable wear,
+* the price is significantly lower than mint or new copies.
+
+
+If you can find scanned copies of rules, counters, maps or
+other game pieces, it's sometimes possible to find *mostly*
+complete games for very cheap.
 
 This strategy works for me because once I take interest in a particular
 game, I don't mind buying a couple of battered copies and bashing a

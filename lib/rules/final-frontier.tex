@@ -43,10 +43,10 @@
 
 
 \def\bookauthor{Dave Doolin}
-\def\booklongtitle{PanzerBlitz Rules - Classic and House}
-\def\wwkeywords{panzerblitz}
-\def\wwsubject{tactical armored warfare}
-\def\wwslug{mtngrown}
+\def\booklongtitle{The Final Frontier}
+\def\wwkeywords{final-frontier}
+\def\wwsubject{solar system exploration}
+\def\wwslug{final-frontier}
 
 \hypersetup{%
  pdfauthor={\bookauthor},
@@ -57,27 +57,53 @@
  pdfdisplaydoctitle=true,
  pdfcreator={Website In A Weekend},
  pdfproducer={\LaTeX},
- baseurl={http://website-in-a-weekend.net/wiaw-whitepapers/\wwslug},
+ baseurl={http://mtngrown.github.io/\wwslug},
  breaklinks=false,
 }
 
-\title{Final Frontier Rules of Play}
+%%% Document-specific macros
+\def\tff{{\em The Final Frontier}}
+
+\title{The Final Frontier: Man's Expansion Into the Solar System\\
+\vspace{2 mm} {\Large Commentary and clarifications on Rules of Play}}
+%\subtitle{Commentary and clarifications on Rules of Play}
+\date{\today}
+\author{mtngrown}
+
 
 \begin{document}
 
 \maketitle
-
-
 \tableofcontents
 
 
 \begin{multicols}{2}
 
 \section{Introduction}
+
+Teaching oneself any sort of intellectually challenging material can be
+difficult. When everything is stuck in one's head, it's hard to remember
+what's what. Writing out clarifications and commenting on game play helps
+me remember rules, and integrate the rules into game play.
+
+The structure of the commentary follows the structure of the games rules,
+but does not copy the rules word for word. In some places, selected rules may
+be quoted to provide context for clarification.
+
+Some sections may not have any commentary, and exist to preserve the order
+of the rules.
+
+Some disclaimers: nothing in this commentary should be considered canonical
+with respect to the rules of play, these are strictly my interpretations based
+mostly on solo games. The game itself is copyright Kerry Anderson. This
+commentary is copyrighted under an attribution license. Copy it, but don't
+claim it as your own work.
+
+
 \section{Game Components}
 
 Most wargame rules have an counter images illustrating the meaning of values,
-abbreviations and symbols on the counters. The Final Frontier does not! In a
+abbreviations and symbols on the counters. \tff\ does not! In a
 spirit of contribution, here is an illustration of a counter, with the associated
 explanation.
 
@@ -92,18 +118,41 @@ explanation.
 \end{itemize}
 
 \section{Preparation For Play}
+
+
+\tff\ comes in a fairly small box, which is well-packed with counters,
+game aids and map. That said, these little components unpack to certain
+amount of table space. The main game with the planetary display, the
+Economics chart, the Random Events table and the Production Costs
+table will fit very nicely under a 24" by 24" plexi. If your table is
+big enough to hold a 24" by 36" plexi (wargamer's standard), you're good
+to go.
+
+\begin{center}
+  PLACEHOLDER FOR GAME IN PROGRESS.
+\end{center}
+
+As you can see, all the game parts fit together nicely under a piece of plexi.
+
 \section{Sequence Of Play}
 
-Before each turn, advance the planets according to the Turn Track.
+Before each turn, advance the planets according to the Turn Track. Then for
+each faction, conduct the turn in the following phase order:
 
 \begin{enumerate}
-  \item Economics phase
+  \item Economics phase: compute income, adjust Gross National Product (GNP) and
+    determine Build Points from cross-referencing National Interest to GNP.
   \item Space movement phase
   \item Space combat phase
   \item Space-surface interaction
   \item Surface combat
   \item Repeat for each player
 \end{enumerate}
+
+The early turns of the game will be centered around Economics and Space movement.
+It's probably not smart to build warships too early, as they just consume resources
+without producing income.
+
 
 \section{Planets}
 \section{Economics}
@@ -178,7 +227,7 @@ how best to carry balances forward.
 
 \subsection{Status record}
 
-Final Frontier lends itself to solo play, and even better, lends itself
+\tff\ lends itself to solo play, and even better, lends itself
 to play over time. The game system is simple enough to keep a record of
 which pieces are in play, and what their status is, with a handy status
 record.
@@ -209,10 +258,10 @@ Some notes on the ship counters:
 The colors can be approximated using RGB values:
 
 \begin{itemize}
-    \item Chartreuse:
-    \item Magenta:
-    \item Cyan:
-    \item Yellow:
+  \item Chartreuse: \#c6ee2b, hsl(72,85,55), rgb(198,238,43)
+  \item Magenta: \#f44aad, hsl(325,88,62), rgb(244,74,173)
+  \item Cyan: \#a1e2f4, hsl(193,79,79), rgb(161,226,244)
+  \item Yellow: \#ffff19, hsl(60,100,54), rgb(255,255,25)
 \end{itemize}
 
 \end{document}

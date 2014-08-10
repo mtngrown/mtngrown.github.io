@@ -197,8 +197,8 @@ Planets:
 
 Status:
 
-* Chartreuse: Mercury C2, Moon C2, Mars M1, all active.
-* Magenta: Mercury C2, Moon C2, Mars M1, all active.
+* Chartreuse: Mercury C2, Moon C2, Earth M1, Mars M1, all active.
+* Magenta: Mercury C2, Moon C2, Earth M1, Mars M1, all active.
 
 The strategy is going to branch out from here. Chartreuse is going to
 pursue a GNP growth strategy, while Magenta pursues an NI growth

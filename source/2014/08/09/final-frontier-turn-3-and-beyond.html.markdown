@@ -69,8 +69,6 @@ Magenta:
 
 Magenta will use the remainder BP to activate the Mercury colony.
 
-
-
 Planets:
 
 * Earth: 0126
@@ -86,82 +84,142 @@ Planets:
 
 Chartreuse:
 
-* Income:
-* GNP:
-* NI:
-* BP:
-* Spend:
+* Income: 0, all emplacements are on inhospitable surfaces, need to pay
+  for activation.
+* GNP: 115
+* NI: 2
+* BP: 3
+* Spend: Mine on Earth, 1, 2 BP remaining.
+
+  Chartreuse is going for the big inner system build, boost that income
+  stream.
 
 Magenta:
 
-* Income:
-* GNP:
-* NI:
-* BP:
-* Spend:
+* Income: Mine on Moon, 4.
+* GNP: 104
+* NI: 3
+* BP: 3 + 2
+* Spend: Activate Mercury colony, 4 BP; Mine on Earth, 1 BP
+* Random Event: From Magenta Colony 2 emplacement, 2d6 roll 2:4. With NI
+  3, this is 5:4, which is No Effect.
+
+  Magenta is going to Mars next, and may beat Chartreuse there.
+
 
 Planets:
 
-* Earth:
-* Mars:
-* Jupiter:
-* Saturn:
-* Uranus:
-* Neptune:
+* Earth: 0125
+* Mars: 0326
+* Jupiter: 0726
+* Saturn: 1120
+* Uranus: 0709
+* Neptune: 1803
+
+At this point, I need to start recording overall system status to allow.
+I won't be able to easily recreate a game from this information going forward.
+Probably best way is record each installation (mine, colony, etc.) as a
+sublist under each system body (planet, asteroid belt, etc.).
 
 
 ## Turn 6
 
 Chartreuse:
 
-* Income:
-* GNP:
-* NI:
-* BP:
-* Spend:
+* Income: 0, nothing activated
+* GNP: 115
+* NI: 2
+* BP: 3 + 2
+* Spend: Activate Colony 2 on Mercury, 4 BP; launch mine to Mars, 1 BP.
+* Random Event: roll 4+2:6, 6:6, No Effect.
+
+  Chartreuse starts the next turn with NI 3.
 
 Magenta:
 
-* Income:
-* GNP:
-* NI:
-* BP:
-* Spend:
+* Income: Mercury 2 x 5 + Moon 4 = 114
+* GNP: 114
+* NI: 4
+* BP: 5
+* Spend: Colony 2 to Moon, launch Mine to Mars.
 
 Planets:
 
-* Earth:
-* Mars:
-* Jupiter:
-* Saturn:
-* Uranus:
-* Neptune:
+* Earth: 0224
+* Mars: 0226
+* Jupiter: 0726
+* Saturn: 1220
+* Uranus: 0709
+* Neptune: 1803
 
+Status:
 
+* Chartreuse: Mercury Colony 2 active, Moon Colony 2 inactive, Mine 0126.
+* Magenta: Mercury Colony 2 active, Moon Colony 2 inactive, Mine 0126.
+
+Overall, a straightforward turn, with Chartreuse feeling like it has a
+slight edge.
+
+Mars is an obvious yet overlooked early target. Both factions rectifying
+that now.
 
 ## Turn 7
 
 Chartreuse:
 
-* Income:
-* GNP:
-* NI:
-* BP:
-* Spend:
+* Income: Mercury C2, 5 x 2 = 10
+* GNP: 115 + 10 = 125
+* NI: 3
+* BP: 5
+* Spend: Activate Moon C2, build Mine on Earth.
+
+Move Mine to Mars.
 
 Magenta:
 
-* Income:
-* GNP:
-* NI:
-* BP:
-* Spend:
+* Income: Mercury C2, 5 x 2 = 10
+* GNP: 100 + 10 = 110
+* NI: 4
+* BP: 5
+* Spend: Activate Moon C2, 4 BP; build Mine on Earth, 1 BP, target
+  Asteroid Belt.
+
+Space Movement: Mine to Mars.
 
 Planets:
 
-* Earth:
-* Mars:
-* Jupiter:
-* Saturn:
-* Uranus:
-* Neptune:
+* Earth: 0325
+* Mars: 0226
+* Jupiter: 0121
+* Saturn: 1220
+* Uranus: 0709
+* Neptune: 1803
+
+Status:
+
+* Chartreuse: Mercury C2, Moon C2, Mars M1, all active.
+* Magenta: Mercury C2, Moon C2, Mars M1, all active.
+
+The strategy is going to branch out from here. Chartreuse is going to
+pursue a GNP growth strategy, while Magenta pursues an NI growth
+strategy. Magenta will likely spend a turn or two without spending
+much to accumulate BPs for setting up a C3 on Mars or the Moon.
+
+## Summary for first 7 turns
+
+I like this game! The economic engine is simple, but I can already see
+there are subtleties worth exploriing, and I suspect, surprises in
+store.
+
+One curious thing about the game is the victory conditions are allowed
+to be house ruled, with a selection of possible outcomes suggested. The
+temptation here is to declare this game "done" as a draw, and move on to
+the next shiny object in the game closet. On the other hand, putting the
+game away while I'm champing at the bit to play it will ensure that I'll
+set it up again to play a few more turns.
+
+The upshot is that I haven't decided yet on the victory conditions for
+the current game. I might go for 60 turns, or 300 GNP, or playing until
+I've exercised every rule in the rule book. What I can say is that all
+the positions are recorded, and I'm definitely coming back for a few
+more turns.

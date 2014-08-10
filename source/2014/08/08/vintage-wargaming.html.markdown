@@ -63,6 +63,7 @@ partially punched is license to complete punching it out.
 
 ## Playing vintage wargames
 
+
 * Record keeping: I've taken to stocking most of my older games
 with a couple of cheap mechanical pencils and a pad or two of
 Post-It notes. Neither take up a lot of space, and having a scratch

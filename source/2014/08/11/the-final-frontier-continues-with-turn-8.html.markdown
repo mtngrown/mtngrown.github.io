@@ -4,9 +4,15 @@ date: 2014-08-11 21:02 PDT
 tags: final-frontier
 ---
 
-The Final Frontier is sort of addictive, I can play a few turns of
-solo in an hour, and even write them up. Continuing from the weekend,
-here's Turn 8 and more.
+The Final Frontier is sort of addictive.
+
+I can play a few turns of solo in an hour, and even write them up.
+In fact, I'm getting comfortable enough with the system, I should be
+able to knock out a turn in a few minutes before I go to work.
+
+The writing up every turn part may not continue much linger.
+
+Continuing from the weekend, here's Turns 8 through 11.
 
 ## Turn 8
 
@@ -151,4 +157,9 @@ strategy, but it's not clear what a better strategy might be.
 ## Summary for the evening
 
 Not a bad hour's worth of play. This game could go really fast with
-experienced players.
+experienced players. It would also go faster if I didn't type in turns
+results for every turn. What I am doing is keeping track of turn details
+on paper, then punching them in. I could get more game play in if I only
+typed up the last turn in enough detail to rebuild the game state in the
+event I have to put it away. Keep track of turns in detail on paper
+still makes good sense.

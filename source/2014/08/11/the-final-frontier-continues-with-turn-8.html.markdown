@@ -1,7 +1,7 @@
 ---
 title: The Final Frontier Continues with Turn 8
 date: 2014-08-11 21:02 PDT
-tags:
+tags: final-frontier
 ---
 
 The Final Frontier is sort of addictive, I can play a few turns of

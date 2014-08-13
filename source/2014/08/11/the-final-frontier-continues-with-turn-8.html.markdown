@@ -12,7 +12,7 @@ able to knock out a turn in a few minutes before I go to work.
 
 The writing up every turn part may not continue much linger.
 
-Continuing from the weekend, here's Turns 8 through 11.
+Continuing from the weekend, here's Turns 8 through 10.
 
 ## Turn 8
 

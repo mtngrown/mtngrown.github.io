@@ -44,6 +44,10 @@ to Saturn in 0824.
 Magenta: Mercury C2, Moon C2, Mars C4, Europa C2, Ganymede C2, Callisto
 M1, all AB occupied, M1 in transit to Saturn in 1125.
 
+
+{:.center}
+![The Final Frontier Turn 18](/images/final_frontier_turn_18.jpg)
+
 ## After Action Report
 
 I'm conceding this game as Magenta, too much bad luck has let Chartreuse

@@ -1,82 +1,38 @@
 \documentclass[10pt]{article}
 
-\setlength{\oddsidemargin}{0.in}
-\setlength{\textwidth}{6.5in}
-\setlength{\topmargin}{0.in}
-\setlength{\textheight}{8.5in}
-
-%usepackage{hyperref}
-
-\usepackage{graphicx}
-\usepackage{url}
-%\usepackage{chicago}
-\usepackage{amsmath}
-\usepackage{moreverb}
-\usepackage{draftcopy}
-\usepackage{multicol}
-\usepackage{boxedminipage}
-\usepackage{titlesec}
-\usepackage{enumitem}
-\usepackage{listings}
-\usepackage{textcomp}
-
-
-\RequirePackage{fancyhdr}
-\RequirePackage[colorlinks]{hyperref}
-
-
-\RequirePackage{fancyvrb}
-\DefineVerbatimEnvironment{code}{verbatim}{fontsize=\small}
-
-\RequirePackage{color}
-%%% Find colors: http://en.wikipedia.org/wiki/List_of_colors
-\definecolor{seagreen}{rgb}{0.18, 0.55, 0.34}
-\definecolor{orangy}{cmyk}{0.0, 0.58, 0.100, 0.10}
-\definecolor{saffron}{rgb}{.96, .77, .19}
-\definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
-\definecolor{chocolate}{rgb}{0.48, 0.25, 0.0}
-\definecolor{darkraspberry}{rgb}{0.53, 0.15, 0.34}
-\definecolor{electricindigo}{rgb}{0.44, 0.0, 1.00}
-\definecolor{oldmauve}{rgb}{0.40, 0.19, 0.28}
-\definecolor{blue-violet}{rgb}{0.54, 0.17, 0.89}
-\definecolor{blue(pigment)}{rgb}{0.2, 0.2, 0.6}
-
-
 \def\bookauthor{Dave Doolin}
 \def\booklongtitle{Olympica}
-\def\wwkeywords{olympica}
+\def\wwkeywords{olympica, wargame, lynn-willis}
 \def\wwsubject{UN on Mars}
-\def\wwslug{mtngrown}
+\def\wwslug{olympica}
+\def\baseurl{http://dool.in}
 
-\hypersetup{%
- pdfauthor={\bookauthor},
- pdftitle={\booklongtitle},
- pdfkeywords={\wwkeywords},
- pdfsubject={\wwsubject},
- urlcolor=cyan,
- pdfdisplaydoctitle=true,
- pdfcreator={Website In A Weekend},
- pdfproducer={\LaTeX},
- baseurl={http://website-in-a-weekend.net/wiaw-whitepapers/\wwslug},
- breaklinks=false,
-}
+\input{preamble}
 
-\title{StarForce Alpha Centauri}
+\title{StarForce `Alpha Centauri': Interstellar Conflict in the 25th Century\\
+\vspace{2 mm} {\Large Commentary and clarifications on Rules of Play}}
+\date{\today}
+\author{mtngrown}
+
+\def\sf{{\em StarForce}}
 
 \begin{document}
 
 \maketitle
 
-
 \tableofcontents
-
 
 \begin{multicols}{2}
 
 \section{Introduction}
+
+\sf, a ``future wargaame'' designed by Redmond Simonsen, is an interesting
+and still well-regarded game.
+
 \section{Game Components}
 \section{Preparation For Play}
-\section{Sequence Of Play}
+\section{Placeholder}
+\section{Sequence Of Play [Basic]}
 \section{Planets}
 \section{Economics}
 \section{Political Events}
@@ -94,32 +50,70 @@
 
 \section*{Player Aid}
 
-* Turn phase track
-
-* VP track
-
-* Unit summary
-
-* Terrain types, movement costs
+\begin{itemize}
+  \item Full size True Distance Table
+\end{itemize}
 
 \section*{Kit}
 
-* Map
+\section{Errata}
 
-* Counter sheet, mounted but not cut
+The following from \href{http://www.russgifford.net/db_pages/game_starforce.htm}{Russ Gifford}:
 
-* Two dice
+\begin{quote}
+Known Errata:
+Source: Moves 21 (page 18)
 
-* Two sets of rules
+Date: As of June 1, 1975
 
-* Two laminated player charts
+StarForce Errata
 
-* Laminated game aid with turn track, VP track.
+In early editions of StarForce, certain values in this Scenario were in error.
+These are corrected below.
 
-* 3 scenario cards.
+[38.0] THE RESCUE MISSION
+A Solitaire Game
 
-* Whatever else cool stuff I can think of to put in the box or bag.
+GENERAL RULE:
 
+Players have twelve Star Forces available to lift off 60 Population Points
+(each Population Point represents a third of a million humans). A combined set
+of two Decimal Randomizers is used to simulate the uncertain time of nova. The
+actual star in question is determined randomly at the start of the game.
+Players win the situation by getting all the population safely off the planet.
 
+[38.1] DETERMINING THE LOCATION OF THE ENDANGERED SYSTEM
+
+Pick a chit from the Stellar Randomizer and read the top two-digit number. Read
+that number as one of the hexes in the "2000" column of hexagons (the same
+column that Sol and 70 Ophiuchi are in).
+
+If the bottom number of the chit is positive trace a clockwise orbit around Sol
+maintaining a constant hex distance from it (this will describe a large
+hexagonal circle just like the rings of Zulu Limits printed on the map). If the
+bottom number is negative. trace the orbit counter-clockwise. The first
+tertiary star system that the orbit traces through (in a two-dimensional sense)
+is the endangered system. If there is no tertiary system in that orbit. pick
+another chit.
+
+[38.2] INITIAL STARFORCE DEPLOYMENT
+
+Four Star Forces at 202010 (Sol), two Star Forces at 2336/+ 17 (Sigma
+Draconis), four Star Forces at the endangered star system. and two Star Forces
+at the (undestroyed) tertiary system nearest to the endangered star (in true,
+distance). If two stars are equally near. use the one which is also nearest to
+Sol. All Star Forces are empty. All systems have StarGates except the
+endangered star and those destroyed in the First Incursion (see 31.62).
+
+[38.5] VICTORY LEVELS
+
+Victory is measured in terms of how many Population Points are saved (each
+equaling one Victory Point;. A perfect score of 60 Victory Points is a Decisive
+Victory over the situation; a score of 50 to 59 is a Substantive Victory; 40 to
+49 is a Marginal Victory. Less than 40 Points is a defeat. If a Star Force is
+lost in the rescue attempt (either by Overshift results or being incinerated)
+subtract three points from the score. Don't forget to count as lost any
+Population Points on destroyed Star Forces at the time of destruction.
+\end{quote}
 
 \end{document}

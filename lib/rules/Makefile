@@ -1,5 +1,9 @@
 
-all: pb_rules olympica titan-strike starforce final-frontier
+all: starforce-simov pb_rules olympica titan-strike starforce final-frontier
+
+starforce-simov:
+	cp starforce-simov.pdf ~/localdav/pdf
+	xelatex starforce-simov
 
 pb_rules:
 	# Copy this over first because tex is broken at the moment

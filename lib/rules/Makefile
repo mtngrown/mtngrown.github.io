@@ -1,30 +1,27 @@
 
-all: starforce-simov pb_rules olympica titan-strike starforce final-frontier
+.SUFFIXES : .pdf .tex
 
-starforce-simov:
-	cp starforce-simov.pdf ~/localdav/pdf
-	xelatex starforce-simov
+LATEX=xelatex
+TEXFILES=$(wildcard *.tex)
+PDFS=starforce-simov.pdf\
+		 panzerblitz.pdf\
+		 olympica.pdf\
+		 titan-strike.pdf\
+		 starforce.pdf\
+		 final-frontier.pdf
 
-pb_rules:
-	# Copy this over first because tex is broken at the moment
-	cp pb_rules.pdf ~/localdav/pdf
-	xelatex pb_rules
+pdfs: $(PDFS)
 
-olympica:
-	# Copy this over first because tex is broken at the moment
-	cp olympica.pdf ~/localdav/pdf
-	xelatex olympica
+#PREAMBLE=./preamble.tex
 
-titan-strike:
-	# Copy this over first because tex is broken at the moment
-	cp titan-strike.pdf ~/localdav/pdf
-	xelatex titan-strike
+%.pdf: %.tex $(TEXFILES)
+	$(LATEX) $*
+	$(LATEX) $*
+	$(LATEX) $*
 
-starforce:
-	# Copy this over first because tex is broken at the moment
-	cp starforce.pdf ~/localdav/pdf
-	xelatex starforce
+deploy: $(PDFS)
+	cp *.pdf ~/localdav/pdf
 
-final-frontier:
-	cp final-frontier.pdf ~/localdav/pdf
-	xelatex final-frontier
+
+clean:
+	rm -rf *.pdf *.log *.aux *.blg *.bbl *.toc *.out

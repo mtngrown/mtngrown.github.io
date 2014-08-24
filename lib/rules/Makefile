@@ -8,7 +8,8 @@ PDFS=starforce-simov.pdf\
 		 olympica.pdf\
 		 titan-strike.pdf\
 		 starforce.pdf\
-		 final-frontier.pdf
+		 final-frontier.pdf\
+		 ogre-scoresheet.pdf
 
 pdfs: $(PDFS)
 

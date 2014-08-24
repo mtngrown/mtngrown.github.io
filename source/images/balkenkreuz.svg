@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="56.249996"
-   height="56.249996"
+   width="56.215298"
+   height="55.64077"
    id="svg3153"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="balkenkreuz.svg">
@@ -36,38 +36,65 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1357"
-     inkscape:window-height="1005"
+     inkscape:window-width="1920"
+     inkscape:window-height="1152"
      id="namedview3161"
      showgrid="false"
-     inkscape:zoom="14.028115"
-     inkscape:cx="28.170246"
-     inkscape:cy="28.10587"
+     inkscape:zoom="1.6336452"
+     inkscape:cx="17.460545"
+     inkscape:cy="26.856444"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3153"
+     inkscape:current-layer="g3802"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <path
-     style="stroke:#000000;stroke-width:17.89772606"
-     inkscape:connector-curvature="0"
-     d="m 28.124998,8.948863 v 38.35227 M 8.948863,28.124993 h 38.35227"
-     id="path3155" />
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3769"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <g
-     id="g3186"
-     transform="matrix(0.06392045,0,0,0.06392045,8.948863,8.948863)">
-    <path
-       id="path3157"
-       d="M 300,0 V 600 M 0,300 h 600"
-       inkscape:connector-curvature="0"
-       style="stroke:#ffffff;stroke-width:260" />
+     id="g3802"
+     transform="translate(-0.0806115,16.299651)">
+    <g
+       id="g3810"
+       transform="matrix(1.4142213,0,0,1.4142213,0.0806115,-16.299651)">
+      <path
+         style="stroke:#000000;stroke-width:17.65429306;stroke-linecap:square"
+         d="M 19.816695,8.936124 V 30.446252"
+         id="path3800"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:17.88222885;stroke-linecap:square"
+         d="M 9.2500833,19.45848 H 30.710001"
+         id="path3155"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#ffffff;stroke-width:16.08838272;stroke-linecap:square"
+         d="M 19.762589,8.050526 V 31.305912"
+         id="path3776"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#ffffff;stroke-width:16.33068848;stroke-linecap:square"
+         d="M 8.2348635,19.482684 H 31.599307"
+         id="path3157"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:10.71065044;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 5.345438,19.479712 H 34.338632"
+         id="path3159"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3771"
+         d="m 19.61054,5.446516 0,28.18646"
+         style="stroke:#000000;stroke-width:10.7361269;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
   </g>
-  <path
-     d="M 28.124997,8.9488641 V 47.301136 M 8.9488628,28.124999 H 47.301135"
-     id="path3159"
-     inkscape:connector-curvature="0"
-     style="stroke:#000000;stroke-width:10.86647415" />
 </svg>

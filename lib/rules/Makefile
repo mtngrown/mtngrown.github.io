@@ -9,7 +9,8 @@ PDFS=starforce-simov.pdf\
 		 titan-strike.pdf\
 		 starforce.pdf\
 		 final-frontier.pdf\
-		 ogre-scoresheet.pdf
+		 ogre-scoresheet.pdf \
+		 duel-oob.pdf
 
 pdfs: $(PDFS)
 

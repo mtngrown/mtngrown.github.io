@@ -8,60 +8,100 @@
 
 \input{preamble}
 
+\setlength{\oddsidemargin}{0.in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{9.5in}
+
+\pagestyle{empty}
 
 \begin{document}
 
 Ogre Scoresheet
 
-Scorekeeper (name):
+Scorekeeper (name): \underline{\hspace{1.5in}}
+%
+Date: \underline{\hspace{0.5in}}
+%
+Scenario: \underline{\hspace{1.5in}}
 
-Date:
+Faction 1 name/player (e.g., Combine/Dave)\underline{\hspace{1.0in}}
+%
+Faction 2 name/player:\underline{\hspace{1.0in}}
 
-Scenario:
+Special instructions for this turn:\underline{\hspace{4.0in}}
 
-Faction 1 name/player (e.g., Combine/Dave)
+Page \underline{\hspace{0.3in}} of \underline{\hspace{0.3in}}
 
-Faction 2 name/player:
+\vspace{0.2in}
 
-page \_ of \_
+\def\scoreline{\underline{\hspace{1in}}}
+\def\turnspace{0.2in}
 
-\hrule{5in}
+\begin{tabular}{rcrc}
+  Faction 1:     & \scoreline & Faction 2:     & \scoreline \\
+  \phantom{running total:} & \phantom{\scoreline} & \phantom{running total:} & \phantom{\scoreline} \\
+\end{tabular}
 
-Turn: \_
+\begin{tabular}{rcrc}
+  Turn:          & \scoreline &                &            \\
+  double (12pt): & \scoreline & double (12pt): & \scoreline \\
+  normal (6pt):  & \scoreline & normal (6pt):  & \scoreline \\
+  half (3pt):    & \scoreline & half (3pt):    & \scoreline \\
+  other:         & \scoreline & other:         & \scoreline \\
+  subtotal:      & \scoreline & subtotal:      & \scoreline \\
+  running total: & \scoreline & running total: & \scoreline \\
+\end{tabular}
 
-Special instructions for this turn:
+\vspace{\turnspace}
 
-\hrule{5in}
+\begin{tabular}{rcrc}
+  Turn:          & \scoreline &                &            \\
+  double (12pt): & \scoreline & double (12pt): & \scoreline \\
+  normal (6pt):  & \scoreline & normal (6pt):  & \scoreline \\
+  half (3pt):    & \scoreline & half (3pt):    & \scoreline \\
+  other:         & \scoreline & other:         & \scoreline \\
+  subtotal:      & \scoreline & subtotal:      & \scoreline \\
+  running total: & \scoreline & running total: & \scoreline \\
+\end{tabular}
 
-Faction 1:
+\vspace{\turnspace}
 
-double (12pt): \_
+\begin{tabular}{rcrc}
+  Turn:          & \scoreline &                &            \\
+  double (12pt): & \scoreline & double (12pt): & \scoreline \\
+  normal (6pt):  & \scoreline & normal (6pt):  & \scoreline \\
+  half (3pt):    & \scoreline & half (3pt):    & \scoreline \\
+  other:         & \scoreline & other:         & \scoreline \\
+  subtotal:      & \scoreline & subtotal:      & \scoreline \\
+  running total: & \scoreline & running total: & \scoreline \\
+\end{tabular}
 
-normal (6pt): \_
+\vspace{\turnspace}
 
-half (3pt): \_
+\begin{tabular}{rcrc}
+  Turn:          & \scoreline &                &            \\
+  double (12pt): & \scoreline & double (12pt): & \scoreline \\
+  normal (6pt):  & \scoreline & normal (6pt):  & \scoreline \\
+  half (3pt):    & \scoreline & half (3pt):    & \scoreline \\
+  other:         & \scoreline & other:         & \scoreline \\
+  subtotal:      & \scoreline & subtotal:      & \scoreline \\
+  running total: & \scoreline & running total: & \scoreline \\
+\end{tabular}
 
-other: \_
+\vspace{\turnspace}
 
-subtotal: \_
+\begin{tabular}{rcrc}
+  Turn:          & \scoreline &                &            \\
+  double (12pt): & \scoreline & double (12pt): & \scoreline \\
+  normal (6pt):  & \scoreline & normal (6pt):  & \scoreline \\
+  half (3pt):    & \scoreline & half (3pt):    & \scoreline \\
+  other:         & \scoreline & other:         & \scoreline \\
+  subtotal:      & \scoreline & subtotal:      & \scoreline \\
+  running total: & \scoreline & running total: & \scoreline \\
+\end{tabular}
 
-running total: \_
-
-\hrule{5in}
-
-Faction 2:
-
-double (12pt): \_
-
-normal (6pt): \_
-
-half (3pt): \_
-
-other: \_
-
-subtotal: \_
-
-running total: \_
+\newpage
 
 \section{Camoflaged placement}
 
@@ -74,7 +114,6 @@ Counter number, unit
 This needs to number to about 50.
 
 These counters can be drawn up using Inkscape.
-
 
 
 \end{document}

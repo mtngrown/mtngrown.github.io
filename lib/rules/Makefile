@@ -2,7 +2,7 @@
 .SUFFIXES : .pdf .tex
 
 LATEX=xelatex
-TEXFILES=$(wildcard *.tex)
+#TEXFILES=$(wildcard *.tex)
 PDFS=starforce-simov.pdf\
 		 panzerblitz.pdf\
 		 olympica.pdf\
@@ -14,9 +14,11 @@ PDFS=starforce-simov.pdf\
 
 pdfs: $(PDFS)
 
+#outputs: duel-oob
+
 #PREAMBLE=./preamble.tex
 
-%.pdf: %.tex $(TEXFILES)
+%.pdf: %.tex #$(TEXFILES)
 	$(LATEX) $*
 	$(LATEX) $*
 	$(LATEX) $*

@@ -24,6 +24,9 @@ Once it's set up, this scenario looks pretty grim for the Germans. Hard
 to see how they are going to acheive many victory points, given that
 they're already behind, and have to get far, far ahead.
 
+{:.center}
+![Initial set up for Turn 5](/images/dots_initial.jpg)
+
 ## Highlights
 
 These are some brief notes, don't have time or inclination to do a
@@ -31,11 +34,17 @@ blow-by-blow this evening.
 
 ### Turn 5
 
+Weather: Clear/Normal
+
 Looks very, very grim for the Germans, as nearly all of the
 Russian units activated before any of the German units. Not that
 motivated to write up many details this turn.
 
 ### Turn 6
+
+Weather: Rain/Mud, except I didn't pay any attention at all to the
+weather. I moved everything its full movement allowance, and flew
+sorties. Blunder.
 
 The Germans got lucky twice this turn, by having most of their units
 activated before the Russians got going. Almost turning into IGOUGO.
@@ -55,13 +64,105 @@ Haven't tried it in defense yet.
 
 This game could use some player aids very badly.
 
+And that's it for the evening, will pick up again tomorrow morning.
+
 ### Turn 7
+
+Good morning! Time to return to Duel on the Steppe.
+
+Weather: Clear/Mud.
+
+This time I limited movement to half movement points per the rules.
 
 First: Blunder, got through 7 of 12 activations forgetting about the
 reinforcements!
 
+Here's a breakdown of the activation sequence:
+
+1. 3d TA: Drive SW to attempt to cut off SS supply.
+1. 3d Pz: Encircle Russians near Lisichansk.
+1. SS: Drive east to push Russian line back.
+1. 69th A: Advance west to entrap Cr/Rs.
+1. 40th A: Advance NW to push Cr/Rs into 69th Army.
+1. 40 Pz: Move in on Russian infantry at Karnyi Limon.
+1. AGP: Advance SW to engage 3d Pz, engagement details below.
+1. 48th Pz: Secure Lisichansk.
+1. OKH: Nothing.
+1. 52: Nothing.
+1. 6th A: Retreat NW away from advancing SS.
+
+I may have missed an activation in the list above, but all units either
+moved or fought or both.
+
+#### AGP engages 3d Pz
+
+
+First battle:
+
+|-----------------+------------+-----------------+----------------|
+| Attacking       | from       | to              | Defending      |
+|-----------------|:-----------|:---------------:|---------------:|
+| (3) 7th Ski  XX   | 3327     | 3627            | 333d Inf. XX (7) |
+| (3) 9th Armor XX  | 3327     |                 |                |
+| (3) 11th Armor XX | 3327     |                 |                |
+| (5) 1G/16 Mech XX | 3526     |                 |                |
+|===
+| Odds 14:7 are 2:1
+
+Roll 7, defender retreats 2.
+
+
+Second battle:
+
+|-----------------+------------+-----------------+----------------|
+| Attacking       | from       | to              | Defending      |
+|-----------------|:-----------|:---------------:|---------------:|
+| (9) 4G XXX      | 3525       | 3625            | 901 Lehr III (5) |
+|                 |            |                 | SS Wkg XX (4)  |
+|===
+| Odds 9:9 are 1:1
+
+Defending terrain: across minor river, 1L to 2:3.
+
+Air bids:
+
+|-
+| Attacker | Defender |
+|-
+| +2 CAS   | -1 F     |
+| +1 F     | -1 F     |
+| +1 F     | -2 CAS   |
+
+Roll 2d6, German 12 (!), Russian 7, eliminate 1 air unit, net air -1 DRM.
+
+AGP provides +2 artillery, net DRM +1
+
+Roll 1d6, 7 + 1, `1/R2`, which is a defender elimination on ZOC. Big
+bummer for Germans.
+
+{:.center}
+![ZOC elimination](/images/zoc-elimination.jpg)
+
+That's an alarming looking stack on 3625, consisting of the two German
+units, and all the air and artillery brought to bear on the battle.
+
+According to Section 8.0 of the rules, there is no ZOC negation except
+for tracing supply lines.
+
+In this situation, that means the German units cannot escape north via 7
+Pz. Hence, by the rules, lacking a EZOC-free route to retreat, this unit
+is eliminated.
+
+Note: Stalwart defense wasn't used here, but probably wouldn't have made
+a difference given the R2 result.
+
 ### Turn 8
 
+Weather: Clear/Normal
+
+This turn saw several battles taking out a fair number of units. The
+Germans employed the "backhand blow," without much effect really. They
+weren't positioned correctly to exploit it.
 
 Final score: Russians 22, Germans 24.
 
@@ -76,6 +177,11 @@ hopelessly unbalanced towards the Russians.
 This morning (August 27), I feel much better, and even though the
 Germans are going to lose it very badly, I can almost visualize how they
 could win it. Almost. Enough to inspire me to take on the full campaign.
+
+As in the first game I played (Scenario 1, Turns 1-4), the dual
+activation didn't come into play. There never seems to be any units
+which are not within range of the relevant HQ which don't have a role to
+play as soon as they can be activated.
 
 ### Lessons learned
 
@@ -92,6 +198,11 @@ Another key thing for the Germans is to not get sucked up into fighting
 when it's better to move into defensive terrain. Unfortunately, the
 Russians win by doing nothing, so the Germans *must* find a way to fight
 without losing too many units.
+
+The "backhand blow" probably has to be planned for the whole game, so
+that it can be employed effectively. This would mean a lot of
+positioning for the Germans to get the Russians in a place where it's
+worth using it. In this game, only 2-3 battles in Turn 8 benefitted.
 
 ### Impression of the game
 

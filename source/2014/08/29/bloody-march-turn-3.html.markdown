@@ -15,7 +15,10 @@ Vegas village which is worth 4 VPs.
 
 ## Turn 3
 
-[Stay tuned.]
+Picking up from [Bloody March Turn 2](/2014/07/27/bloody-march-turn-2.html),
+it appears that the FDN is impregnable in their entrenchment at the town
+of Las Vegas, so the FSLN needs to find better hunting elsewhere. For
+example, picking on the out-of-supply Honduran unit CES.
 
 ### FSLN phases
 

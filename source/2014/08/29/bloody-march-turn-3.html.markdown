@@ -111,6 +111,12 @@ every one all the communist attacks.
 This turn took about an hour to play, including the writeup and all
 associated rules lookups.
 
+{:.center}
+![Bloody March end of Turn 3](/images/bloody_march_turn_3.jpg)
+
+Here's what it looks like at the end of Turn 3. Veng is probably out of
+play, it won't be able to get anywhere useful in 2 turns.
+
 
 ## Turn 4
 

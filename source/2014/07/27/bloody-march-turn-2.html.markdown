@@ -5,7 +5,8 @@ tags: central-america, bloody-march
 ---
 
 
-Picking up where we left off a month ago...
+Picking up from [Bloody March Turn
+1](/2014/06/21/bloody-march-first-turn.html)...
 
 ### FSLN phases
 
@@ -129,4 +130,5 @@ knocking at Silca.
 
 Score: FDN 4, FSLN 0.
 
-
+Play continues with [Bloody March Turn
+3](/2014/08/29/bloody-march-turn-3.html).

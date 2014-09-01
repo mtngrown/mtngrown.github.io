@@ -6,7 +6,7 @@ tags: central-america, bloody-march
 
 
 Picking up from [Bloody March Turn
-1](/2014/06/21/bloody-march-first-turn.html)...
+1](/2014/06/29/bloody-march-turn-1.html)...
 
 ### FSLN phases
 

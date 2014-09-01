@@ -18,7 +18,9 @@ entrenched positions, half at Las Vegas, the remaining with the CIA
 helicopters at Silca.
 
 The FSLN has decided this is *most* unsatisfactory, and will attempt to
-dislodge the forces at Silca.
+dislodge the CIA forces at Silca.
+
+This will take more than one turn as 50-02 moves slowly north.
 
 
 ### FSLN phases
@@ -26,86 +28,51 @@ dislodge the forces at Silca.
 
 * Supply: In supply.
 * Regular Ground Unit Movement:
+  * 50-02: from 1909 to 1908
+  * Lopz: from 2208 to 2108
+
 * Insurgency Movement:
-* Insurgency Placement:
-* *Allied Aerial Counterinsurgency*:
-* First Insurgency Disbandment:
-* Air Mission:
-* Ground Combat:
-* Reserve Movement:
-* Second Insurgency Disbandment:
-* Helicopter Transport:
-* Return to Base:
-* Reinforcement:
+  * PVP, Estr from 2208 to 2108
+  * MRH from 2208 to 2007
+  * Pom, Uman from 1909 to 2007
 
+  What FSLN is trying to do here is manage a 1:1 attack which is going
+  to almost certainly cost an insurgency unit, but has a small (1/6) of
+  reducing the defenders by one unit.
 
-### FDN phases
+* First Insurgency Disbandment: None.
 
-* Supply:
-* Ground unit reorganization:
-* Regular Ground Unit Movement:
-* Insurgency Movement:
-* Insurgency Placement:
-* *Allied Aerial Counterinsurgency*:
-* First Insurgency Disbandment:
-* Air Mission:
-* Ground Combat:
-* Reserve Movement:
-* Second Insurgency Disbandment:
-* Helicopter Transport:
-* Return to Base:
-* Reinforcement:
+* Ground Combat: Actually, this is the game, as the defender is in a
+mountain jungle hex, with a ground combat helicopter of AF with column
+shift 1L, and insurgents in the defense. The net result is -2 DRM which
+will be defender retreat at best. There is no possibility of defender
+step reduction.
 
-Score:
+Since I could easily move all FSLN units pretty much out of easy reach of
+FDN, such that if the FDN went chasing one group of commies, the other
+would swoop in and take the position at Silca.
 
-## Turn 5
+Final score: FDN 4, FSLN 1, Marginal Victory for FDN.
 
-[Stay tuned.]
+{:.center}
+![Final configuration at end of FSLN phase, Bloody March Turn
+4](/images/bloody_march_turn_4.jpg).
 
-### FSLN phases
-
-
-* Supply:
-* Ground unit reorganization:
-* Regular Ground Unit Movement:
-* Insurgency Movement:
-* Insurgency Placement:
-* *Allied Aerial Counterinsurgency*:
-* First Insurgency Disbandment:
-* Air Mission:
-* Ground Combat:
-* Reserve Movement:
-* Second Insurgency Disbandment:
-* Helicopter Transport:
-* Return to Base:
-* Reinforcement:
-
-
-### FDN phases
-
-* Supply:
-* Ground unit reorganization:
-* Regular Ground Unit Movement:
-* Insurgency Movement:
-* Insurgency Placement:
-* *Allied Aerial Counterinsurgency*:
-* First Insurgency Disbandment:
-* Air Mission:
-* Ground Combat:
-* Reserve Movement:
-* Second Insurgency Disbandment:
-* Helicopter Transport:
-* Return to Base:
-* Reinforcement:
-
-Final score:
-
-Stay tuned for more articles as these turns are played out.
-
+This is where I called the game. It might have been mildly interesting
+to see whether the FDN could have achieved better than Marginal Victory,
+but it's Labor Day, and I have stuff to do which is more interesting.
 
 ## After Action Report
 
 This was a long adventure for such a short game.
+
+As it turns out, the historical result was a Decisive Victory for the
+FDN forces.
+
+Had this game played out completely, that could have still been a
+possibility. On the other hand, the FSLN forces were in pretty good
+position to repulse attacks, and some bad die rolling could also reduce
+it to a Stalemate.
 
 ### Some thoughts on the game
 
@@ -184,4 +151,4 @@ was published, I don't have any problem suspending disbelief.
 
 In fact, if CA is "fantasy," it's no more or no less fantasy than
 Victory Games popular Fleet series, which clearly (and thankfully!)
-model hypothetical conflicts.
+models hypothetical conflicts.

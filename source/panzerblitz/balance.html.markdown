@@ -45,6 +45,25 @@ side. Should the "stronger" side deploy poorly, the game might well swing
 radically to the "weaker" side's favor.
 
 
+## Adjusting balance to scenario
+
+Out of the box, a case could be made that PanzerBlitz ships with 3 types
+of scenarios: 1. breakthrough (3, 5, 8, 9, 11 & 12), 2. meeting (7, 10),
+3. capture the flag (1), and 4. interference (2, 4, 6).
+
+From both solitaire and face-to-face play of the following scenarios,
+for evenly matched opponents, most of the balance problems can be
+addressed through reasonable adjustments to either order of battle,
+victory conditions, or both.
+
+Note: "evenly matched opponents" is a slightly misleading. In most
+scenarios, one side or the other (usually Russian) will favor poor players.
+That is, if both players are poor, the game will feel very unbalanced.
+With very good players on both sides, a "massively" unbalanced scenario
+may end up being only slightly unbalanced. And in games where the very
+strong player takes the "losing" side against a weak player, the strong
+player will have a good chance of winning.
+
 
 ## Situation #1
 
@@ -218,7 +237,7 @@ stack of German units in a favorable position.
 Situation #3 is a pretty good scenario in one respect: two good players ought
 to be able to produce a draw. The Germans, if they can destroy enough
 H and M, force the Russian infantry to move, which may leave holes in
-their line elsewhere on the map. However, if they don't move that 
+their line elsewhere on the map. However, if they don't move that
 infantry, the Russians risk a German breakthrough.
 
 Hence, a likely outcome is the Russian leaving one or more small holes
@@ -230,7 +249,7 @@ following:
 
 * Marginal German victory: break the Russians defensive line
   in one or more hexes anywhere on the map.
-* Tactical German victory: achieve 3 hex corridor with Russian line 
+* Tactical German victory: achieve 3 hex corridor with Russian line
   intact everywhere else.
 * Decisive German victory: achieve 3 hex corridor and break the Russian
   line in one or more hexes elsehwere.
@@ -607,6 +626,44 @@ up or down will provide a handicap for players with differing levels
 of experience.
 
 ---
+
+## Situation #10
+
+This is another fun scenario featuring a lot of movement and a lot of
+elimination, both features of engagements at Kursk whence the
+inspiration for this scenario was drawn.
+
+
+### Rebalancing
+
+The scenario as it stands right now feels marginally slanted to the
+Russian player. This may be a feature of limiting the German SPA units
+to line-of-sight direct fire.
+
+Again, as with most scenarios involving the German Wespe and Hummel SPA
+units, allowing optional indirect fire and FO support by any German unit
+will change the balance.
+
+### Winning strategy
+
+The Germans need to establish a presence on Board 3 as soon as possible,
+because a competent Russian player will occupied Opustchenia with fire
+support from the JSU-152s. The Germans need to get well onto Board 3
+before the JSUs get emplaced. Further, the Germans need to get to cover
+on the north end of Board 3 to scare away the remaining Russian column,
+which will consist of enough unit to provide decisive victory conditions
+on the Russian's last move at the bottom of Turn 12.
+
+
+### Victory conditions
+
+Depending on how the German SPA rules are employed, adjusting the number
+of Russian units destroyed will go a long way to rebalancing this
+scenario.
+
+
+---
+
 
 ## Situation #12
 

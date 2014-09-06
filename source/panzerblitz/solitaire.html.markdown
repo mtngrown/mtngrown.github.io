@@ -7,7 +7,6 @@ layout: pb
 PanzerBlitz is surprisingly easy to play solitaire, but can be surprisingly difficult
 to "win." It can also be surprisingly fun. Here are a few guidelines:
 
-
 The benefits of playing solitaire are numerous:
 
 1. Clock time is relatively unimportant. Playing through a situation can
@@ -24,8 +23,14 @@ The benefits of playing solitaire are numerous:
    playing very quickly.
 5. Getting familiar with situations at one's leisure really helps game
    play when you have an opponent. The first time setting up a situation
-   is the hardest and takes the longest.
+   is the hardest and takes the longest. For people suffering from an
+   occasional bout of analysis paralysis, suffering through the "set up
+   blues" solitaire means not inflicting them on a live opponent. Plus
+   you might learn a winning advantage.
 
+PanzerBlitz lends itself well to solitaire, as it's challenging to play
+each side to one's best ability, and let the game play dictate the
+"winner."
 
 
 ## How to balance solitaire play
@@ -47,6 +52,11 @@ conscious thought.
   Conversely, suppose the Russians set up first as in Situation #3. Where should the
   Germans attempt to punch through? Throw the dice!
 
+Note that playing solitaire doesn't necessarily imply "evenly matched
+opponents." Some PanzerBlitz scenarios are notoriously difficult for the
+Germans, and for an inexperienced player, will feel highly unbalanced.
+This simply means that the Germans must be played differently than the
+Russians, and that playing the German side well takes some experience.
 
 ## Guidelines for Situations
 
@@ -62,7 +72,7 @@ conscious thought.
    Once a first game is determined, given an identical German
    deployment, further games can have Russians advancing from each
    side subsequently.
-  
+
 1. **Situation #2** After the Russians set up,
    roll d6 to choose which board the Germans enter on.
    It really doesn't make a lot of difference in this situation, as
@@ -78,12 +88,22 @@ conscious thought.
    German player decides to feint, the die should determine to which
    side: even east, west odd.
 
-1. **Situation #4** on hold while finding a long table for playing.
+1. **Situation #4** Very little initial randomization is necessary,
+   which frees a solitaire player to mix up the entry strategy for both
+   German and Russian forces. These initial conditions make Situation #4
+   a pretty good solitaire play.
 
-1. **Situation #5** doesn't present any obvious randomizations.
+1. **Situation #5** doesn't present any obvious Russian randomizations.
    The game could be tilted by assigning numbers to each of the Russian
    units and locations, and enforce random placement, but this is a
-   fair bit of work.
+   fair bit of work. For German strategy, a die roll could determine
+   which of the three viable corridors across Board 1 will be forced
+   (because they *will* have to be forced).
+
+1. **Situation #8** presents three choices for the Russians to cross
+   Board 2: north of Bednost, through Bednost, or south of Bednost.
+   Set up the Germans to protect against any choice, then roll the dice!
+
 
 There are surely more interesting and innovative ways to create
 solitaire playability. Ideas and pointers welcome.

@@ -1,7 +1,7 @@
 ---
 title: StarForce Scenario 1 Tactical combat at Alpha Centauri
 date: 2014-09-05 08:12 PDT
-tags:
+tags: starforce, scenario-1, science-fiction, spi
 ---
 
 
@@ -41,7 +41,7 @@ in stellar mode. The point is probably moot, either way, unless the SH
 does something really stupid (likely!), AC won't have much chance of an
 effective cast.
 
-The stargate can perform up to 16 casts. For this TT1, the stargate will
+The stargate can perform up to 12 casts. For this TT1, the stargate will
 cast 8 points in the 1, 5 and 9 directions, both positive and negative,
 for a total of 48 teles in casting, leaving 16 teles in anti-casting.
 
@@ -75,8 +75,46 @@ Not looking good for the Solar Hegemony.
 
 ### Tac Turn 2
 
+The Alpha Centaurians are off to a commanding lead.
+Let's see how they fare now the Solar Hegemony has its nose
+bloodied.
+
+#### Phase 1
+
+* A: 32T to 240/0
+* J: 56T to 341/-1, 8A.
+* K: 56T to 332/+1, 8A
+* SG20: 64C7p, range 3, roll on the 0 column, no effect.
+
+#### Phase 2
+
+* A: 16C5p, 16C5n (note: this was a blunder. Unlike stargates,
+  starforces are only allowed a single cast per Tac Phase).
+  Casting against J, 16 attenuate to 8 - 8 roll d10 for 9 on
+  the 0 column, D! 10% chance, great lucky roll.
+* SG20: 64C7n, range 3, roll on the 0 column,  no effect.
+
+AC needed the lucky roll on Phase 1 with a followup to Randomize in
+Phase 2. Net result, nothing, as J recovers at the end of Tac Turn 2.
+Solar Hegemony is doing better.
 
 ### Tac Turn 3
+
+Nothing changed in Tac Turn 2.
+
+#### Phase 1
+
+* A:
+* J:
+* K:
+* SG20:
+
+#### Phase 2
+
+* A:
+* J:
+* K:
+* SG20:
 
 ### Tac Turn 4
 
@@ -87,15 +125,33 @@ able to disrupt J or K.
 
 #### Phase 1
 
+J and K both commit: 64T in the appropriate direction of the stargate.
+At range 1, this is 32 + 32 = 64 total on SG20, which now has a choice.
+Technically, SG20 won't know what J and K are committing, if anything,
+but the risk of disruption is high if SG20 doesn't provide any anti-cast
+teles. The options are A64, and less than A64. In this case, let's play
+a hunch that J and K are going to commit, and play the odds with two
+casts, 8C in both directions.
+
+Which is better?
+
 Let's try both and see what happens:
 
 * A64: 64 - 64 = 0, 10% chance of D, roll d10 for 0, no effect.
   However, it turns out a "D" result on a stargate has no effect anyway.
 * A48: 64 - 48 = 12, 30% of an R (see note just above), roll 7, stargate
 is disrupted!
+* SG20 casting to J: on the +4 column roll d10 for 1, no effect, but it doesn't
+matter because J has no more teles to spend in Phase 2.
+* SG20 casting to K: on the +4 column roll d10 for 4, D, but again it doesn't
+matter because K has no more teles to spend in Phase 2.
 
 Now if the SH only had the other two starforces, there would be a chance
 of winning this on Tac Phase 2.
+
+At this point I called the game without starforce A's cast. While A had
+a pretty good chance of randomizing either J or K, it didn't matter for
+this game, at this point.
 
 #### Phase 2
 
@@ -109,6 +165,14 @@ Working through a set of tactical turns was time consuming, with the
 initial tac turn taking several hours of intermittent work. The sequence
 of play isn't that difficult, or long, but it is *different*. Later tac
 turns went much more quickly.
+
+As with many other vintage wargames, there is a certain amount of
+critically important record keeping necessary for game play.
+The Simultaneous Movement (SiMov) ledger is critically important, and
+could be improved. There is no dedicated ledger for
+Tactical Turns, which differ from Stellar Turns just enough to make the
+SiMov ledger annoying to use for tactical combat. A dedicated player
+aid for tactical turn and combat sequencing would be nice as well.
 
 A case could be made that the single Alpha Centauri starforce is already
 in battle mode, instead of having to change modes on Tac Turn 1. It may

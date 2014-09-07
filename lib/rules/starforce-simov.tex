@@ -17,26 +17,39 @@
 \newcommand{\ra}{\rand0.\arabic{rand}}
 
 
-\setlength{\oddsidemargin}{-0.25in}
+\setlength{\oddsidemargin}{-0.75in}
 \setlength{\textwidth}{7.5in}
-\setlength{\topmargin}{-0.5in}
-\setlength{\textheight}{9.0in}
+\setlength{\topmargin}{-0.8in}
+\setlength{\textheight}{10.2in}
 
 
 \begin{document}
 
 \pagestyle{empty}
 
-\def\row[#1]{#1. & 1. & 2. & 3. & 4. & 5. & 6. & 7. & 8.\\[7pt]\hline}
+\def\tl{\underline{\phantom{39}}}
+
+\def\row[#1]{#1. & A & L & A & L & A & L & A & L & A & L & A & L\\[7pt]\hline}
 \def\colwidth{2cm}
-\def\cw{2.02cm}
+\def\cw{2.00cm}
+\def\acw{1.20cm}
+\def\lcw{2.00cm}
 \def\simovcol{p{\colwidth}}
 
 \begin{landscape}
+  \begin{center}
+    \textbf{SPI StarForce `Alpha Centauri' simultaneous movement ledger}
+  \end{center}
+
   \begin{tabbing}
-    \= SPI StarForce `Alpha Centauri' simultaneous movement record. \= Turn(s): \underline{\hspace{2cm}} \=
-    Player: \underline{\hspace{4cm}}
+    \= Game-Turn(s): \underline{\hspace{2cm}} \= Player: \underline{\hspace{4cm}}
+    \= Game: \underline{\hspace{2cm}} \= Date: \underline{\hspace{4cm}}
+
+    \= Phase: \underline{\hspace{2cm}}
+    \= Page \underline{\hspace{1cm}} of \underline{\hspace{1cm}}
   \end{tabbing}
+
+  \vspace{0.5in}
 
   %\footnotesize
   \scriptsize
@@ -44,9 +57,16 @@
   %\begin{tabular}{|\simovcol|\simovcol|\simovcol|\simovcol|\simovcol|\simovcol|\simovcol|\simovcol|\simovcol|}
   %\rowcolors{2}{orangy!25}{white}
   \rowcolors{1}{orangy!10}{white}
-  \begin{tabular}{|p{\cw}|p{\cw}|p{\cw}|p{\cw}|p{\cw}|p{\cw}|p{\cw}|p{\cw}|p{\cw}|}
+  \begin{tabular}{|p{1.7cm}||p{\acw}|p{\lcw}|p{\acw}|p{\lcw}|p{\acw}|p{\lcw}|p{\acw}|p{\lcw}|p{\acw}|p{\lcw}|p{\acw}|p{\lcw}|}
   \hline
-  Initial Location & \multicolumn{8}{|c|}{Action/Location} \\\hline
+    & \multicolumn{12}{|c|}{Action/LiteZulu} \\\hline
+    Initial LiteZulu
+    & \multicolumn{2}{|l|}{Turn:}
+    & \multicolumn{2}{|l|}{Turn:}
+    & \multicolumn{2}{|l|}{Turn:}
+    & \multicolumn{2}{|l|}{Turn:}
+    & \multicolumn{2}{|l|}{Turn:}
+    & \multicolumn{2}{|l|}{Turn:} \\[7pt]\hline
   \row[A]
   \row[B]
   \row[C]
@@ -77,7 +97,10 @@
   \end{tabular}
 }
 
-Creative Commons Licensed. Get the source at \href{http://github.com/mtngrown/consim}{Github}
+\begin{center}
+  \textbf{Creative Commons Licensed. Get the source at
+  \href{http://github.com/mtngrown/consim/blob/master/lib/rules/starforce-simov.tex}{Github}}
+\end{center}
 \end{landscape}
 
 \end{document}

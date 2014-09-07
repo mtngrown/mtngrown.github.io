@@ -16,3 +16,27 @@ misprint "451" on the TD.)
 
 Turn 1 starts in the TD, and more or less defines the entire scenario:
 whoever wins the tactical phase wins the game for Scenario 1.
+
+### Tac Turn 1
+
+### Tac Turn 2
+
+### Tac Turn 3
+
+### Tac Turn 4
+
+
+
+## AAR
+
+The scenario description states that this is not to be considered
+balanced, but I don't think it's that bad. Certainly, had the SH not
+blundered into the stargate casting range quite so early, the outcome
+could have been significantly different.
+
+A case could be made that the single Alpha Centauri starforce is already
+in battle mode, instead of having to change modes on Tac Turn 1. It may
+not really matter, because it's allowed to position itself anywhere in
+the Tac Display, and it won't know which boundary hexes the SH is going to
+occupy. The entering forces will spend the entire tac turn changing
+mode.

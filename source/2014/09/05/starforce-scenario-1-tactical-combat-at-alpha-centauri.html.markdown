@@ -100,21 +100,28 @@ Solar Hegemony is doing better.
 
 ### Tac Turn 3
 
-Nothing changed in Tac Turn 2.
+Nothing changed in Tac Turn 2. Let's see what Tac Turn 3 brings.
 
 #### Phase 1
 
-* A:
-* J:
-* K:
-* SG20:
+* A: 32T to 140/0
+* J: 48T to 150/-1
+* K: 48T to 130/+1
+* SG20, casting:
+  * 32-C-7-n, no effect
+  * 32-C-5-p, no effect
 
 #### Phase 2
 
-* A:
-* J:
-* K:
-* SG20:
+* A: 16-C-11-n
+* J: 8-C-3-p, no effect even combined with K
+* K: 8-C-3-n, no effect
+* SG20, casting:
+  * 16-C-7-n combine with A, disrupt J
+  * 16-C-5-p, no effect
+  * 32A
+
+Upshot: J is disrupted in Phase 2, which doesn't really matter.
 
 ### Tac Turn 4
 

@@ -1,7 +1,8 @@
 ---
 title: Manstein Strikes Back
 date: 2014-08-28 17:25 PDT
-tags: duel-on-the-steppe, manstein, magazine, strategy-and-tactics
+tags: duel-on-the-steppe, manstein, magazine, strategy-and-tactics, zoc, zoc-chess
+mechanics: zoc
 ---
 
 After rotating a number of games on and off the table without even

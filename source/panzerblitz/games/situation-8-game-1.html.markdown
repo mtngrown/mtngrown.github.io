@@ -71,6 +71,11 @@ elements are clear.
 with infantry to follow with CAT if necessary. The engineers will move
 forward to take out the mines in the ford.
 
+* German transport is staged in a rear area until enough cover is
+cleared to allow mounting and transport. This is primarily trucks, the
+halftracks forming a vanguard to rapidly get the infantry into spotting
+positions.
+
 * Russian infantry are deployed along the road to Uschas. While infantry
 is ordinarily slow with 1 MF unmounted, road bonus grants 2 MF. This may
 not seem like much, but when you're a German, and you're stuck in a
@@ -90,8 +95,21 @@ enemy vehicles into the maw of the howitzer lurking in Uschas.
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_north.jpg)
 
+---
+
+Close up of the units deployed around Uschas. This terrain is very
+difficult for vehicles, so the Russians feel comfortable with a nominal
+force to delay while reserve units move up along the western road
+towards Uschas.
+
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_uschas.jpg)
+
+---
+
+The Russians are relying on terrain to discourage German crossing north
+of Hill 135. The gullies cost trucks 5 MF to exit, which adds a turn to
+cross the board compared to crossing the hills to the south.
 
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_marsh.jpg)
@@ -112,8 +130,11 @@ would be positively pestilential to Russian plans.
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_gullies.jpg)
 
-{:.center}
-![FIXME](/images/panzerblitz/sit_8_setup_gullies_2.jpg)
+---
+
+Guards and Submachine gun companies in reserve on western road,
+positioned to support Uschas if necessary. The mortars will harass
+transports attempting to exit across the clear terrain on board 3.
 
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_hill130.jpg)
@@ -147,13 +168,31 @@ mesa, and can move north or south as the situation dictates.
 German infantry and engineers mass at the eastern ford to eliminate
 potential spotting units and remove the mine from the ford.
 
+Armor and infantry will exploit a hole in the Russian line at 1E3 to
+move some infantry in on the ATG at the crossroads.
+
+The ramifications of this is that the ATG at the crossroad is at high
+risk. The Russian recon unit, which is basically doing nothing at 1E4,
+should have been stacked with the ATG at 1J5. On the other hand, the
+Russians can move a rifle company to stack with it.
+
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_middle.jpg)
+
+---
+
+The Russians provide a slightly more than nominal force at Adski, in
+part to slow the Germans down if necessary, and the mortar to harass any
+transports caught out in the open on board 3 as the Germans attempt to
+escape.
+
+Note: the German setup changed after this photo was taken. All the other
+photos have the German positions as was actually played.
 
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_russian_south.jpg)
 
-
+---
 
 Below, you can see the Germans getting ready to exploit a hole in the
 Russian line at hex 1E3, which will put the Germans on the road, in
@@ -162,12 +201,26 @@ cover and unspotted, hence protected against the mortars on Hill 135.
 {:.center}
 ![FIXME](/images/panzerblitz/sit_8_setup_south.jpg)
 
+---
 
+Closer look at the German initial position after setting up. The game is
+now ready to play.
+
+{:.center}
+![FIXME](/images/panzerblitz/sit_8_setup_german_details.jpg)
+
+---
+
+Creating all these photos is time consuming, but it's really handy to
+have a record for future reference.
 At some point, I'll start using VASSAL. Currently, it puts too much of
 a load on my system to be comfortable to use.
 
+Situation #8 is set up, let's play PanzerBlitz.
 
 ## Turn 1
+
+
 
 ## Turn 2
 
@@ -198,8 +251,30 @@ minutes *after* the Russians are finished. These set up times decrease
 with experience, and with multiple plays of the scenario.
 
 
+### Fire record
+
+This is probably not the complete fire record, but it's some of it.
+
+{:.center.fire-record}
+turn | firing | from | to   | target | type | range | odds | results
+    -|-      -|-    -|-    -|-      -|-    -|-     -|-    -|-
+   1 |    G42 |  2D4 |  2K2 |   R953 |    D |  7    |  2:1 | D
+
+
 ### Blunders
 
+Russians did not use their position well:
+
+* The howitzer should bracket, one in Uschas or similar northern
+emplacement, the other on the south side of the board. With range 20,
+each can fire on enemy on their half of the fighting ground, while
+overlapping to some extent in the middle. Having the howitzer at 1N6 is
+relatively ineffective in the early game. (It may come in to play in the
+later game.)
+
+* Leaving a hole at 1E3.
+
+* Not reinforcing the crossroad at 1J5 with that spare Recon unit.
 
 ### Mine and block placement
 

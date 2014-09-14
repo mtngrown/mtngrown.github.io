@@ -147,7 +147,7 @@ In the meantime, it will help me master the game board.
 turn | firing | from |     to    | target | type | range | odds | results
  -|-    -|-    -|-    -|-     -|-   -|-  -|-    -|-
 2 |  G42 |  2D4 |  2K2 |  R953 |   D |  7 |  2:1 | D
-2 |  G31 |  2H7 |  2G1 |  R933 |   D |  6 |  1:1 | D 
+2 |  G31 |  2H7 |  2G1 |  R933 |   D |  6 |  1:1 | D
 2 | G183 |  2H7 |  2I6 |  R145 | CAT |  1 |  1:3 | D
 
 

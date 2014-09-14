@@ -17,8 +17,13 @@ game play, and would certainly go a long way towards explaining why the
 Germans never even got halfway across board one in 8 turns, much less
 off Board 3 in 10 turns.
 
+Of course, it didn't help that my opponent got *very* lucky on a die
+roll and took out a stack of AFVs which I negligently left exposed.
+That and a CAT taking out a stack of PzKpfw IVs in a later turn
+(but that was a calculated risk, which I lost.)
+
 Hopefully, in this solo game, I'll be able to figure out what went wrong
-in that game.
+in that game. Or not.
 
 ## Setting up
 
@@ -46,7 +51,19 @@ limiting call for fire onto a single target per (6 minute) turn, or 2.
 adding a clause to indirect fire rules increasing the amount of drift
 on each target when a CP is calling fire on more than one target.
 
-German indirect fire will be similar.
+German indirect fire will follow optional indirect fire rules
+as defined in \S 10.1.
+
+### Initial position
+
+Here's the eagle eye view:
+
+{:.center}
+![Initial positions for Situation #8](/images/pb_situation_8_setup.jpg)
+
+The image is muddy due to low light and iPhone camera, but the basic
+elements are clear.
+
 
 ## Turn 1
 
@@ -71,8 +88,16 @@ German indirect fire will be similar.
 
 ## AAR
 
+The first thing to note is that this situation can take quite a while
+for the Russian player to set up. For a first time player, budget an
+hour for the Russian. It's almost guaranteed analysis paralysis.
+The German play will also need some time to set up, probably about 30
+minutes *after* the Russians are finished. These set up times decrease
+with experience, and with multiple plays of the scenario.
+
 
 ### Blunders
+
 
 ### Mine and block placement
 

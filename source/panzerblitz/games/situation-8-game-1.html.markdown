@@ -220,11 +220,78 @@ Situation #8 is set up, let's play PanzerBlitz.
 
 ## Turn 1
 
+Germans move first, and will swing around to the south to
+1. open a lane for the trucks to get through, and 2. cut off
+infantry reinforcements moving north.
 
+Here's the end of the German phase:
+
+{:.center}
+![FIXME](/images/panzerblitz/pb_g_1.jpg)
+
+And already I'm breaking or at least bending the rules by
+having stacked armor on the road in the forest. Stacking
+on roads is fine as long as the surrounding terrain costs
+are paid for movement. In this case, the surrounding terrain
+is "impassable" due to solid green hex sides.
+
+I think I'm going to disallow this in the future, along with
+writing up a rules summary with examples.
+
+Here's the end of the Russian phase:
+
+{:.center}
+![FIXME](/images/panzerblitz/pb_r_1.jpg)
+
+And that's it for Turn 1.
 
 ## Turn 2
 
+And once again, the Germans are in a bind because they can't call for
+fire to handle the Russian infantry. Neither of the CPs are in LOS of
+anything useful, and it's going to take several turns to get them moved
+and emplaced somewhere safe.
+
+Fire results were disappointing, the fortification yeilded a No Effect.
+The die rolled 5, which would have been a 6 accounting for forested
+terrain, which would have been nothing even at 3:1 instead of 2:1 odds.
+
+Basically, in addition to the infantry, these 8 fortifications,
+emplaced on forested hilltops, are pretty much invulnerable.
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/sit_8_g_2.jpg)
+
+
+The Russians have to kill German units to win, though, and the Germans
+can make that pretty hard. So far, the best the Russians are doing is
+dispersing, which isn't going to be enough.
+
+The Germans could probably play hide-and-seek with the infantry and CPs,
+and get the armor off the board for a win. Would be tough to get any of
+the infantry off now, since it's all dismounted.
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/sit_8_r_2.jpg)
+
+On to Turn 3.
+
 ## Turn 3
+
+Germans a few potshots, nothing exciting happened other than the mine
+finally cleared, which allowed the Germans to bring up a CP. This is
+going to be really useful. Necessary in fact.
+
+Didn't record fire for this turn. Having failed a 4:1 on a Russian rifle
+company in the forest was really disappointing. That unit it clogging up
+the works. The Germans have to go back and forth between keeping an
+advance, versus clearing out the rear area to allow transport to move
+forward.
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/sit_8_g_t3.jpg)
+
+The Russians now have a lot of targets.
 
 ## Turn 4
 
@@ -250,6 +317,15 @@ The German play will also need some time to set up, probably about 30
 minutes *after* the Russians are finished. These set up times decrease
 with experience, and with multiple plays of the scenario.
 
+Another thing I'm sure of now, from this game, is that I'm at least very
+slightly biasing the game play for some of these games. It doesn't feel
+overt. It seems to come out as unconscious leaning toward to making one
+side or another have small advantages, which add up. A general example
+might be making a sub par move, or not firing on an appropriate target.
+I won't see these until after the turn finishes.
+
+I think the effect comes from focusing on playing one side really,
+really well, while just not thinking about the other side.
 
 ### Fire record
 
@@ -273,8 +349,11 @@ relatively ineffective in the early game. (It may come in to play in the
 later game.)
 
 * Leaving a hole at 1E3.
-
 * Not reinforcing the crossroad at 1J5 with that spare Recon unit.
+
+German blunders include not getting a CP way forward into cover and
+defensible terrain. On the south edge of Board 1, this means Hill 126
+east of Adski.
 
 ### Mine and block placement
 

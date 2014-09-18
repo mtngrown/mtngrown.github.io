@@ -291,7 +291,43 @@ forward.
 {:.center}
 ![FIXME](/images/panzerblitz/situation-8/sit_8_g_t3.jpg)
 
-The Russians now have a lot of targets.
+The Russians now have a lot of targets. In fact, to Germans great
+chagrin, all 3 mortars can fire on a stack of German infantry at 3:1
+odds, which is 2/6 chance of outright kill, and another 2/6 chance of
+getting a dispersal. With a kill, the rifle company can advance to
+close assault the Wespe.
+
+Once again, I am have severe difficulties employing the German SPA
+effectively.
+
+First up the long range mortars to support the units guarding the
+intersection. I made a huge blunder here as the Russian by combining
+my fire for a single roll at 3:1 when I could have had 3 rolls at 3:1
+with 1/3 chance of eliminating on each roll. Of course, the combined
+attack gave 1/3 chance of eliminating the whole stack, which would have
+allowed the Russian infantry to advance up the lane. Had it succeeded,
+as noted above, this could have been a game-breaker for the Germans.
+By failing, it's probably not a game breaker for the Russians, but it
+won't make it any easier to halt the Germans.
+
+{:.center.fire-record}
+turn | firing | from | to   | target | type | range | AF | DF | odds | drm | roll | result
+    -|-      -|-    -|-    -|-      -|-    -|-     -|-  -|-  -|-    -|-   -|-    -|-
+  R3 |    R92 |  1M4 |  1I3 |  G157  |  ID  |  4    | 24 | 8  |      |     |      |
+     |    R93 |  1Q7 |  1I3 |  G158  |  ID  |  8    | 24 | 8  |      |     |      |
+     |    R91 |  1P7 |  1I3 |  G159  |  ID  |  7    | 24 | 8  |      |     |      |
+     |        |      |      |        |      |       | 72 | 24 | 3:1  | +1  |  6   | NE
+
+Much more fire and close assaulting occurred. The new record sheet I
+created will be handy. In the meantime, using a legal pad to keep track
+of firing works really well.
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/sit_8_r_t3.jpg)
+
+The Russians didn't do that well on their combat, but the dispersals
+they got can only help slow down the German advance.
+
 
 ## Turn 4
 
@@ -318,14 +354,18 @@ minutes *after* the Russians are finished. These set up times decrease
 with experience, and with multiple plays of the scenario.
 
 Another thing I'm sure of now, from this game, is that I'm at least very
-slightly biasing the game play for some of these games. It doesn't feel
+slightly biasing the game play for some of these solo games. It doesn't feel
 overt. It seems to come out as unconscious leaning toward to making one
 side or another have small advantages, which add up. A general example
 might be making a sub par move, or not firing on an appropriate target.
 I won't see these until after the turn finishes.
 
 I think the effect comes from focusing on playing one side really,
-really well, while just not thinking about the other side.
+really well, while just not thinking about the other side. The Russian
+phase in Turn 3 illustrates this perfectly. My focus was on getting the
+Germans positioned to clear a lane, with a result of being horribly
+exposed.
+
 
 ### Fire record
 

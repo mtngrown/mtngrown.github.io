@@ -317,6 +317,10 @@ turn | firing | from | to   | target | type | range | AF | DF | odds | drm | rol
      |    R93 |  1Q7 |  1I3 |  G158  |  ID  |  8    | 24 | 8  |      |     |      |
      |    R91 |  1P7 |  1I3 |  G159  |  ID  |  7    | 24 | 8  |      |     |      |
      |        |      |      |        |      |       | 72 | 24 | 3:1  | +1  |  6   | NE
+|-
+     |    R31 |  1B6 |  1F4 |  G932  |   D  |  4    | 12 | 8  | 1:2  | +1  |  5   | NE
+     |    R35 |  1J5 |  1J4 |  G143  |   D  |  1    | 12/2 | 8| 1:2  | +1  |  2   | NE
+     |   R146 |  1G2 |  1F3 |  G931  | CAT  |  1    | 5    | 8| 1:2  | +1  |  4   | NE
 
 Much more fire and close assaulting occurred. The new record sheet I
 created will be handy. In the meantime, using a legal pad to keep track
@@ -331,7 +335,50 @@ they got can only help slow down the German advance.
 
 ## Turn 4
 
+Enough of the detailed game play for now! Compared to my first efforts
+back in Situation #1, I'm doing much, much better at describing game
+play. I'll have to replay some of those early games with the attention
+to detail I'm demonstrating here. But for now, I want this off the table
+in favor of a third game of StarForce exploring Scenario 3.
+
+Also, to be perfectly truthful, I'm a bit bored with the game at this point.
+All the photos and notes are a lot of work, without a clear payoff.
+Simply finishing this game has a great payoff: I can start another game!
+
+Turn 4 opens with a couple of not unlucky 4:1 +1 drm shots from the
+artillery to take out Russian infantry. It would have really hurt if I'd
+rolled a 6 on either shot. Now it's time to move, and I'm not sure
+exactly what I want to do yet. I've just figured out the the Russian
+tanks could go romping around in the German rear area, so I better
+ensure they don't get there. On the other hand, I want to ensure I get
+some protection forward to gain ground. At the moment, it's about to
+turn into a slug fest south of Hill 135.
+
+Unfortunately, the not unlucky artillery shots have been followed up
+with some definitely unlucky CATs: total whiff on all of them.
+
+Time for the Russians...and let's try writing out by phases. Haven't
+done this for PanzerBlitz yet.
+
+*Fire determination and resolution*: 5 attempts: the 2 76.2 ATGs each take a shot at PzKpfw
+IVs at 1:2, scoring a D on one for their efforts. The 3 120mm mortars take
+another shot at the stack of German rifles at 4:1, and get an X; that's 3 units
+for the Russians. The two SU-85s take 1:2  shots on the PzKpfws lurking
+on the ridge east of Hill 135, score a D for their efforts. In all, not
+bad results.
+
+The actual phasing is defined by calling the shots, then resolving each
+one. I wrote them up together, above, to make it easier to read.
+
+*Vehicle movement* none, the SU-85s both fired.
+
+*Leg and CAT*: 4 attempts, managed one dispersal of a stack of Panthers
+at the south end of the Lane of Tears at 1:3 (11:32) odds. Not too bad,
+could have been better.
+
+
 ## Turn 5
+
 
 ## Turn 6
 
@@ -365,17 +412,6 @@ really well, while just not thinking about the other side. The Russian
 phase in Turn 3 illustrates this perfectly. My focus was on getting the
 Germans positioned to clear a lane, with a result of being horribly
 exposed.
-
-
-### Fire record
-
-This is probably not the complete fire record, but it's some of it.
-
-{:.center.fire-record}
-turn | firing | from | to   | target | type | range | odds | results
-    -|-      -|-    -|-    -|-      -|-    -|-     -|-    -|-
-   1 |    G42 |  2D4 |  2K2 |   R953 |    D |  7    |  2:1 | D
-
 
 ### Blunders
 

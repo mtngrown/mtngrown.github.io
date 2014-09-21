@@ -570,6 +570,11 @@ More balancing ideas
 * Reduce the number of guards units by 2 or 3
 * Allow the German player "perfect information" on where units are
   positioned, that is, examine stacks and what's under forts.
+* Reduce the number of 122mm howitzers to one, which changes how the
+  Russians can set up fields of fire.
+* Add a Hummel to the German line up. Even 2 hummels is only 2:1 odds on
+  a fortification, with no chance of elimination if the fortification is
+  in the woods.
 
 ### Winning strategy
 
@@ -584,10 +589,19 @@ the infantry.
 
 ### Victory conditions
 
+A marginal victory for the Germans is exiting 30 units from Board 3.
+That's really quite a lot, and it makes one wonder exactly what rules
+were being played when the scenarios were written. Certainly with the
+current rule set, a competent Russian player should be able to prevent
+nearly all the German units from exiting, other then perhaps armor which
+can make a mad dash across the board.
+
 As in other scenarios requiring exiting units from the board to
 determine victory levels, the number of units required to leave can be
 adjusted up or down. Alternatively, the number of turns can be increased
-or reduced.
+or reduced. In this case, cutting the units at each level in half
+(rounding up) might be a good place to start.
+
 
 ---
 

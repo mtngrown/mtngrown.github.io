@@ -440,26 +440,146 @@ green bar intervening from one the possible paths traced through hexes.
 {:.center}
 ![FIXME](/images/panzerblitz/situation-8/atg_los.jpg)
 
+It's not just "panzerbush," it's "panzerslope" as well.
 
-**Fire determination & resolution**:
+**Fire determination & resolution**: Russians have 2 direct fire shots.
+First is using heavy mortars on the SG-III on the slope at 3:1. The second is
+the ATG R31 on G931 at 1:1 (12:8). For the first, roll 2 for
+elimination, about time! Second, roll 5 which is a miss.
 
-**Vehicle movement & overrun**:
+**Vehicle movement & overrun**: The SU-85s need to find a way to pick
+off the Germans as they cross the Plains of Despair. Might be a good
+time to decamp to Zabvenia, just to cost the Germans an extra turn.
 
-**Leg and CAT**:
 
-**Dead pile**: German ?, Russian ?, 1 mine removed.
+**Leg and CAT**: The first CAT on the panzers failed, a second on some
+halftracks succeeded. Leg units need to move due south to
+attempt to block movement onto the Plains.
+
+**Dead pile**: German 4, Russian 8, 1 mine removed.
 
 Half done!
 
 ## Turn 6
 
+It would be hard for the Russians to get a decisive victory at this
+point, but it's probably just as hard for the Germans to get a marginal
+victory, which is 30 units off Board 3.
+
+**Fire determination and resolution**: Had to use barrage fire to take
+out one of the fortifications. Very chancy stuff, 1/6 chance I would
+have burned out the artillery for nothing. I've gotten lucky this game
+on the dice. This will be helpful having one of the heavy mortars gone.
+I'm now thinking I'd have spent the barrage more effectively by taking
+out the CP, if I had only had a CP in line of sight for spotting.
+
+**Vehicle movement & overrun**: at this point, I can't really hide any
+more, and I'm going to have to make a run for the border. It's almost
+attritional, I'm going to lose as many units per turn as the Russians
+have guns. For sure, 3 units per turn, and there are 5 fire turns left
+for the Russians. However, I'm leaving the Hummel behind, and the SG-III
+75s to pester the Russian fortified CP. It may have been a mistake to
+have moved the Wespe so far forward.
+
+**Infantry & CAT**: Infantry is mounting up this turn. Too close to the
+end of the game to do anything else.
+
+
+Now for the Russians...
+
+**Fire determination**: Only two good targets available, strangely
+enough, the PzKpfw on the slope which can be dealt with by the 122mm
+howitzer (finally), and the AFVs threatening the CP on Hill 135.
+
+**Fire resolution**: For the mortars, 4:1 in woods, roll 5 for
+elimination. For the howitzer, 2:1 (40/2):8, roll 3, dispersed.
+
+**Vehicle movement & overrun**: SU-85s roll into Zabvenia.
+
+**Infantry movement & CAT**: The infantry is moving in a pincer
+formation to squeeze from both the north and the south. If the Germans
+are a little bit lucky, they will squirt out like a watermelon seed,
+but it will be costly. 2 CATs available, one from the north on
+halftrack, the other from the south on AFVs. Both succeed in dispersals,
+which is Bad News for Jerry.
+
+**Dead pile**: German 8, Russian 9, 1 mine removed.
+
 ## Turn 7
+
+German:
+
+**Fire determination**:
+
+**Fire resolution**:
+
+**Vehicle movement & overrun**:
+
+**Infantry movement & CAT**:
+
+Russian:
+
+**Fire determination**:
+
+**Fire resolution**:
+
+**Vehicle movement & overrun**:
+
+**Infantry movement & CAT**:
+
+**Dead pile**: German ?, Russian ?, 1 mine removed.
 
 ## Turn 8
 
+**Fire determination**:
+**Fire resolution**:
+**Vehicle movement & overrun**:
+**Infantry movement & CAT**:
+
+**Fire determination**:
+**Fire resolution**:
+**Vehicle movement & overrun**:
+**Infantry movement & CAT**:
+
+**Dead pile**: German ?, Russian ?, 1 mine removed.
+
 ## Turn 9
 
+**Fire determination**:
+**Fire resolution**:
+**Vehicle movement & overrun**:
+**Infantry movement & CAT**:
+
+**Fire determination**:
+**Fire resolution**:
+**Vehicle movement & overrun**:
+**Infantry movement & CAT**:
+
+**Dead pile**: German ?, Russian ?, 1 mine removed.
+
 ## Turn 10
+
+German:
+
+**Fire determination**:
+
+**Fire resolution**:
+
+**Vehicle movement & overrun**:
+
+**Infantry movement & CAT**:
+
+Russian:
+
+**Fire determination**:
+
+**Fire resolution**:
+
+**Vehicle movement & overrun**:
+
+**Infantry movement & CAT**:
+
+**Dead pile**: German ?, Russian ?, 1 mine removed.
 
 
 ## AAR
@@ -508,7 +628,11 @@ Having the howitzer at 1N6 is relatively ineffective in the early game.
 
 German blunders include not getting a CP way forward into cover and
 defensible terrain. On the south edge of Board 1, this means Hill 126
-east of Adski.
+east of Adski. That would have been pretty tough, to be sure.
+
+Barrage fire took out a fortification with a mortar. It would have been
+better to spend those tubes on a Russian CP.
+
 
 ### Mine and block placement
 
@@ -518,6 +642,20 @@ east of Adski.
 Tipping it in the German favor may only require removing one of the
 122mm howitzers. These are so important for wearing away at the Germans
 that losing even one will have an effect.
+
+One or more of the fortifications could be removed from the OOB, which
+would force the Russian player into even more of a defensive posture,
+and would change how fields of fire were established. Currently, the
+fortifications at DF 50 on top of hills are for the most part
+impregnable. A one shot elimination is not guaranteed when they're in
+wooded hexes, and in the worst case, with unit firing from below the
+hilltop, attack factors would need to total between 100 and 200 to get a
+5/6 chance of elimination. CAT atacks just can't muster enough AF
+fighting uphill.
+
+What would be better here would be a range of fortification strength
+from, say, 20 to 50, where the Russian player could choose which
+locations got the strongest fortifications.
 
 On the German side, remove one or more of the light SPAs, either the
 StuH 42 or the GW 38(M). These guns don't have a lot of power or range,

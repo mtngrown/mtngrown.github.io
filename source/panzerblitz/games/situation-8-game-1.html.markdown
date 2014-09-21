@@ -376,9 +376,54 @@ one. I wrote them up together, above, to make it easier to read.
 at the south end of the Lane of Tears at 1:3 (11:32) odds. Not too bad,
 could have been better.
 
+*Dead pile*: Germans 3, Russians 5, 1 mine removed.
+
+Almost half done with this game.
 
 ## Turn 5
 
+The Germans still have a rough way to go, but with a couple of lucky
+rolls behind them, a few more lucky rolls might just see enough units
+off the Plains of Despair to acquire at least a draw.
+
+**Fire determination and resolution**: The Hummel and StuH-42 (14-H-10)
+take out a Guard unit with 5/6 chance; I've been really unlucky with
+these types of shots. Panther takes on a rifle company, roll 1,
+dispersed! No effect for SG-III 75 shooting at SU-85 on the hills.
+German mortar on Hill 132 disperse a guards unit, critically important
+as this unit is about to get overrun as well, and every little bit
+helps.
+
+
+**Vehicle movement & overrun**: First up, the PzKpfw overruns
+the just now dispersed guards unit, elimination on roll 1. Overkill, but
+why take chances with Russian infantry? The second CP moves up with the
+Wespe, risking a CAT, but in the woods, this would only be a dispersal
+at worst, and then only if the SMG unit which is adjacent isn't
+eliminated or dispersed.
+
+**Leg and CAT**: The engineers are finally in play, moving a 1:1 on the
+SMG in the woods to a 2:1, with a roll of 2 that's an elim, and the CP
+and Wespe are safe for at least Turn 6. The Germans have been hitting
+some good rolls. Helps to be lucky.
+
+I wasn't going to post any more photos of the game, but this situation
+at the end of the German phase was too good to pass up:
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/sit_8_g_t5.jpg)
+
+The Russians can still do a lot of damage to the Germans, and the
+Germans have a long way to go to get across the Plains of Despair, and
+an increasingly shorter time in which to cross.
+
+However, the Russians might be in a bit of trouble here. They're losing their
+infantry to heavy artillery, CATs and overruns. This is not good.
+
+
+**Dead pile**:
+
+Half done!
 
 ## Turn 6
 
@@ -417,12 +462,12 @@ exposed.
 
 Russians did not use their position well:
 
-* The howitzer should bracket, one in Uschas or similar northern
-emplacement, the other on the south side of the board. With range 20,
-each can fire on enemy on their half of the fighting ground, while
-overlapping to some extent in the middle. Having the howitzer at 1N6 is
-relatively ineffective in the early game. (It may come in to play in the
-later game.)
+* The 122mm howitzer should bracket, one in Uschas or similar northern
+emplacement, the other on the south side of the board in the woods on
+Adski Hill (126). With range 20, each can fire on enemy on their half
+of the fighting ground, while overlapping to some extent in the middle.
+Having the howitzer at 1N6 is relatively ineffective in the early game.
+(It may come in to play in the later game.)
 
 * Leaving a hole at 1E3.
 * Not reinforcing the crossroad at 1J5 with that spare Recon unit.
@@ -435,3 +480,12 @@ east of Adski.
 
 
 ### Handicapping
+
+Tipping it in the German favor may only require removing one of the
+122mm howitzers. These are so important for wearing away at the Germans
+that losing even one will have an effect.
+
+On the German side, remove one or more of the light SPAs, either the
+StuH 42 or the GW 38(M). These guns don't have a lot of power or range,
+but since they're howitzers, they get full AF on soft targets. That's a
+big deal and can tip odds a full column right.

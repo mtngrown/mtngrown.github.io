@@ -418,10 +418,36 @@ Germans have a long way to go to get across the Plains of Despair, and
 an increasingly shorter time in which to cross.
 
 However, the Russians might be in a bit of trouble here. They're losing their
-infantry to heavy artillery, CATs and overruns. This is not good.
+infantry to heavy artillery, CATs and overruns. This is not good. And
+it's not good that the Russians just don't have that much effective fire
+this turn. For example, neither howitzer has any high value targets.
+
+For example, R71 (pink die showing 2 pips) really wants to combine fire
+onto the stack of SG-III 75s (G823, pink die showing single pip) on the
+nearby hillside to the south, but technically has no line of site. It's
+blocked by the forest green bar hex side.
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/howitzer_los.jpg)
+
+Further south, the ATG R36 (red die, 2 pips) wants to fire on G931 (red
+die, 1 pip), but there is an intervening brown bar hillside closer to
+G931 than R36; no LOS. One the other hand, R31 can fire on G931, but
+probably not on G938. The optional rule allowing hex centers to
+determine LOS could allow firing, while the standard rule would find a
+green bar intervening from one the possible paths traced through hexes.
+
+{:.center}
+![FIXME](/images/panzerblitz/situation-8/atg_los.jpg)
 
 
-**Dead pile**:
+**Fire determination & resolution**:
+
+**Vehicle movement & overrun**:
+
+**Leg and CAT**:
+
+**Dead pile**: German ?, Russian ?, 1 mine removed.
 
 Half done!
 
@@ -457,6 +483,14 @@ really well, while just not thinking about the other side. The Russian
 phase in Turn 3 illustrates this perfectly. My focus was on getting the
 Germans positioned to clear a lane, with a result of being horribly
 exposed.
+
+If I haven't written it elsewhere, I'm not inclined to argue much about
+rules, even when I know I'm citably correct. Basically, if someone wants
+to dispute a rule or LOS or a movement, I'll geneconcede. I'll do
+this both on the player's and my turn, and allow the opponents to
+interpret as they see fit, to my disadvantage. When I'm playing myself
+in a solitaire game, I'm much more strict.
+
 
 ### Blunders
 

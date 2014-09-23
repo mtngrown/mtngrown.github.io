@@ -507,27 +507,36 @@ which is Bad News for Jerry.
 
 ## Turn 7
 
+It's appearing that moving the Wespe forward is a blunder. It's just not
+getting that many shots off.
+
 German:
 
-**Fire determination**:
+**Fire determination**: Hummel took at a rifle company, another rifle
+dispersed.
 
-**Fire resolution**:
+**Vehicle movement & overrun**: Mostly mounting up infantry and moving
+everything as far forward as possible to stay away from oncoming Russian
+infantry. Huge traffic jam in the pass south of Hill 135. Let's call it
+the Pass of Doom.
 
-**Vehicle movement & overrun**:
-
-**Infantry movement & CAT**:
+**Infantry movement & CAT**: almost all mounting up.
 
 Russian:
 
-**Fire determination**:
+**Fire determination & resolution**: 3 shots: 1 miss, and two dispersals.
 
-**Fire resolution**:
+**Vehicle movement & overrun**: Nothing to move.
 
-**Vehicle movement & overrun**:
+**Infantry movement & CAT**: Spectacular CAT disperses stack of panzers
+in by the Lane of Tears. One or two more infantry units will be able to
+CAT next Russian move, might be the end of that stack. But the panzers
+served their purpose by soaking up infantry attention.
 
-**Infantry movement & CAT**:
+**Dead pile**: German 10, Russian 11, 1 mine removed.
 
-**Dead pile**: German ?, Russian ?, 1 mine removed.
+Game will play out fast now.
+
 
 ## Turn 8
 

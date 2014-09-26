@@ -540,17 +540,34 @@ Game will play out fast now.
 
 ## Turn 8
 
-**Fire determination**:
-**Fire resolution**:
-**Vehicle movement & overrun**:
-**Infantry movement & CAT**:
+The Germans are going to make a run for it! Nothing else they can really
+do. It's a sure loss if they stay and fight, no matter how many Russians
+they kill.
 
-**Fire determination**:
-**Fire resolution**:
-**Vehicle movement & overrun**:
-**Infantry movement & CAT**:
+**Fire determination & resolution**: Germans dispersed guards unit on slope,
+handy. Hummel proves its worth. Wespe didn't fire.
 
-**Dead pile**: German ?, Russian ?, 1 mine removed.
+**Vehicle movement & overrun**: Now it's a nasty slog through the Pass
+of Doom to a mad dash across the Plains of Despair.
+
+**Infantry movement & CAT**: Might leave back a mortar unit for the odd
+AF or so, not sure yet.
+
+Russian:
+
+**Fire determination & resolution**: Lots and lots of targets! 7 shots:
+5 eliminations, 2 dispersals. Some of the kills were transport, which
+hurts double.
+
+**Vehicle movement & overrun**: none.
+
+**Infantry movement & CAT**: Moving the mortars towards Opustschenia to
+rain some long range death on trucks. Guards and friends continue to
+pester a stack of panzers along the Lane of Tears. Can't go wrong with a
+roll of 1 in PanzerBlitz.
+
+**Dead pile**: German 17, Russian 10, 1 mine removed. This doesn't
+count removing the Russian fortification, but it should.
 
 ## Turn 9
 
@@ -623,7 +640,11 @@ in a solitaire game, I'm much more strict.
 
 ### Blunders
 
-Russians did not use their position well:
+What a brutal game. It took two or three weeks to get through. In part
+because I'm busy at work, but also because I made a determined effort to
+have a good showing for the Germans.
+
+Russians did not use their position as well as they could have:
 
 * The 122mm howitzer should bracket, one in Uschas or similar northern
 emplacement, the other on the south side of the board in the woods on
@@ -637,7 +658,8 @@ Having the howitzer at 1N6 is relatively ineffective in the early game.
 
 German blunders include not getting a CP way forward into cover and
 defensible terrain. On the south edge of Board 1, this means Hill 126
-east of Adski. That would have been pretty tough, to be sure.
+east of Adski. That would have been pretty tough, to be sure, but would
+have been a serious threat to the Russians.
 
 Barrage fire took out a fortification with a mortar. It would have been
 better to spend those tubes on a Russian CP.

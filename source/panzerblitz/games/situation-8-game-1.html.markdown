@@ -571,17 +571,25 @@ count removing the Russian fortification, but it should.
 
 ## Turn 9
 
-**Fire determination**:
-**Fire resolution**:
+
+German strategy for Turn 9 is just run, run, run. Not even going to
+bother firing. Except for the Hummel which fired on a guards unit and
+missed.
+
 **Vehicle movement & overrun**:
+
 **Infantry movement & CAT**:
 
-**Fire determination**:
-**Fire resolution**:
-**Vehicle movement & overrun**:
-**Infantry movement & CAT**:
+Russians can just fire and fire and fire. They're looking at a tactical
+victory almost surely, and with good rolling, a decisive is not out of
+the question.
 
-**Dead pile**: German ?, Russian ?, 1 mine removed.
+The Russians fired 7-8 times and hit every time, mostly kills. Lots of
+1s and 2s on the dice. Bummer for the Germans.
+
+**Dead pile**: German 29, Russian 11, 1 mine removed. And I am counting
+the fortification because it soaked up a lot of time to remove.
+
 
 ## Turn 10
 

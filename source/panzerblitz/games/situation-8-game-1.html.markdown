@@ -593,27 +593,23 @@ the fortification because it soaked up a lot of time to remove.
 
 ## Turn 10
 
-German:
+Germans get 9 units off the map, with most of the rest exposed,
+including panzers with a 4:1 sure kill, so it's done for me. The
+Russians got their 30 for the decisive.
 
-**Fire determination**:
 
-**Fire resolution**:
+Russian had at least 1 sure kill at 4:1, so I didn't bother moving all
+the German units, just enough to ensure I had as much of the game to get
+decisive victory for the Russians.
 
-**Vehicle movement & overrun**:
 
-**Infantry movement & CAT**:
+**Dead pile**: German 30+, Russian 11, 1 mine removed.
 
-Russian:
+Germans: 9 units exits.
 
-**Fire determination**:
+Russians: 30+ German units eliminated.
 
-**Fire resolution**:
-
-**Vehicle movement & overrun**:
-
-**Infantry movement & CAT**:
-
-**Dead pile**: German ?, Russian ?, 1 mine removed.
+Decisive Russian victory. Not even close.
 
 
 ## AAR

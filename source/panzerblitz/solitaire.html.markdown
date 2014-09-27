@@ -100,10 +100,19 @@ Russians, and that playing the German side well takes some experience.
    which of the three viable corridors across Board 1 will be forced
    (because they *will* have to be forced).
 
-1. **Situation #8** presents three choices for the Russians to cross
+1. **Situation #6** presents three choices for the Russians to cross
    Board 2: north of Bednost, through Bednost, or south of Bednost.
    Set up the Germans to protect against any choice, then roll the dice!
 
+1. **Situation #7** has an unusual condition: out of the box, it's a
+   guaranteed Russian win, provided the Russians pretty much don't do
+   anything. The Germans have to do all the work.
+
+1. **Situation #8** is a very difficult situation for the Germans, as
+   the Russians control incredibly defensible terrain which is also very
+   slow moving for the Germans. One way to play this solitaire is spend
+   the time getting a solid Russian defense emplaced, then vary the
+   German strategy for punching through.
 
 There are surely more interesting and innovative ways to create
 solitaire playability. Ideas and pointers welcome.

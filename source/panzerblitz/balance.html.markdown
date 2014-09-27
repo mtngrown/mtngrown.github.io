@@ -589,8 +589,10 @@ the infantry.
 
 ### Victory conditions
 
-A marginal victory for the Germans is exiting 30 units from Board 3.
-That's really quite a lot, and it makes one wonder exactly what rules
+A marginal victory for the Germans is exiting 30 units from Board 3,
+whereas a marginal victory for the Russians is killing only 10 Germans.
+That's really quite a lot for the Germans and quite few for the
+Russians, and it makes one wonder exactly what rules
 were being played when the scenarios were written. Certainly with the
 current rule set, a competent Russian player should be able to prevent
 nearly all the German units from exiting, other then perhaps armor which
@@ -602,6 +604,10 @@ adjusted up or down. Alternatively, the number of turns can be increased
 or reduced. In this case, cutting the units at each level in half
 (rounding up) might be a good place to start.
 
+Based on a couple of plays, it seems reasonable to "reverse" the victory
+conditions. Marginal victory for the Germans if they can exit 10 or more
+units from Board 3, marginal for Russians if they kill 30 or more German
+units.
 
 ---
 

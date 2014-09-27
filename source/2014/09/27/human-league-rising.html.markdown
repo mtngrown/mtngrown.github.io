@@ -146,6 +146,10 @@ It went 5 combat segments, and the last of 4 PHH
 forces was in breakoff mode, but still was lost. It was just a bad day
 for the Pan-Human Hegemony. Murphy must have brought his whole family.
 
+The next time I play this either solo or as the PHH, I'm not going for
+Epsilon Indi right away. I'll deal with that later, after reducing some
+HL starforces and neutralizing an HL gate.
+
 I really like this game. The mechanics are simple, but the decisions are
 truly agonizing.
 

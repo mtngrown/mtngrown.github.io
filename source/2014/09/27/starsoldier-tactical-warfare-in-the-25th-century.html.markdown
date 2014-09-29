@@ -1,12 +1,12 @@
 ---
 title: StarSoldier Tactical Warfare in the 25th Century
 date: 2014-09-27 16:40 PDT
-tags: starsoldier
+tags: starsoldier, scenario-1, patrol, solar-hegemony
 ---
 
 StarSoldier is "volume 2" of SPI's StarForce Trilogy. Over the next few
 days, I'll be going through the rule book to learn the mechanics,
-without getting into serious gameplay. That said, some sort of will get
+without getting into serious gameplay. That said, some sort of game will get
 played.
 
 The first thing I like to do when looking at a new game is throw some

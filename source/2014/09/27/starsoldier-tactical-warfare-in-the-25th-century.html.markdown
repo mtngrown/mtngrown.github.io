@@ -18,6 +18,8 @@ First, which is what.
 * Humans are the blue counters, and there should be 29 of them.
 * L'Chal Dah are green counters, and there should be 25 of them.
 
+## Scenario 1 Human League Rising
+
 Scenario 1 is a human-human engagement pitting the Solar Hegemony
 against the Epsilon Eridane. The SH will be the Alpha Force,
 the Epsilon Eridane the Bravo force. This scenario is specified to use

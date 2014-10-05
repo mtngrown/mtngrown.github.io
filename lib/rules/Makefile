@@ -11,7 +11,8 @@ PDFS=starforce-simov.pdf\
 		 final-frontier.pdf\
 		 ogre-scoresheet.pdf \
 		 duel-oob.pdf \
-		 panzerblitz-firetable.pdf
+		 panzerblitz-firetable.pdf \
+		 starsoldier.pdf
 
 pdfs: $(PDFS)
 

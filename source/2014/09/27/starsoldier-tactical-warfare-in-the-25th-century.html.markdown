@@ -46,6 +46,13 @@ aids.
 ## Fire combat
 
 The next obvious thing (for me) is figuring out how to blow stuff up.
+The best way I know how to do that is put a couple of soldiers on the
+map and have them shoot at each other.
+
+{:.center}
+![Direct fire in StarSoldier](/images/starsoldier/direct_fire_demo.jpg)
+
+
 
 ## AAR
 

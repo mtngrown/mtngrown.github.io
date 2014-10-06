@@ -4,7 +4,7 @@ date: 2014-09-27 16:40 PDT
 tags: starsoldier, scenario-1, patrol, solar-hegemony
 ---
 
-StarSoldier is "volume 2" of SPI's StarForce Trilogy. Over the next few
+StarSoldier is "Volume 2" of SPI's StarForce Trilogy. Over the next few
 days, I'll be going through the rule book to learn the mechanics,
 without getting into serious gameplay. That said, some sort of game will get
 played.
@@ -18,30 +18,7 @@ First, which is what.
 * Humans are the blue counters, and there should be 29 of them.
 * L'Chal Dah are green counters, and there should be 25 of them.
 
-Let's dig a little deeper.
-
-## Scenario 1 Human League Rising
-
-Scenario 1 is a human-human engagement pitting the Solar Hegemony
-against the Epsilon Eridane. The SH will be the Alpha Force,
-the Epsilon Eridane the Bravo force. This scenario is specified to use
-the Patrol Situation.
-
-* Alpha: 1 squad
-* Bravo: 1 fire team, 1 heavy weapons section
-
-In the Patrol Situation, a base is defined to exist off the east or the
-west edge of the map, whence the Bravo force sets up on the map and the
-Alpha force enters the map on the opposite side of the base.
-
-In this case, let's have the base off the west edge of the map, which
-means the Solar Hegemony enters on the east edge. Given that
-StarSoldiers is a simultaneous movement system, since the Bravo force is
-already deployed, the first turn is the Alpha force moving on to the
-map.
-
-So far, so good. But this game could really use some decent player's
-aids.
+Let's dig a little deeper into the mechanics.
 
 ## Fire combat
 
@@ -52,10 +29,96 @@ map and have them shoot at each other.
 {:.center}
 ![Direct fire in StarSoldier](/images/starsoldier/direct_fire_demo.jpg)
 
+* Ss106 (SH)
 
+{:.center}
+| Operation | Target | TP
+|     DF    | 2646   | 3
+|     CM    |        | 2
+|=
+
+* Ss203 (EE)
+
+{:.center}
+| Operation | Target | TP
+|     DF    | 2040   | 3
+|     CM    |        | 2
+|=
+
+DF stands for Direct Fire, CM for counter measures which will add to the
+effective defense strength.
+
+We're ready to play through Scenario 1.
+
+## Scenario 1 The Epsilon Eridnane Campaign
+
+Scenario 1 is a human-human engagement pitting the Solar Hegemony
+against the Epsilon Eridane. The SH will be the Alpha Force,
+the Epsilon Eridane the Bravo force. This scenario is specified to use
+the Patrol Situation.
+
+* Solar Hegemony, Alpha: 1 squad
+* Epsilon Eridane, Bravo: 1 fire team, 1 heavy weapons section
+
+**Special Rules**
+
+1. All urban areas treated as organic cover.
+1. Epsilon Eridane is allowed Orbital Ground Support, maximum **per turn**:
+  * 4 Orbital Bombardment Explosives,
+  * 2 Orbital Laser Barrages,
+  * 2 Orbital Opcaity Bombs.
+1. No homing missiles for either side.
+
+### More about the Patrol Situation
+
+
+In the Patrol Situation, a base is defined to exist off the east or the
+west edge of the map, whence the Bravo force sets up on the map and the
+Alpha force enters the map on the opposite side of the base.
+
+In this case, because my game table is roughly 2' by 3', and I have no
+convenient place for record tracks, the Alpha Force (SH) will enter the
+north edge of the map, with the base off map to the south. The record
+tracks go under plexiglas on the western half of the map, leaving the
+eastern half for game play.
+
+**Patrol-specific Rules**
+
+Although StarSoldiers uses a simultaneous movement system, since the
+Bravo Force (EE) is already deployed, the first turn is the Alpha force
+moving on to the map. In the Patrol Situation, *Alpha can only task
+movement (MV) and countermeasures (CM) on entry*.
+
+Alpha may enter the map in any mode.
+
+**Patrol victory conditions**
+
+* Alpha:
+  * 2 points for every Task Point loss in PL of Bravo force;
+  * 10 point for every starsoldier exited from map
+
+* Bravo:
+  * 3 points for every Task Point loss on Alpha's Preservation Level.
+
+**House Rule** because the map is "short," the Alpha Force enters with
+depleted Task Points.
+
+
+### Setting up
+
+There is a *lot* of record keeping in StarSoldier, and it doesn't look
+like the fun kind. I don't necessarily have much of a problem with that,
+but it makes it hard to find opponents.
+
+The first task is assigning "serial numbers" to each starsoldier such
+that their Task Points can be tracked.
+
+## Turn 1
 
 ## AAR
 
+So far, so good. But this game could really use some decent player's
+aids.
 
 ### Making a better game
 

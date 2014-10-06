@@ -18,6 +18,8 @@ First, which is what.
 * Humans are the blue counters, and there should be 29 of them.
 * L'Chal Dah are green counters, and there should be 25 of them.
 
+Let's dig a little deeper.
+
 ## Scenario 1 Human League Rising
 
 Scenario 1 is a human-human engagement pitting the Solar Hegemony

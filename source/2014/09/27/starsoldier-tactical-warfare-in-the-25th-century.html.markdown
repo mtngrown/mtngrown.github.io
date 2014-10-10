@@ -37,6 +37,9 @@ map and have them shoot at each other.
 |     CM    |        | 2
 |=
 
+Attack strength = 3 x 2 = 6. Defense strength = 2RA + 2CM x 2 + 6
+(terrain) = 12
+
 * Ss203 (EE)
 
 {:.center}
@@ -45,12 +48,17 @@ map and have them shoot at each other.
 |     CM    |        | 2
 |=
 
-DF stands for Direct Fire, CM for counter measures which will add to the
-effective defense strength.
+Attack strength = 3TP x 2 = 6. Defense strength = 2RA + 2CM x 2 + 3
+(organic cover)  = 9.
+
+As it turns out, AS - DS <= 0 for both units, hence, no fire.
+
+DF stands for Direct Fire, CM for Counter Measures which will add to the
+effective defense strength, RA for Range Attenuation.
 
 We're ready to play through Scenario 1.
 
-## Scenario 1 The Epsilon Eridnane Campaign
+## Scenario 1 The Epsilon Eridane Campaign
 
 Scenario 1 is a human-human engagement pitting the Solar Hegemony
 against the Epsilon Eridane. The SH will be the Alpha Force,
@@ -112,6 +120,37 @@ but it makes it hard to find opponents.
 
 The first task is assigning "serial numbers" to each starsoldier such
 that their Task Points can be tracked.
+
+**Force Alpha**
+
+{:.center}
+| Track | StarSoldier | Location
+|   1   | 101         |
+|   2   | 102         |
+|   3   | 103         |
+|   4   | 104         |
+|   5   | 121         |
+|   6   | 105         |
+|   7   | 106         |
+|   8   | 107         |
+|   9   | 108         |
+|   10  | 122         |
+|=
+
+**Force Bravo**
+
+{:.center}
+| Track | StarSoldier | Location
+|   1   | 201         | 0544
+|   2   | 202         | 0933
+|   3   | 203         | 1831
+|   4   | 204         | 2140
+|   5   | 221         | 0546
+|   6   | 222         | 1132
+|   7   | 223         | 2646
+|=
+
+
 
 ## Turn 1
 

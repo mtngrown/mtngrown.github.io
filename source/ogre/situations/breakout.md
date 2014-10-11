@@ -1,6 +1,9 @@
 
 # Breakout
 
+{:.image-right}
+![CP Gamma logo](/images/ogre/cpgamma-icon.png)
+
 Breakout is a GEV scenario for two or three players. A large combine
 force has already overrun a Paneuropean defense, and rather than mopping
 them up, is bypassing them in an attempt to cross a river. However, just
@@ -121,5 +124,3 @@ work copyright Steve Jackson Games.
 
 This document copyright 2002 David Morse. Permission is hereby granted
 to make and distribute copies of this document for non-commercial use.
-
-

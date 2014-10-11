@@ -79,7 +79,6 @@ the Patrol Situation.
 
 ### More about the Patrol Situation
 
-
 In the Patrol Situation, a base is defined to exist off the east or the
 west edge of the map, whence the Bravo force sets up on the map and the
 Alpha force enters the map on the opposite side of the base.
@@ -108,11 +107,21 @@ Alpha may enter the map in any mode.
 * Bravo:
   * 3 points for every Task Point loss on Alpha's Preservation Level.
 
-**House Rule** because the map is "short," the Alpha Force enters with
-depleted Task Points.
-
 
 ### Setting up
+
+Typically, I spend a lot of time setting up solitaire games so that I
+can get a feel for the system. Part of the setting up process often
+involves taking detailed notes while setting up the game, and photos and
+locations of units at setup.
+
+This is in part to provide a record of what I did, in part to allow
+replaying the same situation exactly in the future, and in part to allow
+tearing the game down after the initial setup to use the table for
+something else. Perhaps a different game. In any case, recording the
+setup in detail allows play to proceed in stages. Sometimes, by the time
+I've set everything up and written it all down, I'm bored and want to
+examine a different game.
 
 There is a *lot* of record keeping in StarSoldier, and it doesn't look
 like the fun kind. I don't necessarily have much of a problem with that,
@@ -121,23 +130,42 @@ but it makes it hard to find opponents.
 The first task is assigning "serial numbers" to each starsoldier such
 that their Task Points can be tracked.
 
-**Force Alpha**
+**House Rule** because the map is "short," Force Bravo will set up on
+the map first, and the Alpha Force will enter with 9 task
+points. This will allow for a positioning move, which is mostly to help
+me wrap my head around the mechanics. Here's what it looks like:
+
+{:.center}
+![After initial "emplacement" move for Situation
+1](/images/starsoldier/situation_1_setup.jpg)
+
+Note the star soldier record tracks are under the plexi with the
+counters riding on top just as the playing pieces. This is a consequence
+of having a very small playing area.
+
+The actual locations are listed below:
+
+**Force Alpha (blue)**
+
+(After first "move.")
 
 {:.center}
 | Track | StarSoldier | Location
-|   1   | 101         |
-|   2   | 102         |
-|   3   | 103         |
-|   4   | 104         |
-|   5   | 121         |
-|   6   | 105         |
-|   7   | 106         |
-|   8   | 107         |
-|   9   | 108         |
-|   10  | 122         |
+|   1   | 101         | 2927 noe
+|   2   | 102         | 3027 noe
+|   3   | 103         | 3029 noe
+|   4   | 104         | 2234 ha
+|   5   | 121         | 2137 ha
+|   6   | 105         | 3038
+|   7   | 106         | 3140
+|   8   | 107         | 3149
+|   9   | 108         | 3151
+|   10  | 122         | 3052
 |=
 
-**Force Bravo**
+**Force Bravo (green)**
+
+(Set up in advance.)
 
 {:.center}
 | Track | StarSoldier | Location
@@ -151,8 +179,10 @@ that their Task Points can be tracked.
 |=
 
 
+Time to play the game.
 
 ## Turn 1
+
 
 ## AAR
 

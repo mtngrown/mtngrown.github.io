@@ -152,3 +152,32 @@ was published, I don't have any problem suspending disbelief.
 In fact, if CA is "fantasy," it's no more or no less fantasy than
 Victory Games popular Fleet series, which clearly (and thankfully!)
 models hypothetical conflicts.
+
+
+Here's my impression after spending a bit of time with the game:
+
+* The rules are very clear to me, and contain a *lot* of worked
+examples. Bear in mind I do network application development for day job,
+so rules with this sort of clarity and precision are a welcome change
+from what I deal with day-to-day at work (where quality is correlated to
+WTFs/minute).
+
+* Handling insurgent activation and deactivation is critically
+important, and allows hit and run technique. *Poof* call up a unit or
+three of insurgents, do some hit and run (insurgents immune to ezocs),
+and *poof* stand them down for future reactivation. Opponent can't
+eliminate what's not on the board. CA models this much more explicitly
+than the COIN games.
+
+* All the accounting information is on the *single* map, really
+important for me as my table is about 2' x 3' Having record tracks
+off-map is a major pain.
+
+* Mark Herman helped develop it. =)
+
+
+CA isn't for everyone, but I like it, and as noted above, would be
+delighted to acquire a spare copy for parts.
+
+
+

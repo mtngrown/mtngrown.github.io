@@ -4,6 +4,7 @@
 LATEX=xelatex
 #TEXFILES=$(wildcard *.tex)
 PDFS=starforce-simov.pdf\
+		 starforce-extended-shift-table.pdf\
 		 panzerblitz.pdf\
 		 olympica.pdf\
 		 titan-strike.pdf\

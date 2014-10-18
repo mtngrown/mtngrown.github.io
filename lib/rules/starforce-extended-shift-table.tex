@@ -1,0 +1,96 @@
+\documentclass[10pt]{article}
+
+\def\bookauthor{Dave Doolin}
+\def\booklongtitle{Titan Strike}
+\def\wwkeywords{titan strike, wargame}
+\def\wwsubject{Future warfare on Titan}
+\def\wwslug{mtngrown}
+\def\baseurl{http://dool.in}
+
+\input{preamble}
+
+\usepackage{pdflscape}
+
+
+%%%  For the fancy table, will move to rules
+\usepackage[first=0,last=9]{lcg}
+\newcommand{\ra}{\rand0.\arabic{rand}}
+
+
+\setlength{\oddsidemargin}{-0.75in}
+\setlength{\textwidth}{7.5in}
+\setlength{\topmargin}{-0.8in}
+\setlength{\textheight}{10.2in}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\def\tl{\underline{\phantom{39}}}
+
+%\def\row[#1]{#1. & A & L & A & L & A & L & A & L & A & L & A & L\\[7pt]\hline}
+%\def\colwidth{2cm}
+%\def\cw{2.00cm}
+%\def\acw{1.18cm}
+%\def\lcw{1.95cm}
+%\def\simovcol{p{\colwidth}}
+
+%%%  http://texblog.org/2011/04/19/highlight-table-rowscolumns-with-color/
+
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+\setlength\extrarowheight{5pt}
+
+\begin{table}[ht]
+  \centering
+  \begin{tabular}{c|ccc|ccc|ccc|ccc|ccc|ccc|ccc}
+    \hline
+      & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\\hline
+
+    \rowcolor{LightCyan}
+    0 & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    \rowcolor{LightCyan}
+    1 & 1 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    \rowcolor{LightCyan}
+    2 & 2 & 2 & 3 & 4 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+
+    3 & 3 & 3 & 4 & 4 & 5 & 6 & 7 & 8 & 9 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    4 & 4 & 4 & 4 & 5 & 6 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 16 & 17 & 18 & 19 & 20\\
+    5 & 5 & 5 & 5 & 6 & 6 & 7 & 8 & 9 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21\\
+
+    \rowcolor{LightCyan}
+    6 & 6 & 6 & 6 & 7 & 7 & 8 & 8 & 9 & 10 & 11 & 12 & 13 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21\\
+    \rowcolor{LightCyan}
+    7 & 7 & 7 & 7 & 8 & 8 & 9 & 9 & 10 & 11 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 17 & 18 & 19 & 20 & 21\\
+    \rowcolor{LightCyan}
+    8 & 8 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+
+    9 & 9 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    10 & 10 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    11 & 11 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+
+    \rowcolor{LightCyan}
+    12 & 12 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    \rowcolor{LightCyan}
+    13 & 13 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    \rowcolor{LightCyan}
+    14 & 14 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+
+    15 & 15 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    16 & 16 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    17 & 17 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+
+    \rowcolor{LightCyan}
+    18 & 18 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    \rowcolor{LightCyan}
+    19 & 19 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+    \rowcolor{LightCyan}
+    20 & 20 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\
+       & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20\\\hline
+
+    \hline
+  \end{tabular}
+\end{table}
+
+
+\end{document}

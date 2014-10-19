@@ -1,7 +1,7 @@
 ---
 title: Great Soviet International Victory
 date: 2014-10-18 18:07 PDT
-tags:
+tags: soviet-dawn, military-victory, international-victory
 ---
 
 <div markdown="0">

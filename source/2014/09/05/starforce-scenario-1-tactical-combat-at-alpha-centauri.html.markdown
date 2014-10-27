@@ -1,5 +1,5 @@
----
 title: StarForce Scenario 1 Tactical combat at Alpha Centauri
+---
 date: 2014-09-05 08:12 PDT
 tags: starforce, scenario-1, science-fiction, spi
 ---

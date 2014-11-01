@@ -198,6 +198,57 @@ clear.
 Here's something else interesting: there is no combined fire. Each
 unit's attacks are resolved one at a time.
 
+Here's the Solar Hegemony plan:
+
+{:.center}
+| StarSoldier | ER | Operation | Target
+|-
+| 101         | 1  | MV/4      | 2131
+|             |    | CM/5      |
+| 102         | 1  | MV/4      | 2231
+|             |    | CM/5      |
+| 103         | 1  | MV/4      | 2333
+|             |    | CM/5      |
+|-
+| 104         | 1  | MV/3      | 2039
+|             |    | GD/3      |
+|             |    | CM/3      |
+| 121         | 1  | MV/1      | 2139
+|             |    | GD/3      |
+|             |    | CM/5      |
+|-
+| 105         | 2  | NE/3      |
+|             |    | MV/6      | 2040
+| 106         | 2  | NE/3      |
+|             |    | MV/6      | 1940
+|-
+| 107         | 2  | MV/9      | 2752
+| 108         | 2  | MV/9      | 2651
+| 122         | 2  | MV/9      | 2651
+|=
+
+And the Epsilon Eridani plan:
+
+{:.center}
+| StarSoldier | ER | Operation | Target
+|-
+| 201         | 2  | DF/3      | 2137
+|             |    | CM/6      |
+| 221         | 2  | DF/3      | 2137
+|             |    | CM/6      |
+| 204         | 2  | DF/3      | 2137
+|             |    | CM/6      |
+| 223         | 2  | DF/3      | 2137
+|             |    | CM/6      |
+|-
+| 202         | 2  | DF/3      | 2234
+|             |    | CM/6      |
+| 222         | 2  | DF/3      | 2234
+|             |    | CM/6      |
+| 203         | 2  | DF/3      | 2234
+|             |    | CM/6      |
+
+
 ## AAR
 
 So far, so good. But this game could really use some decent player's

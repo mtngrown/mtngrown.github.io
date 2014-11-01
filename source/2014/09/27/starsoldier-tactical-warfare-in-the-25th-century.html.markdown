@@ -183,11 +183,36 @@ Time to play the game.
 
 ## Turn 1
 
+As it turns out, further reading of the rules indicates I've set this up
+as a Recon scenario rather than a Patrol scenario. My intention was to
+speed up the game play a bit by emplacing the EE forces. But that
+changes the balance of the scenario, as all the EE forces got put into
+defensible positions.
+
+Another thing I intended was to provide a selection of activities for
+each unit on the Alpha team, then select at random. This was too much
+work. I don't know the game well enough to evaluate "good" versus "bad"
+moves, at least anything more than staying in cover and out of the
+clear.
+
+Here's something else interesting: there is no combined fire. Each
+unit's attacks are resolved one at a time.
 
 ## AAR
 
 So far, so good. But this game could really use some decent player's
 aids.
+
+As I worked my way through Turn 1, my impression was that the rules of
+the game aren't that difficult, and there aren't that many, but the
+number of choices available for each unit feels large. Several kinds
+of movement, several types of fire, several types of weapons, all add to
+an excellent recipe for analysis paralysis.
+
+These types of games are best learned either solo, or with someone at an
+equal level of skill. Otherwise, the more experienced player is likely
+to get really, really bored.
+
 
 ### Making a better game
 

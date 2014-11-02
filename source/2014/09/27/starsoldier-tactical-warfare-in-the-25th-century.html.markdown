@@ -284,7 +284,7 @@ with 3 TP at 2 ER for $$AF = 6$$. In defense we have:
 * High Altitude gives $$A_T = 1$$.
 * Hw121 allocated $$CM = 5$$, with $$ER = 1$$ because of movement,
 yielding $$A_{CM} = 5$$.
-* Total $DF = 10$$.
+* Total $$DF = 10$$.
 
 This results in combat differential $$\Delta = AF - DF = 6 - 10 = -4$$,
 no combat allowed. 

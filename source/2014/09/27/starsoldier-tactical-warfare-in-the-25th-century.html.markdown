@@ -248,6 +248,45 @@ And the Epsilon Eridani plan:
 | 203         | 2  | DF/3      | 2234
 |             |    | CM/6      |
 
+### Resolving direct fire attacks
+
+Computing attack factors is easy: $$AF = TP \times ER$$.
+
+Computing defense factor $$DF$$ is a little more involved:
+
+$$DF = A_T + A_R + A_M + A_{CM}$$,
+
+where $$A_T$$ is the attenuation due to terrain, $$A_R$$ is the
+attenuation due to range, $$A_M$$ is the attenuation due to movement,
+and $$A_{CM} = CM \times ER$$ is the attenuation from the target's
+countermeasures.
+
+$$AF = 6$$ for all attacking units. As noted above, there is no combined
+fire effect in this game, attacks are resolved individually, for each
+unit firing. It turns out that $$DF > 6$$ for all Solar Hegemony units,
+hence, no combat occurs.
+
+I wrote out tables for all seven EE units firing, but the tables are too
+wide to fit into a browser screen. We'll examine one combat in detail
+which differs mostly in range attenuation from the others.
+
+Ss201 in hex 0544 fires on hex 2137 containing Hw121 at High Altitude
+with 3 TP at 2 ER for $$AF = 6$$. In defense we have:
+
+* Range 17 + 5 (HA) yields $$A_R = 3$$.
+* Hw121 allocated 1 TP to movement, resulting in $$A_M = 1$$.
+* High Altitude gives $$A_T = 1$$.
+* Hw121 allocated $$CM = 5$$, with $$ER = 1$$ because of movement,
+yielding $$A_{CM} = 5$$.
+* Total $DF = 10$$.
+
+This results in combat differential $$\Delta = AF - DF = 6 - 10 = -4$$,
+no combat allowed. 
+
+It looks like if I want to actually damage another unit, I'm going to
+have to be willing to spend enough Task Points to risk taking
+considerable damage myself.
+
 
 ## AAR
 

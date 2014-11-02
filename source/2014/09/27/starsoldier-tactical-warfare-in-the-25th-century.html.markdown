@@ -302,6 +302,42 @@ The Solar Hegemony really ought to be making a beeline for the south
 edge of the map, but they are staying in cover as much as possible along
 the way.
 
+Score: SH 0, EE 0.
+
+## Turn 2
+
+Keeping it simple, we're only using single stage turns.
+
+### Plot phase
+
+### Fire phase
+
+### Launch phase
+
+### Movement phase
+
+The clear blue dice show unit pip indictae eliminated SH units.
+
+{:.center}
+![End of movement, Turn 2](/images/starsoldier/game_1_turn_2_movement.jpg)
+
+### Projectile resolution phase
+
+{:.center}
+![End of Turn 2](/images/starsoldier/game_1_turn_2_resolution.jpg)
+
+The Solar Hegemony really gets hurt. This is the consequence of allowing
+the EE to set up in advance on the high ground. Very difficult for the
+SH to hurt the EE. Also, the EE have 3 Hw units, which double the ER on
+direct and opportunity fire. Yikes!
+
+Score: EE 70, SH 0.
+
+## Turn 3
+
+
+Final score: EE 80, SH 20.
+
 ## AAR
 
 So far, so good. But this game could really use some decent player's
@@ -317,10 +353,20 @@ These types of games are best learned either solo, or with someone at an
 equal level of skill. Otherwise, the more experienced player is likely
 to get really, really bored.
 
+On the other hand, StarSoldier and StarForce are difficult to *play*
+solo, because the dominant mechanism in both games is the Simultaneous
+Movement, which induces a huge element of uncertainty difficult to
+recreate when playing solo. One way to get that uncertainty back is to
+draft two or more possible moves for each faction on each turn, then
+resolve the which set of moves is used at random. Easier said than done,
+and proved to be too much burden for the first turn.
 
 ### Making a better game
 
 Player aids:
 
 * Record sheets similar to Starship Troopers would be much easier to
-handle counters on a track.
+handle than counters on a track.
+* At least two different ledgers, one for tasking, and one for fire. The
+mechanisms are very simple, keeping track of what's going on is
+difficult.

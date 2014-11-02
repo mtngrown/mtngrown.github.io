@@ -183,6 +183,8 @@ Time to play the game.
 
 ## Turn 1
 
+(November 1, 2014)
+
 As it turns out, further reading of the rules indicates I've set this up
 as a Recon scenario rather than a Patrol scenario. My intention was to
 speed up the game play a bit by emplacing the EE forces. But that
@@ -250,11 +252,15 @@ And the Epsilon Eridani plan:
 
 ### Resolving direct fire attacks
 
+(November 2, 2014)
+
 Computing attack factors is easy: $$AF = TP \times ER$$.
 
 Computing defense factor $$DF$$ is a little more involved:
 
-$$DF = A_T + A_R + A_M + A_{CM}$$,
+$$
+DF = A_T + A_R + A_M + A_{CM}
+$$,
 
 where $$A_T$$ is the attenuation due to terrain, $$A_R$$ is the
 attenuation due to range, $$A_M$$ is the attenuation due to movement,
@@ -285,8 +291,16 @@ no combat allowed.
 
 It looks like if I want to actually damage another unit, I'm going to
 have to be willing to spend enough Task Points to risk taking
-considerable damage myself.
+considerable damage myself. Devious.
 
+Here's the end of Turn 1:
+
+{:.center}
+![End of Turn 1](/images/starsoldier/scenario_1_game_1_turn_1.jpg)
+
+The Solar Hegemony really ought to be making a beeline for the south
+edge of the map, but they are staying in cover as much as possible along
+the way.
 
 ## AAR
 

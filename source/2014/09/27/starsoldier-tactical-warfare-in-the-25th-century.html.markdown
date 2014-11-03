@@ -310,6 +310,24 @@ Keeping it simple, we're only using single stage turns.
 
 ### Plot phase
 
+Solar Hegemony tasking:
+
+{:.center}
+| StarSoldier | ER | Operation | Target
+|-
+| 101         | 1  | MV/9      | 0340
+| 102         | 1  | MV/9      | 0440
+| 103         | 1  | MV/9      | 0542
+| 104         | 1  | MV/9      | 0339
+| 121         | 1  | MV/9      | 0239
+| 105         | 1  | NE/9      | 0249
+| 106         | 1  | NE/9      | 0149
+| 107         | 2  | MV/9      | 1948
+| 108         | 2  | MV/9      | 2050
+| 122         | 2  | MV/9      | 1950
+|=
+
+
 ### Fire phase
 
 ### Launch phase

@@ -4,6 +4,12 @@ date: 2014-10-18 18:07 PDT
 tags: soviet-dawn, military-victory, international-victory
 ---
 
+(*Note: I played reserve offensives as guaranteed success in this game,
+which is wrong. Reserve offensive only allow the opportunity to roll
+again.*)
+
+This was a notable game, starting from the first card.
+
 <div markdown="0">
 8. Bukharin fights! Crazy that this is the first card.
 
@@ -245,3 +251,10 @@ each: 30.
 Total: 50.
 
 International Victory!
+
+As noted above, I broke at least one rule by playing the Reserve
+Offensives as guaranteed success rather than rolling as usual.
+
+However, this does show how it's possible to win, because I believe the
+technique is viable: drive the offensive back and get them off the board
+early. Having the subversion capability was extremely helpful.

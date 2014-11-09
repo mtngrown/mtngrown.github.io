@@ -38,6 +38,10 @@ In this case, an obvious VC target would be 3 of the 5th Cav.
 ## Turn 3
 
 
+{:.center}
+![VC move](/images/snoopys/us_turn_3.jpg)
+
+
 
 ## Turn 4
 
@@ -47,6 +51,13 @@ Bombard to use up counterbattery, has no other effect. US fields 5 + 5
 bombardment, 514/1 counters with 5 + 2. This removes the +5
 counterbattery from the VC arsenal for this turn, providing 1 less delta
 for defensive fire support.
+
+Here's the situation with bombardment counters shown, and the VC in
+position after Turn 3:
+
+{:.center}
+![VC move](/images/snoopys/us_turn_4.jpg)
+
 
 Combat:
 
@@ -69,8 +80,8 @@ VC defends with:
 
 Delta: +11 for US.
 
-{:.center}
-![VC move](/images/snoopys/us_turn_4.jpg)
+The odds are 50% retreat with D2 or D3 which would be a US win, or an
+Ex(change), which would result in a draw.
 
 
 

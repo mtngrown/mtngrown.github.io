@@ -89,7 +89,27 @@ to get busy.
 {:.center}
 ![VC move](/images/snoopys/us_turn_3.jpg)
 
+Combat:
 
+US needs +8 minimum for best results.
+
+* Monitor: 1
+* 3/47 A: 2
+* 3/47 B: 2
+* 4/47 B: 3
+* 4/47 C: 3
+* FS: 12
+* Total: 23
+
+VC defends with:
+
+* 514/2: 4
+* FS: 11
+* Total: 15
+
+Delta: +8, roll 2, D2, 514/2 eliminated, no retreat through EZOC.
+
+514/1 continues moving east.
 
 ## Turn 4
 
@@ -131,8 +151,14 @@ Delta: +11 for US.
 The odds are 50% retreat with D2 or D3 which would be a US win, or an
 Ex(change), which would result in a draw.
 
-
+Roll 5, Exchange, VC moves to 0820, and it's draw.
 
 ## AAR
 
+Ok, that was interesting. Definitely a bit different from other combat
+resolutions I've played. The results most closely resemble the low
+combat factors and hard-to-kill results from Central America.
 
+Not clear on the Bombardment system. Feels a bit contrived. But I don't
+really care overmuch as long as the scenarios are mostly balanced in the
+end.

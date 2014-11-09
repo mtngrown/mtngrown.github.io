@@ -18,25 +18,73 @@ portfolio.
 
 ## Turn 1
 
-US moves and attacks:
+US moves to surround VC and attack:
 
 {:.center}
 ![Combat Turn 1 US attacks](/images/snoopys/turn_1_us_attacks.jpg)
 
+Combat, US attacks 514/1:
 
-The VC moves:
+US total: 16
+VC total: 10
+
+Delta +6, roll 4, no effect. (This was a blunder, I read from the +5
+column. The result should have been an exchange.)
+
+The VC moves to escape:
 
 {:.center}
 ![VC move](/images/snoopys/turn_1_vc_move.jpg)
 
-In this case, an obvious VC target would be 3 of the 5th Cav.
+Fire support for VC attack shown above.
+
+The VC have 3 options for attacking here:
+
+1. Both 514/1 and 514/2 attack Cav 5/3, with best delta of +2 after fire
+support factored in and countered.
+
+2. Either 514/1 or 514/2 attack Cav 5/3, best delta in this case is -1,
+   which is almost certain elimination as there is no EZOC-free retreat
+   for VC.
+
+3. Do nothing, which reduces risk of an attacker loss, but loses
+   opportunity to inflict at least some damage.
+
+VC choose Option 1.
+
+Delta +2, roll 2, Ex(change), step loss for 514/2 and Cav 5/3.
 
 ## Turn 2
 
+The idea here is to not let the 514/1 get away while finishing off the
+512/2. Cav 5/3 is out of the action for the moment.
+
+Bombardment won't have any effect by itself due to counterbattery
+augmenting the 514/2's defense strength.
+
+This leaves 4/47 B and C companies to attack.
+
+The delta is +5, roll 4, no effect, same as last.
+
+{:.center}
+![VC move](/images/snoopys/us_turn_2.jpg)
+
+Note: The monitor, for reasons unknown, did not fire, otherwise this
+would have been an Exchange result in the +6 column. It pays to pay
+attention.
+
+The VC decide to keep running. No profit in this fight.
+
+{:.center}
+![VC move](/images/snoopys/vc_turn_2.jpg)
+
+We're half done.
 
 
 ## Turn 3
 
+The "game" is half over, and there are still VC on the map. The US needs
+to get busy.
 
 {:.center}
 ![VC move](/images/snoopys/us_turn_3.jpg)

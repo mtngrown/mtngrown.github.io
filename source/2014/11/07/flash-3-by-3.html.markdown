@@ -14,6 +14,8 @@ Consider this game: four of the first six victims were False Alarms,
 with the real victims getting blown out in explosions. That's just bad
 luck.
 
+And I only managed to rescue 3 real victims.
+
 I used some APs to put out fires in this game as well, first time for
 that.
 

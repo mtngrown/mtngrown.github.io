@@ -13,6 +13,7 @@ PDFS=starforce-simov.pdf\
 		 ogre-scoresheet.pdf \
 		 duel-oob.pdf \
 		 panzerblitz-combat-ledger.pdf \
+		 starsoldier-combat-ledger.pdf \
 		 starsoldier.pdf
 
 pdfs: $(PDFS)

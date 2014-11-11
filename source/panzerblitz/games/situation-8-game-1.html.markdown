@@ -85,6 +85,12 @@ matter where the Germans attempt to force through.
 
 Detailed photos and explanations follow.
 
+Note: There is a small but possibly significant error in this setup. The
+scenario calls for six (6) block counters, but I mistakenly deployed
+seven (7). This probably doesn't matter all *that* much, but it could
+mean the difference of getting three or four more German units across
+Board 1.
+
 ---
 
 

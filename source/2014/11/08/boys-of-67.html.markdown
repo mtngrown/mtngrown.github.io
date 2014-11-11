@@ -21,7 +21,7 @@ portfolio.
 US moves to surround VC and attack:
 
 {:.center}
-![Combat Turn 1 US attacks](/images/snoopys/turn_1_us_attacks.jpg)
+![Combat Turn 1 US attacks](/images/snoopys/boys67/turn_1_us_attacks.jpg)
 
 Combat, US attacks 514/1:
 
@@ -34,7 +34,7 @@ column. The result should have been an exchange.)
 The VC moves to escape:
 
 {:.center}
-![VC move](/images/snoopys/turn_1_vc_move.jpg)
+![VC move](/images/snoopys/boys67/turn_1_vc_move.jpg)
 
 Fire support for VC attack shown above.
 
@@ -67,7 +67,7 @@ This leaves 4/47 B and C companies to attack.
 The delta is +5, roll 4, no effect, same as last.
 
 {:.center}
-![VC move](/images/snoopys/us_turn_2.jpg)
+![VC move](/images/snoopys/boys67/us_turn_2.jpg)
 
 Note: The monitor, for reasons unknown, did not fire, otherwise this
 would have been an Exchange result in the +6 column. It pays to pay
@@ -76,7 +76,7 @@ attention.
 The VC decide to keep running. No profit in this fight.
 
 {:.center}
-![VC move](/images/snoopys/vc_turn_2.jpg)
+![VC move](/images/snoopys/boys67/vc_turn_2.jpg)
 
 We're half done.
 
@@ -87,7 +87,7 @@ The "game" is half over, and there are still VC on the map. The US needs
 to get busy.
 
 {:.center}
-![VC move](/images/snoopys/us_turn_3.jpg)
+![VC move](/images/snoopys/boys67/us_turn_3.jpg)
 
 Combat:
 
@@ -124,7 +124,7 @@ Here's the situation with bombardment counters shown, and the VC in
 position after Turn 3:
 
 {:.center}
-![VC move](/images/snoopys/us_turn_4.jpg)
+![VC move](/images/snoopys/boys67/us_turn_4.jpg)
 
 
 Combat:

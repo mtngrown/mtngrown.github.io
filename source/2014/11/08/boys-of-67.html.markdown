@@ -9,11 +9,14 @@ Vietnam Battles issue of Modern War. This game uses the "Fire and
 Movement" system common to several other games in the Decision Games
 portfolio.
 
+Before then, I'd like to get a grip on how fire and movement actually
+work in this game, hence, setting up the learning scenario "Boys of '67"
+for a fast solitaire play through.
+
 ## Setting it up
 
-
 {:.center}
-![Boys of '67 set up](/images/snoopys/boys_of_67_setup.jpg)
+![Boys of '67 set up](/images/snoopys/boys67/boys_of_67_setup.jpg)
 
 
 ## Turn 1

@@ -20,4 +20,36 @@ of the Allied units are enveloped to the east.
 
 Dec. 8, some break out by the Germans to recapture lost ground, but
 conceded as a decisive Allied Victory. The Germans just gave up too much
-ground early on attempt to maintain a defense of Tunis.
+ground early on attempt to maintain a defense of Tunis, and the Aliies had
+to catch a train back to Berkeley.
+
+Here's what it looks like set up:
+
+{:.center}
+![Race for Tunis set up](/images/race_for_tunis_setup.jpg)
+
+A few units may be a hex out of place as I had bumped the table
+attempting the first picture. But the overall deployment shows the
+general idea: the Germans in a defensive line around Tunis and Bizerta
+to control the ports and airfields.
+
+## Turn length and timing
+
+The standard game has 18 turns. Given 10 minutes per side, that's a game
+length of 6 hours.  However, as noted above, the game ended at roughly
+15 turns as some of our middle turns went longer than shorter.
+
+We went closer to 7.5 hours, having started around 3 pm, ending around
+11:30, with an hour off for dinner.  It felt like a lot longer. Two
+immediate reasons for this are 1. 11:30 pm is later than I usually like
+to stay up, and 7.5 hours is longer than I usually play. Writing this
+the following morning, I recall having to suck it up during the last few
+turns.
+
+## How to win as Germans
+
+In short, I don't know. I'm pretty sure the Germans have to be played a
+lot more agressively than I was playing them though. We didn't play with
+the optional supply rules, and I think that would have made a difference
+in both side's play. Certainly the Germans would have attempted to cut
+off extreme eastern Allied advancement.

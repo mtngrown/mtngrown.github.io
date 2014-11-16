@@ -86,6 +86,21 @@ then though, as the mech stayed mainly on roads and in clear.
 On the other hand, we forgot about the fire support penalty against VC
 losing bases: each base costs an extra fire support marker.
 
+Here's a convenient list:
+
+* Mobile units cost all MP crossing river without bridge.
+* VC fire support is reduced as each base is taken by US.
+* Tangos, the riverine transports, do not expose VC (but monitors do).
+* River landing on a concealed VC-occupied hex induces an ambush.
+* Fire supporting a riverine landing is limited to one marker the turn
+  of the landing.
+
+In the game we played, it felt the like the last couple of turns were
+almost a walk-over, despite the last two die rolls which could have lost
+it for the US had the combat differential been lower by a single point.
+Eliminating the blunders listed above would go a long way to tilting the
+game back in the VC's favor.
+
 ### Development opportunity
 
 The game is pretty good as-is, although as usual for magazine games,

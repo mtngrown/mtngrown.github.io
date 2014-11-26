@@ -1,0 +1,32 @@
+---
+layout: pb
+---
+
+# Situation #8 Game 2
+
+After the first two debacles attempting this scenario, I've set up
+identically to the solo game 1 to take another stab at cracking this
+puzzle. This time, I'm going to attempt to get around the south end of
+the map, with some decoy elements up at the north and in the center area
+to try to take some of the heat off the southern push.
+
+We'll see how it goes.
+
+## Set up
+
+As noted above, the Russian set up identically to the first solo game.
+The Germans set up as far forward as possibly while maintaining cover.
+
+## Turn 1
+
+And the Germans are off to the races, taking a line along the southern
+edge of the map. While this feels a bit "gamey," the scenario, and the
+boards, don't provide much of anything else to do. This time, the heavy
+guns are coming forward, as it's too hard to get the CP into position.
+If I can take out 6 Russian infantry, that will be worth it.
+
+The single direct fire on a Rifle company whiffed, but the close assault
+did the trick with a roll of 1 at 2:1 odds. Engineers are awesome that
+way.
+
+The Russians don't have a lot of targets at the moment.

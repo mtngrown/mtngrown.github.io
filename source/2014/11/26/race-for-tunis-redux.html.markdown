@@ -102,4 +102,60 @@ Weather: clear.
 
 Weather: Clear.
 
-* Axis: 
+* Axis: Holding, no combat.
+* Allies: Took Bizerta and Tunis with daring commando and para raid,
+  also took airfield at Bizerta in combat. Had positioned supporting
+  artillery in earlier turns. Waited for clear weather to apply all
+  air assets to combat for airfield.
+
+## Dec. 6, 1942
+
+Weather: Rain.
+
+* Axis: Retook Tunis, could not retake Bizerta.
+* Allied: consolidate at Bizerta, attack south of Robaa successfully
+  driving Germans out of supply in that area.
+
+## Dec. 7, 1942
+
+Weather: Clear.
+
+* Axis: Attempt to take Bizerta at low odds with huge stack of armor
+  fails.
+* Allies: Counterattacking at Bizerta employing all available air power
+  with clear weather, eliminate huge stack of Axis armor, bad blow for
+  Axis.
+
+## Dec. 8, 1942
+
+Weather: Rain.
+
+* Axis: Eliminated some para and commando units, but left Tunis open
+  again, whence...
+* Allies: Replacement commandos land at Tunis, again, taking the city,
+  which is promptly reinforces with units from Bizerta, with a combined
+  defensive value of 8-10 (iirc), which is doubled for city defense.
+
+## Dec. 9, 1942
+
+Axis concedes, having lost too many units to slow down a certain mauling
+from Allied forces during the next two days. Plus, 10 pm.
+
+## AAR
+
+Excellent game overall. CC played the Germans *brilliantly* through the
+first half of the game, forcing the Allies back even as they were
+reinforced, and holding a very string defensive line stretching due
+south and a little west of Bizerta. However, this line was established
+at the expense of leaving Bizerta and Tunis open, and leaving other
+airfields undefended. When the Allies started exercising commando and
+para drops, it changed the nature of the game considerably.
+
+However, even with the Allied forces operating behind the lines, had the
+Axis provided even nominal garrison forces at Bizerta and Tunis, it is
+highly unlikely the Allies would have been able to take them.
+
+Overall, an excellent game, very tense with a lot grappling over terrain
+and a major seesaw in the action.
+
+We're playing Bloody Kasserine next.

@@ -54,4 +54,52 @@ Weather: Rain.
   unable to move into city. Holding elsewhere. Air on dirt strips
   grounded.
 
+## Nov. 30, 1942
 
+Weather: Clear.
+
+* Axis: Some inclusive jockeying about; retreated the Allied paras.
+* Allies: Falling back slowly to the west, trying to bait the Axis into
+
+## Dec. 1, 1942
+
+Weather: Rain.
+
+* Axis: Chasing the para and commando units, holding elsewhere. Really
+  bad luck see 2 Para destroying an attacking force.
+* Allies: Reinforcements coming in north and south, driving east at high speed.
+  overextending in an attempt to cut supply.
+
+## Dec. 2, 1942
+
+Weather: clear
+
+* Axis: Feeling some pressure, what with Allied special forces units
+  running around in the hinterland. They may be out of supply, but they're
+  still dangerous.
+* Allies: Paras drop onto Djebaba, lost commando unit at El Anuiona. No
+  big deal, will bring this back in as a replacement.
+
+## Dec. 3, 1942
+
+Weather: Rain.
+
+* Axis: Crappy reinforcement. Destroyed more bridges, attempted to
+  recapture airfield at Djebaba.
+* Allies: Chewing away at Axis engineer units.
+
+## Dec. 4, 1942
+
+Weather: clear.
+
+* Axis: Stalling for time now, trying to hold a line almost a little
+  west of due south from Bizerta. Eliminated a powerfull allied mech
+  unit with application of a lot of air power.
+* Allied: Yeilding the line, buying time for reinforcements to come in
+  and shore it up.
+
+## Dec. 5, 1942
+
+Weather: Clear.
+
+* Axis: 

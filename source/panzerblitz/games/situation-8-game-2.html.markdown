@@ -29,4 +29,20 @@ The single direct fire on a Rifle company whiffed, but the close assault
 did the trick with a roll of 1 at 2:1 odds. Engineers are awesome that
 way.
 
-The Russians don't have a lot of targets at the moment.
+The Russians don't have a lot of targets at the moment. The ATG took a
+shot at the H stack threating the lane of death, but missed. One of the
+Russian close assaults failed, the other dispersed a stack of 3 Panthers
+with a luck roll of 1. The SU 85s decided to get in on any future action
+on the south side, and most of the infantry started moving south as well.
+
+Here's the end of Turn 1:
+
+{:.center}
+![End of Turn 1](/images/panzerblitz/s8_g2_t1.jpg)
+
+The Germans, with a little bit of dice rolling luck, may be able to not
+lose too terribly badly.
+
+## Turn 2
+
+

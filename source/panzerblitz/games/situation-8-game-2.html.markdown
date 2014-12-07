@@ -70,3 +70,55 @@ It's dark outside now, hence the mellower yellow of the game photo.
 
 ## Turn 3
 
+The Germans are going to have a really hard time taking out the Russian
+145 and 146 Rifle companies, being that they are stacked on a hilltop in
+a forest hex (1B6). A better idea for the Germans might be to chew the
+Russian up as they advance to the south. For example, the Wespe and some
+mortars took out a Guards unit foolishly left in the clear. As the
+Russian player, I didn't think the Germans would have enough firepower
+to touch it, in the clear or not. Roll 4 eliminates another guards
+units, and a roll 2 disperses a third. This third one was a bit dicey,
+as it could have spotted for the Su 85s sitting in hex 1C6. In that
+case, I might have sacrificed the SG III-75s to threaten the Su 85s.
+Thankfully won't need to. That's it for fire phase.
+
+German movement: everything moves south.
+
+Russian fire phase: nyet. There is nothing the Russians can spot. The
+Germans are all hunkered down. There is only movement, and this turn,
+that's leg movement only. The SU 85s can stay put for now. They might
+move to Zabvenia a little later.
+
+{:.center}
+![End of Turn 3](/images/panzerblitz/s8_g2_t3.jpg)
+
+As can be seen in the photo, it's daylight out again.
+
+Onward, through the fog.
+
+## Turn 4
+
+I've had this scenario set up for at least two weeks (possibly even four
+weeks, can't really recall), with the intention of playing through it
+one phasing player's turn at a time. That's not how it is working out.
+Over the last 24 hours, I've played 2.5 turns (5 phases). There is an
+off-chance I'll knock it out through the afternoon and evening today
+(December 7, 2014). We'll see. In the meantime, it is Turn 4, and the
+Germans have to decide what to fire on.
+
+The Germans are rolling lucky, not getting 6's on d6 rolls at 4:1 in
+forest. It seems like so many games of PanzerBlitz turn out to collapse
+on the German inability to roll anything *but* 6's at 4:1 against
+defender in forest. This is just broken, it should have a 'DD' or at
+least a 'D' result for a 6 + 1 roll at 4:1. The game would play better.
+
+## AAR
+
+This was an odd game as I moved the heavy artillery all the way to the
+front, and used it in direct fire mode to blast away at Russian infantry
+units. This is not how heavy artillery should be used, in real life or
+in the game. It's one of those zooey things about PanzerBlitz. At least
+up until Turn 3, the tactic worked pretty well.
+
+It might be interesting to try the same technique on the north end of
+the board. Getting through the gullies would be hard, but it might work.

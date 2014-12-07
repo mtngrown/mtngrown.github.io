@@ -609,6 +609,10 @@ conditions. Marginal victory for the Germans if they can exit 10 or more
 units from Board 3, marginal for Russians if they kill 30 or more German
 units.
 
+This assumes both the Russian and German players are reasonably
+competent.
+
+
 ---
 
 ## Situation #9

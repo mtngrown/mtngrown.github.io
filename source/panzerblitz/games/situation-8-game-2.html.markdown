@@ -45,4 +45,28 @@ lose too terribly badly.
 
 ## Turn 2
 
+The Germans now have to figure out exactly where they want to use the
+huge guns. This will really matter in the early game. Unless 2 or 3
+infantry companies can be knocked out fast, it won't go well for the
+Germans. The fire phase got Russian Recon and Rifle companies
+elimated, missed on the shot to Hill 126, dispersed a Guards unit.
+After fire, Germans are mounting up and moving south. There is just no
+way through the north end of the map, what with the swamp and green bars
+blocking so much terrain.
+
+Russians apparently only have 1 direct fire target, a Russian rifle
+company firing on a German platoon. That's a miss at 1:2 odds roll 5.
+That probably would have been better with a close assault, since the Su
+85 can move to the top of Hill 126 and be in cover. This is going to
+suck for the Germans, really slow them down, and will cost them units as
+being able to spot for that hex is 4/6 exposed. Nasty.
+
+Here's the end of Turn 2:
+
+{:.center}
+![End of Turn 2](/images/panzerblitz/s8_g2_t2.jpg)
+
+It's dark outside now, hence the mellower yellow of the game photo.
+
+## Turn 3
 

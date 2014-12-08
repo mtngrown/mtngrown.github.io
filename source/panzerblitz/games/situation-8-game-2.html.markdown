@@ -112,13 +112,71 @@ on the German inability to roll anything *but* 6's at 4:1 against
 defender in forest. This is just broken, it should have a 'DD' or at
 least a 'D' result for a 6 + 1 roll at 4:1. The game would play better.
 
+The Russians, for the first time in quite a while in these games, are
+looking a little weak where it counts. In fact, if the Germans can
+shuttle over enough infantry to spot and engage the incoming Russian
+infantry, the artillery units may be able to continue picking them off
+one at a time. This is problem, as the Russian have been average 2
+infantry companies per turn.
+
+And the afternoon drifts into evening, the close of Turn 4:
+
+{:.center}
+![End of Turn 4](/images/panzerblitz/s8_g2_t4.jpg)
+
+## Turn 5
+
+Fire phase eliminates two more Russian infantry units. The Russian are
+now in trouble. There is going to be a big firefight at Adski, which the
+Germans will definitely win. So far, the Russians don't have any German
+units destroyed. Continue moving south.
+
+Russians may be able to slow things down just a little bit. It might be
+time to send the SU 85s off to collect some infantry units. Might be too
+late already as it will take 3 turns minimum to acquire and unload.
+
+{:.center}
+![End of Turn 5](/images/panzerblitz/s8_g2_t5.jpg)
+
+## Turn 6
+
+Not seeing any targets for the Germans to fire on, move only turn.
+Nice close assault on the SU 85 at 1:3, roll 1 dispersed. Bummer for
+Russians, those AFVs are goners next turn. They stayed on the hill too
+long. Bummer for them.
+
+The Russians waited too long to move the SU 85s, now they can't. All
+infantry moving south as best as can. But the Germans do have to get off
+the map starting about right now.
+
+{:.center}
+![End of Turn 6](/images/panzerblitz/s8_g2_t6.jpg)
+
+Germans haven't taken any losses yet, but they are jammed up and will
+lose if they can't get off the board.
+
+## Turn 7
+
+The clock is running fast for the Germans. It's the top of Turn 7, and
+they don't have any units off the board, nor any which are even all that
+close to getting off. Time to take some serious lumps to clear the towns
+and get off the board.
+
 ## AAR
 
 This was an odd game as I moved the heavy artillery all the way to the
 front, and used it in direct fire mode to blast away at Russian infantry
 units. This is not how heavy artillery should be used, in real life or
-in the game. It's one of those zooey things about PanzerBlitz. At least
-up until Turn 3, the tactic worked pretty well.
+in the game. It's one of those zooey things about PanzerBlitz.
 
 It might be interesting to try the same technique on the north end of
 the board. Getting through the gullies would be hard, but it might work.
+
+### Blunders
+
+* The Russians should mount a guards unit on each SU 85.
+  For that matter, the SU 85 should just shuttle infantry units around
+  the board and not even worry about firing.
+* The lower map edge hexes are the only line of hexes not covered by
+fire from Hill 135. The Russians should have put another mine or block
+on this route.

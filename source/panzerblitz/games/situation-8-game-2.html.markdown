@@ -194,7 +194,7 @@ The Germans really are getting lucky on rolls this game, no doubt about
 it.
 
 ATG gun disperses German AFV on the block, which is a bummer for the
-Germans as this PzKgfw was going to flank the Guards unit in Adksi.
+Germans as this PzKgfw IV was going to flank the Guards unit in Adksi.
 Lacking anything better to do, the Guards units CAT the stack of trucks
 which is blocking the hill. They can't really move without opening a
 massive hole.
@@ -203,6 +203,23 @@ massive hole.
 ![End of Turn 8](/images/panzerblitz/s8_g2_t8.jpg)
 
 ## Turn 9
+
+Another roll 6 on the Russian ATG on Hill 126! That thing just won't
+die. However, 1:1 mortar attack on the SU 85 rolled a 1, which is a
+disperse. A 1 or 2 on a followup CAT will kill it. Some AFV take out one
+of the Guards units from Adksi, producing a hole in the Russian defense.
+Time to move through it! But it's not enough! Germans will get less than
+10 pieces off the board by Turn 10.
+
+Russian ATG fires: disperse PzKpfw IV on the block. Good move, will
+continue to slow down Germans. Mortar platoon took out some German
+trucks. Guards dispersed German Rifle on 1:1 CAT in Adski. Make it even
+more inconvenient for the Germans.
+
+{:.center}
+![End of Turn 9](/images/panzerblitz/s8_g2_t9.jpg)
+
+## Turn 10
 
 
 ## AAR

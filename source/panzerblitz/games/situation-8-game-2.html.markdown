@@ -206,23 +206,47 @@ massive hole.
 
 Another roll 6 on the Russian ATG on Hill 126! That thing just won't
 die. However, 1:1 mortar attack on the SU 85 rolled a 1, which is a
-disperse. A 1 or 2 on a followup CAT will kill it. Some AFV take out one
-of the Guards units from Adksi, producing a hole in the Russian defense.
+disperse. A 1 or 2 on a followup CAT will kill it. Some AFV took out
+the Guard unit from Adksi, producing a hole in the Russian defense.
 Time to move through it! But it's not enough! Germans will get less than
 10 pieces off the board by Turn 10.
 
 Russian ATG fires: disperse PzKpfw IV on the block. Good move, will
 continue to slow down Germans. Mortar platoon took out some German
-trucks. Guards dispersed German Rifle on 1:1 CAT in Adski. Make it even
+trucks. SMG dispersed German Rifle on 1:1 CAT in Adski. Make it even
 more inconvenient for the Germans.
+
+Situation at end of Turn 9:
 
 {:.center}
 ![End of Turn 9](/images/panzerblitz/s8_g2_t9.jpg)
 
+Note a few units to the extreme left are not in the picture. These are
+the only units which will be able to exit in 10 turns.
+
 ## Turn 10
+
+The ATG is finally taken out. The SMG in Adksi survives a 4:1 odds, the
+AFV roll a 6! 7 units make it off the board.
+
+Russians disperse halftrack and infantry in Adski.
+
+And that's the game:
+
+{:.center}
+![End of Turn 10](/images/panzerblitz/s8_g2_t10.jpg)
+
+The counters on Board 3 above Opustchenia are casualties. The counters
+below Opustchenia are the 7 the Germans were able to get off the map.
 
 
 ## AAR
+
+I'm calling this a draw.
+
+As previously noted, the victory conditions seem ridiculous with respect
+to playing the the standard rules as I understand those rules.
+I may be playing it all wrong. Hard to tell at present.
 
 This was an odd game as I moved the heavy artillery all the way to the
 front, and used it in direct fire mode to blast away at Russian infantry
@@ -233,7 +257,28 @@ It might be interesting to try the same technique on the north end of
 the board. Getting through the gullies would be hard, but it might work.
 
 It's deeply unsatisfying to have to drive the half hexes on the edge of
-the map.
+the map. Also deeply unsatisfying relying on a series of lucky rolls in
+the first couple of turns.
+
+Let's play a few more turns to see what happens.
+
+### Turn 11
+
+Germans get 7 more off the board, killed the SMG in Adski.
+
+### Turn 12
+
+12 more German units off Board 3.
+
+### Turn 13
+
+7 more exit.
+
+That totals 33 in 13 turns.
+
+Just not seeing the victory conditions as stated on the situation card.
+Not even if the counts were reversed for Russian or German. The game
+would have to go 15 turns.
 
 
 ### Blunders

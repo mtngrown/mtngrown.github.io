@@ -162,6 +162,29 @@ they don't have any units off the board, nor any which are even all that
 close to getting off. Time to take some serious lumps to clear the towns
 and get off the board.
 
+Since all the long range artillery is too close to anything to shoot,
+the stack of Panthers takes out an SU 85, leaving the remaining SU 85
+and an ATG on Hill 126. The fighting at Adski is about to get intense.
+The Russian now have some decent targets. Or would have except the other
+SU 85 got dispersed on a close assault. That leaves only the ATG gun
+with capability to kill armor now. Also, that dispersal was kind of
+important as those infantry would be nailed by Russian artillery
+otherwise.
+
+ATG takes a 1:1 shot at PzKpfw IV, misses. Might have been better to
+take sure shot at the halftracks which will be spotting on the next
+German phase. Russian infantry is in a bind at Adski. Move forward to
+close assault halftracks, German armor can occupy one of the Adski hexes
+behind the Guards. That's bad. The best that can be done is keep  moving
+infantry forward.
+
+Here's the end of Turn 7:
+
+{:.center}
+![End of Turn 7](/images/panzerblitz/s8_g2_t7.jpg)
+
+
+
 ## AAR
 
 This was an odd game as I moved the heavy artillery all the way to the
@@ -171,6 +194,10 @@ in the game. It's one of those zooey things about PanzerBlitz.
 
 It might be interesting to try the same technique on the north end of
 the board. Getting through the gullies would be hard, but it might work.
+
+It's deeply unsatisfying to have to drive the half hexes on the edge of
+the map.
+
 
 ### Blunders
 

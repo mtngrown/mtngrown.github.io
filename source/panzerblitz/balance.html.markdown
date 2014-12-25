@@ -542,9 +542,9 @@ got into play.)
 
 ## Situation #8
 
-Another tough situation for the Germans, especially if playing strictly
-by the standard rules, without optional call-for-fire for SPAs and other
-indirect fire weapons.
+Another *very* tough situation for the Germans, especially if playing
+strictly by the standard rules, without optional call-for-fire for SPAs
+and other indirect fire weapons.
 
 ### Rebalancing
 
@@ -572,9 +572,22 @@ More balancing ideas
   positioned, that is, examine stacks and what's under forts.
 * Reduce the number of 122mm howitzers to one, which changes how the
   Russians can set up fields of fire.
-* Add a Hummel to the German line up. Even 2 hummels is only 2:1 odds on
+* Add another Hummel to the German line up. Even 2 hummels is only 2:1 odds on
   a fortification, with no chance of elimination if the fortification is
   in the woods.
+* Allow barrage or bombardment on hexes without a need for spotting with
+  adjacent unit. This would allow the Germans to just bang away on
+  fortfications without throwing away a lot of units.
+* Enforce indirect and direct fire ranging on mortars and howitzers.
+  Specifically, heavy mortars probably should not be allowed direct fire
+  at less then 1/4 range. This would be pretty cool, as the Germans
+  could set up "defensible" positions below the hilltop fortifications,
+  and spot for artillery. It would further tie up more Russian infantry
+  to defend the hilltop forts instead only blocking lanes.
+* Custom counters could be used for mines and fortifications of lesser
+  strength. Mines could range from 1:2, 1:1 and 2:1. Fortifiction
+  strength could range from 10 to 50, or use DRMs instead of defense
+  strength.
 
 ### Winning strategy
 

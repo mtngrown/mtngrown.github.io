@@ -183,6 +183,26 @@ Here's the end of Turn 7:
 {:.center}
 ![End of Turn 7](/images/panzerblitz/s8_g2_t7.jpg)
 
+## Turn 8
+
+Germans really packing it in around Adski now. The Russians don't have
+much there, but the terrain is really restricted, so they don't need
+much either. Direct fire on the SU 85 was a miss, but the infantry was
+able to disperse again on a close assault.
+
+The Germans really are getting lucky on rolls this game, no doubt about
+it.
+
+ATG gun disperses German AFV on the block, which is a bummer for the
+Germans as this PzKgfw was going to flank the Guards unit in Adksi.
+Lacking anything better to do, the Guards units CAT the stack of trucks
+which is blocking the hill. They can't really move without opening a
+massive hole.
+
+{:.center}
+![End of Turn 8](/images/panzerblitz/s8_g2_t8.jpg)
+
+## Turn 9
 
 
 ## AAR
@@ -205,5 +225,8 @@ the map.
   For that matter, the SU 85 should just shuttle infantry units around
   the board and not even worry about firing.
 * The lower map edge hexes are the only line of hexes not covered by
-fire from Hill 135. The Russians should have put another mine or block
-on this route.
+  fire from Hill 135. The Russians should have put another mine or block
+  on this route.
+* Limiting German 120 mm mortars to 15 hex range, instead of 20 hexes as
+  printed on the counter. Dumb. I've done similar things before, for
+  example, conflating movement and DF on the Wespe.

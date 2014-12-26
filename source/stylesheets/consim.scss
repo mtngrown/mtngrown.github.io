@@ -51,3 +51,36 @@ table.fire-record {
     width: 580px;
   }
 }
+
+.blog {
+  h1,
+  .h1 {
+    font-size: 36px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 24px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+
+  h4,
+  .h4 {
+    font-size: 14px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 12px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 12px;
+    font-style: italic;
+  }
+}

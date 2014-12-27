@@ -112,7 +112,7 @@ Score: NVA 2 turns + 8 ARVN = 10; ARVN/US 2 NVA.
 
 ## February 2, 1968: ARVN to the rescue!
 
-**NVA/VC** Move** Time to blow at least some bridges, and hope not to
+**NVA/VC Move** Time to blow at least some bridges, and hope not to
 get caught out.
 
 **First Fire Phase** 2 more ARVN bite it. NVA artillery is very
@@ -122,7 +122,7 @@ fire ineffective.
 
 **ARVN/US Road** move into position to eliminate NVA artillery.
 
-**ARVN/US Non-raod** positioning for massive fire onslaught against
+**ARVN/US Non-road** positioning for massive fire onslaught against
 NVA artillery.
 
 **Second Fire Phase** lots going on:
@@ -149,7 +149,36 @@ d6 for 8, this is needed firepower what with the majority of the
 artillery eliminated. Also, roll 1 d6 or VC activation: 4. This is a
 pretty sweet upgrade for the communist forces.
 
-**NVA Move**
+**NVA Move** VC placed in inner city to deny key intersections to slow
+down ARVN movement.
+
+**First Fire Phase** No firing units this phase.
+
+**ARVN/US Road move** inner city ARVN positioning to take out VC road
+blocks one at a time. US slight repositioning to eliminate VC in
+southwest corner. Other ARVN positioning to clear bridges into inner
+city.
+
+**ARVN/US Non-road move** Position to fight!
+
+**Second Fire Phase** Lots of action all over the board. Overall, ARVN
+got a couple of unlucky rolls, VC got a lucky roll.
+
+{:.center}
+![Battle for Hue February 3, 1968](/images/battle-for-hue/hue_g1_feb3.jpg)
+
+Score: NVA 15 kills + 4 turns = 19, ARVN/US 13 kills.
+
+The NVA has a long, long way to go, and there are a lot of Marines in
+the way. Losing both artillery pieces was a huge bummer for the NVA.
+
+## February 4, 1968: ARVN brings the Big Guns
+
+Only 1 VC unit rolls in.
+
+**NVA Move** New VC unit replaces eliminated unit at bridge along north
+wall of inner city. ARVN will have to continue fighting, or just use the
+non-road movement to cross into the inner city.
 
 **First Fire Phase**
 
@@ -159,9 +188,16 @@ pretty sweet upgrade for the communist forces.
 
 **Second Fire Phase**
 
+{:.center}
+![Battle for Hue February 4, 1968](/images/battle-for-hue/hue_g1_feb4.jpg)
+
 Score:
 
 ## AAR
+
+As usual for a first game, a lot of what I did was push counters around
+to see what would happen. Between that and the blunders listed below,
+there is surely vast opportunity for improving game play.
 
 ### Strategy
 

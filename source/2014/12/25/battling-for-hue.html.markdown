@@ -180,18 +180,32 @@ Only 1 VC unit rolls in.
 wall of inner city. ARVN will have to continue fighting, or just use the
 non-road movement to cross into the inner city.
 
-**First Fire Phase**
+**First Fire Phase** Tit for tat mostly. At this point, that's bad for
+NVA.
 
-**ARVN/US Road move**
+**ARVN/US Road move** The ARVN rolls in to inner city to destroy VC
+roadblocks. The Marines flood the inner city using road movement now
+that there is a bridge open.
 
-**ARVN/US Non-road move**
+**ARVN/US Non-road move** Allies close to fight! VC unable to score on
+first fire.
 
-**Second Fire Phase**
+**Second Fire Phase** Tit for tat on a VC/ARVN exchange, not a bad deal
+considering the VC outgunned here. Much more bloodiness ensues. NVA
+picks off one of the Marine armor units, and another Marine unit, but
+lost one of the HACs.
 
 {:.center}
 ![Battle for Hue February 4, 1968](/images/battle-for-hue/hue_g1_feb4.jpg)
 
-Score:
+Score: NVA 27, ARVN/US 21.
+
+It's going to be hard for NVA to nullify the 20 point bonus Allies get
+for clearning NVA out of the inner city.
+
+## February 5, 1968: Marines bring out the cannons
+
+
 
 ## AAR
 
@@ -222,6 +236,9 @@ there is surely vast opportunity for improving game play.
   not moving them away, hence losing them to ARVN on turn 3.
 * Forgot to roll for VC activation as a result of capturing the ARVN 1st
   Div. HQ. I believe I missed only one turn though.
+* Did not airlift ARVN on Feb. 3, despite having a clear airfield.
+  Conversely, did not block the arifield with VC or NVA to prevent
+  airlift.
 
 ### Handicapping
 

@@ -205,6 +205,49 @@ for clearning NVA out of the inner city.
 
 ## February 5, 1968: Marines bring out the cannons
 
+3 VC rolled in.
+
+**NVA Move** At this point, lacking the artillery, and having one of the
+HAC eliminated without being used, the NVA/VC are in a bind. Movement
+this phase is positioning for attrition combat.
+
+**First Fire Phase** NVA did not use artillery effectively, probably
+cost it at least 1 Marine casualty.
+
+**US/ARVN Road move** Marines moving away from Palace of Peace for now,
+toward ARVN 1st Div HQ, ARVN doing the same. Will attempt to "sweep up"
+NVA units before assaulting the HQ.
+
+**US/ARVN Non-road move** Position for combat in urban terrain.
+
+**Second Fire Phase** NVA Lucky shot, took out 4-4 Marine infantry!
+There was a 1/6 chance; the NVA are getting really lucky this game. The
+Marines are getting totally pwned.
+
+{:.center}
+![Battle for Hue February 5, 1968](/images/battle-for-hue/hue_g1_feb5.jpg)
+
+Score: NVA 6 + 20 + 12 = 38, ARVN/US 12 + 12 + 2 (HAC) = 26.
+
+Those Marines add up fast for NVA scoring.
+
+## February 6, 1968
+
+**NVA Move**
+
+**First Fir Phase**
+
+**ARVN/US Road Move**
+
+**ARVN/US Non-road Move**
+
+**Second Fire Phase**
+
+{:.center}
+![Battle for Hue February 6, 1968](/images/battle-for-hue/hue_g1_feb6.jpg)
+
+Score: NVA 6 + 20 + 12 = 38, ARVN/US 12 + 12 + 2 (HAC) = 26.
+
 
 
 ## AAR

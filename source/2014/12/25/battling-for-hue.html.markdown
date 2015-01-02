@@ -233,24 +233,54 @@ Those Marines add up fast for NVA scoring.
 
 ## February 6, 1968
 
-**NVA Move**
+I need to start timing my plays. Once I know how long a turn takes,
+I can figure out how to squeeze in a turn or two at random intervals.
 
-**First Fir Phase**
+First, NVA reinforcements. Up to 3 units may enter on a die roll of 1,2 or 3.
+The first 2 rolls are 5, the second is "3," so the NVA get an another
+piece of artillery. Also, roll 2 d6 to determine how much of the NVA 324B
+enters on February 6, *super* lucky roll, 11! Only 1 VC though.
 
-**ARVN/US Road Move**
+**NVA Move** Bring in new reinforcements on the southeast side of the map,
+half to relieve the inner city, the other half to attempt to destroy artillery.
+One 324B 2-4 lost right away one an attempt on the USMC MACV armory. Not sure
+this is a good idea for NVA, but feels like it's worth trying. Probably could
+have committed more than 2 units to the MACV, but risked losing all of them
+on ZOC-controlled first fire.
 
-**ARVN/US Non-road Move**
 
-**Second Fire Phase**
+**First Fire Phase** Eliminated the USMC unit on the
+armory hex. Won't be able to hold it, but it's another 2 VP.
+
+**ARVN/US Road Move** At this point, the ARVN/US needs to be a little more
+careful in how hard to commit. The game looks in favor of the NVA given the
+huge commitment from 324B. Only road move for now is bringing ARVN support
+for MACV defense.
+
+**ARVN/US Non-road Move** ARVN moves in to attack MACV attacker. No other
+ARVN moves.
+
+**Second Fire Phase** Killed NVA threatening MACV, that danger is probably passed.
+
 
 {:.center}
 ![Battle for Hue February 6, 1968](/images/battle-for-hue/hue_g1_feb6.jpg)
 
-Score: NVA 6 + 20 + 12 = 38, ARVN/US 12 + 12 + 2 (HAC) = 26.
+Turn time: 59:44, but I had to install gimp, and I went to refresh my
+tea while that was happening. I'd say between 30-60 minutes per turn.
 
+Score:
+
+* ARVN/US: 17 units + 12 VC = 29.
+* NVA/VC: 7 turns + 22 ARVN + 7x2 USMC = 43.
+
+This is going to be bloody. And long.
 
 
 ## AAR
+
+TODO: Post a note on the [Vietnam BGG list](https://boardgamegeek.com/geeklist/41835/paint-it-black-vietnam-era-wargames/page/1?)
+for the Battle of Hue entry.
 
 As usual for a first game, a lot of what I did was push counters around
 to see what would happen. Between that and the blunders listed below,

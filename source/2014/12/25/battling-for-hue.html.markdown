@@ -269,12 +269,50 @@ ARVN moves.
 Turn time: 59:44, but I had to install gimp, and I went to refresh my
 tea while that was happening. I'd say between 30-60 minutes per turn.
 
-Score:
+##### Score:
 
 * ARVN/US: 17 units + 12 VC = 29.
 * NVA/VC: 7 turns + 22 ARVN + 7x2 USMC = 43.
 
 This is going to be bloody. And long.
+
+## February 7, 1968
+
+It's January 9, 2015.  Busy work schedule and personal stuff have limited my
+time for working through this game for the last couple of weeks. I'm going to
+try and get a turn or two in today.
+
+Bringing in 3 USMC units 1 turn late.
+
+Roll for VC: 2.
+
+**NVA Move** Sweeping around from the southeast to either put pressure on
+ARVN artillery, or getting into inner to block further ARVN entrance.
+
+**First Fire Phase** Limited fire this turn, but another ARVN eliminated.
+
+**ARVN/US Road Move** Position to stand outside of NVA range and pick
+them off one by one. Allied forces have taken too many losses.
+
+**ARVN/US Non-road Move** Get observation, but don't close.
+
+**Second Fire Phase** Allied picked off some commies without any losses. Good day for
+Allies.
+
+{:.center}
+![Battle for Hue February 7, 1968](/images/battle-for-hue/hue_g1_feb7.jpg)
+
+Turn time: didn't time this turn.
+
+##### Score
+
+* NVA: 42.
+* ARVN/US: 35. 
+
+Allied forces are gaining.
+
+
+# February 8, 1968
 
 
 ## AAR
@@ -312,6 +350,12 @@ there is surely vast opportunity for improving game play.
 * Did not airlift ARVN on Feb. 3, despite having a clear airfield.
   Conversely, did not block the arifield with VC or NVA to prevent
   airlift.
+* DRMs accumulate, and I've been Doing It Wrong for defensive positions in
+  behind walls in city hexes. For some reason I believed that was a +3
+  DRM, but it's really +4, as the wall is +2 and the city hex is +2.
+  This changes things quite a bit, as the odds shift towards the NVA/VC
+  defender from 5/6 to eliminate to 4/6. I can see why this game takes
+  so many turns: it's really tough to root out defenders.
 
 ### Handicapping
 

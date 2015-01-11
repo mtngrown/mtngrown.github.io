@@ -306,13 +306,50 @@ Turn time: didn't time this turn.
 
 ##### Score
 
-* NVA: 42.
+* NVA/VC: 43.
 * ARVN/US: 35. 
 
 Allied forces are gaining.
 
 
 # February 8, 1968
+
+Roll for VC: 6 (!)
+
+**NVA/VC Move** Position along south wall with NVA, and move southern
+NVA artillery up with flanking defensive units for protection.
+
+**First Fire Phase** Frontal attack on the southern wall by NVA, kills
+another USMC artillery unit. This is really bad for Marines. Rolling
+in 11 NVA makes up for the NVA losing some of their artillery earlier
+in the game. Some no effect fires from VC, but ARVN managed to pick off
+an NVA weapons company (3-6) on the north side, which is good for ARVN.
+
+**ARVN/US Road Move** ARVN and USMC need to be *really* careful and move
+into positions which are not exposed, and which will be costly for NVA
+to dig them out of.
+
+**ARVN/US Non-road Move** Moving ARVN to protect USMC, and to start
+chewing away at the defense around the southern NVA artillery position.
+This is cool for ARVN as these defenders are 2-4 infantry companies which
+cannot call for support during second fire phase.
+
+**Second Fire Phase** ARVN succeed in killing 2-4 infantry NVA, which
+puts the NVA arty under pressure now.
+
+{:.center}
+![Battle for Hue February 8, 1968](/images/battle-for-hue/hue_g1_feb8.jpg)
+
+Turn time: 59:32. I'd like to get turn times down around 20 minutes. Seems
+hard. The photo stuff takes no more than 10 minutes to handle, and usually
+around 5. Similarly, the writeup doesn't take that much time either. It's
+probably the combination of both which makes it add up. This really is going
+to be a long slog, but that's how the Battle for Hue really was.
+
+##### Score
+
+* NVA/VC: 48.
+* ARVN/US: 44.
 
 
 ## AAR

@@ -393,6 +393,10 @@ there is surely vast opportunity for improving game play.
   This changes things quite a bit, as the odds shift towards the NVA/VC
   defender from 5/6 to eliminate to 4/6. I can see why this game takes
   so many turns: it's really tough to root out defenders.
+* Remember that NVA 2-4 infantry can only spot on first fire phase, while
+  NVA 3-6 weapons can spot on both fire phases. This makes a difference
+  in play, and I'm sure that there were several Allied units knocked out
+  because of using NVA 2-4 spotting.
 
 ### Handicapping
 

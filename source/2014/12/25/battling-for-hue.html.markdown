@@ -352,6 +352,38 @@ to be a long slog, but that's how the Battle for Hue really was.
 * ARVN/US: 44.
 
 
+## February 9, 1968
+
+Roll for VC: 2.
+
+**NVA/VC Move** VC placed in the city blocks on the north side, west of
+the ARVN 1st HQ. Good for soaking up attacks and running the clock. All
+commie movement this turn is to avoid firefights.
+
+**First Fire Phase** No fire.
+
+**ARVN/US Road Move** Allied forces moving much more cautiously now, focusing
+on attrition without taking casualties on the south side of the map.
+
+**ARVN/US Non-road Move** Close on VC to clear roads allowing USMC movement
+into inner city.
+
+**Second Fire Phase** Knocked off a few VC.
+
+{:.center}
+![Battle for Hue February 9, 1968](/images/battle-for-hue/hue_g1_feb9.jpg)
+
+Turn time: 30:23. This turn went fast I think because there was no firefights
+in the first fire phase, and very few in the second.
+
+##### Score
+
+* NVA/VC: 49.
+* ARVN/US: 47.
+
+Allies really gaining now.
+
+
 ## AAR
 
 TODO: Post a note on the [Vietnam BGG list](https://boardgamegeek.com/geeklist/41835/paint-it-black-vietnam-era-wargames/page/1?)

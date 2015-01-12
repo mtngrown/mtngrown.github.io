@@ -426,6 +426,36 @@ then fall behind as the seiges get underway.
 
 ## February 11, 1968
 
+Roll for VC: 4.
+
+**NVA/VC Move** Not much do to: get the artillery out of the way (or try),
+and use the VC to wear down ARVN or USMC. Most all NVA need to hold tight
+at this point.
+
+**First Fire Phase** Some trading.
+
+**ARVN/US Road Move** Moving conservatively, taking on small parts of defense
+instead of trying to engage everything possible. This helps NVA last more turns,
+but keeps me from getting confused with too much action going down all at once.
+
+**ARVN/US Non-road Move** None this turn, not necessary.
+
+**Second Fire Phase** More NVA artillery eliminated, bad luck for NVA, rolled
+"6" to miss on an +10. Bummer. Actually, would not have mattered as the 2-4
+unit would not have been able to call in the indirect fire.
+
+{:.center}
+![Battle for Hue February 11, 1968](/images/battle-for-hue/hue_g1_feb11.jpg)
+
+
+Turn time: 36:36.
+
+
+#### Score
+
+* NVA/VC: 12 turns + 28 ARVN + 8x2 USMC = 56.
+* ARVN/US: 30 VC + 29 NVA + 1x2 HAC = 61.
+
 
 
 ---

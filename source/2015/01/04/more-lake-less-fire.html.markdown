@@ -1,6 +1,6 @@
 ---
 title: "More Lake, Less Fire"
-date: 2014-01-04
+date: 2015-01-04
 tags: fire-in-the-lake, fitl, gmt, vietnam, coin
 ---
 

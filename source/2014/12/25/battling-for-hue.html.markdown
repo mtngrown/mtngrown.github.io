@@ -73,7 +73,10 @@ DRM in city hex.
 NVA get 1 VP for each of the 3 ARVN eliminated and 1 VP for one turn in
 inner city.
 
-Score: NVA 4, ARVN/US 1.
+#### Score
+
+* NVA 4.
+* ARVN/US 1.
 
 And that's it for Turn 1, January 31, 1968.
 
@@ -312,7 +315,7 @@ Turn time: didn't time this turn.
 Allied forces are gaining.
 
 
-# February 8, 1968
+## February 8, 1968
 
 Roll for VC: 6 (!)
 
@@ -383,6 +386,49 @@ in the first fire phase, and very few in the second.
 
 Allies really gaining now.
 
+## February 10, 1968
+
+Roll for VC: 3.
+
+**NVA/VC Move** VC move to assault USMC leg company 1/5.
+
+**First Fire Phase** VC assault fails, more VC lost.
+
+**ARVN/US Road Move** ARVN artillery move to SE corner of inner city
+to get half range distance from 1st Div HQ. ARVN reinforcements arrive
+to keep pressure on NVA artillery in the south.
+
+**ARVN/US Non-road Move** Close to assault.
+
+**Second Fire Phase** Taking out NVA and VC at the 12+ column, auto-kills.
+Takes longer but less risky to concentrate firepower.
+
+{:.center}
+![Battle for Hue February 10, 1968](/images/battle-for-hue/hue_g1_feb10.jpg)
+
+Turn time: 30:49, which is doable. 
+
+Should be able to finish out the game over the rest of January easily. I was
+getting worried I'd get too bored with the length of it and just take it down.
+But I'm starting to get interested in how the siege on both the 1st ARVN HQ and
+the Palace of Peace is going to play out. The HQ needs to go first to get rid
+of the pesky VC rolls every turn.
+
+
+#### Score
+
+* NVA/VC: 11 turns + 26 ARVN + 8x2 USMC = 53.
+* ARVN/US: 27 VC + 25 NVA + 1x2 HAC = 53.
+
+Tied game. I suspect the Allies will pull ahead for a bit,
+then fall behind as the seiges get underway.
+
+
+## February 11, 1968
+
+
+
+---
 
 ## AAR
 
@@ -392,6 +438,7 @@ for the Battle of Hue entry.
 As usual for a first game, a lot of what I did was push counters around
 to see what would happen. Between that and the blunders listed below,
 there is surely vast opportunity for improving game play.
+
 
 ### Strategy
 

@@ -457,6 +457,36 @@ Turn time: 36:36.
 * ARVN/US: 30 VC + 29 NVA + 1x2 HAC = 61.
 
 
+## February 12, 1968
+
+Roll for VC: 2.
+
+**NVA/VC Move** which is coming down to where to place incoming
+VC reinforcements mainly. For now, incoming VC are going to "lay low"
+until they can build up enough units to do some damage.
+
+**First Fire Phase** NVA takes a shot at USMC, missed, but return
+fire eliminates.
+
+**ARVN/US Road Move** Position to eliminate VC using spotters and arty,
+bring everything but garrison force at MACV into the inner city.
+
+**ARVN/US Non-road Move** none.
+
+**Second Fire Phase** lame, eliminated 1 VC.
+
+{:.center}
+![Battle for Hue February 12, 1968](/images/battle-for-hue/hue_g1_feb12.jpg)
+
+Turn time: did not time this turn.
+
+#### Score
+
+* NVA/VC: 13 turns + 28 ARVN + 8x2 USMC = 57.
+* ARVN/US: 31 VC + 30 NVA + 1x2 HAC = 63.
+
+I don't see how the NVA can hold out long enough to win it, but
+we'll see what happens.
 
 ---
 

@@ -488,6 +488,57 @@ Turn time: did not time this turn.
 I don't see how the NVA can hold out long enough to win it, but
 we'll see what happens.
 
+
+## February 13, 1968
+
+Roll for VC: 4.
+
+**NVA/VC Move** Lacking any idea of what else to do, VC and NVA
+attempt to take out a USMC unit east of Palace of Peace.
+
+**First Fire Phase** NVA and VC got lucky, took out USMC 2/5 leg,
+at no cost, return fire missed.
+
+**ARVN/US Road Move** Primary move here is swapping out a 4-4
+unit for the 3-8 unit in the MACV. That 3-8 is better used where it can
+stand off and hammer targets from a long ways out. Also, move the
+ARVN artillery back to get the 10+ range, and the USMC artillery up
+to get within 20 hex range.
+
+**ARVN/US Non-road Move** Close in east and north, NVA misses on all
+first fire after close.
+
+**Second Fire Phase** Attrition comtinues. ARVN tooks some losses, but
+it can better afford them. NVA cannot afford to take losses at this point.
+
+{:.center}
+![Battle for Hue February 13, 1968](/images/battle-for-hue/hue_g1_feb13.jpg)
+
+
+Turn time: 35:48
+
+At this point, I don't see how the NVA can win it, because they have much fewer forces
+than the Allies, and staying within the inner city would result in them being
+ZOC'ed in. But where they're at right now guarantees a siege, which is also a
+loss, and possibly sooner than chasing all over the map.
+
+From here out, my interest is how well the siege works, from both attacker
+and defender points of view. I think this will bring the game to a faster
+conclusion than having the NVA foxing around the map, however more historically
+accurate that might be.
+
+
+#### Score
+
+* NVA/VC: 30 ARVN + 13 turns + 9x2 USMC = 61.
+* ARVN/US: 32 VC + 33 NVA + 1x2 HAC = 67.
+
+
+## February 14, 1968
+
+
+
+
 ---
 
 ## AAR
@@ -536,6 +587,7 @@ there is surely vast opportunity for improving game play.
   NVA 3-6 weapons can spot on both fire phases. This makes a difference
   in play, and I'm sure that there were several Allied units knocked out
   because of using NVA 2-4 spotting.
+* Not bringing in naval gunfire on Turn 12.
 
 ### Handicapping
 

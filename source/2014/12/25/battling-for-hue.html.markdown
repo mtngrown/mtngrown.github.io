@@ -530,12 +530,34 @@ accurate that might be.
 
 #### Score
 
-* NVA/VC: 30 ARVN + 13 turns + 9x2 USMC = 61.
+* NVA/VC: 30 ARVN + 14 turns + 9x2 USMC = 62.
 * ARVN/US: 32 VC + 33 NVA + 1x2 HAC = 67.
 
 
 ## February 14, 1968
 
+No writeup for this turn, want to finish out the game now.
+
+Roll for VC: 6.
+
+{:.center}
+![Battle for Hue February 14, 1968](/images/battle-for-hue/hue_g1_feb14.jpg)
+
+
+The 1st Div armory fell from NVA hands. They need to reoccupy for a full
+turn to rearm VC. Not going to happen.
+
+Turn timer: 27:53. Doesn't look like I saved that much time, might as
+well continue writing everything up as I go.
+
+#### Score
+
+* NVA: 15 turns + 31 ARVN + 9x2 USMC = 64.
+* ARVN/US: 34 VC + 34 NVA + 2x2 HAC = 72.
+
+## February 15, 1968
+
+It looks like game pretty much over for NVA, but I'm going to play it out anyway.
 
 
 

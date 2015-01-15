@@ -557,11 +557,82 @@ well continue writing everything up as I go.
 
 ## February 15, 1968
 
+Turn played on January 15, 2015.
+
 It looks like game pretty much over for NVA, but I'm going to play it out anyway.
+
+No rolling for VC this turn.
+
+**NVA/VC Move** VC only move to attempt to repel ARVN from northern city.
+
+**First Fire Phase** Some trading, bad for commies, another loss on the armory
+bunker.
+
+**ARVN/US Road Move** Positioning for a big push for driving out NVA from 
+both Palace of Peace and 1st Div HQ.
+
+**ARVN/US Non-road Move** Closing to assault on Palace of Peace and armory.
+NVA got really lucky rolling a 1 to remove a 4-4 USMC with 1-4 unit, then
+rolled a 1 to remove an ARVN from a built-up city hex with a 2-4 unit.
+
+**Second Fire Phase** NVA kicked major ass this turn.
+
+Turn time: Did not time this turn.
+
+{:.center}
+![Battle for Hue February 15, 1968](/images/battle-for-hue/hue_g1_feb15.jpg)
+
+
+#### Score
+
+* NVA/VC: 33 ARVN + 11x2 USMC + 16 turns = 71.
+* ARVN/US: 40 VC + 36 NVA + 2x2 HAC = 80.
+
+NVA isn't done yet! I can see how the game could be dragged out at least
+a few more turns, but I'm kind of bored with it at this point.
+
+Also, I still haven't used the naval gunfire.
+
+## February 16, 1968
+
+**NVA/VC Move** Some rearranging at the north end, putting a VC on the
+1st Div HQ bunker. It survives 3 first fire attacks, which is pretty cool
+as it likely adds a turn to the game. No movement in Palace of Peace.
+
+**First Fire Phase** The NVA and VC have a chance to get really lucky here,
+or unlucky, we'll see how the die rolls. They got semi-lucky, the HAC
+unit survived and took an ARVN unit.
+
+**ARVN/US Road Move** position for "final assault."
+
+
+**ARVN/US Non-road Move** Hopefully the final assault.
+One first fire NVA 2-4 misses.
+
+**Second Fire Phase** HAC unit is out. NVA at north end reduced to a
+single unit.
+
+Turn time: did not time this turn.
+
+{:.center}
+![Battle for Hue February 16, 1968](/images/battle-for-hue/hue_g1_feb16.jpg)
+
+#### Score
+
+* NVA/VC: 35 ARVN + 11x2 USMC + 17 turns = 74.
+* ARVN/US: 38 NVA + 43 VC + 3x2 HAC = 87.
+
+Just for fun, I rolled a "3" on an attack at force 12 around Palace of Peace, which
+would have eliminated final NVA unit in that area.
+
+The final scores would have been something like 115-85 if it was
+played all the way out such that the ARVN/US got the 20 point bonus
+for clearning the inner city.
 
 
 
 ---
+
 
 ## AAR
 
@@ -610,6 +681,17 @@ there is surely vast opportunity for improving game play.
   in play, and I'm sure that there were several Allied units knocked out
   because of using NVA 2-4 spotting.
 * Not bringing in naval gunfire on Turn 12.
+* Torwards the end game, the VC could have made more blocking moves to
+  slow down ARVN retaking the 1st Div HQ. It wouldn't have changed the
+  outcome much, maybe swung it 10-15 points in favor of communists,
+  which would not have been enough.
+* Not surrounding Palace of Peace with loads of units. The odds decrease
+  with units firing from outside the walls, but the problem with getting
+  inside the walls is losing units to first fire on ZOC entry, which is
+  what happened on Feb. 15 turn.
+* Put a HAC unit in the Palace of Peace proper, and sell that thing dearly.
+  This could have increased NVA/VC score by a few points.
+
 
 ### Handicapping
 

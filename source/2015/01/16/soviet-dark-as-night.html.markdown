@@ -19,7 +19,7 @@ for a change. As it turns out, this was about as fast and easy as it gets.
 
 I should have played a Reserve Offensive, but didn't think about
 while I was marveling at my horribly bad rolling. Besides, I like
-to reverse the reserves for later in the game when there is more
+to reserve the reserves for later in the game when there is more
 at stake, like potentially a victory.
 
 My goal was a political win for this game. Instead, I got handed about

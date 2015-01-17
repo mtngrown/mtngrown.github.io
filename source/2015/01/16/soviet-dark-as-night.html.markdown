@@ -11,9 +11,9 @@ for a change. As it turns out, this was about as fast and easy as it gets.
 
 **Card 15** Advance Southern: Roll political all three, advance 2 on political track.
 
-**Card 21: Advance Southern: all 3 rolls againts southern fail.
+**Card 21**: Advance Southern: all 3 rolls againts southern fail.
 
-** Card6** Advance Southern: all rolls fail.
+**Card 6** Advance Southern: all rolls fail.
 
 **Card 7** Southern enters Moscow, game over, Crushing Defeat.
 

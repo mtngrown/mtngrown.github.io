@@ -1,7 +1,7 @@
 ---
 title: Fallen first play
 date: 2015-01-17 09:05 PST
-tags:
+tags: wtg, watchtower-games, dungeon-crawl, solitaire, fantasy, fallen
 ---
 
 For some reason, I've lately had problems with attention span.

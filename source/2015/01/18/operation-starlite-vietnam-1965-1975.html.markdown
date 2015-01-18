@@ -33,7 +33,7 @@ conditions. The shorter scenarios are 1, 2, 3 and 4 turns in length, without
 the seasonal interphase. As we'll see, four turns of Vietnam 1965-1975
 can be a full evening's play.
 
-Each is subdivided in a number of phases, which are further subdivided
+Each turn is subdivided in a number of phases, which are further subdivided
 into segments.
 
 
@@ -75,9 +75,23 @@ and described in detail in Section 5, page 9 of the rules.
 
 #### A. Designation Segment
 
+As explained in the preface material in Section 5 (page 9), the
+NLF always designates who conducts the next operation. The designated
+player is the *phasing* player and commences to:
 
+1. Choose the type of operation;
+1. which units participate;
+1. the *target hex* of the units (if applicable). 
 
 #### B. Support Declaration Segment
+
+The US player may:
+
+1. assign air support;
+1. assign naval support;
+1. declare free fire zones.
+
+Section 5.1 (page 9) contains details.
 
 #### C. Movement Segment
 
@@ -159,36 +173,107 @@ hex 5217.
 ### 2. Special Operations Designation Phase
 
 
-*Both players not any units on holding or patrol operations.*
+*Both players note any units on holding or patrol operations.*
 
-At this time, neither the US or the NLF have any units holding
+Neither the US or the NLF put any units in holding
 or on patrol.
 
 
 ### 3. Strategic Movement Phase
 
+*The US player may conduct security operations and employ strategic
+and naval movement.*
+
+US player sees no need for strategic movement or security operations.
+
+
 ### 4. Operations Phase
 
-#### A. Designation Segment
+#### Operation 1: NLF
 
-#### B. Support Declaration Segment
+##### A. Designation Segment
 
-#### C. Movement Segment
+*The phasing player choose the type of operation, which units participate, and
+the target hex of the units (if applicable).*
 
-#### D. Alert Segment (only in US operations)
+The NLF chooses to split units and move, which is conducted as a *Search and
+Destroy* operation (Section 5, page 9). The political section targets
+5020, 1st Regiment targets 5019.
 
-#### E. Combat Segment
+##### B. Support Declaration Segment
 
-#### F. Retreat Segment
+*The US player may assign air support, assign naval support or declare free fire zones.*
 
-#### G. Pursuit Segment
+Nothing for NLF here.
 
-#### H. Interdiction Removal Segment
 
-#### I. Continuous Operations Combat Segment
+##### C. Movement Segment
+
+Recall the scenario Special Rules reduce the NLF movement
+by two points, from 6 to 4.
+
+The political section moves to 5020 expending all 4 movement points
+as follows. Moving to 5120 costs 2, one for moving into a cultivated
+hex, plus one for traversing enemy controlled hex. Moving from
+5120 to 5020 costs another 2 points: 1 for moving into cultivated hex,
+plus another for crossing the river hex side.
+
+The 1st Regiment pays the same 2 movement points to enter hex 5120, then
+another point to move to 5019, for a total of 3.
+
+(**Discrepancy with rule book example, which states that both units
+expend all 4 movement points.**)
+
+This completes the operation for the NLF forces; apply an OPS COMP
+marker to each unit.
+
+##### D. Alert Segment (only in US operations)
+
+##### E. Combat Segment
+
+##### F. Retreat Segment
+
+##### G. Pursuit Segment
+
+##### H. Interdiction Removal Segment
+
+##### I. Continuous Operations Combat Segment
+
+Return to Segment and and repeat until neither player is able or
+willing to conduct an operation.
+
+#### Operation 2: US
+
+##### A. Designation Segment
+
+##### B. Support Declaration Segment
+
+##### C. Movement Segment
+
+##### D. Alert Segment (only in US operations)
+
+##### E. Combat Segment
+
+##### F. Retreat Segment
+
+##### G. Pursuit Segment
+
+##### H. Interdiction Removal Segment
+
+##### I. Continuous Operations Combat Segment
 
 Now return to Segment and and repeat until neither player is able or
 willing to conduct an operation.
+
+
+### 5. Game Turn Indication Phase
+
+Since this scenario is just one turn in length, we resolve
+victory conditions and the game is concluded.
+
+
+
+## After Action Report
 
 
 

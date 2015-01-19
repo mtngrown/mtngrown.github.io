@@ -36,6 +36,11 @@ can be a full evening's play.
 Each turn is subdivided in a number of phases, which are further subdivided
 into segments.
 
+## Counters
+
+
+* VC are red with the NATO symbol backed with a blue blaze.
+* NVA are red with the NATO symbol back with a yellow blaze.
 
 ## Turn phases
 
@@ -227,30 +232,72 @@ expend all 4 movement points.**)
 This completes the operation for the NLF forces; apply an OPS COMP
 marker to each unit.
 
+#### Operation 2: US
+
+Since the NLF have no further operations this turn, the US is free
+to conduct an operation.
+
+##### A. Designation Segment
+
+The US chooses to send 3/3/3M on a Search and Destroy operation
+targeting hex 5020.
+
+##### B. Support Declaration Segment
+
+##### C. Movement Segment
+
+3/3/3M moves from 5118 to 5199 expending 2 MP, from 5119 to 5120
+expending 3 MPs (1 for cultivated, 1 for crossing river, 1 for
+eZOC), and from 5120 to 5020 expending a final 3 MPs (1 for cultivated,
+2 for entering enemy hex). Since 5020 is a target hex, 3/3/3M does
+not need to reserve enough MPs to move out of 5020 (which would be
+at least 2MP).
+
+(**Discrepancy with rule book example, which states that 3/3/M
+only spends 6 MPs.**)
+
+Since the political section in 5019 is adjacent to the enemy 3/3/3M
+now occupying hex 5020, it gets a *reaction move* (Section 5.3, page
+10), which is taken immediately. The unit moves to hex 4919 at a cost
+of its 4 MPs (1 to leave the USMC ZOC, 3 to enter mountain terrain).
+
+Since the VC 1st Reg. in 5020 is a target unit, it does not get a reaction move.
+
 ##### D. Alert Segment (only in US operations)
+
+However, the first responds with an *Alert Movement* during the Alert Segment,
+as it is a defender in a Search and Destroy operation (Section 5.2, page 9).
+
+Alert d6 roll: 4.
+
+Alert MP is 4 (roll) + 1 (terrain) - 2 (scenario) for a total of 3.
+
+The unit moves south to 5018, expending 1 (cultivated terrain) + 1
+(leave eZOC) + 1 (crossing river) for a total of 3 MPs.
+
+(**Question: is this the best move? If so, why? If not, what
+would be a better move?**)
 
 ##### E. Combat Segment
 
-##### F. Retreat Segment
+3/3/3M decides to attack the VC unit adjacent in 5018. This unit is
+a VC political unit, which is removed from play (Section 10, page 18).
 
-##### G. Pursuit Segment
+(**Apparent discrepancy: this unit in the scenario diagram is show to be VC
+1st Reg., but described as a political section in the playthrough.**)
 
-##### H. Interdiction Removal Segment
+Since there are no further activities for 3/3/3M's operation, this
+Search and Destroy operation is over (and we begin another round of
+operations.
 
-##### I. Continuous Operations Combat Segment
 
-Return to Segment and and repeat until neither player is able or
-willing to conduct an operation.
-
-#### Operation 2: US
+#### Operation 3: US
 
 ##### A. Designation Segment
 
 ##### B. Support Declaration Segment
 
 ##### C. Movement Segment
-
-##### D. Alert Segment (only in US operations)
 
 ##### E. Combat Segment
 
@@ -264,7 +311,6 @@ willing to conduct an operation.
 
 Now return to Segment and and repeat until neither player is able or
 willing to conduct an operation.
-
 
 ### 5. Game Turn Indication Phase
 

@@ -295,15 +295,25 @@ operations.
 
 ##### A. Designation Segment
 
+Second Search and Destroy, targeting 4119. All ground units assigned.
+
 ##### B. Support Declaration Segment
+
+All cruiser and air points are assigned.
 
 ##### C. Movement Segment
 
 ##### E. Combat Segment
 
+
+
 ##### F. Retreat Segment
 
+VC 1st Reg. retreats to 5019, expending 4 MPs.
+
 ##### G. Pursuit Segment
+
+HQ and artillery cannot pursue as they have no innate pursuit allowance.
 
 ##### H. Interdiction Removal Segment
 

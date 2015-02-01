@@ -431,6 +431,15 @@ As noted above, there is no pursuit allowance from combat results, so
 Because 3/7 is battalion-sized, Airmobilization costs 1 Airmobile point,
 so the Airmobile counter is decremented from 1 to 0.
 
+{:.center}
+![Operation Starlite Operation 3 Airmobile](/images/vietnam-1965-1975/starlite/operation-3-airmobile.jpg)
+
+Note that the *correct* HQ unit was used in this image. Fortunately, the
+divisional HQ shown in other images did not affect game play for this
+scenario. Although if it had, the mistake probably would have been caught
+much earlier.
+
+
 According the play through (p. 41L), the USMC units can choose to attack
 again. (**Attacking after pursuit does not appear to be explicitly defined
 in the rules.**)

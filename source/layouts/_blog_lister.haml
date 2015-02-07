@@ -1,8 +1,0 @@
-- blog.articles[0..6].each_with_index do |article, i|
-  %article.listing{:class => (i == 0) ? 'first' : ''}
-    %h3
-      %a{:href => article.url}= article.title
-      %span= article.date.strftime('%b %e %Y')
-    = article.summary
-    .more
-      %a{:href => article.url} read on &raquo;

@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
+    <link href="/stylesheets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/consim.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="/stylesheets/pb.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id='wrap'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <header>
+              <nav class='navbar navbar-default' role='navigation'>
+                <div class='container' style='background-color: black;'>
+                  <ul class='nav navbar-nav'>
+                    <li>
+                      <a href='/about.html'>About</a>
+                    </li>
+                    <li>
+                      <a href='/'>ConSim home</a>
+                    </li>
+                    <li>
+                      <a href='/panzerblitz'>PanzerBlitz home</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Playing aids
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Games
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/games/'>Overview</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/balance.html'>Balance</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='/panzerblitz/firefights'>Firefights</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Tactical examples
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Source code
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+                          </li>
+                          <li>
+                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8'>
+            <h1 id="situation-6-game-2-german-mobile-defense-west-of-dnieper-bend">Situation #6 (game 2): German mobile defense west of Dnieper Bend</h1>
+            
+            <p>May 31, 2014</p>
+            
+            <p>At Endgame, had a tentative meetup with Al S. but I haven't heard from
+            him. Hence, setting up Situation #6 for a second solo play.</p>
+            
+            <p>In the first Situation #6 game, the Germans forgot to bring their
+            halftracks. This game, the Germans have the correct OOB.</p>
+            
+            <p>House rule: halftrack elimination does not produce a wreck counter. As
+            will be noted in the After Action, this is actually a blunder with
+            respect to the rules, which clearly state that destroyed halftracks
+            result in a wreck counter placed at the site of destruction.</p>
+            
+            <h2 id="turn-1">Turn 1</h2>
+            
+            <p>The first game of Situation #6 I did not understand why it might be
+            benficial for the Germans to set up second, but move first. I get it
+            now.</p>
+            
+            <p>Germans first move is to get some infantry over to the pass between
+            hills 104  &amp; 126 to deny the Russians theroad movement through the pass.</p>
+            
+            <p>Russians can't do much more than road march into the teeth of the much
+            smaller German force, which is hoding some tactically valuable
+            positions.</p>
+            
+            <h2 id="turn-2">Turn 2</h2>
+            
+            <p>Germans consolidating positions around the pass.</p>
+            
+            <p>Russians made a mistake by putting all the truck-mounted SMG units at
+            the rear. A few of these should be up at the front to spot, close
+            assault, and soak up fire without producing wrecks.</p>
+            
+            <h2 id="turn-3">Turn 3</h2>
+            
+            <p>Germans took out a field gun which the Russians probably didn't need to
+            sacrifice. It was placed to put some pressure om the Jgpz IV.</p>
+            
+            <p>Russians are going to have to really put some pressure on now, because
+            they are bottleneck on Board 1 in a big way. Attempting to encircle the
+            Germans.</p>
+            
+            <h2 id="turn-4">Turn 4</h2>
+            
+            <p>Germans mounting up to pull back.</p>
+            
+            <p>Russians encircled units on pass.</p>
+            
+            <h2 id="turn-5">Turn 5</h2>
+            
+            <p>Germans in major retreat!</p>
+            
+            <p>Al S. showed up about right here, so I played everything out solo,
+            narrating my reasoning to Al as I went.</p>
+            
+            <h2 id="turn-6---turn-10">Turn 6 - Turn 10</h2>
+            
+            <p>Looks pretty close, will have to count pieces to see if the Germans have
+            enough to squeak out a marginal victory and claim a draw.</p>
+            
+            <h2 id="aar">AAR</h2>
+            
+            <p>Final result: Russians take 7 German units, Germans take 15 Russian
+            units, marginal victory for Germans. Russian move 11 units on to Board
+            3, marginal Russian victory. Hence, a draw.</p>
+            
+            <h3 id="blunders">Blunders</h3>
+            
+            <p>Not using halftracks as sacrificial pieces to slow Russian advance. I've
+            playing that halftrack elimination does not place a wreck, which is
+            counter to the rules. Using halftracks as wrecks allows saving the
+            "real" AFVs for shooting.</p>
+            
+            <p>Germans still don't know how to employ the long range artillery. The
+            Wespe and Hummel got off one shot each.</p>
+            
+            <h3 id="balance">Balance</h3>
+            
+            <p>Situation #6 as played in these two games feels relatively
+            well-balanced. On the one hand, it's tough for the Germans to get the
+            long range SPA effectively employed, and difficult to acquire other
+            kills, on the other hand, with a bit of care, the Germans can generally
+            stay well out of reach from the Russians, choosing when and where to
+            sacrifice units.</p>
+            
+            <p>But the Russians have so many units, which puts a lot of pressure on the
+            Germans. Any German standing to fight risks being swarmed by T-34s.</p>
+            
+            <p>It wasn't apparent the first game why the Germans need to get first
+            move. Since they're limited to Board 2 for set up, this move lets the
+            Germans quickly emplace to slow the Russians from leaving Board 1.
+            The Germans probably don't <em>need</em> to move first, but they <em>do</em> need to
+            make the Russians pay to leave Board 1, which means moving towards the
+            advancing Russian column immediately.</p>
+            
+            <p>There is an official variant of this scenario distributed by Avalon Hill
+            in some printings of the game which allow the Germans to place a mines
+            and blocks. This could make it very, very difficult for the Russians to
+            win, depending on the skill of the German player to emplace the
+            impediments.</p>
+          </div>
+          <div class='col-md-4'>
+            <div class='sidebar'>
+              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+              
+              <p>Avalon Hill's PanzerBlitz was a successor to a game called
+              "Tactical Game 3," which was never developed for market. The story can
+              be found on related web sites. What's important here is that the game
+              does have a long and successful history, ultimately selling hundreds
+              of thousands of copies.</p>
+              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
+              
+              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+              
+              <ul>
+                <li>
+                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+              Strategist</a>,
+              often referred to as "ImStrat" has an incredible collection of articles,
+              counters, maps and other material related to PanzerBlitz, Panzer Leader
+              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+                </li>
+                <li>
+                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+              outstanding resource, also worth hours of reading.</p>
+                </li>
+                <li>
+                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+              appears to be where a number of current PanzerBlitz players can be
+              found. The forum is relatively relaxed and low traffic, but there is a
+              lot of information available.</p>
+                </li>
+              </ul>
+              
+              <p>There are several more outstanding links which will be added in the
+              future, and if you, the reader, find one of your favorite sites missing,
+              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+              with the relevant addition.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='push'></div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12'>
+          <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            <a href='/pb'>Home</a>
+            <a href='http://github.com/mtngrown/consim'>Source</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

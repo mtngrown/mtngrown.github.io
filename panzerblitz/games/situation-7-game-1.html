@@ -1,0 +1,497 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
+    <link href="/stylesheets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/consim.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="/stylesheets/pb.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id='wrap'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <header>
+              <nav class='navbar navbar-default' role='navigation'>
+                <div class='container' style='background-color: black;'>
+                  <ul class='nav navbar-nav'>
+                    <li>
+                      <a href='/about.html'>About</a>
+                    </li>
+                    <li>
+                      <a href='/'>ConSim home</a>
+                    </li>
+                    <li>
+                      <a href='/panzerblitz'>PanzerBlitz home</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Playing aids
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Games
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/games/'>Overview</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/balance.html'>Balance</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='/panzerblitz/firefights'>Firefights</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Tactical examples
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Source code
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+                          </li>
+                          <li>
+                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8'>
+            <h1 id="situation-7-game-1-meeting-engagement-during-german-relief-of-kiev">Situation #7, Game 1, Meeting engagement during German relief of Kiev</h1>
+            
+            <p>The notorious Situation #7. Among Long time players, this situation is
+            held to be a slam dunk for a competent German player.</p>
+            
+            <p>Number of Russian counters: 50</p>
+            
+            <p>Number of German counters: 32</p>
+            
+            <h2 id="introduction">Introduction</h2>
+            
+            <p>One of the dangers of doing background research for game play
+            preparation is that it may unwittingly introduce bias into one's
+            perception. In this case, reading about Situation #7's lopsidedness has
+            predisposed a certain lack of interest on my part.</p>
+            
+            <p>While it would be nice to annotate every turn, and that is something of
+            a goal with respect to the series of games I'm playing, in this case, I
+            may decide just to play out the scenario without worrying over much
+            about taking notes. It's more important to have fun playing than to
+            worry about anything. Worry defeats the whole purpose!</p>
+            
+            <p>Let's see what happens.</p>
+            
+            <h2 id="turn-1">Turn 1</h2>
+            
+            <p>Germans move first, splitting into three groups, north, central and
+            south. This is a race to get optimum positioning on Board 2, then dig in
+            and punish the Russians trying to dislodge the Germans from positions. A
+            Panther from the central group reaches Bednost, with the rest of the
+            central group in road march order towards Opustochenia. Most of the
+            units in the northern and southern groups ended up in the clear,
+            unavoidable, but not within range of Russian units.</p>
+            
+            <p>Ok, this really is going to suck for the Russians. The Germans can at
+            least some units on Board 2 the first turn, the Russians cannot. The
+            farthest they can get is almost to the edge of Board 2, having to move
+            through adverse terrain.</p>
+            
+            <h2 id="turn-2">Turn 2</h2>
+            
+            <p>Germans move to fully occupy Bednost and Golod, with a very small
+            presence at the south end of the map.</p>
+            
+            <p>Russians coming in large force at south end and north end, considering
+            leaving Bednost alone.</p>
+            
+            <h2 id="turn-3">Turn 3</h2>
+            
+            <p>Germans have to make a decision here, because they win by default having
+            as many units on the board as the Russians. So they need do no more than
+            defend what they have. However, the more Russian units they can prevent
+            from getting on Board 2, the better their victory.</p>
+            
+            <p>First up, Germans disperse T-34s on north slope of Hill 132. Next,
+            reposition to establish dominant fields of fire on most of Board 2. The
+            Russians are now forced to be very aggressive, but cannot risk losing
+            too many units.</p>
+            
+            <p>If the Russians can push the Germans off Board 2, this also counts for
+            victory conditions. However, the German's last move positioned the Wespe
+            to cover the open ground on the north end of Board 2. This is going cost
+            at least the dispersed T-34.</p>
+            
+            <p>On the other hand, a German Panther foolishly exposed itself to an
+            overrun by a pair of T-34s, which landed behind a brown slope bar, hence
+            concealed from fire this turn. First kill to Russians.</p>
+            
+            <h2 id="turn-4">Turn 4</h2>
+            
+            <p>And the Germans get kill on T-34 which was dispersed last turn. Not much
+            else to do other than make small positioning moves to adjust fields of
+            fire and deny movement to Russians.</p>
+            
+            <p>Russians have got to move the infantry up fast, to get the Germans
+            spotted and keep them off balance an in motion preferably off of Board
+            2. End result of this turn is putting pressure on Hill 129.</p>
+            
+            <h2 id="turn-5">Turn 5</h2>
+            
+            <p>Germans are facing trouble on Hill 129. They can can stay and fight, and
+            reduce the size of the Russian force, at some cost to themselves, or
+            they can cede to a more defensible position at the expense of losing a
+            120 mm mortar, and positioning. Best to cede the hill, maintain winning
+            conditions.</p>
+            
+            <p>Russians eliminated the German 120 mm mortar, as expected.  Then more
+            positioning. The clock is running out. This is a hard scenario.</p>
+            
+            <h2 id="turn-6">Turn 6</h2>
+            
+            <p>At some point the Russians will have to force a massive attack. The key
+            for the Germans is making that as expensive as possible. At this point,
+            since the Germans occupy the key real estate, there is liitle they can
+            do other than make Russian attacks very expensive, and reposition to
+            deny Russian fire advantage.</p>
+            
+            <p>Russians having spotted to fire on, and there are no Germans in the
+            clear. Time to get busy.</p>
+            
+            <p>So, yeah, it's unrealistic, but for purposes of game play, T-34s really
+            need that extra speediness to get around the battlefield. The idea is to
+            try and force the Germans off of Hill 132 or out of Golod by end of
+            game, leaving enough unit down south of Bednost to keep the Germans
+            bottled up.</p>
+            
+            <p>It's interesting that Germans move relatively few pieces, while the
+            Russians tend to move most of their units.</p>
+            
+            <h2 id="turn-7">Turn 7</h2>
+            
+            <p>The Germans can't do much more than sit tight and wait for the
+            inevitable onslaught Russians.</p>
+            
+            <p>First, rectify a major blunder: tanks in woods on Hill 132 should have
+            fired on T-34s on south slope of Hill 129 several turns ago. It was a
+            Russian blunder to leave these exposed! Since theT-34 is on a hill, it's
+            1:2, roll 1, dispersed. Now move a Panther into position to combine
+            attacks next turn for a kill.</p>
+            
+            <p>Since the Germans are going to take casualties, the tactics now serve to
+            limit casualties to low attack strength units such as halftracks,
+            emplaced to deny Russian post-attack advantage. That is, the Russians
+            will eliminate those units, but, hopefully, gain no further tactical
+            advantage.</p>
+            
+            <p>Russians are set up to first get pounded, then blast the Germans back
+            big time. It just occurred to me, though, the German only need go for
+            dispersals, but theRussians need kills. This is a Big Deal for game
+            play. In any case, after a nasty roll 6 on a 4:1 (defending halftrack in
+            forest), Russians managed to collect a few more halftacks which the
+            Germans put out to deny terrain.</p>
+            
+            <h2 id="turn-8">Turn 8</h2>
+            
+            <p>Germans whiffed a 3:1, T-34 in woods hilltop. Now, the decision is
+            either stay and fight and probably lose the Wespe, or run and hide.</p>
+            
+            <p>This round, run; consolidate positions on Hill 132 and Golod. Give up
+            Hill 129.</p>
+            
+            <p>Russians knock ATG in woods south of Golod, as expected. Also knocked
+            off an SG III-75 with CAT which was a blunder on the Germans. Another
+            CAT got a dispersal, which is going to be a kill next turn.</p>
+            
+            <h2 id="turn-9">Turn 9</h2>
+            
+            <p>Germans need to knock off a couple of Russian units, else they're going
+            to lose. So, two trucks eliminated, which will hurt the Russian count.</p>
+            
+            <p>Russians take out a tank and a half track, then make the huge move to
+            surround Golod.</p>
+            
+            <h2 id="turn-10">Turn 10</h2>
+            
+            <p>Here's the situation at the top of the Turn 10:</p>
+            
+            <p class="center"><img alt="Top of Turn 10" src="/images/top-of-10th.jpg" /></p>
+            
+            <p>This illustrates the essential difficulty of Situation #7: the Germans
+            don't really need to do anything except avoid fighting.</p>
+            
+            <p>Because this was a solitaire game, I decided that the Germans would stay
+            and fight instead of running around the north end of the Russian units.</p>
+            
+            <p>Germans whiffed a 3:1, which will be costly as it leaves Golod fully
+            spotted, but did follow up a 2:1 dispersal with a 1:3 CAT for a kill.
+            And, Lo! A Panther from Hill 132 disables the T-34 spotting, leaving
+            only the east part of Golod spotted.</p>
+            
+            <p>Russians got some big kills including the Hummel on this last turn
+            as a couple of rifle companies made a close assualt on the south side of
+            Bednost. This was a total German blunder and didn't need to happen.</p>
+            
+            <p>A definite Russian blunder in deploying spotting units left the west
+            half of Golod unspotted, leaving a three stack of Germans at 4:1 covered
+            from fire.  Bummer for Russians. However, the units in the east side of
+            Golod were eliminated.</p>
+            
+            <h2 id="aar">AAR</h2>
+            
+            <p>Final count: Germans 17, Russians 46, which is a marginal Russian
+            victory. To be fair, the Germans probably lost 3-4 units by choosing to
+            stay and fight rather than bailing out, and they definitely missed a few
+            critically important opportunities for for fire, which would have
+            knocked the Russians back 2-3 units, at least. In short, this felt
+            well-balanced to me, but that's probably because I don't have much
+            experience.</p>
+            
+            <p>After this first game, my impression is that this is the most
+            "chess-like" situation yet. At the end of turn 6, The Russians were down
+            only one unit, the Germans two, and losses for both sides were
+            definitely blunders. Of particular note, the Germans ultimately had to
+            cede ground to stay out of nasty attrition firefights.</p>
+            
+            <p>A tactic which occurred to me is how to force the Germans into nasty
+            close combat situations by forcing them to either stay spotted by cheap
+            deadly ATG guns, or feel compelled to overrun into the clear.</p>
+            
+            <p>This is where combat rule forcing the attack on the weakest unit can
+            also be employed.</p>
+            
+            <p>On the other hand, the Germans could use more indirect fire by placing
+            the Wespe and Hummel way off Board 2. They might not end up counting for
+            victory, but it might not matter.</p>
+            
+            <p>Here's a good tactic: when faced with a large choice of potential
+            targets, position such that a dispersal shot on one turn allows
+            repositioning friendly units to fire for a kill on the next.</p>
+            
+            <h3 id="blunders">Blunders</h3>
+            
+            <p>German left a Panther exposed to overrun, which was completely
+            unnecessary.</p>
+            
+            <p>Violated Russian stacking conditions on a truck/infantry colocation:
+            there was already a unit in that hex.</p>
+            
+            <p>Russians not  using either infantry or SU-152s effectively. They need to
+            come up the middle road on Board 1 at the start, movement 7 just gets
+            them bogged down in the hills and swamps anywhere else.</p>
+            
+            <p>SG III-75 in woods on Hill 132 should have fired on T-34s on south slope
+            of Hill 129 several turns ago. It was a Russian blunder to leave these
+            exposed! Then again, at that range with the T-34 on a slope, it's 1:2
+            attack for the Germans.</p>
+            
+            <p>German movement to deny terrain has to be balanced against whether the
+            unit will survive. If it won't survive, then there has to be value in
+            having the attacking unit firing instead of moving.</p>
+            
+            <p>Germans left the Wespe out of LOS on final turn, bad move. This could
+            have taken out a Russian tank.</p>
+            
+            <p>Leaving Hummel exposed to CAT on last turn!</p>
+            
+            <h3 id="balance">Balance</h3>
+            
+            <p>One way to investigate a better balanced scenario would be to have the
+            Russians come in from the east and the Germans from the west, opposite
+            of the current scenario.</p>
+            
+            <p>Alternatively, specify the Russians as having first movement.</p>
+            
+            <p>By the start of Russian Turn 3, it's looking really grim for the
+            Russians, specifically, facing a concealed Wespe on Hill 129 makes
+            motion on the north end of Board 3 really problematic.</p>
+            
+            <p>It might be that having more than 10 turns helps even things out as
+            well.</p>
+            
+            <p>Another way might be to add a few units to the Russian OOB, or remove a
+            couple from the German, or both.</p>
+            
+            <h3 id="victory-conditions">Victory conditions</h3>
+            
+            <p>The game starts with a de facto German victory, since the Germans start
+            with at least as many pieces as the Russians.</p>
+            
+            <p>The scenario is designed to force Russian offensive action. The Russians
+            cannot win this with the usual tactic of emplacing unkillable infantry
+            to block German action.</p>
+            
+            <p>One way to make victory conditions a little more interesting is to
+            require the Germans to hold some real estate. The Germans were able to
+            minimize losses up until they decided to fight, which lost them the
+            game. A better balanced scenario might have a few less Russian tanks,
+            with a requirement that the Germans must hold one or more towns or
+            hills. (This opinion is based on one game, where neither Wespe or Hummel
+            got into play.)</p>
+          </div>
+          <div class='col-md-4'>
+            <div class='sidebar'>
+              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+              
+              <p>Avalon Hill's PanzerBlitz was a successor to a game called
+              "Tactical Game 3," which was never developed for market. The story can
+              be found on related web sites. What's important here is that the game
+              does have a long and successful history, ultimately selling hundreds
+              of thousands of copies.</p>
+              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
+              
+              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+              
+              <ul>
+                <li>
+                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+              Strategist</a>,
+              often referred to as "ImStrat" has an incredible collection of articles,
+              counters, maps and other material related to PanzerBlitz, Panzer Leader
+              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+                </li>
+                <li>
+                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+              outstanding resource, also worth hours of reading.</p>
+                </li>
+                <li>
+                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+              appears to be where a number of current PanzerBlitz players can be
+              found. The forum is relatively relaxed and low traffic, but there is a
+              lot of information available.</p>
+                </li>
+              </ul>
+              
+              <p>There are several more outstanding links which will be added in the
+              future, and if you, the reader, find one of your favorite sites missing,
+              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+              with the relevant addition.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='push'></div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12'>
+          <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            <a href='/pb'>Home</a>
+            <a href='http://github.com/mtngrown/consim'>Source</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

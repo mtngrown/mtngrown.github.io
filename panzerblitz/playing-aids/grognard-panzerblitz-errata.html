@@ -1,0 +1,698 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
+    <link href="/stylesheets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/consim.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="/stylesheets/pb.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id='wrap'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <header>
+              <nav class='navbar navbar-default' role='navigation'>
+                <div class='container' style='background-color: black;'>
+                  <ul class='nav navbar-nav'>
+                    <li>
+                      <a href='/about.html'>About</a>
+                    </li>
+                    <li>
+                      <a href='/'>ConSim home</a>
+                    </li>
+                    <li>
+                      <a href='/panzerblitz'>PanzerBlitz home</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Playing aids
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Games
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/games/'>Overview</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/balance.html'>Balance</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li>
+                      <a href='/panzerblitz/firefights'>Firefights</a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Tactical examples
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                    <li class='dropdown'>
+                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                        Source code
+                        <b class='caret'></b>
+                        <ul class='dropdown-menu'>
+                          <li>
+                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+                          </li>
+                          <li>
+                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+                          </li>
+                          <li>
+                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+                          </li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-8'>
+            <p>The following Q &amp; A were extracted from a set of links
+            maintained for <a href="http://grognard.com/ah/errata/panzerb.html">PanzerBlitz errata at
+            Grognard</a>. Any discrepancy
+            between the below and the material at Grognard should be resolved in
+            favor of Grognard.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can either side voluntarily destroy their own armored vehicles?</strong></p>
+            
+            <p>A. No</p>
+            
+            <hr />
+            
+            <p><strong>Q. Does a colored hexside obstruct the line of fire?</strong></p>
+            
+            <p>A. In some cases, yes. It depends on the respective elevation of the
+            attacker and defender. Consult the Target Elevation Table and the
+            Examples of play card as there are many different situations.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Do you count truck and wagon units for victory conditions?</strong></p>
+            
+            <p>A. Yes, but you don't count pieces which contain no men such as mines,
+            blocks, and fortifications.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Are units on hilltop hexes such as the plateau-like hilltop on board
+            2, that are not forest or town hexes, subject to the overrun rule by
+            armored units?</strong></p>
+            
+            <p>A. Yes, only hexes with orange sides are hilltop hexes. A clear hex is a
+            clear hex, no matter what its elevation is. Clear hilltop hexes are
+            clear hexes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If a unit is fired upon from a woods hex or a town hex, can it return
+            fire without meeting the SPOTTING RULE conditions?</strong></p>
+            
+            <p>A. No. SPOTTING RULE conditions must always be met.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Using the INDIRECT FIRE rule, may a friendly unit call in artillery
+            fire even though a friendly CP unit does not see the enemy unit?</strong></p>
+            
+            <p>A. No.</p>
+            
+            <hr />
+            
+            <p><strong>Q.Can block units ever be destroyed by engineers or artillery?</strong></p>
+            
+            <p>A. No.</p>
+            
+            <hr />
+            
+            <p><strong>Q. May a unit on a hilltop hex fire at a unit on a slope directly behind
+            a brown hexside (the reverse slope)?</strong></p>
+            
+            <p>A. Yes. This is shown on the examples of play card, see note C&amp;D. Alsom
+            note that this is not always the case. The exceptions are covbered in
+            the rules under the SPECIAL NOTES part of the Obstacles and ELEVATIONS
+            section of the rules.</p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation 10, may the Germans win a marginal victory by destroying
+            all 12 Russian units on board 1 without even entering board 3?</strong></p>
+            
+            <p>A. Yes, but the Russians may then win a decisive victory by moving all
+            their forces onto board 3. Note that the North direction arrow should be
+            pointing towards board 2.</p>
+            
+            <hr />
+            
+            <p><strong>Q.When making the initial setup of units, can the half hexes on the
+            sides of the boards be used if a unit in such a hex would be half on one
+            board and half on another?</strong></p>
+            
+            <p>A. No. Units must be completely on one board as indicated.</p>
+            
+            <hr />
+            
+            <p><strong>Q. What happens in Situation 1 if three German units are destroyed?</strong></p>
+            
+            <p>A. Decisive Victory.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If there are several units on a hex that have identical defense
+            factors, how is it decided which is the weakest?</strong></p>
+            
+            <p>A. You may attack the unit of your choice.</p>
+            
+            <hr />
+            
+            <p><strong>Q. What would happen in a situation such as No. 6 if the Russian player
+            refuses to attack the German position?</strong></p>
+            
+            <p>A. Nothing. No battle - no victory.</p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation 1, may all the CPs be placed in one fort or may two be
+            placed in one fort or may only one be in each fort?</strong></p>
+            
+            <p>A. All three may be in one fort, but the fort must be on a hilltop hex
+            (one with six orange sides).</p>
+            
+            <hr />
+            
+            <p><strong>Q. The TEC states that it costs a truck unit 2 MF to enter a clear
+            terrain hex. Does this mean each clear terrain hex?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. When a unit becomes dispersed, does he still have Zone of Control on
+            the hex he occupies?</strong></p>
+            
+            <p>A. Yes, enemy units may still not move through a dispersed unit. The
+            dispersed unit still retains its normal defense factor.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If a unit moves to a Fortification, does it cost him a MF to enter
+            UNDER the fortification, rather than just sit on top of it?</strong></p>
+            
+            <p>A. There are no movement penalties for moving onto or into a
+            fortification counter.</p>
+            
+            <hr />
+            
+            <p><strong>Q. On the optional rules concerning Panzerblitz assault, must the
+            infantry attack the overrun unit or may it attack any adjacent unit?</strong></p>
+            
+            <p>A. It must attack the unit being overrun.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If only a transport or CP unit is placed under a fortification
+            counter, does the fort counter still have its full defense factor?</strong></p>
+            
+            <p>A. Yes, any fort with people in it will do it.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If a fort is occupied, can enemy units travel directly through that
+            hex?</strong></p>
+            
+            <p>A. No. They may move onto the fort in one turn, but they cannot move off
+            until the next turn.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If there are three German units in a fort, can there also be three
+            German units on that fort?</strong></p>
+            
+            <p>A. Yes, or two Russian units.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If the Germans have to get units onto board 2, for example, to
+            satisfy victory conditions, are the units that are on squares that are
+            half on board 2 and half on another board considered on board 2?</strong></p>
+            
+            <p>A. No.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If a unit moves onto a minefield and survives the attack, can it
+            attack in that turn?</strong></p>
+            
+            <p>A. No. On the next turn, it may move, fire, or execute overrun or CAT
+            attacks. It may remain on the minefield without suffering further
+            "attacks".</p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation No. 5, do all German units have to move off the east
+            side of board 2?</strong></p>
+            
+            <p>A. No. But before any given unit can count toward the victory
+            conditions, it must leave and stay off for three complete turns.</p>
+            
+            <hr />
+            
+            <p><strong>Q. May wagons move from a gully to a slope hex?</strong></p>
+            
+            <p>A. Yes. Any unit can always move one hex regardless of movement costs
+            listed on the TEC. Forbidden movements such as armor entering swamps are
+            not allowed.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Are cavalry considered vehicles on the TEC?</strong></p>
+            
+            <p>A. Yes, except that they can pass through green hexsides without cost.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Since units in towns and forts are treated as armor targets, can they
+            be attacked by I units that are two squares away? A. No.</strong></p>
+            
+            <hr />
+            
+            <p><strong>Q. If two engineer units are adjacent to a minefield, cvan they "attack"
+            it twice in one turn?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can trucks and wagons spot?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can a carrier move after it has unloaded if it has MF left?</strong></p>
+            
+            <p>A. If a transporting vehicle has MF left over after unloading it can
+            move. "Transporting" does not equal "moving". "Transport" is a specific
+            type of movement.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If a defending unit gets a DD and then a D in the same turn, is it
+            eliminated?</strong></p>
+            
+            <p>A. No. Just dispersed.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can two carriers unload on the same hex?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation No. 9, the 1st edition scenario card calls for 4 Russian
+            120mm. Is this correct?</strong></p>
+            
+            <p>A. No. They should have three.</p>
+            
+            <hr />
+            
+            <p><strong>Q. In Situation No. 12, the scenario card calls for 6 German wagons but
+            there are only four provided.</strong></p>
+            
+            <p>A. Use Russian wagons for the other two.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can CAT be used against units that are on a minefield?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can you explain spotting more?</strong></p>
+            
+            <p>A. There are four things to keep in mind. First, since firing occurs
+            prior to movement, a spotting unit must be in place at the beginning of
+            a turn. It cannot move into position and spot for firing in the same
+            turn. Second, even after a unit is spotted, the firing unit must still
+            have a clear line-of-fire to the target(unless the optional indirect
+            fire rule is being used). Third, if the spotting unit moves away, fire
+            may no longer be directed at units that were previously spotted. Fourth,
+            if you are using the Indirect Fire rule, the CP must be able to see the
+            spotting unit.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If armor is carrying units which are attacked and dispersed, what
+            happens?</strong></p>
+            
+            <p>A. Passengers must unload (and are eliminated if overstacked).</p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation No. 8, it states that CPs may only spot for 120mm
+            mortars (within 4 hexes). Does this refer to the enemy within 4 hexes of
+            the 120mm mortars?</strong></p>
+            
+            <p>A. The CPs must be within 4 hexes of the 120's to spot.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can overrun attacks be conducted on a unit on a stream ford?</strong></p>
+            
+            <p>A. Yes. A stream ford is considered a plain hex.</p>
+            
+            <hr />
+            
+            <p><strong>Q. The CRT shows results for die-roll subtraction to -2; but it is
+            possible to have a -3 subtraction. What happens?</strong></p>
+            
+            <p>A. For attacks at 1-4 and 1-3; when a -3 is rolled take the results from
+            the -2 line of the next higher odds column. Therefore, -3 at 1-4 odds =
+            DD; -3 at 1-3 odds = X.</p>
+            
+            <hr />
+            
+            <p><strong>Q. If I had a unit on a slope hex directly behind a brown hexside, is my
+            unit in the LOS of a unit firing from a hilltop (assuming no other
+            obstacles)?</strong></p>
+            
+            <p>A. Yes. Brown hexsides block LOS only when the target unit is on ground
+            level (see TET).</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can the German unload three units in the same hex?</strong></p>
+            
+            <p>A. Yes. If the transporting units all have extra MF. However, he can
+            never load those units again (Transporting …B) unless have a movement
+            capability and can move to other hexes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Must a CP unload to observe?</strong></p>
+            
+            <p>A. Yes. </p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation 12, Wespe and Hummel units cannot move. Can they be
+            transported by trucks?</strong></p>
+            
+            <p>A. Yes, In this case those units represent towed divisional artillery.</p>
+            
+            <hr />
+            
+            <p><strong>Q. May units being transported by tanks be CAT'ed without involving the
+            tank?</strong></p>
+            
+            <p>A. No. Rules state that all units in a stack must be totalled for
+            defense in CAT. Therefore, infantry while being transported is
+            ignored.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Which board are the half hexes considered to be part of?</strong></p>
+            
+            <p>A. As a rule of thumb, consider the half squares to be part of the
+            middle board, but keep in mind that they are not considered in
+            determining victory conditions.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Are units outside of a fort totalled in with the fort's defense in
+            the cases of CAT and combination attacks?</strong></p>
+            
+            <p>A. Yes. </p>
+            
+            <hr />
+            
+            <p><strong>Q. Does a unit move at the normal road movement rate even on a road that
+            goes up a slope?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Can a truck, wagon or halftrack drop infantry for a CAT attack, and
+            then retreat?</strong></p>
+            
+            <p>A. Vehicles may unload units and move off but a passenger unit may not
+            fire in the turn of unloading.</p>
+            
+            <hr />
+            
+            <p><strong>Q. While dismantling mines, do engineers undergo the mine attack?</strong></p>
+            
+            <p>A. Not as long as they observe the proper procedure for dismantling
+            mines. If they attempt to cross them in the normal manner they are
+            subject to attack just like any other unit.</p>
+            
+            <hr />
+            
+            <p><strong>Q. May engineers make a mine removal attempt and attack in the same
+            turn?</strong></p>
+            
+            <p>A. No.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Are mines placed in towns subject to the "add 1 to attacker's die
+            roll" rule of the TEC? A. No.</strong></p>
+            
+            <hr />
+            
+            <p><strong>Q. Are units outside of a fort destroyed if the fort is eliminated?</strong></p>
+            
+            <p>A. No.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Assume three AT guns with an attack factor of 7 each are firing at an
+            infantry unit. Is the total attack factor 3 +3 +3 = 9 or 3.5 + 3.5 + 3.5
+            = 10?</strong></p>
+            
+            <p>A. 9. Unit attack factors are halved and fractions dropped individually.</p>
+            
+            <hr />
+            
+            <p><strong>Q. May a unit fire through a green hexside through the width of a road
+            in that hex?</strong></p>
+            
+            <p>A. No - unless the units are adjacent.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Since armored units cannot use the road movement rate while executing
+            an overrun attack, can they still use the road to go through obstacles
+            such as green hexsides while still moving at the non-road movement
+            rate?</strong></p>
+            
+            <p>A. No.</p>
+            
+            <hr />
+            
+            <p><strong>Q. The rules state that ford hexes are treated as plain terrain for ALL
+            purposes. Therefore does a unit moving along a gully have to pay 3 MF to
+            leave the gully in addition to moving into the ford hex?</strong></p>
+            
+            <p>A. No. The rules state that fords allow a unit to leave a gully at no
+            extra cost.</p>
+            
+            <hr />
+            
+            <p><strong>Q. What is the stacking limit for fortifications?</strong></p>
+            
+            <p>A. 3 for Germans; 2 for Russians.</p>
+            
+            <hr />
+            
+            <p><strong>Q. The rules state that stacking limits do not apply during movement -
+            only before and after movement. Therefore, may units pass through a hex
+            already occupied to its maximum stacking ability by wrecks?</strong></p>
+            
+            <p>A. Yes, except as qualified by road movement rules.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Do terrain qualifications affect odds or die rolls in a CA
+            attack?</strong></p>
+            
+            <p>A. Yes.</p>
+            
+            <hr />
+            
+            <p><strong>Q. In situation 7, is the Russian player free to move his other units as
+            soon as the lead unit comes within 3 hexes of the Germans?</strong></p>
+            
+            <p>A. Yes, but following Russian units must have moved up the road in
+            convoy fashion up to that point in the time span of the turn.</p>
+            
+            <hr />
+            
+            <p><strong>Q. Do units which move onto mines in woods or town hexes still add 1 to
+            the minefield attack?</strong></p>
+            
+            <p>A. No</p>
+            
+            <hr />
+          </div>
+          <div class='col-md-4'>
+            <div class='sidebar'>
+              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+              
+              <p>Avalon Hill's PanzerBlitz was a successor to a game called
+              "Tactical Game 3," which was never developed for market. The story can
+              be found on related web sites. What's important here is that the game
+              does have a long and successful history, ultimately selling hundreds
+              of thousands of copies.</p>
+              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
+              
+              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+              
+              <ul>
+                <li>
+                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+              Strategist</a>,
+              often referred to as "ImStrat" has an incredible collection of articles,
+              counters, maps and other material related to PanzerBlitz, Panzer Leader
+              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+                </li>
+                <li>
+                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+              outstanding resource, also worth hours of reading.</p>
+                </li>
+                <li>
+                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+              appears to be where a number of current PanzerBlitz players can be
+              found. The forum is relatively relaxed and low traffic, but there is a
+              lot of information available.</p>
+                </li>
+              </ul>
+              
+              <p>There are several more outstanding links which will be added in the
+              future, and if you, the reader, find one of your favorite sites missing,
+              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+              with the relevant addition.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id='push'></div>
+    </div>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12'>
+          <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            <a href='/pb'>Home</a>
+            <a href='http://github.com/mtngrown/consim'>Source</a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

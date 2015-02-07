@@ -1,0 +1,80 @@
+/* site global styling */
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+}
+
+#wrap > .container {
+  padding-top: 50px;
+}
+
+#push {
+  height: 60px;
+}
+
+footer {
+  height: 60px;
+  background-color: #ccc;
+}
+
+.sidebar {
+  background-color: #eee;
+}
+
+table.center {
+  margin: auto;
+}
+
+table.fire-record {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: 1.5em;
+}
+table.fire-record td, table.fire-record th {
+  padding: 2px 5px 2px 5px;
+}
+table.fire-record th {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+.center img {
+  width: 580px;
+}
+
+.blog h1,
+.blog .h1 {
+  font-size: 36px;
+}
+.blog h2,
+.blog .h2 {
+  font-size: 24px;
+}
+.blog h3,
+.blog .h3 {
+  font-size: 18px;
+}
+.blog h4,
+.blog .h4 {
+  font-size: 16px;
+  font-style: italic;
+}
+.blog h5,
+.blog .h5 {
+  font-size: 12px;
+}
+.blog h6,
+.blog .h6 {
+  font-size: 12px;
+  font-style: italic;
+}

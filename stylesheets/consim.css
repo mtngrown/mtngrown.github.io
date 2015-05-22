@@ -52,6 +52,14 @@ table.fire-record th {
   width: 580px;
 }
 
+ul.taglist {
+  list-style: none;
+}
+ul.taglist li.tag {
+  display: inline;
+  font-style: italic;
+}
+
 .blog h1,
 .blog .h1 {
   font-size: 36px;
@@ -78,3 +86,10 @@ table.fire-record th {
   font-size: 12px;
   font-style: italic;
 }
+.blog .turn-sequence {
+  font-style: italic;
+  font-size: 90%;
+  color: #999;
+}
+
+/*# sourceMappingURL=consim.css.map */

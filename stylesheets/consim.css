@@ -60,6 +60,12 @@ ul.taglist li.tag {
   font-style: italic;
 }
 
+.turn-sequence {
+  font-style: italic;
+  font-size: 90%;
+  color: #999;
+}
+
 .blog h1,
 .blog .h1 {
   font-size: 36px;
@@ -85,11 +91,6 @@ ul.taglist li.tag {
 .blog .h6 {
   font-size: 12px;
   font-style: italic;
-}
-.blog .turn-sequence {
-  font-style: italic;
-  font-size: 90%;
-  color: #999;
 }
 
 /*# sourceMappingURL=consim.css.map */

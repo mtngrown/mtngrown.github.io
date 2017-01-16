@@ -82,6 +82,7 @@ ul.taglist li.tag {
 .blog .h4 {
   font-size: 16px;
   font-style: italic;
+  text-decoration: underline;
 }
 .blog h5,
 .blog .h5 {

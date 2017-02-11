@@ -29,7 +29,10 @@ footer {
 }
 
 table.center {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 table.fire-record {
@@ -50,6 +53,33 @@ table.fire-record th {
 }
 .center img {
   width: 580px;
+}
+.center table {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.scenario-table {
+  text-align: center;
+  border-spacing: 0.5rem;
+  border: 1px solid;
+  border-color: #000;
+}
+.scenario-table th {
+  text-align: center;
+  padding: 10px;
+}
+.scenario-table tr {
+  margin-top: 25px;
+  border: 1px solid;
+  border-color: #000;
+}
+.scenario-table td {
+  margin-bottom: 25px;
+  border: 1px solid;
+  border-color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 ul.taglist {

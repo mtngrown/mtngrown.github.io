@@ -1,526 +1,533 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                Fire in the Lake Playbook Example 2
-              </h1>
-              <time class='updated' pubdate=''>Oct  3 2015</time>
-              <p><em>Fire in the Lake</em> isn't actually in the docket at the moment, but I've
-              got a hankering to work my way through Example 2 in the Playbook. I've
-              actually tried to set up <em>Seuz '73</em> and <em>Downtown</em>, getting as far as
-              putting out the maps and looking through a scenario. But both of these
-              are really involved, and I don't feel like learning a new game right
-              now. I'd rather dig deeper into a game I know how to play poorly, and
-              get better at playing it. Hence, <em>Fire in the Lake</em>.</p>
-              
-              <h2 id="example-2-the-vc-rally-and-tax">Example 2: The VC Rally and Tax</h2>
-              
-              <p>In this example, the player (that's me) is US/ARVN faction, with
-              non-player NVA/VC.</p>
-              
-              <p>The game is first set up to the Medium Scenario, then the VC are shifted
-              around a bit.</p>
-              
-              <p>Brinks Hotel (#97) is the card in play, with faction order VC, US, ARVN
-              and NVA. There is no halo around the VC faction marker on the card,
-              indicating that the Brinks Hotel event has no special significance for
-              the VC. Reading the Event itself, we see that it's ineffective as there
-              are no VC in cities.</p>
-              
-              <p>Because the VC bot is first eligible, it does not play the Tet Offensive
-              Pivotal Event, despite otherwise being eligible. Let's parse 8.4.6
-              closely to see how this works.</p>
-              
-              <p><strong>8.4.6 Pivotal Events</strong> for non-player faction must be played when:</p>
-              
-              <ol>
-                <li>The non-player faction is eligible but not first eligible (<strong>No</strong>).</li>
-                <li>The Pivotal Event's preconditions are met (<strong>Yes</strong>).</li>
-                <li>No coup card is next (<strong>Yes</strong>).</li>
-                <li>More details in sections 2.3.8 and 5.1.4.</li>
-              </ol>
-              
-              <p>Hence, no Tet for the VC this turn because the VC is first eligible.</p>
-              
-              <h3 id="working-the-vc-flow-chart">Working the VC flow chart</h3>
-              
-              <p>Top Diamond: <em>VC can terror at Support without last Underground VC at VC
-              Base?</em> More clearly, are there Underground VC in spaces which have
-              support, such that running a Terror Operation leaves one Underground VC
-              anywhere there is a VC base.</p>
-              
-              <p>In this case, no, the areas with Support which also contain Underground
-              VC are Binh Dinh, Pleiku and Khanh Hoa, but each of these spaces also
-              have a base, with just a single VC. Move to the Middle Diamond.</p>
-              
-              <p>Middle Diamond: <em>VC have 12+ Guerrillas in Available or would place 2+
-              Bases?</em></p>
-              
-              <ul>
-                <li>There are 8 VC available, but</li>
-                <li>There are 2 Bases Available, which could be emplaced in Phuoc Long or
-              Quang Nam each with 4+ VC in the space.</li>
-              </ul>
-              
-              <p>So looks like a Rally is a go.</p>
-              
-              <p>The Rally Box:</p>
-              
-              <ol>
-                <li>Place Base in Quang Duc and Phuoc Long for 2 resources.</li>
-                <li>Then place Guerrillas in 2 spaces with ARVN cubes and no VC. This
-              would be only An Loc.</li>
-                <li>Then place Guerillas where VC Base and &lt; 4 Underground VC Guerrillas.
-              This looks like Tay Ninh, Binh Tuy and Quang Nam. The playbook
-              disallows Quang Nam, but the reason is not stated. It may be because
-              Quang Nam has already been rallied into with the VC Base emplacement.
-              COIN Control is removed from Tay Ninh.</li>
-              </ol>
-              
-              <p>Now we're at 0 resources, so the box says to Tax. From the Tax Box: <em>Up
-              to 4 spaces with Underground VC and no COIN Control:</em></p>
-              
-              <ul>
-                <li>Only if VC have 0 to 9 resources (yes)</li>
-                <li>First on Econ 2 then Econ 1 LoCs (none)</li>
-                <li>Then highest population with Active Support and no COIN Control.
-              Nothing eligible.</li>
-                <li>If still 0 resources (yes), at Active Opposition, then random other
-              with highest population first in each case. Active Opposition without COIN
-              control we have Quang Nam and Tay Ninh for a total of 6 RPs for two
-              spaces, and Kien Phong and Kien Hoa with Passive Opposition. This
-              results in VC with 16 VP: 9 Bases for 9, plus 4 for Kien Giang, 2 for
-              Tay Ninh, and 1 for Quang Nam. Resources now at 14.</li>
-              </ul>
-              
-              <p>And the VC can continue to Rally:</p>
-              
-              <ul>
-                <li>Then place VC to remove COIN Control. Nothing eligible.</li>
-                <li>Then place Guerrillas where 1-3 VC guerrillas, then other South
-              Vietnam. Five spaces are eligible, roll 4-4-3 which translates to Kien
-              Hoa, for one resource.</li>
-              </ul>
-              
-              <p>And that concludes the play example.</p>
-              
-              <p>But let's continue on a card or two longer, and at least play through
-              the next NVA bot.</p>
-              
-              <h2 id="brinks-hotel-97">Brinks Hotel (#97)</h2>
-              
-              <p>Since the VC played OSA, the US is next up and chooses the Event, just
-              to make it easy. In this case, US chooses to move 4 patronage to
-              Resources.</p>
-              
-              <h2 id="typhoon-kate-115">Typhoon Kate (#115)</h2>
-              
-              <p>The ARVN are up and choose to do an Operation only, which limits NVA to
-              Limited Operation. ARVN chooses to Assault in Tay Ninh where there is an
-              activated VC Guerrilla to regain COIN Control. Resources to 31, 11 Patron
-              + 29 COIN to 40.</p>
-              
-              <p>NVA gets a LimOp.</p>
-              
-              <p>Top Diamond: <em>Troop Attack will add Control or remove Base, last COIN or
-              4+ enemies from a space</em>.</p>
-              
-              <p>Attack can occur in any space with NVA and enemy. Current spaces where
-              that holds, Quang Tri, Tay Ninh, but none of these will
-              result in adding NVA, or remove a base, or the last COIN, or remove 4+
-              enemies. Moving down.</p>
-              
-              <p>Middle Diamond: <em>NVA can Terror 3+ population at Active Support</em>. None.</p>
-              
-              <p>Bottom Diamond: <em>&gt;20 Troops or &gt;10 Guerrillas in NVA Available or Trail
-              &lt; 2</em>? Yes, 22 Troop available, Rally.</p>
-              
-              <p>Rally in one space for LimOp:</p>
-              
-              <ul>
-                <li><em>Place Bases at 4+ non-Base NVA/VC.</em> Interpret this mean placing a
-              Base wherever there are 4 or more total VC and NVA, where there isn't
-              already a VC or NVA Base. No spaces eligible.</li>
-                <li><em>Then place Guerrillas at any COIN Control in Laos or Cambodia</em>. None.</li>
-                <li><em>Next place Guerrillas at NVA Base with &lt; 2 NVA Guerrillas (none), then
-              at any NVA Bases, finally randomly.</em> I'm taking this to mean that for
-              my 1 space LimOp, I place Bases + Trail at any NVA Base, but which
-              one it doesn't day, so I'm going to roll for it: 5-5-6 is Quang Nam,
-              but there is no Base there, so follow the chart to The Fishhook. There
-              are only 2 NVA Guerrillas available, both go to FishHook. Trail
-              improves to 4, spend 5 resources to 15.</li>
-              </ul>
-              
-              <p>And that's that for Typhoon Kate.</p>
-              
-              <h2 id="abrams-11">Abrams (#11)</h2>
-              
-              <p>VC not eligible for Tet, with &lt; 20 Guerrillas in South.</p>
-              
-              <p>The US is up and will the Event on the Abrams card to acquire the
-              Capability for removing enemy base first not last.</p>
-              
-              <p>VC is up next, with an OSA.</p>
-              
-              <p>Since ineligible for Terror and Rally, and there are no VC on LoCs,
-              March.</p>
-              
-              <ul>
-                <li>Leave 2 VC at VC Bases, 1 elsewhere, underground first.</li>
-                <li>Add no COIN in South.</li>
-                <li>First get 1 VC underground onto each +1 Econ LoC. This can be done
-              from Tay Ninh onto Route 14 and from Binh Tuy onto Route 20.</li>
-                <li>Then into 1+Pop, first where no Active Opposition, then so as to stay
-              Underground with most then to remove most COIN Control possible.</li>
-              </ul>
-              
-              <p>That's all that's available. Moving on to Ambush. From Route 14,
-              activate and remove 1 ARVN from Quang Duc. From Route 20, activate and
-              remove 1 US from Binh Tuy. Really should have removed 2 US from Saigon
-              though, as Saigon is adjacent to both Routes 14 and 20.</p>
-              
-              <h2 id="khe-sanh-37">Khe Sanh (#37)</h2>
-              
-              <p>NVA is first up, with a halo'ed Event, hence not eligible for Easter
-              Offensive. In this case, since the US is ineligible, the NVA play an
-              OSA rather than the event on the card.</p>
-              
-              <p>Troop Attack is not viable; cannot employ Terror anywhere there is
-              Active Support, cannot Rally because no NVA Guerrilla are Available, so
-              must March:</p>
-              
-              <ul>
-                <li>Forces which can march under constraint of leaving Base protection
-              behind:
-                  <ul>
-                    <li>N. Vietnam, 8 Troops.</li>
-                    <li>Central Laos, 8 Troop.</li>
-                    <li>Quang Tri, 1 Guerrilla.</li>
-                    <li>Tay Ninh, 2 Guerrillas.</li>
-                    <li>Fishhook, 2 Guerillas.</li>
-                    <li>Phuoc Long, 1 Guerrilla.</li>
-                  </ul>
-                </li>
-                <li>
-                  <p>Trail is at 4, free marches through Laos and Cambodia.</p>
-                </li>
-                <li>
-                  <p>Base is Available, but all spaces in Laos and Cambodia have bases
-              already.</p>
-                </li>
-                <li>Underground Guerrilla on the Hue-Da Nang road.</li>
-                <li>By group, march to get NVA control to 3 highest Population. In this
-              case, that would be Binh Dinh, Kien Giang and Kien Phong. But the bot
-              can't meet the requirement for Kien Phong, so the March is restricted
-              to Binh Dinh and Kien Phong.</li>
-              </ul>
-              
-              <p>This is all done for free due to trail being at 4.</p>
-              
-              <p>Since we cannot remove a US or ARVN base, Infiltrate:</p>
-              
-              <ul>
-                <li>Base to The Fishhook.</li>
-              </ul>
-              
-              <p>And that's it, as all areas have no more than 2 NVA Guerrillas, the bot
-              will not replace them with Troops. Personally, I'm thinking that may be
-              a mistake as I could use those Guerrillas for Rally Operations.</p>
-              
-              <p>And that's enough for now.</p>
-              
-              <h2 id="next-full-play">Next full play</h2>
-              
-              <ul>
-                <li>VC will tax and tax and tax LoCs to see how much they can get built
-              up. It will require spending to emplace, could be fun.</li>
-              </ul>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2015/09/27/another-crack-at-pandemic.html' rel='prev'>Another crack at Pandemic</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2015/10/04/churchill-full-bore.html' rel='next'>Churchill Full Bore</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/fitl.html'>fitl</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/fire-in-the-lake.html'>fire-in-the-lake</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/gmt.html'>gmt</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/vietnam.html'>vietnam</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/herman.html'>herman</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/ruhnke.html'>ruhnke</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/volko.html'>volko</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Fire in the Lake Playbook Example 2
+</h1>
+<time class='updated' pubdate=''>Oct  3 2015</time>
+<p><em>Fire in the Lake</em> isn't actually in the docket at the moment, but I've
+got a hankering to work my way through Example 2 in the Playbook. I've
+actually tried to set up <em>Seuz '73</em> and <em>Downtown</em>, getting as far as
+putting out the maps and looking through a scenario. But both of these
+are really involved, and I don't feel like learning a new game right
+now. I'd rather dig deeper into a game I know how to play poorly, and
+get better at playing it. Hence, <em>Fire in the Lake</em>.</p>
+
+<h2 id="example-2-the-vc-rally-and-tax">Example 2: The VC Rally and Tax</h2>
+
+<p>In this example, the player (that's me) is US/ARVN faction, with
+non-player NVA/VC.</p>
+
+<p>The game is first set up to the Medium Scenario, then the VC are shifted
+around a bit.</p>
+
+<p>Brinks Hotel (#97) is the card in play, with faction order VC, US, ARVN
+and NVA. There is no halo around the VC faction marker on the card,
+indicating that the Brinks Hotel event has no special significance for
+the VC. Reading the Event itself, we see that it's ineffective as there
+are no VC in cities.</p>
+
+<p>Because the VC bot is first eligible, it does not play the Tet Offensive
+Pivotal Event, despite otherwise being eligible. Let's parse 8.4.6
+closely to see how this works.</p>
+
+<p><strong>8.4.6 Pivotal Events</strong> for non-player faction must be played when:</p>
+
+<ol>
+  <li>The non-player faction is eligible but not first eligible (<strong>No</strong>).</li>
+  <li>The Pivotal Event's preconditions are met (<strong>Yes</strong>).</li>
+  <li>No coup card is next (<strong>Yes</strong>).</li>
+  <li>More details in sections 2.3.8 and 5.1.4.</li>
+</ol>
+
+<p>Hence, no Tet for the VC this turn because the VC is first eligible.</p>
+
+<h3 id="working-the-vc-flow-chart">Working the VC flow chart</h3>
+
+<p>Top Diamond: <em>VC can terror at Support without last Underground VC at VC
+Base?</em> More clearly, are there Underground VC in spaces which have
+support, such that running a Terror Operation leaves one Underground VC
+anywhere there is a VC base.</p>
+
+<p>In this case, no, the areas with Support which also contain Underground
+VC are Binh Dinh, Pleiku and Khanh Hoa, but each of these spaces also
+have a base, with just a single VC. Move to the Middle Diamond.</p>
+
+<p>Middle Diamond: <em>VC have 12+ Guerrillas in Available or would place 2+
+Bases?</em></p>
+
+<ul>
+  <li>There are 8 VC available, but</li>
+  <li>There are 2 Bases Available, which could be emplaced in Phuoc Long or
+Quang Nam each with 4+ VC in the space.</li>
+</ul>
+
+<p>So looks like a Rally is a go.</p>
+
+<p>The Rally Box:</p>
+
+<ol>
+  <li>Place Base in Quang Duc and Phuoc Long for 2 resources.</li>
+  <li>Then place Guerrillas in 2 spaces with ARVN cubes and no VC. This
+would be only An Loc.</li>
+  <li>Then place Guerillas where VC Base and &lt; 4 Underground VC Guerrillas.
+This looks like Tay Ninh, Binh Tuy and Quang Nam. The playbook
+disallows Quang Nam, but the reason is not stated. It may be because
+Quang Nam has already been rallied into with the VC Base emplacement.
+COIN Control is removed from Tay Ninh.</li>
+</ol>
+
+<p>Now we're at 0 resources, so the box says to Tax. From the Tax Box: <em>Up
+to 4 spaces with Underground VC and no COIN Control:</em></p>
+
+<ul>
+  <li>Only if VC have 0 to 9 resources (yes)</li>
+  <li>First on Econ 2 then Econ 1 LoCs (none)</li>
+  <li>Then highest population with Active Support and no COIN Control.
+Nothing eligible.</li>
+  <li>If still 0 resources (yes), at Active Opposition, then random other
+with highest population first in each case. Active Opposition without COIN
+control we have Quang Nam and Tay Ninh for a total of 6 RPs for two
+spaces, and Kien Phong and Kien Hoa with Passive Opposition. This
+results in VC with 16 VP: 9 Bases for 9, plus 4 for Kien Giang, 2 for
+Tay Ninh, and 1 for Quang Nam. Resources now at 14.</li>
+</ul>
+
+<p>And the VC can continue to Rally:</p>
+
+<ul>
+  <li>Then place VC to remove COIN Control. Nothing eligible.</li>
+  <li>Then place Guerrillas where 1-3 VC guerrillas, then other South
+Vietnam. Five spaces are eligible, roll 4-4-3 which translates to Kien
+Hoa, for one resource.</li>
+</ul>
+
+<p>And that concludes the play example.</p>
+
+<p>But let's continue on a card or two longer, and at least play through
+the next NVA bot.</p>
+
+<h2 id="brinks-hotel-97">Brinks Hotel (#97)</h2>
+
+<p>Since the VC played OSA, the US is next up and chooses the Event, just
+to make it easy. In this case, US chooses to move 4 patronage to
+Resources.</p>
+
+<h2 id="typhoon-kate-115">Typhoon Kate (#115)</h2>
+
+<p>The ARVN are up and choose to do an Operation only, which limits NVA to
+Limited Operation. ARVN chooses to Assault in Tay Ninh where there is an
+activated VC Guerrilla to regain COIN Control. Resources to 31, 11 Patron
++ 29 COIN to 40.</p>
+
+<p>NVA gets a LimOp.</p>
+
+<p>Top Diamond: <em>Troop Attack will add Control or remove Base, last COIN or
+4+ enemies from a space</em>.</p>
+
+<p>Attack can occur in any space with NVA and enemy. Current spaces where
+that holds, Quang Tri, Tay Ninh, but none of these will
+result in adding NVA, or remove a base, or the last COIN, or remove 4+
+enemies. Moving down.</p>
+
+<p>Middle Diamond: <em>NVA can Terror 3+ population at Active Support</em>. None.</p>
+
+<p>Bottom Diamond: <em>&gt;20 Troops or &gt;10 Guerrillas in NVA Available or Trail
+&lt; 2</em>? Yes, 22 Troop available, Rally.</p>
+
+<p>Rally in one space for LimOp:</p>
+
+<ul>
+  <li><em>Place Bases at 4+ non-Base NVA/VC.</em> Interpret this mean placing a
+Base wherever there are 4 or more total VC and NVA, where there isn't
+already a VC or NVA Base. No spaces eligible.</li>
+  <li><em>Then place Guerrillas at any COIN Control in Laos or Cambodia</em>. None.</li>
+  <li><em>Next place Guerrillas at NVA Base with &lt; 2 NVA Guerrillas (none), then
+at any NVA Bases, finally randomly.</em> I'm taking this to mean that for
+my 1 space LimOp, I place Bases + Trail at any NVA Base, but which
+one it doesn't day, so I'm going to roll for it: 5-5-6 is Quang Nam,
+but there is no Base there, so follow the chart to The Fishhook. There
+are only 2 NVA Guerrillas available, both go to FishHook. Trail
+improves to 4, spend 5 resources to 15.</li>
+</ul>
+
+<p>And that's that for Typhoon Kate.</p>
+
+<h2 id="abrams-11">Abrams (#11)</h2>
+
+<p>VC not eligible for Tet, with &lt; 20 Guerrillas in South.</p>
+
+<p>The US is up and will the Event on the Abrams card to acquire the
+Capability for removing enemy base first not last.</p>
+
+<p>VC is up next, with an OSA.</p>
+
+<p>Since ineligible for Terror and Rally, and there are no VC on LoCs,
+March.</p>
+
+<ul>
+  <li>Leave 2 VC at VC Bases, 1 elsewhere, underground first.</li>
+  <li>Add no COIN in South.</li>
+  <li>First get 1 VC underground onto each +1 Econ LoC. This can be done
+from Tay Ninh onto Route 14 and from Binh Tuy onto Route 20.</li>
+  <li>Then into 1+Pop, first where no Active Opposition, then so as to stay
+Underground with most then to remove most COIN Control possible.</li>
+</ul>
+
+<p>That's all that's available. Moving on to Ambush. From Route 14,
+activate and remove 1 ARVN from Quang Duc. From Route 20, activate and
+remove 1 US from Binh Tuy. Really should have removed 2 US from Saigon
+though, as Saigon is adjacent to both Routes 14 and 20.</p>
+
+<h2 id="khe-sanh-37">Khe Sanh (#37)</h2>
+
+<p>NVA is first up, with a halo'ed Event, hence not eligible for Easter
+Offensive. In this case, since the US is ineligible, the NVA play an
+OSA rather than the event on the card.</p>
+
+<p>Troop Attack is not viable; cannot employ Terror anywhere there is
+Active Support, cannot Rally because no NVA Guerrilla are Available, so
+must March:</p>
+
+<ul>
+  <li>Forces which can march under constraint of leaving Base protection
+behind:
+    <ul>
+      <li>N. Vietnam, 8 Troops.</li>
+      <li>Central Laos, 8 Troop.</li>
+      <li>Quang Tri, 1 Guerrilla.</li>
+      <li>Tay Ninh, 2 Guerrillas.</li>
+      <li>Fishhook, 2 Guerillas.</li>
+      <li>Phuoc Long, 1 Guerrilla.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Trail is at 4, free marches through Laos and Cambodia.</p>
+  </li>
+  <li>
+    <p>Base is Available, but all spaces in Laos and Cambodia have bases
+already.</p>
+  </li>
+  <li>Underground Guerrilla on the Hue-Da Nang road.</li>
+  <li>By group, march to get NVA control to 3 highest Population. In this
+case, that would be Binh Dinh, Kien Giang and Kien Phong. But the bot
+can't meet the requirement for Kien Phong, so the March is restricted
+to Binh Dinh and Kien Phong.</li>
+</ul>
+
+<p>This is all done for free due to trail being at 4.</p>
+
+<p>Since we cannot remove a US or ARVN base, Infiltrate:</p>
+
+<ul>
+  <li>Base to The Fishhook.</li>
+</ul>
+
+<p>And that's it, as all areas have no more than 2 NVA Guerrillas, the bot
+will not replace them with Troops. Personally, I'm thinking that may be
+a mistake as I could use those Guerrillas for Rally Operations.</p>
+
+<p>And that's enough for now.</p>
+
+<h2 id="next-full-play">Next full play</h2>
+
+<ul>
+  <li>VC will tax and tax and tax LoCs to see how much they can get built
+up. It will require spending to emplace, could be fun.</li>
+</ul>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2015/09/27/another-crack-at-pandemic.html' rel='prev'>Another crack at Pandemic</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2015/10/04/churchill-full-bore.html' rel='next'>Churchill Full Bore</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/fitl.html'>fitl</a>
+</li>
+<li class='tag'>
+<a href='/tags/fire-in-the-lake.html'>fire-in-the-lake</a>
+</li>
+<li class='tag'>
+<a href='/tags/gmt.html'>gmt</a>
+</li>
+<li class='tag'>
+<a href='/tags/vietnam.html'>vietnam</a>
+</li>
+<li class='tag'>
+<a href='/tags/herman.html'>herman</a>
+</li>
+<li class='tag'>
+<a href='/tags/ruhnke.html'>ruhnke</a>
+</li>
+<li class='tag'>
+<a href='/tags/volko.html'>volko</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

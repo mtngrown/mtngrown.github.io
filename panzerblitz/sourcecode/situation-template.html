@@ -1,331 +1,339 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-    <link href="/stylesheets/pb.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-12'>
-            <header>
-              <nav class='navbar navbar-default' role='navigation'>
-                <div class='container' style='background-color: black;'>
-                  <ul class='nav navbar-nav'>
-                    <li>
-                      <a href='/about.html'>About</a>
-                    </li>
-                    <li>
-                      <a href='/'>ConSim home</a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz'>PanzerBlitz home</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Playing aids
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Games
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/games/'>Overview</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/balance.html'>Balance</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz/firefights'>Firefights</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Tactical examples
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Source code
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
-                          </li>
-                          <li>
-                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <h1 id="rebuilding-situation-templates">Rebuilding situation templates</h1>
-            
-            <p>The card stock situation templates found in PanzerBlitz are just cool.
-            The follow-on games Panzer Leader and Arab Israeli Wars provided the
-            situations in the Rules booklet instead separately on card stock, which
-            is arguably a step backwards in game design. It definitely changed the
-            look and feel of the games.</p>
-            
-            <p>Over the decades, a large number of situations and scenarios have been
-            developed by fans, including a couple of dozen which attempted to mimic
-            the original design of the PanzerBlitz situations. While some of the
-            earliest managed to come very close (Situations #14 - #25), most
-            scenarios end up looking a bit rough as scanned images get repeatedly
-            copied.</p>
-            
-            <p>Hence, an opportunity: develop freely available situation templates in
-            an open <em>vector</em> image format, which can be used by anyone.</p>
-            
-            <h2 id="current-progress">Current progress</h2>
-            
-            <p>The image below consists of a an underlying PDF image which was mostly
-            likely converted from a jpg-generated scan. Vector graphics have been
-            traced over using Inkscape (free), the different colors to help
-            indicates what has been traced and what has not.</p>
-            
-            <p>If you see an offset between the scan and the tracing, it's an artifact
-            of the browser and the Inkscape SVG variant. Once the template is
-            complete, the format will be changed to standard SVG for portability
-            between browsers and other SVG editing applications.</p>
-            
-            <p><img alt="PanzerBlitz situation template" src="/images/situation-template.svg" /></p>
-            
-            <p>Fortunately, one of the most important design elements of the situation
-            cards is handled. The card's title font is Compacta Bold, for which
-            there exist a freely available, limited font set.</p>
-            
-            <p>Many challenges remain:</p>
-            
-            <ul>
-              <li>
-                <p>Use the correct dimensions, or at least commonly accepted dimensions
-            for the red stat and German cross.</p>
-              </li>
-              <li>
-                <p>Determine the sans serif font used for the text of on the situation card.</p>
-              </li>
-              <li>
-                <p>Determine the serif font used on the mapboard numbering.</p>
-              </li>
-              <li>
-                <p>Determine the font used on the counters.</p>
-              </li>
-              <li>
-                <p>Finishing out the counters for populating situations.</p>
-              </li>
-              <li>
-                <p>Resizing for printing on letter or A4 card stock, with crop marks
-            correctly sized and located to match the original cards.</p>
-              </li>
-            </ul>
-            
-            <p>Those are the big challenges. Smaller challenges include ensuring line
-            weights are consistent between elements, counters align properly on the
-            template, and surely more.</p>
-            
-            <h2 id="extending-situation-card-design">Extending situation card design</h2>
-            
-            <p>The first goal is to replicate the existing situation design as
-            faithfully as possible. The situation cards are an incredibly important
-            part of the PanzerBlitz experience, and deserve to be rebuilt as closely
-            as possible to the original design.</p>
-            
-            <p>However, the PanzerBlitz <em>game system</em> can accommodate far more than the
-            original 12 situations. New mapboards allow much bigger forces over
-            larger battlefields. An extensive number of WWII archives from the former
-            Soviet Union are now accessible, allowing more accurate scenarios to be
-            developed, and to provide historical context. Decades of game play has
-            resulted in a body of knowledge representing "best tactics" for each
-            situation.</p>
-            
-            <p>Given these advancements, it seems natural to extend the situation card
-            template to a full 8.5 x 11 inch (letter) size format, while retaining
-            all the original design elements for continuity with the original game.</p>
-            
-            <p>This new, larger card size would have many benefits:</p>
-            
-            <ul>
-              <li>Easy to punch for ring binders.</li>
-              <li>Along with historical notes, variations in OOB, setup conditions,
-            and victory conditions could be proposed, increasing replay potential
-            for each situation.</li>
-              <li>Extending the template to include the back of the card provides room
-            for designer attribution and notes, hints for game play, and more.</li>
-              <li>From a production standpoint, no cropping would be necessary.</li>
-            </ul>
-            
-            <p>The possibilities greatly expand with a larger format!</p>
-            
-            <h2 id="would-you-like-to-help">Would you like to help?</h2>
-            
-            <p>It's easy, download <a href="http://inkscape.org">Inkscape</a> for Mac or Windows,
-            clone the source for the repository, and make a small improvement. When
-            you're done, send a pull request, I'll merge it in.</p>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
-              
-              <p>Avalon Hill's PanzerBlitz was a successor to a game called
-              "Tactical Game 3," which was never developed for market. The story can
-              be found on related web sites. What's important here is that the game
-              does have a long and successful history, ultimately selling hundreds
-              of thousands of copies.</p>
-              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
-              
-              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
-              
-              <ul>
-                <li>
-                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
-              Strategist</a>,
-              often referred to as "ImStrat" has an incredible collection of articles,
-              counters, maps and other material related to PanzerBlitz, Panzer Leader
-              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
-                </li>
-                <li>
-                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
-              outstanding resource, also worth hours of reading.</p>
-                </li>
-                <li>
-                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
-              appears to be where a number of current PanzerBlitz players can be
-              found. The forum is relatively relaxed and low traffic, but there is a
-              lot of information available.</p>
-                </li>
-              </ul>
-              
-              <p>There are several more outstanding links which will be added in the
-              future, and if you, the reader, find one of your favorite sites missing,
-              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
-              with the relevant addition.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<link href="/stylesheets/pb.css" rel="stylesheet" />
+</head>
+<body>
+<div id='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<header>
+<nav class='navbar navbar-default' role='navigation'>
+<div class='container' style='background-color: black;'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/'>ConSim home</a>
+</li>
+<li>
+<a href='/panzerblitz'>PanzerBlitz home</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Playing aids
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/playing-aids'>Playing aids</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/games/'>Overview</a>
+</li>
+<li>
+<a href='/panzerblitz/solitaire.html'>Solitaire</a>
+</li>
+<li>
+<a href='/panzerblitz/balance.html'>Balance</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+</li>
+</ul>
+</a>
+</li>
+<li>
+<a href='/panzerblitz/firefights'>Firefights</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Tactical examples
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Source code
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+</li>
+<li>
+<a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+</li>
+<li>
+<a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-8'>
+<h1 id="rebuilding-situation-templates">Rebuilding situation templates</h1>
+
+<p>The card stock situation templates found in PanzerBlitz are just cool.
+The follow-on games Panzer Leader and Arab Israeli Wars provided the
+situations in the Rules booklet instead separately on card stock, which
+is arguably a step backwards in game design. It definitely changed the
+look and feel of the games.</p>
+
+<p>Over the decades, a large number of situations and scenarios have been
+developed by fans, including a couple of dozen which attempted to mimic
+the original design of the PanzerBlitz situations. While some of the
+earliest managed to come very close (Situations #14 - #25), most
+scenarios end up looking a bit rough as scanned images get repeatedly
+copied.</p>
+
+<p>Hence, an opportunity: develop freely available situation templates in
+an open <em>vector</em> image format, which can be used by anyone.</p>
+
+<h2 id="current-progress">Current progress</h2>
+
+<p>The image below consists of a an underlying PDF image which was mostly
+likely converted from a jpg-generated scan. Vector graphics have been
+traced over using Inkscape (free), the different colors to help
+indicates what has been traced and what has not.</p>
+
+<p>If you see an offset between the scan and the tracing, it's an artifact
+of the browser and the Inkscape SVG variant. Once the template is
+complete, the format will be changed to standard SVG for portability
+between browsers and other SVG editing applications.</p>
+
+<p><img src="/images/situation-template.svg" alt="PanzerBlitz situation template" /></p>
+
+<p>Fortunately, one of the most important design elements of the situation
+cards is handled. The card's title font is Compacta Bold, for which
+there exist a freely available, limited font set.</p>
+
+<p>Many challenges remain:</p>
+
+<ul>
+  <li>
+    <p>Use the correct dimensions, or at least commonly accepted dimensions
+for the red stat and German cross.</p>
+  </li>
+  <li>
+    <p>Determine the sans serif font used for the text of on the situation card.</p>
+  </li>
+  <li>
+    <p>Determine the serif font used on the mapboard numbering.</p>
+  </li>
+  <li>
+    <p>Determine the font used on the counters.</p>
+  </li>
+  <li>
+    <p>Finishing out the counters for populating situations.</p>
+  </li>
+  <li>
+    <p>Resizing for printing on letter or A4 card stock, with crop marks
+correctly sized and located to match the original cards.</p>
+  </li>
+</ul>
+
+<p>Those are the big challenges. Smaller challenges include ensuring line
+weights are consistent between elements, counters align properly on the
+template, and surely more.</p>
+
+<h2 id="extending-situation-card-design">Extending situation card design</h2>
+
+<p>The first goal is to replicate the existing situation design as
+faithfully as possible. The situation cards are an incredibly important
+part of the PanzerBlitz experience, and deserve to be rebuilt as closely
+as possible to the original design.</p>
+
+<p>However, the PanzerBlitz <em>game system</em> can accommodate far more than the
+original 12 situations. New mapboards allow much bigger forces over
+larger battlefields. An extensive number of WWII archives from the former
+Soviet Union are now accessible, allowing more accurate scenarios to be
+developed, and to provide historical context. Decades of game play has
+resulted in a body of knowledge representing "best tactics" for each
+situation.</p>
+
+<p>Given these advancements, it seems natural to extend the situation card
+template to a full 8.5 x 11 inch (letter) size format, while retaining
+all the original design elements for continuity with the original game.</p>
+
+<p>This new, larger card size would have many benefits:</p>
+
+<ul>
+  <li>Easy to punch for ring binders.</li>
+  <li>Along with historical notes, variations in OOB, setup conditions,
+and victory conditions could be proposed, increasing replay potential
+for each situation.</li>
+  <li>Extending the template to include the back of the card provides room
+for designer attribution and notes, hints for game play, and more.</li>
+  <li>From a production standpoint, no cropping would be necessary.</li>
+</ul>
+
+<p>The possibilities greatly expand with a larger format!</p>
+
+<h2 id="would-you-like-to-help">Would you like to help?</h2>
+
+<p>It's easy, download <a href="http://inkscape.org">Inkscape</a> for Mac or Windows,
+clone the source for the repository, and make a small improvement. When
+you're done, send a pull request, I'll merge it in.</p>
+
+
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+
+<p>Avalon Hill's PanzerBlitz was a successor to a game called
+"Tactical Game 3," which was never developed for market. The story can
+be found on related web sites. What's important here is that the game
+does have a long and successful history, ultimately selling hundreds
+of thousands of copies.</p>
+
+<h3 id="panzerblitz-links">PanzerBlitz links</h3>
+
+<p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+Strategist</a>,
+often referred to as "ImStrat" has an incredible collection of articles,
+counters, maps and other material related to PanzerBlitz, Panzer Leader
+and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+  </li>
+  <li>
+    <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+outstanding resource, also worth hours of reading.</p>
+  </li>
+  <li>
+    <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+appears to be where a number of current PanzerBlitz players can be
+found. The forum is relatively relaxed and low traffic, but there is a
+lot of information available.</p>
+  </li>
+</ul>
+
+<p>There are several more outstanding links which will be added in the
+future, and if you, the reader, find one of your favorite sites missing,
+please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+with the relevant addition.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

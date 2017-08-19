@@ -1,1134 +1,1141 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                Silver Bayonet - Theorycrafting Tea Time
-              </h1>
-              <time class='updated' pubdate=''>Jan 15 2017</time>
-              <p>This article documents an experiment I'm conducting on game mechanics
-              related to <a href="/2017/01/01/developing-the-very-small-scenario.html">small scenario
-              design</a>.</p>
-              
-              <p>The main idea is that really small scenarios should provide the
-              statistically likely outcome as a Draw condition, with statistical
-              outliers favoring each side determing Win/Lose conditions.</p>
-              
-              <p>Apparently this activity is known as "theory crafting" within certain
-              communities. I've always called it "statistical analysis."</p>
-              
-              <p>For this first attempt, we'll be using Scenario #6 "Tea Time" from GMT's
-              <em>Silver Bayonet</em>. Tea Time is a 1 or 2 turn scenario with about a dozen
-              counters, and demonstrates only the assault combat mechanics of the
-              game. The initial goal is to play this scenario several times recording
-              the outcome for all die rolls.</p>
-              
-              <p>Tea Time has two variations. The first is a single turn with 10 Air
-              Points for the FWA defenders, the second is two turns with 10 Air Points
-              for the FWA defenders each turn.</p>
-              
-              <h2 id="result-of-4-plays">Result of 4 plays</h2>
-              
-              <p>I played the Catecka Tea Plantation scenario four times back to back,
-              recording the results of every phase of the Turn Sequence. The results
-              are given in the following table:</p>
-              
-              <table class="scenario-table center">
-                <thead>
-                  <tr>
-                    <th> </th>
-                    <th>FWA step loss</th>
-                    <th>PAVN step loss</th>
-                    <th>Winner</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Game 1</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>FWA</td>
-                  </tr>
-                  <tr>
-                    <td>Game 2</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>FWA</td>
-                  </tr>
-                  <tr>
-                    <td>Game 3</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>FWA</td>
-                  </tr>
-                  <tr>
-                    <td>Game 4</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>FWA</td>
-                  </tr>
-                  <tr>
-                    <td>Game 5</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>PAVN</td>
-                  </tr>
-                  <tr>
-                    <td>Game 6</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>PAVN</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <p>Each play follows a turn sequence reduced from the full turn sequence,
-              as neither side need (or can) move.</p>
-              
-              <h2 id="game-1">Game 1</h2>
-              
-              <h3 id="turn-1">Turn 1</h3>
-              
-              <p class="turn-sequence">Situation at the beginning of the turn.</p>
-              
-              <p>Per the setup, the FWA have an HQ and a 155 in the tea plantation hex.
-              Neither of these units are going to move, they have to just sit there
-              and take the punishment.</p>
-              
-              <h3 id="initial-phase">Initial Phase</h3>
-              
-              <p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
-              
-              <p>FWA receives 10 AP.</p>
-              
-              <p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
-              
-              <p>Not necessary for 1 turn variant.</p>
-              
-              <h3 id="pavn-player-turn">PAVN Player Turn</h3>
-              
-              <p class="turn-sequence">PAVN player's plans for this turn.</p>
-              
-              <p>The VC is the first player this turn, plan is to assault the HQ and 155
-              arty in the tea plantation hex.</p>
-              
-              <h4 id="combat-declaration-phase-61">Combat Declaration Phase [6.1]</h4>
-              
-              <p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
-              
-              <p>Assault by all VC on tea plantation hexes.</p>
-              
-              <h4 id="offensive-bombardment-phase-101">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>This is where the Scenario 6 formally begins. The VC mortar unit
-              declares bombardment on tea plantation.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <p>The VC have 2 bombardment points from a mortar unit. There do not appear
-              to be any DRM firing into the tea plantation, so the VC need a natural 1
-              roll to get a step loss, a 1 or 2 to get an <code>F</code>. The roll here is a 4,
-              which is <code>1</code>, which is no effect with tea plantation TDV 2.</p>
-              
-              <h4 id="combat-coordination-phase">Combat Coordination Phase</h4>
-              
-              <p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
-              Combat declarations [8.0]</p>
-              
-              <p>The VC are PAVN, and here operating outside the range of a HQ. The
-              coordination roll need to be 3 or less to acquire assault coordination.
-              The roll is 9, so no coordination.</p>
-              
-              <h4 id="assault-combat-phase-90">Assault Combat Phase [9.0]</h4>
-              
-              <p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
-              Bombardment [10.2]</p>
-              
-              <p>FWA uses all 10 air points for defensive bombardment. PAVN ADF roll 10,
-              No Effect. FWA rolls 7 for <code>2</code>, with TDV always 2 on defensive
-              bombardment, the VC take a step loss.</p>
-              
-              <p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
-              applies results immediately.</p>
-              
-              <p>FWA defending with 3, gets a -1 DRM for attacker uncoordinated, roll 3 -
-              1 for an attacker step loss.</p>
-              
-              <p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
-              
-              <p>VC assaulting with 11, roll 8 + 1 (uncoordinated) - 1 (more than 2
-              hexes attacking) for no effect.</p>
-              
-              <p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
-              their stack for Efficiency Check. A roll less than or equal to the ER
-              passes the Efficiency Check.</p>
-              
-              <p>VC roll 10 for ER check on second round, FWA rolls 9, so no second round
-              of assault combat for either side.</p>
-              
-              <p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
-              Combat Table. This roll is simultaneous, results are not applied until
-              both sides (if possible) have rolled.</p>
-              
-              <p>Failed efficiency check, no second round.</p>
-              
-              <p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
-              
-              <p>Defender still occupies tea plantation.</p>
-              
-              <h3 id="fwa-player-turn">FWA Player Turn</h3>
-              
-              <p class="turn-sequence">FWA player's plans for this turn.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-1">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>No bombardment as all Air Points used in defensive bombardment last
-              turn.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <h3 id="game-record-phase">Game Record Phase</h3>
-              
-              <p class="turn-sequence">1) Reset FWA Air Points counter to 0.
-              2) If last turn assess victory, otherwise advance Game Turn marker.</p>
-              
-              <p>This is a clear FWA win.</p>
-              
-              <h2 id="aar-for-first-game">AAR for first game</h2>
-              
-              <p>First, the game is brilliant, no question, and no complaints.</p>
-              
-              <p>However, I've played Silver Bayonet with a couple of fairly experienced
-              opponents as well as solo, and all three of us have had some trouble
-              with interpreting the Terrain Effects Chart. On the chart, column 6 is
-              titled "Attacker Combat Effects." Apparently, this column is referred to
-              as "Defender Combat Effects" in Section 4.2.1 of the rules (as shipped
-              and v1.1 pdf).</p>
-              
-              <p>Question: what's the correct column title, "Attacker Combat Effects" or
-              "Defender Combat Effects?"</p>
-              
-              <p>This point of confusion for us leads to the next question: is this
-              column (whatever it's titled) used for combat DRM, or is the TDV value
-              used for combat DRM? (FWIW, we have been using the TDV value.)</p>
-              
-              <p>Apologies if this is explained in errata or elsewhere. I did some poking
-              around and wasn't able to find anything.</p>
-              
-              <hr />
-              
-              <h2 id="game-2">Game 2</h2>
-              
-              <h3 id="turn-1-1">Turn 1</h3>
-              
-              <p class="turn-sequence">Situation at the beginning of the turn.</p>
-              
-              <h3 id="initial-phase-1">Initial Phase</h3>
-              
-              <p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
-              
-              <p>FWA receives 10 AP.</p>
-              
-              <p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
-              
-              <p>Not necessary for 1 turn variant.</p>
-              
-              <h3 id="pavn-player-turn-1">PAVN Player Turn</h3>
-              
-              <p class="turn-sequence">PAVN player's plans for this turn.</p>
-              
-              <p>The VC is the first player this turn, plan is to assault the HQ and 155
-              arty in the tea plantation hex.</p>
-              
-              <h4 id="combat-declaration-phase-61-1">Combat Declaration Phase [6.1]</h4>
-              
-              <p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
-              
-              <p>Assault by all VC on tea plantation hexes.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-2">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>This is where the Scenario 6 formally begins. The VC mortar unit
-              declares bombardment on tea plantation.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p>None.</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <p>The VC have 2 bombardment points from a mortar unit. There do not appear
-              to be any DRM firing into the tea plantation, so the VC need a natural 1
-              roll to get a step loss, a 1 or 2 to get an <code>F</code>.</p>
-              
-              <p>Mortar rolls 10 on Bombardment table, no effect.</p>
-              
-              <h4 id="combat-coordination-phase-1">Combat Coordination Phase</h4>
-              
-              <p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
-              Combat declarations [8.0]</p>
-              
-              <p>The VC are PAVN, and here operating outside the range of a HQ. The
-              coordination roll need to be 3 or less to acquire assault coordination.</p>
-              
-              <p>The roll is 7, so no coordination.</p>
-              
-              <h4 id="assault-combat-phase-90-1">Assault Combat Phase [9.0]</h4>
-              
-              <p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
-              Bombardment [10.2]</p>
-              
-              <p>FWA uses all 10 air points for defensive bombardment.</p>
-              
-              <ul>
-                <li>PAVN ADF roll 10, No Effect. (Same roll as first game!)</li>
-                <li>FWA rolls 7 for <code>2</code>, with TDV always 2 on defensive
-              bombardment, the VC take a step loss. (Again, same roll as first game.
-              Weird.)</li>
-              </ul>
-              
-              <p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
-              applies results immediately.</p>
-              
-              <p>FWA defending with 3, gets a - 1 DRM for attacker uncoordinated, roll 4 -
-              1 for an attacker step loss. (Different roll, same result as first
-              game.)</p>
-              
-              <p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
-              
-              <p>VC assaulting with 11, roll 9 + 1 (uncoordinated) - 1 (more than two
-              hexes attacking) for no effect.</p>
-              
-              <p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
-              their stack for Efficiency Check. A roll less than or equal to the ER
-              passes the Efficiency Check.</p>
-              
-              <p>VC roll 3 for ER check on second round, FWA rolls 7, PAVN gets a second
-              assault round, FWA does not.</p>
-              
-              <p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
-              Combat Table. This roll is simultaneous, results are not applied until
-              both sides (if possible) have rolled.</p>
-              
-              <p>PAVN rolls 4 which is a step loss, almost surely have to take the step
-              as the artillery unit, need to read the rules on this. (12.4.4 HQs must
-              be the last steps chosen as combat losses.)</p>
-              
-              <p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
-              
-              <p>Defender HQ still occupies tea plantation.</p>
-              
-              <h3 id="fwa-player-turn-1">FWA Player Turn</h3>
-              
-              <p class="turn-sequence">FWA player's plans for this turn.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-3">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>No bombardment as all Air Points used in defensive bombardment last
-              turn.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <h3 id="game-record-phase-1">Game Record Phase</h3>
-              
-              <p class="turn-sequence">1) Reset FWA Air Points counter to 0.
-              2) If last turn assess victory, otherwise advance Game Turn marker.</p>
-              
-              <p>FWA prevails, still occupying tea plantation with single step. PAVN down
-              2 steps.</p>
-              
-              <hr />
-              
-              <h2 id="game-3">Game 3</h2>
-              
-              <p>This game the FWA gets a forced <code>F</code> result on the PAVN mortar
-              bombardment.</p>
-              
-              <h3 id="turn-1-2">Turn 1</h3>
-              
-              <p class="turn-sequence">Situation at the beginning of the turn.</p>
-              
-              <h3 id="initial-phase-2">Initial Phase</h3>
-              
-              <p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
-              
-              <p>FWA receives 10 AP.</p>
-              
-              <p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
-              
-              <p>Not necessary for 1 turn variant.</p>
-              
-              <h3 id="pavn-player-turn-2">PAVN Player Turn</h3>
-              
-              <p class="turn-sequence">PAVN player's plans for this turn.</p>
-              
-              <p>The VC is the first player this turn, plan is to assault the HQ and 155
-              arty in the tea plantation hex.</p>
-              
-              <h4 id="combat-declaration-phase-61-2">Combat Declaration Phase [6.1]</h4>
-              
-              <p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
-              
-              <p>Assault by all VC on tea plantation hexes.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-4">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>This is where the Scenario 6 formally begins. The VC mortar unit
-              declares bombardment on tea plantation.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p>None.</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <p>The VC have 2 bombardment points from a mortar unit. There do not appear
-              to be any DRM firing into the tea plantation, so the VC need a natural 1
-              roll to get a step loss, a 1 or 2 to get an <code>F</code>.</p>
-              
-              <p>Roll 2 for <code>1F</code> result, the 155 arty will take the Fatigue result.</p>
-              
-              <h4 id="combat-coordination-phase-2">Combat Coordination Phase</h4>
-              
-              <p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
-              Combat declarations [8.0]</p>
-              
-              <p>The VC are PAVN, and here operating outside the range of a HQ. The
-              coordination roll need to be 3 or less to acquire assault coordination.</p>
-              
-              <p>The roll is 9, so no coordination.</p>
-              
-              <h4 id="assault-combat-phase-90-2">Assault Combat Phase [9.0]</h4>
-              
-              <p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
-              Bombardment [10.2]</p>
-              
-              <p>FWA uses all 10 air points for defensive bombardment.</p>
-              
-              <ul>
-                <li>PAVN ADF roll 6, No Effect. (Same roll as first game!)</li>
-                <li>FWA rolls 9 for <code>NE</code>, with TDV always 2 on defensive
-              bombardment, the VC takes no step losses.</li>
-              </ul>
-              
-              <p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
-              applies results immediately.</p>
-              
-              <p>FWA defending with 3, gets - 1 DRM for attacker uncoordinated but + 2
-              for the F on greater than or equal to 50% of steps, roll 2 +
-              1 for an attacker step loss.</p>
-              
-              <p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
-              
-              <p>VC assaulting with 12, roll 3 + 1 (uncoordinated) - 1 (more than two
-              hexes attacking) for <code>2</code>, FWA takes the howitzer off the field.</p>
-              
-              <p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
-              their stack for Efficiency Check. A roll less than or equal to the ER
-              passes the Efficiency Check.</p>
-              
-              <p>Neither side passes EC.  Game is over for FWA win.</p>
-              
-              <p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
-              Combat Table. This roll is simultaneous, results are not applied until
-              both sides (if possible) have rolled.</p>
-              
-              <p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
-              
-              <h3 id="fwa-player-turn-2">FWA Player Turn</h3>
-              
-              <p class="turn-sequence">FWA player's plans for this turn.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-5">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <h3 id="game-record-phase-2">Game Record Phase</h3>
-              
-              <p class="turn-sequence">1) Reset FWA Air Points counter to 0.
-              2) If last turn assess victory, otherwise advance Game Turn marker.</p>
-              
-              <p>Another FWA win. Geez.</p>
-              
-              <hr />
-              
-              <h2 id="game-4">Game 4</h2>
-              
-              <p>This game the PAVN gets their coordination roll.</p>
-              
-              <h3 id="turn-1-3">Turn 1</h3>
-              
-              <p class="turn-sequence">Situation at the beginning of the turn.</p>
-              
-              <h3 id="initial-phase-3">Initial Phase</h3>
-              
-              <p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
-              
-              <p>FWA receives 10 AP.</p>
-              
-              <p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
-              
-              <p>Not necessary for 1 turn variant.</p>
-              
-              <h3 id="pavn-player-turn-3">PAVN Player Turn</h3>
-              
-              <p class="turn-sequence">PAVN player's plans for this turn.</p>
-              
-              <p>The VC is the first player this turn, plan is to assault the HQ and 155
-              arty in the tea plantation hex.</p>
-              
-              <h4 id="combat-declaration-phase-61-3">Combat Declaration Phase [6.1]</h4>
-              
-              <p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
-              
-              <p>Assault by all VC on tea plantation hexes.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-6">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>This is where the Scenario 6 formally begins. The VC mortar unit
-              declares bombardment on tea plantation.</p>
-              
-              <p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
-              
-              <p>None.</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <p>The VC have 2 bombardment points from a mortar unit. There do not appear
-              to be any DRM firing into the tea plantation, so the VC need a natural 1
-              roll to get a step loss, a 1 or 2 to get an <code>F</code>.</p>
-              
-              <p>Roll 2 for <code>1F</code> result, the 155 arty will take the fatigue.</p>
-              
-              <h4 id="combat-coordination-phase-3">Combat Coordination Phase</h4>
-              
-              <p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
-              Combat declarations [8.0]</p>
-              
-              <p>The VC are PAVN, and here operating outside the range of a HQ. The
-              coordination roll need to be 3 or less to acquire assault coordination.</p>
-              
-              <p>The roll is 1 (by decree), coordinated assault.</p>
-              
-              <h4 id="assault-combat-phase-90-3">Assault Combat Phase [9.0]</h4>
-              
-              <p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
-              Bombardment [10.2]</p>
-              
-              <p>FWA uses all 10 air points for defensive bombardment.</p>
-              
-              <ul>
-                <li>PAVN ADF roll 7, No Effect.</li>
-                <li>FWA rolls 3 for <code>3F</code>, with TDV always 2 on defensive
-              bombardment, the VC takes one step loss and Fatigues a unit.</li>
-              </ul>
-              
-              <p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
-              applies results immediately.</p>
-              
-              <p>FWA defending with 1 with no DRM, roll 10 for <code>-</code>.</p>
-              
-              <p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
-              
-              <p>VC assaulting with 11 (1 step loss, 1 F unit), roll 7 - 1 (more than two
-              hexes attacking) for <code>1</code>, 1 FWA step eliminated.</p>
-              
-              <p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
-              their stack for Efficiency Check. A roll less than or equal to the ER
-              passes the Efficiency Check.</p>
-              
-              <p>FWA passes EC, PAVN fails.</p>
-              
-              <p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
-              Combat Table. This roll is simultaneous, results are not applied until
-              both sides (if possible) have rolled.</p>
-              
-              <p>FWA rolls 3 on the 1 column, no effect.</p>
-              
-              <p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
-              
-              <p>This is another FWA win.</p>
-              
-              <h3 id="fwa-player-turn-3">FWA Player Turn</h3>
-              
-              <p class="turn-sequence">FWA player's plans for this turn.</p>
-              
-              <p>N/A</p>
-              
-              <h4 id="offensive-bombardment-phase-101-7">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p>N/A</p>
-              
-              <h3 id="game-record-phase-3">Game Record Phase</h3>
-              
-              <p class="turn-sequence">1) Reset FWA Air Points counter to 0.
-              2) If last turn assess victory, otherwise advance Game Turn marker.</p>
-              
-              <p>FWA win.</p>
-              
-              <h2 id="game-5">Game 5</h2>
-              
-              <p>We try again, but not logging this game or successive.</p>
-              
-              <h3 id="turn-1-4">Turn 1</h3>
-              
-              <h3 id="initial-phase-4">Initial Phase</h3>
-              
-              <p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
-              
-              <p>FWA receives 10 AP.</p>
-              
-              <h3 id="pavn-player-turn-4">PAVN Player Turn</h3>
-              
-              <h4 id="combat-declaration-phase-61-4">Combat Declaration Phase [6.1]</h4>
-              
-              <p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
-              
-              <p>Assault by all VC on tea plantation hexes.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-8">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>Mortars.</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <p>Mortars, roll 2 for <code>1F</code>. HQ takes the fatigue marker.</p>
-              
-              <h4 id="combat-coordination-phase-4">Combat Coordination Phase</h4>
-              
-              <p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
-              Combat declarations [8.0]</p>
-              
-              <p>Roll 2 for coordination.</p>
-              
-              <h4 id="assault-combat-phase-90-4">Assault Combat Phase [9.0]</h4>
-              
-              <p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
-              Bombardment [10.2]</p>
-              
-              <p>Roll 5 ADF miss.</p>
-              
-              <p>Roll 3 for <code>4F</code>, two step losses, take an <code>F</code> on one of the step loss
-              units.</p>
-              
-              <p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
-              applies results immediately.</p>
-              
-              <p>Roll 2 for <code>1</code>, VC eliminates the <code>F</code> unit.</p>
-              
-              <p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
-              
-              <p>Roll 5 - 1 (multiple units) on the 7-9 column for <code>1</code>, FWA flips
-              howitzer.</p>
-              
-              <p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
-              their stack for Efficiency Check. A roll less than or equal to the ER
-              passes the Efficiency Check.</p>
-              
-              <p>Both pass EC.</p>
-              
-              <p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
-              Combat Table. This roll is simultaneous, results are not applied until
-              both sides (if possible) have rolled.</p>
-              
-              <ul>
-                <li>FWA roll 4, no effect.</li>
-                <li>PAVN roll 3 - 1 for <code>2</code>, FWA eliminated.</li>
-              </ul>
-              
-              <p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
-              
-              <p>PAVN win, finally.</p>
-              
-              <h3 id="fwa-player-turn-4">FWA Player Turn</h3>
-              
-              <p class="turn-sequence">FWA player's plans for this turn.</p>
-              
-              <h2 id="game-6">Game 6</h2>
-              
-              <p>Not logging this game or successive.</p>
-              
-              <h3 id="turn-1-5">Turn 1</h3>
-              
-              <h3 id="initial-phase-5">Initial Phase</h3>
-              
-              <p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
-              
-              <p>FWA receives 10 AP.</p>
-              
-              <h3 id="pavn-player-turn-5">PAVN Player Turn</h3>
-              
-              <h4 id="combat-declaration-phase-61-5">Combat Declaration Phase [6.1]</h4>
-              
-              <p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
-              
-              <p>Assault by all VC on tea plantation hexes.</p>
-              
-              <h4 id="offensive-bombardment-phase-101-9">Offensive Bombardment Phase [10.1]</h4>
-              
-              <p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
-              
-              <p>Mortars.</p>
-              
-              <p class="turn-sequence">3) Resolve Bombardment.</p>
-              
-              <p>Mortars, roll 1 for <code>2F</code>. Howitzer takes the step loss.</p>
-              
-              <h4 id="combat-coordination-phase-5">Combat Coordination Phase</h4>
-              
-              <p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
-              Combat declarations [8.0]</p>
-              
-              <p>Roll 5 PAVN uncoordinated.</p>
-              
-              <h4 id="assault-combat-phase-90-5">Assault Combat Phase [9.0]</h4>
-              
-              <p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
-              Bombardment [10.2]</p>
-              
-              <p>Roll 9 ADF miss.</p>
-              
-              <p>Roll 10 for <code>-</code>, PAVN lucky, bad pilots miss everything. Sad!</p>
-              
-              <p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
-              applies results immediately.</p>
-              
-              <p>Roll 1 on the 2-3 column for <code>1</code>, PAVN takes a step loss.</p>
-              
-              <p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
-              
-              <p>Roll 2 + 1 (uncoordinated) - 1 (3 attacking hex bonus) on 10-12 column
-              for <code>2</code>, FWA eliminated.</p>
-              
-              <p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
-              their stack for Efficiency Check. A roll less than or equal to the ER
-              passes the Efficiency Check.</p>
-              
-              <p>PAVN win.</p>
-              
-              <p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
-              Combat Table. This roll is simultaneous, results are not applied until
-              both sides (if possible) have rolled.</p>
-              
-              <p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
-              
-              <p>PAVN win, again.</p>
-              
-              <h3 id="fwa-player-turn-5">FWA Player Turn</h3>
-              
-              <p class="turn-sequence">FWA player's plans for this turn.</p>
-              
-              <h2 id="aar">AAR</h2>
-              
-              <p>I'm inclined to go with having the FWA down to a single step be called a
-              draw. That seems to be a pretty likely case. In 6 games of this
-              scenario, the PAVN have only prevailed twice.</p>
-              
-              <p>What follows is a first cut at some probabilistic modeling of the how
-              this scenario works. There is a lot more which could be done, and I have
-              a set of notes with more details.</p>
-              
-              <h3 id="defensive-bombardment">Defensive Bombardment</h3>
-              
-              <p>The scenario grants the FWA player 10 Air Points. A natural question to
-              ask is "How much damage can these 10 Air Points inflict?" The answer, of
-              course, is on the Bombardment/Support Table, column 10-14, we see
-              rolling 1 or 2 results in <code>4F</code>, which is 2 steps lost for TDV 2 (per
-              definition of TDV during Defensive Bombardment). On the other hand,
-              rolling an 8, 9 or 10 results in no step losses for the attacking PAVN.</p>
-              
-              <p>The PAVN can reduce the odds one or two step losses by getting a hit and
-              damage on Air Defense Fire (ADF). Any damage at all shifts the FWA
-              bombardment to the 6-9 column. Let's calculate the probability of
-              PAVN inflicting damage on the defender's aircraft.</p>
-              
-              <p>First, we note that rolling 1 or 2 results in a "hit," but since PAVN
-              has a mortar unit adjacent, PAVN gets a +1 DRM. Hence,</p>
-              
-              <script type="math/tex; mode=display">P(H) = 0.3.</script>
-              
-              <p>Given we have a hit,</p>
-              
-              <script type="math/tex; mode=display">P(D) = 0.4.</script>
-              
-              <p>Any damage at all results in a single column shift left. For Shift Left
-              <script type="math/tex">S_L</script>, we have</p>
-              
-              <script type="math/tex; mode=display">P(S_L) = P(H)P(D) = 0.12.</script>
-              
-              <h3 id="probability-of-two-pavn-step-losses">Probability of two PAVN step losses</h3>
-              
-              <p>Now let's check the probabilities on the Bombardment/Support Table. For
-              the 10-14 column <script type="math/tex">(B_{10})</script>, rolling 1 or 2 results in <code>4F</code>. On the 6-9 column
-              <script type="math/tex">(B_6)</script>,
-              rolling 1 results in <code>4F</code>. For some two step loss <script type="math/tex">L_2</script>,</p>
-              
-              <script type="math/tex; mode=display">% <![CDATA[
-              \begin{align}
-              P(L_2 |B_6) & = (0.12)(0.1) = 0.012, \\
-              P(L_2 |B_{10}) & = (0.88)(0.2) = 0.176, \\
-              P(\neg{L_2} |B_{10}) & = (0.88)(0.8) = 0.704, \\
-              P(\neg{L_2}|B_6) & = (0.12)(0.9) = 0.108.
-              \end{align} %]]></script>
-              
-              <p>Now we have</p>
-              
-              <script type="math/tex; mode=display">P(L_2) = P(L_2 |B_6) + P(L_2|B_{10}) = 0.012 + 0.176 = 0.188.</script>
-              
-              <p>This result makes sense. If we were rolling only on the <script type="math/tex">B_{10}</script>
-              column it's easy to see there is a 20% chance of getting 2 step losses.
-              But the small probability of being hit with ADF weights the result into
-              the <script type="math/tex">B_6</script> column, just a small amount. So the odds are reduced just
-              over 1%, from 20% to 18.8%</p>
-              
-              <h3 id="probability-of-single-pavn-step-loss">Probability of single PAVN step loss</h3>
-              
-              <p>It's easy to compute the probability of losing exactly 1 step:</p>
-              
-              <script type="math/tex; mode=display">P(L_1) = P(L_1 |B_6) + P(L_1|B_{10}) = (0.12)(0.5) + (0.88)(0.5) = 0.06 + 0.44 = 0.50.</script>
-              
-              <p>Now that's an interesting result, and one which can be seen by
-              inspection!</p>
-              
-              <h3 id="pavn-loses-at-least-1-step">PAVN loses at least 1 step</h3>
-              
-              <p>To find the probability of losing <em>at least one step</em>, first
-              compute the probability of losing no steps <script type="math/tex">P(L_0)</script>:</p>
-              
-              <script type="math/tex; mode=display">P(L_0) = (0.12)(0.4) + (0.88)(0.3) = 0.048 + 0.264 = 0.312</script>
-              
-              <p>Now,
-              <script type="math/tex">P(L_1) \cup P(L_2) = 1 - P(L_0) = 1 - 0.312 = 0.688.</script></p>
-              
-              <p>In other words, there is about a 70% chance that Air Bombardment will
-              reduce PAVN by at least 1 step.</p>
-              
-              <p>This study will be continued with an examination of the Assault Combat Table.</p>
-              
-              <h2 id="conclusion">Conclusion</h2>
-              
-              <p>This concludes what I hope will be just the first round of
-              investigation.</p>
-              
-              <p>I'm interested in digging deeper to
-              get a complete spectrum of outcomes, but that will take more time than
-              I'm willing to spend right now.</p>
-              
-              <p>Next steps to consider:</p>
-              
-              <ul>
-                <li>See if this battle is amenable to some sort of spreadsheet system.</li>
-                <li>Can it be programmed? Surely so.</li>
-                <li>Continue on with Scenario #6b to give the PAVN another crack at it.</li>
-              </ul>
-              
-              <p>Fun times for the future!</p>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2017/01/14/vietnam-solitaire-xi.html' rel='prev'>Vietnam Solitaire XI</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2017/01/16/silver-bayonet-ia-drang-lz-x-ray.html' rel='next'>Silver Bayonet: Ia Drang LZ X-Ray</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/silver-bayonet.html'>silver-bayonet</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/vietnam.html'>vietnam</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/theory-crafting.html'>theory-crafting</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/tea-plantation.html'>tea-plantation</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/scenario-6.html'>scenario-6</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/scenario-6a.html'>scenario-6a</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Silver Bayonet - Theorycrafting Tea Time
+</h1>
+<time class='updated' pubdate=''>Jan 15 2017</time>
+<p>This article documents an experiment I'm conducting on game mechanics
+related to <a href="/2017/01/01/developing-the-very-small-scenario.html">small scenario
+design</a>.</p>
+
+<p>The main idea is that really small scenarios should provide the
+statistically likely outcome as a Draw condition, with statistical
+outliers favoring each side determing Win/Lose conditions.</p>
+
+<p>Apparently this activity is known as "theory crafting" within certain
+communities. I've always called it "statistical analysis."</p>
+
+<p>For this first attempt, we'll be using Scenario #6 "Tea Time" from GMT's
+<em>Silver Bayonet</em>. Tea Time is a 1 or 2 turn scenario with about a dozen
+counters, and demonstrates only the assault combat mechanics of the
+game. The initial goal is to play this scenario several times recording
+the outcome for all die rolls.</p>
+
+<p>Tea Time has two variations. The first is a single turn with 10 Air
+Points for the FWA defenders, the second is two turns with 10 Air Points
+for the FWA defenders each turn.</p>
+
+<h2 id="result-of-4-plays">Result of 4 plays</h2>
+
+<p>I played the Catecka Tea Plantation scenario four times back to back,
+recording the results of every phase of the Turn Sequence. The results
+are given in the following table:</p>
+
+<table class="scenario-table center">
+  <thead>
+    <tr>
+      <th> </th>
+      <th>FWA step loss</th>
+      <th>PAVN step loss</th>
+      <th>Winner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Game 1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>FWA</td>
+    </tr>
+    <tr>
+      <td>Game 2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>FWA</td>
+    </tr>
+    <tr>
+      <td>Game 3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>FWA</td>
+    </tr>
+    <tr>
+      <td>Game 4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>FWA</td>
+    </tr>
+    <tr>
+      <td>Game 5</td>
+      <td>3</td>
+      <td>3</td>
+      <td>PAVN</td>
+    </tr>
+    <tr>
+      <td>Game 6</td>
+      <td>3</td>
+      <td>1</td>
+      <td>PAVN</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each play follows a turn sequence reduced from the full turn sequence,
+as neither side need (or can) move.</p>
+
+<h2 id="game-1">Game 1</h2>
+
+<h3 id="turn-1">Turn 1</h3>
+
+<p class="turn-sequence">Situation at the beginning of the turn.</p>
+
+<p>Per the setup, the FWA have an HQ and a 155 in the tea plantation hex.
+Neither of these units are going to move, they have to just sit there
+and take the punishment.</p>
+
+<h3 id="initial-phase">Initial Phase</h3>
+
+<p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
+
+<p>FWA receives 10 AP.</p>
+
+<p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
+
+<p>Not necessary for 1 turn variant.</p>
+
+<h3 id="pavn-player-turn">PAVN Player Turn</h3>
+
+<p class="turn-sequence">PAVN player's plans for this turn.</p>
+
+<p>The VC is the first player this turn, plan is to assault the HQ and 155
+arty in the tea plantation hex.</p>
+
+<h4 id="combat-declaration-phase-61">Combat Declaration Phase [6.1]</h4>
+
+<p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
+
+<p>Assault by all VC on tea plantation hexes.</p>
+
+<h4 id="offensive-bombardment-phase-101">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>This is where the Scenario 6 formally begins. The VC mortar unit
+declares bombardment on tea plantation.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>The VC have 2 bombardment points from a mortar unit. There do not appear
+to be any DRM firing into the tea plantation, so the VC need a natural 1
+roll to get a step loss, a 1 or 2 to get an <code>F</code>. The roll here is a 4,
+which is <code>1</code>, which is no effect with tea plantation TDV 2.</p>
+
+<h4 id="combat-coordination-phase">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>The VC are PAVN, and here operating outside the range of a HQ. The
+coordination roll need to be 3 or less to acquire assault coordination.
+The roll is 9, so no coordination.</p>
+
+<h4 id="assault-combat-phase-90">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<p>FWA uses all 10 air points for defensive bombardment. PAVN ADF roll 10,
+No Effect. FWA rolls 7 for <code>2</code>, with TDV always 2 on defensive
+bombardment, the VC take a step loss.</p>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>FWA defending with 3, gets a -1 DRM for attacker uncoordinated, roll 3 -
+1 for an attacker step loss.</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>VC assaulting with 11, roll 8 + 1 (uncoordinated) - 1 (more than 2
+hexes attacking) for no effect.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<p>VC roll 10 for ER check on second round, FWA rolls 9, so no second round
+of assault combat for either side.</p>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<p>Failed efficiency check, no second round.</p>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<p>Defender still occupies tea plantation.</p>
+
+<h3 id="fwa-player-turn">FWA Player Turn</h3>
+
+<p class="turn-sequence">FWA player's plans for this turn.</p>
+
+<h4 id="offensive-bombardment-phase-101-1">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>No bombardment as all Air Points used in defensive bombardment last
+turn.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<h3 id="game-record-phase">Game Record Phase</h3>
+
+<p class="turn-sequence">1) Reset FWA Air Points counter to 0.
+2) If last turn assess victory, otherwise advance Game Turn marker.</p>
+
+<p>This is a clear FWA win.</p>
+
+<h2 id="aar-for-first-game">AAR for first game</h2>
+
+<p>First, the game is brilliant, no question, and no complaints.</p>
+
+<p>However, I've played Silver Bayonet with a couple of fairly experienced
+opponents as well as solo, and all three of us have had some trouble
+with interpreting the Terrain Effects Chart. On the chart, column 6 is
+titled "Attacker Combat Effects." Apparently, this column is referred to
+as "Defender Combat Effects" in Section 4.2.1 of the rules (as shipped
+and v1.1 pdf).</p>
+
+<p>Question: what's the correct column title, "Attacker Combat Effects" or
+"Defender Combat Effects?"</p>
+
+<p>This point of confusion for us leads to the next question: is this
+column (whatever it's titled) used for combat DRM, or is the TDV value
+used for combat DRM? (FWIW, we have been using the TDV value.)</p>
+
+<p>Apologies if this is explained in errata or elsewhere. I did some poking
+around and wasn't able to find anything.</p>
+
+<hr />
+
+<h2 id="game-2">Game 2</h2>
+
+<h3 id="turn-1-1">Turn 1</h3>
+
+<p class="turn-sequence">Situation at the beginning of the turn.</p>
+
+<h3 id="initial-phase-1">Initial Phase</h3>
+
+<p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
+
+<p>FWA receives 10 AP.</p>
+
+<p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
+
+<p>Not necessary for 1 turn variant.</p>
+
+<h3 id="pavn-player-turn-1">PAVN Player Turn</h3>
+
+<p class="turn-sequence">PAVN player's plans for this turn.</p>
+
+<p>The VC is the first player this turn, plan is to assault the HQ and 155
+arty in the tea plantation hex.</p>
+
+<h4 id="combat-declaration-phase-61-1">Combat Declaration Phase [6.1]</h4>
+
+<p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
+
+<p>Assault by all VC on tea plantation hexes.</p>
+
+<h4 id="offensive-bombardment-phase-101-2">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>This is where the Scenario 6 formally begins. The VC mortar unit
+declares bombardment on tea plantation.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p>None.</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>The VC have 2 bombardment points from a mortar unit. There do not appear
+to be any DRM firing into the tea plantation, so the VC need a natural 1
+roll to get a step loss, a 1 or 2 to get an <code>F</code>.</p>
+
+<p>Mortar rolls 10 on Bombardment table, no effect.</p>
+
+<h4 id="combat-coordination-phase-1">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>The VC are PAVN, and here operating outside the range of a HQ. The
+coordination roll need to be 3 or less to acquire assault coordination.</p>
+
+<p>The roll is 7, so no coordination.</p>
+
+<h4 id="assault-combat-phase-90-1">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<p>FWA uses all 10 air points for defensive bombardment.</p>
+
+<ul>
+  <li>PAVN ADF roll 10, No Effect. (Same roll as first game!)</li>
+  <li>FWA rolls 7 for <code>2</code>, with TDV always 2 on defensive
+bombardment, the VC take a step loss. (Again, same roll as first game.
+Weird.)</li>
+</ul>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>FWA defending with 3, gets a - 1 DRM for attacker uncoordinated, roll 4 -
+1 for an attacker step loss. (Different roll, same result as first
+game.)</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>VC assaulting with 11, roll 9 + 1 (uncoordinated) - 1 (more than two
+hexes attacking) for no effect.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<p>VC roll 3 for ER check on second round, FWA rolls 7, PAVN gets a second
+assault round, FWA does not.</p>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<p>PAVN rolls 4 which is a step loss, almost surely have to take the step
+as the artillery unit, need to read the rules on this. (12.4.4 HQs must
+be the last steps chosen as combat losses.)</p>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<p>Defender HQ still occupies tea plantation.</p>
+
+<h3 id="fwa-player-turn-1">FWA Player Turn</h3>
+
+<p class="turn-sequence">FWA player's plans for this turn.</p>
+
+<h4 id="offensive-bombardment-phase-101-3">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>No bombardment as all Air Points used in defensive bombardment last
+turn.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<h3 id="game-record-phase-1">Game Record Phase</h3>
+
+<p class="turn-sequence">1) Reset FWA Air Points counter to 0.
+2) If last turn assess victory, otherwise advance Game Turn marker.</p>
+
+<p>FWA prevails, still occupying tea plantation with single step. PAVN down
+2 steps.</p>
+
+<hr />
+
+<h2 id="game-3">Game 3</h2>
+
+<p>This game the FWA gets a forced <code>F</code> result on the PAVN mortar
+bombardment.</p>
+
+<h3 id="turn-1-2">Turn 1</h3>
+
+<p class="turn-sequence">Situation at the beginning of the turn.</p>
+
+<h3 id="initial-phase-2">Initial Phase</h3>
+
+<p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
+
+<p>FWA receives 10 AP.</p>
+
+<p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
+
+<p>Not necessary for 1 turn variant.</p>
+
+<h3 id="pavn-player-turn-2">PAVN Player Turn</h3>
+
+<p class="turn-sequence">PAVN player's plans for this turn.</p>
+
+<p>The VC is the first player this turn, plan is to assault the HQ and 155
+arty in the tea plantation hex.</p>
+
+<h4 id="combat-declaration-phase-61-2">Combat Declaration Phase [6.1]</h4>
+
+<p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
+
+<p>Assault by all VC on tea plantation hexes.</p>
+
+<h4 id="offensive-bombardment-phase-101-4">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>This is where the Scenario 6 formally begins. The VC mortar unit
+declares bombardment on tea plantation.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p>None.</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>The VC have 2 bombardment points from a mortar unit. There do not appear
+to be any DRM firing into the tea plantation, so the VC need a natural 1
+roll to get a step loss, a 1 or 2 to get an <code>F</code>.</p>
+
+<p>Roll 2 for <code>1F</code> result, the 155 arty will take the Fatigue result.</p>
+
+<h4 id="combat-coordination-phase-2">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>The VC are PAVN, and here operating outside the range of a HQ. The
+coordination roll need to be 3 or less to acquire assault coordination.</p>
+
+<p>The roll is 9, so no coordination.</p>
+
+<h4 id="assault-combat-phase-90-2">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<p>FWA uses all 10 air points for defensive bombardment.</p>
+
+<ul>
+  <li>PAVN ADF roll 6, No Effect. (Same roll as first game!)</li>
+  <li>FWA rolls 9 for <code>NE</code>, with TDV always 2 on defensive
+bombardment, the VC takes no step losses.</li>
+</ul>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>FWA defending with 3, gets - 1 DRM for attacker uncoordinated but + 2
+for the F on greater than or equal to 50% of steps, roll 2 +
+1 for an attacker step loss.</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>VC assaulting with 12, roll 3 + 1 (uncoordinated) - 1 (more than two
+hexes attacking) for <code>2</code>, FWA takes the howitzer off the field.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<p>Neither side passes EC.  Game is over for FWA win.</p>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<h3 id="fwa-player-turn-2">FWA Player Turn</h3>
+
+<p class="turn-sequence">FWA player's plans for this turn.</p>
+
+<h4 id="offensive-bombardment-phase-101-5">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<h3 id="game-record-phase-2">Game Record Phase</h3>
+
+<p class="turn-sequence">1) Reset FWA Air Points counter to 0.
+2) If last turn assess victory, otherwise advance Game Turn marker.</p>
+
+<p>Another FWA win. Geez.</p>
+
+<hr />
+
+<h2 id="game-4">Game 4</h2>
+
+<p>This game the PAVN gets their coordination roll.</p>
+
+<h3 id="turn-1-3">Turn 1</h3>
+
+<p class="turn-sequence">Situation at the beginning of the turn.</p>
+
+<h3 id="initial-phase-3">Initial Phase</h3>
+
+<p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
+
+<p>FWA receives 10 AP.</p>
+
+<p class="turn-sequence">2) Remove "First" and "Final" Fire markers for BOTH sides.</p>
+
+<p>Not necessary for 1 turn variant.</p>
+
+<h3 id="pavn-player-turn-3">PAVN Player Turn</h3>
+
+<p class="turn-sequence">PAVN player's plans for this turn.</p>
+
+<p>The VC is the first player this turn, plan is to assault the HQ and 155
+arty in the tea plantation hex.</p>
+
+<h4 id="combat-declaration-phase-61-3">Combat Declaration Phase [6.1]</h4>
+
+<p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
+
+<p>Assault by all VC on tea plantation hexes.</p>
+
+<h4 id="offensive-bombardment-phase-101-6">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>This is where the Scenario 6 formally begins. The VC mortar unit
+declares bombardment on tea plantation.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p>None.</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>The VC have 2 bombardment points from a mortar unit. There do not appear
+to be any DRM firing into the tea plantation, so the VC need a natural 1
+roll to get a step loss, a 1 or 2 to get an <code>F</code>.</p>
+
+<p>Roll 2 for <code>1F</code> result, the 155 arty will take the fatigue.</p>
+
+<h4 id="combat-coordination-phase-3">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>The VC are PAVN, and here operating outside the range of a HQ. The
+coordination roll need to be 3 or less to acquire assault coordination.</p>
+
+<p>The roll is 1 (by decree), coordinated assault.</p>
+
+<h4 id="assault-combat-phase-90-3">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<p>FWA uses all 10 air points for defensive bombardment.</p>
+
+<ul>
+  <li>PAVN ADF roll 7, No Effect.</li>
+  <li>FWA rolls 3 for <code>3F</code>, with TDV always 2 on defensive
+bombardment, the VC takes one step loss and Fatigues a unit.</li>
+</ul>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>FWA defending with 1 with no DRM, roll 10 for <code>-</code>.</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>VC assaulting with 11 (1 step loss, 1 F unit), roll 7 - 1 (more than two
+hexes attacking) for <code>1</code>, 1 FWA step eliminated.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<p>FWA passes EC, PAVN fails.</p>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<p>FWA rolls 3 on the 1 column, no effect.</p>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<p>This is another FWA win.</p>
+
+<h3 id="fwa-player-turn-3">FWA Player Turn</h3>
+
+<p class="turn-sequence">FWA player's plans for this turn.</p>
+
+<p>N/A</p>
+
+<h4 id="offensive-bombardment-phase-101-7">Offensive Bombardment Phase [10.1]</h4>
+
+<p>N/A</p>
+
+<h3 id="game-record-phase-3">Game Record Phase</h3>
+
+<p class="turn-sequence">1) Reset FWA Air Points counter to 0.
+2) If last turn assess victory, otherwise advance Game Turn marker.</p>
+
+<p>FWA win.</p>
+
+<h2 id="game-5">Game 5</h2>
+
+<p>We try again, but not logging this game or successive.</p>
+
+<h3 id="turn-1-4">Turn 1</h3>
+
+<h3 id="initial-phase-4">Initial Phase</h3>
+
+<p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
+
+<p>FWA receives 10 AP.</p>
+
+<h3 id="pavn-player-turn-4">PAVN Player Turn</h3>
+
+<h4 id="combat-declaration-phase-61-4">Combat Declaration Phase [6.1]</h4>
+
+<p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
+
+<p>Assault by all VC on tea plantation hexes.</p>
+
+<h4 id="offensive-bombardment-phase-101-8">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>Mortars.</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>Mortars, roll 2 for <code>1F</code>. HQ takes the fatigue marker.</p>
+
+<h4 id="combat-coordination-phase-4">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>Roll 2 for coordination.</p>
+
+<h4 id="assault-combat-phase-90-4">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<p>Roll 5 ADF miss.</p>
+
+<p>Roll 3 for <code>4F</code>, two step losses, take an <code>F</code> on one of the step loss
+units.</p>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>Roll 2 for <code>1</code>, VC eliminates the <code>F</code> unit.</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>Roll 5 - 1 (multiple units) on the 7-9 column for <code>1</code>, FWA flips
+howitzer.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<p>Both pass EC.</p>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<ul>
+  <li>FWA roll 4, no effect.</li>
+  <li>PAVN roll 3 - 1 for <code>2</code>, FWA eliminated.</li>
+</ul>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<p>PAVN win, finally.</p>
+
+<h3 id="fwa-player-turn-4">FWA Player Turn</h3>
+
+<p class="turn-sequence">FWA player's plans for this turn.</p>
+
+<h2 id="game-6">Game 6</h2>
+
+<p>Not logging this game or successive.</p>
+
+<h3 id="turn-1-5">Turn 1</h3>
+
+<h3 id="initial-phase-5">Initial Phase</h3>
+
+<p class="turn-sequence">1) Adjust FWA Air Points [11.0]</p>
+
+<p>FWA receives 10 AP.</p>
+
+<h3 id="pavn-player-turn-5">PAVN Player Turn</h3>
+
+<h4 id="combat-declaration-phase-61-5">Combat Declaration Phase [6.1]</h4>
+
+<p class="turn-sequence">1) Declare all assault and maneuver combat by placing markers.</p>
+
+<p>Assault by all VC on tea plantation hexes.</p>
+
+<h4 id="offensive-bombardment-phase-101-9">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>Mortars.</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>Mortars, roll 1 for <code>2F</code>. Howitzer takes the step loss.</p>
+
+<h4 id="combat-coordination-phase-5">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>Roll 5 PAVN uncoordinated.</p>
+
+<h4 id="assault-combat-phase-90-5">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<p>Roll 9 ADF miss.</p>
+
+<p>Roll 10 for <code>-</code>, PAVN lucky, bad pilots miss everything. Sad!</p>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>Roll 1 on the 2-3 column for <code>1</code>, PAVN takes a step loss.</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>Roll 2 + 1 (uncoordinated) - 1 (3 attacking hex bonus) on 10-12 column
+for <code>2</code>, FWA eliminated.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<p>PAVN win.</p>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<p>PAVN win, again.</p>
+
+<h3 id="fwa-player-turn-5">FWA Player Turn</h3>
+
+<p class="turn-sequence">FWA player's plans for this turn.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>I'm inclined to go with having the FWA down to a single step be called a
+draw. That seems to be a pretty likely case. In 6 games of this
+scenario, the PAVN have only prevailed twice.</p>
+
+<p>What follows is a first cut at some probabilistic modeling of the how
+this scenario works. There is a lot more which could be done, and I have
+a set of notes with more details.</p>
+
+<h3 id="defensive-bombardment">Defensive Bombardment</h3>
+
+<p>The scenario grants the FWA player 10 Air Points. A natural question to
+ask is "How much damage can these 10 Air Points inflict?" The answer, of
+course, is on the Bombardment/Support Table, column 10-14, we see
+rolling 1 or 2 results in <code>4F</code>, which is 2 steps lost for TDV 2 (per
+definition of TDV during Defensive Bombardment). On the other hand,
+rolling an 8, 9 or 10 results in no step losses for the attacking PAVN.</p>
+
+<p>The PAVN can reduce the odds one or two step losses by getting a hit and
+damage on Air Defense Fire (ADF). Any damage at all shifts the FWA
+bombardment to the 6-9 column. Let's calculate the probability of
+PAVN inflicting damage on the defender's aircraft.</p>
+
+<p>First, we note that rolling 1 or 2 results in a "hit," but since PAVN
+has a mortar unit adjacent, PAVN gets a +1 DRM. Hence,</p>
+
+<script type="math/tex; mode=display">P(H) = 0.3.</script>
+
+<p>Given we have a hit,</p>
+
+<script type="math/tex; mode=display">P(D) = 0.4.</script>
+
+<p>Any damage at all results in a single column shift left. For Shift Left
+<script type="math/tex">S_L</script>, we have</p>
+
+<script type="math/tex; mode=display">P(S_L) = P(H)P(D) = 0.12.</script>
+
+<h3 id="probability-of-two-pavn-step-losses">Probability of two PAVN step losses</h3>
+
+<p>Now let's check the probabilities on the Bombardment/Support Table. For
+the 10-14 column <script type="math/tex">(B_{10})</script>, rolling 1 or 2 results in <code>4F</code>. On the 6-9 column
+<script type="math/tex">(B_6)</script>,
+rolling 1 results in <code>4F</code>. For some two step loss <script type="math/tex">L_2</script>,</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+P(L_2 |B_6) & = (0.12)(0.1) = 0.012, \\
+P(L_2 |B_{10}) & = (0.88)(0.2) = 0.176, \\
+P(\neg{L_2} |B_{10}) & = (0.88)(0.8) = 0.704, \\
+P(\neg{L_2}|B_6) & = (0.12)(0.9) = 0.108.
+\end{align} %]]></script>
+
+<p>Now we have</p>
+
+<script type="math/tex; mode=display">P(L_2) = P(L_2 |B_6) + P(L_2|B_{10}) = 0.012 + 0.176 = 0.188.</script>
+
+<p>This result makes sense. If we were rolling only on the <script type="math/tex">B_{10}</script>
+column it's easy to see there is a 20% chance of getting 2 step losses.
+But the small probability of being hit with ADF weights the result into
+the <script type="math/tex">B_6</script> column, just a small amount. So the odds are reduced just
+over 1%, from 20% to 18.8%</p>
+
+<h3 id="probability-of-single-pavn-step-loss">Probability of single PAVN step loss</h3>
+
+<p>It's easy to compute the probability of losing exactly 1 step:</p>
+
+<script type="math/tex; mode=display">P(L_1) = P(L_1 |B_6) + P(L_1|B_{10}) = (0.12)(0.5) + (0.88)(0.5) = 0.06 + 0.44 = 0.50.</script>
+
+<p>Now that's an interesting result, and one which can be seen by
+inspection!</p>
+
+<h3 id="pavn-loses-at-least-1-step">PAVN loses at least 1 step</h3>
+
+<p>To find the probability of losing <em>at least one step</em>, first
+compute the probability of losing no steps <script type="math/tex">P(L_0)</script>:</p>
+
+<script type="math/tex; mode=display">P(L_0) = (0.12)(0.4) + (0.88)(0.3) = 0.048 + 0.264 = 0.312</script>
+
+<p>Now,
+<script type="math/tex">P(L_1) \cup P(L_2) = 1 - P(L_0) = 1 - 0.312 = 0.688.</script></p>
+
+<p>In other words, there is about a 70% chance that Air Bombardment will
+reduce PAVN by at least 1 step.</p>
+
+<p>This study will be continued with an examination of the Assault Combat Table.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This concludes what I hope will be just the first round of
+investigation.</p>
+
+<p>I'm interested in digging deeper to
+get a complete spectrum of outcomes, but that will take more time than
+I'm willing to spend right now.</p>
+
+<p>Next steps to consider:</p>
+
+<ul>
+  <li>See if this battle is amenable to some sort of spreadsheet system.</li>
+  <li>Can it be programmed? Surely so.</li>
+  <li>Continue on with Scenario #6b to give the PAVN another crack at it.</li>
+</ul>
+
+<p>Fun times for the future!</p>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2017/01/14/vietnam-solitaire-xi.html' rel='prev'>Vietnam Solitaire XI</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2017/01/16/silver-bayonet-ia-drang-lz-x-ray.html' rel='next'>Silver Bayonet: Ia Drang LZ X-Ray</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/silver-bayonet.html'>silver-bayonet</a>
+</li>
+<li class='tag'>
+<a href='/tags/vietnam.html'>vietnam</a>
+</li>
+<li class='tag'>
+<a href='/tags/theory-crafting.html'>theory-crafting</a>
+</li>
+<li class='tag'>
+<a href='/tags/tea-plantation.html'>tea-plantation</a>
+</li>
+<li class='tag'>
+<a href='/tags/scenario-6.html'>scenario-6</a>
+</li>
+<li class='tag'>
+<a href='/tags/scenario-6a.html'>scenario-6a</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

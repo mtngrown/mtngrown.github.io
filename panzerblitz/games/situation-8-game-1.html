@@ -1,1016 +1,1023 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-    <link href="/stylesheets/pb.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-12'>
-            <header>
-              <nav class='navbar navbar-default' role='navigation'>
-                <div class='container' style='background-color: black;'>
-                  <ul class='nav navbar-nav'>
-                    <li>
-                      <a href='/about.html'>About</a>
-                    </li>
-                    <li>
-                      <a href='/'>ConSim home</a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz'>PanzerBlitz home</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Playing aids
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Games
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/games/'>Overview</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/balance.html'>Balance</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz/firefights'>Firefights</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Tactical examples
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Source code
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
-                          </li>
-                          <li>
-                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <h1 id="situation-8-russian-organized-defense-german-relief-on-the-korsun-pocket">Situation #8 Russian Organized Defense: German Relief on the Korsun Pocket</h1>
-            
-            <p>This is solitaire game 1 for Situation #8. I've played it once before
-            with an experienced wargamer who hadn't played PanzerBlitz in decades,
-            and his Russians smoked my Germans pretty bad.</p>
-            
-            <p>Setting up for this game, now that I have the time, it's making me
-            wonder how he was able to get all those heavy mortar shots off, given
-            the 4 hex spotting for Russian command post, for the 120 mm mortars
-            only. I seem to recall him spotting out much longer ranges, and spotting
-            for the heavy howitzer as well. This would make a huge difference in
-            game play, and would certainly go a long way towards explaining why the
-            Germans never even got halfway across board one in 8 turns, much less
-            off Board 3 in 10 turns.</p>
-            
-            <p>Of course, it didn't help that my opponent got <em>very</em> lucky on a die
-            roll and took out a stack of AFVs which I negligently left exposed.
-            That and a CAT taking out a stack of PzKpfw IVs in a later turn
-            (but that was a calculated risk, which I lost.)</p>
-            
-            <p>Hopefully, in this solo game, I'll be able to figure out what went wrong
-            in that game. Or not.</p>
-            
-            <h2 id="setting-up">Setting up</h2>
-            
-            <p>The Russians set up first on Board 1. The strategy is to make it hard
-            for the Germans to even get on the board using mines and blocks, then
-            once they're on the board, hammer them with the artillery concealed on
-            hill tops, while moving the guards and rifle units along the road to
-            assume blocking positions if and when the Germans break through.</p>
-            
-            <p>The Germans have to pick what they think will be the softest point of
-            the Russian defensive line, and hammer on it very hard.</p>
-            
-            <h3 id="scenario-specific-rules-for-indirect-fire">Scenario specific rules for indirect fire</h3>
-            
-            <p>The situation description states that Russian "CP's may only spot for
-            120mm mortar (within 4 hexes.)" For this game, the assumption will be
-            that the CP needs to be within 4 hexes of the mortar it calls fire for,
-            but otherwise may call for fire on anything spotted in the CP's line of
-            sight. CPs may call for fire more than once each turn. For example, if
-            there are three mortars and two CPs, one of the CPs may call for fire
-            for two mortars.</p>
-            
-            <p>This is a hole in the rules, and should probably be addressed by either 1.
-            limiting call for fire onto a single target per (6 minute) turn, or 2.
-            adding a clause to indirect fire rules increasing the amount of drift
-            on each target when a CP is calling fire on more than one target.</p>
-            
-            <p>German indirect fire will follow optional indirect fire rules
-            as defined in \S 10.1.</p>
-            
-            <h3 id="initial-position">Initial position</h3>
-            
-            <p>Here's the eagle eye view:</p>
-            
-            <p class="center"><img alt="Initial positions for Situation #8" src="/images/pb_situation_8_setup.jpg" /></p>
-            
-            <p>The image is muddy due to low light and iPhone camera, but the basic
-            elements are clear.</p>
-            
-            <ul>
-              <li>
-                <p>The Germans place 1 CP forward, to direct fire on the Russian rifle,
-            with infantry to follow with CAT if necessary. The engineers will move
-            forward to take out the mines in the ford.</p>
-              </li>
-              <li>
-                <p>German transport is staged in a rear area until enough cover is
-            cleared to allow mounting and transport. This is primarily trucks, the
-            halftracks forming a vanguard to rapidly get the infantry into spotting
-            positions.</p>
-              </li>
-              <li>
-                <p>Russian infantry are deployed along the road to Uschas. While infantry
-            is ordinarily slow with 1 MF unmounted, road bonus grants 2 MF. This may
-            not seem like much, but when you're a German, and you're stuck in a
-            gully and dispersed between Hills 135 and 123, 2 MF/turn is
-            distressingly fast. These units are far enough west to stay in play no
-            matter where the Germans attempt to force through.</p>
-              </li>
-            </ul>
-            
-            <p>Detailed photos and explanations follow.</p>
-            
-            <p>Note: There is a small but possibly significant error in this setup. The
-            scenario calls for six (6) block counters, but I mistakenly deployed
-            seven (7). This probably doesn't matter all <em>that</em> much, but it could
-            mean the difference of getting three or four more German units across
-            Board 1.</p>
-            
-            <hr />
-            
-            <p>The north end of the map is fairly well sealed off, as most of the clear
-            terrain can be covered with the heavy mortars, the pesky swamp funnels
-            enemy vehicles into the maw of the howitzer lurking in Uschas.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_north.jpg" /></p>
-            
-            <hr />
-            
-            <p>Close up of the units deployed around Uschas. This terrain is very
-            difficult for vehicles, so the Russians feel comfortable with a nominal
-            force to delay while reserve units move up along the western road
-            towards Uschas.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_uschas.jpg" /></p>
-            
-            <hr />
-            
-            <p>The Russians are relying on terrain to discourage German crossing north
-            of Hill 135. The gullies cost trucks 5 MF to exit, which adds a turn to
-            cross the board compared to crossing the hills to the south.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_marsh.jpg" /></p>
-            
-            <hr />
-            
-            <p>The Russians have made another blunder here by not putting at least one
-            Rifle or Guards company in the middle forest. An infantry unit here
-            would be exceedingly difficult for the Germans to kill, as lines of
-            sight are very poor, and most good observation points are well covered
-            by the mortars on Hill 135. However, the infantry units deployed along
-            the Uschas road will move to seal off rear areas.</p>
-            
-            <p>The Germans are going to attempt to outflank the Russians using armor to
-            swing around the north of Hill 135. Getting AFVs in the Russian rear
-            would be positively pestilential to Russian plans.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_gullies.jpg" /></p>
-            
-            <hr />
-            
-            <p>Guards and Submachine gun companies in reserve on western road,
-            positioned to support Uschas if necessary. The mortars will harass
-            transports attempting to exit across the clear terrain on board 3.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_hill130.jpg" /></p>
-            
-            <hr />
-            
-            <p>The Russian infantry reserve is lined up under cover along the western
-            road loading north to Uschas. The mortars and command posts establish
-            fields of fire covering most of boards 1 and 3. These need to be
-            protected.</p>
-            
-            <p>The Russian mortar companies have an MF of 1. These companies deployed
-            on the west have an option to quickly (3 turns) take the road to
-            Opustchenia, where they can harass German transports striking out onto
-            board 3. While they are almost certain to be lost, just having them in
-            Opustchenia should cost the Germans 1 or 2 units, and possibly a full
-            turn of movement to exit.</p>
-            
-            <p>The SU-85 are in reserve to (hopefully) counteract blatant attempts by
-            the Germans to drive armor directly to the Russian rear.</p>
-            
-            <p>In all, west of Hill 135 is the middle of the fighting area. Units
-            deployed here are protected from emplaced German mortars on the Bednost
-            mesa, and can move north or south as the situation dictates.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_hill135.jpg" /></p>
-            
-            <hr />
-            
-            <p>German infantry and engineers mass at the eastern ford to eliminate
-            potential spotting units and remove the mine from the ford.</p>
-            
-            <p>Armor and infantry will exploit a hole in the Russian line at 1E3 to
-            move some infantry in on the ATG at the crossroads.</p>
-            
-            <p>The ramifications of this is that the ATG at the crossroad is at high
-            risk. The Russian recon unit, which is basically doing nothing at 1E4,
-            should have been stacked with the ATG at 1J5. On the other hand, the
-            Russians can move a rifle company to stack with it.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_middle.jpg" /></p>
-            
-            <hr />
-            
-            <p>The Russians provide a slightly more than nominal force at Adski, in
-            part to slow the Germans down if necessary, and the mortar to harass any
-            transports caught out in the open on board 3 as the Germans attempt to
-            escape.</p>
-            
-            <p>Note: the German setup changed after this photo was taken. All the other
-            photos have the German positions as was actually played.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_russian_south.jpg" /></p>
-            
-            <hr />
-            
-            <p>Below, you can see the Germans getting ready to exploit a hole in the
-            Russian line at hex 1E3, which will put the Germans on the road, in
-            cover and unspotted, hence protected against the mortars on Hill 135.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_south.jpg" /></p>
-            
-            <hr />
-            
-            <p>Closer look at the German initial position after setting up. The game is
-            now ready to play.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/sit_8_setup_german_details.jpg" /></p>
-            
-            <hr />
-            
-            <p>Creating all these photos is time consuming, but it's really handy to
-            have a record for future reference.
-            At some point, I'll start using VASSAL. Currently, it puts too much of
-            a load on my system to be comfortable to use.</p>
-            
-            <p>Situation #8 is set up, let's play PanzerBlitz.</p>
-            
-            <h2 id="turn-1">Turn 1</h2>
-            
-            <p>Germans move first, and will swing around to the south to
-            1. open a lane for the trucks to get through, and 2. cut off
-            infantry reinforcements moving north.</p>
-            
-            <p>Here's the end of the German phase:</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/pb_g_1.jpg" /></p>
-            
-            <p>And already I'm breaking or at least bending the rules by
-            having stacked armor on the road in the forest. Stacking
-            on roads is fine as long as the surrounding terrain costs
-            are paid for movement. In this case, the surrounding terrain
-            is "impassable" due to solid green hex sides.</p>
-            
-            <p>I think I'm going to disallow this in the future, along with
-            writing up a rules summary with examples.</p>
-            
-            <p>Here's the end of the Russian phase:</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/pb_r_1.jpg" /></p>
-            
-            <p>And that's it for Turn 1.</p>
-            
-            <h2 id="turn-2">Turn 2</h2>
-            
-            <p>And once again, the Germans are in a bind because they can't call for
-            fire to handle the Russian infantry. Neither of the CPs are in LOS of
-            anything useful, and it's going to take several turns to get them moved
-            and emplaced somewhere safe.</p>
-            
-            <p>Fire results were disappointing, the fortification yeilded a No Effect.
-            The die rolled 5, which would have been a 6 accounting for forested
-            terrain, which would have been nothing even at 3:1 instead of 2:1 odds.</p>
-            
-            <p>Basically, in addition to the infantry, these 8 fortifications,
-            emplaced on forested hilltops, are pretty much invulnerable.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/sit_8_g_2.jpg" /></p>
-            
-            <p>The Russians have to kill German units to win, though, and the Germans
-            can make that pretty hard. So far, the best the Russians are doing is
-            dispersing, which isn't going to be enough.</p>
-            
-            <p>The Germans could probably play hide-and-seek with the infantry and CPs,
-            and get the armor off the board for a win. Would be tough to get any of
-            the infantry off now, since it's all dismounted.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/sit_8_r_2.jpg" /></p>
-            
-            <p>On to Turn 3.</p>
-            
-            <h2 id="turn-3">Turn 3</h2>
-            
-            <p>Germans a few potshots, nothing exciting happened other than the mine
-            finally cleared, which allowed the Germans to bring up a CP. This is
-            going to be really useful. Necessary in fact.</p>
-            
-            <p>Didn't record fire for this turn. Having failed a 4:1 on a Russian rifle
-            company in the forest was really disappointing. That unit it clogging up
-            the works. The Germans have to go back and forth between keeping an
-            advance, versus clearing out the rear area to allow transport to move
-            forward.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/sit_8_g_t3.jpg" /></p>
-            
-            <p>The Russians now have a lot of targets. In fact, to Germans great
-            chagrin, all 3 mortars can fire on a stack of German infantry at 3:1
-            odds, which is 2/6 chance of outright kill, and another 2/6 chance of
-            getting a dispersal. With a kill, the rifle company can advance to
-            close assault the Wespe.</p>
-            
-            <p>Once again, I am have severe difficulties employing the German SPA
-            effectively.</p>
-            
-            <p>First up the long range mortars to support the units guarding the
-            intersection. I made a huge blunder here as the Russian by combining
-            my fire for a single roll at 3:1 when I could have had 3 rolls at 3:1
-            with 1/3 chance of eliminating on each roll. Of course, the combined
-            attack gave 1/3 chance of eliminating the whole stack, which would have
-            allowed the Russian infantry to advance up the lane. Had it succeeded,
-            as noted above, this could have been a game-breaker for the Germans.
-            By failing, it's probably not a game breaker for the Russians, but it
-            won't make it any easier to halt the Germans.</p>
-            
-            <table class="center fire-record">
-              <thead>
-                <tr>
-                  <th>turn</th>
-                  <th>firing</th>
-                  <th>from</th>
-                  <th>to</th>
-                  <th>target</th>
-                  <th>type</th>
-                  <th>range</th>
-                  <th>AF</th>
-                  <th>DF</th>
-                  <th>odds</th>
-                  <th>drm</th>
-                  <th>roll</th>
-                  <th>result</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>R3</td>
-                  <td>R92</td>
-                  <td>1M4</td>
-                  <td>1I3</td>
-                  <td>G157</td>
-                  <td>ID</td>
-                  <td>4</td>
-                  <td>24</td>
-                  <td>8</td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>R93</td>
-                  <td>1Q7</td>
-                  <td>1I3</td>
-                  <td>G158</td>
-                  <td>ID</td>
-                  <td>8</td>
-                  <td>24</td>
-                  <td>8</td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>R91</td>
-                  <td>1P7</td>
-                  <td>1I3</td>
-                  <td>G159</td>
-                  <td>ID</td>
-                  <td>7</td>
-                  <td>24</td>
-                  <td>8</td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td> </td>
-                  <td>72</td>
-                  <td>24</td>
-                  <td>3:1</td>
-                  <td>+1</td>
-                  <td>6</td>
-                  <td>NE</td>
-                </tr>
-              </tbody>
-              <tbody>
-                <tr>
-                  <td> </td>
-                  <td>R31</td>
-                  <td>1B6</td>
-                  <td>1F4</td>
-                  <td>G932</td>
-                  <td>D</td>
-                  <td>4</td>
-                  <td>12</td>
-                  <td>8</td>
-                  <td>1:2</td>
-                  <td>+1</td>
-                  <td>5</td>
-                  <td>NE</td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>R35</td>
-                  <td>1J5</td>
-                  <td>1J4</td>
-                  <td>G143</td>
-                  <td>D</td>
-                  <td>1</td>
-                  <td>12/2</td>
-                  <td>8</td>
-                  <td>1:2</td>
-                  <td>+1</td>
-                  <td>2</td>
-                  <td>NE</td>
-                </tr>
-                <tr>
-                  <td> </td>
-                  <td>R146</td>
-                  <td>1G2</td>
-                  <td>1F3</td>
-                  <td>G931</td>
-                  <td>CAT</td>
-                  <td>1</td>
-                  <td>5</td>
-                  <td>8</td>
-                  <td>1:2</td>
-                  <td>+1</td>
-                  <td>4</td>
-                  <td>NE</td>
-                </tr>
-              </tbody>
-            </table>
-            
-            <p>Much more fire and close assaulting occurred. The new record sheet I
-            created will be handy. In the meantime, using a legal pad to keep track
-            of firing works really well.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/sit_8_r_t3.jpg" /></p>
-            
-            <p>The Russians didn't do that well on their combat, but the dispersals
-            they got can only help slow down the German advance.</p>
-            
-            <h2 id="turn-4">Turn 4</h2>
-            
-            <p>Enough of the detailed game play for now! Compared to my first efforts
-            back in Situation #1, I'm doing much, much better at describing game
-            play. I'll have to replay some of those early games with the attention
-            to detail I'm demonstrating here. But for now, I want this off the table
-            in favor of a third game of StarForce exploring Scenario 3.</p>
-            
-            <p>Also, to be perfectly truthful, I'm a bit bored with the game at this point.
-            All the photos and notes are a lot of work, without a clear payoff.
-            Simply finishing this game has a great payoff: I can start another game!</p>
-            
-            <p>Turn 4 opens with a couple of not unlucky 4:1 +1 drm shots from the
-            artillery to take out Russian infantry. It would have really hurt if I'd
-            rolled a 6 on either shot. Now it's time to move, and I'm not sure
-            exactly what I want to do yet. I've just figured out the the Russian
-            tanks could go romping around in the German rear area, so I better
-            ensure they don't get there. On the other hand, I want to ensure I get
-            some protection forward to gain ground. At the moment, it's about to
-            turn into a slug fest south of Hill 135.</p>
-            
-            <p>Unfortunately, the not unlucky artillery shots have been followed up
-            with some definitely unlucky CATs: total whiff on all of them.</p>
-            
-            <p>Time for the Russians…and let's try writing out by phases. Haven't
-            done this for PanzerBlitz yet.</p>
-            
-            <p><em>Fire determination and resolution</em>: 5 attempts: the 2 76.2 ATGs each take a shot at PzKpfw
-            IVs at 1:2, scoring a D on one for their efforts. The 3 120mm mortars take
-            another shot at the stack of German rifles at 4:1, and get an X; that's 3 units
-            for the Russians. The two SU-85s take 1:2  shots on the PzKpfws lurking
-            on the ridge east of Hill 135, score a D for their efforts. In all, not
-            bad results.</p>
-            
-            <p>The actual phasing is defined by calling the shots, then resolving each
-            one. I wrote them up together, above, to make it easier to read.</p>
-            
-            <p><em>Vehicle movement</em> none, the SU-85s both fired.</p>
-            
-            <p><em>Leg and CAT</em>: 4 attempts, managed one dispersal of a stack of Panthers
-            at the south end of the Lane of Tears at 1:3 (11:32) odds. Not too bad,
-            could have been better.</p>
-            
-            <p><em>Dead pile</em>: Germans 3, Russians 5, 1 mine removed.</p>
-            
-            <p>Almost half done with this game.</p>
-            
-            <h2 id="turn-5">Turn 5</h2>
-            
-            <p>The Germans still have a rough way to go, but with a couple of lucky
-            rolls behind them, a few more lucky rolls might just see enough units
-            off the Plains of Despair to acquire at least a draw.</p>
-            
-            <p><strong>Fire determination and resolution</strong>: The Hummel and StuH-42 (14-H-10)
-            take out a Guard unit with 5/6 chance; I've been really unlucky with
-            these types of shots. Panther takes on a rifle company, roll 1,
-            dispersed! No effect for SG-III 75 shooting at SU-85 on the hills.
-            German mortar on Hill 132 disperse a guards unit, critically important
-            as this unit is about to get overrun as well, and every little bit
-            helps.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: First up, the PzKpfw overruns
-            the just now dispersed guards unit, elimination on roll 1. Overkill, but
-            why take chances with Russian infantry? The second CP moves up with the
-            Wespe, risking a CAT, but in the woods, this would only be a dispersal
-            at worst, and then only if the SMG unit which is adjacent isn't
-            eliminated or dispersed.</p>
-            
-            <p><strong>Leg and CAT</strong>: The engineers are finally in play, moving a 1:1 on the
-            SMG in the woods to a 2:1, with a roll of 2 that's an elim, and the CP
-            and Wespe are safe for at least Turn 6. The Germans have been hitting
-            some good rolls. Helps to be lucky.</p>
-            
-            <p>I wasn't going to post any more photos of the game, but this situation
-            at the end of the German phase was too good to pass up:</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/sit_8_g_t5.jpg" /></p>
-            
-            <p>The Russians can still do a lot of damage to the Germans, and the
-            Germans have a long way to go to get across the Plains of Despair, and
-            an increasingly shorter time in which to cross.</p>
-            
-            <p>However, the Russians might be in a bit of trouble here. They're losing their
-            infantry to heavy artillery, CATs and overruns. This is not good. And
-            it's not good that the Russians just don't have that much effective fire
-            this turn. For example, neither howitzer has any high value targets.</p>
-            
-            <p>For example, R71 (pink die showing 2 pips) really wants to combine fire
-            onto the stack of SG-III 75s (G823, pink die showing single pip) on the
-            nearby hillside to the south, but technically has no line of site. It's
-            blocked by the forest green bar hex side.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/howitzer_los.jpg" /></p>
-            
-            <p>Further south, the ATG R36 (red die, 2 pips) wants to fire on G931 (red
-            die, 1 pip), but there is an intervening brown bar hillside closer to
-            G931 than R36; no LOS. One the other hand, R31 can fire on G931, but
-            probably not on G938. The optional rule allowing hex centers to
-            determine LOS could allow firing, while the standard rule would find a
-            green bar intervening from one the possible paths traced through hexes.</p>
-            
-            <p class="center"><img alt="FIXME" src="/images/panzerblitz/situation-8/atg_los.jpg" /></p>
-            
-            <p>It's not just "panzerbush," it's "panzerslope" as well.</p>
-            
-            <p><strong>Fire determination &amp; resolution</strong>: Russians have 2 direct fire shots.
-            First is using heavy mortars on the SG-III on the slope at 3:1. The second is
-            the ATG R31 on G931 at 1:1 (12:8). For the first, roll 2 for
-            elimination, about time! Second, roll 5 which is a miss.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: The SU-85s need to find a way to pick
-            off the Germans as they cross the Plains of Despair. Might be a good
-            time to decamp to Zabvenia, just to cost the Germans an extra turn.</p>
-            
-            <p><strong>Leg and CAT</strong>: The first CAT on the panzers failed, a second on some
-            halftracks succeeded. Leg units need to move due south to
-            attempt to block movement onto the Plains.</p>
-            
-            <p><strong>Dead pile</strong>: German 4, Russian 8, 1 mine removed.</p>
-            
-            <p>Half done!</p>
-            
-            <h2 id="turn-6">Turn 6</h2>
-            
-            <p>It would be hard for the Russians to get a decisive victory at this
-            point, but it's probably just as hard for the Germans to get a marginal
-            victory, which is 30 units off Board 3.</p>
-            
-            <p><strong>Fire determination and resolution</strong>: Had to use barrage fire to take
-            out one of the fortifications. Very chancy stuff, 1/6 chance I would
-            have burned out the artillery for nothing. I've gotten lucky this game
-            on the dice. This will be helpful having one of the heavy mortars gone.
-            I'm now thinking I'd have spent the barrage more effectively by taking
-            out the CP, if I had only had a CP in line of sight for spotting.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: at this point, I can't really hide any
-            more, and I'm going to have to make a run for the border. It's almost
-            attritional, I'm going to lose as many units per turn as the Russians
-            have guns. For sure, 3 units per turn, and there are 5 fire turns left
-            for the Russians. However, I'm leaving the Hummel behind, and the SG-III
-            75s to pester the Russian fortified CP. It may have been a mistake to
-            have moved the Wespe so far forward.</p>
-            
-            <p><strong>Infantry &amp; CAT</strong>: Infantry is mounting up this turn. Too close to the
-            end of the game to do anything else.</p>
-            
-            <p>Now for the Russians…</p>
-            
-            <p><strong>Fire determination</strong>: Only two good targets available, strangely
-            enough, the PzKpfw on the slope which can be dealt with by the 122mm
-            howitzer (finally), and the AFVs threatening the CP on Hill 135.</p>
-            
-            <p><strong>Fire resolution</strong>: For the mortars, 4:1 in woods, roll 5 for
-            elimination. For the howitzer, 2:1 (40/2):8, roll 3, dispersed.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: SU-85s roll into Zabvenia.</p>
-            
-            <p><strong>Infantry movement &amp; CAT</strong>: The infantry is moving in a pincer
-            formation to squeeze from both the north and the south. If the Germans
-            are a little bit lucky, they will squirt out like a watermelon seed,
-            but it will be costly. 2 CATs available, one from the north on
-            halftrack, the other from the south on AFVs. Both succeed in dispersals,
-            which is Bad News for Jerry.</p>
-            
-            <p><strong>Dead pile</strong>: German 8, Russian 9, 1 mine removed.</p>
-            
-            <h2 id="turn-7">Turn 7</h2>
-            
-            <p>It's appearing that moving the Wespe forward is a blunder. It's just not
-            getting that many shots off.</p>
-            
-            <p>German:</p>
-            
-            <p><strong>Fire determination</strong>: Hummel took at a rifle company, another rifle
-            dispersed.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: Mostly mounting up infantry and moving
-            everything as far forward as possible to stay away from oncoming Russian
-            infantry. Huge traffic jam in the pass south of Hill 135. Let's call it
-            the Pass of Doom.</p>
-            
-            <p><strong>Infantry movement &amp; CAT</strong>: almost all mounting up.</p>
-            
-            <p>Russian:</p>
-            
-            <p><strong>Fire determination &amp; resolution</strong>: 3 shots: 1 miss, and two dispersals.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: Nothing to move.</p>
-            
-            <p><strong>Infantry movement &amp; CAT</strong>: Spectacular CAT disperses stack of panzers
-            in by the Lane of Tears. One or two more infantry units will be able to
-            CAT next Russian move, might be the end of that stack. But the panzers
-            served their purpose by soaking up infantry attention.</p>
-            
-            <p><strong>Dead pile</strong>: German 10, Russian 11, 1 mine removed.</p>
-            
-            <p>Game will play out fast now.</p>
-            
-            <h2 id="turn-8">Turn 8</h2>
-            
-            <p>The Germans are going to make a run for it! Nothing else they can really
-            do. It's a sure loss if they stay and fight, no matter how many Russians
-            they kill.</p>
-            
-            <p><strong>Fire determination &amp; resolution</strong>: Germans dispersed guards unit on slope,
-            handy. Hummel proves its worth. Wespe didn't fire.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: Now it's a nasty slog through the Pass
-            of Doom to a mad dash across the Plains of Despair.</p>
-            
-            <p><strong>Infantry movement &amp; CAT</strong>: Might leave back a mortar unit for the odd
-            AF or so, not sure yet.</p>
-            
-            <p>Russian:</p>
-            
-            <p><strong>Fire determination &amp; resolution</strong>: Lots and lots of targets! 7 shots:
-            5 eliminations, 2 dispersals. Some of the kills were transport, which
-            hurts double.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>: none.</p>
-            
-            <p><strong>Infantry movement &amp; CAT</strong>: Moving the mortars towards Opustschenia to
-            rain some long range death on trucks. Guards and friends continue to
-            pester a stack of panzers along the Lane of Tears. Can't go wrong with a
-            roll of 1 in PanzerBlitz.</p>
-            
-            <p><strong>Dead pile</strong>: German 17, Russian 10, 1 mine removed. This doesn't
-            count removing the Russian fortification, but it should.</p>
-            
-            <h2 id="turn-9">Turn 9</h2>
-            
-            <p>German strategy for Turn 9 is just run, run, run. Not even going to
-            bother firing. Except for the Hummel which fired on a guards unit and
-            missed.</p>
-            
-            <p><strong>Vehicle movement &amp; overrun</strong>:</p>
-            
-            <p><strong>Infantry movement &amp; CAT</strong>:</p>
-            
-            <p>Russians can just fire and fire and fire. They're looking at a tactical
-            victory almost surely, and with good rolling, a decisive is not out of
-            the question.</p>
-            
-            <p>The Russians fired 7-8 times and hit every time, mostly kills. Lots of
-            1s and 2s on the dice. Bummer for the Germans.</p>
-            
-            <p><strong>Dead pile</strong>: German 29, Russian 11, 1 mine removed. And I am counting
-            the fortification because it soaked up a lot of time to remove.</p>
-            
-            <h2 id="turn-10">Turn 10</h2>
-            
-            <p>Germans get 9 units off the map, with most of the rest exposed,
-            including panzers with a 4:1 sure kill, so it's done for me. The
-            Russians got their 30 for the decisive.</p>
-            
-            <p>Russian had at least 1 sure kill at 4:1, so I didn't bother moving all
-            the German units, just enough to ensure I had as much of the game to get
-            decisive victory for the Russians.</p>
-            
-            <p><strong>Dead pile</strong>: German 30+, Russian 11, 1 mine removed.</p>
-            
-            <p>Germans: 9 units exits.</p>
-            
-            <p>Russians: 30+ German units eliminated.</p>
-            
-            <p>Decisive Russian victory. Not even close.</p>
-            
-            <h2 id="aar">AAR</h2>
-            
-            <p>The first thing to note is that this situation can take quite a while
-            for the Russian player to set up. For a first time player, budget an
-            hour for the Russian. It's almost guaranteed analysis paralysis.
-            The German play will also need some time to set up, probably about 30
-            minutes <em>after</em> the Russians are finished. These set up times decrease
-            with experience, and with multiple plays of the scenario.</p>
-            
-            <p>Another thing I'm sure of now, from this game, is that I'm at least very
-            slightly biasing the game play for some of these solo games. It doesn't feel
-            overt. It seems to come out as unconscious leaning toward to making one
-            side or another have small advantages, which add up. A general example
-            might be making a sub par move, or not firing on an appropriate target.
-            I won't see these until after the turn finishes.</p>
-            
-            <p>I think the effect comes from focusing on playing one side really,
-            really well, while just not thinking about the other side. The Russian
-            phase in Turn 3 illustrates this perfectly. My focus was on getting the
-            Germans positioned to clear a lane, with a result of being horribly
-            exposed.</p>
-            
-            <p>If I haven't written it elsewhere, I'm not inclined to argue much about
-            rules, even when I know I'm citably correct. Basically, if someone wants
-            to dispute a rule or LOS or a movement, I'll geneconcede. I'll do
-            this both on the player's and my turn, and allow the opponents to
-            interpret as they see fit, to my disadvantage. When I'm playing myself
-            in a solitaire game, I'm much more strict.</p>
-            
-            <h3 id="blunders">Blunders</h3>
-            
-            <p>What a brutal game. It took two or three weeks to get through. In part
-            because I'm busy at work, but also because I made a determined effort to
-            have a good showing for the Germans.</p>
-            
-            <p>Russians did not use their position as well as they could have:</p>
-            
-            <ul>
-              <li>
-                <p>The 122mm howitzer should bracket, one in Uschas or similar northern
-            emplacement, the other on the south side of the board in the woods on
-            Adski Hill (126). With range 20, each can fire on enemy on their half
-            of the fighting ground, while overlapping to some extent in the middle.
-            Having the howitzer at 1N6 is relatively ineffective in the early game.
-            (It may come in to play in the later game.)</p>
-              </li>
-              <li>Leaving a hole at 1E3.</li>
-              <li>Not reinforcing the crossroad at 1J5 with that spare Recon unit.</li>
-            </ul>
-            
-            <p>German blunders include not getting a CP way forward into cover and
-            defensible terrain. On the south edge of Board 1, this means Hill 126
-            east of Adski. That would have been pretty tough, to be sure, but would
-            have been a serious threat to the Russians.</p>
-            
-            <p>Barrage fire took out a fortification with a mortar. It would have been
-            better to spend those tubes on a Russian CP.</p>
-            
-            <h3 id="mine-and-block-placement">Mine and block placement</h3>
-            
-            <h3 id="handicapping">Handicapping</h3>
-            
-            <p>Tipping it in the German favor may only require removing one of the
-            122mm howitzers. These are so important for wearing away at the Germans
-            that losing even one will have an effect.</p>
-            
-            <p>One or more of the fortifications could be removed from the OOB, which
-            would force the Russian player into even more of a defensive posture,
-            and would change how fields of fire were established. Currently, the
-            fortifications at DF 50 on top of hills are for the most part
-            impregnable. A one shot elimination is not guaranteed when they're in
-            wooded hexes, and in the worst case, with unit firing from below the
-            hilltop, attack factors would need to total between 100 and 200 to get a
-            5/6 chance of elimination. CAT atacks just can't muster enough AF
-            fighting uphill.</p>
-            
-            <p>What would be better here would be a range of fortification strength
-            from, say, 20 to 50, where the Russian player could choose which
-            locations got the strongest fortifications.</p>
-            
-            <p>On the German side, remove one or more of the light SPAs, either the
-            StuH 42 or the GW 38(M). These guns don't have a lot of power or range,
-            but since they're howitzers, they get full AF on soft targets. That's a
-            big deal and can tip odds a full column right.</p>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
-              
-              <p>Avalon Hill's PanzerBlitz was a successor to a game called
-              "Tactical Game 3," which was never developed for market. The story can
-              be found on related web sites. What's important here is that the game
-              does have a long and successful history, ultimately selling hundreds
-              of thousands of copies.</p>
-              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
-              
-              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
-              
-              <ul>
-                <li>
-                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
-              Strategist</a>,
-              often referred to as "ImStrat" has an incredible collection of articles,
-              counters, maps and other material related to PanzerBlitz, Panzer Leader
-              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
-                </li>
-                <li>
-                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
-              outstanding resource, also worth hours of reading.</p>
-                </li>
-                <li>
-                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
-              appears to be where a number of current PanzerBlitz players can be
-              found. The forum is relatively relaxed and low traffic, but there is a
-              lot of information available.</p>
-                </li>
-              </ul>
-              
-              <p>There are several more outstanding links which will be added in the
-              future, and if you, the reader, find one of your favorite sites missing,
-              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
-              with the relevant addition.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<link href="/stylesheets/pb.css" rel="stylesheet" />
+</head>
+<body>
+<div id='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<header>
+<nav class='navbar navbar-default' role='navigation'>
+<div class='container' style='background-color: black;'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/'>ConSim home</a>
+</li>
+<li>
+<a href='/panzerblitz'>PanzerBlitz home</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Playing aids
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/playing-aids'>Playing aids</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/games/'>Overview</a>
+</li>
+<li>
+<a href='/panzerblitz/solitaire.html'>Solitaire</a>
+</li>
+<li>
+<a href='/panzerblitz/balance.html'>Balance</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+</li>
+</ul>
+</a>
+</li>
+<li>
+<a href='/panzerblitz/firefights'>Firefights</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Tactical examples
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Source code
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+</li>
+<li>
+<a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+</li>
+<li>
+<a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-8'>
+<h1 id="situation-8-russian-organized-defense-german-relief-on-the-korsun-pocket">Situation #8 Russian Organized Defense: German Relief on the Korsun Pocket</h1>
+
+<p>This is solitaire game 1 for Situation #8. I've played it once before
+with an experienced wargamer who hadn't played PanzerBlitz in decades,
+and his Russians smoked my Germans pretty bad.</p>
+
+<p>Setting up for this game, now that I have the time, it's making me
+wonder how he was able to get all those heavy mortar shots off, given
+the 4 hex spotting for Russian command post, for the 120 mm mortars
+only. I seem to recall him spotting out much longer ranges, and spotting
+for the heavy howitzer as well. This would make a huge difference in
+game play, and would certainly go a long way towards explaining why the
+Germans never even got halfway across board one in 8 turns, much less
+off Board 3 in 10 turns.</p>
+
+<p>Of course, it didn't help that my opponent got <em>very</em> lucky on a die
+roll and took out a stack of AFVs which I negligently left exposed.
+That and a CAT taking out a stack of PzKpfw IVs in a later turn
+(but that was a calculated risk, which I lost.)</p>
+
+<p>Hopefully, in this solo game, I'll be able to figure out what went wrong
+in that game. Or not.</p>
+
+<h2 id="setting-up">Setting up</h2>
+
+<p>The Russians set up first on Board 1. The strategy is to make it hard
+for the Germans to even get on the board using mines and blocks, then
+once they're on the board, hammer them with the artillery concealed on
+hill tops, while moving the guards and rifle units along the road to
+assume blocking positions if and when the Germans break through.</p>
+
+<p>The Germans have to pick what they think will be the softest point of
+the Russian defensive line, and hammer on it very hard.</p>
+
+<h3 id="scenario-specific-rules-for-indirect-fire">Scenario specific rules for indirect fire</h3>
+
+<p>The situation description states that Russian "CP's may only spot for
+120mm mortar (within 4 hexes.)" For this game, the assumption will be
+that the CP needs to be within 4 hexes of the mortar it calls fire for,
+but otherwise may call for fire on anything spotted in the CP's line of
+sight. CPs may call for fire more than once each turn. For example, if
+there are three mortars and two CPs, one of the CPs may call for fire
+for two mortars.</p>
+
+<p>This is a hole in the rules, and should probably be addressed by either 1.
+limiting call for fire onto a single target per (6 minute) turn, or 2.
+adding a clause to indirect fire rules increasing the amount of drift
+on each target when a CP is calling fire on more than one target.</p>
+
+<p>German indirect fire will follow optional indirect fire rules
+as defined in \S 10.1.</p>
+
+<h3 id="initial-position">Initial position</h3>
+
+<p>Here's the eagle eye view:</p>
+
+<p class="center"><img src="/images/pb_situation_8_setup.jpg" alt="Initial positions for Situation #8" /></p>
+
+<p>The image is muddy due to low light and iPhone camera, but the basic
+elements are clear.</p>
+
+<ul>
+  <li>
+    <p>The Germans place 1 CP forward, to direct fire on the Russian rifle,
+with infantry to follow with CAT if necessary. The engineers will move
+forward to take out the mines in the ford.</p>
+  </li>
+  <li>
+    <p>German transport is staged in a rear area until enough cover is
+cleared to allow mounting and transport. This is primarily trucks, the
+halftracks forming a vanguard to rapidly get the infantry into spotting
+positions.</p>
+  </li>
+  <li>
+    <p>Russian infantry are deployed along the road to Uschas. While infantry
+is ordinarily slow with 1 MF unmounted, road bonus grants 2 MF. This may
+not seem like much, but when you're a German, and you're stuck in a
+gully and dispersed between Hills 135 and 123, 2 MF/turn is
+distressingly fast. These units are far enough west to stay in play no
+matter where the Germans attempt to force through.</p>
+  </li>
+</ul>
+
+<p>Detailed photos and explanations follow.</p>
+
+<p>Note: There is a small but possibly significant error in this setup. The
+scenario calls for six (6) block counters, but I mistakenly deployed
+seven (7). This probably doesn't matter all <em>that</em> much, but it could
+mean the difference of getting three or four more German units across
+Board 1.</p>
+
+<hr />
+
+<p>The north end of the map is fairly well sealed off, as most of the clear
+terrain can be covered with the heavy mortars, the pesky swamp funnels
+enemy vehicles into the maw of the howitzer lurking in Uschas.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_north.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>Close up of the units deployed around Uschas. This terrain is very
+difficult for vehicles, so the Russians feel comfortable with a nominal
+force to delay while reserve units move up along the western road
+towards Uschas.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_uschas.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>The Russians are relying on terrain to discourage German crossing north
+of Hill 135. The gullies cost trucks 5 MF to exit, which adds a turn to
+cross the board compared to crossing the hills to the south.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_marsh.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>The Russians have made another blunder here by not putting at least one
+Rifle or Guards company in the middle forest. An infantry unit here
+would be exceedingly difficult for the Germans to kill, as lines of
+sight are very poor, and most good observation points are well covered
+by the mortars on Hill 135. However, the infantry units deployed along
+the Uschas road will move to seal off rear areas.</p>
+
+<p>The Germans are going to attempt to outflank the Russians using armor to
+swing around the north of Hill 135. Getting AFVs in the Russian rear
+would be positively pestilential to Russian plans.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_gullies.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>Guards and Submachine gun companies in reserve on western road,
+positioned to support Uschas if necessary. The mortars will harass
+transports attempting to exit across the clear terrain on board 3.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_hill130.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>The Russian infantry reserve is lined up under cover along the western
+road loading north to Uschas. The mortars and command posts establish
+fields of fire covering most of boards 1 and 3. These need to be
+protected.</p>
+
+<p>The Russian mortar companies have an MF of 1. These companies deployed
+on the west have an option to quickly (3 turns) take the road to
+Opustchenia, where they can harass German transports striking out onto
+board 3. While they are almost certain to be lost, just having them in
+Opustchenia should cost the Germans 1 or 2 units, and possibly a full
+turn of movement to exit.</p>
+
+<p>The SU-85 are in reserve to (hopefully) counteract blatant attempts by
+the Germans to drive armor directly to the Russian rear.</p>
+
+<p>In all, west of Hill 135 is the middle of the fighting area. Units
+deployed here are protected from emplaced German mortars on the Bednost
+mesa, and can move north or south as the situation dictates.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_hill135.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>German infantry and engineers mass at the eastern ford to eliminate
+potential spotting units and remove the mine from the ford.</p>
+
+<p>Armor and infantry will exploit a hole in the Russian line at 1E3 to
+move some infantry in on the ATG at the crossroads.</p>
+
+<p>The ramifications of this is that the ATG at the crossroad is at high
+risk. The Russian recon unit, which is basically doing nothing at 1E4,
+should have been stacked with the ATG at 1J5. On the other hand, the
+Russians can move a rifle company to stack with it.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_middle.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>The Russians provide a slightly more than nominal force at Adski, in
+part to slow the Germans down if necessary, and the mortar to harass any
+transports caught out in the open on board 3 as the Germans attempt to
+escape.</p>
+
+<p>Note: the German setup changed after this photo was taken. All the other
+photos have the German positions as was actually played.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_russian_south.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>Below, you can see the Germans getting ready to exploit a hole in the
+Russian line at hex 1E3, which will put the Germans on the road, in
+cover and unspotted, hence protected against the mortars on Hill 135.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_south.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>Closer look at the German initial position after setting up. The game is
+now ready to play.</p>
+
+<p class="center"><img src="/images/panzerblitz/sit_8_setup_german_details.jpg" alt="FIXME" /></p>
+
+<hr />
+
+<p>Creating all these photos is time consuming, but it's really handy to
+have a record for future reference.
+At some point, I'll start using VASSAL. Currently, it puts too much of
+a load on my system to be comfortable to use.</p>
+
+<p>Situation #8 is set up, let's play PanzerBlitz.</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p>Germans move first, and will swing around to the south to
+1. open a lane for the trucks to get through, and 2. cut off
+infantry reinforcements moving north.</p>
+
+<p>Here's the end of the German phase:</p>
+
+<p class="center"><img src="/images/panzerblitz/pb_g_1.jpg" alt="FIXME" /></p>
+
+<p>And already I'm breaking or at least bending the rules by
+having stacked armor on the road in the forest. Stacking
+on roads is fine as long as the surrounding terrain costs
+are paid for movement. In this case, the surrounding terrain
+is "impassable" due to solid green hex sides.</p>
+
+<p>I think I'm going to disallow this in the future, along with
+writing up a rules summary with examples.</p>
+
+<p>Here's the end of the Russian phase:</p>
+
+<p class="center"><img src="/images/panzerblitz/pb_r_1.jpg" alt="FIXME" /></p>
+
+<p>And that's it for Turn 1.</p>
+
+<h2 id="turn-2">Turn 2</h2>
+
+<p>And once again, the Germans are in a bind because they can't call for
+fire to handle the Russian infantry. Neither of the CPs are in LOS of
+anything useful, and it's going to take several turns to get them moved
+and emplaced somewhere safe.</p>
+
+<p>Fire results were disappointing, the fortification yeilded a No Effect.
+The die rolled 5, which would have been a 6 accounting for forested
+terrain, which would have been nothing even at 3:1 instead of 2:1 odds.</p>
+
+<p>Basically, in addition to the infantry, these 8 fortifications,
+emplaced on forested hilltops, are pretty much invulnerable.</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/sit_8_g_2.jpg" alt="FIXME" /></p>
+
+<p>The Russians have to kill German units to win, though, and the Germans
+can make that pretty hard. So far, the best the Russians are doing is
+dispersing, which isn't going to be enough.</p>
+
+<p>The Germans could probably play hide-and-seek with the infantry and CPs,
+and get the armor off the board for a win. Would be tough to get any of
+the infantry off now, since it's all dismounted.</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/sit_8_r_2.jpg" alt="FIXME" /></p>
+
+<p>On to Turn 3.</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<p>Germans a few potshots, nothing exciting happened other than the mine
+finally cleared, which allowed the Germans to bring up a CP. This is
+going to be really useful. Necessary in fact.</p>
+
+<p>Didn't record fire for this turn. Having failed a 4:1 on a Russian rifle
+company in the forest was really disappointing. That unit it clogging up
+the works. The Germans have to go back and forth between keeping an
+advance, versus clearing out the rear area to allow transport to move
+forward.</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/sit_8_g_t3.jpg" alt="FIXME" /></p>
+
+<p>The Russians now have a lot of targets. In fact, to Germans great
+chagrin, all 3 mortars can fire on a stack of German infantry at 3:1
+odds, which is 2/6 chance of outright kill, and another 2/6 chance of
+getting a dispersal. With a kill, the rifle company can advance to
+close assault the Wespe.</p>
+
+<p>Once again, I am have severe difficulties employing the German SPA
+effectively.</p>
+
+<p>First up the long range mortars to support the units guarding the
+intersection. I made a huge blunder here as the Russian by combining
+my fire for a single roll at 3:1 when I could have had 3 rolls at 3:1
+with 1/3 chance of eliminating on each roll. Of course, the combined
+attack gave 1/3 chance of eliminating the whole stack, which would have
+allowed the Russian infantry to advance up the lane. Had it succeeded,
+as noted above, this could have been a game-breaker for the Germans.
+By failing, it's probably not a game breaker for the Russians, but it
+won't make it any easier to halt the Germans.</p>
+
+<table class="center fire-record">
+  <thead>
+    <tr>
+      <th>turn</th>
+      <th>firing</th>
+      <th>from</th>
+      <th>to</th>
+      <th>target</th>
+      <th>type</th>
+      <th>range</th>
+      <th>AF</th>
+      <th>DF</th>
+      <th>odds</th>
+      <th>drm</th>
+      <th>roll</th>
+      <th>result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>R3</td>
+      <td>R92</td>
+      <td>1M4</td>
+      <td>1I3</td>
+      <td>G157</td>
+      <td>ID</td>
+      <td>4</td>
+      <td>24</td>
+      <td>8</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>R93</td>
+      <td>1Q7</td>
+      <td>1I3</td>
+      <td>G158</td>
+      <td>ID</td>
+      <td>8</td>
+      <td>24</td>
+      <td>8</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>R91</td>
+      <td>1P7</td>
+      <td>1I3</td>
+      <td>G159</td>
+      <td>ID</td>
+      <td>7</td>
+      <td>24</td>
+      <td>8</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>72</td>
+      <td>24</td>
+      <td>3:1</td>
+      <td>+1</td>
+      <td>6</td>
+      <td>NE</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>R31</td>
+      <td>1B6</td>
+      <td>1F4</td>
+      <td>G932</td>
+      <td>D</td>
+      <td>4</td>
+      <td>12</td>
+      <td>8</td>
+      <td>1:2</td>
+      <td>+1</td>
+      <td>5</td>
+      <td>NE</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>R35</td>
+      <td>1J5</td>
+      <td>1J4</td>
+      <td>G143</td>
+      <td>D</td>
+      <td>1</td>
+      <td>12/2</td>
+      <td>8</td>
+      <td>1:2</td>
+      <td>+1</td>
+      <td>2</td>
+      <td>NE</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>R146</td>
+      <td>1G2</td>
+      <td>1F3</td>
+      <td>G931</td>
+      <td>CAT</td>
+      <td>1</td>
+      <td>5</td>
+      <td>8</td>
+      <td>1:2</td>
+      <td>+1</td>
+      <td>4</td>
+      <td>NE</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Much more fire and close assaulting occurred. The new record sheet I
+created will be handy. In the meantime, using a legal pad to keep track
+of firing works really well.</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/sit_8_r_t3.jpg" alt="FIXME" /></p>
+
+<p>The Russians didn't do that well on their combat, but the dispersals
+they got can only help slow down the German advance.</p>
+
+<h2 id="turn-4">Turn 4</h2>
+
+<p>Enough of the detailed game play for now! Compared to my first efforts
+back in Situation #1, I'm doing much, much better at describing game
+play. I'll have to replay some of those early games with the attention
+to detail I'm demonstrating here. But for now, I want this off the table
+in favor of a third game of StarForce exploring Scenario 3.</p>
+
+<p>Also, to be perfectly truthful, I'm a bit bored with the game at this point.
+All the photos and notes are a lot of work, without a clear payoff.
+Simply finishing this game has a great payoff: I can start another game!</p>
+
+<p>Turn 4 opens with a couple of not unlucky 4:1 +1 drm shots from the
+artillery to take out Russian infantry. It would have really hurt if I'd
+rolled a 6 on either shot. Now it's time to move, and I'm not sure
+exactly what I want to do yet. I've just figured out the the Russian
+tanks could go romping around in the German rear area, so I better
+ensure they don't get there. On the other hand, I want to ensure I get
+some protection forward to gain ground. At the moment, it's about to
+turn into a slug fest south of Hill 135.</p>
+
+<p>Unfortunately, the not unlucky artillery shots have been followed up
+with some definitely unlucky CATs: total whiff on all of them.</p>
+
+<p>Time for the Russians…and let's try writing out by phases. Haven't
+done this for PanzerBlitz yet.</p>
+
+<p><em>Fire determination and resolution</em>: 5 attempts: the 2 76.2 ATGs each take a shot at PzKpfw
+IVs at 1:2, scoring a D on one for their efforts. The 3 120mm mortars take
+another shot at the stack of German rifles at 4:1, and get an X; that's 3 units
+for the Russians. The two SU-85s take 1:2  shots on the PzKpfws lurking
+on the ridge east of Hill 135, score a D for their efforts. In all, not
+bad results.</p>
+
+<p>The actual phasing is defined by calling the shots, then resolving each
+one. I wrote them up together, above, to make it easier to read.</p>
+
+<p><em>Vehicle movement</em> none, the SU-85s both fired.</p>
+
+<p><em>Leg and CAT</em>: 4 attempts, managed one dispersal of a stack of Panthers
+at the south end of the Lane of Tears at 1:3 (11:32) odds. Not too bad,
+could have been better.</p>
+
+<p><em>Dead pile</em>: Germans 3, Russians 5, 1 mine removed.</p>
+
+<p>Almost half done with this game.</p>
+
+<h2 id="turn-5">Turn 5</h2>
+
+<p>The Germans still have a rough way to go, but with a couple of lucky
+rolls behind them, a few more lucky rolls might just see enough units
+off the Plains of Despair to acquire at least a draw.</p>
+
+<p><strong>Fire determination and resolution</strong>: The Hummel and StuH-42 (14-H-10)
+take out a Guard unit with 5/6 chance; I've been really unlucky with
+these types of shots. Panther takes on a rifle company, roll 1,
+dispersed! No effect for SG-III 75 shooting at SU-85 on the hills.
+German mortar on Hill 132 disperse a guards unit, critically important
+as this unit is about to get overrun as well, and every little bit
+helps.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: First up, the PzKpfw overruns
+the just now dispersed guards unit, elimination on roll 1. Overkill, but
+why take chances with Russian infantry? The second CP moves up with the
+Wespe, risking a CAT, but in the woods, this would only be a dispersal
+at worst, and then only if the SMG unit which is adjacent isn't
+eliminated or dispersed.</p>
+
+<p><strong>Leg and CAT</strong>: The engineers are finally in play, moving a 1:1 on the
+SMG in the woods to a 2:1, with a roll of 2 that's an elim, and the CP
+and Wespe are safe for at least Turn 6. The Germans have been hitting
+some good rolls. Helps to be lucky.</p>
+
+<p>I wasn't going to post any more photos of the game, but this situation
+at the end of the German phase was too good to pass up:</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/sit_8_g_t5.jpg" alt="FIXME" /></p>
+
+<p>The Russians can still do a lot of damage to the Germans, and the
+Germans have a long way to go to get across the Plains of Despair, and
+an increasingly shorter time in which to cross.</p>
+
+<p>However, the Russians might be in a bit of trouble here. They're losing their
+infantry to heavy artillery, CATs and overruns. This is not good. And
+it's not good that the Russians just don't have that much effective fire
+this turn. For example, neither howitzer has any high value targets.</p>
+
+<p>For example, R71 (pink die showing 2 pips) really wants to combine fire
+onto the stack of SG-III 75s (G823, pink die showing single pip) on the
+nearby hillside to the south, but technically has no line of site. It's
+blocked by the forest green bar hex side.</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/howitzer_los.jpg" alt="FIXME" /></p>
+
+<p>Further south, the ATG R36 (red die, 2 pips) wants to fire on G931 (red
+die, 1 pip), but there is an intervening brown bar hillside closer to
+G931 than R36; no LOS. One the other hand, R31 can fire on G931, but
+probably not on G938. The optional rule allowing hex centers to
+determine LOS could allow firing, while the standard rule would find a
+green bar intervening from one the possible paths traced through hexes.</p>
+
+<p class="center"><img src="/images/panzerblitz/situation-8/atg_los.jpg" alt="FIXME" /></p>
+
+<p>It's not just "panzerbush," it's "panzerslope" as well.</p>
+
+<p><strong>Fire determination &amp; resolution</strong>: Russians have 2 direct fire shots.
+First is using heavy mortars on the SG-III on the slope at 3:1. The second is
+the ATG R31 on G931 at 1:1 (12:8). For the first, roll 2 for
+elimination, about time! Second, roll 5 which is a miss.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: The SU-85s need to find a way to pick
+off the Germans as they cross the Plains of Despair. Might be a good
+time to decamp to Zabvenia, just to cost the Germans an extra turn.</p>
+
+<p><strong>Leg and CAT</strong>: The first CAT on the panzers failed, a second on some
+halftracks succeeded. Leg units need to move due south to
+attempt to block movement onto the Plains.</p>
+
+<p><strong>Dead pile</strong>: German 4, Russian 8, 1 mine removed.</p>
+
+<p>Half done!</p>
+
+<h2 id="turn-6">Turn 6</h2>
+
+<p>It would be hard for the Russians to get a decisive victory at this
+point, but it's probably just as hard for the Germans to get a marginal
+victory, which is 30 units off Board 3.</p>
+
+<p><strong>Fire determination and resolution</strong>: Had to use barrage fire to take
+out one of the fortifications. Very chancy stuff, 1/6 chance I would
+have burned out the artillery for nothing. I've gotten lucky this game
+on the dice. This will be helpful having one of the heavy mortars gone.
+I'm now thinking I'd have spent the barrage more effectively by taking
+out the CP, if I had only had a CP in line of sight for spotting.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: at this point, I can't really hide any
+more, and I'm going to have to make a run for the border. It's almost
+attritional, I'm going to lose as many units per turn as the Russians
+have guns. For sure, 3 units per turn, and there are 5 fire turns left
+for the Russians. However, I'm leaving the Hummel behind, and the SG-III
+75s to pester the Russian fortified CP. It may have been a mistake to
+have moved the Wespe so far forward.</p>
+
+<p><strong>Infantry &amp; CAT</strong>: Infantry is mounting up this turn. Too close to the
+end of the game to do anything else.</p>
+
+<p>Now for the Russians…</p>
+
+<p><strong>Fire determination</strong>: Only two good targets available, strangely
+enough, the PzKpfw on the slope which can be dealt with by the 122mm
+howitzer (finally), and the AFVs threatening the CP on Hill 135.</p>
+
+<p><strong>Fire resolution</strong>: For the mortars, 4:1 in woods, roll 5 for
+elimination. For the howitzer, 2:1 (40/2):8, roll 3, dispersed.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: SU-85s roll into Zabvenia.</p>
+
+<p><strong>Infantry movement &amp; CAT</strong>: The infantry is moving in a pincer
+formation to squeeze from both the north and the south. If the Germans
+are a little bit lucky, they will squirt out like a watermelon seed,
+but it will be costly. 2 CATs available, one from the north on
+halftrack, the other from the south on AFVs. Both succeed in dispersals,
+which is Bad News for Jerry.</p>
+
+<p><strong>Dead pile</strong>: German 8, Russian 9, 1 mine removed.</p>
+
+<h2 id="turn-7">Turn 7</h2>
+
+<p>It's appearing that moving the Wespe forward is a blunder. It's just not
+getting that many shots off.</p>
+
+<p>German:</p>
+
+<p><strong>Fire determination</strong>: Hummel took at a rifle company, another rifle
+dispersed.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: Mostly mounting up infantry and moving
+everything as far forward as possible to stay away from oncoming Russian
+infantry. Huge traffic jam in the pass south of Hill 135. Let's call it
+the Pass of Doom.</p>
+
+<p><strong>Infantry movement &amp; CAT</strong>: almost all mounting up.</p>
+
+<p>Russian:</p>
+
+<p><strong>Fire determination &amp; resolution</strong>: 3 shots: 1 miss, and two dispersals.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: Nothing to move.</p>
+
+<p><strong>Infantry movement &amp; CAT</strong>: Spectacular CAT disperses stack of panzers
+in by the Lane of Tears. One or two more infantry units will be able to
+CAT next Russian move, might be the end of that stack. But the panzers
+served their purpose by soaking up infantry attention.</p>
+
+<p><strong>Dead pile</strong>: German 10, Russian 11, 1 mine removed.</p>
+
+<p>Game will play out fast now.</p>
+
+<h2 id="turn-8">Turn 8</h2>
+
+<p>The Germans are going to make a run for it! Nothing else they can really
+do. It's a sure loss if they stay and fight, no matter how many Russians
+they kill.</p>
+
+<p><strong>Fire determination &amp; resolution</strong>: Germans dispersed guards unit on slope,
+handy. Hummel proves its worth. Wespe didn't fire.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: Now it's a nasty slog through the Pass
+of Doom to a mad dash across the Plains of Despair.</p>
+
+<p><strong>Infantry movement &amp; CAT</strong>: Might leave back a mortar unit for the odd
+AF or so, not sure yet.</p>
+
+<p>Russian:</p>
+
+<p><strong>Fire determination &amp; resolution</strong>: Lots and lots of targets! 7 shots:
+5 eliminations, 2 dispersals. Some of the kills were transport, which
+hurts double.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>: none.</p>
+
+<p><strong>Infantry movement &amp; CAT</strong>: Moving the mortars towards Opustschenia to
+rain some long range death on trucks. Guards and friends continue to
+pester a stack of panzers along the Lane of Tears. Can't go wrong with a
+roll of 1 in PanzerBlitz.</p>
+
+<p><strong>Dead pile</strong>: German 17, Russian 10, 1 mine removed. This doesn't
+count removing the Russian fortification, but it should.</p>
+
+<h2 id="turn-9">Turn 9</h2>
+
+<p>German strategy for Turn 9 is just run, run, run. Not even going to
+bother firing. Except for the Hummel which fired on a guards unit and
+missed.</p>
+
+<p><strong>Vehicle movement &amp; overrun</strong>:</p>
+
+<p><strong>Infantry movement &amp; CAT</strong>:</p>
+
+<p>Russians can just fire and fire and fire. They're looking at a tactical
+victory almost surely, and with good rolling, a decisive is not out of
+the question.</p>
+
+<p>The Russians fired 7-8 times and hit every time, mostly kills. Lots of
+1s and 2s on the dice. Bummer for the Germans.</p>
+
+<p><strong>Dead pile</strong>: German 29, Russian 11, 1 mine removed. And I am counting
+the fortification because it soaked up a lot of time to remove.</p>
+
+<h2 id="turn-10">Turn 10</h2>
+
+<p>Germans get 9 units off the map, with most of the rest exposed,
+including panzers with a 4:1 sure kill, so it's done for me. The
+Russians got their 30 for the decisive.</p>
+
+<p>Russian had at least 1 sure kill at 4:1, so I didn't bother moving all
+the German units, just enough to ensure I had as much of the game to get
+decisive victory for the Russians.</p>
+
+<p><strong>Dead pile</strong>: German 30+, Russian 11, 1 mine removed.</p>
+
+<p>Germans: 9 units exits.</p>
+
+<p>Russians: 30+ German units eliminated.</p>
+
+<p>Decisive Russian victory. Not even close.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>The first thing to note is that this situation can take quite a while
+for the Russian player to set up. For a first time player, budget an
+hour for the Russian. It's almost guaranteed analysis paralysis.
+The German play will also need some time to set up, probably about 30
+minutes <em>after</em> the Russians are finished. These set up times decrease
+with experience, and with multiple plays of the scenario.</p>
+
+<p>Another thing I'm sure of now, from this game, is that I'm at least very
+slightly biasing the game play for some of these solo games. It doesn't feel
+overt. It seems to come out as unconscious leaning toward to making one
+side or another have small advantages, which add up. A general example
+might be making a sub par move, or not firing on an appropriate target.
+I won't see these until after the turn finishes.</p>
+
+<p>I think the effect comes from focusing on playing one side really,
+really well, while just not thinking about the other side. The Russian
+phase in Turn 3 illustrates this perfectly. My focus was on getting the
+Germans positioned to clear a lane, with a result of being horribly
+exposed.</p>
+
+<p>If I haven't written it elsewhere, I'm not inclined to argue much about
+rules, even when I know I'm citably correct. Basically, if someone wants
+to dispute a rule or LOS or a movement, I'll geneconcede. I'll do
+this both on the player's and my turn, and allow the opponents to
+interpret as they see fit, to my disadvantage. When I'm playing myself
+in a solitaire game, I'm much more strict.</p>
+
+<h3 id="blunders">Blunders</h3>
+
+<p>What a brutal game. It took two or three weeks to get through. In part
+because I'm busy at work, but also because I made a determined effort to
+have a good showing for the Germans.</p>
+
+<p>Russians did not use their position as well as they could have:</p>
+
+<ul>
+  <li>
+    <p>The 122mm howitzer should bracket, one in Uschas or similar northern
+emplacement, the other on the south side of the board in the woods on
+Adski Hill (126). With range 20, each can fire on enemy on their half
+of the fighting ground, while overlapping to some extent in the middle.
+Having the howitzer at 1N6 is relatively ineffective in the early game.
+(It may come in to play in the later game.)</p>
+  </li>
+  <li>Leaving a hole at 1E3.</li>
+  <li>Not reinforcing the crossroad at 1J5 with that spare Recon unit.</li>
+</ul>
+
+<p>German blunders include not getting a CP way forward into cover and
+defensible terrain. On the south edge of Board 1, this means Hill 126
+east of Adski. That would have been pretty tough, to be sure, but would
+have been a serious threat to the Russians.</p>
+
+<p>Barrage fire took out a fortification with a mortar. It would have been
+better to spend those tubes on a Russian CP.</p>
+
+<h3 id="mine-and-block-placement">Mine and block placement</h3>
+
+<h3 id="handicapping">Handicapping</h3>
+
+<p>Tipping it in the German favor may only require removing one of the
+122mm howitzers. These are so important for wearing away at the Germans
+that losing even one will have an effect.</p>
+
+<p>One or more of the fortifications could be removed from the OOB, which
+would force the Russian player into even more of a defensive posture,
+and would change how fields of fire were established. Currently, the
+fortifications at DF 50 on top of hills are for the most part
+impregnable. A one shot elimination is not guaranteed when they're in
+wooded hexes, and in the worst case, with unit firing from below the
+hilltop, attack factors would need to total between 100 and 200 to get a
+5/6 chance of elimination. CAT atacks just can't muster enough AF
+fighting uphill.</p>
+
+<p>What would be better here would be a range of fortification strength
+from, say, 20 to 50, where the Russian player could choose which
+locations got the strongest fortifications.</p>
+
+<p>On the German side, remove one or more of the light SPAs, either the
+StuH 42 or the GW 38(M). These guns don't have a lot of power or range,
+but since they're howitzers, they get full AF on soft targets. That's a
+big deal and can tip odds a full column right.</p>
+
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+
+<p>Avalon Hill's PanzerBlitz was a successor to a game called
+"Tactical Game 3," which was never developed for market. The story can
+be found on related web sites. What's important here is that the game
+does have a long and successful history, ultimately selling hundreds
+of thousands of copies.</p>
+
+<h3 id="panzerblitz-links">PanzerBlitz links</h3>
+
+<p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+Strategist</a>,
+often referred to as "ImStrat" has an incredible collection of articles,
+counters, maps and other material related to PanzerBlitz, Panzer Leader
+and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+  </li>
+  <li>
+    <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+outstanding resource, also worth hours of reading.</p>
+  </li>
+  <li>
+    <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+appears to be where a number of current PanzerBlitz players can be
+found. The forum is relatively relaxed and low traffic, but there is a
+lot of information available.</p>
+  </li>
+</ul>
+
+<p>There are several more outstanding links which will be added in the
+future, and if you, the reader, find one of your favorite sites missing,
+please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+with the relevant addition.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

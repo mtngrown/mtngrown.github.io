@@ -10,4 +10,3 @@
     "HTML-CSS": { availableFonts: ["TeX"] }
   });
 </script>
-;

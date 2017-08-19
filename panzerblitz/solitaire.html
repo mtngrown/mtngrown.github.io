@@ -1,359 +1,367 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-    <link href="/stylesheets/pb.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-12'>
-            <header>
-              <nav class='navbar navbar-default' role='navigation'>
-                <div class='container' style='background-color: black;'>
-                  <ul class='nav navbar-nav'>
-                    <li>
-                      <a href='/about.html'>About</a>
-                    </li>
-                    <li>
-                      <a href='/'>ConSim home</a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz'>PanzerBlitz home</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Playing aids
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Games
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/games/'>Overview</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/balance.html'>Balance</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz/firefights'>Firefights</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Tactical examples
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Source code
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
-                          </li>
-                          <li>
-                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <h1 id="panzerblitz-solitaire-play">PanzerBlitz solitaire play</h1>
-            
-            <p>PanzerBlitz is surprisingly easy to play solitaire, but can be surprisingly difficult
-            to "win." It can also be surprisingly fun. Here are a few guidelines:</p>
-            
-            <p>The benefits of playing solitaire are numerous:</p>
-            
-            <ol>
-              <li>Clock time is relatively unimportant. Playing through a situation can
-            take as much or as little time as you desire. Given you have a place
-            where the game won't be disturbed, playing out a game over several
-            days might make the difference between playing or not playing.</li>
-              <li>It's easy to play through the same situation multiple times,
-            considering different strategies and tactics.</li>
-              <li>When clock time is unimportant, each turn can be considered in
-            detail. There is time to takes notes, and time to read through the
-            rules very carefully.</li>
-              <li>Conversely, games can be run with a timer, where each turn is knocked
-            out in, say, six to ten minutes. Playing fast will expose blunders in
-            playing very quickly.</li>
-              <li>Getting familiar with situations at one's leisure really helps game
-            play when you have an opponent. The first time setting up a situation
-            is the hardest and takes the longest. For people suffering from an
-            occasional bout of analysis paralysis, suffering through the "set up
-            blues" solitaire means not inflicting them on a live opponent. Plus
-            you might learn a winning advantage.</li>
-            </ol>
-            
-            <p>PanzerBlitz lends itself well to solitaire, as it's challenging to play
-            each side to one's best ability, and let the game play dictate the
-            "winner."</p>
-            
-            <h2 id="how-to-balance-solitaire-play">How to balance solitaire play</h2>
-            
-            <p>Balancing play in solitaire games is difficult as a tendency to favor
-            one side or another always seems to lurk just below the level of
-            conscious thought.</p>
-            
-            <ul>
-              <li>
-                <p>Use the 1-finger rule to speed up game play and reduce favoritism.
-            The notion is that once a unit is moved, and the fingers which moved
-            the unit lift, it's done. No going back and revisiting a move, what's
-            done is done. (This would also work to speed up game play with two
-            players.)</p>
-              </li>
-              <li>
-                <p>Randomize smartly. For example suppose the situation called for the Germans
-            to set up first (e.g., Situation #1), and the Russians to enter on any side of
-            the board. Instead of choosing in advance which board the Russians enter on,
-            let the dice choose. That way, the "Germans" will have to cover all sides.
-            Conversely, suppose the Russians set up first as in Situation #3. Where should the
-            Germans attempt to punch through? Throw the dice!</p>
-              </li>
-            </ul>
-            
-            <p>Note that playing solitaire doesn't necessarily imply "evenly matched
-            opponents." Some PanzerBlitz scenarios are notoriously difficult for the
-            Germans, and for an inexperienced player, will feel highly unbalanced.
-            This simply means that the Germans must be played differently than the
-            Russians, and that playing the German side well takes some experience.</p>
-            
-            <h2 id="guidelines-for-situations">Guidelines for Situations</h2>
-            
-            <ol>
-              <li>
-                <p><strong>Situation #1</strong> The Russians can enter from any side, which is
-            problematic when playing solitaire, because the German side can
-            set up to exploit a known Russian entry. After the Germans set up,
-            to randomize the Russian entry roll a d4
-            (or d8) and count from North edge of board as 1, east as 2, etc.
-            If rolling a d6, just ignore rolls of 5 or 6 and re-roll until
-            1-4 is obtained. This way the Germans will have to consider Russians
-            coming in from any side.</p>
-            
-                <p>Once a first game is determined, given an identical German
-            deployment, further games can have Russians advancing from each
-            side subsequently.</p>
-              </li>
-              <li>
-                <p><strong>Situation #2</strong> After the Russians set up,
-            roll d6 to choose which board the Germans enter on.
-            It really doesn't make a lot of difference in this situation, as
-            entering from the center board in road march order puts the German
-            player 1/2 turn behind at most, regardless of where the Russian
-            advance is met.</p>
-              </li>
-              <li>
-                <p><strong>Situation #3</strong> Roll d6 to determine which board the Germans will
-            attempt to drive a corridor through. This
-            ensures that the Russians won't anticipate the German push. Note that
-            a Russian strategy of having units mounted at the beginning of the
-            game practically dictates these units are located on Board 2. If the
-            German player decides to feint, the die should determine to which
-            side: even east, west odd.</p>
-              </li>
-              <li>
-                <p><strong>Situation #4</strong> Very little initial randomization is necessary,
-            which frees a solitaire player to mix up the entry strategy for both
-            German and Russian forces. These initial conditions make Situation #4
-            a pretty good solitaire play.</p>
-              </li>
-              <li>
-                <p><strong>Situation #5</strong> doesn't present any obvious Russian randomizations.
-            The game could be tilted by assigning numbers to each of the Russian
-            units and locations, and enforce random placement, but this is a
-            fair bit of work. For German strategy, a die roll could determine
-            which of the three viable corridors across Board 1 will be forced
-            (because they <em>will</em> have to be forced).</p>
-              </li>
-              <li>
-                <p><strong>Situation #6</strong> presents three choices for the Russians to cross
-            Board 2: north of Bednost, through Bednost, or south of Bednost.
-            Set up the Germans to protect against any choice, then roll the dice!</p>
-              </li>
-              <li>
-                <p><strong>Situation #7</strong> has an unusual condition: out of the box, it's a
-            guaranteed Russian win, provided the Russians pretty much don't do
-            anything. The Germans have to do all the work.</p>
-              </li>
-              <li>
-                <p><strong>Situation #8</strong> is a very difficult situation for the Germans, as
-            the Russians control incredibly defensible terrain which is also very
-            slow moving for the Germans. One way to play this solitaire is spend
-            the time getting a solid Russian defense emplaced, then vary the
-            German strategy for punching through.</p>
-              </li>
-            </ol>
-            
-            <p>There are surely more interesting and innovative ways to create
-            solitaire playability. Ideas and pointers welcome.</p>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
-              
-              <p>Avalon Hill's PanzerBlitz was a successor to a game called
-              "Tactical Game 3," which was never developed for market. The story can
-              be found on related web sites. What's important here is that the game
-              does have a long and successful history, ultimately selling hundreds
-              of thousands of copies.</p>
-              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
-              
-              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
-              
-              <ul>
-                <li>
-                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
-              Strategist</a>,
-              often referred to as "ImStrat" has an incredible collection of articles,
-              counters, maps and other material related to PanzerBlitz, Panzer Leader
-              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
-                </li>
-                <li>
-                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
-              outstanding resource, also worth hours of reading.</p>
-                </li>
-                <li>
-                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
-              appears to be where a number of current PanzerBlitz players can be
-              found. The forum is relatively relaxed and low traffic, but there is a
-              lot of information available.</p>
-                </li>
-              </ul>
-              
-              <p>There are several more outstanding links which will be added in the
-              future, and if you, the reader, find one of your favorite sites missing,
-              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
-              with the relevant addition.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<link href="/stylesheets/pb.css" rel="stylesheet" />
+</head>
+<body>
+<div id='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<header>
+<nav class='navbar navbar-default' role='navigation'>
+<div class='container' style='background-color: black;'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/'>ConSim home</a>
+</li>
+<li>
+<a href='/panzerblitz'>PanzerBlitz home</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Playing aids
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/playing-aids'>Playing aids</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/games/'>Overview</a>
+</li>
+<li>
+<a href='/panzerblitz/solitaire.html'>Solitaire</a>
+</li>
+<li>
+<a href='/panzerblitz/balance.html'>Balance</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+</li>
+</ul>
+</a>
+</li>
+<li>
+<a href='/panzerblitz/firefights'>Firefights</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Tactical examples
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Source code
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+</li>
+<li>
+<a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+</li>
+<li>
+<a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-8'>
+<h1 id="panzerblitz-solitaire-play">PanzerBlitz solitaire play</h1>
+
+<p>PanzerBlitz is surprisingly easy to play solitaire, but can be surprisingly difficult
+to "win." It can also be surprisingly fun. Here are a few guidelines:</p>
+
+<p>The benefits of playing solitaire are numerous:</p>
+
+<ol>
+  <li>Clock time is relatively unimportant. Playing through a situation can
+take as much or as little time as you desire. Given you have a place
+where the game won't be disturbed, playing out a game over several
+days might make the difference between playing or not playing.</li>
+  <li>It's easy to play through the same situation multiple times,
+considering different strategies and tactics.</li>
+  <li>When clock time is unimportant, each turn can be considered in
+detail. There is time to takes notes, and time to read through the
+rules very carefully.</li>
+  <li>Conversely, games can be run with a timer, where each turn is knocked
+out in, say, six to ten minutes. Playing fast will expose blunders in
+playing very quickly.</li>
+  <li>Getting familiar with situations at one's leisure really helps game
+play when you have an opponent. The first time setting up a situation
+is the hardest and takes the longest. For people suffering from an
+occasional bout of analysis paralysis, suffering through the "set up
+blues" solitaire means not inflicting them on a live opponent. Plus
+you might learn a winning advantage.</li>
+</ol>
+
+<p>PanzerBlitz lends itself well to solitaire, as it's challenging to play
+each side to one's best ability, and let the game play dictate the
+"winner."</p>
+
+<h2 id="how-to-balance-solitaire-play">How to balance solitaire play</h2>
+
+<p>Balancing play in solitaire games is difficult as a tendency to favor
+one side or another always seems to lurk just below the level of
+conscious thought.</p>
+
+<ul>
+  <li>
+    <p>Use the 1-finger rule to speed up game play and reduce favoritism.
+The notion is that once a unit is moved, and the fingers which moved
+the unit lift, it's done. No going back and revisiting a move, what's
+done is done. (This would also work to speed up game play with two
+players.)</p>
+  </li>
+  <li>
+    <p>Randomize smartly. For example suppose the situation called for the Germans
+to set up first (e.g., Situation #1), and the Russians to enter on any side of
+the board. Instead of choosing in advance which board the Russians enter on,
+let the dice choose. That way, the "Germans" will have to cover all sides.
+Conversely, suppose the Russians set up first as in Situation #3. Where should the
+Germans attempt to punch through? Throw the dice!</p>
+  </li>
+</ul>
+
+<p>Note that playing solitaire doesn't necessarily imply "evenly matched
+opponents." Some PanzerBlitz scenarios are notoriously difficult for the
+Germans, and for an inexperienced player, will feel highly unbalanced.
+This simply means that the Germans must be played differently than the
+Russians, and that playing the German side well takes some experience.</p>
+
+<h2 id="guidelines-for-situations">Guidelines for Situations</h2>
+
+<ol>
+  <li>
+    <p><strong>Situation #1</strong> The Russians can enter from any side, which is
+problematic when playing solitaire, because the German side can
+set up to exploit a known Russian entry. After the Germans set up,
+to randomize the Russian entry roll a d4
+(or d8) and count from North edge of board as 1, east as 2, etc.
+If rolling a d6, just ignore rolls of 5 or 6 and re-roll until
+1-4 is obtained. This way the Germans will have to consider Russians
+coming in from any side.</p>
+
+    <p>Once a first game is determined, given an identical German
+deployment, further games can have Russians advancing from each
+side subsequently.</p>
+  </li>
+  <li>
+    <p><strong>Situation #2</strong> After the Russians set up,
+roll d6 to choose which board the Germans enter on.
+It really doesn't make a lot of difference in this situation, as
+entering from the center board in road march order puts the German
+player 1/2 turn behind at most, regardless of where the Russian
+advance is met.</p>
+  </li>
+  <li>
+    <p><strong>Situation #3</strong> Roll d6 to determine which board the Germans will
+attempt to drive a corridor through. This
+ensures that the Russians won't anticipate the German push. Note that
+a Russian strategy of having units mounted at the beginning of the
+game practically dictates these units are located on Board 2. If the
+German player decides to feint, the die should determine to which
+side: even east, west odd.</p>
+  </li>
+  <li>
+    <p><strong>Situation #4</strong> Very little initial randomization is necessary,
+which frees a solitaire player to mix up the entry strategy for both
+German and Russian forces. These initial conditions make Situation #4
+a pretty good solitaire play.</p>
+  </li>
+  <li>
+    <p><strong>Situation #5</strong> doesn't present any obvious Russian randomizations.
+The game could be tilted by assigning numbers to each of the Russian
+units and locations, and enforce random placement, but this is a
+fair bit of work. For German strategy, a die roll could determine
+which of the three viable corridors across Board 1 will be forced
+(because they <em>will</em> have to be forced).</p>
+  </li>
+  <li>
+    <p><strong>Situation #6</strong> presents three choices for the Russians to cross
+Board 2: north of Bednost, through Bednost, or south of Bednost.
+Set up the Germans to protect against any choice, then roll the dice!</p>
+  </li>
+  <li>
+    <p><strong>Situation #7</strong> has an unusual condition: out of the box, it's a
+guaranteed Russian win, provided the Russians pretty much don't do
+anything. The Germans have to do all the work.</p>
+  </li>
+  <li>
+    <p><strong>Situation #8</strong> is a very difficult situation for the Germans, as
+the Russians control incredibly defensible terrain which is also very
+slow moving for the Germans. One way to play this solitaire is spend
+the time getting a solid Russian defense emplaced, then vary the
+German strategy for punching through.</p>
+  </li>
+</ol>
+
+<p>There are surely more interesting and innovative ways to create
+solitaire playability. Ideas and pointers welcome.</p>
+
+
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+
+<p>Avalon Hill's PanzerBlitz was a successor to a game called
+"Tactical Game 3," which was never developed for market. The story can
+be found on related web sites. What's important here is that the game
+does have a long and successful history, ultimately selling hundreds
+of thousands of copies.</p>
+
+<h3 id="panzerblitz-links">PanzerBlitz links</h3>
+
+<p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+Strategist</a>,
+often referred to as "ImStrat" has an incredible collection of articles,
+counters, maps and other material related to PanzerBlitz, Panzer Leader
+and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+  </li>
+  <li>
+    <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+outstanding resource, also worth hours of reading.</p>
+  </li>
+  <li>
+    <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+appears to be where a number of current PanzerBlitz players can be
+found. The forum is relatively relaxed and low traffic, but there is a
+lot of information available.</p>
+  </li>
+</ul>
+
+<p>There are several more outstanding links which will be added in the
+future, and if you, the reader, find one of your favorite sites missing,
+please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+with the relevant addition.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

@@ -1,1801 +1,1808 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                DAK-II: Operation Compass Redux
-              </h1>
-              <time class='updated' pubdate=''>Jul 20 2017</time>
-              <p>The following posted on BGA, copied here for amusement.</p>
-              
-              <p>Disclaimer: I still have a solo game of Fire in the Lake going on. I
-              took a stab at automating the US bot with Ruby. So far that effort is
-              1:0 in the game's favor. But I'll finish it ricky tic, only 39 cards to
-              go, lol.</p>
-              
-              <p>But the pull of hex and counter is mighty. And Jock Campbell is pressing
-              to atone for his previous performance the back side of Halfaya Pass (you
-              ran out of petrol, Jock? Really?)</p>
-              
-              <p>Hence, we're back to North Africa for a few weeks to ponder several
-              questions. For example, given 1T of trucking, of what use is 3 SP on a
-              beach surrounded by wadis, in literally, BFE? Should Maletti try to hold
-              Sidi el Barrani, or Buq Buq, or both? Or move LibOp to Halfaya Pass and
-              make a stand there?</p>
-              
-              <p>More importantly, should the Western Desert command attempt to flank and
-              isolate Halfaya Pass, which requires a <em>really</em> fragile supply line, or
-              just go toe-to-toe with the Italians and retreat them out of Egypt?</p>
-              
-              <p>Literally, BFE. Whose brilliant idea was that? Is this where the term
-              came from? I wouldn't be surprised.</p>
-              
-              <hr />
-              
-              <p>The goal for this game is working out the Commonwealth supply situation.
-              Without encircling the Italians lodged into Halfaya Pass, it's really
-              difficult to dislodge them from Egypt. But it's also very difficult to
-              get supply all the way around to the back for any forward CW unit
-              (talking to you Jock Stewart). The way the game is going to play out is
-              that the Italians will more or less hunker down to preserve their
-              positions as best they can, while the Brits figure out how to get the
-              supply chain established such that they can threaten Bardia.</p>
-              
-              <p>A future game may see the Italians attempt a more active role.</p>
-              
-              <p>While the CW forces are buzzing around, the Italians will be looking for
-              targets of opportunity, more to slow and interfere with the Brits than
-              attempting to destroy them.</p>
-              
-              <p>Along the way I intend on digging pretty deep into the OCS rule set,
-              with a preliminary intention of memorizing supply rules. Supply is the
-              key to this game (OCS), and the less I have to think about it the better.</p>
-              
-              <p>I will also be using air power this game. The first Operation Compass
-              game I played I left the airplanes alone.</p>
-              
-              <h2 id="some-supply-counting">Some supply counting</h2>
-              
-              <p>Before getting started, it's worth seeing can be done with supplies.</p>
-              
-              <p>The first thing is seeing about that dump on the beach, surround by
-              wadis and cliffs. This makes it really difficult to move with a 1T
-              transport. After spending a leisurely evening counting hexes, the best
-              course of action is to use the beach dump for provisioning the organic
-              trucks for 7 Armor and 4 Indian.</p>
-              
-              <p class="center"><img alt="DAK-2 Operation Compass Commonwealth Supply
-              consideration" src="/images/dak2/operation-compass-g2-setup.jpg" /></p>
-              
-              <p>These two divisions can use it up within 2-3 turns, easily. In the
-              meantime, the 1T truck has little choice other than to shuttle as much
-              of the supply at Mersah Matruh as far forward as possible. This can be
-              used to provision the Western Desert HQ.</p>
-              
-              <h2 id="game-turn-1">Game Turn 1</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <p>The Italians are probably going to sit this turn out to see what the CW
-              forces get up to.</p>
-              
-              <p>The CW is going to <em>not</em> move too far west on this first turn, in favor
-              of spending a turn getting another SP into throw range of Western
-              Desert. We'll see how that works out.</p>
-              
-              <h3 id="pre-turn-phase">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Roll 4-1, clear weather.</p>
-              
-              <h3 id="commonwealth-turn">Commonwealth Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of CW goal this turn.</p>
-              
-              <p>Commonwealth has a couple of goals this turn:</p>
-              
-              <ol>
-                <li>Get the supply off the beach.</li>
-                <li>Move as many T forward as possible given 1T transport.</li>
-                <li>Position the WD HQ and supporting units to pester Maletti at Sidi el
-              Barrani.</li>
-                <li>Move as much of 7 Armor and 4 Indian as possible to the west, without
-              getting out of supply, and without inviting counter-attack by Italian in
-                hedgehogs. This will be the main positioning.</li>
-              </ol>
-              
-              <h4 id="aircraft-refit">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>No aircraft to refit this turn.</p>
-              
-              <h4 id="reinforcement">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>Bring in 2 SP to Mersah Matruh.</p>
-              
-              <h4 id="movement">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-              </ol>
-              
-              <p>Nothing to do here.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-              </ol>
-              
-              <p>Lots going on:</p>
-              
-              <ol>
-                <li>
-                  <p>7 Armor and 4 Indian fuel up from organic trucks, then the trucks
-              make a round trip to BFE to restock, and can make it all the way back
-              to their starting hex, just barely. This will allow fueling up next
-              turn.</p>
-                </li>
-                <li>
-                  <p>2T moved forward. The transport can't make a full 2T every turn,
-              probably 5T every 3 turns. We'll see how it works. 6 Aus coming in
-              will help.</p>
-                </li>
-                <li>
-                  <p>3 and 8 Hus overrun VEC in hex 36.13. Roll 2 + 6! Snake eyes! And a a
-              boxcar! There is no worse result for overrun! Dang! The odds go to
-              1:5, roll 7 + 2 for morale, net 9 for <code>AL1o1Do1</code>.</p>
-                </li>
-                <li>
-                  <p>Try again with Strafer Gott and 7 &amp; 11 Hus, and 2 &amp; 6 RTR. No
-              surprise either way on this one, but the Brits did manage to get a
-              <code>DL1</code> but had to retreat rather than carry on through the overrun.
-              Was really hoping to keep going.</p>
-              
-                  <p>After this movement, we have a huge, 5 RE stack packed up on the
-              plateau, and vulnerable to air barrage. Accordingly, the Blen IV
-              makes a barrage run on the strip at Amseet, as will be described
-              below.</p>
-                </li>
-                <li>
-                  <p>Elements of 4 Indian move west across wadi and halt.</p>
-                </li>
-                <li>
-                  <p>Pay 1T to fuel the WD HQ. This will need to move west for at least a
-              couple of turns.</p>
-                </li>
-                <li>
-                  <p>Remaining 4 Ind and 7 Armor units moved west.</p>
-                </li>
-              </ol>
-              
-              <ol class="turn-sequence">
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>Blen IV attacks airbase at Amseet, is intercepted by CR.42, who is lame
-              and rolls 3/3 on the Air Combat table. This results in an Abort with No
-              Effect, i.e., no step loss but CR.42 returns to strip as Inactive.
-              Flak fails. Now for the barrage: 4/4, no effect.</p>
-              
-              <p>Naval barrage is no effect.</p>
-              
-              <h4 id="supply">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All CW units in supply.</p>
-              
-              <h4 id="reaction-phase">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <p>No Italian units in reaction.</p>
-              
-              <h4 id="combat-phase">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>No barrage or combat this turn. Poxy overruns.</p>
-              
-              <h4 id="exploitation-phase">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Nothing to exploit.</p>
-              
-              <h4 id="commonwealth-clean-up-phase">Commonwealth clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>I think is it for the CW this turn. The overrun failures really stung,
-              and that can't happen again, really need to perform here.</p>
-              
-              <h3 id="italian-turn">Italian Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Italian goal this turn.</p>
-              
-              <p>Main goal of Italian is disrupting the big 7 Armor concentration. If they
-              can do this, they have essentially bought another turn.</p>
-              
-              <h4 id="aircraft-refit-1">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Nothing to refit this turn, the inactive fighter has to wait until next
-              turn I'm pretty sure. Maybe should read up on this point. I think I'm
-              right, otherwise there would be little motivation to barrage.</p>
-              
-              <h4 id="reinforcement-1">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Bardia.</p>
-              
-              <h4 id="movement-1">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Italians reposition a leg unit to block an approach to Sidi el Barrani.</p>
-              
-              <p>Air barrage on 7 Armor, first roll for flak, fails. Interceptions:</p>
-              
-              <ol>
-                <li>
-                  <p>Hurr. 1 vs. SM.79: roll (9+3-1)/6, defender (barrager) aborts inactive with step
-              loss.</p>
-                </li>
-                <li>
-                  <p>Gladiator vs Ca.309: roll (6 + 2 -0)/1, barrager aborts inactive no step loss.</p>
-                </li>
-              </ol>
-              
-              <p>Very lucky for Brits. This could have been really bad.</p>
-              
-              <h4 id="supply-1">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All in supply.</p>
-              
-              <h4 id="reaction-phase-1">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>No reaction phase.</p>
-              
-              <h4 id="combat-phase-1">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>Nothing.</p>
-              
-              <h4 id="exploitation-phase-1">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Nothing.</p>
-              
-              <h4 id="italian-clean-up-phase">Italian clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Italian player.</li>
-              </ul>
-              
-              <p>Nothing.</p>
-              
-              <h3 id="end-of-turn">End of Turn</h3>
-              
-              <p class="turn-sequence">Briefly recap the turn for both sides.</p>
-              
-              <p>The CW really got into a bind with the overrun failures. This was just
-              bad luck. The idea here was to clear road to surround the big HQ stack
-              in the hedgehog and run it out of supply.</p>
-              
-              <p>The Italians, having gotten lucky on the overrun defense, just couldn't
-              get past the CW interceptors to put the hurting on 7 Armor. And it
-              would have been a hurt.</p>
-              
-              <p>Let's see how the next turn goes.</p>
-              
-              <h2 id="game-turn-2">Game Turn 2</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <p>Italians are likely going to sit tight, as that's what worked for them
-              on the first game.</p>
-              
-              <p>The CW is going to attempt to get the HQ moved way up to hopefully get
-              within range of taking Bardia. Should be able to advance it about half
-              the necessary distance this turn.</p>
-              
-              <h3 id="pre-turn-phase-1">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Weather: clear.</p>
-              
-              <p>CW player goes first this turn.</p>
-              
-              <h3 id="commonwealth-turn-1">Commonwealth Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Commonwealth goal this turn.</p>
-              
-              <h4 id="aircraft-refit-2">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <h4 id="reinforcement-2">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <h4 id="movement-2">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-              </ol>
-              
-              <p>Nothing.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-              </ol>
-              
-              <p>Here's the plan:</p>
-              
-              <ol>
-                <li>
-                  <p>7 Armor and 4 Indian organic trucks refuel. The dump at BFE is
-              finished. Both divisions are fueled and the trucks are fueled.</p>
-                </li>
-                <li>
-                  <p>1T transport continues to shuttle.</p>
-                </li>
-                <li>
-                  <p>7 &amp; 11 Hus try to overrun 63 MG, success! Shift 4 right on 3:1, roll
-              10 + 3 for 13 on 9:1 for <code>Ae2DL203DG</code> IOW 63 MG is gone.</p>
-                </li>
-              </ol>
-              
-              <p>At this point I need to get rid of the big stack of 21 It. For me to put
-              it out of supply renders me out of supply, risking a breakout if that
-              unit survives. 7 Armor is going for it for the overrun, there isn't
-              enough supply to get a full on combat otherwise. It would halt CW next
-              turn.</p>
-              
-              <ol>
-                <li>
-                  <p>7 Armor overruns 21 It: 5 + 3, no overrun, the odds aren't as good,
-              but armor, 22:7 as 21 It is out of trace for combat purposes,
-              so 3:1, roll 5 + 3 -1 net 7 on 2:1 <code>Al1Do1</code>. Brits
-              lose 8 Hus, very painful, Italians lose a step, who gives a shit. This is
-              not good for the CW, this is 2 7 Armor units which are eliminated,
-              which means it costs real supply to activate independent units.</p>
-              
-                  <p>Basically, this was a total waste. Good to know.</p>
-                </li>
-                <li>
-                  <p>Remaining 7 Armor and 4 Indian surrounding 21 It to try and force an
-              attrition from lack of supply.</p>
-                </li>
-              </ol>
-              
-              <ol class="turn-sequence">
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>Blen.IV makes a barrage run on 21 It, flak roll succeeds! Blen loses a
-              step! Dang!</p>
-              
-              <p>Naval barrage east of Sidi el Barrani is no effect.</p>
-              
-              <p>Not a great turn for the CW.</p>
-              
-              <h4 id="supply-2">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>This is really, really bad. Four units of 4 Indian are out of supply
-              north of the 21 It HQ:</p>
-              
-              <p class="center"><img alt="4 Indian goes out of
-              supply" src="/images/dak2/operation-compass/g2-t2-4ind-out-of-supply.jpg" /></p>
-              
-              <p>Attrition roll 10 for the east stack, all units lost, roll 5 for the
-              west stack, no losses. Bad, really bad. 21 It can probably escape.</p>
-              
-              <p>Actually, I think the western stack is in trace as the WD HQ can throw
-              to the adjacant hex which is ZOC-negated. WD cannot throw to an adjacent
-              hex for the eastern stack as 21 It has ZOC on the adjacent hex, and
-              wadis cost too much to cross.</p>
-              
-              <h4 id="reaction-phase-2">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <p>Nothing here.</p>
-              
-              <h4 id="combat-phase-2">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>No combat this turn, too many steps lost.</p>
-              
-              <h4 id="exploitation-phase-2">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="cw-clean-up-phase">CW clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>Done.</p>
-              
-              <h3 id="italian-turn-1">Italian Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Italian goal this turn.</p>
-              
-              <p>The Italians main goals this turn are:</p>
-              
-              <ol>
-                <li>Saving 21 It,</li>
-                <li>putting pressure on CW rear area supply.</li>
-              </ol>
-              
-              <p>This is going to majorly suck for CW.</p>
-              
-              <h4 id="aircraft-refit-3">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Refit all aircraft.</p>
-              
-              <h4 id="reinforcement-3">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Bardia.</p>
-              
-              <h4 id="movement-3">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Here's where 4 Indian gets destroyed probably.</p>
-              
-              <ol>
-                <li>
-                  <p>21 It moves to block 4 Indian, while leaving an Lt in the original
-              hex to stymie escape.</p>
-                </li>
-                <li>
-                  <p>Move to surround at Maktila. This is where the fight will be.</p>
-                </li>
-              </ol>
-              
-              <h4 id="supply-3">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All Italian units are now in supply.</p>
-              
-              <h4 id="reaction-phase-3">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="combat-phase-3">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>At Maktila, defender surprise with 2 shifts, this sucks for the
-              Italians, moves it to 1:2, roll 4 - 2 for <code>AL2</code> which will come from
-              step losses on the divisional units. Not that big of a deal, really.
-              That did cost 7T though. Italians need to move some supplies if
-              possible. This shouldn't be a problem, they have 2T of transport at
-              Bardia.</p>
-              
-              <p>That's all the Italians need to do this turn.</p>
-              
-              <h4 id="exploitation-phase-3">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="italian-clean-up-phase-1">Italian clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Italian player.</li>
-              </ul>
-              
-              <p>Done.</p>
-              
-              <h3 id="end-of-turn-2">End of Turn 2</h3>
-              
-              <p class="turn-sequence">Briefly recap the turn for both sides.</p>
-              
-              <p>This was not a good turn for the Commonwealth! The 4 Indian especially
-              took it on the nose. Had the 4 Indian moved up the organic truck, it
-              would have been able to eat off the map to stay in supply. Something to
-              note for the next game.</p>
-              
-              <h2 id="turn-3">Turn 3</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <p>CW needs to make some motion at Sidi el Barrani, and get the Western
-              Desert HQ moved another increment west. They will need to clear Maletti.</p>
-              
-              <p>The Italians need do little more than continue to be very unpleasant
-              speed bumps.</p>
-              
-              <h3 id="pre-turn-phase-2">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Weather is clear.</p>
-              
-              <p>The Allies have the initiative yet again. Very lucky for them.</p>
-              
-              <h3 id="allied-turn">Allied Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Allied goal this turn.</p>
-              
-              <p>The absolute minimum goal for this turn is using 6 Aus as a relief force
-              to break out the trapped unit on the coast east of Sidi el Barrani. 6
-              Aus is going in as an overrun. I may hold the armor unit back in reserve in
-              case the overrun fails. After the overrun either succeeds or fails, they
-              are going to bombard and attack. There is plenty of supply.</p>
-              
-              <p>The Blen is going to start transporting T forward as well. Hopefully 2T
-              per turn, still reading the rules on that. Since there aren't any
-              airbases (only airstrips), supplies will need to be air dropped, which
-              risks losing supplies. No big deal, that's how it has to be. The Blen
-              has 146 MF, the distance to the target hex I want to use is 18 hexes.
-              I'm going to combine rules for Air Transport and Air Drop and allow the
-              Blen to make 2 trips for 2T moved, then go inactive at its home base.</p>
-              
-              <p>Western Desert:</p>
-              
-              <h4 id="aircraft-refit-4">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Having to read back through to see which CW aircraft need refitting, if
-              any. Two of them are at airfields which are printed on the map, so it's
-              not clear, and I don't have markers for, which are needing refitting.
-              Looks like only the Blen needs refitting. Spend 1T.</p>
-              
-              <h4 id="reinforcement-4">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Mersah.</p>
-              
-              <h4 id="movement-4">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-              </ol>
-              
-              <p>Here's the plan:</p>
-              
-              <ol>
-                <li>
-                  <p>6 Aus moves from Mersah Matruh to overrun (8.0) ar 42.15. Odds are
-              22:3, which is 7:1, one shift for AR (Aus is Green). Defenders need 1T
-              from Sidi, 1T from Buq Buq. 6 Aus spends 4T to attack. Roll for
-              surprise 3/4, that's defender surprise with 4 shifts left. Dang. This is
-              the second or third time (at least) this game where defender has gained
-              huge surprise. This will damage 6 Aus, not good having divisional units
-              eliminated. Roll 8 + 1 net 9 <code>Ao1Do1</code> 6 Aus has to power on as there are
-              trapped units behind these Italians, eliminate 6 Aus 19 Mech and It 6 Lt.
-              6 Aus goes again, no choice, roll 7 + 1 no surprise, roll 7 + 1 for 8
-              yields <code>Ao e4 1DL1o2</code>. CW takes the option to retreat, the Italians have
-              a mandatory loss. This will let the trapped Brits move 1 hex east into
-              supply.</p>
-                </li>
-                <li>
-                  <p>Trapped units just east of Maktili move east and southeast to get
-              another crack at the Italians. They're in throw range of Mersah, no
-              reason not to go for it. They're also non-divisional units, easier to
-              lose. Since these are all leg units, no supply necessary to move.</p>
-                </li>
-                <li>
-                  <p>1T to Bir Emba, other T failed the Air Drop. I replaced those dice,
-              low rolling sons of bitches. Blen inactive at Mersah.</p>
-                </li>
-                <li>
-                  <p>7 Arm 2 &amp; 6 RTR move on the Ciran ID. This is an 18:12, but we have
-              surprise for a 2 shift and +3 for morale roll, combat roll 9 + 3 net
-              12 on 4:1 in the clear for <code>Ae4DL1o2</code>. This is another step loss for
-              Ciran, and it moves down the escarpment. This also puts Ciran in
-              Exhausted and DG and I don't think there are any more supplies coming for this
-              unit. 2 &amp; 6 RTR have just enough movement to overrun again. Roll for
-              surprise 6 + 4 (Ciran AR 1 for DG) yields surprise shift 5. Ok, not sure
-              what the odds are… 14:3 which is 5:1, roll 6 + 4/6 for surprise, Ciran
-              is toast. Boxcars on 13:1, <code>DL2</code> with a bunch more stuff which doesn't
-              matter here.</p>
-                </li>
-                <li>
-                  <p>A few other units poking around to ensure supply lines are in place
-              at least for this turn. The Its will almost surely bust these up, being
-              trapped in and around Sidi, they have nothing to lose at this point.</p>
-                </li>
-              </ol>
-              
-              <ol class="turn-sequence">
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="supply-4">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All CW in trace supply for now.</p>
-              
-              <h4 id="reaction-phase-4">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <h4 id="combat-phase-4">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>4 Ind and 3 Batt take on 1 Lib, roll surprise 4/6 (!!!!!!!!) 3 Batt
-              leading, crap, really surprised. Roll combat 7 - 1 for <code>AL1o1</code>. Weep.</p>
-              
-              <h4 id="exploitation-phase-4">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>No exploitation this turn.</p>
-              
-              <h4 id="cw-clean-up-phase-1">CW clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>Done.</p>
-              
-              <h3 id="italian-turn-3">Italian Turn 3</h3>
-              
-              <p class="turn-sequence">Brief summary of Allies goal this turn.</p>
-              
-              <p>If the Italians can stay 2 more turns in the Sidi el Barrani area, there
-              is almost no way the CW can win it. Let's see if we can make that
-              happen. The big question is how supply is treated at Sidi el Barrani, as
-              2 &amp; 6 RTR is nearly cutting off trace, which would mean no throw
-              available.</p>
-              
-              <p class="center"><img alt="Situation facing Italian Turn
-              3" src="/images/dak2/operation-compass/g2-axis-t3.jpg" /></p>
-              
-              <h4 id="aircraft-refit-5">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Spend 3T to refit at all airfields.</p>
-              
-              <h4 id="reinforcement-5">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Bardia.</p>
-              
-              <h4 id="movement-5">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>This is where the action really is, what the Italians do this turn will
-              matter a lot for the rest of the game. Specifically, whether the
-              Italians can get Sidi AO into supply. It's doable, and may be able to
-              drive 2 &amp; 6 RTR back a hex or two.</p>
-              
-              <p>Some of the larger divisions have moved up as well. I don't think this
-              will be a "last stand" for the Italians, but it will seriously impede CW
-              forces, if not push the back outright. Here's what it looks like at the
-              end of movement phase.</p>
-              
-              <p class="center"><img alt="Italians attempting to beat back Brits at Buq
-              Buq" src="/images/dak2/operation-compass/g2-t3-it-buq-buq.jpg" /></p>
-              
-              <p>It was a tough decision to put the 28 ID blocking the trail rather than
-              moving it up to fight with 2 &amp; 6 RTR, but the Italians really, really
-              don't want the Brits getting a foothold west of Buq Buq. I could have
-              put 30 GAF there, and maybe that would have been better.</p>
-              
-              <p>Sadly, the Italians neglected to move any T to airfields where they
-              could be airdropped to Sidi el Barrani. This would allow them to fuel up
-              and move west instead of being speed bumps. Will do the fuel movement
-              right now.</p>
-              
-              <h4 id="supply-5">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>I think all the units which can trace to Sidi el Barrani are in trace.
-              In fact, I think I have "coastal shipping" which allows me to move 1T
-              per turn from Bardia to Sidi.</p>
-              
-              <p>But 21 Corps HQ and 20 Lt have to roll for attrition:</p>
-              
-              <ul>
-                <li>21 Corps: AR 0, eliminated.</li>
-                <li>20 Lt, roll 6, <code>-2</code>, eliminated.</li>
-              </ul>
-              
-              <p>This is not a surprise.</p>
-              
-              <h4 id="reaction-phase-5">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="combat-phase-5">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>Big battle coming at Buq Buq. The Italians have a good shot at putting
-              more hurt on the Brits, who are really strung out in a very narrow
-              salient.</p>
-              
-              <p>First up is an artillery barrage from 30 GAF which <code>DG</code> the brits, bad
-              news for them.</p>
-              
-              <p>The raw odds are 22:7, which is now 22:8, which is 5.5:1 which is 6:1,
-              roll surprise for even AR, no surprise. Roll 8 which <code>Ao1DL1o1</code>. This
-              takes out the Italian Sahara but also the 6 RTR. This is a <em>very</em> bad
-              blow for the CW forces. The Italians advance, preserving the supply line
-              to Sidi el Barrani.</p>
-              
-              <h4 id="exploitation-phase-5">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="italian-clean-up-phase-2">Italian clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <h3 id="end-of-turn-3">End of Turn 3</h3>
-              
-              <p class="turn-sequence">Briefly recap the turn for both sides.</p>
-              
-              <p>This was a terrible end of turn for the CW forces, and recaps how lucky
-              the Italians have been with surprise rolls and combat results. I do not
-              see how the CW can achieve push the Italians out of Egypt in 3 turns,
-              but let's see what happens.</p>
-              
-              <h2 id="turn-4">Turn 4</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <p>Given that the Italians don't really have to do a whole lot to win,
-              their next move should be to consolidate a defense in depth on the
-              Libyan border. Make the CW come to them, and make them pay to get
-              through. Historically, the CW didn't get to Bardia until many days after
-              capturing Sollum, so this has some historical justification. The second
-              important thing is to ensure the CW cannot flank around Halfaya Pass to
-              cut off forward units from the supply in Bardia.</p>
-              
-              <p>The CW is in a major pickle. Historically, some bold moves toppled the
-              Italian defenders quickly. In this universe, the Italians sacced up and
-              punched back pretty hard. The CW has two options: 1. make a run for
-              Halfaya Pass and try to cut off the Italian consolidation, and, or 2.
-              attempt to flank the Italians to cut them off from Bardia.</p>
-              
-              <p>Game is half over, but the outcome is still uncertain.</p>
-              
-              <h3 id="pre-turn-phase-3">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Weather is Rainstorm.</p>
-              
-              <p>Italians get the initiative for Turn 4.</p>
-              
-              <h3 id="italian-turn-2">Italian Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Italian goal this turn.</p>
-              
-              <p>As mentioned above, the Italians will consolidate around Halfaya Pass,
-              while putting out some roadblocks to prevent flanking cut off from
-              Bardia.</p>
-              
-              <h4 id="aircraft-refit-6">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Done.</p>
-              
-              <h4 id="reinforcement-6">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Bardia.</p>
-              
-              <h4 id="movement-6">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-              </ol>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-              </ol>
-              
-              <ol class="turn-sequence">
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>Computing supply needs, looks like the Italians can get what they want
-              with only 4 ticks.</p>
-              
-              <p>Italians bunch up to protect supply lines, it's a rain turn, no problem
-              with air barrage.</p>
-              
-              <p>I forgot to restock 1 Lib last turn, I need to do that now and give it a
-              tick to move it. That cost 3 ticks, but the unit is now lodged in
-              Halfaya pass, and it's AR 3, which will stiffen the AR 1 division
-              already in place.</p>
-              
-              <h4 id="supply-6">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All Italian units are in supply.</p>
-              
-              <h4 id="reaction-phase-6">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="combat-phase-6">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>The only combat for the Italians this turn is a 3T barrage on Strafer
-              Gott. If this works, it will definitely mess up the CW in a big way.
-              Actually that was a huge waste as it's a 3 column shift without a
-              spotter. Bummer for the Italians.</p>
-              
-              <p>Italians don't have enough supply to do much more without burning supply
-              which may be necessary in the next two turns.</p>
-              
-              <h4 id="exploitation-phase-6">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="italian-clean-up-phase-3">Italian clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>Nothing to do here.</p>
-              
-              <h3 id="allies-turn">Allies Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Allies goal this turn.</p>
-              
-              <p>The CW has some very hard choices to make. While Sidi el Barrani has
-              been abandoned, most of the defending units are still in play, and
-              headed to Halfaya Pass. It looks like a Hail Mary is needed. Which sort
-              of makes sense as extreme boldness was what gave the battle to the CW
-              historically. The question is will the dice play ball. Stay tuned and
-              find out.</p>
-              
-              <h4 id="aircraft-refit-7">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Not refitting this turn, rain.</p>
-              
-              <h4 id="reinforcement-7">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Mersah Matruh.</p>
-              
-              <h4 id="movement-7">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>This is a big turn for the CW.</p>
-              
-              <p>Fuel 7 Armor, 4 Indian and 6 Australian.</p>
-              
-              <p>7 Armor moves to Halfaya Pass.  I don't have enough units in the same
-              stack to overrun, and wouldn't have enough supply so to do anyway. It's
-              going to be a slugfest in close terrain.</p>
-              
-              <h4 id="supply-7">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All CW units in supply.</p>
-              
-              <h4 id="reaction-phase-7">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="combat-phase-7">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>This could be ugly. It's a bit less than 1:1 raw, which rounds to 1:1,
-              but in close terrain. The CW needs surprise here very badly. If they get
-              a defender surprise, I'm probably going to call the game. Roll 8/4,
-              using Strafer Gott we get an AR differential of 6 - 3 = +3 for 10,
-              attacker surprise with 4 right shift. Excellent, CW is still in the
-              game. Roll 9 + 3 for 12 on <code>Ao1e4DLo2</code>.</p>
-              
-              <p>Getting the Exploit result might be a game winner for the CW.</p>
-              
-              <p>The Italians made a mistake by not leaving a unit in 41.28, because they
-              have to retreat…ah, OCS allows defending units to retreat in different
-              directions.</p>
-              
-              <h4 id="exploitation-phase-7">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>By 5.9, I can move up to half the MF in Exploitation mode.</p>
-              
-              <p>Strafer Gott is going for broke, taking on the 201 MG south of Sollum.
-              If this works, huge number of Italians will attrit away. If it doesn't,
-              the CW is toast.</p>
-              
-              <p>Roll 9/3 which is 9 + 4 attacker surprise with 3 column shift in clear
-              terrain, roll 11 + 4, max damage on defender, no damage on attacker.
-              Strafer Gott is wounded, out until May 1941. If the CW retains intiative
-              it will go well for them. If the Italians get it, won't go well.</p>
-              
-              <h4 id="allies-clean-up-phase">Allies clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Italian player.</li>
-              </ul>
-              
-              <p>DG comes off of 2 RTR.</p>
-              
-              <h3 id="end-of-turn-4">End of Turn 4</h3>
-              
-              <p class="turn-sequence">Briefly recap the turn for both sides.</p>
-              
-              <p>The Allies had some major success on this turn. If they get lucky, they
-              won't get put out of supply and lose all the gains. The Italians may
-              indeed cut them off, but they have to check for supply before going into
-              combat, and will have to do combat on internal stocks, which will eat up
-              their existing supplies pretty badly when they restock.</p>
-              
-              <h2 id="turn-5">Turn 5</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <p>Succinctly, the Allies need to attrit as many Italians around Buq Buq as
-              possible, and the Italians need to 1. break through for supply, and 2.
-              attempt to cut the CW supply lines.</p>
-              
-              <h3 id="pre-turn-phase-4">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Weather is clear, Italians get the initiative.</p>
-              
-              <h3 id="italian-turn-3">Italian Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Italian goal this turn.</p>
-              
-              <p>Two main efforts this turn:</p>
-              
-              <ol>
-                <li>Cut off supply line for 7 Armor,</li>
-                <li>Break through to Sollum.</li>
-              </ol>
-              
-              <h4 id="aircraft-refit-8">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Aircraft were refit last turn, all ready to go.</p>
-              
-              <h4 id="reinforcement-8">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Bardia.</p>
-              
-              <h4 id="movement-8">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-              </ol>
-              
-              <p>Italians at Buq Buq are definitely out of trace supply.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-              </ol>
-              
-              <p>Leg units move up to Sollum area, everything which doesn't attrit will
-              attempt to attack on internal stocks. Odds are good, AR differential is
-              crap.</p>
-              
-              <ol class="turn-sequence">
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <p>MARK</p>
-              
-              <h4 id="supply-8">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <ul>
-                <li>28 ID gone.</li>
-                <li>3 Jan ID gone.</li>
-                <li>1 Ctnrz down 2 steps.</li>
-                <li>2 Lib gone.</li>
-                <li>30 Gaf.</li>
-                <li>205 MG</li>
-                <li>1 Lib</li>
-                <li>64 MG</li>
-                <li>63 Lt</li>
-              </ul>
-              
-              <p>Dang. The Italians waited a little too long to make their move. But the
-              CW did get pretty lucky on those surprise rolls.</p>
-              
-              <h4 id="reaction-phase-8">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="combat-phase-8">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>3 combats to handle, and with luck, the Italians can wipe out the CW
-              advance.</p>
-              
-              <p>First, the Ragg. group attempts an overrun on 7 Hus. No surprise, odds
-              3:1 in the clear, -1 DRM for AR differential +1 for Ragg. command, roll
-              5 on 3:1 in the clear, <code>AL1Do1</code>, defender retreats. This is a sad result
-              for the Italians, as that was their best unit here.</p>
-              
-              <p>Next, try to take out most of remaining 7 Armor, will be 6:1 roll
-              surprise 10/6 - 3, actually they have no chance, AR differential too
-              large. Roll combat 9 - 2 for <code>Ao1DL1o1</code>, 7 Hus is done, 1 RTR retreat
-              down the escarpment. This is doable for the CW. Maybe not for the win in
-              6 turns, but the tide has turned I think. Actually, if the CW can clear
-              Sollum, they may be able to turn the flank and cut the rest of the
-              Italians off.</p>
-              
-              <p>Last, 1:1 on remnants of 7 Armor, no surprise, roll 4 for <code>AL2</code>, no big
-              deal, but this puts 7 Armor in Low supply from having to use internal
-              stocks. The Italian units here were 202 MG and Ctnzr, 202 leading and
-              elmininated. This preserves the Italian supply block on 7 Armor.</p>
-              
-              <h4 id="exploitation-phase-8">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="italian-clean-up-phase-4">Italian clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>All good.</p>
-              
-              <h3 id="allies-turn-1">Allies Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Allies goal this turn.</p>
-              
-              <p>First priority is rescuing 7 Armor. It did a great job choking off the
-              Italians, now it's time to fetch the remnants if possible.</p>
-              
-              <h4 id="aircraft-refit-9">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Refit the Blen IV for air dropping.</p>
-              
-              <h4 id="reinforcement-9">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>2 SP at Mersah Matruh.</p>
-              
-              <h4 id="movement-9">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Negate some ZOCs to allow 6 Aus overrun remainder of Ctnzr. Surprise
-              roll fails, 3:1 roll 7 + 1 for <code>Ao1DL1o1</code>, Ctnzr is gone and the CW has
-              supply reestablished.</p>
-              
-              <p>Two units of 6 Aus advance into Sollum, roll surprise fails, roll 9 for
-              <code>Ao1Do1</code> Sollum is captured.</p>
-              
-              <p>That's all we got.</p>
-              
-              <h4 id="supply-9">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>CW is in trace.</p>
-              
-              <h4 id="reaction-phase-9">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="combat-phase-9">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>None, no supply available for fighting.</p>
-              
-              <h4 id="exploitation-phase-9">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>None.</p>
-              
-              <h4 id="allies-clean-up-phase-1">Allies clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Italian player.</li>
-              </ul>
-              
-              <p>Good to go.</p>
-              
-              <h3 id="end-of-turn-5">End of Turn 5</h3>
-              
-              <p class="turn-sequence">Briefly recap the turn for both sides.</p>
-              
-              <p>I'm calling it here, as the CW just won't have enough supply to even
-              move to flank, despite taking Sollum. If there was even one more turn,
-              CW would have it. But going into Low and Exhausted precludes getting
-              enough supply forward to finishing next turn, even if the CW got the
-              initiative.</p>
-              
-              <p>Pretty good game overall. I need to play this opposed some time.</p>
-              
-              <hr />
-              
-              <h2 id="aar">AAR</h2>
-              
-              <p>Questions:</p>
-              
-              <ul>
-                <li>
-                  <p>What's the difference between motorized and mechanized?</p>
-                </li>
-                <li>
-                  <p>Can I move 1T from Bardia to Sidi el Barrani per turn via sea shipping?</p>
-                </li>
-                <li>
-                  <p>SP for refits I'm taking from within draw range, that is, 5 truck MF.
-              For airdrops, I'm requiring the T for dropping need to be on the
-              airfield when the turn of the airdrop kicks off.</p>
-                </li>
-                <li>
-                  <p>Not clear on drawing from organic trucks to mitigate being out of
-              throw. The rules seem to either be contradictory or the case is
-              irrelevant. The idea is one can use Internal Stock if out of trace,
-              unless an organic truck is within throw, in which case (I read) one
-              can use Internal Stocks <em>from</em> the trucks, which still leaves a Low
-              marker. That makes no sense. Better to leave the SP on the trucks for
-              the following turn.</p>
-                </li>
-              </ul>
-              
-              <h3 id="various-rules-of-interest">Various rules of interest</h3>
-              
-              <ul>
-                <li>
-                  <p>13.6c Transport points enter the board loaded if entering colocated
-              with a dump. I'm taking that to mean in this game that the 1T transport
-              at Mersah Matruh comes in loaded. It doesn't matter a lot, but mattering
-              a little might matter a lot in the long run.</p>
-                </li>
-                <li>
-                  <p>Would be good to get clarity on the supply situation in Turn 2 for 4
-              Indian. I think I played it correctly.</p>
-                </li>
-              </ul>
-              
-              <h3 id="questions">Questions</h3>
-              
-              <ol>
-                <li>The Sea Cap at Bardia is 2T, but the Italian gets 2 SP per turn at Bardia
-              for reinforcements. This implies that Sea Cap at Bardia is irrelevant
-              for this scenario, and that interdiction or Sea Cap destruction is
-              irrelevant. Is this in fact true?</li>
-              </ol>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2017/07/19/lotr-31-carrock-3.html' rel='prev'>LotR 31 - Carrock 3</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2017/07/21/lotr-32-a-journey-to-rhosgobel-1.html' rel='next'>LotR 32 - A Journey to Rhosgobel (1)</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/ocs.html'>ocs</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/dak-ii.html'>dak-ii</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/operation-compass.html'>operation-compass</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/north-africa.html'>north-africa</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+DAK-II: Operation Compass Redux
+</h1>
+<time class='updated' pubdate=''>Jul 20 2017</time>
+<p>The following posted on BGA, copied here for amusement.</p>
+
+<p>Disclaimer: I still have a solo game of Fire in the Lake going on. I
+took a stab at automating the US bot with Ruby. So far that effort is
+1:0 in the game's favor. But I'll finish it ricky tic, only 39 cards to
+go, lol.</p>
+
+<p>But the pull of hex and counter is mighty. And Jock Campbell is pressing
+to atone for his previous performance the back side of Halfaya Pass (you
+ran out of petrol, Jock? Really?)</p>
+
+<p>Hence, we're back to North Africa for a few weeks to ponder several
+questions. For example, given 1T of trucking, of what use is 3 SP on a
+beach surrounded by wadis, in literally, BFE? Should Maletti try to hold
+Sidi el Barrani, or Buq Buq, or both? Or move LibOp to Halfaya Pass and
+make a stand there?</p>
+
+<p>More importantly, should the Western Desert command attempt to flank and
+isolate Halfaya Pass, which requires a <em>really</em> fragile supply line, or
+just go toe-to-toe with the Italians and retreat them out of Egypt?</p>
+
+<p>Literally, BFE. Whose brilliant idea was that? Is this where the term
+came from? I wouldn't be surprised.</p>
+
+<hr />
+
+<p>The goal for this game is working out the Commonwealth supply situation.
+Without encircling the Italians lodged into Halfaya Pass, it's really
+difficult to dislodge them from Egypt. But it's also very difficult to
+get supply all the way around to the back for any forward CW unit
+(talking to you Jock Stewart). The way the game is going to play out is
+that the Italians will more or less hunker down to preserve their
+positions as best they can, while the Brits figure out how to get the
+supply chain established such that they can threaten Bardia.</p>
+
+<p>A future game may see the Italians attempt a more active role.</p>
+
+<p>While the CW forces are buzzing around, the Italians will be looking for
+targets of opportunity, more to slow and interfere with the Brits than
+attempting to destroy them.</p>
+
+<p>Along the way I intend on digging pretty deep into the OCS rule set,
+with a preliminary intention of memorizing supply rules. Supply is the
+key to this game (OCS), and the less I have to think about it the better.</p>
+
+<p>I will also be using air power this game. The first Operation Compass
+game I played I left the airplanes alone.</p>
+
+<h2 id="some-supply-counting">Some supply counting</h2>
+
+<p>Before getting started, it's worth seeing can be done with supplies.</p>
+
+<p>The first thing is seeing about that dump on the beach, surround by
+wadis and cliffs. This makes it really difficult to move with a 1T
+transport. After spending a leisurely evening counting hexes, the best
+course of action is to use the beach dump for provisioning the organic
+trucks for 7 Armor and 4 Indian.</p>
+
+<p class="center"><img src="/images/dak2/operation-compass-g2-setup.jpg" alt="DAK-2 Operation Compass Commonwealth Supply
+consideration" /></p>
+
+<p>These two divisions can use it up within 2-3 turns, easily. In the
+meantime, the 1T truck has little choice other than to shuttle as much
+of the supply at Mersah Matruh as far forward as possible. This can be
+used to provision the Western Desert HQ.</p>
+
+<h2 id="game-turn-1">Game Turn 1</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<p>The Italians are probably going to sit this turn out to see what the CW
+forces get up to.</p>
+
+<p>The CW is going to <em>not</em> move too far west on this first turn, in favor
+of spending a turn getting another SP into throw range of Western
+Desert. We'll see how that works out.</p>
+
+<h3 id="pre-turn-phase">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Roll 4-1, clear weather.</p>
+
+<h3 id="commonwealth-turn">Commonwealth Turn</h3>
+
+<p class="turn-sequence">Brief summary of CW goal this turn.</p>
+
+<p>Commonwealth has a couple of goals this turn:</p>
+
+<ol>
+  <li>Get the supply off the beach.</li>
+  <li>Move as many T forward as possible given 1T transport.</li>
+  <li>Position the WD HQ and supporting units to pester Maletti at Sidi el
+Barrani.</li>
+  <li>Move as much of 7 Armor and 4 Indian as possible to the west, without
+getting out of supply, and without inviting counter-attack by Italian in
+  hedgehogs. This will be the main positioning.</li>
+</ol>
+
+<h4 id="aircraft-refit">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>No aircraft to refit this turn.</p>
+
+<h4 id="reinforcement">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>Bring in 2 SP to Mersah Matruh.</p>
+
+<h4 id="movement">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+</ol>
+
+<p>Nothing to do here.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+</ol>
+
+<p>Lots going on:</p>
+
+<ol>
+  <li>
+    <p>7 Armor and 4 Indian fuel up from organic trucks, then the trucks
+make a round trip to BFE to restock, and can make it all the way back
+to their starting hex, just barely. This will allow fueling up next
+turn.</p>
+  </li>
+  <li>
+    <p>2T moved forward. The transport can't make a full 2T every turn,
+probably 5T every 3 turns. We'll see how it works. 6 Aus coming in
+will help.</p>
+  </li>
+  <li>
+    <p>3 and 8 Hus overrun VEC in hex 36.13. Roll 2 + 6! Snake eyes! And a a
+boxcar! There is no worse result for overrun! Dang! The odds go to
+1:5, roll 7 + 2 for morale, net 9 for <code>AL1o1Do1</code>.</p>
+  </li>
+  <li>
+    <p>Try again with Strafer Gott and 7 &amp; 11 Hus, and 2 &amp; 6 RTR. No
+surprise either way on this one, but the Brits did manage to get a
+<code>DL1</code> but had to retreat rather than carry on through the overrun.
+Was really hoping to keep going.</p>
+
+    <p>After this movement, we have a huge, 5 RE stack packed up on the
+plateau, and vulnerable to air barrage. Accordingly, the Blen IV
+makes a barrage run on the strip at Amseet, as will be described
+below.</p>
+  </li>
+  <li>
+    <p>Elements of 4 Indian move west across wadi and halt.</p>
+  </li>
+  <li>
+    <p>Pay 1T to fuel the WD HQ. This will need to move west for at least a
+couple of turns.</p>
+  </li>
+  <li>
+    <p>Remaining 4 Ind and 7 Armor units moved west.</p>
+  </li>
+</ol>
+
+<ol class="turn-sequence">
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>Blen IV attacks airbase at Amseet, is intercepted by CR.42, who is lame
+and rolls 3/3 on the Air Combat table. This results in an Abort with No
+Effect, i.e., no step loss but CR.42 returns to strip as Inactive.
+Flak fails. Now for the barrage: 4/4, no effect.</p>
+
+<p>Naval barrage is no effect.</p>
+
+<h4 id="supply">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All CW units in supply.</p>
+
+<h4 id="reaction-phase">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<p>No Italian units in reaction.</p>
+
+<h4 id="combat-phase">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>No barrage or combat this turn. Poxy overruns.</p>
+
+<h4 id="exploitation-phase">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Nothing to exploit.</p>
+
+<h4 id="commonwealth-clean-up-phase">Commonwealth clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>I think is it for the CW this turn. The overrun failures really stung,
+and that can't happen again, really need to perform here.</p>
+
+<h3 id="italian-turn">Italian Turn</h3>
+
+<p class="turn-sequence">Brief summary of Italian goal this turn.</p>
+
+<p>Main goal of Italian is disrupting the big 7 Armor concentration. If they
+can do this, they have essentially bought another turn.</p>
+
+<h4 id="aircraft-refit-1">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Nothing to refit this turn, the inactive fighter has to wait until next
+turn I'm pretty sure. Maybe should read up on this point. I think I'm
+right, otherwise there would be little motivation to barrage.</p>
+
+<h4 id="reinforcement-1">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Bardia.</p>
+
+<h4 id="movement-1">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Italians reposition a leg unit to block an approach to Sidi el Barrani.</p>
+
+<p>Air barrage on 7 Armor, first roll for flak, fails. Interceptions:</p>
+
+<ol>
+  <li>
+    <p>Hurr. 1 vs. SM.79: roll (9+3-1)/6, defender (barrager) aborts inactive with step
+loss.</p>
+  </li>
+  <li>
+    <p>Gladiator vs Ca.309: roll (6 + 2 -0)/1, barrager aborts inactive no step loss.</p>
+  </li>
+</ol>
+
+<p>Very lucky for Brits. This could have been really bad.</p>
+
+<h4 id="supply-1">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All in supply.</p>
+
+<h4 id="reaction-phase-1">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>No reaction phase.</p>
+
+<h4 id="combat-phase-1">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>Nothing.</p>
+
+<h4 id="exploitation-phase-1">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Nothing.</p>
+
+<h4 id="italian-clean-up-phase">Italian clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Italian player.</li>
+</ul>
+
+<p>Nothing.</p>
+
+<h3 id="end-of-turn">End of Turn</h3>
+
+<p class="turn-sequence">Briefly recap the turn for both sides.</p>
+
+<p>The CW really got into a bind with the overrun failures. This was just
+bad luck. The idea here was to clear road to surround the big HQ stack
+in the hedgehog and run it out of supply.</p>
+
+<p>The Italians, having gotten lucky on the overrun defense, just couldn't
+get past the CW interceptors to put the hurting on 7 Armor. And it
+would have been a hurt.</p>
+
+<p>Let's see how the next turn goes.</p>
+
+<h2 id="game-turn-2">Game Turn 2</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<p>Italians are likely going to sit tight, as that's what worked for them
+on the first game.</p>
+
+<p>The CW is going to attempt to get the HQ moved way up to hopefully get
+within range of taking Bardia. Should be able to advance it about half
+the necessary distance this turn.</p>
+
+<h3 id="pre-turn-phase-1">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Weather: clear.</p>
+
+<p>CW player goes first this turn.</p>
+
+<h3 id="commonwealth-turn-1">Commonwealth Turn</h3>
+
+<p class="turn-sequence">Brief summary of Commonwealth goal this turn.</p>
+
+<h4 id="aircraft-refit-2">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<h4 id="reinforcement-2">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<h4 id="movement-2">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+</ol>
+
+<p>Nothing.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+</ol>
+
+<p>Here's the plan:</p>
+
+<ol>
+  <li>
+    <p>7 Armor and 4 Indian organic trucks refuel. The dump at BFE is
+finished. Both divisions are fueled and the trucks are fueled.</p>
+  </li>
+  <li>
+    <p>1T transport continues to shuttle.</p>
+  </li>
+  <li>
+    <p>7 &amp; 11 Hus try to overrun 63 MG, success! Shift 4 right on 3:1, roll
+10 + 3 for 13 on 9:1 for <code>Ae2DL203DG</code> IOW 63 MG is gone.</p>
+  </li>
+</ol>
+
+<p>At this point I need to get rid of the big stack of 21 It. For me to put
+it out of supply renders me out of supply, risking a breakout if that
+unit survives. 7 Armor is going for it for the overrun, there isn't
+enough supply to get a full on combat otherwise. It would halt CW next
+turn.</p>
+
+<ol>
+  <li>
+    <p>7 Armor overruns 21 It: 5 + 3, no overrun, the odds aren't as good,
+but armor, 22:7 as 21 It is out of trace for combat purposes,
+so 3:1, roll 5 + 3 -1 net 7 on 2:1 <code>Al1Do1</code>. Brits
+lose 8 Hus, very painful, Italians lose a step, who gives a shit. This is
+not good for the CW, this is 2 7 Armor units which are eliminated,
+which means it costs real supply to activate independent units.</p>
+
+    <p>Basically, this was a total waste. Good to know.</p>
+  </li>
+  <li>
+    <p>Remaining 7 Armor and 4 Indian surrounding 21 It to try and force an
+attrition from lack of supply.</p>
+  </li>
+</ol>
+
+<ol class="turn-sequence">
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>Blen.IV makes a barrage run on 21 It, flak roll succeeds! Blen loses a
+step! Dang!</p>
+
+<p>Naval barrage east of Sidi el Barrani is no effect.</p>
+
+<p>Not a great turn for the CW.</p>
+
+<h4 id="supply-2">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>This is really, really bad. Four units of 4 Indian are out of supply
+north of the 21 It HQ:</p>
+
+<p class="center"><img src="/images/dak2/operation-compass/g2-t2-4ind-out-of-supply.jpg" alt="4 Indian goes out of
+supply" /></p>
+
+<p>Attrition roll 10 for the east stack, all units lost, roll 5 for the
+west stack, no losses. Bad, really bad. 21 It can probably escape.</p>
+
+<p>Actually, I think the western stack is in trace as the WD HQ can throw
+to the adjacant hex which is ZOC-negated. WD cannot throw to an adjacent
+hex for the eastern stack as 21 It has ZOC on the adjacent hex, and
+wadis cost too much to cross.</p>
+
+<h4 id="reaction-phase-2">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<p>Nothing here.</p>
+
+<h4 id="combat-phase-2">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>No combat this turn, too many steps lost.</p>
+
+<h4 id="exploitation-phase-2">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="cw-clean-up-phase">CW clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>Done.</p>
+
+<h3 id="italian-turn-1">Italian Turn</h3>
+
+<p class="turn-sequence">Brief summary of Italian goal this turn.</p>
+
+<p>The Italians main goals this turn are:</p>
+
+<ol>
+  <li>Saving 21 It,</li>
+  <li>putting pressure on CW rear area supply.</li>
+</ol>
+
+<p>This is going to majorly suck for CW.</p>
+
+<h4 id="aircraft-refit-3">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Refit all aircraft.</p>
+
+<h4 id="reinforcement-3">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Bardia.</p>
+
+<h4 id="movement-3">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Here's where 4 Indian gets destroyed probably.</p>
+
+<ol>
+  <li>
+    <p>21 It moves to block 4 Indian, while leaving an Lt in the original
+hex to stymie escape.</p>
+  </li>
+  <li>
+    <p>Move to surround at Maktila. This is where the fight will be.</p>
+  </li>
+</ol>
+
+<h4 id="supply-3">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All Italian units are now in supply.</p>
+
+<h4 id="reaction-phase-3">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="combat-phase-3">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>At Maktila, defender surprise with 2 shifts, this sucks for the
+Italians, moves it to 1:2, roll 4 - 2 for <code>AL2</code> which will come from
+step losses on the divisional units. Not that big of a deal, really.
+That did cost 7T though. Italians need to move some supplies if
+possible. This shouldn't be a problem, they have 2T of transport at
+Bardia.</p>
+
+<p>That's all the Italians need to do this turn.</p>
+
+<h4 id="exploitation-phase-3">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="italian-clean-up-phase-1">Italian clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Italian player.</li>
+</ul>
+
+<p>Done.</p>
+
+<h3 id="end-of-turn-2">End of Turn 2</h3>
+
+<p class="turn-sequence">Briefly recap the turn for both sides.</p>
+
+<p>This was not a good turn for the Commonwealth! The 4 Indian especially
+took it on the nose. Had the 4 Indian moved up the organic truck, it
+would have been able to eat off the map to stay in supply. Something to
+note for the next game.</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<p>CW needs to make some motion at Sidi el Barrani, and get the Western
+Desert HQ moved another increment west. They will need to clear Maletti.</p>
+
+<p>The Italians need do little more than continue to be very unpleasant
+speed bumps.</p>
+
+<h3 id="pre-turn-phase-2">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Weather is clear.</p>
+
+<p>The Allies have the initiative yet again. Very lucky for them.</p>
+
+<h3 id="allied-turn">Allied Turn</h3>
+
+<p class="turn-sequence">Brief summary of Allied goal this turn.</p>
+
+<p>The absolute minimum goal for this turn is using 6 Aus as a relief force
+to break out the trapped unit on the coast east of Sidi el Barrani. 6
+Aus is going in as an overrun. I may hold the armor unit back in reserve in
+case the overrun fails. After the overrun either succeeds or fails, they
+are going to bombard and attack. There is plenty of supply.</p>
+
+<p>The Blen is going to start transporting T forward as well. Hopefully 2T
+per turn, still reading the rules on that. Since there aren't any
+airbases (only airstrips), supplies will need to be air dropped, which
+risks losing supplies. No big deal, that's how it has to be. The Blen
+has 146 MF, the distance to the target hex I want to use is 18 hexes.
+I'm going to combine rules for Air Transport and Air Drop and allow the
+Blen to make 2 trips for 2T moved, then go inactive at its home base.</p>
+
+<p>Western Desert:</p>
+
+<h4 id="aircraft-refit-4">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Having to read back through to see which CW aircraft need refitting, if
+any. Two of them are at airfields which are printed on the map, so it's
+not clear, and I don't have markers for, which are needing refitting.
+Looks like only the Blen needs refitting. Spend 1T.</p>
+
+<h4 id="reinforcement-4">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Mersah.</p>
+
+<h4 id="movement-4">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+</ol>
+
+<p>None.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+</ol>
+
+<p>Here's the plan:</p>
+
+<ol>
+  <li>
+    <p>6 Aus moves from Mersah Matruh to overrun (8.0) ar 42.15. Odds are
+22:3, which is 7:1, one shift for AR (Aus is Green). Defenders need 1T
+from Sidi, 1T from Buq Buq. 6 Aus spends 4T to attack. Roll for
+surprise 3/4, that's defender surprise with 4 shifts left. Dang. This is
+the second or third time (at least) this game where defender has gained
+huge surprise. This will damage 6 Aus, not good having divisional units
+eliminated. Roll 8 + 1 net 9 <code>Ao1Do1</code> 6 Aus has to power on as there are
+trapped units behind these Italians, eliminate 6 Aus 19 Mech and It 6 Lt.
+6 Aus goes again, no choice, roll 7 + 1 no surprise, roll 7 + 1 for 8
+yields <code>Ao e4 1DL1o2</code>. CW takes the option to retreat, the Italians have
+a mandatory loss. This will let the trapped Brits move 1 hex east into
+supply.</p>
+  </li>
+  <li>
+    <p>Trapped units just east of Maktili move east and southeast to get
+another crack at the Italians. They're in throw range of Mersah, no
+reason not to go for it. They're also non-divisional units, easier to
+lose. Since these are all leg units, no supply necessary to move.</p>
+  </li>
+  <li>
+    <p>1T to Bir Emba, other T failed the Air Drop. I replaced those dice,
+low rolling sons of bitches. Blen inactive at Mersah.</p>
+  </li>
+  <li>
+    <p>7 Arm 2 &amp; 6 RTR move on the Ciran ID. This is an 18:12, but we have
+surprise for a 2 shift and +3 for morale roll, combat roll 9 + 3 net
+12 on 4:1 in the clear for <code>Ae4DL1o2</code>. This is another step loss for
+Ciran, and it moves down the escarpment. This also puts Ciran in
+Exhausted and DG and I don't think there are any more supplies coming for this
+unit. 2 &amp; 6 RTR have just enough movement to overrun again. Roll for
+surprise 6 + 4 (Ciran AR 1 for DG) yields surprise shift 5. Ok, not sure
+what the odds are… 14:3 which is 5:1, roll 6 + 4/6 for surprise, Ciran
+is toast. Boxcars on 13:1, <code>DL2</code> with a bunch more stuff which doesn't
+matter here.</p>
+  </li>
+  <li>
+    <p>A few other units poking around to ensure supply lines are in place
+at least for this turn. The Its will almost surely bust these up, being
+trapped in and around Sidi, they have nothing to lose at this point.</p>
+  </li>
+</ol>
+
+<ol class="turn-sequence">
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="supply-4">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All CW in trace supply for now.</p>
+
+<h4 id="reaction-phase-4">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<h4 id="combat-phase-4">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>4 Ind and 3 Batt take on 1 Lib, roll surprise 4/6 (!!!!!!!!) 3 Batt
+leading, crap, really surprised. Roll combat 7 - 1 for <code>AL1o1</code>. Weep.</p>
+
+<h4 id="exploitation-phase-4">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>No exploitation this turn.</p>
+
+<h4 id="cw-clean-up-phase-1">CW clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>Done.</p>
+
+<h3 id="italian-turn-3">Italian Turn 3</h3>
+
+<p class="turn-sequence">Brief summary of Allies goal this turn.</p>
+
+<p>If the Italians can stay 2 more turns in the Sidi el Barrani area, there
+is almost no way the CW can win it. Let's see if we can make that
+happen. The big question is how supply is treated at Sidi el Barrani, as
+2 &amp; 6 RTR is nearly cutting off trace, which would mean no throw
+available.</p>
+
+<p class="center"><img src="/images/dak2/operation-compass/g2-axis-t3.jpg" alt="Situation facing Italian Turn
+3" /></p>
+
+<h4 id="aircraft-refit-5">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Spend 3T to refit at all airfields.</p>
+
+<h4 id="reinforcement-5">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Bardia.</p>
+
+<h4 id="movement-5">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>This is where the action really is, what the Italians do this turn will
+matter a lot for the rest of the game. Specifically, whether the
+Italians can get Sidi AO into supply. It's doable, and may be able to
+drive 2 &amp; 6 RTR back a hex or two.</p>
+
+<p>Some of the larger divisions have moved up as well. I don't think this
+will be a "last stand" for the Italians, but it will seriously impede CW
+forces, if not push the back outright. Here's what it looks like at the
+end of movement phase.</p>
+
+<p class="center"><img src="/images/dak2/operation-compass/g2-t3-it-buq-buq.jpg" alt="Italians attempting to beat back Brits at Buq
+Buq" /></p>
+
+<p>It was a tough decision to put the 28 ID blocking the trail rather than
+moving it up to fight with 2 &amp; 6 RTR, but the Italians really, really
+don't want the Brits getting a foothold west of Buq Buq. I could have
+put 30 GAF there, and maybe that would have been better.</p>
+
+<p>Sadly, the Italians neglected to move any T to airfields where they
+could be airdropped to Sidi el Barrani. This would allow them to fuel up
+and move west instead of being speed bumps. Will do the fuel movement
+right now.</p>
+
+<h4 id="supply-5">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>I think all the units which can trace to Sidi el Barrani are in trace.
+In fact, I think I have "coastal shipping" which allows me to move 1T
+per turn from Bardia to Sidi.</p>
+
+<p>But 21 Corps HQ and 20 Lt have to roll for attrition:</p>
+
+<ul>
+  <li>21 Corps: AR 0, eliminated.</li>
+  <li>20 Lt, roll 6, <code>-2</code>, eliminated.</li>
+</ul>
+
+<p>This is not a surprise.</p>
+
+<h4 id="reaction-phase-5">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="combat-phase-5">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>Big battle coming at Buq Buq. The Italians have a good shot at putting
+more hurt on the Brits, who are really strung out in a very narrow
+salient.</p>
+
+<p>First up is an artillery barrage from 30 GAF which <code>DG</code> the brits, bad
+news for them.</p>
+
+<p>The raw odds are 22:7, which is now 22:8, which is 5.5:1 which is 6:1,
+roll surprise for even AR, no surprise. Roll 8 which <code>Ao1DL1o1</code>. This
+takes out the Italian Sahara but also the 6 RTR. This is a <em>very</em> bad
+blow for the CW forces. The Italians advance, preserving the supply line
+to Sidi el Barrani.</p>
+
+<h4 id="exploitation-phase-5">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="italian-clean-up-phase-2">Italian clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<h3 id="end-of-turn-3">End of Turn 3</h3>
+
+<p class="turn-sequence">Briefly recap the turn for both sides.</p>
+
+<p>This was a terrible end of turn for the CW forces, and recaps how lucky
+the Italians have been with surprise rolls and combat results. I do not
+see how the CW can achieve push the Italians out of Egypt in 3 turns,
+but let's see what happens.</p>
+
+<h2 id="turn-4">Turn 4</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<p>Given that the Italians don't really have to do a whole lot to win,
+their next move should be to consolidate a defense in depth on the
+Libyan border. Make the CW come to them, and make them pay to get
+through. Historically, the CW didn't get to Bardia until many days after
+capturing Sollum, so this has some historical justification. The second
+important thing is to ensure the CW cannot flank around Halfaya Pass to
+cut off forward units from the supply in Bardia.</p>
+
+<p>The CW is in a major pickle. Historically, some bold moves toppled the
+Italian defenders quickly. In this universe, the Italians sacced up and
+punched back pretty hard. The CW has two options: 1. make a run for
+Halfaya Pass and try to cut off the Italian consolidation, and, or 2.
+attempt to flank the Italians to cut them off from Bardia.</p>
+
+<p>Game is half over, but the outcome is still uncertain.</p>
+
+<h3 id="pre-turn-phase-3">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Weather is Rainstorm.</p>
+
+<p>Italians get the initiative for Turn 4.</p>
+
+<h3 id="italian-turn-2">Italian Turn</h3>
+
+<p class="turn-sequence">Brief summary of Italian goal this turn.</p>
+
+<p>As mentioned above, the Italians will consolidate around Halfaya Pass,
+while putting out some roadblocks to prevent flanking cut off from
+Bardia.</p>
+
+<h4 id="aircraft-refit-6">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Done.</p>
+
+<h4 id="reinforcement-6">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Bardia.</p>
+
+<h4 id="movement-6">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+</ol>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+</ol>
+
+<ol class="turn-sequence">
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>Computing supply needs, looks like the Italians can get what they want
+with only 4 ticks.</p>
+
+<p>Italians bunch up to protect supply lines, it's a rain turn, no problem
+with air barrage.</p>
+
+<p>I forgot to restock 1 Lib last turn, I need to do that now and give it a
+tick to move it. That cost 3 ticks, but the unit is now lodged in
+Halfaya pass, and it's AR 3, which will stiffen the AR 1 division
+already in place.</p>
+
+<h4 id="supply-6">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All Italian units are in supply.</p>
+
+<h4 id="reaction-phase-6">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="combat-phase-6">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>The only combat for the Italians this turn is a 3T barrage on Strafer
+Gott. If this works, it will definitely mess up the CW in a big way.
+Actually that was a huge waste as it's a 3 column shift without a
+spotter. Bummer for the Italians.</p>
+
+<p>Italians don't have enough supply to do much more without burning supply
+which may be necessary in the next two turns.</p>
+
+<h4 id="exploitation-phase-6">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="italian-clean-up-phase-3">Italian clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>Nothing to do here.</p>
+
+<h3 id="allies-turn">Allies Turn</h3>
+
+<p class="turn-sequence">Brief summary of Allies goal this turn.</p>
+
+<p>The CW has some very hard choices to make. While Sidi el Barrani has
+been abandoned, most of the defending units are still in play, and
+headed to Halfaya Pass. It looks like a Hail Mary is needed. Which sort
+of makes sense as extreme boldness was what gave the battle to the CW
+historically. The question is will the dice play ball. Stay tuned and
+find out.</p>
+
+<h4 id="aircraft-refit-7">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Not refitting this turn, rain.</p>
+
+<h4 id="reinforcement-7">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Mersah Matruh.</p>
+
+<h4 id="movement-7">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>This is a big turn for the CW.</p>
+
+<p>Fuel 7 Armor, 4 Indian and 6 Australian.</p>
+
+<p>7 Armor moves to Halfaya Pass.  I don't have enough units in the same
+stack to overrun, and wouldn't have enough supply so to do anyway. It's
+going to be a slugfest in close terrain.</p>
+
+<h4 id="supply-7">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All CW units in supply.</p>
+
+<h4 id="reaction-phase-7">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="combat-phase-7">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>This could be ugly. It's a bit less than 1:1 raw, which rounds to 1:1,
+but in close terrain. The CW needs surprise here very badly. If they get
+a defender surprise, I'm probably going to call the game. Roll 8/4,
+using Strafer Gott we get an AR differential of 6 - 3 = +3 for 10,
+attacker surprise with 4 right shift. Excellent, CW is still in the
+game. Roll 9 + 3 for 12 on <code>Ao1e4DLo2</code>.</p>
+
+<p>Getting the Exploit result might be a game winner for the CW.</p>
+
+<p>The Italians made a mistake by not leaving a unit in 41.28, because they
+have to retreat…ah, OCS allows defending units to retreat in different
+directions.</p>
+
+<h4 id="exploitation-phase-7">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>By 5.9, I can move up to half the MF in Exploitation mode.</p>
+
+<p>Strafer Gott is going for broke, taking on the 201 MG south of Sollum.
+If this works, huge number of Italians will attrit away. If it doesn't,
+the CW is toast.</p>
+
+<p>Roll 9/3 which is 9 + 4 attacker surprise with 3 column shift in clear
+terrain, roll 11 + 4, max damage on defender, no damage on attacker.
+Strafer Gott is wounded, out until May 1941. If the CW retains intiative
+it will go well for them. If the Italians get it, won't go well.</p>
+
+<h4 id="allies-clean-up-phase">Allies clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Italian player.</li>
+</ul>
+
+<p>DG comes off of 2 RTR.</p>
+
+<h3 id="end-of-turn-4">End of Turn 4</h3>
+
+<p class="turn-sequence">Briefly recap the turn for both sides.</p>
+
+<p>The Allies had some major success on this turn. If they get lucky, they
+won't get put out of supply and lose all the gains. The Italians may
+indeed cut them off, but they have to check for supply before going into
+combat, and will have to do combat on internal stocks, which will eat up
+their existing supplies pretty badly when they restock.</p>
+
+<h2 id="turn-5">Turn 5</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<p>Succinctly, the Allies need to attrit as many Italians around Buq Buq as
+possible, and the Italians need to 1. break through for supply, and 2.
+attempt to cut the CW supply lines.</p>
+
+<h3 id="pre-turn-phase-4">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Weather is clear, Italians get the initiative.</p>
+
+<h3 id="italian-turn-3">Italian Turn</h3>
+
+<p class="turn-sequence">Brief summary of Italian goal this turn.</p>
+
+<p>Two main efforts this turn:</p>
+
+<ol>
+  <li>Cut off supply line for 7 Armor,</li>
+  <li>Break through to Sollum.</li>
+</ol>
+
+<h4 id="aircraft-refit-8">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Aircraft were refit last turn, all ready to go.</p>
+
+<h4 id="reinforcement-8">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Bardia.</p>
+
+<h4 id="movement-8">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+</ol>
+
+<p>Italians at Buq Buq are definitely out of trace supply.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+</ol>
+
+<p>Leg units move up to Sollum area, everything which doesn't attrit will
+attempt to attack on internal stocks. Odds are good, AR differential is
+crap.</p>
+
+<ol class="turn-sequence">
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>None.</p>
+
+<p>MARK</p>
+
+<h4 id="supply-8">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<ul>
+  <li>28 ID gone.</li>
+  <li>3 Jan ID gone.</li>
+  <li>1 Ctnrz down 2 steps.</li>
+  <li>2 Lib gone.</li>
+  <li>30 Gaf.</li>
+  <li>205 MG</li>
+  <li>1 Lib</li>
+  <li>64 MG</li>
+  <li>63 Lt</li>
+</ul>
+
+<p>Dang. The Italians waited a little too long to make their move. But the
+CW did get pretty lucky on those surprise rolls.</p>
+
+<h4 id="reaction-phase-8">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="combat-phase-8">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>3 combats to handle, and with luck, the Italians can wipe out the CW
+advance.</p>
+
+<p>First, the Ragg. group attempts an overrun on 7 Hus. No surprise, odds
+3:1 in the clear, -1 DRM for AR differential +1 for Ragg. command, roll
+5 on 3:1 in the clear, <code>AL1Do1</code>, defender retreats. This is a sad result
+for the Italians, as that was their best unit here.</p>
+
+<p>Next, try to take out most of remaining 7 Armor, will be 6:1 roll
+surprise 10/6 - 3, actually they have no chance, AR differential too
+large. Roll combat 9 - 2 for <code>Ao1DL1o1</code>, 7 Hus is done, 1 RTR retreat
+down the escarpment. This is doable for the CW. Maybe not for the win in
+6 turns, but the tide has turned I think. Actually, if the CW can clear
+Sollum, they may be able to turn the flank and cut the rest of the
+Italians off.</p>
+
+<p>Last, 1:1 on remnants of 7 Armor, no surprise, roll 4 for <code>AL2</code>, no big
+deal, but this puts 7 Armor in Low supply from having to use internal
+stocks. The Italian units here were 202 MG and Ctnzr, 202 leading and
+elmininated. This preserves the Italian supply block on 7 Armor.</p>
+
+<h4 id="exploitation-phase-8">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="italian-clean-up-phase-4">Italian clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>All good.</p>
+
+<h3 id="allies-turn-1">Allies Turn</h3>
+
+<p class="turn-sequence">Brief summary of Allies goal this turn.</p>
+
+<p>First priority is rescuing 7 Armor. It did a great job choking off the
+Italians, now it's time to fetch the remnants if possible.</p>
+
+<h4 id="aircraft-refit-9">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Refit the Blen IV for air dropping.</p>
+
+<h4 id="reinforcement-9">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>2 SP at Mersah Matruh.</p>
+
+<h4 id="movement-9">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Negate some ZOCs to allow 6 Aus overrun remainder of Ctnzr. Surprise
+roll fails, 3:1 roll 7 + 1 for <code>Ao1DL1o1</code>, Ctnzr is gone and the CW has
+supply reestablished.</p>
+
+<p>Two units of 6 Aus advance into Sollum, roll surprise fails, roll 9 for
+<code>Ao1Do1</code> Sollum is captured.</p>
+
+<p>That's all we got.</p>
+
+<h4 id="supply-9">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>CW is in trace.</p>
+
+<h4 id="reaction-phase-9">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="combat-phase-9">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>None, no supply available for fighting.</p>
+
+<h4 id="exploitation-phase-9">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>None.</p>
+
+<h4 id="allies-clean-up-phase-1">Allies clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Italian player.</li>
+</ul>
+
+<p>Good to go.</p>
+
+<h3 id="end-of-turn-5">End of Turn 5</h3>
+
+<p class="turn-sequence">Briefly recap the turn for both sides.</p>
+
+<p>I'm calling it here, as the CW just won't have enough supply to even
+move to flank, despite taking Sollum. If there was even one more turn,
+CW would have it. But going into Low and Exhausted precludes getting
+enough supply forward to finishing next turn, even if the CW got the
+initiative.</p>
+
+<p>Pretty good game overall. I need to play this opposed some time.</p>
+
+<hr />
+
+<h2 id="aar">AAR</h2>
+
+<p>Questions:</p>
+
+<ul>
+  <li>
+    <p>What's the difference between motorized and mechanized?</p>
+  </li>
+  <li>
+    <p>Can I move 1T from Bardia to Sidi el Barrani per turn via sea shipping?</p>
+  </li>
+  <li>
+    <p>SP for refits I'm taking from within draw range, that is, 5 truck MF.
+For airdrops, I'm requiring the T for dropping need to be on the
+airfield when the turn of the airdrop kicks off.</p>
+  </li>
+  <li>
+    <p>Not clear on drawing from organic trucks to mitigate being out of
+throw. The rules seem to either be contradictory or the case is
+irrelevant. The idea is one can use Internal Stock if out of trace,
+unless an organic truck is within throw, in which case (I read) one
+can use Internal Stocks <em>from</em> the trucks, which still leaves a Low
+marker. That makes no sense. Better to leave the SP on the trucks for
+the following turn.</p>
+  </li>
+</ul>
+
+<h3 id="various-rules-of-interest">Various rules of interest</h3>
+
+<ul>
+  <li>
+    <p>13.6c Transport points enter the board loaded if entering colocated
+with a dump. I'm taking that to mean in this game that the 1T transport
+at Mersah Matruh comes in loaded. It doesn't matter a lot, but mattering
+a little might matter a lot in the long run.</p>
+  </li>
+  <li>
+    <p>Would be good to get clarity on the supply situation in Turn 2 for 4
+Indian. I think I played it correctly.</p>
+  </li>
+</ul>
+
+<h3 id="questions">Questions</h3>
+
+<ol>
+  <li>The Sea Cap at Bardia is 2T, but the Italian gets 2 SP per turn at Bardia
+for reinforcements. This implies that Sea Cap at Bardia is irrelevant
+for this scenario, and that interdiction or Sea Cap destruction is
+irrelevant. Is this in fact true?</li>
+</ol>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2017/07/19/lotr-31-carrock-3.html' rel='prev'>LotR 31 - Carrock 3</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2017/07/21/lotr-32-a-journey-to-rhosgobel-1.html' rel='next'>LotR 32 - A Journey to Rhosgobel (1)</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/ocs.html'>ocs</a>
+</li>
+<li class='tag'>
+<a href='/tags/dak-ii.html'>dak-ii</a>
+</li>
+<li class='tag'>
+<a href='/tags/operation-compass.html'>operation-compass</a>
+</li>
+<li class='tag'>
+<a href='/tags/north-africa.html'>north-africa</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

@@ -1,233 +1,240 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-    <link href="/stylesheets/pb.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-12'>
-            <header>
-              <nav class='navbar navbar-default' role='navigation'>
-                <div class='container' style='background-color: black;'>
-                  <ul class='nav navbar-nav'>
-                    <li>
-                      <a href='/about.html'>About</a>
-                    </li>
-                    <li>
-                      <a href='/'>ConSim home</a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz'>PanzerBlitz home</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Playing aids
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Games
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/games/'>Overview</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/balance.html'>Balance</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz/firefights'>Firefights</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Tactical examples
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Source code
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
-                          </li>
-                          <li>
-                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <h1 id="roads-in-panzerblitz">Roads in PanzerBlitz</h1>
-            
-            <p>From "Stalingrad to Berlin" we have this photo of a Russian highway:</p>
-            
-            <p><img alt="Russian highway, WWII era" src="/images/USA-EF-Defeat-p7.jpg" /></p>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
-              
-              <p>Avalon Hill's PanzerBlitz was a successor to a game called
-              "Tactical Game 3," which was never developed for market. The story can
-              be found on related web sites. What's important here is that the game
-              does have a long and successful history, ultimately selling hundreds
-              of thousands of copies.</p>
-              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
-              
-              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
-              
-              <ul>
-                <li>
-                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
-              Strategist</a>,
-              often referred to as "ImStrat" has an incredible collection of articles,
-              counters, maps and other material related to PanzerBlitz, Panzer Leader
-              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
-                </li>
-                <li>
-                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
-              outstanding resource, also worth hours of reading.</p>
-                </li>
-                <li>
-                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
-              appears to be where a number of current PanzerBlitz players can be
-              found. The forum is relatively relaxed and low traffic, but there is a
-              lot of information available.</p>
-                </li>
-              </ul>
-              
-              <p>There are several more outstanding links which will be added in the
-              future, and if you, the reader, find one of your favorite sites missing,
-              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
-              with the relevant addition.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<link href="/stylesheets/pb.css" rel="stylesheet" />
+</head>
+<body>
+<div id='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<header>
+<nav class='navbar navbar-default' role='navigation'>
+<div class='container' style='background-color: black;'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/'>ConSim home</a>
+</li>
+<li>
+<a href='/panzerblitz'>PanzerBlitz home</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Playing aids
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/playing-aids'>Playing aids</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/games/'>Overview</a>
+</li>
+<li>
+<a href='/panzerblitz/solitaire.html'>Solitaire</a>
+</li>
+<li>
+<a href='/panzerblitz/balance.html'>Balance</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+</li>
+</ul>
+</a>
+</li>
+<li>
+<a href='/panzerblitz/firefights'>Firefights</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Tactical examples
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Source code
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+</li>
+<li>
+<a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+</li>
+<li>
+<a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-8'>
+<h1 id="roads-in-panzerblitz">Roads in PanzerBlitz</h1>
+
+<p>From "Stalingrad to Berlin" we have this photo of a Russian highway:</p>
+
+<p><img src="/images/USA-EF-Defeat-p7.jpg" alt="Russian highway, WWII era" /></p>
+
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+
+<p>Avalon Hill's PanzerBlitz was a successor to a game called
+"Tactical Game 3," which was never developed for market. The story can
+be found on related web sites. What's important here is that the game
+does have a long and successful history, ultimately selling hundreds
+of thousands of copies.</p>
+
+<h3 id="panzerblitz-links">PanzerBlitz links</h3>
+
+<p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+Strategist</a>,
+often referred to as "ImStrat" has an incredible collection of articles,
+counters, maps and other material related to PanzerBlitz, Panzer Leader
+and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+  </li>
+  <li>
+    <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+outstanding resource, also worth hours of reading.</p>
+  </li>
+  <li>
+    <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+appears to be where a number of current PanzerBlitz players can be
+found. The forum is relatively relaxed and low traffic, but there is a
+lot of information available.</p>
+  </li>
+</ul>
+
+<p>There are several more outstanding links which will be added in the
+future, and if you, the reader, find one of your favorite sites missing,
+please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+with the relevant addition.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

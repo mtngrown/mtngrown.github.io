@@ -1,1479 +1,1483 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                Kasserine Pass OCS style
-              </h1>
-              <time class='updated' pubdate=''>Feb 12 2015</time>
-              <hr />
-              <p><i>
-              Some notes on how I'm playing this first game:</i></p>
-              
-              <ul>
-                <li>Combat mode only. I don't think the Germans can even come close to
-              winning this unless they use movement mode, possibly even strat mode,
-              but I want to play it out anyway to see what happens.</li>
-                <li>Trace supply only. I realize this totally breaks the whole notion of
-              OCS, but there are a lot of other mechanics in the OCS rules which I
-              would like to master first. For example, the basic movement, combat
-              and ZOC rules will provide enough challenge for this first play.</li>
-              </ul>
-              
-              <p><i>
-              The result of these simplifications will be interesting, and likely
-              worthy of some discussion.</i></p>
-              
-              <p><i>The risk is that I will learn the rules "wrong," and have to unlearn to
-              proceed further. But the rules aren't so much the issue as learning bad
-              strategy and tactics. Still, trying to digest the whole of OCS rules all
-              at once is just a little much.</i></p>
-              
-              <p><i>What the system needs is a set of scenarios like Operation Starlite in
-              Vietnam 1965-1975, a single turn (or 2 or 3) with very low unit count
-              and simple victory conditions. These scenarios don't even need to be
-              balanced. Central America Scenario 1 is similar.
-              </i></p>
-              
-              <hr />
-              
-              <p>Turn sequence, for convenience.</p>
-              
-              <h2 id="game-turn">Game Turn</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <h3 id="pre-turn-phase">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <h3 id="axis-turn">Axis Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Axis goal this turn.</p>
-              
-              <h4 id="aircraft-refit">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <h4 id="reinforcement">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <h4 id="movement">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <h4 id="supply">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <h4 id="reaction-phase">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <h4 id="combat-phase">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <h4 id="exploitation-phase">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <h4 id="german-clean-up-phase">German clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <h3 id="allies-turn">Allies Turn</h3>
-              
-              <p class="turn-sequence">Brief summary of Allies goal this turn.</p>
-              
-              <h4 id="aircraft-refit-1">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <h4 id="reinforcement-1">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <h4 id="movement-1">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <h4 id="supply-1">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <h4 id="reaction-phase-1">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <h4 id="combat-phase-1">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <h4 id="exploitation-phase-1">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <h4 id="allies-clean-up-phase">Allies clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Axis player.</li>
-              </ul>
-              
-              <h3 id="end-of-turn">End of Turn</h3>
-              
-              <hr />
-              
-              <hr />
-              
-              <hr />
-              
-              <p>I'm taking on the three turn Kasserine scenario in Tunisia. This is going
-              to take quite a while I'm sure, but what's not started never finishes.</p>
-              
-              <p>Because the phasing is so complicated, it won't be listed out here
-              initially. The focus instead is on basic moving and shooting, and
-              fitting the supply constraints for both.</p>
-              
-              <p>The Axis need to get enough force through Tebessa while stopping
-              defensive action by US and French forces (but mostly US). How they do
-              this is the central puzzle to this situation.</p>
-              
-              <h2 id="game-turn-1-february-15-1943">Game Turn 1, February 15, 1943</h2>
-              
-              <h3 id="pre-turn-phase-1">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination: lasts for entire game turn. Determined from
-              weather chart. (17.0)</li>
-                <li>First player determination: each player rolls 2 dice, higher wins,
-              re-roll when tied.</li>
-              </ul>
-              
-              <p>In this scenario, Axis moves first on first turn.</p>
-              
-              <h3 id="axis-turn-1">Axis Turn 1</h3>
-              
-              <p>The Germans need to figure out how to get through Tebessa while staving
-              off Allied defensive blocking.</p>
-              
-              <h4 id="aircraft-refit-2">Aircraft refit</h4>
-              
-              <p>(Not using aircraft this first game.)</p>
-              
-              <h4 id="reinforcement-2">Reinforcement</h4>
-              
-              <p>1 SP reinforcement at B43.34.</p>
-              
-              <h4 id="movement-2">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Axis moves first, and we're opening with Superga's charge (overrun)
-              on elements of and attached to the US 34th Inf. Will our brave Italians
-              carry the day, or will they be repulsed?</p>
-              
-              <p class="center"><img alt="Superga attempts to overrun 34th Inf." src="/images/tunisia/kasserine/g1_superga_overrun.jpg" /></p>
-              
-              <p>The stack with the 185th artillery is misplaced. It was just plopped down on the map
-              during the initial setup lacking any better notion of what to do. The hill might
-              be a great place for the artillery, but not for the supplies and organic truck
-              underneath it.</p>
-              
-              <p>Notes:</p>
-              
-              <ul>
-                <li>Superga is in supply by scenario if it can trace to A46.08, which is its
-              starting location.</li>
-                <li>
-                  <p>Roll for surprise: 7 + 4, so no surprise either way.</p>
-                </li>
-                <li>Attacking, action rating 3:
-                  <ul>
-                    <li>136th Assault Gun Batt. CF3 x 2 for armor in the open: 6</li>
-                    <li>1st Assault Gun Batt. CF2 x 2 for armor in the open: 4</li>
-                    <li>91st Inf. Reg. 4</li>
-                    <li>Total: 14</li>
-                  </ul>
-                </li>
-                <li>Defending, action rating 3:
-                  <ul>
-                    <li>135th Inf. Reg. (34th Inf): 6</li>
-                    <li>889 Anti tank Batt.: 5</li>
-                    <li>Total: 11</li>
-                  </ul>
-                </li>
-                <li>Odds are 1:1, no drm, roll 8 open terrain <code>AL1Do1</code>. In this case, I'll
-              take a step loss for each, allowing the defender to hold the ground.
-              The two units taking the step loss are 899th Antitank Batt. for the Allies,
-              and the 1st Assault Gun Batt. for the Italians.  Since
-              the Superga doesn't have enough MP to continue the overrun, this combat
-              is over.</li>
-              </ul>
-              
-              <p>Possible blunder: the 91st Reg. probably didn't have enough movement to participate
-              in this overrun. Oops.</p>
-              
-              <p>Continuing on with Axis movement phase, next up is 10th Pz.</p>
-              
-              <p><strong>10th Pz</strong> is sitting on 8 SP, and I believe the first thing I can do is spend an
-              SP and fuel up the entire division. Some other things to note are that the US
-              is pretty strong at Sidi Bou Zid, and the US 1st Armor did well there
-              historically.  10Pz has a huge supply dump in its rear area, so it can't really
-              go driving around the US. It's going to have to find a way to either clear or
-              keep the US occupied while 15Pz is operating in its rear area. The choice is
-              made: engage the US with 10 Pz.</p>
-              
-              <p><strong>21 Pz</strong> is directly south of the US, and it chooses to move to engage 1st Armor
-              as well. Both 10 and 21 Pz stay in combat mode.</p>
-              
-              <p><strong>15 Pz</strong> is the tough one for me: I have no idea what to do with this
-              division. Recap: raod movement is 1/3 MP on primary road, 1/2 MP on
-              secondary road. The Italians head north to attempt to flank 1 Army units
-              to prevent them from moving west through Kasserine. The rest of 15 Pz
-              moves northwest to Fériana to blast the Rangers and the French
-              out of the way.</p>
-              
-              <p>This conclude Axis movement phase, now it's time to check for Trace
-              Supply.</p>
-              
-              <h4 id="supply-2">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All Axis units are in Trace Supply to Sfar.</p>
-              
-              <h4 id="reaction-phase-2">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>Allies have no units in Reserve, and will not barrage this turn.</p>
-              
-              <h4 id="combat-phase-2">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Two main areas of attack: 15 Pz at Fériana and 10 and 21 Pz at
-              Sidi Bou Zid.</p>
-              
-              <ul>
-                <li>Fériana: defending is Ranger (AR 5) and French (AR 2) with
-              total defensive factor of 6. Attacking is 3 German units with strength
-                  <ol>
-                    <li>Round Rule (4.1) gives this 4:1. Except that these are all
-              armored, so it's really 42:6 which is 7:1. The next column up in the
-              clear is 9:1, so there is one unit left over which I won't use in this
-              attack.
-                      <ul>
-                        <li>Lead unit for Germans: 1-8, 15 Pz.</li>
-                        <li>Lead unit for Allies: 1 Ranger.</li>
-                        <li>Suprise roll: 8, neither.</li>
-                        <li>Combat roll 9 no DRM yields <code>Ae4/DL1o2</code> (See 9.10 for retreat/step
-              loss).
-              This reads "Attacker gets exploit if Action Rating (AR) is 4 or more,
-              the defender loses 1 step from the lead unit, and is required to
-              take 2 option results, which can be either retreat or step loss."</li>
-                      </ul>
-                    </li>
-                  </ol>
-              
-                  <p>The defense chooses to retreat 2 hexes towards Dernia, Exploit 4
-              markers placed on attacking units.</p>
-                </li>
-                <li>Sidi Bou Zid: defending is 168 Reg and 701 AT with total defense 9.
-              Attacking is 1-7 Pz Bn, 10 and 69 motorized Bns with attack
-              strength 19, no armor or mechanized bonus as the fight is on hill
-              terrain.
-                  <ul>
-                    <li>Lead for Germans is 69 M, AR 5</li>
-                    <li>Lead for US is 701 AT, AR 3</li>
-                    <li>Surprise roll 3,3 + 2 for 8, no surprise.</li>
-                    <li>Combat roll at 2:1 (close) 4 + 2 for 6 yields <code>AL1o1Do1</code> what a
-                disaster for the Germans here. The defender does not have to retreat
-                and indeed, chooses not to.</li>
-                  </ul>
-              
-                  <p>Germans choose to retreat, which leaves 90 PJ exposed. This
-                certainly wasn't what I was expecting.</p>
-                </li>
-              </ul>
-              
-              <p>That's enough combat for now. Let's move to exploitation mode and see
-              what kind of surprises are in store.</p>
-              
-              <h4 id="exploitation-phase-2">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Units from the Fériana attack move to west of Thelepte to confront a
-              huge stack of US 1st Army armor lodged in the valley. Nothing else seems
-              viable, the US units are too strong to attack with defenive strength 15.
-              The armor shift does allow doubled for mech as well, but only for
-              attack. Actually it would go 3:1 in open terrain…let's do it…no
-              surprise…roll 9 + 2 on 3:1 (open) <code>Ao1DL1o1</code> works for me…Germans
-              take the loss in the 605 PJ, Allies in 81 Recon. The Allies take the
-              retreat, leaving behind a truck and 1SP. Since we're not concerned with
-              supply this game, it's not a problem.</p>
-              
-              <p>But let's take a look at capture rules. First, we need to deal with the
-              truck. Aha. The truck is organic to 1st Army so it will retreat along
-              with it (9.12d Tagalongs).</p>
-              
-              <h4 id="clean-up-phase">Clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>The Germans actually got further along in the south than I had anticipated.
-              Balancing that is getting an unanticipated bloofy nose up at Sidi Bou
-              Zid.</p>
-              
-              <h3 id="allies-turn-1">Allies Turn 1</h3>
-              
-              <p>The Allies are doing pretty well here.</p>
-              
-              <h4 id="aircraft-refit-3">Aircraft refit</h4>
-              
-              <p>Not using aircraft this game.</p>
-              
-              <h4 id="reinforcement-3">Reinforcement</h4>
-              
-              <ul>
-                <li>2 SP at A21.05</li>
-                <li>A41.11 78 Inf (1 Gds Inf Bde, 132 Art. Bn)</li>
-              </ul>
-              
-              <h4 id="movement-3">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment (12.8e) Check trace to friendly units in supply.</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Allies move to block all escape routes and shore up defenses leading to
-              Tebessa. Germans will have a hard time getting through or around the
-              Allies after this turn.</p>
-              
-              <p class="center"><img alt="End of Turn 1 Allied movement" src="/images/tunisia/kasserine/g1-t1.jpg" /></p>
-              
-              <h4 id="supply-3">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All Allied units are in Trace Supply.</p>
-              
-              <h4 id="reaction-phase-3">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>Germans aren't using any reserve this turn.</p>
-              
-              <h4 id="combat-phase-3">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <ul>
-                <li>US 175 and 185 from 34 Inf fire on Italian 91 and 136. No effect.
-              Given that 34 Inf defended at cost of 2T during the German phase, this
-              would run these units out of combat supply.</li>
-              </ul>
-              
-              <p>No other combat for Allies, this turn is all about setting up blocking
-              positions.</p>
-              
-              <h4 id="exploitation-phase-3">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Nothing to do here.</p>
-              
-              <h4 id="clean-up-phase-1">Clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Axis player.</li>
-              </ul>
-              
-              <p>Nothing to do here.</p>
-              
-              <h3 id="end-of-turn-1">End of Turn 1</h3>
-              
-              <p>This was interesting. There is no way at all for the Germans to meet the
-              victory conditions using only combat mode, and that's going to put them
-              within range of Allied units which do not have to come out of combat
-              mode to engage. The Germans have to cut off a lot of ground here to
-              interdict Allied trace supply.</p>
-              
-              <h2 id="turn-2-february-19-1943">Turn 2, February 19, 1943</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <h3 id="pre-turn-phase-2">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Will assume clear for game purposes, and not using any air in any case.</p>
-              
-              <p>Germans roll 3, Allies 2, German initiative for Turn 2.</p>
-              
-              <h3 id="axis-turn-2">Axis Turn 2</h3>
-              
-              <p class="turn-sequence">Brief summary of Axis goal this turn.</p>
-              
-              <p>Since the US moved into blocking positions, the main goal is to break
-              through the US positions. Which really isn't going to happen, but we'll
-              play it out anyway.</p>
-              
-              <h4 id="aircraft-refit-4">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>Not using aircraft this game.</p>
-              
-              <h4 id="reinforcement-4">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>1 SP at 43.34.</p>
-              
-              <h4 id="movement-4">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>No breakout or barrage, just plain old movement this turn.</p>
-              
-              <ul>
-                <li>The remainder of 15 Pz heads into Thelepte.</li>
-                <li>The panzer battalion and armored recon battalion from 10 Pz head into
-              Kasserine. These units will likely be cut off from trace supply next
-              turn, but I want to fight them to see what happens.</li>
-                <li>Parts of 21 Pz move to Sidi Bou Zid to engage from the east.</li>
-                <li>Elements of Centro head to Sidi Bou Zid to engage from the west.</li>
-              </ul>
-              
-              <p class="center"><img alt="Situation at Sidi Bou Zid, German Turn 2
-              movement" src="/images/tunisia/kasserine/g1-t2-gm-sido-bou-zid.jpg" /></p>
-              
-              <p>Looks nasty.</p>
-              
-              <h4 id="supply-4">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6), roll for
-              attrition if necessary (12.8, see table on charts folio)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>33, 115, 1-8 Pz Bns are out of supply in the pass between Thelepte and
-              Tebessa. They will go back into trace supply after the combat phase, but
-              I'm not sure how that works for suppy purposes during the Allies phases.</p>
-              
-              <p>33 and 115 pass their attrition roll.</p>
-              
-              <h4 id="reaction-phase-4">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <p>No reaction moves.</p>
-              
-              <h4 id="combat-phase-4">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <ul>
-                <li>
-                  <p>Thelepte: Afrika motorized regiment attack French Gp Jur Pol Bn. This
-              will not go well for the French. Odds are 20:2 which is 10:1 with German
-              mech factor, surprise roll 11 shift 1 for 11:1, roll 6 + 3 DRM for 9
-              which is <code>Ae3DL202DG</code> i.e., eliminated.</p>
-                </li>
-                <li>
-                  <p>South of Tebessa, 33 and 115 attack 70 and 3-13 US armor Bns. This
-              will probably not go well for the Germans as they are out of trace
-              supply. Raw odds are 16:10 accounting for doubled armor bonus with
-              halved attack factor from out of supply, which is 2:1. Need 8 for
-              surprise, roll 3 shift 6, bummer because this is defender surprise
-              which is going to roll on the 1:5 table. Germans need high, roll 9 + 2
-              yields <code>AL1o1Do1</code>, about as good could be expected. What a blow for
-              the Germans.</p>
-                </li>
-                <li>
-                  <p>Sbeitla: 10 Recon and 1-7 Pz Bn 776 and 65 Arty. This will probably
-              not go well for the US units. Raw odds 11:6, with armor factor this is
-              22:6 which is 3.66:1 that is 4:1 in OCS. AR differential is +2
-              Germans, need 8 for surprise roll 8 shift 2 for 6:1, roll roll 8 + 2
-              yield <code>Ae4DL1o2</code>. Lead unit is eliminated, artillery unit (65 sp)
-              retreats 2.</p>
-                </li>
-                <li>
-                  <p>Sidi Bou Zid (west) 14, 5 Brs and 131 Centro units attack 58 Arty. Not
-              sure what the odds on this one will be, but probably not good for the
-              US in any case. Odds 13:1 with armor bonus to Italians, roll snake
-              eyes shift 1 for surprise! Dang! At least it's only a single shift
-              left, but it moves from the 13:1 column to the 11:1 column, roll 5 + 3
-              yield 8 <code>Ae4DL1o2</code>. Will hold tight on the attacking hex to exploit
-              against another unit.</p>
-                </li>
-                <li>
-                  <p>Sidi Bou Zid (east) 1-5 Pz, 3 armored recon and 90 PJ attack US 2-1
-              armor and 168 Inf. The US is on a hill, so this will be "close" odds
-              which will be helpful. Probably won't go well for the Germans.
-              Raw odds 15:12, with armor factor 26:12 for 2:1, AR +2 German favor,
-              roll for surprise, fail, roll combat 9 + 2 yields <code>Ao1Do1</code>, attacker
-              choose to retreat. This should have actually been fought on the Close
-              odds at 1:1 which nullifies the armor factor as the defender chose to
-              fight from rough terrain. That yields <code>AL1Do1</code>. Bummer. Germans are
-              getting whipped pretty good this game.</p>
-                </li>
-              </ul>
-              
-              <h4 id="exploitation-phase-4">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <ul>
-                <li>
-                  <p>The Italians chose not to advance after combat, and will use this
-              exploit phase to close with US 3-1 armor and 91 Art. As understand it,
-              only 14 Bn armor will be able to overrun as it has 6 MP. The mech unit
-              is in leg mode with 3 MP, and the last unit is 131 Art. which is also in
-              leg mode for 3 MP. Attacking we have 4 x 2 for 8 against 6+1 which is
-              1:1, roll for surprise need 8 rolled snakes and 1. This is the second
-              time I've rolled 3 1s on surprise. Could be worse, could have been
-              1,1, shift 6. Combat roll 11 (!) + 1 for 12 on the 1:2 table in Open
-              yields <code>Ao1DL1o1</code>. The Italians will take the loss to enforce the <code>o1</code>
-              on the defender, which is 91 SP Art Bn having to retreat through EZOC
-              of 3/21 Pz (Recon) Bn. It's a pity the other two Italian units can't
-              participate in the overrun, but I'm now wondering if they can actually
-              move during the movement phase. That feels a bit like cheating, but
-              still, it would be good to know. They could likely move elsewhere and
-              attack, but that could be dicey. Actually the 131 Art. could barrage
-              with 7 costing 2T, so let's try it, need a 9 or more, roll 6, no dice.</p>
-              
-                  <p>The Italians are done.</p>
-                </li>
-                <li>
-                  <p>Germans at Sbeitla have 1-7 Pz and 10 armored Recon both from 10 Pz
-              which will continue their attack on 65 SP Art. This is an overrun in
-              the clear with armor against a DF 1 artillery unit, AR is +5 so
-              minimum roll is 6 which is a <code>DL1</code> for 65 SP. The German units have MP
-              8 and get 8/2 for exploit movement, and spend 3 MP to advance into the
-              vacated hex. If they had more movement, they could continue the
-              overrun against the US 1-1 armor Bn. They will instead fight. Putting
-              10 Bn in lead with AR 5 against defending AR 2 roll for surprise get
-              2,2 no surprise. Raw odds 22:4 which is 4.5:1 which is 5:1 in open
-              terrain roll 7 + 3 for 10 yields <code>Ae4Dl1o2</code>. The Germans are cleaning
-              up. However, this unit will be out of supply next German phase.</p>
-                </li>
-                <li>
-                  <p>Germans at Thelepte, move towards Kasserine, except no, they can't as
-              these units are all leg movement with 3 MP, so they move up the road
-              to Dernia to face off against the French blocking the pass to Tebessa.
-              Attacking here would be at 1/2 strength, with 2:1 final odds fighting
-              in close terrain. Would have to roll a 6 to prevent any German loss.
-              I could pay 4T for a huge barrage with a 6+ to DG, but the US forces
-              could easily nullify any gains here by moving units up from Tebessa.
-              Let's try it anyway, surprise roll 8, yes, shift 1 (?! jeebus this is
-              like the 4th time in a row the red shift die has rolled a 1). So the
-              attack is at 3:1 in close, roll 9 + 2 yields <code>Ao1DL1o1</code> which is fine,
-              the Germans will take a 1 hex retreat here: the road over the
-              mountains is open, at least for now.</p>
-                </li>
-              </ul>
-              
-              <h4 id="german-clean-up-phase-1">German clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>All Exploitation markers removed.</p>
-              
-              <h3 id="allies-turn-2">Allies Turn 2</h3>
-              
-              <p class="turn-sequence">Brief summary of Allies goal this turn.</p>
-              
-              <p>The Allies are still looking pretty good to win this. They will likely
-              lose more units, but it will be pretty hard for the Germans to bash
-              through. And that's the strategy for this turn: make it harder for the
-              Germans to bash through.</p>
-              
-              <h4 id="aircraft-refit-5">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <h4 id="reinforcement-5">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <h4 id="movement-5">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Hrm. Turns out there isn't much useful in Tebessa, some artillery, a
-              motorized and some French leg. This is not good. In any case, the
-              artillery is going to move up to barrage the stack of Germans at
-              Thelepte. Foolish Germans, should not be stacking like this. Had they
-              stayed spread out, the barrage would have had a 1L shift.</p>
-              
-              <p>Other Allied units move to block Axis advance, and to engage 10 Pz units
-              between Sbeitla and Kasserine, who suddenly find themselves in a world
-              of hurt.</p>
-              
-              <h4 id="supply-5">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>All Allied units are in supply.</p>
-              
-              <h4 id="reaction-phase-5">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>No reserves for German player. However, the Germans decide to spend 4T
-              and barrage the US artillery stacked in the pass. Not sure if the
-              Germans actually have 4T here to spend, but they could spend a bit less
-              to get even odds on a good result. Now it's the US who is foolishly
-              stacked. Roll for barrage 6 yields DG, so US artilley is out of action for now.</p>
-              
-              <p>Another barrage at Sidi Bou Zid, Germans pay 5T for barrage strength 41,
-              roll 11 and US 2-1 and 752 armor is DG.</p>
-              
-              <h4 id="combat-phase-5">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>Going to fight the DG units at Sidi Bou Zid anyway, even though they're
-              low AR and half strength; the armor will help make up for it. Raw odd
-              against 90 PJ is 18:4 which 5:1, roll for surprise need 11 roll 9 no
-              surprise, combat open terrain roll 6 - 1 yields <code>Ao1Do1</code>, US units
-              choose to retreat here. (These units should have attempted overrun
-              during movement.)</p>
-              
-              <p>At Kasserine, we have a valiant attempt by the US to entrap elements of
-              10 Pz. Should they fight? Morale is low, these are not elite US units,
-              and if they get defender surprise, could be very ugly. But they decide
-              on the course of valor! Fight! 1-13 and 2-13 bring 20 AF to the battle,
-              attacking from the open into open. 6 Mech and 720 armor attack across
-              wadi hexside for 8/2 and 6/2 for 7 total. Hence, 27:11 is 2.45:1 or 2:1.
-              Surprise roll 2,2 shift 2! Attack is at 1:2 with -3 DRM! Yoikes!
-              Proceeding, roll 9 - 3 yields <code>AL1o1Do1</code>. The defender gets to ignore
-              his <code>Do1</code> result, which is good as these units are surrounded (and will
-              likely be out of supply next turn.</p>
-              
-              <h4 id="exploitation-phase-5">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Nothing to exploit.</p>
-              
-              <h4 id="allies-clean-up-phase-1">Allies clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Axis player.</li>
-              </ul>
-              
-              <p>Remove 3 DG markers.</p>
-              
-              <h3 id="end-of-turn-2">End of Turn 2</h3>
-              
-              <p>The Allies may be in trouble in Tebessa, which turns out to not have
-              much combat capability. The Germans almost surely will be unable to exit
-              any units, but may well be able to take Tebessa.</p>
-              
-              <h2 id="game-turn-3-february-22-1943">Game Turn 3, February 22, 1943</h2>
-              
-              <p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
-              
-              <p>The German are definitely going to make a push for Tebessa. Getting any
-              units off the map seems out of reach. For the Allies, if they can get
-              initiative this turn, they may be able to reinforce both the north end
-              and Tebessa to further frustrate the Germans.</p>
-              
-              <p>About now, if I were playing with the full combat supply rules, both
-              sides would probably be running out of SP.</p>
-              
-              <h3 id="pre-turn-phase-3">Pre-Turn Phase</h3>
-              
-              <ul class="turn-sequence">
-                <li>Weather determination (2.3, probably on map)</li>
-                <li>First player determination, roll d6 highest has initiative, reroll for
-              tie (2.3).</li>
-              </ul>
-              
-              <p>Assuming clear for weather.</p>
-              
-              <p>Allies get initiative!</p>
-              
-              <h3 id="allies-turn-3">Allies Turn 3</h3>
-              
-              <p class="turn-sequence">Brief summary of Allies goal this turn.</p>
-              
-              <p>The Allies main goal is strengthening the exit area to deny Axis to
-              northern AO, and to reinforce Tebessa with combat capable units.</p>
-              
-              <h4 id="aircraft-refit-6">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>No aircraft in this game.</p>
-              
-              <h4 id="reinforcement-6">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <ul>
-                <li>2 SP at A21.05</li>
-                <li>A27.11 6 Arm Div (2 Loth, 17/21 L Arm Bn, 10 Rfl Bn Organic truck), 1 SP
-              (This was supposed to come in last turn.) This unit is coming in with
-              enough SP to fuel it, but maybe not enough to fight it without going
-              to internal stock, which wouldn't matter for this game.</li>
-              </ul>
-              
-              <h4 id="movement-6">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment</li>
-                <li>Movement segment</li>
-                <li>Air/Naval Barrage segment</li>
-              </ol>
-              
-              <p>Brits move into Tebessa allowing US unit to move forward again to engage
-              German units in pass. 10 Pz will be re-engaged at Kasserine, and this
-              time it would be fighting on internal stocks, probably exhausted stocks
-              as it's cut off from combat supply.</p>
-              
-              <p>Other units closing to attack wherever possible.</p>
-              
-              <h4 id="supply-6">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>91 Self-propelled is out of supply, surrounded by 21 Pz and Centro
-              units.</p>
-              
-              <h4 id="reaction-phase-6">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves, etc.</li>
-                <li>Non-phasing player barrage</li>
-              </ol>
-              
-              <p>Germans need to barrage to survive. These would be expensive, and not
-              sure if they would have enough SP to barrage, and to move during their
-              phase. Let's do it anyway.</p>
-              
-              <ul>
-                <li>At Thelepte, 42 at 5T roll 5 for DG on US artillery.</li>
-                <li>Sido Bou Zid, 41 at 5T roll boxcars, DG on US armor.</li>
-              </ul>
-              
-              <h4 id="combat-phase-6">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery (no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>This is going to go pretty fast.</p>
-              
-              <ul>
-                <li>
-                  <p>Barrage, strength 8 on Germans at Thelepte, roll 4 no effect.</p>
-                </li>
-                <li>
-                  <p>Kasserine: 19:11 which is 2:1, roll for surprise 7 - 3 defender
-              surprise again, with 1L shift (lucky), so 1:1 in open roll 5 - 3
-              yields <code>AL2</code>, not good.</p>
-                </li>
-                <li>
-                  <p>South of Tebessa US has 4:1 because out of supply halves the German
-              defense. It would be in combat supply (9.5a). Roll 5 - 2 for surprise,
-              defender surprise shift 4, so 1:1. Bummer for US. Roll 3 (ugh) - 2
-              yields <code>AL2</code>, the road to Tebessa is open!</p>
-                </li>
-                <li>
-                  <p>Sidi Bou Zid, 5:1 on 90 PJ, let's finally kill this unit. Boxcars
-              across the board, which is attacker surprise with 12 - 2 for 10. And a
-              shift of 6, so 11:1 roll 5 - 2 yields <code>Ao1DL1o1</code>. The attackers take
-              the retreat, but 90 PJ is gone. And the US is still in de facto
-              control of Sidi Bou Zid.</p>
-                </li>
-              </ul>
-              
-              <p>That's all the combat for the Allies on this last turn.</p>
-              
-              <h4 id="exploitation-phase-6">Exploitation phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>Nothing to exploit.</p>
-              
-              <h4 id="allies-clean-up-phase-2">Allies clean Up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Axis player.</li>
-              </ul>
-              
-              <p>All done.</p>
-              
-              <h3 id="axis-turn-3">Axis Turn 3</h3>
-              
-              <p class="turn-sequence">Brief summary of Axis goal this turn.</p>
-              
-              <p>The only thing worth dealing with is seeing if 1-8 Pz and 115 PG can
-              take Tebessa, so they move up to get there just barely. If they weren't
-              out of supply, they could attempt overrun.</p>
-              
-              <h4 id="aircraft-refit-7">Aircraft refit</h4>
-              
-              <p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
-              (15.1B)</p>
-              
-              <p>No aircraft this game.</p>
-              
-              <h4 id="reinforcement-7">Reinforcement</h4>
-              
-              <p class="turn-sequence">Per scenario specification or reinforcement track.</p>
-              
-              <p>1 SP at B43.34</p>
-              
-              <h4 id="movement-7">Movement</h4>
-              
-              <ol class="turn-sequence">
-                <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
-                <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
-                <li>Air/Naval Barrage segment (10.2, 10.3)</li>
-              </ol>
-              
-              <p>Move 1-8 Pz and 115 PG to Tebessa.</p>
-              
-              <h4 id="supply-7">Supply</h4>
-              
-              <p class="turn-sequence">This phase does:</p>
-              
-              <ul class="turn-sequence">
-                <li>Determine which units are in or out of Trace Supply (12.6)</li>
-                <li>Replenish low or exhausted internal stocks (12.10)</li>
-              </ul>
-              
-              <p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
-              counters.</p>
-              
-              <p>We'll assume this is back in supply which they would definitely be given
-              one leg unit in move mode.</p>
-              
-              <h4 id="reaction-phase-7">Reaction phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
-                <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
-              </ol>
-              
-              <p>The US made a mistake here, and should have pulled the artillery back to
-              protect Tebessa. They would have a chance to DG the Germans.</p>
-              
-              <h4 id="combat-phase-7">Combat phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Artillery barrage (10.1, no Air/Naval)</li>
-                <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
-              </ol>
-              
-              <p>Being back in supply, and assuming 2T (or internal stocks, really)
-              available, we have 10 armor and 5 mechanized, which are both doubled in
-              the open with 8 defending for 4:1, +2 DRM. Roll for surprise 7 + 2 = 9,
-              no surprise, which is too bad because 6 shift. So 4:1 in the open roll 4
-              + 2 yields <code>Ao1Do</code>. The Germans can take 1-8 as a loss, and the Allies
-              retreat into Tebessa.</p>
-              
-              <h4 id="exploitation-phase-7">Exploitation phase</h4>
-              
-              <p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
-              details defined in Section 11.0.</p>
-              
-              <ol class="turn-sequence">
-                <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
-              Exploitation result).</li>
-                <li>Barrage segment</li>
-                <li>Combat segment</li>
-              </ol>
-              
-              <p>No exploitation, called the game here.</p>
-              
-              <h4 id="german-clean-up-phase-2">German clean up phase</h4>
-              
-              <ul class="turn-sequence">
-                <li>Remove DG and Exploitation markers.</li>
-                <li>Flip or remove Fueled markers.</li>
-                <li>Remove train-busting placed by Allied player.</li>
-              </ul>
-              
-              <p>Game called.</p>
-              
-              <h3 id="end-of-turn-3-and-game">End of Turn 3 and game</h3>
-              
-              <p>And that's a wrap. The Tebessa fight boiled down to the luck of the die,
-              with something like 50/50 (max) for Germans to get an exploitable
-              result, then exploit successfully.</p>
-              
-              <p class="center"><img alt="End of game" src="/images/tunisia/kasserine/g1-end.jpg" /></p>
-              
-              <p>As can be seen, the Germans did not achieve their goals.</p>
-              
-              <h2 id="aar">AAR</h2>
-              
-              <p>A win for the Allies.</p>
-              
-              <p>What's crystal clear after Turn 1 is that there is no way for the
-              Germans to achieve victory conditions using only combat mode with
-              "strict" EZOC. They must go into movement mode and figure out how to
-              swing around EZOCs to position themselves appropriately. The Allies, on
-              the other hand, can move into blocking positions while staying in combat
-              mode. This makes it even harder for the Germans as they will have to
-              defend in move mode.</p>
-              
-              <p>I suspect that getting the first turn right will allow the Germans to
-              conduct the remaining two turns in combat mode, providing they can
-              survive the Allies first turn counter attacks. If the Germans can get
-              the Allies rocked back a bit, and keep up the momentum, they may be able
-              to succeed.</p>
-              
-              <h3 id="blunders">Blunders</h3>
-              
-              <p>Manifold and varied.</p>
-              
-              <ul>
-                <li>
-                  <p>Turn 1, the primary blunder was <em>not</em> putting the mechanized infantry
-              into Truck mode and getting them around the back of the French at
-              Fériana to cut off retreat and protect trace supply. A related blunder
-              was not putting the leg infantry into strat mode for the same reason.
-              I think this is just 1 para unit attached to 15 Pz, but it still would
-              have been very useful to have on the next turn, given that it would be
-              well-protected by the mechanized units. Acually, this wasn't a
-              blunder, I'm specifically playing this game in combat mode only.
-              But this would be a blunder if I were using all modes.</p>
-                </li>
-                <li>
-                  <p>Not using EZOC negation to get 10 Pz around Sidi Bou Zid. In truth,
-              this won't matter as much with only combat mode. Using a move mode,
-              this would be imperative. That would have the added benefit of putting
-              the US units there out of supply.</p>
-                </li>
-                <li>
-                  <p>In the combat following exploitation (Turn 1), one of the US units is
-              tracked artillery, with strength of 6. This may not have been allowed
-              in the battle without spending extra supply is there had been supply.
-              This would have put the odds at 5:1 for <code>Ae4DL1o2</code>, significantly
-              different! However, I think since the Combat factor is not
-              parenthesized, I did it right.</p>
-                </li>
-                <li>
-                  <p>Units retreating 2 steps go into DG mode (5.10a.B). The French unit
-              from Turn 1 combat should have been put into DG.</p>
-                </li>
-              </ul>
-              
-              <h3 id="some-notes">Some notes</h3>
-              
-              <ul>
-                <li>
-                  <p>Trace supply status affects unit strengths independently of combat
-              supply concerns, and any reductions are cumulative.</p>
-                </li>
-                <li>
-                  <p>B) Pay 1 SP per HQ to fuel an HQ itself and all independent units
-              within its throw range (see 12.5e). This payment lasts until the next
-              Friendly Clean Up Phase. Mark this with a Fueled marker on top of the
-              HQ.</p>
-                </li>
-                <li>Determine how many HQ on map</li>
-                <li>Determine which independent units belong to which HQ.</li>
-                <li>Allocate SP per HQ.</li>
-                <li>How would kampfgruppes operate with respect to hq and fueling?</li>
-                <li>Check motorized units traveling combat/leg need fuel.</li>
-              </ul>
-              
-              <h4 id="axis">Axis</h4>
-              
-              <ul>
-                <li>Superga</li>
-                <li>10, 8 SP</li>
-                <li>15, 3 SP</li>
-                <li>21, 1 SP</li>
-                <li>DAK, 4 SP</li>
-              </ul>
-              
-              <p>16 SP, 64 Ticks</p>
-              
-              <h4 id="allies">Allies</h4>
-              
-              <ul>
-                <li>1st Armor, 2 Sp</li>
-                <li>French HQ, 3 SP</li>
-                <li>34th Inf, 1 SP</li>
-                <li>14 Corps, 7 SP</li>
-              </ul>
-              
-              <p>13 SP, 52 Ticks</p>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2015/02/04/lynn-willis-olympica.html' rel='prev'>Lynn Willis' Olympica</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2015/02/15/vietnam-solitaire-first-play.html' rel='next'>Vietnam Solitaire first play</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/tunisia.html'>tunisia</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/ocs.html'>ocs</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/kasserine.html'>kasserine</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/north-africa.html'>north-africa</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/mmp.html'>mmp</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/multiman-publishing.html'>multiman-publishing</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/the-gamers.html'>the-gamers</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Kasserine Pass OCS style
+</h1>
+<time class='updated' pubdate=''>Feb 12 2015</time>
+<hr />
+<p><i>
+Some notes on how I'm playing this first game:</i></p>
+
+<ul>
+  <li>Combat mode only. I don't think the Germans can even come close to
+winning this unless they use movement mode, possibly even strat mode,
+but I want to play it out anyway to see what happens.</li>
+  <li>Trace supply only. I realize this totally breaks the whole notion of
+OCS, but there are a lot of other mechanics in the OCS rules which I
+would like to master first. For example, the basic movement, combat
+and ZOC rules will provide enough challenge for this first play.</li>
+</ul>
+
+<p><i>
+The result of these simplifications will be interesting, and likely
+worthy of some discussion.</i></p>
+
+<p><i>The risk is that I will learn the rules "wrong," and have to unlearn to
+proceed further. But the rules aren't so much the issue as learning bad
+strategy and tactics. Still, trying to digest the whole of OCS rules all
+at once is just a little much.</i></p>
+
+<p><i>What the system needs is a set of scenarios like Operation Starlite in
+Vietnam 1965-1975, a single turn (or 2 or 3) with very low unit count
+and simple victory conditions. These scenarios don't even need to be
+balanced. Central America Scenario 1 is similar.
+</i></p>
+
+<hr />
+
+<p>Turn sequence, for convenience.</p>
+
+<h2 id="game-turn">Game Turn</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<h3 id="pre-turn-phase">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<h3 id="axis-turn">Axis Turn</h3>
+
+<p class="turn-sequence">Brief summary of Axis goal this turn.</p>
+
+<h4 id="aircraft-refit">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<h4 id="reinforcement">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<h4 id="movement">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<h4 id="supply">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<h4 id="reaction-phase">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<h4 id="combat-phase">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<h4 id="exploitation-phase">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<h4 id="german-clean-up-phase">German clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<h3 id="allies-turn">Allies Turn</h3>
+
+<p class="turn-sequence">Brief summary of Allies goal this turn.</p>
+
+<h4 id="aircraft-refit-1">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<h4 id="reinforcement-1">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<h4 id="movement-1">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<h4 id="supply-1">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<h4 id="reaction-phase-1">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<h4 id="combat-phase-1">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<h4 id="exploitation-phase-1">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<h4 id="allies-clean-up-phase">Allies clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Axis player.</li>
+</ul>
+
+<h3 id="end-of-turn">End of Turn</h3>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<p>I'm taking on the three turn Kasserine scenario in Tunisia. This is going
+to take quite a while I'm sure, but what's not started never finishes.</p>
+
+<p>Because the phasing is so complicated, it won't be listed out here
+initially. The focus instead is on basic moving and shooting, and
+fitting the supply constraints for both.</p>
+
+<p>The Axis need to get enough force through Tebessa while stopping
+defensive action by US and French forces (but mostly US). How they do
+this is the central puzzle to this situation.</p>
+
+<h2 id="game-turn-1-february-15-1943">Game Turn 1, February 15, 1943</h2>
+
+<h3 id="pre-turn-phase-1">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination: lasts for entire game turn. Determined from
+weather chart. (17.0)</li>
+  <li>First player determination: each player rolls 2 dice, higher wins,
+re-roll when tied.</li>
+</ul>
+
+<p>In this scenario, Axis moves first on first turn.</p>
+
+<h3 id="axis-turn-1">Axis Turn 1</h3>
+
+<p>The Germans need to figure out how to get through Tebessa while staving
+off Allied defensive blocking.</p>
+
+<h4 id="aircraft-refit-2">Aircraft refit</h4>
+
+<p>(Not using aircraft this first game.)</p>
+
+<h4 id="reinforcement-2">Reinforcement</h4>
+
+<p>1 SP reinforcement at B43.34.</p>
+
+<h4 id="movement-2">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Axis moves first, and we're opening with Superga's charge (overrun)
+on elements of and attached to the US 34th Inf. Will our brave Italians
+carry the day, or will they be repulsed?</p>
+
+<p class="center"><img src="/images/tunisia/kasserine/g1_superga_overrun.jpg" alt="Superga attempts to overrun 34th Inf." /></p>
+
+<p>The stack with the 185th artillery is misplaced. It was just plopped down on the map
+during the initial setup lacking any better notion of what to do. The hill might
+be a great place for the artillery, but not for the supplies and organic truck
+underneath it.</p>
+
+<p>Notes:</p>
+
+<ul>
+  <li>Superga is in supply by scenario if it can trace to A46.08, which is its
+starting location.</li>
+  <li>
+    <p>Roll for surprise: 7 + 4, so no surprise either way.</p>
+  </li>
+  <li>Attacking, action rating 3:
+    <ul>
+      <li>136th Assault Gun Batt. CF3 x 2 for armor in the open: 6</li>
+      <li>1st Assault Gun Batt. CF2 x 2 for armor in the open: 4</li>
+      <li>91st Inf. Reg. 4</li>
+      <li>Total: 14</li>
+    </ul>
+  </li>
+  <li>Defending, action rating 3:
+    <ul>
+      <li>135th Inf. Reg. (34th Inf): 6</li>
+      <li>889 Anti tank Batt.: 5</li>
+      <li>Total: 11</li>
+    </ul>
+  </li>
+  <li>Odds are 1:1, no drm, roll 8 open terrain <code>AL1Do1</code>. In this case, I'll
+take a step loss for each, allowing the defender to hold the ground.
+The two units taking the step loss are 899th Antitank Batt. for the Allies,
+and the 1st Assault Gun Batt. for the Italians.  Since
+the Superga doesn't have enough MP to continue the overrun, this combat
+is over.</li>
+</ul>
+
+<p>Possible blunder: the 91st Reg. probably didn't have enough movement to participate
+in this overrun. Oops.</p>
+
+<p>Continuing on with Axis movement phase, next up is 10th Pz.</p>
+
+<p><strong>10th Pz</strong> is sitting on 8 SP, and I believe the first thing I can do is spend an
+SP and fuel up the entire division. Some other things to note are that the US
+is pretty strong at Sidi Bou Zid, and the US 1st Armor did well there
+historically.  10Pz has a huge supply dump in its rear area, so it can't really
+go driving around the US. It's going to have to find a way to either clear or
+keep the US occupied while 15Pz is operating in its rear area. The choice is
+made: engage the US with 10 Pz.</p>
+
+<p><strong>21 Pz</strong> is directly south of the US, and it chooses to move to engage 1st Armor
+as well. Both 10 and 21 Pz stay in combat mode.</p>
+
+<p><strong>15 Pz</strong> is the tough one for me: I have no idea what to do with this
+division. Recap: raod movement is 1/3 MP on primary road, 1/2 MP on
+secondary road. The Italians head north to attempt to flank 1 Army units
+to prevent them from moving west through Kasserine. The rest of 15 Pz
+moves northwest to Fériana to blast the Rangers and the French
+out of the way.</p>
+
+<p>This conclude Axis movement phase, now it's time to check for Trace
+Supply.</p>
+
+<h4 id="supply-2">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All Axis units are in Trace Supply to Sfar.</p>
+
+<h4 id="reaction-phase-2">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>Allies have no units in Reserve, and will not barrage this turn.</p>
+
+<h4 id="combat-phase-2">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Two main areas of attack: 15 Pz at Fériana and 10 and 21 Pz at
+Sidi Bou Zid.</p>
+
+<ul>
+  <li>Fériana: defending is Ranger (AR 5) and French (AR 2) with
+total defensive factor of 6. Attacking is 3 German units with strength
+    <ol>
+      <li>Round Rule (4.1) gives this 4:1. Except that these are all
+armored, so it's really 42:6 which is 7:1. The next column up in the
+clear is 9:1, so there is one unit left over which I won't use in this
+attack.
+* Lead unit for Germans: 1-8, 15 Pz.
+* Lead unit for Allies: 1 Ranger.
+* Suprise roll: 8, neither.
+* Combat roll 9 no DRM yields <code>Ae4/DL1o2</code> (See 9.10 for retreat/step
+  loss).
+  This reads "Attacker gets exploit if Action Rating (AR) is 4 or more,
+  the defender loses 1 step from the lead unit, and is required to
+  take 2 option results, which can be either retreat or step loss."</li>
+    </ol>
+
+    <p>The defense chooses to retreat 2 hexes towards Dernia, Exploit 4
+markers placed on attacking units.</p>
+  </li>
+  <li>Sidi Bou Zid: defending is 168 Reg and 701 AT with total defense 9.
+Attacking is 1-7 Pz Bn, 10 and 69 motorized Bns with attack
+strength 19, no armor or mechanized bonus as the fight is on hill
+terrain.
+    <ul>
+      <li>Lead for Germans is 69 M, AR 5</li>
+      <li>Lead for US is 701 AT, AR 3</li>
+      <li>Surprise roll 3,3 + 2 for 8, no surprise.</li>
+      <li>Combat roll at 2:1 (close) 4 + 2 for 6 yields <code>AL1o1Do1</code> what a
+  disaster for the Germans here. The defender does not have to retreat
+  and indeed, chooses not to.</li>
+    </ul>
+
+    <p>Germans choose to retreat, which leaves 90 PJ exposed. This
+  certainly wasn't what I was expecting.</p>
+  </li>
+</ul>
+
+<p>That's enough combat for now. Let's move to exploitation mode and see
+what kind of surprises are in store.</p>
+
+<h4 id="exploitation-phase-2">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Units from the Fériana attack move to west of Thelepte to confront a
+huge stack of US 1st Army armor lodged in the valley. Nothing else seems
+viable, the US units are too strong to attack with defenive strength 15.
+The armor shift does allow doubled for mech as well, but only for
+attack. Actually it would go 3:1 in open terrain…let's do it…no
+surprise…roll 9 + 2 on 3:1 (open) <code>Ao1DL1o1</code> works for me…Germans
+take the loss in the 605 PJ, Allies in 81 Recon. The Allies take the
+retreat, leaving behind a truck and 1SP. Since we're not concerned with
+supply this game, it's not a problem.</p>
+
+<p>But let's take a look at capture rules. First, we need to deal with the
+truck. Aha. The truck is organic to 1st Army so it will retreat along
+with it (9.12d Tagalongs).</p>
+
+<h4 id="clean-up-phase">Clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>The Germans actually got further along in the south than I had anticipated.
+Balancing that is getting an unanticipated bloofy nose up at Sidi Bou
+Zid.</p>
+
+<h3 id="allies-turn-1">Allies Turn 1</h3>
+
+<p>The Allies are doing pretty well here.</p>
+
+<h4 id="aircraft-refit-3">Aircraft refit</h4>
+
+<p>Not using aircraft this game.</p>
+
+<h4 id="reinforcement-3">Reinforcement</h4>
+
+<ul>
+  <li>2 SP at A21.05</li>
+  <li>A41.11 78 Inf (1 Gds Inf Bde, 132 Art. Bn)</li>
+</ul>
+
+<h4 id="movement-3">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment (12.8e) Check trace to friendly units in supply.</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Allies move to block all escape routes and shore up defenses leading to
+Tebessa. Germans will have a hard time getting through or around the
+Allies after this turn.</p>
+
+<p class="center"><img src="/images/tunisia/kasserine/g1-t1.jpg" alt="End of Turn 1 Allied movement" /></p>
+
+<h4 id="supply-3">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All Allied units are in Trace Supply.</p>
+
+<h4 id="reaction-phase-3">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>Germans aren't using any reserve this turn.</p>
+
+<h4 id="combat-phase-3">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment</li>
+</ol>
+
+<ul>
+  <li>US 175 and 185 from 34 Inf fire on Italian 91 and 136. No effect.
+Given that 34 Inf defended at cost of 2T during the German phase, this
+would run these units out of combat supply.</li>
+</ul>
+
+<p>No other combat for Allies, this turn is all about setting up blocking
+positions.</p>
+
+<h4 id="exploitation-phase-3">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Nothing to do here.</p>
+
+<h4 id="clean-up-phase-1">Clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Axis player.</li>
+</ul>
+
+<p>Nothing to do here.</p>
+
+<h3 id="end-of-turn-1">End of Turn 1</h3>
+
+<p>This was interesting. There is no way at all for the Germans to meet the
+victory conditions using only combat mode, and that's going to put them
+within range of Allied units which do not have to come out of combat
+mode to engage. The Germans have to cut off a lot of ground here to
+interdict Allied trace supply.</p>
+
+<h2 id="turn-2-february-19-1943">Turn 2, February 19, 1943</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<h3 id="pre-turn-phase-2">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Will assume clear for game purposes, and not using any air in any case.</p>
+
+<p>Germans roll 3, Allies 2, German initiative for Turn 2.</p>
+
+<h3 id="axis-turn-2">Axis Turn 2</h3>
+
+<p class="turn-sequence">Brief summary of Axis goal this turn.</p>
+
+<p>Since the US moved into blocking positions, the main goal is to break
+through the US positions. Which really isn't going to happen, but we'll
+play it out anyway.</p>
+
+<h4 id="aircraft-refit-4">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>Not using aircraft this game.</p>
+
+<h4 id="reinforcement-4">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>1 SP at 43.34.</p>
+
+<h4 id="movement-4">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>No breakout or barrage, just plain old movement this turn.</p>
+
+<ul>
+  <li>The remainder of 15 Pz heads into Thelepte.</li>
+  <li>The panzer battalion and armored recon battalion from 10 Pz head into
+Kasserine. These units will likely be cut off from trace supply next
+turn, but I want to fight them to see what happens.</li>
+  <li>Parts of 21 Pz move to Sidi Bou Zid to engage from the east.</li>
+  <li>Elements of Centro head to Sidi Bou Zid to engage from the west.</li>
+</ul>
+
+<p class="center"><img src="/images/tunisia/kasserine/g1-t2-gm-sido-bou-zid.jpg" alt="Situation at Sidi Bou Zid, German Turn 2
+movement" /></p>
+
+<p>Looks nasty.</p>
+
+<h4 id="supply-4">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6), roll for
+attrition if necessary (12.8, see table on charts folio)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>33, 115, 1-8 Pz Bns are out of supply in the pass between Thelepte and
+Tebessa. They will go back into trace supply after the combat phase, but
+I'm not sure how that works for suppy purposes during the Allies phases.</p>
+
+<p>33 and 115 pass their attrition roll.</p>
+
+<h4 id="reaction-phase-4">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<p>No reaction moves.</p>
+
+<h4 id="combat-phase-4">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<ul>
+  <li>
+    <p>Thelepte: Afrika motorized regiment attack French Gp Jur Pol Bn. This
+will not go well for the French. Odds are 20:2 which is 10:1 with German
+mech factor, surprise roll 11 shift 1 for 11:1, roll 6 + 3 DRM for 9
+which is <code>Ae3DL202DG</code> i.e., eliminated.</p>
+  </li>
+  <li>
+    <p>South of Tebessa, 33 and 115 attack 70 and 3-13 US armor Bns. This
+will probably not go well for the Germans as they are out of trace
+supply. Raw odds are 16:10 accounting for doubled armor bonus with
+halved attack factor from out of supply, which is 2:1. Need 8 for
+surprise, roll 3 shift 6, bummer because this is defender surprise
+which is going to roll on the 1:5 table. Germans need high, roll 9 + 2
+yields <code>AL1o1Do1</code>, about as good could be expected. What a blow for
+the Germans.</p>
+  </li>
+  <li>
+    <p>Sbeitla: 10 Recon and 1-7 Pz Bn 776 and 65 Arty. This will probably
+not go well for the US units. Raw odds 11:6, with armor factor this is
+22:6 which is 3.66:1 that is 4:1 in OCS. AR differential is +2
+Germans, need 8 for surprise roll 8 shift 2 for 6:1, roll roll 8 + 2
+yield <code>Ae4DL1o2</code>. Lead unit is eliminated, artillery unit (65 sp)
+retreats 2.</p>
+  </li>
+  <li>
+    <p>Sidi Bou Zid (west) 14, 5 Brs and 131 Centro units attack 58 Arty. Not
+sure what the odds on this one will be, but probably not good for the
+US in any case. Odds 13:1 with armor bonus to Italians, roll snake
+eyes shift 1 for surprise! Dang! At least it's only a single shift
+left, but it moves from the 13:1 column to the 11:1 column, roll 5 + 3
+yield 8 <code>Ae4DL1o2</code>. Will hold tight on the attacking hex to exploit
+against another unit.</p>
+  </li>
+  <li>
+    <p>Sidi Bou Zid (east) 1-5 Pz, 3 armored recon and 90 PJ attack US 2-1
+armor and 168 Inf. The US is on a hill, so this will be "close" odds
+which will be helpful. Probably won't go well for the Germans.
+Raw odds 15:12, with armor factor 26:12 for 2:1, AR +2 German favor,
+roll for surprise, fail, roll combat 9 + 2 yields <code>Ao1Do1</code>, attacker
+choose to retreat. This should have actually been fought on the Close
+odds at 1:1 which nullifies the armor factor as the defender chose to
+fight from rough terrain. That yields <code>AL1Do1</code>. Bummer. Germans are
+getting whipped pretty good this game.</p>
+  </li>
+</ul>
+
+<h4 id="exploitation-phase-4">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<ul>
+  <li>
+    <p>The Italians chose not to advance after combat, and will use this
+exploit phase to close with US 3-1 armor and 91 Art. As understand it,
+only 14 Bn armor will be able to overrun as it has 6 MP. The mech unit
+is in leg mode with 3 MP, and the last unit is 131 Art. which is also in
+leg mode for 3 MP. Attacking we have 4 x 2 for 8 against 6+1 which is
+1:1, roll for surprise need 8 rolled snakes and 1. This is the second
+time I've rolled 3 1s on surprise. Could be worse, could have been
+1,1, shift 6. Combat roll 11 (!) + 1 for 12 on the 1:2 table in Open
+yields <code>Ao1DL1o1</code>. The Italians will take the loss to enforce the <code>o1</code>
+on the defender, which is 91 SP Art Bn having to retreat through EZOC
+of 3/21 Pz (Recon) Bn. It's a pity the other two Italian units can't
+participate in the overrun, but I'm now wondering if they can actually
+move during the movement phase. That feels a bit like cheating, but
+still, it would be good to know. They could likely move elsewhere and
+attack, but that could be dicey. Actually the 131 Art. could barrage
+with 7 costing 2T, so let's try it, need a 9 or more, roll 6, no dice.</p>
+
+    <p>The Italians are done.</p>
+  </li>
+  <li>
+    <p>Germans at Sbeitla have 1-7 Pz and 10 armored Recon both from 10 Pz
+which will continue their attack on 65 SP Art. This is an overrun in
+the clear with armor against a DF 1 artillery unit, AR is +5 so
+minimum roll is 6 which is a <code>DL1</code> for 65 SP. The German units have MP
+8 and get 8/2 for exploit movement, and spend 3 MP to advance into the
+vacated hex. If they had more movement, they could continue the
+overrun against the US 1-1 armor Bn. They will instead fight. Putting
+10 Bn in lead with AR 5 against defending AR 2 roll for surprise get
+2,2 no surprise. Raw odds 22:4 which is 4.5:1 which is 5:1 in open
+terrain roll 7 + 3 for 10 yields <code>Ae4Dl1o2</code>. The Germans are cleaning
+up. However, this unit will be out of supply next German phase.</p>
+  </li>
+  <li>
+    <p>Germans at Thelepte, move towards Kasserine, except no, they can't as
+these units are all leg movement with 3 MP, so they move up the road
+to Dernia to face off against the French blocking the pass to Tebessa.
+Attacking here would be at 1/2 strength, with 2:1 final odds fighting
+in close terrain. Would have to roll a 6 to prevent any German loss.
+I could pay 4T for a huge barrage with a 6+ to DG, but the US forces
+could easily nullify any gains here by moving units up from Tebessa.
+Let's try it anyway, surprise roll 8, yes, shift 1 (?! jeebus this is
+like the 4th time in a row the red shift die has rolled a 1). So the
+attack is at 3:1 in close, roll 9 + 2 yields <code>Ao1DL1o1</code> which is fine,
+the Germans will take a 1 hex retreat here: the road over the
+mountains is open, at least for now.</p>
+  </li>
+</ul>
+
+<h4 id="german-clean-up-phase-1">German clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>All Exploitation markers removed.</p>
+
+<h3 id="allies-turn-2">Allies Turn 2</h3>
+
+<p class="turn-sequence">Brief summary of Allies goal this turn.</p>
+
+<p>The Allies are still looking pretty good to win this. They will likely
+lose more units, but it will be pretty hard for the Germans to bash
+through. And that's the strategy for this turn: make it harder for the
+Germans to bash through.</p>
+
+<h4 id="aircraft-refit-5">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<h4 id="reinforcement-5">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<h4 id="movement-5">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Hrm. Turns out there isn't much useful in Tebessa, some artillery, a
+motorized and some French leg. This is not good. In any case, the
+artillery is going to move up to barrage the stack of Germans at
+Thelepte. Foolish Germans, should not be stacking like this. Had they
+stayed spread out, the barrage would have had a 1L shift.</p>
+
+<p>Other Allied units move to block Axis advance, and to engage 10 Pz units
+between Sbeitla and Kasserine, who suddenly find themselves in a world
+of hurt.</p>
+
+<h4 id="supply-5">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>All Allied units are in supply.</p>
+
+<h4 id="reaction-phase-5">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>No reserves for German player. However, the Germans decide to spend 4T
+and barrage the US artillery stacked in the pass. Not sure if the
+Germans actually have 4T here to spend, but they could spend a bit less
+to get even odds on a good result. Now it's the US who is foolishly
+stacked. Roll for barrage 6 yields DG, so US artilley is out of action for now.</p>
+
+<p>Another barrage at Sidi Bou Zid, Germans pay 5T for barrage strength 41,
+roll 11 and US 2-1 and 752 armor is DG.</p>
+
+<h4 id="combat-phase-5">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>Going to fight the DG units at Sidi Bou Zid anyway, even though they're
+low AR and half strength; the armor will help make up for it. Raw odd
+against 90 PJ is 18:4 which 5:1, roll for surprise need 11 roll 9 no
+surprise, combat open terrain roll 6 - 1 yields <code>Ao1Do1</code>, US units
+choose to retreat here. (These units should have attempted overrun
+during movement.)</p>
+
+<p>At Kasserine, we have a valiant attempt by the US to entrap elements of
+10 Pz. Should they fight? Morale is low, these are not elite US units,
+and if they get defender surprise, could be very ugly. But they decide
+on the course of valor! Fight! 1-13 and 2-13 bring 20 AF to the battle,
+attacking from the open into open. 6 Mech and 720 armor attack across
+wadi hexside for 8/2 and 6/2 for 7 total. Hence, 27:11 is 2.45:1 or 2:1.
+Surprise roll 2,2 shift 2! Attack is at 1:2 with -3 DRM! Yoikes!
+Proceeding, roll 9 - 3 yields <code>AL1o1Do1</code>. The defender gets to ignore
+his <code>Do1</code> result, which is good as these units are surrounded (and will
+likely be out of supply next turn.</p>
+
+<h4 id="exploitation-phase-5">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Nothing to exploit.</p>
+
+<h4 id="allies-clean-up-phase-1">Allies clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Axis player.</li>
+</ul>
+
+<p>Remove 3 DG markers.</p>
+
+<h3 id="end-of-turn-2">End of Turn 2</h3>
+
+<p>The Allies may be in trouble in Tebessa, which turns out to not have
+much combat capability. The Germans almost surely will be unable to exit
+any units, but may well be able to take Tebessa.</p>
+
+<h2 id="game-turn-3-february-22-1943">Game Turn 3, February 22, 1943</h2>
+
+<p class="turn-sequence">Briefly summarize the upcoming turn for both sides.</p>
+
+<p>The German are definitely going to make a push for Tebessa. Getting any
+units off the map seems out of reach. For the Allies, if they can get
+initiative this turn, they may be able to reinforce both the north end
+and Tebessa to further frustrate the Germans.</p>
+
+<p>About now, if I were playing with the full combat supply rules, both
+sides would probably be running out of SP.</p>
+
+<h3 id="pre-turn-phase-3">Pre-Turn Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Weather determination (2.3, probably on map)</li>
+  <li>First player determination, roll d6 highest has initiative, reroll for
+tie (2.3).</li>
+</ul>
+
+<p>Assuming clear for weather.</p>
+
+<p>Allies get initiative!</p>
+
+<h3 id="allies-turn-3">Allies Turn 3</h3>
+
+<p class="turn-sequence">Brief summary of Allies goal this turn.</p>
+
+<p>The Allies main goal is strengthening the exit area to deny Axis to
+northern AO, and to reinforce Tebessa with combat capable units.</p>
+
+<h4 id="aircraft-refit-6">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>No aircraft in this game.</p>
+
+<h4 id="reinforcement-6">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<ul>
+  <li>2 SP at A21.05</li>
+  <li>A27.11 6 Arm Div (2 Loth, 17/21 L Arm Bn, 10 Rfl Bn Organic truck), 1 SP
+(This was supposed to come in last turn.) This unit is coming in with
+enough SP to fuel it, but maybe not enough to fight it without going
+to internal stock, which wouldn't matter for this game.</li>
+</ul>
+
+<h4 id="movement-6">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment</li>
+  <li>Movement segment</li>
+  <li>Air/Naval Barrage segment</li>
+</ol>
+
+<p>Brits move into Tebessa allowing US unit to move forward again to engage
+German units in pass. 10 Pz will be re-engaged at Kasserine, and this
+time it would be fighting on internal stocks, probably exhausted stocks
+as it's cut off from combat supply.</p>
+
+<p>Other units closing to attack wherever possible.</p>
+
+<h4 id="supply-6">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>91 Self-propelled is out of supply, surrounded by 21 Pz and Centro
+units.</p>
+
+<h4 id="reaction-phase-6">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves, etc.</li>
+  <li>Non-phasing player barrage</li>
+</ol>
+
+<p>Germans need to barrage to survive. These would be expensive, and not
+sure if they would have enough SP to barrage, and to move during their
+phase. Let's do it anyway.</p>
+
+<ul>
+  <li>At Thelepte, 42 at 5T roll 5 for DG on US artillery.</li>
+  <li>Sido Bou Zid, 41 at 5T roll boxcars, DG on US armor.</li>
+</ul>
+
+<h4 id="combat-phase-6">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery (no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>This is going to go pretty fast.</p>
+
+<ul>
+  <li>
+    <p>Barrage, strength 8 on Germans at Thelepte, roll 4 no effect.</p>
+  </li>
+  <li>
+    <p>Kasserine: 19:11 which is 2:1, roll for surprise 7 - 3 defender
+surprise again, with 1L shift (lucky), so 1:1 in open roll 5 - 3
+yields <code>AL2</code>, not good.</p>
+  </li>
+  <li>
+    <p>South of Tebessa US has 4:1 because out of supply halves the German
+defense. It would be in combat supply (9.5a). Roll 5 - 2 for surprise,
+defender surprise shift 4, so 1:1. Bummer for US. Roll 3 (ugh) - 2
+yields <code>AL2</code>, the road to Tebessa is open!</p>
+  </li>
+  <li>
+    <p>Sidi Bou Zid, 5:1 on 90 PJ, let's finally kill this unit. Boxcars
+across the board, which is attacker surprise with 12 - 2 for 10. And a
+shift of 6, so 11:1 roll 5 - 2 yields <code>Ao1DL1o1</code>. The attackers take
+the retreat, but 90 PJ is gone. And the US is still in de facto
+control of Sidi Bou Zid.</p>
+  </li>
+</ul>
+
+<p>That's all the combat for the Allies on this last turn.</p>
+
+<h4 id="exploitation-phase-6">Exploitation phase</h4>
+
+<ol class="turn-sequence">
+  <li>Movement segment</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>Nothing to exploit.</p>
+
+<h4 id="allies-clean-up-phase-2">Allies clean Up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Axis player.</li>
+</ul>
+
+<p>All done.</p>
+
+<h3 id="axis-turn-3">Axis Turn 3</h3>
+
+<p class="turn-sequence">Brief summary of Axis goal this turn.</p>
+
+<p>The only thing worth dealing with is seeing if 1-8 Pz and 115 PG can
+take Tebessa, so they move up to get there just barely. If they weren't
+out of supply, they could attempt overrun.</p>
+
+<h4 id="aircraft-refit-7">Aircraft refit</h4>
+
+<p class="turn-sequence">Cost 1T to refit any air base regardless of level or number of aircraft
+(15.1B)</p>
+
+<p>No aircraft this game.</p>
+
+<h4 id="reinforcement-7">Reinforcement</h4>
+
+<p class="turn-sequence">Per scenario specification or reinforcement track.</p>
+
+<p>1 SP at B43.34</p>
+
+<h4 id="movement-7">Movement</h4>
+
+<ol class="turn-sequence">
+  <li>Breakout segment  (12.8e) Check trace to friendly units in supply.</li>
+  <li>Movement segment (6.0): 1/2 for DG (5.10), 1/4 for Reserve (5.7)</li>
+  <li>Air/Naval Barrage segment (10.2, 10.3)</li>
+</ol>
+
+<p>Move 1-8 Pz and 115 PG to Tebessa.</p>
+
+<h4 id="supply-7">Supply</h4>
+
+<p class="turn-sequence">This phase does:</p>
+
+<ul class="turn-sequence">
+  <li>Determine which units are in or out of Trace Supply (12.6)</li>
+  <li>Replenish low or exhausted internal stocks (12.10)</li>
+</ul>
+
+<p class="turn-sequence">It does not deal with the "On Map" supply provided by "S" and "T"
+counters.</p>
+
+<p>We'll assume this is back in supply which they would definitely be given
+one leg unit in move mode.</p>
+
+<h4 id="reaction-phase-7">Reaction phase</h4>
+
+<ol class="turn-sequence">
+  <li>Non-phasing player releases Reserves (5.7), destroy dumps (12.11).</li>
+  <li>Non-phasing player barrage (all types, 10.0) and transport.</li>
+</ol>
+
+<p>The US made a mistake here, and should have pulled the artillery back to
+protect Tebessa. They would have a chance to DG the Germans.</p>
+
+<h4 id="combat-phase-7">Combat phase</h4>
+
+<ol class="turn-sequence">
+  <li>Artillery barrage (10.1, no Air/Naval)</li>
+  <li>Combat segment (9.0, artillery units strength [1] per 13.4b)</li>
+</ol>
+
+<p>Being back in supply, and assuming 2T (or internal stocks, really)
+available, we have 10 armor and 5 mechanized, which are both doubled in
+the open with 8 defending for 4:1, +2 DRM. Roll for surprise 7 + 2 = 9,
+no surprise, which is too bad because 6 shift. So 4:1 in the open roll 4
++ 2 yields <code>Ao1Do</code>. The Germans can take 1-8 as a loss, and the Allies
+retreat into Tebessa.</p>
+
+<h4 id="exploitation-phase-7">Exploitation phase</h4>
+
+<p class="turn-sequence">Exploitation mode is defined in Section 5.9, with Exploition Phase
+details defined in Section 11.0.</p>
+
+<ol class="turn-sequence">
+  <li>Movement segment (6.0), overruns cost 3 MP (8.1a, 8.1e prohibits
+Exploitation result).</li>
+  <li>Barrage segment</li>
+  <li>Combat segment</li>
+</ol>
+
+<p>No exploitation, called the game here.</p>
+
+<h4 id="german-clean-up-phase-2">German clean up phase</h4>
+
+<ul class="turn-sequence">
+  <li>Remove DG and Exploitation markers.</li>
+  <li>Flip or remove Fueled markers.</li>
+  <li>Remove train-busting placed by Allied player.</li>
+</ul>
+
+<p>Game called.</p>
+
+<h3 id="end-of-turn-3-and-game">End of Turn 3 and game</h3>
+
+<p>And that's a wrap. The Tebessa fight boiled down to the luck of the die,
+with something like 50/50 (max) for Germans to get an exploitable
+result, then exploit successfully.</p>
+
+<p class="center"><img src="/images/tunisia/kasserine/g1-end.jpg" alt="End of game" /></p>
+
+<p>As can be seen, the Germans did not achieve their goals.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>A win for the Allies.</p>
+
+<p>What's crystal clear after Turn 1 is that there is no way for the
+Germans to achieve victory conditions using only combat mode with
+"strict" EZOC. They must go into movement mode and figure out how to
+swing around EZOCs to position themselves appropriately. The Allies, on
+the other hand, can move into blocking positions while staying in combat
+mode. This makes it even harder for the Germans as they will have to
+defend in move mode.</p>
+
+<p>I suspect that getting the first turn right will allow the Germans to
+conduct the remaining two turns in combat mode, providing they can
+survive the Allies first turn counter attacks. If the Germans can get
+the Allies rocked back a bit, and keep up the momentum, they may be able
+to succeed.</p>
+
+<h3 id="blunders">Blunders</h3>
+
+<p>Manifold and varied.</p>
+
+<ul>
+  <li>
+    <p>Turn 1, the primary blunder was <em>not</em> putting the mechanized infantry
+into Truck mode and getting them around the back of the French at
+Fériana to cut off retreat and protect trace supply. A related blunder
+was not putting the leg infantry into strat mode for the same reason.
+I think this is just 1 para unit attached to 15 Pz, but it still would
+have been very useful to have on the next turn, given that it would be
+well-protected by the mechanized units. Acually, this wasn't a
+blunder, I'm specifically playing this game in combat mode only.
+But this would be a blunder if I were using all modes.</p>
+  </li>
+  <li>
+    <p>Not using EZOC negation to get 10 Pz around Sidi Bou Zid. In truth,
+this won't matter as much with only combat mode. Using a move mode,
+this would be imperative. That would have the added benefit of putting
+the US units there out of supply.</p>
+  </li>
+  <li>
+    <p>In the combat following exploitation (Turn 1), one of the US units is
+tracked artillery, with strength of 6. This may not have been allowed
+in the battle without spending extra supply is there had been supply.
+This would have put the odds at 5:1 for <code>Ae4DL1o2</code>, significantly
+different! However, I think since the Combat factor is not
+parenthesized, I did it right.</p>
+  </li>
+  <li>
+    <p>Units retreating 2 steps go into DG mode (5.10a.B). The French unit
+from Turn 1 combat should have been put into DG.</p>
+  </li>
+</ul>
+
+<h3 id="some-notes">Some notes</h3>
+
+<ul>
+  <li>
+    <p>Trace supply status affects unit strengths independently of combat
+supply concerns, and any reductions are cumulative.</p>
+  </li>
+  <li>
+    <p>B) Pay 1 SP per HQ to fuel an HQ itself and all independent units
+within its throw range (see 12.5e). This payment lasts until the next
+Friendly Clean Up Phase. Mark this with a Fueled marker on top of the
+HQ.</p>
+  </li>
+  <li>Determine how many HQ on map</li>
+  <li>Determine which independent units belong to which HQ.</li>
+  <li>Allocate SP per HQ.</li>
+  <li>How would kampfgruppes operate with respect to hq and fueling?</li>
+  <li>Check motorized units traveling combat/leg need fuel.</li>
+</ul>
+
+<h4 id="axis">Axis</h4>
+
+<ul>
+  <li>Superga</li>
+  <li>10, 8 SP</li>
+  <li>15, 3 SP</li>
+  <li>21, 1 SP</li>
+  <li>DAK, 4 SP</li>
+</ul>
+
+<p>16 SP, 64 Ticks</p>
+
+<h4 id="allies">Allies</h4>
+
+<ul>
+  <li>1st Armor, 2 Sp</li>
+  <li>French HQ, 3 SP</li>
+  <li>34th Inf, 1 SP</li>
+  <li>14 Corps, 7 SP</li>
+</ul>
+
+<p>13 SP, 52 Ticks</p>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2015/02/04/lynn-willis-olympica.html' rel='prev'>Lynn Willis' Olympica</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2015/02/15/vietnam-solitaire-first-play.html' rel='next'>Vietnam Solitaire first play</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/tunisia.html'>tunisia</a>
+</li>
+<li class='tag'>
+<a href='/tags/ocs.html'>ocs</a>
+</li>
+<li class='tag'>
+<a href='/tags/kasserine.html'>kasserine</a>
+</li>
+<li class='tag'>
+<a href='/tags/north-africa.html'>north-africa</a>
+</li>
+<li class='tag'>
+<a href='/tags/mmp.html'>mmp</a>
+</li>
+<li class='tag'>
+<a href='/tags/multiman-publishing.html'>multiman-publishing</a>
+</li>
+<li class='tag'>
+<a href='/tags/the-gamers.html'>the-gamers</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

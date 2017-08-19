@@ -1,641 +1,649 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                Operation SEALORDS, and the game
-              </h1>
-              <time class='updated' pubdate=''>Jun 13 2015</time>
-              <p>I've got a game of <em>SEALORDS: The Vietnam War in the Mekong Delta</em>
-              scheduled tomorrow with AS at EGO. Over the last few days I've been
-              setting up the small scenario modeling <a href="https://en.wikipedia.org/wiki/Operation_Game_Warden">Operation Game
-              Warden</a>.</p>
-              
-              <p>But first, a bit about <strong>SEALORDS</strong>, the <strong>S</strong>outh<strong>E</strong>ast <strong>A</strong>sia
-              <strong>L</strong>and <strong>O</strong>cean <strong>R</strong>iverine <strong>D</strong>elta <strong>S</strong>trategy, which has to be
-              the most acronym ever. The driving motivation behind SEALORDS was to
-              deny the VC logistical support and bases for VC forces operating in the
-              Mekong Delta region southwest of Saigon. The Delta is pretty close to
-              Saigon, on the order of 10s of miles, which allowed the VC to get in
-              very close. The Delta is characterized by the Mekong River (of course),
-              along with a network of naturally developed distributary waterways, and
-              man-made canals connecting everything with everything. Land movement is
-              very difficult in the Mekong Delta, and prohibited in the game.  Moving
-              forces requires water craft or air craft, both of which the US could
-              supply in abundance. As a result of various operations as part of
-              SEALORDS, the VC were largely driven away from operating in the Mekong
-              Delta.</p>
-              
-              <p>On to the game.</p>
-              
-              <h2 id="turn-sequence">Turn Sequence</h2>
-              
-              <p class="turn-sequence">Recap previous turn, and briefly describe goals for each side for
-              upcoming turn.</p>
-              
-              <h3 id="i-first-player-random-events-phase">I. First Player Random Events Phase</h3>
-              
-              <p class="turn-sequence">Roll d6 consult First Player's Random Events table on the game map (6.3).</p>
-              
-              <h3 id="ii-second-player-random-events-phase">II. Second Player Random Events Phase</h3>
-              
-              <p class="turn-sequence">Roll d6 consult Second Player's Random Events table on the game map (6.3).</p>
-              
-              <h3 id="iii-first-player-reinforcement-and-refit-phase">III. First Player Reinforcement and Refit Phase</h3>
-              
-              <p class="turn-sequence">Increase First Player's Command Point (CP) by the amount allowed per
-              scenario rules (6.4).</p>
-              
-              <h4 id="a-first-player-reinforcement-sub-phase">A. First Player Reinforcement Sub-phase</h4>
-              
-              <p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
-              (6.4).</p>
-              
-              <h4 id="b-first-player-refit-sub-phase">B. First Player Refit Sub-phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Spend CP to allow units in Refit Box to re-enter play in a future
-                (roll d6 for entry turn), and</li>
-                <li>Place refitted units, if any, back in play (6.4).</li>
-              </ol>
-              
-              <h3 id="iv-second-player-reinforcement-and-refit-phase">IV. Second Player Reinforcement and Refit Phase</h3>
-              
-              <p class="turn-sequence">Increase Second Player's Command Point (CP) by the amount allowed per
-              scenario rules (6.4).</p>
-              
-              <h4 id="a-second-player-reinforcement-sub-phase">A. Second Player Reinforcement Sub-phase</h4>
-              
-              <p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
-              (6.4).</p>
-              
-              <h4 id="b-second-player-refit-sub-phase">B. Second Player Refit Sub-phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Spend CP to allow units in Refit Box to re-enter play in a future
-                (roll d6 for entry turn), and</li>
-                <li>Place refitted units, if any, back in play (6.4).</li>
-              </ol>
-              
-              <h3 id="v-mutual-and-alternating-operations-phase">V. Mutual and Alternating Operations Phase</h3>
-              
-              <p class="turn-sequence">Players alternate conduct of individual operations (7.0).</p>
-              
-              <ol class="turn-sequence">
-                <li>Force Designation Sub-phase (7.6.1)</li>
-                <li>Force Movement Sub-phase (7.6.2)</li>
-                <li>Recon Sub-phase (7.6.3)
-                a. Flip
-                b. Designate</li>
-                <li>Free World Air, Airmobile, Naval Gunfire Sub-Phase (7.6.4)</li>
-                <li>Fire Sub-phase (7.6.5)</li>
-                <li>Recycle (7.6.6)</li>
-              </ol>
-              
-              <h4 id="a-first-player-operation">A. First Player Operation</h4>
-              
-              <p class="turn-sequence">See sub-phases above.</p>
-              
-              <h4 id="b-second-player-operation">B. Second Player Operation</h4>
-              
-              <p class="turn-sequence">See sub-phases above.</p>
-              
-              <h4 id="c-repeat-operations">C. Repeat operations</h4>
-              
-              <p class="turn-sequence">Repeat Steps A and B until both players have no more operations to
-              conduct (6.5).</p>
-              
-              <h3 id="vi-first-player-logistics-phase">VI. First Player Logistics Phase</h3>
-              
-              <p class="turn-sequence">Determine supply status for all units. Logistical bases, Special Forces
-              camps, SF companies, Local and Regional Forces, ARVN divisions, militia
-              garrisons and markers are always in supply (14.2).</p>
-              
-              <p class="turn-sequence">All other units are in supply when:</p>
-              
-              <ol class="turn-sequence">
-                <li>Colocated with logistic base, either marker or printed on map
-              (14.3.1).</li>
-                <li>Colocated with LSC or MRB unit. (14.3.2)</li>
-                <li>Communist unit colocated with Supply Cache marker or Supply
-              Infiltration Junk (which are removed from play once used). (14.3.3)</li>
-              </ol>
-              
-              <p class="turn-sequence">Expend CP for resupplying out of supply units, or place such units in
-              appropriate Refit Box.</p>
-              
-              <h3 id="vii-second-player-logistics-phase">VII. Second Player Logistics Phase</h3>
-              
-              <p class="turn-sequence">Same as First Player.</p>
-              
-              <h3 id="viii-first-player-territorial-victory-point-phase">VIII. First Player Territorial Victory Point Phase</h3>
-              
-              <p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
-              
-              <h3 id="ix-second-player-territorial-victory-point-phase">IX. Second Player Territorial Victory Point Phase</h3>
-              
-              <p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
-              
-              <h3 id="x-end-of-turn">X. End of Turn</h3>
-              
-              <p class="turn-sequence">Increment the game turn counter.
-              Return to I. First Player's Random Event Phase, and continue.</p>
-              
-              <h2 id="turn-1">Turn 1</h2>
-              
-              <p class="turn-sequence">Recap previous turn, and briefly describe goals for each side for
-              upcoming turn.</p>
-              
-              <p>This being Turn 1 of the first game, the main goal for both sides is
-              just pushing counters around, to see what happens.</p>
-              
-              <p>I'm probably going to spend all the command points possible as early as
-              possible to cut this solo game short. I'll be playing it opposed
-              tomorrow.</p>
-              
-              <h3 id="i-first-player-random-events-phase-1">I. First Player Random Events Phase</h3>
-              
-              <p class="turn-sequence">Roll d6 consult First Player's Random Events table on the game map (6.3).</p>
-              
-              <p>Roll 3 "Dispute in Politburo" subtract roll d6 for 5 from CP. Ouch.</p>
-              
-              <h3 id="ii-second-player-random-events-phase-1">II. Second Player Random Events Phase</h3>
-              
-              <p class="turn-sequence">Roll d6 consult Second Player's Random Events table on the game map (6.3).</p>
-              
-              <p>Roll 5 for "Weather" which is roll d6 for 5 reduction in CP for upcoming
-              turn.</p>
-              
-              <h3 id="iii-first-player-reinforcement-and-refit-phase-1">III. First Player Reinforcement and Refit Phase</h3>
-              
-              <p class="turn-sequence">Increase First Player's Command Point (CP) by the amount allowed per
-              scenario rules (6.4).</p>
-              
-              <p>First player now has 30 CP.</p>
-              
-              <h4 id="a-first-player-reinforcement-sub-phase-1">A. First Player Reinforcement Sub-phase</h4>
-              
-              <p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
-              (6.4).</p>
-              
-              <p>No reinforcements this turn.</p>
-              
-              <h4 id="b-first-player-refit-sub-phase-1">B. First Player Refit Sub-phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Spend CP to allow units in Refit Box to re-enter play in a future
-                (roll d6 for entry turn), and</li>
-                <li>Place refitted units, if any, back in play (6.4).</li>
-              </ol>
-              
-              <p>No refits this turn.</p>
-              
-              <h3 id="iv-second-player-reinforcement-and-refit-phase-1">IV. Second Player Reinforcement and Refit Phase</h3>
-              
-              <p class="turn-sequence">Increase Second Player's Command Point (CP) by the amount allowed per
-              scenario rules (6.4).</p>
-              
-              <p>Second player now has 10 - 5 for 30 CP this turn.</p>
-              
-              <h4 id="a-second-player-reinforcement-sub-phase-1">A. Second Player Reinforcement Sub-phase</h4>
-              
-              <p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
-              (6.4).</p>
-              
-              <p>No reinforcements this turn.</p>
-              
-              <h4 id="b-second-player-refit-sub-phase-1">B. Second Player Refit Sub-phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>Spend CP to allow units in Refit Box to re-enter play in a future
-                (roll d6 for entry turn), and</li>
-                <li>Place refitted units, if any, back in play (6.4).</li>
-              </ol>
-              
-              <p>No refits this turn.</p>
-              
-              <h3 id="v-mutual-and-alternating-operations-phase-1">V. Mutual and Alternating Operations Phase</h3>
-              
-              <p class="turn-sequence">Players alternate conduct of individual operations (7.0).</p>
-              
-              <ol class="turn-sequence">
-                <li>Force Designation Sub-phase (7.6.1)</li>
-                <li>Force Movement Sub-phase (7.6.2)</li>
-                <li>Recon Sub-phase (7.6.3)
-                a. Flip
-                b. Designate</li>
-                <li>Free World Air, Airmobile, Naval Gunfire Sub-Phase (7.6.4)</li>
-                <li>Fire Sub-phase (7.6.5)</li>
-                <li>Recycle (7.6.6)</li>
-              </ol>
-              
-              <h4 id="operation-1-vc">Operation 1: VC</h4>
-              
-              <p>VC move a leg Bn and HQ on an Unarmed Light Craft (ULC) from Cambodia to
-              attack a SF base close by. Operation costs 2, movement costs 1 b/c HQ,
-              total CP expended 3.</p>
-              
-              <p>VC CP remaining: 27.</p>
-              
-              <ul>
-                <li>Bounce roll: VC 4 + 3 for leading with Leg, FWA 1 + 2, VC has the bounce.</li>
-                <li>FWA commits an airstrike costing 1 CP.</li>
-                <li>VC brings 8 but 1L for SF base in Tan Chau. Roll 2 on the 6-7 column
-              for <code>A</code> sends the airstrike back to the refit box. FWA on the 2 column
-              roll 5 for <code>R</code> which is refit, the VC elect to refit the HQ unit.
-              Round 2: FWA has the bounce, attack on the 2 column roll 2 for <code>A</code>
-              which is inapplicable against VC; VC roll 6 on the 3 column (shift 1L
-              for SF base, 1L for town defense) which is <code>K</code> and 4 VP for VC.</li>
-              </ul>
-              
-              <p class="center"><img alt="After the first operation" src="/images/sealords/g1-t1.jpg" /></p>
-              
-              <h4 id="operation-2-fwa">Operation 2: FWA</h4>
-              
-              <p>Attack at Soc Trang, whoops, we have civilians, local infantry and a
-              Deception marker in play. This is gonna be dicey for the FWA. Cost of
-              operation is 1, movement of SEAL team company, 1. That Civilian marker
-              is 2 VP for the VC. Looks like the Deception marker is equivalent to a
-              dummy counter. Roll for the bounce, to the VC. FWA bringing in airmobile
-              unit, another SEAL team, cost another 1 CP (at least). Combat: VC roll
-              <code>2</code> which is no effect as no airstrike markers are used in this round.
-              FWA roll 6, which is column 8-9 for 11 strength and town defense and
-              results in <code>K+B</code>. Since the Deception unit is not in play, that leaves
-              the Local Force as the <code>K</code> and 2 VP for the FWA.</p>
-              
-              <p>VP:</p>
-              
-              <ul>
-                <li>VC: 7</li>
-                <li>FWA: 4</li>
-              </ul>
-              
-              <p>CP:</p>
-              
-              <ul>
-                <li>VC: 27</li>
-                <li>FWA: 26</li>
-              </ul>
-              
-              <p>And that's all I'm going to do tonight. I need to get the game packed up
-              to go to EGO and play AS tomorrow morning.</p>
-              
-              <h3 id="vi-first-player-logistics-phase-1">VI. First Player Logistics Phase</h3>
-              
-              <p class="turn-sequence">Determine supply status for all units. Logistical bases, Special Forces
-              camps, SF companies, Local and Regional Forces, ARVN divisions, militia
-              garrisons and markers are always in supply (14.2).</p>
-              
-              <p class="turn-sequence">All other units are in supply when:</p>
-              
-              <ol class="turn-sequence">
-                <li>Colocated with logistic base, either marker or printed on map
-              (14.3.1).</li>
-                <li>Colocated with LSC or MRB unit. (14.3.2)</li>
-                <li>Communist unit colocated with Supply Cache marker or Supply
-              Infiltration Junk (which are removed from play once used). (14.3.3)</li>
-              </ol>
-              
-              <p class="turn-sequence">Expend CP for resupplying out of supply units, or place such units in
-              appropriate Refit Box.</p>
-              
-              <p>Not going to worry about supply for this game.</p>
-              
-              <h3 id="vii-second-player-logistics-phase-1">VII. Second Player Logistics Phase</h3>
-              
-              <p class="turn-sequence">Same as First Player.</p>
-              
-              <p>Not worrying about supply this turn.</p>
-              
-              <h3 id="viii-first-player-territorial-victory-point-phase-1">VIII. First Player Territorial Victory Point Phase</h3>
-              
-              <p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
-              
-              <ul>
-                <li>Solely occupied city squares: 0</li>
-                <li>Solely occupied towns: 5</li>
-                <li>Saigin LOC occupied: 0</li>
-                <li>Infiltration supply: 0 (technically, 2 in Cambodia, ignoring for now)</li>
-              </ul>
-              
-              <p>Total: 12.</p>
-              
-              <h3 id="ix-second-player-territorial-victory-point-phase-1">IX. Second Player Territorial Victory Point Phase</h3>
-              
-              <p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
-              
-              <p>No "printed" bases occupied, hence no VP here.</p>
-              
-              <p>Total: 4.</p>
-              
-              <h3 id="x-end-of-turn-1">X. End of Turn 1</h3>
-              
-              <p class="turn-sequence">Increment the game turn counter.
-              Return to I. First Player's Random Event Phase, and continue.</p>
-              
-              <h2 id="aar">AAR</h2>
-              
-              <p>So, VC win, the larger difference being the territory held.</p>
-              
-              <p>This seems like a pretty cool little game. It's got quite a number of
-              moving parts though, a lot to keep track of.</p>
-              
-              <p>I was only able to get 2 operations of a single turn played, partly
-              because I've been busy doing chores today, but mostly because writing
-              everything out to learn the rules really well costs a lot of time.</p>
-              
-              <h3 id="blunders">Blunders</h3>
-              
-              <p>Nothing out of the ordinary, considering this was learning the rules,
-              and not really understanding the victory conditions.</p>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2015/05/31/return-to-operational-kasserine.html' rel='prev'>Return to operational Kasserine</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2015/06/14/sealords-at-ego.html' rel='next'>SEALORDS at EGO</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/sealords.html'>sealords</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/strategy-and-tactics.html'>strategy-and-tactics</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/miranda.html'>miranda</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/joe-miranda.html'>joe-miranda</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/vietnam.html'>vietnam</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/mekong.html'>mekong</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/mekong-delta.html'>mekong-delta</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/counter-insurgency.html'>counter-insurgency</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Operation SEALORDS, and the game
+</h1>
+<time class='updated' pubdate=''>Jun 13 2015</time>
+<p>I've got a game of <em>SEALORDS: The Vietnam War in the Mekong Delta</em>
+scheduled tomorrow with AS at EGO. Over the last few days I've been
+setting up the small scenario modeling <a href="https://en.wikipedia.org/wiki/Operation_Game_Warden">Operation Game
+Warden</a>.</p>
+
+<p>But first, a bit about <strong>SEALORDS</strong>, the <strong>S</strong>outh<strong>E</strong>ast <strong>A</strong>sia
+<strong>L</strong>and <strong>O</strong>cean <strong>R</strong>iverine <strong>D</strong>elta <strong>S</strong>trategy, which has to be
+the most acronym ever. The driving motivation behind SEALORDS was to
+deny the VC logistical support and bases for VC forces operating in the
+Mekong Delta region southwest of Saigon. The Delta is pretty close to
+Saigon, on the order of 10s of miles, which allowed the VC to get in
+very close. The Delta is characterized by the Mekong River (of course),
+along with a network of naturally developed distributary waterways, and
+man-made canals connecting everything with everything. Land movement is
+very difficult in the Mekong Delta, and prohibited in the game.  Moving
+forces requires water craft or air craft, both of which the US could
+supply in abundance. As a result of various operations as part of
+SEALORDS, the VC were largely driven away from operating in the Mekong
+Delta.</p>
+
+<p>On to the game.</p>
+
+<h2 id="turn-sequence">Turn Sequence</h2>
+
+<p class="turn-sequence">Recap previous turn, and briefly describe goals for each side for
+upcoming turn.</p>
+
+<h3 id="i-first-player-random-events-phase">I. First Player Random Events Phase</h3>
+
+<p class="turn-sequence">Roll d6 consult First Player's Random Events table on the game map (6.3).</p>
+
+<h3 id="ii-second-player-random-events-phase">II. Second Player Random Events Phase</h3>
+
+<p class="turn-sequence">Roll d6 consult Second Player's Random Events table on the game map (6.3).</p>
+
+<h3 id="iii-first-player-reinforcement-and-refit-phase">III. First Player Reinforcement and Refit Phase</h3>
+
+<p class="turn-sequence">Increase First Player's Command Point (CP) by the amount allowed per
+scenario rules (6.4).</p>
+
+<h4 id="a-first-player-reinforcement-sub-phase">A. First Player Reinforcement Sub-phase</h4>
+
+<p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
+(6.4).</p>
+
+<h4 id="b-first-player-refit-sub-phase">B. First Player Refit Sub-phase</h4>
+
+<ol class="turn-sequence">
+  <li>Spend CP to allow units in Refit Box to re-enter play in a future
+  (roll d6 for entry turn), and</li>
+  <li>Place refitted units, if any, back in play (6.4).</li>
+</ol>
+
+<h3 id="iv-second-player-reinforcement-and-refit-phase">IV. Second Player Reinforcement and Refit Phase</h3>
+
+<p class="turn-sequence">Increase Second Player's Command Point (CP) by the amount allowed per
+scenario rules (6.4).</p>
+
+<h4 id="a-second-player-reinforcement-sub-phase">A. Second Player Reinforcement Sub-phase</h4>
+
+<p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
+(6.4).</p>
+
+<h4 id="b-second-player-refit-sub-phase">B. Second Player Refit Sub-phase</h4>
+
+<ol class="turn-sequence">
+  <li>Spend CP to allow units in Refit Box to re-enter play in a future
+  (roll d6 for entry turn), and</li>
+  <li>Place refitted units, if any, back in play (6.4).</li>
+</ol>
+
+<h3 id="v-mutual-and-alternating-operations-phase">V. Mutual and Alternating Operations Phase</h3>
+
+<p class="turn-sequence">Players alternate conduct of individual operations (7.0).</p>
+
+<ol class="turn-sequence">
+  <li>Force Designation Sub-phase (7.6.1)</li>
+  <li>Force Movement Sub-phase (7.6.2)</li>
+  <li>Recon Sub-phase (7.6.3)
+  a. Flip
+  b. Designate</li>
+  <li>Free World Air, Airmobile, Naval Gunfire Sub-Phase (7.6.4)</li>
+  <li>Fire Sub-phase (7.6.5)</li>
+  <li>Recycle (7.6.6)</li>
+</ol>
+
+<h4 id="a-first-player-operation">A. First Player Operation</h4>
+
+<p class="turn-sequence">See sub-phases above.</p>
+
+<h4 id="b-second-player-operation">B. Second Player Operation</h4>
+
+<p class="turn-sequence">See sub-phases above.</p>
+
+<h4 id="c-repeat-operations">C. Repeat operations</h4>
+
+<p class="turn-sequence">Repeat Steps A and B until both players have no more operations to
+conduct (6.5).</p>
+
+<h3 id="vi-first-player-logistics-phase">VI. First Player Logistics Phase</h3>
+
+<p class="turn-sequence">Determine supply status for all units. Logistical bases, Special Forces
+camps, SF companies, Local and Regional Forces, ARVN divisions, militia
+garrisons and markers are always in supply (14.2).</p>
+
+<p class="turn-sequence">All other units are in supply when:</p>
+
+<ol class="turn-sequence">
+  <li>Colocated with logistic base, either marker or printed on map
+(14.3.1).</li>
+  <li>Colocated with LSC or MRB unit. (14.3.2)</li>
+  <li>Communist unit colocated with Supply Cache marker or Supply
+Infiltration Junk (which are removed from play once used). (14.3.3)</li>
+</ol>
+
+<p class="turn-sequence">Expend CP for resupplying out of supply units, or place such units in
+appropriate Refit Box.</p>
+
+<h3 id="vii-second-player-logistics-phase">VII. Second Player Logistics Phase</h3>
+
+<p class="turn-sequence">Same as First Player.</p>
+
+<h3 id="viii-first-player-territorial-victory-point-phase">VIII. First Player Territorial Victory Point Phase</h3>
+
+<p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
+
+<h3 id="ix-second-player-territorial-victory-point-phase">IX. Second Player Territorial Victory Point Phase</h3>
+
+<p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
+
+<h3 id="x-end-of-turn">X. End of Turn</h3>
+
+<p class="turn-sequence">Increment the game turn counter.
+Return to I. First Player's Random Event Phase, and continue.</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p class="turn-sequence">Recap previous turn, and briefly describe goals for each side for
+upcoming turn.</p>
+
+<p>This being Turn 1 of the first game, the main goal for both sides is
+just pushing counters around, to see what happens.</p>
+
+<p>I'm probably going to spend all the command points possible as early as
+possible to cut this solo game short. I'll be playing it opposed
+tomorrow.</p>
+
+<h3 id="i-first-player-random-events-phase-1">I. First Player Random Events Phase</h3>
+
+<p class="turn-sequence">Roll d6 consult First Player's Random Events table on the game map (6.3).</p>
+
+<p>Roll 3 "Dispute in Politburo" subtract roll d6 for 5 from CP. Ouch.</p>
+
+<h3 id="ii-second-player-random-events-phase-1">II. Second Player Random Events Phase</h3>
+
+<p class="turn-sequence">Roll d6 consult Second Player's Random Events table on the game map (6.3).</p>
+
+<p>Roll 5 for "Weather" which is roll d6 for 5 reduction in CP for upcoming
+turn.</p>
+
+<h3 id="iii-first-player-reinforcement-and-refit-phase-1">III. First Player Reinforcement and Refit Phase</h3>
+
+<p class="turn-sequence">Increase First Player's Command Point (CP) by the amount allowed per
+scenario rules (6.4).</p>
+
+<p>First player now has 30 CP.</p>
+
+<h4 id="a-first-player-reinforcement-sub-phase-1">A. First Player Reinforcement Sub-phase</h4>
+
+<p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
+(6.4).</p>
+
+<p>No reinforcements this turn.</p>
+
+<h4 id="b-first-player-refit-sub-phase-1">B. First Player Refit Sub-phase</h4>
+
+<ol class="turn-sequence">
+  <li>Spend CP to allow units in Refit Box to re-enter play in a future
+  (roll d6 for entry turn), and</li>
+  <li>Place refitted units, if any, back in play (6.4).</li>
+</ol>
+
+<p>No refits this turn.</p>
+
+<h3 id="iv-second-player-reinforcement-and-refit-phase-1">IV. Second Player Reinforcement and Refit Phase</h3>
+
+<p class="turn-sequence">Increase Second Player's Command Point (CP) by the amount allowed per
+scenario rules (6.4).</p>
+
+<p>Second player now has 10 - 5 for 30 CP this turn.</p>
+
+<h4 id="a-second-player-reinforcement-sub-phase-1">A. Second Player Reinforcement Sub-phase</h4>
+
+<p class="turn-sequence">Purchase Reinforcements to place directly on the map by expending CPs
+(6.4).</p>
+
+<p>No reinforcements this turn.</p>
+
+<h4 id="b-second-player-refit-sub-phase-1">B. Second Player Refit Sub-phase</h4>
+
+<ol class="turn-sequence">
+  <li>Spend CP to allow units in Refit Box to re-enter play in a future
+  (roll d6 for entry turn), and</li>
+  <li>Place refitted units, if any, back in play (6.4).</li>
+</ol>
+
+<p>No refits this turn.</p>
+
+<h3 id="v-mutual-and-alternating-operations-phase-1">V. Mutual and Alternating Operations Phase</h3>
+
+<p class="turn-sequence">Players alternate conduct of individual operations (7.0).</p>
+
+<ol class="turn-sequence">
+  <li>Force Designation Sub-phase (7.6.1)</li>
+  <li>Force Movement Sub-phase (7.6.2)</li>
+  <li>Recon Sub-phase (7.6.3)
+  a. Flip
+  b. Designate</li>
+  <li>Free World Air, Airmobile, Naval Gunfire Sub-Phase (7.6.4)</li>
+  <li>Fire Sub-phase (7.6.5)</li>
+  <li>Recycle (7.6.6)</li>
+</ol>
+
+<h4 id="operation-1-vc">Operation 1: VC</h4>
+
+<p>VC move a leg Bn and HQ on an Unarmed Light Craft (ULC) from Cambodia to
+attack a SF base close by. Operation costs 2, movement costs 1 b/c HQ,
+total CP expended 3.</p>
+
+<p>VC CP remaining: 27.</p>
+
+<ul>
+  <li>Bounce roll: VC 4 + 3 for leading with Leg, FWA 1 + 2, VC has the bounce.</li>
+  <li>FWA commits an airstrike costing 1 CP.</li>
+  <li>VC brings 8 but 1L for SF base in Tan Chau. Roll 2 on the 6-7 column
+for <code>A</code> sends the airstrike back to the refit box. FWA on the 2 column
+roll 5 for <code>R</code> which is refit, the VC elect to refit the HQ unit.
+Round 2: FWA has the bounce, attack on the 2 column roll 2 for <code>A</code>
+which is inapplicable against VC; VC roll 6 on the 3 column (shift 1L
+for SF base, 1L for town defense) which is <code>K</code> and 4 VP for VC.</li>
+</ul>
+
+<p class="center"><img src="/images/sealords/g1-t1.jpg" alt="After the first operation" /></p>
+
+<h4 id="operation-2-fwa">Operation 2: FWA</h4>
+
+<p>Attack at Soc Trang, whoops, we have civilians, local infantry and a
+Deception marker in play. This is gonna be dicey for the FWA. Cost of
+operation is 1, movement of SEAL team company, 1. That Civilian marker
+is 2 VP for the VC. Looks like the Deception marker is equivalent to a
+dummy counter. Roll for the bounce, to the VC. FWA bringing in airmobile
+unit, another SEAL team, cost another 1 CP (at least). Combat: VC roll
+<code>2</code> which is no effect as no airstrike markers are used in this round.
+FWA roll 6, which is column 8-9 for 11 strength and town defense and
+results in <code>K+B</code>. Since the Deception unit is not in play, that leaves
+the Local Force as the <code>K</code> and 2 VP for the FWA.</p>
+
+<p>VP:</p>
+
+<ul>
+  <li>VC: 7</li>
+  <li>FWA: 4</li>
+</ul>
+
+<p>CP:</p>
+
+<ul>
+  <li>VC: 27</li>
+  <li>FWA: 26</li>
+</ul>
+
+<p>And that's all I'm going to do tonight. I need to get the game packed up
+to go to EGO and play AS tomorrow morning.</p>
+
+<h3 id="vi-first-player-logistics-phase-1">VI. First Player Logistics Phase</h3>
+
+<p class="turn-sequence">Determine supply status for all units. Logistical bases, Special Forces
+camps, SF companies, Local and Regional Forces, ARVN divisions, militia
+garrisons and markers are always in supply (14.2).</p>
+
+<p class="turn-sequence">All other units are in supply when:</p>
+
+<ol class="turn-sequence">
+  <li>Colocated with logistic base, either marker or printed on map
+(14.3.1).</li>
+  <li>Colocated with LSC or MRB unit. (14.3.2)</li>
+  <li>Communist unit colocated with Supply Cache marker or Supply
+Infiltration Junk (which are removed from play once used). (14.3.3)</li>
+</ol>
+
+<p class="turn-sequence">Expend CP for resupplying out of supply units, or place such units in
+appropriate Refit Box.</p>
+
+<p>Not going to worry about supply for this game.</p>
+
+<h3 id="vii-second-player-logistics-phase-1">VII. Second Player Logistics Phase</h3>
+
+<p class="turn-sequence">Same as First Player.</p>
+
+<p>Not worrying about supply this turn.</p>
+
+<h3 id="viii-first-player-territorial-victory-point-phase-1">VIII. First Player Territorial Victory Point Phase</h3>
+
+<p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
+
+<ul>
+  <li>Solely occupied city squares: 0</li>
+  <li>Solely occupied towns: 5</li>
+  <li>Saigin LOC occupied: 0</li>
+  <li>Infiltration supply: 0 (technically, 2 in Cambodia, ignoring for now)</li>
+</ul>
+
+<p>Total: 12.</p>
+
+<h3 id="ix-second-player-territorial-victory-point-phase-1">IX. Second Player Territorial Victory Point Phase</h3>
+
+<p class="turn-sequence">Consult Victory Point table on map to determine territorial points.</p>
+
+<p>No "printed" bases occupied, hence no VP here.</p>
+
+<p>Total: 4.</p>
+
+<h3 id="x-end-of-turn-1">X. End of Turn 1</h3>
+
+<p class="turn-sequence">Increment the game turn counter.
+Return to I. First Player's Random Event Phase, and continue.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>So, VC win, the larger difference being the territory held.</p>
+
+<p>This seems like a pretty cool little game. It's got quite a number of
+moving parts though, a lot to keep track of.</p>
+
+<p>I was only able to get 2 operations of a single turn played, partly
+because I've been busy doing chores today, but mostly because writing
+everything out to learn the rules really well costs a lot of time.</p>
+
+<h3 id="blunders">Blunders</h3>
+
+<p>Nothing out of the ordinary, considering this was learning the rules,
+and not really understanding the victory conditions.</p>
+
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2015/05/31/return-to-operational-kasserine.html' rel='prev'>Return to operational Kasserine</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2015/06/14/sealords-at-ego.html' rel='next'>SEALORDS at EGO</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/sealords.html'>sealords</a>
+</li>
+<li class='tag'>
+<a href='/tags/strategy-and-tactics.html'>strategy-and-tactics</a>
+</li>
+<li class='tag'>
+<a href='/tags/miranda.html'>miranda</a>
+</li>
+<li class='tag'>
+<a href='/tags/joe-miranda.html'>joe-miranda</a>
+</li>
+<li class='tag'>
+<a href='/tags/vietnam.html'>vietnam</a>
+</li>
+<li class='tag'>
+<a href='/tags/mekong.html'>mekong</a>
+</li>
+<li class='tag'>
+<a href='/tags/mekong-delta.html'>mekong-delta</a>
+</li>
+<li class='tag'>
+<a href='/tags/counter-insurgency.html'>counter-insurgency</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

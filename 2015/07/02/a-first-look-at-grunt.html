@@ -1,960 +1,967 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                A first look at Grunt
-              </h1>
-              <time class='updated' pubdate=''>Jul  2 2015</time>
-              <p>One of the earliest Vietnam games I know of is SPI's <em>Grunt</em> (1971),
-              which simulate very small unit operations during the Vietnam War.  By
-              "small" I mean company level operations with squads as the fire and
-              maneuver elements. One can certainly simulate at even lower levels, but
-              it would seem odd to me to task a single platoon for an operation.
-              Platoons just don't have enough support.</p>
-              
-              <p>The rules for Grunt are not the easiest to assimilate, in part because
-              the game is as much a small "game system" as it is any single game. The
-              following situations or scenarios are very briefly described in the
-              rules:</p>
-              
-              <ol>
-                <li>Solo game.</li>
-                <li>Basic two player game.</li>
-                <li>Standard two player game.</li>
-                <li>Chain of Command Situation 1: Search and Destroy.</li>
-                <li>Chain of Command Situation 2: Secure Landing Zone.</li>
-                <li>Chain of Command Situation 3: Eagle Flight.</li>
-                <li>Roll your own situation given appropriate orders of battle and command orders
-              as outlined in the Chain of Command situations.</li>
-              </ol>
-              
-              <p>Along with these situations, the NLF have the following order of battle
-              options: Basic Game, Mobile Base Camp, Mobile Training Camp, Day-to-Day,
-              Supply Depot, Inf. Company, NLF Held Area.</p>
-              
-              <p>Accompanying the situations and orders of battle, there are also a long
-              list of optional rules covering Strengthened Defense, Move &amp; Fire,
-              Ammunition and Supply, Reconnaissance-by-fire, Casualty Combat Results
-              (with associated medics), Ambush, Artillery, Forward Observation, Fire
-              Effects, Fields of Fire, Airstrikes and more.</p>
-              
-              <p>There's quite a bit of game play here, since (apparently) the Chain of
-              Command orders, optional rules and NLF order of battles can be mixed and
-              matched. Balance is achieved via handicapping. For example, landing an
-              entire company at once gives the NLF player 75 victory points. The US
-              going into an NLF Held Area gives the US player 100 victory points.</p>
-              
-              <p>However, it should be noted, the rules are not that clear, and are not
-              what would be considered well-organized 45 years after publication.
-              Hence, it's not altogether clear how to put together a viable solitaire
-              situation. We'll have to let common sense rule the day.</p>
-              
-              <h2 id="game-play-overview">Game play overview</h2>
-              
-              <p>Fundamentally, <em>Grunt</em> is an IGOUGO system, with one player having
-              exposing units only when firing or fired upon. The US player is brought
-              in by abstract helicopters, which may be shot down by NLF as a reaction
-              when US forces land. The optional rules provide a lot of chrome, but
-              nothing unduly difficult. Games should play pretty fast, the biggest
-              holdup being the NLF player being able to remember his deployment or
-              check units quickly. At least one person made blocks for NLF for
-              convenience. Counter sleds might work, albeit those are hard to stack.</p>
-              
-              <h2 id="turn-sequence">Turn sequence</h2>
-              
-              <h3 id="us-turn">US Turn</h3>
-              
-              <h4 id="movement-phase">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units have 6 MF.</p>
-              
-              <h4 id="combat-phase">Combat Phase</h4>
-              
-              <p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
-              
-              <h4 id="clear-pinned-units">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
-              
-              <h3 id="nlf-turn">NLF Turn</h3>
-              
-              <h4 id="movement-phase-1">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <h4 id="combat-phase-1">Combat Phase</h4>
-              
-              <p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <h4 id="clear-pinned-units-1">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
-              
-              <h3 id="end-of-turn">End of Turn</h3>
-              
-              <p class="turn-sequence">Update running score for each side.</p>
-              
-              <hr />
-              
-              <p>This turn sequence is deceptively simple. Where more modern games break
-              out actions such as supply and air actions, these activities are buried
-              in one of the phases, and the player has to work out the appropriate
-              sequencing. From the rules, such activities aren't complicated, but care
-              needs to be taken to keep track.</p>
-              
-              <h2 id="setting-up">Setting up</h2>
-              
-              <p>The solitaire game has us set up all the NLF, Peasants and Dummy
-              counters on the board, face down. We're going to use the Basic Rules and
-              Basic Game US deployment, which is 12 squads and a company commander.
-              The US forces in Grunt consist of a two company battalion. We'll use
-              A Company without the platoon leaders (i.e., the platoon leader counters
-              won't go on the map).</p>
-              
-              <h2 id="turn-1">Turn 1</h2>
-              
-              <p>The NLF is already on the map, the US needs to land some forces. The US
-              goal is to clear a lane across the map to control access across the
-              central open area dividing the western forks of the river.</p>
-              
-              <h3 id="us-player--turn">US Player  Turn</h3>
-              
-              <p>US lands in the southeast sector.</p>
-              
-              <h4 id="movement-phase-2">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
-              
-              <p>Here's the situation:</p>
-              
-              <p class="center"><img alt="Solitaire set up" src="/images/grunt/g1-setup.jpg" /></p>
-              
-              <p>The company commander is moving with 2d platoon.</p>
-              
-              <h4 id="combat-phase-2">Combat Phase</h4>
-              
-              <p>No combat this turn.</p>
-              
-              <h3 id="nlf-player-turn">NLF Player Turn</h3>
-              
-              <p>Solo game, NLF sits tight.</p>
-              
-              <h4 id="movement-phase-3">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement for hidden NLF in solo game.</p>
-              
-              <h4 id="combat-phase-3">Combat Phase</h4>
-              
-              <p>No combat this turn.</p>
-              
-              <h3 id="end-of-turn-bookkeeping">End of turn bookkeeping</h3>
-              
-              <p>Score: NVA 75, US 0.</p>
-              
-              <h2 id="turn-2">Turn 2</h2>
-              
-              <p>The US is on the ground, time to sweep.</p>
-              
-              <h3 id="us-player--turn-1">US Player  Turn</h3>
-              
-              <p>Start the sweep by moving west.</p>
-              
-              <h4 id="movement-phase-4">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
-              
-              <ul>
-                <li>
-                  <p>1st platoon moves north and west to flank suspected NLF positions.</p>
-                </li>
-                <li>
-                  <p>2d platoon moves across road and to the west.</p>
-                </li>
-                <li>
-                  <p>3rd platoon moves to southwest flank of suspected NLF positions.</p>
-                </li>
-              </ul>
-              
-              <p>3 positions have no NLF, 2 are occupied by peasants, and an NLF cadre is
-              uncovered in the southwest.</p>
-              
-              <h4 id="combat-phase-4">Combat Phase</h4>
-              
-              <p>US may not fire on NLF units exposed during the same turn movement.
-              Generally, units may fire or move during a single turn, but not both.</p>
-              
-              <h3 id="nlf-player-turn-1">NLF Player Turn</h3>
-              
-              <h4 id="movement-phase-5">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement for NLF in solo game.</p>
-              
-              <h4 id="combat-phase-5">Combat Phase</h4>
-              
-              <p>NLF fires on squad 4, 3rd platoon which is in the trees, hence defense 3
-              so odds 1:2 roll 1 no effect.</p>
-              
-              <h3 id="end-of-turn-bookkeeping-1">End of turn bookkeeping</h3>
-              
-              <p>Here's the situation with the dummy counters still on the board:</p>
-              
-              <p class="center"><img alt="End of Turn 2" src="/images/grunt/g1-t2.jpg" /></p>
-              
-              <p>Score: NLF 75, US 0.</p>
-              
-              <h2 id="turn-3">Turn 3</h2>
-              
-              <h3 id="us-player--turn-2">US Player  Turn</h3>
-              
-              <h4 id="movement-phase-6">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
-              
-              <ul>
-                <li>
-                  <p>1st platoon establishes an overwatch position looking northwest across
-              clearing.</p>
-                </li>
-                <li>
-                  <p>2d platoon moves across huts to check another potential MLF position.</p>
-                </li>
-                <li>
-                  <p>1st and 2d squads move up to flank cadre, 3d and 4th squads hold.</p>
-                </li>
-              </ul>
-              
-              <h4 id="combat-phase-6">Combat Phase</h4>
-              
-              <p>3rd squad fires, 1:1 into broken terrain. 4th squad holds fire as
-              peasants are in firing line. Roll 5, NLF pinned for 10 pts US. NLF may
-              not move or fire this turn.</p>
-              
-              <h3 id="nlf-player-turn-2">NLF Player Turn</h3>
-              
-              <h4 id="movement-phase-7">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <h4 id="combat-phase-7">Combat Phase</h4>
-              
-              <h3 id="end-of-turn-bookkeeping-2">End of turn bookkeeping</h3>
-              
-              <ol class="turn-sequence">
-                <li>Remove Pinned markers.</li>
-                <li>Update running score for each side.</li>
-              </ol>
-              
-              <p>Score: NLF 75, US 10.</p>
-              
-              <h2 id="turn-4">Turn 4</h2>
-              
-              <h3 id="us-player--turn-3">US Player  Turn</h3>
-              
-              <p>US is blocked up by the NLF Cadre. That's a high priority to clear out.</p>
-              
-              <h4 id="movement-phase-8">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
-              
-              <ul>
-                <li>1st holds in overwatch.</li>
-                <li>2d platoon moves up to clear southwest quadrant.</li>
-                <li>3rd platoon remains engaged in firefight with cadre unit, while
-              moving up squads 1 &amp; 2 for next turn engagement.</li>
-              </ul>
-              
-              <h4 id="combat-phase-8">Combat Phase</h4>
-              
-              <p>Firing with squads 3 &amp; 4, 2:1 odds roll 6 for pin and US 10 points.
-              Crossfire result would 1:2 odds on everything, which is a pin for 5 &amp; 6,
-              but would have no effect on the peasants in line of fire. The pin result
-              would not matter on friendly forces as the pin markers get removed at
-              end of turn.</p>
-              
-              <h3 id="nlf-player-turn-3">NLF Player Turn</h3>
-              
-              <p>No actions since cadre unit is pinned.</p>
-              
-              <h4 id="movement-phase-9">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement this turn.</p>
-              
-              <h4 id="combat-phase-9">Combat Phase</h4>
-              
-              <p>Cadre unit is pinned.</p>
-              
-              <h3 id="end-of-turn-bookkeeping-3">End of turn bookkeeping</h3>
-              
-              <ol class="turn-sequence">
-                <li>Remove Pinned markers.</li>
-                <li>Update running score for each side.</li>
-              </ol>
-              
-              <p>Score: NLF 75, US 20.</p>
-              
-              <h2 id="turn-5">Turn 5</h2>
-              
-              <h3 id="us-player--turn-5">US Player  Turn 5</h3>
-              
-              <h4 id="movement-phase-10">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
-              
-              <p>2d Platoon moves up, another NLF unit exposed.</p>
-              
-              <h4 id="combat-phase-10">Combat Phase</h4>
-              
-              <p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
-              
-              <p>3rd platoon lights up the cadre at 4:1, roll 4 for pinned, score 10 more
-              points.</p>
-              
-              <h3 id="nlf-player-turn-5">NLF Player Turn 5</h3>
-              
-              <p>Not much to do in solo game.</p>
-              
-              <h4 id="movement-phase-11">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement in solo game.</p>
-              
-              <h4 id="combat-phase-11">Combat Phase</h4>
-              
-              <p class="center">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <p>NLF 3 fires on 3rd squad 2d platoon, which is in the clear, 2:1 roll 2
-              miss.</p>
-              
-              <h4 id="clear-pinned-units-2">Clear Pinned Units</h4>
-              
-              <ol class="turn-sequence">
-                <li>Remove Pinned markers from units pinned during US combat phase.</li>
-              </ol>
-              
-              <h3 id="end-of-turn-5">End of Turn 5</h3>
-              
-              <ol class="turn-sequence">
-                <li>Update running score for each side.</li>
-              </ol>
-              
-              <p>Score: NLF 75, US 30.</p>
-              
-              <p>Here's the situation at the end of Turn 5:</p>
-              
-              <p class="center"><img alt="End of Turn 5" src="/images/grunt/g1-t5.jpg" /></p>
-              
-              <p>The US is all jammed up around NLF forces.</p>
-              
-              <h2 id="turn-6">Turn 6</h2>
-              
-              <p>As can be seen from the situation at the end of Turn 5, the US is at a
-              bit of an impasse with respect to the rules for solitaire play. Since
-              half of two platoons are restricted from moving until the NLF units are
-              eliminated, and it takes a 6 on 4:1 column to eliminate, the game is
-              pretty much of a lock for the US at the moment. The NLF will have to
-              have to get lucky trading shots back and forth to run up the score on
-              their behalf. Let's see what happens trading fire with these units as
-              1st platoon moves into the treeline to the west.</p>
-              
-              <h3 id="us-turn-6">US Turn 6</h3>
-              
-              <p>As noted above, the US is at a bit of an impasse but could trade fire
-              and possibly win.</p>
-              
-              <h4 id="movement-phase-12">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units have 6 MF.</p>
-              
-              <ul>
-                <li>1st platoon moves west.</li>
-              </ul>
-              
-              <h4 id="combat-phase-12">Combat Phase</h4>
-              
-              <ol class="turn-sequence">
-                <li>US units which have not moved (optionally spent 3 or less MF) may fire.</li>
-              </ol>
-              
-              <ul>
-                <li>2d platoon fires at 3:1 roll 5 pinned for 10 more points.</li>
-                <li>3rd platoon fires at 4:1 roll 5 for eliminated and 20 more points. 3rd
-              platoon is now free to move next US movement phase.</li>
-              </ul>
-              
-              <h4 id="clear-pinned-units-3">Clear Pinned Units</h4>
-              
-              <ol class="turn-sequence">
-                <li>Remove Pinned markers from US units pinned during NLF combat phase.</li>
-              </ol>
-              
-              <h3 id="nlf-turn-6">NLF Turn 6</h3>
-              
-              <p>NLF is now in a bind, being pinned so cannot score any points.</p>
-              
-              <h4 id="movement-phase-13">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement for NLF.</p>
-              
-              <h4 id="combat-phase-13">Combat Phase</h4>
-              
-              <p class="center">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <p>NLF pinned, no fire.</p>
-              
-              <h4 id="clear-pinned-units-4">Clear Pinned Units</h4>
-              
-              <ol class="turn-sequence">
-                <li>Remove Pinned markers from units pinned during US combat phase.</li>
-              </ol>
-              
-              <h3 id="end-of-turn-1">End of Turn</h3>
-              
-              <ol class="turn-sequence">
-                <li>Update running score for each side.</li>
-              </ol>
-              
-              <p>Score: NLF 75, US 60.</p>
-              
-              <h2 id="turn-7">Turn 7</h2>
-              
-              <p>Looking bad for NLF.</p>
-              
-              <h3 id="us-turn-7">US Turn 7</h3>
-              
-              <h4 id="movement-phase-14">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units have 6 MF.</p>
-              
-              <ul>
-                <li>1st platoon moves west to uncover more potential NLF.</li>
-                <li>3rd platoon moves west into wooded area.</li>
-              </ul>
-              
-              <h4 id="combat-phase-14">Combat Phase</h4>
-              
-              <p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
-              
-              <p>2d platoon fires on NLF 3, roll 5 at 3:1, pinned score 10 points. US
-                has had some lucky rolls, nothing below 4 on fire combat yet.</p>
-              
-              <h4 id="clear-pinned-units-5">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
-              
-              <p>No pinned units.</p>
-              
-              <h3 id="nlf-turn-7">NLF Turn 7</h3>
-              
-              <p>NLF unit has a shot at pinning one of the US units in the open.</p>
-              
-              <h4 id="movement-phase-15">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement this game.</p>
-              
-              <h4 id="combat-phase-15">Combat Phase</h4>
-              
-              <p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <p>Firing on 1st squad 1st platoon, roll 4 at 1:1 pinned.</p>
-              
-              <h4 id="clear-pinned-units-6">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
-              
-              <h3 id="end-of-turn-7">End of Turn 7</h3>
-              
-              <ol class="turn-sequence">
-                <li>Update running score for each side.</li>
-              </ol>
-              
-              <p>Score: NLF 75, US 70.</p>
-              
-              <h2 id="turn-8">Turn 8</h2>
-              
-              <p>Almost surely the US will be able to get 5 more points to score a
-              victory here.</p>
-              
-              <h3 id="us-turn-8">US Turn 8</h3>
-              
-              <p>US is getting bored, time to score it up and get out of here.</p>
-              
-              <h4 id="movement-phase-16">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units have 6 MF.</p>
-              
-              <ul>
-                <li>1st platoon moves squad 4 to engage next turn.</li>
-                <li>3rd platoon crosses river.</li>
-              </ul>
-              
-              <h4 id="combat-phase-16">Combat Phase</h4>
-              
-              <p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
-              
-              <ul>
-                <li>2d platoon fires roll 5 at 3:1 which is a pin for 10 points.</li>
-                <li>1st platoon fires roll 6 at 2:1 which is a pin for 10 points.</li>
-              </ul>
-              
-              <h4 id="clear-pinned-units-7">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
-              
-              <h3 id="nlf-turn-8">NLF Turn 8</h3>
-              
-              <p>Pretty much game over for NLF, but we'll play it out anyway.</p>
-              
-              <h4 id="movement-phase-17">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>Nothing to move.</p>
-              
-              <h4 id="combat-phase-17">Combat Phase</h4>
-              
-              <p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <p>Everything pinned.</p>
-              
-              <h4 id="clear-pinned-units-8">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
-              
-              <h3 id="end-of-turn-8">End of Turn 8</h3>
-              
-              <p class="turn-sequence">Update running score for each side.</p>
-              
-              <p>Score: NLF 75, US 90.</p>
-              
-              <h2 id="turn-9">Turn 9</h2>
-              
-              <p>Nothing much to say here.</p>
-              
-              <h3 id="us-turn-9">US Turn 9</h3>
-              
-              <p>Continue doing what works.</p>
-              
-              <h4 id="movement-phase-18">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units have 6 MF.</p>
-              
-              <ul>
-                <li>3rd platoon finds nothing (dummy).</li>
-              </ul>
-              
-              <h4 id="combat-phase-18">Combat Phase</h4>
-              
-              <p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
-              
-              <ul>
-                <li>2d platoon at 3:1 roll 3, NLF pinned.</li>
-                <li>1st platoon at 2:1 roll 2, no effect! Finally, the NLF get a break.</li>
-              </ul>
-              
-              <h4 id="clear-pinned-units-9">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
-              
-              <p>1st squad 1st platoon unpinned.</p>
-              
-              <h3 id="nlf-turn-9">NLF Turn 9</h3>
-              
-              <p>NLF have a very small chance of getting a few more points and even, dice
-              permitting, a very narrow win.</p>
-              
-              <h4 id="movement-phase-19">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>Nothing to move.</p>
-              
-              <h4 id="combat-phase-19">Combat Phase</h4>
-              
-              <p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <p>Fire 1:1 on 1st squad, roll 6 and pin for 20 points! Back in the game…</p>
-              
-              <h4 id="clear-pinned-units-10">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
-              
-              <h3 id="end-of-turn-9">End of Turn 9</h3>
-              
-              <p class="turn-sequence">Update running score for each side.</p>
-              
-              <p>Score: NLF 95, US 90.</p>
-              
-              <h2 id="turn-10">Turn 10</h2>
-              
-              <p>All of a sudden, the US needs to get a little bit lucky, lest a victory
-              be snatched right away.</p>
-              
-              <h3 id="us-turn-1">US Turn</h3>
-              
-              <p>US is just going to continue to fire and not move anything into range of
-              concealed NLF, which could allow a free hit on the US. Mission almost
-              over, why risk anything?</p>
-              
-              <h4 id="movement-phase-20">Movement Phase</h4>
-              
-              <p class="turn-sequence">All US and ARVN units have 6 MF.</p>
-              
-              <p>Nothing to move, we go straight to firing.</p>
-              
-              <h4 id="combat-phase-20">Combat Phase</h4>
-              
-              <p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
-              
-              <ul>
-                <li>2d platoon fires at 3:1 roll 2, pin.</li>
-                <li>1st platoon fires at 2:1 roll 2, miss! NLF snatched a victory.</li>
-              </ul>
-              
-              <h4 id="clear-pinned-units-11">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
-              
-              <h3 id="nlf-turn-1">NLF Turn</h3>
-              
-              <p>NLF won, let's see by how much.</p>
-              
-              <h4 id="movement-phase-21">Movement Phase</h4>
-              
-              <p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
-              
-              <p>No movement.</p>
-              
-              <h4 id="combat-phase-21">Combat Phase</h4>
-              
-              <p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
-              
-              <ul>
-                <li>Cadre 3 at 2:1 roll 1, miss.</li>
-                <li>VC Militia at 1:1 roll 4 pin but no points.</li>
-              </ul>
-              
-              <h4 id="clear-pinned-units-12">Clear Pinned Units</h4>
-              
-              <p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
-              
-              <h3 id="end-of-turn-2">End of Turn</h3>
-              
-              <p class="turn-sequence">Update running score for each side.</p>
-              
-              <p>Score: NLF 95, US 90.</p>
-              
-              <p class="center"><img alt="End of game with NLF win by 5 points" src="/images/grunt/g1-end.jpg" />o</p>
-              
-              <p>This was actually quite fun, despite the work it took to unscrew the
-              rules.</p>
-              
-              <h2 id="aar">AAR</h2>
-              
-              <p>Despite the somewhat boringness of the solitaire rules, I think I rather
-              like the system. It's simple, should play pretty fast with two player
-              who know the rules, and there is enough optional what-would-now-be-called
-              "chrome" to keep it interesting.</p>
-              
-              <p>Given the reliance on hidden units and bluffing, it would be a bit of
-              work to drive out a decent solitaire system. But it could probably be
-              done. Not sure it's worth it other than an exercise in design.</p>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2015/07/01/nam-diary-microgame.html' rel='prev'>'Nam Diary  microgame</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2015/07/03/courage-under-fire-an-loc-1972.html' rel='next'>Courage Under Fire - An Loc 1972</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/grunt.html'>grunt</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/spi.html'>spi</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/vietnam.html'>vietnam</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/tactical.html'>tactical</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/solo.html'>solo</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/john-kramer.html'>john-kramer</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/kramer.html'>kramer</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+A first look at Grunt
+</h1>
+<time class='updated' pubdate=''>Jul  2 2015</time>
+<p>One of the earliest Vietnam games I know of is SPI's <em>Grunt</em> (1971),
+which simulate very small unit operations during the Vietnam War.  By
+"small" I mean company level operations with squads as the fire and
+maneuver elements. One can certainly simulate at even lower levels, but
+it would seem odd to me to task a single platoon for an operation.
+Platoons just don't have enough support.</p>
+
+<p>The rules for Grunt are not the easiest to assimilate, in part because
+the game is as much a small "game system" as it is any single game. The
+following situations or scenarios are very briefly described in the
+rules:</p>
+
+<ol>
+  <li>Solo game.</li>
+  <li>Basic two player game.</li>
+  <li>Standard two player game.</li>
+  <li>Chain of Command Situation 1: Search and Destroy.</li>
+  <li>Chain of Command Situation 2: Secure Landing Zone.</li>
+  <li>Chain of Command Situation 3: Eagle Flight.</li>
+  <li>Roll your own situation given appropriate orders of battle and command orders
+as outlined in the Chain of Command situations.</li>
+</ol>
+
+<p>Along with these situations, the NLF have the following order of battle
+options: Basic Game, Mobile Base Camp, Mobile Training Camp, Day-to-Day,
+Supply Depot, Inf. Company, NLF Held Area.</p>
+
+<p>Accompanying the situations and orders of battle, there are also a long
+list of optional rules covering Strengthened Defense, Move &amp; Fire,
+Ammunition and Supply, Reconnaissance-by-fire, Casualty Combat Results
+(with associated medics), Ambush, Artillery, Forward Observation, Fire
+Effects, Fields of Fire, Airstrikes and more.</p>
+
+<p>There's quite a bit of game play here, since (apparently) the Chain of
+Command orders, optional rules and NLF order of battles can be mixed and
+matched. Balance is achieved via handicapping. For example, landing an
+entire company at once gives the NLF player 75 victory points. The US
+going into an NLF Held Area gives the US player 100 victory points.</p>
+
+<p>However, it should be noted, the rules are not that clear, and are not
+what would be considered well-organized 45 years after publication.
+Hence, it's not altogether clear how to put together a viable solitaire
+situation. We'll have to let common sense rule the day.</p>
+
+<h2 id="game-play-overview">Game play overview</h2>
+
+<p>Fundamentally, <em>Grunt</em> is an IGOUGO system, with one player having
+exposing units only when firing or fired upon. The US player is brought
+in by abstract helicopters, which may be shot down by NLF as a reaction
+when US forces land. The optional rules provide a lot of chrome, but
+nothing unduly difficult. Games should play pretty fast, the biggest
+holdup being the NLF player being able to remember his deployment or
+check units quickly. At least one person made blocks for NLF for
+convenience. Counter sleds might work, albeit those are hard to stack.</p>
+
+<h2 id="turn-sequence">Turn sequence</h2>
+
+<h3 id="us-turn">US Turn</h3>
+
+<h4 id="movement-phase">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units have 6 MF.</p>
+
+<h4 id="combat-phase">Combat Phase</h4>
+
+<p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
+
+<h4 id="clear-pinned-units">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
+
+<h3 id="nlf-turn">NLF Turn</h3>
+
+<h4 id="movement-phase-1">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<h4 id="combat-phase-1">Combat Phase</h4>
+
+<p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<h4 id="clear-pinned-units-1">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
+
+<h3 id="end-of-turn">End of Turn</h3>
+
+<p class="turn-sequence">Update running score for each side.</p>
+
+<hr />
+
+<p>This turn sequence is deceptively simple. Where more modern games break
+out actions such as supply and air actions, these activities are buried
+in one of the phases, and the player has to work out the appropriate
+sequencing. From the rules, such activities aren't complicated, but care
+needs to be taken to keep track.</p>
+
+<h2 id="setting-up">Setting up</h2>
+
+<p>The solitaire game has us set up all the NLF, Peasants and Dummy
+counters on the board, face down. We're going to use the Basic Rules and
+Basic Game US deployment, which is 12 squads and a company commander.
+The US forces in Grunt consist of a two company battalion. We'll use
+A Company without the platoon leaders (i.e., the platoon leader counters
+won't go on the map).</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p>The NLF is already on the map, the US needs to land some forces. The US
+goal is to clear a lane across the map to control access across the
+central open area dividing the western forks of the river.</p>
+
+<h3 id="us-player--turn">US Player  Turn</h3>
+
+<p>US lands in the southeast sector.</p>
+
+<h4 id="movement-phase-2">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
+
+<p>Here's the situation:</p>
+
+<p class="center"><img src="/images/grunt/g1-setup.jpg" alt="Solitaire set up" /></p>
+
+<p>The company commander is moving with 2d platoon.</p>
+
+<h4 id="combat-phase-2">Combat Phase</h4>
+
+<p>No combat this turn.</p>
+
+<h3 id="nlf-player-turn">NLF Player Turn</h3>
+
+<p>Solo game, NLF sits tight.</p>
+
+<h4 id="movement-phase-3">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement for hidden NLF in solo game.</p>
+
+<h4 id="combat-phase-3">Combat Phase</h4>
+
+<p>No combat this turn.</p>
+
+<h3 id="end-of-turn-bookkeeping">End of turn bookkeeping</h3>
+
+<p>Score: NVA 75, US 0.</p>
+
+<h2 id="turn-2">Turn 2</h2>
+
+<p>The US is on the ground, time to sweep.</p>
+
+<h3 id="us-player--turn-1">US Player  Turn</h3>
+
+<p>Start the sweep by moving west.</p>
+
+<h4 id="movement-phase-4">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
+
+<ul>
+  <li>
+    <p>1st platoon moves north and west to flank suspected NLF positions.</p>
+  </li>
+  <li>
+    <p>2d platoon moves across road and to the west.</p>
+  </li>
+  <li>
+    <p>3rd platoon moves to southwest flank of suspected NLF positions.</p>
+  </li>
+</ul>
+
+<p>3 positions have no NLF, 2 are occupied by peasants, and an NLF cadre is
+uncovered in the southwest.</p>
+
+<h4 id="combat-phase-4">Combat Phase</h4>
+
+<p>US may not fire on NLF units exposed during the same turn movement.
+Generally, units may fire or move during a single turn, but not both.</p>
+
+<h3 id="nlf-player-turn-1">NLF Player Turn</h3>
+
+<h4 id="movement-phase-5">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement for NLF in solo game.</p>
+
+<h4 id="combat-phase-5">Combat Phase</h4>
+
+<p>NLF fires on squad 4, 3rd platoon which is in the trees, hence defense 3
+so odds 1:2 roll 1 no effect.</p>
+
+<h3 id="end-of-turn-bookkeeping-1">End of turn bookkeeping</h3>
+
+<p>Here's the situation with the dummy counters still on the board:</p>
+
+<p class="center"><img src="/images/grunt/g1-t2.jpg" alt="End of Turn 2" /></p>
+
+<p>Score: NLF 75, US 0.</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<h3 id="us-player--turn-2">US Player  Turn</h3>
+
+<h4 id="movement-phase-6">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
+
+<ul>
+  <li>
+    <p>1st platoon establishes an overwatch position looking northwest across
+clearing.</p>
+  </li>
+  <li>
+    <p>2d platoon moves across huts to check another potential MLF position.</p>
+  </li>
+  <li>
+    <p>1st and 2d squads move up to flank cadre, 3d and 4th squads hold.</p>
+  </li>
+</ul>
+
+<h4 id="combat-phase-6">Combat Phase</h4>
+
+<p>3rd squad fires, 1:1 into broken terrain. 4th squad holds fire as
+peasants are in firing line. Roll 5, NLF pinned for 10 pts US. NLF may
+not move or fire this turn.</p>
+
+<h3 id="nlf-player-turn-2">NLF Player Turn</h3>
+
+<h4 id="movement-phase-7">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<h4 id="combat-phase-7">Combat Phase</h4>
+
+<h3 id="end-of-turn-bookkeeping-2">End of turn bookkeeping</h3>
+
+<ol class="turn-sequence">
+  <li>Remove Pinned markers.</li>
+  <li>Update running score for each side.</li>
+</ol>
+
+<p>Score: NLF 75, US 10.</p>
+
+<h2 id="turn-4">Turn 4</h2>
+
+<h3 id="us-player--turn-3">US Player  Turn</h3>
+
+<p>US is blocked up by the NLF Cadre. That's a high priority to clear out.</p>
+
+<h4 id="movement-phase-8">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
+
+<ul>
+  <li>1st holds in overwatch.</li>
+  <li>2d platoon moves up to clear southwest quadrant.</li>
+  <li>3rd platoon remains engaged in firefight with cadre unit, while
+moving up squads 1 &amp; 2 for next turn engagement.</li>
+</ul>
+
+<h4 id="combat-phase-8">Combat Phase</h4>
+
+<p>Firing with squads 3 &amp; 4, 2:1 odds roll 6 for pin and US 10 points.
+Crossfire result would 1:2 odds on everything, which is a pin for 5 &amp; 6,
+but would have no effect on the peasants in line of fire. The pin result
+would not matter on friendly forces as the pin markers get removed at
+end of turn.</p>
+
+<h3 id="nlf-player-turn-3">NLF Player Turn</h3>
+
+<p>No actions since cadre unit is pinned.</p>
+
+<h4 id="movement-phase-9">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement this turn.</p>
+
+<h4 id="combat-phase-9">Combat Phase</h4>
+
+<p>Cadre unit is pinned.</p>
+
+<h3 id="end-of-turn-bookkeeping-3">End of turn bookkeeping</h3>
+
+<ol class="turn-sequence">
+  <li>Remove Pinned markers.</li>
+  <li>Update running score for each side.</li>
+</ol>
+
+<p>Score: NLF 75, US 20.</p>
+
+<h2 id="turn-5">Turn 5</h2>
+
+<h3 id="us-player--turn-5">US Player  Turn 5</h3>
+
+<h4 id="movement-phase-10">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units may move 6 hexes per turn.</p>
+
+<p>2d Platoon moves up, another NLF unit exposed.</p>
+
+<h4 id="combat-phase-10">Combat Phase</h4>
+
+<p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
+
+<p>3rd platoon lights up the cadre at 4:1, roll 4 for pinned, score 10 more
+points.</p>
+
+<h3 id="nlf-player-turn-5">NLF Player Turn 5</h3>
+
+<p>Not much to do in solo game.</p>
+
+<h4 id="movement-phase-11">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement in solo game.</p>
+
+<h4 id="combat-phase-11">Combat Phase</h4>
+
+<p class="center">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<p>NLF 3 fires on 3rd squad 2d platoon, which is in the clear, 2:1 roll 2
+miss.</p>
+
+<h4 id="clear-pinned-units-2">Clear Pinned Units</h4>
+
+<ol class="turn-sequence">
+  <li>Remove Pinned markers from units pinned during US combat phase.</li>
+</ol>
+
+<h3 id="end-of-turn-5">End of Turn 5</h3>
+
+<ol class="turn-sequence">
+  <li>Update running score for each side.</li>
+</ol>
+
+<p>Score: NLF 75, US 30.</p>
+
+<p>Here's the situation at the end of Turn 5:</p>
+
+<p class="center"><img src="/images/grunt/g1-t5.jpg" alt="End of Turn 5" /></p>
+
+<p>The US is all jammed up around NLF forces.</p>
+
+<h2 id="turn-6">Turn 6</h2>
+
+<p>As can be seen from the situation at the end of Turn 5, the US is at a
+bit of an impasse with respect to the rules for solitaire play. Since
+half of two platoons are restricted from moving until the NLF units are
+eliminated, and it takes a 6 on 4:1 column to eliminate, the game is
+pretty much of a lock for the US at the moment. The NLF will have to
+have to get lucky trading shots back and forth to run up the score on
+their behalf. Let's see what happens trading fire with these units as
+1st platoon moves into the treeline to the west.</p>
+
+<h3 id="us-turn-6">US Turn 6</h3>
+
+<p>As noted above, the US is at a bit of an impasse but could trade fire
+and possibly win.</p>
+
+<h4 id="movement-phase-12">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units have 6 MF.</p>
+
+<ul>
+  <li>1st platoon moves west.</li>
+</ul>
+
+<h4 id="combat-phase-12">Combat Phase</h4>
+
+<ol class="turn-sequence">
+  <li>US units which have not moved (optionally spent 3 or less MF) may fire.</li>
+</ol>
+
+<ul>
+  <li>2d platoon fires at 3:1 roll 5 pinned for 10 more points.</li>
+  <li>3rd platoon fires at 4:1 roll 5 for eliminated and 20 more points. 3rd
+platoon is now free to move next US movement phase.</li>
+</ul>
+
+<h4 id="clear-pinned-units-3">Clear Pinned Units</h4>
+
+<ol class="turn-sequence">
+  <li>Remove Pinned markers from US units pinned during NLF combat phase.</li>
+</ol>
+
+<h3 id="nlf-turn-6">NLF Turn 6</h3>
+
+<p>NLF is now in a bind, being pinned so cannot score any points.</p>
+
+<h4 id="movement-phase-13">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement for NLF.</p>
+
+<h4 id="combat-phase-13">Combat Phase</h4>
+
+<p class="center">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<p>NLF pinned, no fire.</p>
+
+<h4 id="clear-pinned-units-4">Clear Pinned Units</h4>
+
+<ol class="turn-sequence">
+  <li>Remove Pinned markers from units pinned during US combat phase.</li>
+</ol>
+
+<h3 id="end-of-turn-1">End of Turn</h3>
+
+<ol class="turn-sequence">
+  <li>Update running score for each side.</li>
+</ol>
+
+<p>Score: NLF 75, US 60.</p>
+
+<h2 id="turn-7">Turn 7</h2>
+
+<p>Looking bad for NLF.</p>
+
+<h3 id="us-turn-7">US Turn 7</h3>
+
+<h4 id="movement-phase-14">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units have 6 MF.</p>
+
+<ul>
+  <li>1st platoon moves west to uncover more potential NLF.</li>
+  <li>3rd platoon moves west into wooded area.</li>
+</ul>
+
+<h4 id="combat-phase-14">Combat Phase</h4>
+
+<p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
+
+<p>2d platoon fires on NLF 3, roll 5 at 3:1, pinned score 10 points. US
+  has had some lucky rolls, nothing below 4 on fire combat yet.</p>
+
+<h4 id="clear-pinned-units-5">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
+
+<p>No pinned units.</p>
+
+<h3 id="nlf-turn-7">NLF Turn 7</h3>
+
+<p>NLF unit has a shot at pinning one of the US units in the open.</p>
+
+<h4 id="movement-phase-15">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement this game.</p>
+
+<h4 id="combat-phase-15">Combat Phase</h4>
+
+<p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<p>Firing on 1st squad 1st platoon, roll 4 at 1:1 pinned.</p>
+
+<h4 id="clear-pinned-units-6">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
+
+<h3 id="end-of-turn-7">End of Turn 7</h3>
+
+<ol class="turn-sequence">
+  <li>Update running score for each side.</li>
+</ol>
+
+<p>Score: NLF 75, US 70.</p>
+
+<h2 id="turn-8">Turn 8</h2>
+
+<p>Almost surely the US will be able to get 5 more points to score a
+victory here.</p>
+
+<h3 id="us-turn-8">US Turn 8</h3>
+
+<p>US is getting bored, time to score it up and get out of here.</p>
+
+<h4 id="movement-phase-16">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units have 6 MF.</p>
+
+<ul>
+  <li>1st platoon moves squad 4 to engage next turn.</li>
+  <li>3rd platoon crosses river.</li>
+</ul>
+
+<h4 id="combat-phase-16">Combat Phase</h4>
+
+<p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
+
+<ul>
+  <li>2d platoon fires roll 5 at 3:1 which is a pin for 10 points.</li>
+  <li>1st platoon fires roll 6 at 2:1 which is a pin for 10 points.</li>
+</ul>
+
+<h4 id="clear-pinned-units-7">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
+
+<h3 id="nlf-turn-8">NLF Turn 8</h3>
+
+<p>Pretty much game over for NLF, but we'll play it out anyway.</p>
+
+<h4 id="movement-phase-17">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>Nothing to move.</p>
+
+<h4 id="combat-phase-17">Combat Phase</h4>
+
+<p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<p>Everything pinned.</p>
+
+<h4 id="clear-pinned-units-8">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
+
+<h3 id="end-of-turn-8">End of Turn 8</h3>
+
+<p class="turn-sequence">Update running score for each side.</p>
+
+<p>Score: NLF 75, US 90.</p>
+
+<h2 id="turn-9">Turn 9</h2>
+
+<p>Nothing much to say here.</p>
+
+<h3 id="us-turn-9">US Turn 9</h3>
+
+<p>Continue doing what works.</p>
+
+<h4 id="movement-phase-18">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units have 6 MF.</p>
+
+<ul>
+  <li>3rd platoon finds nothing (dummy).</li>
+</ul>
+
+<h4 id="combat-phase-18">Combat Phase</h4>
+
+<p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
+
+<ul>
+  <li>2d platoon at 3:1 roll 3, NLF pinned.</li>
+  <li>1st platoon at 2:1 roll 2, no effect! Finally, the NLF get a break.</li>
+</ul>
+
+<h4 id="clear-pinned-units-9">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
+
+<p>1st squad 1st platoon unpinned.</p>
+
+<h3 id="nlf-turn-9">NLF Turn 9</h3>
+
+<p>NLF have a very small chance of getting a few more points and even, dice
+permitting, a very narrow win.</p>
+
+<h4 id="movement-phase-19">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>Nothing to move.</p>
+
+<h4 id="combat-phase-19">Combat Phase</h4>
+
+<p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<p>Fire 1:1 on 1st squad, roll 6 and pin for 20 points! Back in the game…</p>
+
+<h4 id="clear-pinned-units-10">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
+
+<h3 id="end-of-turn-9">End of Turn 9</h3>
+
+<p class="turn-sequence">Update running score for each side.</p>
+
+<p>Score: NLF 95, US 90.</p>
+
+<h2 id="turn-10">Turn 10</h2>
+
+<p>All of a sudden, the US needs to get a little bit lucky, lest a victory
+be snatched right away.</p>
+
+<h3 id="us-turn-1">US Turn</h3>
+
+<p>US is just going to continue to fire and not move anything into range of
+concealed NLF, which could allow a free hit on the US. Mission almost
+over, why risk anything?</p>
+
+<h4 id="movement-phase-20">Movement Phase</h4>
+
+<p class="turn-sequence">All US and ARVN units have 6 MF.</p>
+
+<p>Nothing to move, we go straight to firing.</p>
+
+<h4 id="combat-phase-20">Combat Phase</h4>
+
+<p class="turn-sequence">US units which have not moved (optionally spent 3 or less MF) may fire.</p>
+
+<ul>
+  <li>2d platoon fires at 3:1 roll 2, pin.</li>
+  <li>1st platoon fires at 2:1 roll 2, miss! NLF snatched a victory.</li>
+</ul>
+
+<h4 id="clear-pinned-units-11">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during NLF combat phase.</p>
+
+<h3 id="nlf-turn-1">NLF Turn</h3>
+
+<p>NLF won, let's see by how much.</p>
+
+<h4 id="movement-phase-21">Movement Phase</h4>
+
+<p class="turn-sequence">All NLF combat units and (unloaded) Porters may move 6 hexes per turn.</p>
+
+<p>No movement.</p>
+
+<h4 id="combat-phase-21">Combat Phase</h4>
+
+<p class="turn-sequence">US unit on NLF Ambush marker gives +2 DRM on combat roll to NLF.</p>
+
+<ul>
+  <li>Cadre 3 at 2:1 roll 1, miss.</li>
+  <li>VC Militia at 1:1 roll 4 pin but no points.</li>
+</ul>
+
+<h4 id="clear-pinned-units-12">Clear Pinned Units</h4>
+
+<p class="turn-sequence">Remove Pinned markers from units pinned during US combat phase.</p>
+
+<h3 id="end-of-turn-2">End of Turn</h3>
+
+<p class="turn-sequence">Update running score for each side.</p>
+
+<p>Score: NLF 95, US 90.</p>
+
+<p class="center"><img src="/images/grunt/g1-end.jpg" alt="End of game with NLF win by 5 points" />o</p>
+
+<p>This was actually quite fun, despite the work it took to unscrew the
+rules.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>Despite the somewhat boringness of the solitaire rules, I think I rather
+like the system. It's simple, should play pretty fast with two player
+who know the rules, and there is enough optional what-would-now-be-called
+"chrome" to keep it interesting.</p>
+
+<p>Given the reliance on hidden units and bluffing, it would be a bit of
+work to drive out a decent solitaire system. But it could probably be
+done. Not sure it's worth it other than an exercise in design.</p>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2015/07/01/nam-diary-microgame.html' rel='prev'>'Nam Diary  microgame</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2015/07/03/courage-under-fire-an-loc-1972.html' rel='next'>Courage Under Fire - An Loc 1972</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/grunt.html'>grunt</a>
+</li>
+<li class='tag'>
+<a href='/tags/spi.html'>spi</a>
+</li>
+<li class='tag'>
+<a href='/tags/vietnam.html'>vietnam</a>
+</li>
+<li class='tag'>
+<a href='/tags/tactical.html'>tactical</a>
+</li>
+<li class='tag'>
+<a href='/tags/solo.html'>solo</a>
+</li>
+<li class='tag'>
+<a href='/tags/john-kramer.html'>john-kramer</a>
+</li>
+<li class='tag'>
+<a href='/tags/kramer.html'>kramer</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

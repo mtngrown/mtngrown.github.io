@@ -1,370 +1,378 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-    <link href="/stylesheets/pb.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-12'>
-            <header>
-              <nav class='navbar navbar-default' role='navigation'>
-                <div class='container' style='background-color: black;'>
-                  <ul class='nav navbar-nav'>
-                    <li>
-                      <a href='/about.html'>About</a>
-                    </li>
-                    <li>
-                      <a href='/'>ConSim home</a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz'>PanzerBlitz home</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Playing aids
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Games
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/games/'>Overview</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/balance.html'>Balance</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz/firefights'>Firefights</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Tactical examples
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Source code
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
-                          </li>
-                          <li>
-                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <h1 id="situation-5-game-2">Situation 5 Game 2</h1>
-            
-            <p>Feb. 8-9, 2014</p>
-            
-            <p>Revisiting Situation 5 now that I have a better notion of what the Germans need
-            to do.</p>
-            
-            <h2 id="setup">Setup</h2>
-            
-            <p>Russians set up first. In this game, Russian artillery and infantry strength is
-            concentrated on the south end of Board 2. The north end has a heavy howitzer,
-            an ATG in Uschas, and the two SU-76s.</p>
-            
-            <p>Germans decide to attempt to exploit the north end of the map, where the
-            Russian artillery is a little lighter.</p>
-            
-            <p>This setup seems to favor the Germans, but we'll see how it goes. Favoring the
-            Germans was partly conscious, to see how well the German armor could exploit a
-            weakness in the Russian line.</p>
-            
-            <h3 id="rule-variants">Rule variants</h3>
-            
-            <p>Germans allowed indirect fire for H &amp; M guns at greater than half range.</p>
-            
-            <h2 id="turn-1">Turn 1</h2>
-            
-            <p>Germans pile on to the north end, will take direct fire from an SU-76 on SG
-            III-75 at 2:1, risking only dispersal. I think I found a terrain hole not well
-            covered by the Russians that the Germans can slip through.</p>
-            
-            <p>I can already see that the 2 German PzKpfw IV in Uschas should have moved
-            forward. No need to engage that ATG.</p>
-            
-            <p>Russian fire phase: ATG in Uschas whiffed it, got expected dispersal on the SG
-            III-75 at 2:1. This would have been a kill if I hadn't forgot to use indirect
-            fire from the 120 mm mortar on Hill 135.</p>
-            
-            <p>Russians mount up to get in better position.</p>
-            
-            <h2 id="turn-2">Turn 2</h2>
-            
-            <p>As tempting as it is to hang aroung and fight, the Germans need to seriously
-            hustle through the German line.  And that they do, a weak Russian line lets the
-            Germans just swing around and through places the Russians can't reach.</p>
-            
-            <p>That said, the German put some smackdown on a SU-76. Having the Wespes way out
-            really helps with that indirect fire.</p>
-            
-            <p>Not much the Russians can do here except mount up and reposition to deny German
-            advance.</p>
-            
-            <h2 id="turn-3">Turn 3</h2>
-            
-            <p>Movement only round for the Germans, getting off the map as fast as possible.</p>
-            
-            <p>Russians positioning, blocking with remaining SU-76, CAT on PzKpfw.</p>
-            
-            <h2 id="turn-4">Turn 4</h2>
-            
-            <p>Russians just lost the second SU-76. Germans continue to move. Germans have 12
-            pieces off waiting one more turn to get 3 more off. All the German armor and
-            one CP halftrack  is staying behind to attempt to reduce infantry.</p>
-            
-            <p>Russians just carting troops around in an attempt to deny the Germans the
-            northern route back across the board.</p>
-            
-            <h2 id="turn-5">Turn 5</h2>
-            
-            <p>Germans moving armor around to get the infantry on the run. The last 3 pieces
-            intending to move off the board moved back help clear a lane for the returning
-            units.</p>
-            
-            <p>Russians continue to move troops north.</p>
-            
-            <h2 id="turn-6">Turn 6</h2>
-            
-            <p>Pressuring Russian rifle companies. Trying to get some Wespe action. They are
-            very weak on attack, and not that effective in CAT when German armor is
-            stacked.</p>
-            
-            <p>Russians are in a bind, having lost both tanks, and with German armor stacked high.</p>
-            
-            <h2 id="turn-7">Turn 7</h2>
-            
-            <p>German small armor repositioning, not much to do otherthan wait for the off
-            board pieces to come back on.</p>
-            
-            <p>Russians rolled a 6 on a 1:1 CAT.  Bummer. That would have taken out 2 halftracks.</p>
-            
-            <h2 id="turn-8">Turn 8</h2>
-            
-            <p>Germans are back on the board, and have to move fast.</p>
-            
-            <p>Russians whiffed another CAT, which was a blunder to even try, Russian infantry
-            should be moving to block instead of attacking.</p>
-            
-            <h2 id="turn-9">Turn 9</h2>
-            
-            <p>Germans, positioning.</p>
-            
-            <p>Russian mortar recently emplaced in Uschas takes out a PzKpfw IV, followup
-            close assault does nothing.</p>
-            
-            <h2 id="turn-10">Turn 10</h2>
-            
-            <p>Germans trying to escape, having a rough time.</p>
-            
-            <p>Russians manage to disperse critical unit on a CAT at 1:2, Germans concede.</p>
-            
-            <h2 id="aar">AAR</h2>
-            
-            <p>The Germans were only able to get 2 armored cars off the board. The other units
-            got bound up with Russian rifle companies in the close terrain on Board 2.
-            Lessons learned here include:</p>
-            
-            <ul>
-              <li>
-                <p>sometimes better to risk certain dispersal or elimination by providing the
-            opposition with a dilemma of either certain attack exposes them elsewhere.</p>
-              </li>
-              <li>
-                <p>The Germans have got to get off the board by the end of Turn 3, or there is
-            almost no way of winning. This is really hard if the Russians are
-            well-emplaced.</p>
-              </li>
-              <li>
-                <p>Russians almost lost this one, without a lucky CAT in Turn 10, the Germans
-            might well have succeeded.</p>
-              </li>
-            </ul>
-            
-            <p>All in all, the key to PanzerBlitz is understanding the game revolves around
-            movement.</p>
-            
-            <h3 id="blunders">Blunders</h3>
-            
-            <p>Russian turn 1 could have used indirect fire from 120 mm on south side of Hill
-            135, which would have been a kill.</p>
-            
-            <p>Germans should have the CP halftracks trailing instead of off the board where
-            they can't be used to spot for the Wespe. Even taking out a couple of Russian
-            rifles could have tipped the game to the Germans.</p>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
-              
-              <p>Avalon Hill's PanzerBlitz was a successor to a game called
-              "Tactical Game 3," which was never developed for market. The story can
-              be found on related web sites. What's important here is that the game
-              does have a long and successful history, ultimately selling hundreds
-              of thousands of copies.</p>
-              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
-              
-              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
-              
-              <ul>
-                <li>
-                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
-              Strategist</a>,
-              often referred to as "ImStrat" has an incredible collection of articles,
-              counters, maps and other material related to PanzerBlitz, Panzer Leader
-              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
-                </li>
-                <li>
-                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
-              outstanding resource, also worth hours of reading.</p>
-                </li>
-                <li>
-                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
-              appears to be where a number of current PanzerBlitz players can be
-              found. The forum is relatively relaxed and low traffic, but there is a
-              lot of information available.</p>
-                </li>
-              </ul>
-              
-              <p>There are several more outstanding links which will be added in the
-              future, and if you, the reader, find one of your favorite sites missing,
-              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
-              with the relevant addition.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<link href="/stylesheets/pb.css" rel="stylesheet" />
+</head>
+<body>
+<div id='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<header>
+<nav class='navbar navbar-default' role='navigation'>
+<div class='container' style='background-color: black;'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/'>ConSim home</a>
+</li>
+<li>
+<a href='/panzerblitz'>PanzerBlitz home</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Playing aids
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/playing-aids'>Playing aids</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/games/'>Overview</a>
+</li>
+<li>
+<a href='/panzerblitz/solitaire.html'>Solitaire</a>
+</li>
+<li>
+<a href='/panzerblitz/balance.html'>Balance</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+</li>
+</ul>
+</a>
+</li>
+<li>
+<a href='/panzerblitz/firefights'>Firefights</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Tactical examples
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Source code
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+</li>
+<li>
+<a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+</li>
+<li>
+<a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-8'>
+<h1 id="situation-5-game-2">Situation 5 Game 2</h1>
+
+<p>Feb. 8-9, 2014</p>
+
+<p>Revisiting Situation 5 now that I have a better notion of what the Germans need
+to do.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>Russians set up first. In this game, Russian artillery and infantry strength is
+concentrated on the south end of Board 2. The north end has a heavy howitzer,
+an ATG in Uschas, and the two SU-76s.</p>
+
+<p>Germans decide to attempt to exploit the north end of the map, where the
+Russian artillery is a little lighter.</p>
+
+<p>This setup seems to favor the Germans, but we'll see how it goes. Favoring the
+Germans was partly conscious, to see how well the German armor could exploit a
+weakness in the Russian line.</p>
+
+<h3 id="rule-variants">Rule variants</h3>
+
+<p>Germans allowed indirect fire for H &amp; M guns at greater than half range.</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p>Germans pile on to the north end, will take direct fire from an SU-76 on SG
+III-75 at 2:1, risking only dispersal. I think I found a terrain hole not well
+covered by the Russians that the Germans can slip through.</p>
+
+<p>I can already see that the 2 German PzKpfw IV in Uschas should have moved
+forward. No need to engage that ATG.</p>
+
+<p>Russian fire phase: ATG in Uschas whiffed it, got expected dispersal on the SG
+III-75 at 2:1. This would have been a kill if I hadn't forgot to use indirect
+fire from the 120 mm mortar on Hill 135.</p>
+
+<p>Russians mount up to get in better position.</p>
+
+<h2 id="turn-2">Turn 2</h2>
+
+<p>As tempting as it is to hang aroung and fight, the Germans need to seriously
+hustle through the German line.  And that they do, a weak Russian line lets the
+Germans just swing around and through places the Russians can't reach.</p>
+
+<p>That said, the German put some smackdown on a SU-76. Having the Wespes way out
+really helps with that indirect fire.</p>
+
+<p>Not much the Russians can do here except mount up and reposition to deny German
+advance.</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<p>Movement only round for the Germans, getting off the map as fast as possible.</p>
+
+<p>Russians positioning, blocking with remaining SU-76, CAT on PzKpfw.</p>
+
+<h2 id="turn-4">Turn 4</h2>
+
+<p>Russians just lost the second SU-76. Germans continue to move. Germans have 12
+pieces off waiting one more turn to get 3 more off. All the German armor and
+one CP halftrack  is staying behind to attempt to reduce infantry.</p>
+
+<p>Russians just carting troops around in an attempt to deny the Germans the
+northern route back across the board.</p>
+
+<h2 id="turn-5">Turn 5</h2>
+
+<p>Germans moving armor around to get the infantry on the run. The last 3 pieces
+intending to move off the board moved back help clear a lane for the returning
+units.</p>
+
+<p>Russians continue to move troops north.</p>
+
+<h2 id="turn-6">Turn 6</h2>
+
+<p>Pressuring Russian rifle companies. Trying to get some Wespe action. They are
+very weak on attack, and not that effective in CAT when German armor is
+stacked.</p>
+
+<p>Russians are in a bind, having lost both tanks, and with German armor stacked high.</p>
+
+<h2 id="turn-7">Turn 7</h2>
+
+<p>German small armor repositioning, not much to do otherthan wait for the off
+board pieces to come back on.</p>
+
+<p>Russians rolled a 6 on a 1:1 CAT.  Bummer. That would have taken out 2 halftracks.</p>
+
+<h2 id="turn-8">Turn 8</h2>
+
+<p>Germans are back on the board, and have to move fast.</p>
+
+<p>Russians whiffed another CAT, which was a blunder to even try, Russian infantry
+should be moving to block instead of attacking.</p>
+
+<h2 id="turn-9">Turn 9</h2>
+
+<p>Germans, positioning.</p>
+
+<p>Russian mortar recently emplaced in Uschas takes out a PzKpfw IV, followup
+close assault does nothing.</p>
+
+<h2 id="turn-10">Turn 10</h2>
+
+<p>Germans trying to escape, having a rough time.</p>
+
+<p>Russians manage to disperse critical unit on a CAT at 1:2, Germans concede.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>The Germans were only able to get 2 armored cars off the board. The other units
+got bound up with Russian rifle companies in the close terrain on Board 2.
+Lessons learned here include:</p>
+
+<ul>
+  <li>
+    <p>sometimes better to risk certain dispersal or elimination by providing the
+opposition with a dilemma of either certain attack exposes them elsewhere.</p>
+  </li>
+  <li>
+    <p>The Germans have got to get off the board by the end of Turn 3, or there is
+almost no way of winning. This is really hard if the Russians are
+well-emplaced.</p>
+  </li>
+  <li>
+    <p>Russians almost lost this one, without a lucky CAT in Turn 10, the Germans
+might well have succeeded.</p>
+  </li>
+</ul>
+
+<p>All in all, the key to PanzerBlitz is understanding the game revolves around
+movement.</p>
+
+<h3 id="blunders">Blunders</h3>
+
+<p>Russian turn 1 could have used indirect fire from 120 mm on south side of Hill
+135, which would have been a kill.</p>
+
+<p>Germans should have the CP halftracks trailing instead of off the board where
+they can't be used to spot for the Wespe. Even taking out a couple of Russian
+rifles could have tipped the game to the Germans.</p>
+
+
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+
+<p>Avalon Hill's PanzerBlitz was a successor to a game called
+"Tactical Game 3," which was never developed for market. The story can
+be found on related web sites. What's important here is that the game
+does have a long and successful history, ultimately selling hundreds
+of thousands of copies.</p>
+
+<h3 id="panzerblitz-links">PanzerBlitz links</h3>
+
+<p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+Strategist</a>,
+often referred to as "ImStrat" has an incredible collection of articles,
+counters, maps and other material related to PanzerBlitz, Panzer Leader
+and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+  </li>
+  <li>
+    <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+outstanding resource, also worth hours of reading.</p>
+  </li>
+  <li>
+    <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+appears to be where a number of current PanzerBlitz players can be
+found. The forum is relatively relaxed and low traffic, but there is a
+lot of information available.</p>
+  </li>
+</ul>
+
+<p>There are several more outstanding links which will be added in the
+future, and if you, the reader, find one of your favorite sites missing,
+please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+with the relevant addition.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

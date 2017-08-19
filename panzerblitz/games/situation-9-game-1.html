@@ -1,457 +1,464 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-    <link href="/stylesheets/pb.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-12'>
-            <header>
-              <nav class='navbar navbar-default' role='navigation'>
-                <div class='container' style='background-color: black;'>
-                  <ul class='nav navbar-nav'>
-                    <li>
-                      <a href='/about.html'>About</a>
-                    </li>
-                    <li>
-                      <a href='/'>ConSim home</a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz'>PanzerBlitz home</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Playing aids
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/playing-aids'>Playing aids</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Games
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/games/'>Overview</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/solitaire.html'>Solitaire</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/balance.html'>Balance</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='/panzerblitz/firefights'>Firefights</a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Tactical examples
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                    <li class='dropdown'>
-                      <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                        Source code
-                        <b class='caret'></b>
-                        <ul class='dropdown-menu'>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
-                          </li>
-                          <li>
-                            <a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
-                          </li>
-                          <li>
-                            <a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
-                          </li>
-                        </ul>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <h1 id="situation-9-russian-mobile-assault-on-german-blocking-force-russian-drive-on-stalino-19430819">Situation #9 Russian Mobile Assault on German Blocking Force: Russian Drive on Stalino (1943/08/19)</h1>
-            
-            <p>First time setting up and playing Situation #9.</p>
-            
-            <p>At first glance, this looks like a stupendous force mismatch. The Russians have
-            basically juggernaut strength, and the Germans have very little
-            mobility. The Russians have so many units, I don't really know what to
-            do with them.</p>
-            
-            <p>On the other hand, every unit they don't exit from the west side of the
-            battlefield is counted as a loss, i.e., equivalent to a German kill.</p>
-            
-            <p>Technically, it looks like a Russian motorized regiment against a German
-            infantry battalion.</p>
-            
-            <h2 id="setting-up">Setting up</h2>
-            
-            <p>As usual, the first time I set up a scenario, I get horrible
-            analysis-paralysis. Sometimes it takes me hours. This is fine when I'm
-            playing solo, except it's a bit aggravating, because I'd like to get the
-            game play moving. Worse, I'm playing a copy which hasn't yet been
-            trimmed or rounded, so I'm wasting time trimming and rounding counters
-            instead of just playing the damn game.</p>
-            
-            <p>The Germans  don't really know where the Russians are going to come in,
-            which makes setting up really hard. The best the Germans can do is lay
-            in the blocks at the north and south end of the map, and sprinkle a few
-            blocks and mines in between to attempt to channel the Russians around
-            Hill 132, while putting enough force on Hill 132 to put up a fight.</p>
-            
-            <p>Because this scenario is going to come down to a fight, there is no
-            doubt of that.</p>
-            
-            <p>German force has a couple of stacks of infantry on Hill 129, some stacks
-            down in the woods on the south side, and everything else on Hill 132.
-            The big mortars are mounted, and on the road on the north end of Hill
-            132.</p>
-            
-            <p>This looks so ugly.</p>
-            
-            <h2 id="turn-1">Turn 1</h2>
-            
-            <p>I'd like to get pictures of these setups and early turns, but the iphone
-            camera is the wrong tool for the job, and I don't feel like dealing with
-            Vassal to acquire screenshots. Bummer. I'll have to explain as best I
-            can.</p>
-            
-            <p>Russian moves first. The plan is to charge directly up Hill 132 and just
-            wipe all the Germans out.</p>
-            
-            <p>Armor is going straight across the map towards Bednost, with the
-            engineers attempting to disable the mines in the road.</p>
-            
-            <p>Halftracks with guards companies are swinging a kilometer south
-            and will drop off infantry for taking on Bednost.</p>
-            
-            <p>4 infantry units are unmounted and will proceed in from the east for
-            later pickup by truck or track. Some artillery will get dumped along
-            way to make this pickup. On later thought, it may turn out better
-            just to leave four useless unit (ATG primarily) and get the combat
-            capable units in play as fast as possible.</p>
-            
-            <p>The remaining trucks are on the map and swung out along the north-south
-            road between Grabyosh and Opustschenia, which will let them move very
-            quickly once the road is cleared.</p>
-            
-            <p>One of the nice things about this scenario, from the German perspective,
-            is there aren't many units to push around, so much less AP.</p>
-            
-            <p>German move: not much to do, shift some units around and try to get
-            positions favorable to killing Russians when they arrive.</p>
-            
-            <p>I'm thinking that the initial set up for the Germans should have been
-            such that they could pound away at the incoming column of trucks,
-            instead of positioning further back in wait. The Russians would have
-            no defense on their first turn.</p>
-            
-            <p>Anyway, that was quick.</p>
-            
-            <h2 id="turn-2">Turn 2</h2>
-            
-            <p>Russian move up guards units and dismount from halftracks, which retreat
-            to covered positions. Trucks are moved up along road. Tanks go after
-            isolated German infantry with an intent on utter destruction. The mines
-            were not cleared.</p>
-            
-            <p>German gets first blood, picking off a truck transporting 12.7mm flak unit.
-            Otherwise, Germans need to avoid fighting. Remember that Russian victory
-            conditions require killing a bunch of Germans. Dispersed a guards unit
-            in the woods which was threatening the ATG (which is probably lost
-            anyway).</p>
-            
-            <h2 id="turn-3">Turn 3</h2>
-            
-            <p>Mine is still not cleared from road east of Hill 132. This is not a huge
-            problem, but it would be nice to have the raod completely clear.</p>
-            
-            <p>SU-152 wipe out a German infantry platoon which got caught out.
-            Lots more positioning, guards units are dropped off near Bednost;
-            the German ATG is taken out.</p>
-            
-            <p>I can see why opportunity fire is important. With opp fire, I would have
-            blown up at least one of these trucks carrying guards infantry.</p>
-            
-            <p>Germans pick off another transport. The light howitzers are in the
-            process of moving back to Hill 135 in the hopes of picking off a few
-            more trucks as they cross Hill 132.</p>
-            
-            <h2 id="turn-4">Turn 4</h2>
-            
-            <p>Mines <em>still</em> aren't cleared. This is just bad dice rolling now.
-            Another German infantry platoon taken out. Big score on Bednost:
-            close assault at 1:1 dispersed a stack of infantry with 2 engineers
-            units. That really hurts the Germans.</p>
-            
-            <p>Germans picked off another transport, halftrack with guards this time.</p>
-            
-            <p>Score: Germans 6, Russians 3. Expect this to change pretty rapidly.</p>
-            
-            <h2 id="turn-5">Turn 5</h2>
-            
-            <p>Mines are finally cleared!</p>
-            
-            <p>Now to clear Bednost of those pesky fascists. SU-76 and a guards
-            unit takes out mortar (ouch!) and infantry unit in Bednost.</p>
-            
-            <p>Germans suddendly remember that infantry can use direct fire on truck,
-            and that there are a couple of mortars down at the south side which
-            can also pester trucks. Good to know, and worth a couple more truck
-            kills.</p>
-            
-            <p>Score: Germans 11, Russians 5.</p>
-            
-            <h2 id="turn-6">Turn 6</h2>
-            
-            <p>Bednost is 2/3 clear on direct fire. Trucks and tracks moving up.
-            Another lucky shot on the remaining Germans in Bednost: roll 2
-            on CAT, dispersed.</p>
-            
-            <p>German 75mm H picked off another truck. That was one the Russians didn't
-            see, as they were hiding from the 120mm on Hill 129.</p>
-            
-            <p>Score: Germans 13, Russians 8.</p>
-            
-            <h2 id="turn-7">Turn 7</h2>
-            
-            <p>Bednost is finally clear on the CAT at 2:1 with Russian engineers.
-            Direct fire from the SU-152 had that stack dispersed already, but
-            rolling a 1 in PanzerBlitz is always helpful. Now it's a matter of
-            really getting everything possible off the map, and killing another
-            7 Germans without allowing more than 6 units behind.</p>
-            
-            <p>Germans don't have any firepower to speak of, now it's all about just
-            surviving. One good way is to force the Germans to move to get good
-            shots.</p>
-            
-            <p>Score: Germans 13, Russians 13.</p>
-            
-            <h2 id="turn-8">Turn 8</h2>
-            
-            <p>Russians kind of in a bind, they have to kill 7 more and get
-            a lot of units off the board to get a marginal victory.</p>
-            
-            <p>Germans are staying put this turn to force the Russians to
-            to chase.</p>
-            
-            <p>Score: Germans 13, Russians 13; 14 units off board.</p>
-            
-            <h2 id="turn-9">Turn 9</h2>
-            
-            <p>Russians attempt a 1:2 direct fire on stack of German infantry,
-            roll 6, whiff. That stings, but probably making up for really
-            good rolls earlier. Really sucks because the follow up CAT was
-            a DD. Bummer. The Russians are going to lose this.</p>
-            
-            <p>Germans sitting tight.</p>
-            
-            <p>Score: Germans 13, Russians 15; 25 units off board.</p>
-            
-            <h2 id="turn-10">Turn 10</h2>
-            
-            <p>Another Russian direct attempt at 1:2, got the dispersal!</p>
-            
-            <p>Germans can't make any kills, game over.</p>
-            
-            <p>Score: Germans 13, Russians 18; 32 units off board, 13 units left
-            on the board.</p>
-            
-            <p>Final score: Germans 26, Russians 18, marginal German victory.</p>
-            
-            <h2 id="aar">AAR</h2>
-            
-            <p>This scenario sat on the table three full days before I was able to
-            get the energy to work through it. It just seemed way too imbalanced.</p>
-            
-            <p>But it turns to be <em>really</em> hard to dislodge all the Germans, and really
-            hard to hide all those trucks, which have to get across the map as
-            fast as possible.</p>
-            
-            <h3 id="balance">Balance</h3>
-            
-            <p>This scenario seems fairly well-balanced to me.</p>
-            
-            <p>Here are a couple of suggestions for handicapping:</p>
-            
-            <ul>
-              <li>Allow experimental rules for all German units able to call for
-            indirect fire.</li>
-              <li>Add a couple of halftracks to German OOB.</li>
-              <li>
-                <p>Add more mines and blocks for the Germans.</p>
-              </li>
-              <li>Increase the number of turns to 12. This would likely have
-            resulted in a draw, as the Russians would have been able to
-            mount up a few more units and get them off the map.</li>
-            </ul>
-            
-            <h3 id="blunders">Blunders</h3>
-            
-            <ul>
-              <li>German ATG was taken out before it could fire even shot.</li>
-              <li>German 120mm mortar in Bednost never got a shot.</li>
-              <li>Forgetting about the German 81 mm mortars which could have been
-            bothering trucks at 3:1.</li>
-              <li>Forgetting that infantry have direct fire on trucks.</li>
-            </ul>
-            
-            <p>Russians: Everything at Bednost needing to leave needs to be mounted by
-            the end of Turn 8, or it's not going to get off the map.</p>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
-              
-              <p>Avalon Hill's PanzerBlitz was a successor to a game called
-              "Tactical Game 3," which was never developed for market. The story can
-              be found on related web sites. What's important here is that the game
-              does have a long and successful history, ultimately selling hundreds
-              of thousands of copies.</p>
-              <h3 id="panzerblitz-links">PanzerBlitz links</h3>
-              
-              <p>Here are a few of the best links about PanzerBlitz available on the web.</p>
-              
-              <ul>
-                <li>
-                  <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
-              Strategist</a>,
-              often referred to as "ImStrat" has an incredible collection of articles,
-              counters, maps and other material related to PanzerBlitz, Panzer Leader
-              and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
-                </li>
-                <li>
-                  <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
-              outstanding resource, also worth hours of reading.</p>
-                </li>
-                <li>
-                  <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
-              appears to be where a number of current PanzerBlitz players can be
-              found. The forum is relatively relaxed and low traffic, but there is a
-              lot of information available.</p>
-                </li>
-              </ul>
-              
-              <p>There are several more outstanding links which will be added in the
-              future, and if you, the reader, find one of your favorite sites missing,
-              please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
-              with the relevant addition.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+<link href="/stylesheets/pb.css" rel="stylesheet" />
+</head>
+<body>
+<div id='wrap'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<header>
+<nav class='navbar navbar-default' role='navigation'>
+<div class='container' style='background-color: black;'>
+<ul class='nav navbar-nav'>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/'>ConSim home</a>
+</li>
+<li>
+<a href='/panzerblitz'>PanzerBlitz home</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Playing aids
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/playing-aids'>Playing aids</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/wec.html'>Weapons Effectiveness Chart</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/tet.html'>Target Elevation Table</a>
+</li>
+<li>
+<a href='/panzerblitz/playing-aids/crt.html'>Combat Results Table</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/games/'>Overview</a>
+</li>
+<li>
+<a href='/panzerblitz/solitaire.html'>Solitaire</a>
+</li>
+<li>
+<a href='/panzerblitz/balance.html'>Balance</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-1.html'>Situation #1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2.html'>Situation #2, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-2.html'>Situation #2, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-2-game-3.html'>Situation #2, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-1.html'>Situation #3, games 1 & 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-2.html'>Situation #3, game 3</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-3-game-4.html'>Situation #3, game 4</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-1.html'>Situation #4, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-4-game-2.html'>Situation #4, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-1.html'>Situation #5, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-5-game-2.html'>Situation #5, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-1.html'>Situation #6, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-6-game-2.html'>Situation #6, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-7-game-1.html'>Situation #7, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-1.html'>Situation #8, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-8-game-2.html'>Situation #8, game 2</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-1.html'>Situation #9, game 1</a>
+</li>
+<li>
+<a href='/panzerblitz/games/situation-9-game-2.html'>Situation #9, game 2</a>
+</li>
+</ul>
+</a>
+</li>
+<li>
+<a href='/panzerblitz/firefights'>Firefights</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Tactical examples
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/tactical-examples/transport.html'>Transporting units</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/line-of-sight.html'>Line of sight</a>
+</li>
+<li>
+<a href='/panzerblitz/tactical-examples/controlling-terrain.html'>Controlling terrain</a>
+</li>
+</ul>
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Source code
+<b class='caret'></b>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz/sourcecode/counter-construction.html'>Rebuilding counters</a>
+</li>
+<li>
+<a href='/panzerblitz/sourcecode/situation-template.html'>Situation template</a>
+</li>
+<li>
+<a href='http://github.com/mtngrown/consim'>PanzerBlitz @ Github</a>
+</li>
+</ul>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-8'>
+<h1 id="situation-9-russian-mobile-assault-on-german-blocking-force-russian-drive-on-stalino-19430819">Situation #9 Russian Mobile Assault on German Blocking Force: Russian Drive on Stalino (1943/08/19)</h1>
+
+<p>First time setting up and playing Situation #9.</p>
+
+<p>At first glance, this looks like a stupendous force mismatch. The Russians have
+basically juggernaut strength, and the Germans have very little
+mobility. The Russians have so many units, I don't really know what to
+do with them.</p>
+
+<p>On the other hand, every unit they don't exit from the west side of the
+battlefield is counted as a loss, i.e., equivalent to a German kill.</p>
+
+<p>Technically, it looks like a Russian motorized regiment against a German
+infantry battalion.</p>
+
+<h2 id="setting-up">Setting up</h2>
+
+<p>As usual, the first time I set up a scenario, I get horrible
+analysis-paralysis. Sometimes it takes me hours. This is fine when I'm
+playing solo, except it's a bit aggravating, because I'd like to get the
+game play moving. Worse, I'm playing a copy which hasn't yet been
+trimmed or rounded, so I'm wasting time trimming and rounding counters
+instead of just playing the damn game.</p>
+
+<p>The Germans  don't really know where the Russians are going to come in,
+which makes setting up really hard. The best the Germans can do is lay
+in the blocks at the north and south end of the map, and sprinkle a few
+blocks and mines in between to attempt to channel the Russians around
+Hill 132, while putting enough force on Hill 132 to put up a fight.</p>
+
+<p>Because this scenario is going to come down to a fight, there is no
+doubt of that.</p>
+
+<p>German force has a couple of stacks of infantry on Hill 129, some stacks
+down in the woods on the south side, and everything else on Hill 132.
+The big mortars are mounted, and on the road on the north end of Hill
+132.</p>
+
+<p>This looks so ugly.</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p>I'd like to get pictures of these setups and early turns, but the iphone
+camera is the wrong tool for the job, and I don't feel like dealing with
+Vassal to acquire screenshots. Bummer. I'll have to explain as best I
+can.</p>
+
+<p>Russian moves first. The plan is to charge directly up Hill 132 and just
+wipe all the Germans out.</p>
+
+<p>Armor is going straight across the map towards Bednost, with the
+engineers attempting to disable the mines in the road.</p>
+
+<p>Halftracks with guards companies are swinging a kilometer south
+and will drop off infantry for taking on Bednost.</p>
+
+<p>4 infantry units are unmounted and will proceed in from the east for
+later pickup by truck or track. Some artillery will get dumped along
+way to make this pickup. On later thought, it may turn out better
+just to leave four useless unit (ATG primarily) and get the combat
+capable units in play as fast as possible.</p>
+
+<p>The remaining trucks are on the map and swung out along the north-south
+road between Grabyosh and Opustschenia, which will let them move very
+quickly once the road is cleared.</p>
+
+<p>One of the nice things about this scenario, from the German perspective,
+is there aren't many units to push around, so much less AP.</p>
+
+<p>German move: not much to do, shift some units around and try to get
+positions favorable to killing Russians when they arrive.</p>
+
+<p>I'm thinking that the initial set up for the Germans should have been
+such that they could pound away at the incoming column of trucks,
+instead of positioning further back in wait. The Russians would have
+no defense on their first turn.</p>
+
+<p>Anyway, that was quick.</p>
+
+<h2 id="turn-2">Turn 2</h2>
+
+<p>Russian move up guards units and dismount from halftracks, which retreat
+to covered positions. Trucks are moved up along road. Tanks go after
+isolated German infantry with an intent on utter destruction. The mines
+were not cleared.</p>
+
+<p>German gets first blood, picking off a truck transporting 12.7mm flak unit.
+Otherwise, Germans need to avoid fighting. Remember that Russian victory
+conditions require killing a bunch of Germans. Dispersed a guards unit
+in the woods which was threatening the ATG (which is probably lost
+anyway).</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<p>Mine is still not cleared from road east of Hill 132. This is not a huge
+problem, but it would be nice to have the raod completely clear.</p>
+
+<p>SU-152 wipe out a German infantry platoon which got caught out.
+Lots more positioning, guards units are dropped off near Bednost;
+the German ATG is taken out.</p>
+
+<p>I can see why opportunity fire is important. With opp fire, I would have
+blown up at least one of these trucks carrying guards infantry.</p>
+
+<p>Germans pick off another transport. The light howitzers are in the
+process of moving back to Hill 135 in the hopes of picking off a few
+more trucks as they cross Hill 132.</p>
+
+<h2 id="turn-4">Turn 4</h2>
+
+<p>Mines <em>still</em> aren't cleared. This is just bad dice rolling now.
+Another German infantry platoon taken out. Big score on Bednost:
+close assault at 1:1 dispersed a stack of infantry with 2 engineers
+units. That really hurts the Germans.</p>
+
+<p>Germans picked off another transport, halftrack with guards this time.</p>
+
+<p>Score: Germans 6, Russians 3. Expect this to change pretty rapidly.</p>
+
+<h2 id="turn-5">Turn 5</h2>
+
+<p>Mines are finally cleared!</p>
+
+<p>Now to clear Bednost of those pesky fascists. SU-76 and a guards
+unit takes out mortar (ouch!) and infantry unit in Bednost.</p>
+
+<p>Germans suddendly remember that infantry can use direct fire on truck,
+and that there are a couple of mortars down at the south side which
+can also pester trucks. Good to know, and worth a couple more truck
+kills.</p>
+
+<p>Score: Germans 11, Russians 5.</p>
+
+<h2 id="turn-6">Turn 6</h2>
+
+<p>Bednost is 2/3 clear on direct fire. Trucks and tracks moving up.
+Another lucky shot on the remaining Germans in Bednost: roll 2
+on CAT, dispersed.</p>
+
+<p>German 75mm H picked off another truck. That was one the Russians didn't
+see, as they were hiding from the 120mm on Hill 129.</p>
+
+<p>Score: Germans 13, Russians 8.</p>
+
+<h2 id="turn-7">Turn 7</h2>
+
+<p>Bednost is finally clear on the CAT at 2:1 with Russian engineers.
+Direct fire from the SU-152 had that stack dispersed already, but
+rolling a 1 in PanzerBlitz is always helpful. Now it's a matter of
+really getting everything possible off the map, and killing another
+7 Germans without allowing more than 6 units behind.</p>
+
+<p>Germans don't have any firepower to speak of, now it's all about just
+surviving. One good way is to force the Germans to move to get good
+shots.</p>
+
+<p>Score: Germans 13, Russians 13.</p>
+
+<h2 id="turn-8">Turn 8</h2>
+
+<p>Russians kind of in a bind, they have to kill 7 more and get
+a lot of units off the board to get a marginal victory.</p>
+
+<p>Germans are staying put this turn to force the Russians to
+to chase.</p>
+
+<p>Score: Germans 13, Russians 13; 14 units off board.</p>
+
+<h2 id="turn-9">Turn 9</h2>
+
+<p>Russians attempt a 1:2 direct fire on stack of German infantry,
+roll 6, whiff. That stings, but probably making up for really
+good rolls earlier. Really sucks because the follow up CAT was
+a DD. Bummer. The Russians are going to lose this.</p>
+
+<p>Germans sitting tight.</p>
+
+<p>Score: Germans 13, Russians 15; 25 units off board.</p>
+
+<h2 id="turn-10">Turn 10</h2>
+
+<p>Another Russian direct attempt at 1:2, got the dispersal!</p>
+
+<p>Germans can't make any kills, game over.</p>
+
+<p>Score: Germans 13, Russians 18; 32 units off board, 13 units left
+on the board.</p>
+
+<p>Final score: Germans 26, Russians 18, marginal German victory.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>This scenario sat on the table three full days before I was able to
+get the energy to work through it. It just seemed way too imbalanced.</p>
+
+<p>But it turns to be <em>really</em> hard to dislodge all the Germans, and really
+hard to hide all those trucks, which have to get across the map as
+fast as possible.</p>
+
+<h3 id="balance">Balance</h3>
+
+<p>This scenario seems fairly well-balanced to me.</p>
+
+<p>Here are a couple of suggestions for handicapping:</p>
+
+<ul>
+  <li>Allow experimental rules for all German units able to call for
+indirect fire.</li>
+  <li>Add a couple of halftracks to German OOB.</li>
+  <li>
+    <p>Add more mines and blocks for the Germans.</p>
+  </li>
+  <li>Increase the number of turns to 12. This would likely have
+resulted in a draw, as the Russians would have been able to
+mount up a few more units and get them off the map.</li>
+</ul>
+
+<h3 id="blunders">Blunders</h3>
+
+<ul>
+  <li>German ATG was taken out before it could fire even shot.</li>
+  <li>German 120mm mortar in Bednost never got a shot.</li>
+  <li>Forgetting about the German 81 mm mortars which could have been
+bothering trucks at 3:1.</li>
+  <li>Forgetting that infantry have direct fire on trucks.</li>
+</ul>
+
+<p>Russians: Everything at Bednost needing to leave needs to be mounted by
+the end of Turn 8, or it's not going to get off the map.</p>
+
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3 id="a-brief-history-of-panzerblitz">A brief history of PanzerBlitz</h3>
+
+<p>Avalon Hill's PanzerBlitz was a successor to a game called
+"Tactical Game 3," which was never developed for market. The story can
+be found on related web sites. What's important here is that the game
+does have a long and successful history, ultimately selling hundreds
+of thousands of copies.</p>
+
+<h3 id="panzerblitz-links">PanzerBlitz links</h3>
+
+<p>Here are a few of the best links about PanzerBlitz available on the web.</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.imaginative-strategist.layfigures.com/">Imaginative
+Strategist</a>,
+often referred to as "ImStrat" has an incredible collection of articles,
+counters, maps and other material related to PanzerBlitz, Panzer Leader
+and the Arab Israeli games. Seriously, ImStrat is worth hours of time.</p>
+  </li>
+  <li>
+    <p><a href="http://gregpanzerblitz.com/">Greg's PanzerBlitz Site</a> is another
+outstanding resource, also worth hours of reading.</p>
+  </li>
+  <li>
+    <p><a href="http://talk.consimworld.com/WebX/.ee6d608">ConSim World Forum</a>
+appears to be where a number of current PanzerBlitz players can be
+found. The forum is relatively relaxed and low traffic, but there is a
+lot of information available.</p>
+  </li>
+</ul>
+
+<p>There are several more outstanding links which will be added in the
+future, and if you, the reader, find one of your favorite sites missing,
+please issue a <a href="https://github.com/mtngrown/consim/pulls">pull request</a>
+with the relevant addition.</p>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

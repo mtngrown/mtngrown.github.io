@@ -4,7 +4,6 @@
  * Licensed under http://www.apache.org/licenses/LICENSE-2.0
  */
 
-
 if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery") }
 
 /* ========================================================================

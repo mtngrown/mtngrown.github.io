@@ -1,1036 +1,1040 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
-    <script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
-    <script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
-    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
-    <link href='/images/pb_icon.png' rel='icon' type='image/png'>
-    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/consim.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div id='wrap'>
-      <div class='navbar navbar-default navbar-fixed-top' role='navigation'>
-        <div class='container'>
-          <div class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-              <li class='active'>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='/about.html'>About</a>
-              </li>
-              <li>
-                <a href='/player-aids/index.html'>Player Aids</a>
-              </li>
-              <li class='dropdown'>
-                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-                  Games
-                  <b class='caret'></b>
-                </a>
-                <ul class='dropdown-menu'>
-                  <li>
-                    <a href='/panzerblitz'>PanzerBlitz</a>
-                  </li>
-                  <li>
-                    <a href='/ogre'>Ogre Designer Edition</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-md-8 blog'>
-            <article class='hentry'>
-              <h1 class='entry-title'>
-                StarSoldier Tactical Warfare in the 25th Century
-              </h1>
-              <time class='updated' pubdate=''>Sep 27 2014</time>
-              <p>StarSoldier is "Volume 2" of SPI's StarForce Trilogy. Over the next few
-              days, I'll be going through the rule book to learn the mechanics,
-              without getting into serious gameplay. That said, some sort of game will get
-              played.</p>
-              
-              <p>The first thing I like to do when looking at a new game is throw some
-              counters on the board and push them around. The counters from Scenario 1
-              will do just fine.</p>
-              
-              <p>First, which is what.</p>
-              
-              <ul>
-                <li>Humans are the blue counters, and there should be 29 of them.</li>
-                <li>L'Chal Dah are green counters, and there should be 25 of them.</li>
-              </ul>
-              
-              <p>Let's dig a little deeper into the mechanics.</p>
-              
-              <h2 id="fire-combat">Fire combat</h2>
-              
-              <p>The next obvious thing (for me) is figuring out how to blow stuff up.
-              The best way I know how to do that is put a couple of soldiers on the
-              map and have them shoot at each other.</p>
-              
-              <p class="center"><img alt="Direct fire in StarSoldier" src="/images/starsoldier/direct_fire_demo.jpg" /></p>
-              
-              <ul>
-                <li>Ss106 (SH)</li>
-              </ul>
-              
-              <table class="center">
-                <tbody>
-                  <tr>
-                    <td>Operation</td>
-                    <td>Target</td>
-                    <td>TP</td>
-                  </tr>
-                  <tr>
-                    <td>DF</td>
-                    <td>2646</td>
-                    <td>3</td>
-                  </tr>
-                  <tr>
-                    <td>CM</td>
-                    <td> </td>
-                    <td>2</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <p>Attack strength = 3 x 2 = 6. Defense strength = 2RA + 2CM x 2 + 6
-              (terrain) = 12</p>
-              
-              <ul>
-                <li>Ss203 (EE)</li>
-              </ul>
-              
-              <table class="center">
-                <tbody>
-                  <tr>
-                    <td>Operation</td>
-                    <td>Target</td>
-                    <td>TP</td>
-                  </tr>
-                  <tr>
-                    <td>DF</td>
-                    <td>2040</td>
-                    <td>3</td>
-                  </tr>
-                  <tr>
-                    <td>CM</td>
-                    <td> </td>
-                    <td>2</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <p>Attack strength = 3TP x 2 = 6. Defense strength = 2RA + 2CM x 2 + 3
-              (organic cover)  = 9.</p>
-              
-              <p>As it turns out, AS - DS &lt;= 0 for both units, hence, no fire.</p>
-              
-              <p>DF stands for Direct Fire, CM for Counter Measures which will add to the
-              effective defense strength, RA for Range Attenuation.</p>
-              
-              <p>We're ready to play through Scenario 1.</p>
-              
-              <h2 id="scenario-1-the-epsilon-eridane-campaign">Scenario 1 The Epsilon Eridane Campaign</h2>
-              
-              <p>Scenario 1 is a human-human engagement pitting the Solar Hegemony
-              against the Epsilon Eridane. The SH will be the Alpha Force,
-              the Epsilon Eridane the Bravo force. This scenario is specified to use
-              the Patrol Situation.</p>
-              
-              <ul>
-                <li>Solar Hegemony, Alpha: 1 squad</li>
-                <li>Epsilon Eridane, Bravo: 1 fire team, 1 heavy weapons section</li>
-              </ul>
-              
-              <p><strong>Special Rules</strong></p>
-              
-              <ol>
-                <li>All urban areas treated as organic cover.</li>
-                <li>Epsilon Eridane is allowed Orbital Ground Support, maximum <strong>per turn</strong>:
-                  <ul>
-                    <li>4 Orbital Bombardment Explosives,</li>
-                    <li>2 Orbital Laser Barrages,</li>
-                    <li>2 Orbital Opcaity Bombs.</li>
-                  </ul>
-                </li>
-                <li>No homing missiles for either side.</li>
-              </ol>
-              
-              <h3 id="more-about-the-patrol-situation">More about the Patrol Situation</h3>
-              
-              <p>In the Patrol Situation, a base is defined to exist off the east or the
-              west edge of the map, whence the Bravo force sets up on the map and the
-              Alpha force enters the map on the opposite side of the base.</p>
-              
-              <p>In this case, because my game table is roughly 2' by 3', and I have no
-              convenient place for record tracks, the Alpha Force (SH) will enter the
-              north edge of the map, with the base off map to the south. The record
-              tracks go under plexiglas on the western half of the map, leaving the
-              eastern half for game play.</p>
-              
-              <p><strong>Patrol-specific Rules</strong></p>
-              
-              <p>Although StarSoldiers uses a simultaneous movement system, since the
-              Bravo Force (EE) is already deployed, the first turn is the Alpha force
-              moving on to the map. In the Patrol Situation, <em>Alpha can only task
-              movement (MV) and countermeasures (CM) on entry</em>.</p>
-              
-              <p>Alpha may enter the map in any mode.</p>
-              
-              <p><strong>Patrol victory conditions</strong></p>
-              
-              <ul>
-                <li>Alpha:
-                  <ul>
-                    <li>2 points for every Task Point loss in PL of Bravo force;</li>
-                    <li>10 point for every starsoldier exited from map</li>
-                  </ul>
-                </li>
-                <li>Bravo:
-                  <ul>
-                    <li>3 points for every Task Point loss on Alpha's Preservation Level.</li>
-                  </ul>
-                </li>
-              </ul>
-              
-              <h3 id="setting-up">Setting up</h3>
-              
-              <p>Typically, I spend a lot of time setting up solitaire games so that I
-              can get a feel for the system. Part of the setting up process often
-              involves taking detailed notes while setting up the game, and photos and
-              locations of units at setup.</p>
-              
-              <p>This is in part to provide a record of what I did, in part to allow
-              replaying the same situation exactly in the future, and in part to allow
-              tearing the game down after the initial setup to use the table for
-              something else. Perhaps a different game. In any case, recording the
-              setup in detail allows play to proceed in stages. Sometimes, by the time
-              I've set everything up and written it all down, I'm bored and want to
-              examine a different game.</p>
-              
-              <p>There is a <em>lot</em> of record keeping in StarSoldier, and it doesn't look
-              like the fun kind. I don't necessarily have much of a problem with that,
-              but it makes it hard to find opponents.</p>
-              
-              <p>The first task is assigning "serial numbers" to each starsoldier such
-              that their Task Points can be tracked.</p>
-              
-              <p><strong>House Rule</strong> because the map is "short," Force Bravo will set up on
-              the map first, and the Alpha Force will enter with 9 task
-              points. This will allow for a positioning move, which is mostly to help
-              me wrap my head around the mechanics. Here's what it looks like:</p>
-              
-              <p class="center"><img alt="After initial &quot;emplacement&quot; move for Situation
-              1" src="/images/starsoldier/situation_1_setup.jpg" /></p>
-              
-              <p>Note the star soldier record tracks are under the plexi with the
-              counters riding on top just as the playing pieces. This is a consequence
-              of having a very small playing area.</p>
-              
-              <p>The actual locations are listed below:</p>
-              
-              <p><strong>Force Alpha (blue)</strong></p>
-              
-              <p>(After first "move.")</p>
-              
-              <table class="center">
-                <tbody>
-                  <tr>
-                    <td>Track</td>
-                    <td>StarSoldier</td>
-                    <td>Location</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>101</td>
-                    <td>2927 noe</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>102</td>
-                    <td>3027 noe</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>103</td>
-                    <td>3029 noe</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>104</td>
-                    <td>2234 ha</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>121</td>
-                    <td>2137 ha</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td>105</td>
-                    <td>3038</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>106</td>
-                    <td>3140</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td>107</td>
-                    <td>3149</td>
-                  </tr>
-                  <tr>
-                    <td>9</td>
-                    <td>108</td>
-                    <td>3151</td>
-                  </tr>
-                  <tr>
-                    <td>10</td>
-                    <td>122</td>
-                    <td>3052</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <p><strong>Force Bravo (green)</strong></p>
-              
-              <p>(Set up in advance.)</p>
-              
-              <table class="center">
-                <tbody>
-                  <tr>
-                    <td>Track</td>
-                    <td>StarSoldier</td>
-                    <td>Location</td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>201</td>
-                    <td>0544</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>202</td>
-                    <td>0933</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>203</td>
-                    <td>1831</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>204</td>
-                    <td>2140</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>221</td>
-                    <td>0546</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td>222</td>
-                    <td>1132</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>223</td>
-                    <td>2646</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <p>Time to play the game.</p>
-              
-              <h2 id="turn-1">Turn 1</h2>
-              
-              <p>(November 1, 2014)</p>
-              
-              <p>As it turns out, further reading of the rules indicates I've set this up
-              as a Recon scenario rather than a Patrol scenario. My intention was to
-              speed up the game play a bit by emplacing the EE forces. But that
-              changes the balance of the scenario, as all the EE forces got put into
-              defensible positions.</p>
-              
-              <p>Another thing I intended was to provide a selection of activities for
-              each unit on the Alpha team, then select at random. This was too much
-              work. I don't know the game well enough to evaluate "good" versus "bad"
-              moves, at least anything more than staying in cover and out of the
-              clear.</p>
-              
-              <p>Here's something else interesting: there is no combined fire. Each
-              unit's attacks are resolved one at a time.</p>
-              
-              <p>Here's the Solar Hegemony plan:</p>
-              
-              <table class="center">
-                <thead>
-                  <tr>
-                    <th>StarSoldier</th>
-                    <th>ER</th>
-                    <th>Operation</th>
-                    <th>Target</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>101</td>
-                    <td>1</td>
-                    <td>MV/4</td>
-                    <td>2131</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/5</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>102</td>
-                    <td>1</td>
-                    <td>MV/4</td>
-                    <td>2231</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/5</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>103</td>
-                    <td>1</td>
-                    <td>MV/4</td>
-                    <td>2333</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/5</td>
-                    <td> </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>104</td>
-                    <td>1</td>
-                    <td>MV/3</td>
-                    <td>2039</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>GD/3</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/3</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>121</td>
-                    <td>1</td>
-                    <td>MV/1</td>
-                    <td>2139</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>GD/3</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/5</td>
-                    <td> </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>105</td>
-                    <td>2</td>
-                    <td>NE/3</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>MV/6</td>
-                    <td>2040</td>
-                  </tr>
-                  <tr>
-                    <td>106</td>
-                    <td>2</td>
-                    <td>NE/3</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>MV/6</td>
-                    <td>1940</td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>107</td>
-                    <td>2</td>
-                    <td>MV/9</td>
-                    <td>2752</td>
-                  </tr>
-                  <tr>
-                    <td>108</td>
-                    <td>2</td>
-                    <td>MV/9</td>
-                    <td>2651</td>
-                  </tr>
-                  <tr>
-                    <td>122</td>
-                    <td>2</td>
-                    <td>MV/9</td>
-                    <td>2651</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <p>And the Epsilon Eridani plan:</p>
-              
-              <table class="center">
-                <thead>
-                  <tr>
-                    <th>StarSoldier</th>
-                    <th>ER</th>
-                    <th>Operation</th>
-                    <th>Target</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>201</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2137</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>221</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2137</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>204</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2137</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>223</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2137</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                </tbody>
-                <tbody>
-                  <tr>
-                    <td>202</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2234</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>222</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2234</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td>203</td>
-                    <td>2</td>
-                    <td>DF/3</td>
-                    <td>2234</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                    <td>CM/6</td>
-                    <td> </td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <h3 id="resolving-direct-fire-attacks">Resolving direct fire attacks</h3>
-              
-              <p>(November 2, 2014)</p>
-              
-              <p>Computing attack factors is easy: <script type="math/tex">AF = TP \times ER</script>.</p>
-              
-              <p>Computing defense factor <script type="math/tex">DF</script> is a little more involved:</p>
-              
-              <p><script type="math/tex">DF = A_T + A_R + A_M + A_{CM}</script>,</p>
-              
-              <p>where <script type="math/tex">A_T</script> is the attenuation due to terrain, <script type="math/tex">A_R</script> is the
-              attenuation due to range, <script type="math/tex">A_M</script> is the attenuation due to movement,
-              and <script type="math/tex">A_{CM} = CM \times ER</script> is the attenuation from the target's
-              countermeasures.</p>
-              
-              <p><script type="math/tex">AF = 6</script> for all attacking units. As noted above, there is no combined
-              fire effect in this game, attacks are resolved individually, for each
-              unit firing. It turns out that <script type="math/tex">DF > 6</script> for all Solar Hegemony units,
-              hence, no combat occurs.</p>
-              
-              <p>I wrote out tables for all seven EE units firing, but the tables are too
-              wide to fit into a browser screen. We'll examine one combat in detail
-              which differs mostly in range attenuation from the others.</p>
-              
-              <p>Ss201 in hex 0544 fires on hex 2137 containing Hw121 at High Altitude
-              with 3 TP at 2 ER for <script type="math/tex">AF = 6</script>. In defense we have:</p>
-              
-              <ul>
-                <li>Range 17 + 5 (HA) yields <script type="math/tex">A_R = 3</script>.</li>
-                <li>Hw121 allocated 1 TP to movement, resulting in <script type="math/tex">A_M = 1</script>.</li>
-                <li>High Altitude gives <script type="math/tex">A_T = 1</script>.</li>
-                <li>Hw121 allocated <script type="math/tex">CM = 5</script>, with <script type="math/tex">ER = 1</script> because of movement,
-              yielding <script type="math/tex">A_{CM} = 5</script>.</li>
-                <li>Total <script type="math/tex">DF = 10</script>.</li>
-              </ul>
-              
-              <p>This results in combat differential <script type="math/tex">\Delta = AF - DF = 6 - 10 = -4</script>,
-              no combat allowed.</p>
-              
-              <p>It looks like if I want to actually damage another unit, I'm going to
-              have to be willing to spend enough Task Points to risk taking
-              considerable damage myself. Devious.</p>
-              
-              <p>Here's the end of Turn 1:</p>
-              
-              <p class="center"><img alt="End of Turn 1" src="/images/starsoldier/scenario_1_game_1_turn_1.jpg" /></p>
-              
-              <p>The Solar Hegemony really ought to be making a beeline for the south
-              edge of the map, but they are staying in cover as much as possible along
-              the way.</p>
-              
-              <p>Score: SH 0, EE 0.</p>
-              
-              <h2 id="turn-2">Turn 2</h2>
-              
-              <p>Keeping it simple, we're only using single stage turns.</p>
-              
-              <h3 id="plot-phase">Plot phase</h3>
-              
-              <p>Solar Hegemony tasking:</p>
-              
-              <table class="center">
-                <thead>
-                  <tr>
-                    <th>StarSoldier</th>
-                    <th>ER</th>
-                    <th>Operation</th>
-                    <th>Target</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>101</td>
-                    <td>1</td>
-                    <td>MV/9</td>
-                    <td>0340</td>
-                  </tr>
-                  <tr>
-                    <td>102</td>
-                    <td>1</td>
-                    <td>MV/9</td>
-                    <td>0440</td>
-                  </tr>
-                  <tr>
-                    <td>103</td>
-                    <td>1</td>
-                    <td>MV/9</td>
-                    <td>0542</td>
-                  </tr>
-                  <tr>
-                    <td>104</td>
-                    <td>1</td>
-                    <td>MV/9</td>
-                    <td>0339</td>
-                  </tr>
-                  <tr>
-                    <td>121</td>
-                    <td>1</td>
-                    <td>MV/9</td>
-                    <td>0239</td>
-                  </tr>
-                  <tr>
-                    <td>105</td>
-                    <td>1</td>
-                    <td>NE/9</td>
-                    <td>0249</td>
-                  </tr>
-                  <tr>
-                    <td>106</td>
-                    <td>1</td>
-                    <td>NE/9</td>
-                    <td>0149</td>
-                  </tr>
-                  <tr>
-                    <td>107</td>
-                    <td>2</td>
-                    <td>MV/9</td>
-                    <td>1948</td>
-                  </tr>
-                  <tr>
-                    <td>108</td>
-                    <td>2</td>
-                    <td>MV/9</td>
-                    <td>2050</td>
-                  </tr>
-                  <tr>
-                    <td>122</td>
-                    <td>2</td>
-                    <td>MV/9</td>
-                    <td>1950</td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <h3 id="fire-phase">Fire phase</h3>
-              
-              <h3 id="launch-phase">Launch phase</h3>
-              
-              <h3 id="movement-phase">Movement phase</h3>
-              
-              <p>The clear blue dice show unit pip indictae eliminated SH units.</p>
-              
-              <p class="center"><img alt="End of movement, Turn 2" src="/images/starsoldier/game_1_turn_2_movement.jpg" /></p>
-              
-              <h3 id="projectile-resolution-phase">Projectile resolution phase</h3>
-              
-              <p class="center"><img alt="End of Turn 2" src="/images/starsoldier/game_1_turn_2_resolution.jpg" /></p>
-              
-              <p>The Solar Hegemony really gets hurt. This is the consequence of allowing
-              the EE to set up in advance on the high ground. Very difficult for the
-              SH to hurt the EE. Also, the EE have 3 Hw units, which double the ER on
-              direct and opportunity fire. Yikes!</p>
-              
-              <p>Score: EE 70, SH 0.</p>
-              
-              <h2 id="turn-3">Turn 3</h2>
-              
-              <p>Final score: EE 80, SH 20.</p>
-              
-              <h2 id="aar">AAR</h2>
-              
-              <p>So far, so good. But this game could really use some decent player's
-              aids.</p>
-              
-              <p>As I worked my way through Turn 1, my impression was that the rules of
-              the game aren't that difficult, and there aren't that many, but the
-              number of choices available for each unit feels large. Several kinds
-              of movement, several types of fire, several types of weapons, all add to
-              an excellent recipe for analysis paralysis.</p>
-              
-              <p>These types of games are best learned either solo, or with someone at an
-              equal level of skill. Otherwise, the more experienced player is likely
-              to get really, really bored.</p>
-              
-              <p>On the other hand, StarSoldier and StarForce are difficult to <em>play</em>
-              solo, because the dominant mechanism in both games is the Simultaneous
-              Movement, which induces a huge element of uncertainty difficult to
-              recreate when playing solo. One way to get that uncertainty back is to
-              draft two or more possible moves for each faction on each turn, then
-              resolve the which set of moves is used at random. Easier said than done,
-              and proved to be too much burden for the first turn.</p>
-              
-              <h3 id="making-a-better-game">Making a better game</h3>
-              
-              <p>Player aids:</p>
-              
-              <ul>
-                <li>Record sheets similar to Starship Troopers would be much easier to
-              handle than counters on a track.</li>
-                <li>At least two different ledgers, one for tasking, and one for fire. The
-              mechanisms are very simple, keeping track of what's going on is
-              difficult.</li>
-              </ul>
-              <div class='navigation'>
-                <div class='prevnav'>
-                  Previous:
-                  <a href='/2014/09/27/human-league-rising.html' rel='prev'>Human League Rising</a>
-                </div>
-                <div class='nextnav'>
-                  Next:
-                  <a href='/2014/09/28/arab-israeli-wars-first-look.html' rel='next'>Arab Israeli Wars first look</a>
-                </div>
-              </div>
-              <hr class='blog-bottom-main'>
-              <h5>
-                Tags
-              </h5>
-              <ul class='taglist'>
-                <li class='tag'>
-                  <a href='/tags/starsoldier.html'>starsoldier</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/scenario-1.html'>scenario-1</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/patrol.html'>patrol</a>
-                </li>
-                <li class='tag'>
-                  <a href='/tags/solar-hegemony.html'>solar-hegemony</a>
-                </li>
-              </ul>
-              <hr class='blog-archive-template'>
-            </article>
-          </div>
-          <div class='col-md-4'>
-            <div class='sidebar'>
-              <h3>
-                What to play next?
-              </h3>
-              <p>
-                Deciding what to play next is always a tough call when faced with a closet
-                full of games, all of which were purchased with intent to play. Here's one
-                I'm dealing with the decision.
-              </p>
-              <ul>
-                <li>
-                  <b>Something New</b>: this means both something new to me and a game which has
-                  been published recently, within the last two or three years.
-                </li>
-                <li>
-                  <b>Something Classic</b>: I've acquired a number of games properly considered
-                  "classic" which haven't yet been played. The current example would be
-                  PanzerGruppe Guderian.
-                </li>
-                <li>
-                  <b>Something Again</b>: mastery requires constant practice, which means playing
-                  games many, many times to allow nuance to appear.
-                </li>
-                <li>
-                  <b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
-                  games ever published, but I can say that I have a lot of them, and probably more
-                  than most people.
-                </li>
-                <li>
-                  <b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
-                  game design.
-                </li>
-                <li>
-                  <b>Something Different</b>: break away from the same old publishers and try a game
-                  from one of the new kids on the block. Or, conversely, dip into legacy with a classic
-                  tried and true.
-                </li>
-                <li>
-                  <b>Something Light</b>: once in a while it's nice to actually finish a game all
-                  the way through in one sitting, in an hour or two.
-                </li>
-                <li>
-                  <b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
-                  which can be left out for days or weeks or even months, for a leisurely stroll through
-                  a very large or long game.
-                </li>
-              </ul>
-              <p>
-                There are surely many more ways to choose, but the above method keeps me busy
-                enough, helps me get both breadth and depth into my play, and provides me with
-                a sense of progress.
-              </p>
-              <h3>
-                Upcoming Fall 2015
-              </h3>
-              <p>
-                Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
-                plays to learn rules and scenarios.
-              </p>
-              <ul>
-                <li>
-                  Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
-                  solo a few turns on to get the rules figured out. It has hidden information
-                  which makes it fairly tedious to solo effectively.
-                </li>
-                <li>
-                  <i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
-                  My plan is to play the first couple of scenarios to learn the rules. I have an
-                  opponent lined up for future games. Really looking forward to this one.
-                </li>
-                <li>
-                  GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
-                  a number of scenarios, the first of which is a 1 turn effort which is what I'll
-                  play on this round. The campaign goes 10-12 turns.
-                  Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
-                  <i>Suez '73</i> turns out to be much more involved than I imagined.
-                </li>
-                <li>
-                  <i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
-                  War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
-                  blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
-                </li>
-                <li>
-                  <i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
-                </li>
-                <li>
-                  Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
-                  <b>Allied sudden death win, enabled by French forces slipping off the south edge of
-                  the map.</b>
-                </li>
-                <li>
-                  <i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
-                  while. They usually play pretty quickly as the game system hammers me. I've
-                  found the best way to win is to sit down for a "short, fast game."
-                </li>
-              </ul>
-              <p>
-                This is probably a good two months worth of play, maybe 3. I'll be playing a fair
-                number of other games with opponents along the way.
-              </p>
-              <p>
-                Updated August 30, 2015.
-              </p>
-              <h3>
-                The odd man out
-              </h3>
-              <p>When there is an odd man out:</p>
-              
-              <ul>
-                <li>Have a solo game ready to play.</li>
-                <li>Keep score or advise on a game in progress.</li>
-                <li>Referee a game in progress.</li>
-              </ul>
-              <aside>
-                <h3>
-                  Recent Articles
-                  <a href='/archive.html'>Archive</a>
-                </h3>
-                <ol>
-                  <li>
-                    <span>Mon. Aug  7</span>
-                    <a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Aug  6</span>
-                    <a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
-                  </li>
-                  <li>
-                    <span>Fri. Aug  4</span>
-                    <a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Aug  3</span>
-                    <a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
-                  </li>
-                  <li>
-                    <span>Wed. Aug  2</span>
-                    <a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
-                  </li>
-                  <li>
-                    <span>Tue. Aug  1</span>
-                    <a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
-                  </li>
-                  <li>
-                    <span>Sun. Jul 30</span>
-                    <a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
-                  </li>
-                  <li>
-                    <span>Fri. Jul 28</span>
-                    <a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
-                  </li>
-                  <li>
-                    <span>Thu. Jul 27</span>
-                    <a href='/2017/07/27/lotr-35-a-journey-to-rhosgobel-4.html'>LotR 35 - A Journey to Rhosgobel (4)</a>
-                  </li>
-                </ol>
-              </aside>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id='push'></div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12'>
-          <footer>
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-            <a href='/pb'>Home</a>
-            <a href='http://github.com/mtngrown/consim'>Source</a>
-          </footer>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+StarSoldier Tactical Warfare in the 25th Century
+</h1>
+<time class='updated' pubdate=''>Sep 27 2014</time>
+<p>StarSoldier is "Volume 2" of SPI's StarForce Trilogy. Over the next few
+days, I'll be going through the rule book to learn the mechanics,
+without getting into serious gameplay. That said, some sort of game will get
+played.</p>
+
+<p>The first thing I like to do when looking at a new game is throw some
+counters on the board and push them around. The counters from Scenario 1
+will do just fine.</p>
+
+<p>First, which is what.</p>
+
+<ul>
+  <li>Humans are the blue counters, and there should be 29 of them.</li>
+  <li>L'Chal Dah are green counters, and there should be 25 of them.</li>
+</ul>
+
+<p>Let's dig a little deeper into the mechanics.</p>
+
+<h2 id="fire-combat">Fire combat</h2>
+
+<p>The next obvious thing (for me) is figuring out how to blow stuff up.
+The best way I know how to do that is put a couple of soldiers on the
+map and have them shoot at each other.</p>
+
+<p class="center"><img src="/images/starsoldier/direct_fire_demo.jpg" alt="Direct fire in StarSoldier" /></p>
+
+<ul>
+  <li>Ss106 (SH)</li>
+</ul>
+
+<table class="center">
+  <tbody>
+    <tr>
+      <td>Operation</td>
+      <td>Target</td>
+      <td>TP</td>
+    </tr>
+    <tr>
+      <td>DF</td>
+      <td>2646</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CM</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Attack strength = 3 x 2 = 6. Defense strength = 2RA + 2CM x 2 + 6
+(terrain) = 12</p>
+
+<ul>
+  <li>Ss203 (EE)</li>
+</ul>
+
+<table class="center">
+  <tbody>
+    <tr>
+      <td>Operation</td>
+      <td>Target</td>
+      <td>TP</td>
+    </tr>
+    <tr>
+      <td>DF</td>
+      <td>2040</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CM</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Attack strength = 3TP x 2 = 6. Defense strength = 2RA + 2CM x 2 + 3
+(organic cover)  = 9.</p>
+
+<p>As it turns out, AS - DS &lt;= 0 for both units, hence, no fire.</p>
+
+<p>DF stands for Direct Fire, CM for Counter Measures which will add to the
+effective defense strength, RA for Range Attenuation.</p>
+
+<p>We're ready to play through Scenario 1.</p>
+
+<h2 id="scenario-1-the-epsilon-eridane-campaign">Scenario 1 The Epsilon Eridane Campaign</h2>
+
+<p>Scenario 1 is a human-human engagement pitting the Solar Hegemony
+against the Epsilon Eridane. The SH will be the Alpha Force,
+the Epsilon Eridane the Bravo force. This scenario is specified to use
+the Patrol Situation.</p>
+
+<ul>
+  <li>Solar Hegemony, Alpha: 1 squad</li>
+  <li>Epsilon Eridane, Bravo: 1 fire team, 1 heavy weapons section</li>
+</ul>
+
+<p><strong>Special Rules</strong></p>
+
+<ol>
+  <li>All urban areas treated as organic cover.</li>
+  <li>Epsilon Eridane is allowed Orbital Ground Support, maximum <strong>per turn</strong>:
+  * 4 Orbital Bombardment Explosives,
+  * 2 Orbital Laser Barrages,
+  * 2 Orbital Opcaity Bombs.</li>
+  <li>No homing missiles for either side.</li>
+</ol>
+
+<h3 id="more-about-the-patrol-situation">More about the Patrol Situation</h3>
+
+<p>In the Patrol Situation, a base is defined to exist off the east or the
+west edge of the map, whence the Bravo force sets up on the map and the
+Alpha force enters the map on the opposite side of the base.</p>
+
+<p>In this case, because my game table is roughly 2' by 3', and I have no
+convenient place for record tracks, the Alpha Force (SH) will enter the
+north edge of the map, with the base off map to the south. The record
+tracks go under plexiglas on the western half of the map, leaving the
+eastern half for game play.</p>
+
+<p><strong>Patrol-specific Rules</strong></p>
+
+<p>Although StarSoldiers uses a simultaneous movement system, since the
+Bravo Force (EE) is already deployed, the first turn is the Alpha force
+moving on to the map. In the Patrol Situation, <em>Alpha can only task
+movement (MV) and countermeasures (CM) on entry</em>.</p>
+
+<p>Alpha may enter the map in any mode.</p>
+
+<p><strong>Patrol victory conditions</strong></p>
+
+<ul>
+  <li>Alpha:
+    <ul>
+      <li>2 points for every Task Point loss in PL of Bravo force;</li>
+      <li>10 point for every starsoldier exited from map</li>
+    </ul>
+  </li>
+  <li>Bravo:
+    <ul>
+      <li>3 points for every Task Point loss on Alpha's Preservation Level.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="setting-up">Setting up</h3>
+
+<p>Typically, I spend a lot of time setting up solitaire games so that I
+can get a feel for the system. Part of the setting up process often
+involves taking detailed notes while setting up the game, and photos and
+locations of units at setup.</p>
+
+<p>This is in part to provide a record of what I did, in part to allow
+replaying the same situation exactly in the future, and in part to allow
+tearing the game down after the initial setup to use the table for
+something else. Perhaps a different game. In any case, recording the
+setup in detail allows play to proceed in stages. Sometimes, by the time
+I've set everything up and written it all down, I'm bored and want to
+examine a different game.</p>
+
+<p>There is a <em>lot</em> of record keeping in StarSoldier, and it doesn't look
+like the fun kind. I don't necessarily have much of a problem with that,
+but it makes it hard to find opponents.</p>
+
+<p>The first task is assigning "serial numbers" to each starsoldier such
+that their Task Points can be tracked.</p>
+
+<p><strong>House Rule</strong> because the map is "short," Force Bravo will set up on
+the map first, and the Alpha Force will enter with 9 task
+points. This will allow for a positioning move, which is mostly to help
+me wrap my head around the mechanics. Here's what it looks like:</p>
+
+<p class="center"><img src="/images/starsoldier/situation_1_setup.jpg" alt="After initial &quot;emplacement&quot; move for Situation
+1" /></p>
+
+<p>Note the star soldier record tracks are under the plexi with the
+counters riding on top just as the playing pieces. This is a consequence
+of having a very small playing area.</p>
+
+<p>The actual locations are listed below:</p>
+
+<p><strong>Force Alpha (blue)</strong></p>
+
+<p>(After first "move.")</p>
+
+<table class="center">
+  <tbody>
+    <tr>
+      <td>Track</td>
+      <td>StarSoldier</td>
+      <td>Location</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>101</td>
+      <td>2927 noe</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>102</td>
+      <td>3027 noe</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>103</td>
+      <td>3029 noe</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>104</td>
+      <td>2234 ha</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>121</td>
+      <td>2137 ha</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>105</td>
+      <td>3038</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>106</td>
+      <td>3140</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>107</td>
+      <td>3149</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>108</td>
+      <td>3151</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>122</td>
+      <td>3052</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Force Bravo (green)</strong></p>
+
+<p>(Set up in advance.)</p>
+
+<table class="center">
+  <tbody>
+    <tr>
+      <td>Track</td>
+      <td>StarSoldier</td>
+      <td>Location</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>201</td>
+      <td>0544</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>202</td>
+      <td>0933</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>203</td>
+      <td>1831</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>204</td>
+      <td>2140</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>221</td>
+      <td>0546</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>222</td>
+      <td>1132</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>223</td>
+      <td>2646</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Time to play the game.</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p>(November 1, 2014)</p>
+
+<p>As it turns out, further reading of the rules indicates I've set this up
+as a Recon scenario rather than a Patrol scenario. My intention was to
+speed up the game play a bit by emplacing the EE forces. But that
+changes the balance of the scenario, as all the EE forces got put into
+defensible positions.</p>
+
+<p>Another thing I intended was to provide a selection of activities for
+each unit on the Alpha team, then select at random. This was too much
+work. I don't know the game well enough to evaluate "good" versus "bad"
+moves, at least anything more than staying in cover and out of the
+clear.</p>
+
+<p>Here's something else interesting: there is no combined fire. Each
+unit's attacks are resolved one at a time.</p>
+
+<p>Here's the Solar Hegemony plan:</p>
+
+<table class="center">
+  <thead>
+    <tr>
+      <th>StarSoldier</th>
+      <th>ER</th>
+      <th>Operation</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101</td>
+      <td>1</td>
+      <td>MV/4</td>
+      <td>2131</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>1</td>
+      <td>MV/4</td>
+      <td>2231</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/5</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>1</td>
+      <td>MV/4</td>
+      <td>2333</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/5</td>
+      <td> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>104</td>
+      <td>1</td>
+      <td>MV/3</td>
+      <td>2039</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>GD/3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>1</td>
+      <td>MV/1</td>
+      <td>2139</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>GD/3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/5</td>
+      <td> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>105</td>
+      <td>2</td>
+      <td>NE/3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>MV/6</td>
+      <td>2040</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>2</td>
+      <td>NE/3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>MV/6</td>
+      <td>1940</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>107</td>
+      <td>2</td>
+      <td>MV/9</td>
+      <td>2752</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>2</td>
+      <td>MV/9</td>
+      <td>2651</td>
+    </tr>
+    <tr>
+      <td>122</td>
+      <td>2</td>
+      <td>MV/9</td>
+      <td>2651</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>And the Epsilon Eridani plan:</p>
+
+<table class="center">
+  <thead>
+    <tr>
+      <th>StarSoldier</th>
+      <th>ER</th>
+      <th>Operation</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>201</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2137</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>221</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2137</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>204</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2137</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>223</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2137</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>202</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2234</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>222</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2234</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>203</td>
+      <td>2</td>
+      <td>DF/3</td>
+      <td>2234</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>CM/6</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="resolving-direct-fire-attacks">Resolving direct fire attacks</h3>
+
+<p>(November 2, 2014)</p>
+
+<p>Computing attack factors is easy: <script type="math/tex">AF = TP \times ER</script>.</p>
+
+<p>Computing defense factor <script type="math/tex">DF</script> is a little more involved:</p>
+
+<p><script type="math/tex">DF = A_T + A_R + A_M + A_{CM}</script>,</p>
+
+<p>where <script type="math/tex">A_T</script> is the attenuation due to terrain, <script type="math/tex">A_R</script> is the
+attenuation due to range, <script type="math/tex">A_M</script> is the attenuation due to movement,
+and <script type="math/tex">A_{CM} = CM \times ER</script> is the attenuation from the target's
+countermeasures.</p>
+
+<p><script type="math/tex">AF = 6</script> for all attacking units. As noted above, there is no combined
+fire effect in this game, attacks are resolved individually, for each
+unit firing. It turns out that <script type="math/tex">DF > 6</script> for all Solar Hegemony units,
+hence, no combat occurs.</p>
+
+<p>I wrote out tables for all seven EE units firing, but the tables are too
+wide to fit into a browser screen. We'll examine one combat in detail
+which differs mostly in range attenuation from the others.</p>
+
+<p>Ss201 in hex 0544 fires on hex 2137 containing Hw121 at High Altitude
+with 3 TP at 2 ER for <script type="math/tex">AF = 6</script>. In defense we have:</p>
+
+<ul>
+  <li>Range 17 + 5 (HA) yields <script type="math/tex">A_R = 3</script>.</li>
+  <li>Hw121 allocated 1 TP to movement, resulting in <script type="math/tex">A_M = 1</script>.</li>
+  <li>High Altitude gives <script type="math/tex">A_T = 1</script>.</li>
+  <li>Hw121 allocated <script type="math/tex">CM = 5</script>, with <script type="math/tex">ER = 1</script> because of movement,
+yielding <script type="math/tex">A_{CM} = 5</script>.</li>
+  <li>Total <script type="math/tex">DF = 10</script>.</li>
+</ul>
+
+<p>This results in combat differential <script type="math/tex">\Delta = AF - DF = 6 - 10 = -4</script>,
+no combat allowed.</p>
+
+<p>It looks like if I want to actually damage another unit, I'm going to
+have to be willing to spend enough Task Points to risk taking
+considerable damage myself. Devious.</p>
+
+<p>Here's the end of Turn 1:</p>
+
+<p class="center"><img src="/images/starsoldier/scenario_1_game_1_turn_1.jpg" alt="End of Turn 1" /></p>
+
+<p>The Solar Hegemony really ought to be making a beeline for the south
+edge of the map, but they are staying in cover as much as possible along
+the way.</p>
+
+<p>Score: SH 0, EE 0.</p>
+
+<h2 id="turn-2">Turn 2</h2>
+
+<p>Keeping it simple, we're only using single stage turns.</p>
+
+<h3 id="plot-phase">Plot phase</h3>
+
+<p>Solar Hegemony tasking:</p>
+
+<table class="center">
+  <thead>
+    <tr>
+      <th>StarSoldier</th>
+      <th>ER</th>
+      <th>Operation</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101</td>
+      <td>1</td>
+      <td>MV/9</td>
+      <td>0340</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>1</td>
+      <td>MV/9</td>
+      <td>0440</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>1</td>
+      <td>MV/9</td>
+      <td>0542</td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>1</td>
+      <td>MV/9</td>
+      <td>0339</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>1</td>
+      <td>MV/9</td>
+      <td>0239</td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>1</td>
+      <td>NE/9</td>
+      <td>0249</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>1</td>
+      <td>NE/9</td>
+      <td>0149</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>2</td>
+      <td>MV/9</td>
+      <td>1948</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>2</td>
+      <td>MV/9</td>
+      <td>2050</td>
+    </tr>
+    <tr>
+      <td>122</td>
+      <td>2</td>
+      <td>MV/9</td>
+      <td>1950</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="fire-phase">Fire phase</h3>
+
+<h3 id="launch-phase">Launch phase</h3>
+
+<h3 id="movement-phase">Movement phase</h3>
+
+<p>The clear blue dice show unit pip indictae eliminated SH units.</p>
+
+<p class="center"><img src="/images/starsoldier/game_1_turn_2_movement.jpg" alt="End of movement, Turn 2" /></p>
+
+<h3 id="projectile-resolution-phase">Projectile resolution phase</h3>
+
+<p class="center"><img src="/images/starsoldier/game_1_turn_2_resolution.jpg" alt="End of Turn 2" /></p>
+
+<p>The Solar Hegemony really gets hurt. This is the consequence of allowing
+the EE to set up in advance on the high ground. Very difficult for the
+SH to hurt the EE. Also, the EE have 3 Hw units, which double the ER on
+direct and opportunity fire. Yikes!</p>
+
+<p>Score: EE 70, SH 0.</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<p>Final score: EE 80, SH 20.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>So far, so good. But this game could really use some decent player's
+aids.</p>
+
+<p>As I worked my way through Turn 1, my impression was that the rules of
+the game aren't that difficult, and there aren't that many, but the
+number of choices available for each unit feels large. Several kinds
+of movement, several types of fire, several types of weapons, all add to
+an excellent recipe for analysis paralysis.</p>
+
+<p>These types of games are best learned either solo, or with someone at an
+equal level of skill. Otherwise, the more experienced player is likely
+to get really, really bored.</p>
+
+<p>On the other hand, StarSoldier and StarForce are difficult to <em>play</em>
+solo, because the dominant mechanism in both games is the Simultaneous
+Movement, which induces a huge element of uncertainty difficult to
+recreate when playing solo. One way to get that uncertainty back is to
+draft two or more possible moves for each faction on each turn, then
+resolve the which set of moves is used at random. Easier said than done,
+and proved to be too much burden for the first turn.</p>
+
+<h3 id="making-a-better-game">Making a better game</h3>
+
+<p>Player aids:</p>
+
+<ul>
+  <li>Record sheets similar to Starship Troopers would be much easier to
+handle than counters on a track.</li>
+  <li>At least two different ledgers, one for tasking, and one for fire. The
+mechanisms are very simple, keeping track of what's going on is
+difficult.</li>
+</ul>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2014/09/27/human-league-rising.html' rel='prev'>Human League Rising</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2014/09/28/arab-israeli-wars-first-look.html' rel='next'>Arab Israeli Wars first look</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/starsoldier.html'>starsoldier</a>
+</li>
+<li class='tag'>
+<a href='/tags/scenario-1.html'>scenario-1</a>
+</li>
+<li class='tag'>
+<a href='/tags/patrol.html'>patrol</a>
+</li>
+<li class='tag'>
+<a href='/tags/solar-hegemony.html'>solar-hegemony</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Aug 19</span>
+<a href='/2017/08/19/hapsburg-eclipse-9.html'>Hapsburg Eclipse (9)</a>
+</li>
+<li>
+<span>Mon. Aug  7</span>
+<a href='/2017/08/07/hoplite-netrunner-and-more.html'>Hoplite, Netrunner and more</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-47-escape-from-dol-goldur-5.html'>LotR 47 - Escape from Dol Goldur (5)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-46-escape-from-dol-goldur-4.html'>LotR 46 - Escape from Dol Goldur (4)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-45-escape-from-dol-goldur-3.html'>LotR 45 - Escape from Dol Goldur (3)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-44-escape-from-dol-goldur-2.html'>LotR 44 - Escape from Dol Goldur (2)</a>
+</li>
+<li>
+<span>Sun. Aug  6</span>
+<a href='/2017/08/06/lotr-43-escape-from-dol-goldur-1.html'>LotR 43 - Escape from Dol Goldur (1)</a>
+</li>
+<li>
+<span>Fri. Aug  4</span>
+<a href='/2017/08/04/lotr-42-passage-through-mirkwood-23.html'>LotR 42 - Passage Through Mirkwood (23)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-41-the-dead-marshes-5.html'>LotR 41 - The Dead Marshes (5)</a>
+</li>
+<li>
+<span>Thu. Aug  3</span>
+<a href='/2017/08/03/lotr-40-the-dead-marshes-4.html'>LotR 40 - The Dead Marshes (4)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-39-the-dead-marshes-3.html'>LotR 39 - The Dead Marshes (3)</a>
+</li>
+<li>
+<span>Wed. Aug  2</span>
+<a href='/2017/08/02/lotr-38-the-dead-marshes-2.html'>LotR 38 - The Dead Marshes (2)</a>
+</li>
+<li>
+<span>Tue. Aug  1</span>
+<a href='/2017/08/01/lotr-37-the-dead-marshes-1.html'>LotR 37 - The Dead Marshes (1)</a>
+</li>
+<li>
+<span>Sun. Jul 30</span>
+<a href='/2017/07/30/an-imperial-rout-on-hoth.html'>An Imperial Rout on Hoth</a>
+</li>
+<li>
+<span>Fri. Jul 28</span>
+<a href='/2017/07/28/lotr-36-the-hills-of-emyn-muil-1.html'>LotR 36 - The Hills of Emyn Muil (1)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
 </html>

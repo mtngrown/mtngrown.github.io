@@ -1,0 +1,754 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Fire in the Lake 11, with Playbook Example 4
+</h1>
+<time class='updated' pubdate=''>Nov 12 2017</time>
+<p><strong>NOTE: this game is being played out over several days, and will be
+moved to a new date on the day it's finished.</strong></p>
+
+<p>And it's time to start the 11th playthrough of Fire in the Lake. This is
+one of my H-index games, currently at 10 plays. If I can get 2 more
+plays, my H-index moves to 12, which is my target for this year.</p>
+
+<p>My goal for this play through is to get more comfortable with the rules,
+and code up a bit of logic in Ruby to see what I can do with with. This
+is much more time consuming than just taking my best whack at playing
+all sides manually, so it could draw the game out considerably.</p>
+
+<p>It's embarrassing to admit this play was started on March 4, 2017, and
+didn't even get through the first card until being resumed on October
+15, 2017. But it did get back underway, finally. Since I haven't played
+any COIN lately, much less Fire in the Lake, the goal for finishing this
+game is relearning the rules, and playing it mechanically perfect. I'm
+not worried about "who" is going to win. I do plan on working a little
+bit with the bots, but I still find them very confusing.</p>
+
+<h2 id="the-us-sweeps-with-airlift">The US Sweeps with Airlift</h2>
+
+<p>Example 4 in the playbook focuses on the US, which wants to sweep, and
+will use airlifting to help enable the sweep.</p>
+
+<h3 id="round-1">Round 1</h3>
+
+<p>Start the game according to Example 4 setup instructions.</p>
+
+<h4 id="operation-attleboro-23">1. Operation Attleboro (23)</h4>
+
+<p>US is first eligible, with halo. Non-player cards dictates Op &amp; Special
+Activity.</p>
+
+<p>Going to the Bot Chart:</p>
+
+<ul>
+  <li>
+    <p>Will an Assault succeed? No. The NVA is hunkered down in N. Vietnam
+and Central Laos, the VC are all in hidden mode. There is nothing to
+assault.</p>
+  </li>
+  <li>
+    <p>Sweep: Looks like US can sweep like crazy:</p>
+    <ul>
+      <li>Quang Tri for 3 NVA</li>
+      <li>Binh Dinh for 2 VC</li>
+      <li>Phu Bon for 2 VC</li>
+      <li>Pleiku for 2 VC</li>
+      <li>Kanh Hoa for 2 VC</li>
+      <li>Vinh Tuy for 2 VC</li>
+      <li>Saigon for 1 VC</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Special Activity is Airlift. There are extra US at Quang Tri, Saigon and
+Can Tho, and we're allowed to Airlift from 4 locations.</p>
+
+<p>This should allow adding Tay Ninh to the above list.</p>
+
+<p>First, read the rule section on Sweep, 3.2.3:</p>
+
+<ul>
+  <li>0 resources for US</li>
+  <li>3 resources for ARVN per space selected</li>
+  <li>Each US Troop or Irregular or ARVN Troop or Irregular can Activate 1
+VC or NVA guerrilla per 2 units in Jungle, per 1 unit in all other
+terrain types.</li>
+</ul>
+
+<p>For Airlift, 4.2.2: move any US troops and up to 4 ARVN troops among any
+4 spaces.</p>
+
+<p>For the Bot we have: 8.8.3:</p>
+
+<ul>
+  <li>No Booby Traps in effect, so can sweep in more than 2 spaces.</li>
+</ul>
+
+<p>I don't think there is more, and it isn't clear how many spaces I can
+sweep outside of monsoon. Usually 4 or 6 is max, here we have
+potentially 8.</p>
+
+<p>Following the playthrough, 3 US Troops  and 1 Ranger airlifted from Can Tho
+1 into Bin Tuy, 1 Troop and 1 Ranger from Quang Tri into Quang Nam.</p>
+
+<p>Now to do the sweeps:</p>
+
+<ol>
+  <li>Quang Nam: Flip 2 VC and take COIN control.</li>
+  <li>Binh Dinh: Flip 2 VC.</li>
+  <li>Phu Bon: Flip 2 VC.</li>
+  <li>Binh Tuy: Flip 2 VC.</li>
+  <li>Khanh How: Flip 2 VC.</li>
+  <li>Pleiku: Flip 2, VC.</li>
+  <li>Tay Hinh: Flip 1 VC.</li>
+</ol>
+
+<p>And that's a done deal.</p>
+
+<p>As mentioned about, I tried to computerized this, and spent 2-3 days
+banging on it pretty hard. I ended up shelving the project for a while
+to focus on other things, but it's something I should get back to in
+the future. It's a good problem.</p>
+
+<p>It's now that VC's play, and they are going to chose the Event on
+Operation Attleboro, which is to roll 1 die and remove that many
+US troops to casualties. The space needs to be a tunnel space, and Tay
+Ninh is just the ticket. Roll 4, remove all US including base from
+Tay Ninh.</p>
+
+<h4 id="brinks-hotel-97">2. Brinks Hotel (97)</h4>
+
+<p>ARVN is up first and will play the event and move Aid +10
+from 30 to 40.</p>
+
+<p>NVA follows with Op and SA, which is going to be March and Ambush.</p>
+
+<ol>
+  <li>
+    <p>North Vietnam to Quang Tri, move loads, flip 1 NVA guerrilla, remove
+1 US to Casualties. Pay 1 resource. NVA Control.</p>
+  </li>
+  <li>
+    <p>Southern Laos to Quang Nam, move 7 Troop 1 G, flip G, remove 1
+US to Casualties. NVA Control. Pay 1 Resource.</p>
+  </li>
+</ol>
+
+<h4 id="hamburger-hill-36">3. Hamburger Hill (36)</h4>
+
+<p>US is up first, will choose the event, "A Shau Valley campaign."
+Move 3 Troops from Binh Tuy and 1 from Phu Bon to Quang Nam, which
+removes the VC Base and also removes NVA Control.</p>
+
+<p>VC gets Op and SA, Op will be Rally:</p>
+
+<ul>
+  <li>Binh Tuy, Quang Duc, Tay Ninh, Phuoc Long, Kien Giang.</li>
+</ul>
+
+<p>SA is Subvert, replace ARVN in Kien Giang which removes COIN Control
+and replace ARVN in Quang Duc which also removes COIN Control.</p>
+
+<h4 id="rand-52">4. RAND (52)</h4>
+
+<p>NVA is up and will play the RAND event, which is flipping a US
+capability to shaded side. Since I don't recall which side is which,
+nor what the Secret Code on each side means, I need to do a bit of work
+with the rules. Ok, here's the deal, "shaded" refers to the text on the
+card, not the appearance of the counter. In this case, NVA choose Arc
+Light to flip to shaded side.</p>
+
+<p>This leaves ARVN with Op and SA. ARVN needs to get some COIN control
+back. To that end, it's a Sweep and Raid operation, with the Raids
+running first in Tay Ninh and Kien Giang, removing 2 guerrillas each.</p>
+
+<p>The Sweep runs next. Move Troop and Police from Saigon to Tay Ninh,
+flip 2/4 guerrillas (jungle), pay 3 resource. Sweep in Kien Giang, flip 1 VC
+pay 3 resource, Kien Giang now COIN control.</p>
+
+<h4 id="cambodian-civil-war-62">5. Cambodian Civil War (62)</h4>
+
+<p>The US is definitely going to work this event. It will screw the NVA
+really hard. The US gets free Air Lifts into and US or ARVN free sweeps
+within Cambodia. Remove 2 NVA/VC bases from Cambodia.</p>
+
+<p>The two bases are coming from The Fishhook and The Parrot's Beak.</p>
+
+<p>Air Lift takes 2 ARVN each from Quang Tin and Phu Bon into The Fishhook
+to sweep, 2 NVA flipped (jungle) and COIN control. An ugly day for the
+NVA.</p>
+
+<p>This leaves the VC with Op and SA, which will be March and Ambush.</p>
+
+<ul>
+  <li>
+    <p>March from Phuoc Long to Pleiku, from Quang Duc to Binh Tuy.
+Spend two resource.</p>
+  </li>
+  <li>
+    <p>Ambush in Pleiku, remove 1 US to casualties. Ambush in
+Binh Tuy, remove 1 US to Casualties.</p>
+  </li>
+</ul>
+
+<p>US has 7 in Casualties. That's not good for US.</p>
+
+<h4 id="an-loc-71">6. An Loc (71)</h4>
+
+<p>ARVN first eligible, will play the event to move 3
+Troops from The Fishhook to Quang Tri, removing all
+NVA Troops.</p>
+
+<p>NVA follows with Op and SA, which will be Attack and Bombard.</p>
+
+<ul>
+  <li>
+    <p>Bombard: Quang Nam and Quang Tri,  remove 1 each US to Casualties.</p>
+  </li>
+  <li>
+    <p>Attack in Quang Nam, 6 NVA remove 3 US to casualties, 3 NVA to
+available. Quang Nam under NVA control.</p>
+  </li>
+</ul>
+
+<h4 id="lam-son-719-74">7. Lam Son 719 (74)</h4>
+
+<p>US first eligible, will take the event to place up to 6 ARVN in a Laos
+space and knock the Trail down 2 from 3 to 1. ARVN comes from The
+Fishhook and Quang Tri, 4 total.</p>
+
+<p>VC follow with Op and SA, which will be Terror and Subvert.</p>
+
+<ul>
+  <li>
+    <p>Terror: Kien Hoa, Kien Phong, Quang Duc, &amp; Binh Tuy.</p>
+  </li>
+  <li>
+    <p>Subvert: Binh Tuy and Quang Duc, replace 1 each.</p>
+  </li>
+</ul>
+
+<p>I don't recall playing VC this agressively in the past.</p>
+
+<h4 id="my-lai-119">8. My Lai (119)</h4>
+
+<p>ARVN is first eligible, could play Pivotal Event right now,
+choosing to Sweep and Transport instead.</p>
+
+<ul>
+  <li>
+    <p>Transport: 4 ARVN from Central Laos to Quang Tri.</p>
+  </li>
+  <li>
+    <p>Sweep: Quang Tri, Binh Tuy, spend 6 resource.</p>
+  </li>
+</ul>
+
+<p>This sort of screws the NVA who only get a LimOp for this
+turn. Will make it easy for them though.</p>
+
+<p>NVA LimOp has to be Rally, need to improve the Trail. Will
+go for Southern Laos, replace 2 guerrilla with 1 Base, then
+place 3 guerrilla for 1 rsource, improve Trail for 2 more
+resources.</p>
+
+<h4 id="uss-new-jersey-30">9. USS New Jersey (30)</h4>
+
+<p>Just in time on the NVA, getting that base down and the Trail
+improved, as the Coup card comes up next. Good timing for them.</p>
+
+<p>US will do Op with no SA to limit VC to LimOp.</p>
+
+<p>US Assault in Quang Tri, Base + 1 Troop eliminates 2 NVA
+guerrillas, followup with 9 ARVN removes 2 NVA guerrillas
+and NVA Base, Aid +6. Pay 3 Resource.</p>
+
+<p>VC: LimOp, put a Base in Quang Duc.</p>
+
+<p>On to the first Coup.</p>
+
+<h4 id="coup-failed-attempt">10. Coup! Failed Attempt</h4>
+
+<p><code>6.1</code> Victory phase:</p>
+
+<ul>
+  <li>US: 5 available + 32 support = 37.</li>
+  <li>VC: 8 base + 13 oppose = 21.</li>
+  <li>ARVN: 14 patron + 25 COIN = 39.</li>
+  <li>NVA: 6 base + 1 control = 7.</li>
+</ul>
+
+<p>Nobody is doing very well here.</p>
+
+<p><code>6.2</code> Resources phase.</p>
+
+<p><code>6.2.1</code> All cities with COIN control, nothing on LoC.</p>
+
+<p><code>6.2.2</code> Degrade Trail: nothing to do here, no COIN in Laos
+or Cambodia.</p>
+
+<p><code>6.2.3</code> ARVN Earnings: Start with 15, add 46 Aid, 15 Econ, 76.</p>
+
+<p><code>6.2.4</code> Insurgent Earnings:</p>
+
+<ul>
+  <li>VC: number of bases on map: 8 + 4 = 12.</li>
+  <li>NVA: 5 bases in Laos/Cambodia, Trail at 2, new total 24.</li>
+</ul>
+
+<p><code>6.2.5</code> Casualties and Aid: subtract 3 x number of US
+Casualties from Aid: 12 x 3 = 36, Aid now 10. Dang.</p>
+
+<p><code>6.3</code> Support phase:</p>
+
+<p><code>6.3.1</code> Pacification:</p>
+
+<ul>
+  <li>ARVN: chooses none.</li>
+  <li>US: chooses Hue, Da Nang, Qui Nhon, Quang Tin, spend 12 ARVN
+resources, flip to Active Support.`</li>
+</ul>
+
+<p><code>6.3.2</code> Agitation:</p>
+
+<ul>
+  <li>VC spend 2 Resource to remove Terror and shift Quang Duc to
+Active opp., 1 R to shift Ba Xuyen.</li>
+</ul>
+
+<p><code>6.4</code> Redeploy phase</p>
+
+<p><code>6.4.1</code> Remove all US and ARVN from Laos and Cambodia. None
+so no effect.</p>
+
+<p><code>6.4.2</code> ARVN Redeploy: Move Troops from Tay Ninh to Saigon.</p>
+
+<p><code>6.4.3</code> NVA Redeploy: NVA may move to any NVA bases, nothing here
+this round.</p>
+
+<p><code>6.4.4</code> Adjust COIN Control: no effect.</p>
+
+<p><code>6.4.5</code> Not the final round, thus not game end.</p>
+
+<p><code>6.5</code> Commitment phase:</p>
+
+<p>Four US to out-of-play, 8 to available, and will
+pull those back onto the map. The base goes in Pleiku.
+I think this should have gone to casualties, then to
+out-of-play, will know better next time.</p>
+
+<p><code>6.6</code> Reset phase:</p>
+
+<ul>
+  <li>Trail is at 2, good to go.</li>
+  <li>Remove all Terror and Sabotage.</li>
+  <li>Flip all irregulars.</li>
+  <li>Discard Momentum cards.</li>
+  <li>Mark all factions eligible.</li>
+  <li>Play the next 2 cards.</li>
+</ul>
+
+<h4 id="pows-40">11. PoWs (40)</h4>
+
+<p>NVA is first up. The Event allows putting 3 US Troops from Available to
+Casualties, which might be a good idea, but the NVA really need to focus
+on rebuilding. The converse of the event moves US Casualties to
+Available, but there aren't any casualties. NVA taking Op/SA puts US
+up next with LimOp. Sounds like a plan.</p>
+
+<p>NVA Rally with Infiltrate.</p>
+
+<ol>
+  <li>
+    <p>The Parrot's Beak: Has 2 NVAG, add 2 and replace 2 with Base for 1
+Base and 2 NVAG</p>
+  </li>
+  <li>
+    <p>The Fishhook, same as Parrot's Beak.</p>
+  </li>
+  <li>
+    <p>Northeast Cambodia: Replace 2 NVAG with Base, place 4 NVAG.</p>
+  </li>
+  <li>
+    <p>Central Laos: Place 3 NVAG.</p>
+  </li>
+</ol>
+
+<p>Bump Trail to 3.</p>
+
+<p>Infiltrate:</p>
+
+<ol>
+  <li>The Parrot's Beak with 1.</li>
+  <li>Northeast Cambodia with 3.</li>
+</ol>
+
+<p>Expensive, 6 resources.</p>
+
+<p>US has a LimOp, will Train and Pacify in Quang Tri.
+Add 2 ARVN Police and replace 2 ARVN Troops with Base.
+Pay 3 ARVN Resource to Pacify and shift from passive
+support to active support.</p>
+
+<h4 id="armored-cavalry-61">12. Armored Cavalry (61)</h4>
+
+<p>ARVN is up first, will take the Event as otherwise
+losing it would suck, would limit transport to Rangers
+from one space.</p>
+
+<p>VC will take the Op/SA.</p>
+
+<p>Operation is March, putting VC on 7 LoCs for 0 Resource
+spend. Tax on 4 of those: Route 20, Route 11, Route 1 twice.
+Pretty cool. Resources now 13, with lots of LoC blocking.</p>
+
+<h4 id="son-tay-54">13. Son Tay (54)</h4>
+
+<p>NVA is first up, will take Op/SA for sure.</p>
+
+<p>First, Infiltrate in Central Laos and Southern Laos.</p>
+
+<p>Rally: Central Laos, Southern Laos, Northeast Cambodia.</p>
+
+<p>The US would have liked the Event to move 2 Casualties to Available, but
+there aren't any casualties. Bummer. Will have to do LimOp instead.</p>
+
+<p>US Train in Phu Bon, pull in two police and Pacify to Active Support.</p>
+
+<h4 id="phoenix-program-27">14. Phoenix Program (27)</h4>
+
+<p>VC are up first, will use Event to add Terror in Binh Dinh and
+Saigon. Six point swing to VC favor in victory points.</p>
+
+<p>ARVN gets Op/SA:</p>
+
+<ul>
+  <li>
+    <p>Sweep in Saigon, Kien Phong and Kien Hoa, expose 3 VC.</p>
+  </li>
+  <li>
+    <p>Raid: Kien Phong and Kien Hoa, this results in COIN control
+for both provinces with net gain 4.</p>
+  </li>
+</ul>
+
+<h4 id="americal-21">15. Americal (21)</h4>
+
+<p>There is a conundrum here, with both this card and the following
+dealing with out-of-pay US forces. The tempation here is to pass
+in favor of being first up on the event for the next card, but
+it's in ARVN's interest to move US forces off the map to allow
+Vietnamization Pivotal Event conditions to occur. Since ARVN is
+first up next turn regardless of whether US passes or not, the US
+should probably take the event here and move 2 from the map
+and 2 from out of play to Available.</p>
+
+<ul>
+  <li>US: Event, take 1 from Quang Tri, 1 from Binh Tuy and 2 from
+out of play.</li>
+</ul>
+
+<p>NVA now has Op/SA:</p>
+
+<p><strong>Wrapping this up here, work has finally gotten to a point where
+I cannot handle any distraction at all, and must remove games from
+my activities for a while. I'm disappointed, but have not been
+able to find any sort of work/life balance, hence work trumps.</strong></p>
+
+<h4 id="international-forces-65">16. International Forces (65)</h4>
+
+<h2 id="aar">AAR</h2>
+
+<h3 id="questions">Questions</h3>
+
+<ul>
+  <li>Brinks Hotel event has the current Leader card flipped. Does this last
+the entire round? I'm assuming it does, but would like to check.</li>
+</ul>
+
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2017/11/04/pakora-at-dp-lotr-59-pandemic-12.html' rel='prev'>Pakora at DP: LotR 59, Pandemic 12</a>
+</div>
+<div class='nextnav'>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/fitl.html'>fitl</a>
+</li>
+<li class='tag'>
+<a href='/tags/fire-in-the-lake.html'>fire-in-the-lake</a>
+</li>
+<li class='tag'>
+<a href='/tags/vietnam.html'>vietnam</a>
+</li>
+<li class='tag'>
+<a href='/tags/coin.html'>coin</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sun. Nov 12</span>
+<a href='/2017/11/12/fire-in-the-lake-11-with-playbook-example-4.html'>Fire in the Lake 11, with Playbook Example 4</a>
+</li>
+<li>
+<span>Sat. Nov  4</span>
+<a href='/2017/11/04/pakora-at-dp-lotr-59-pandemic-12.html'>Pakora at DP: LotR 59, Pandemic 12</a>
+</li>
+<li>
+<span>Sat. Nov  4</span>
+<a href='/2017/11/04/race-for-the-galaxy-14.html'>Race for the Galaxy 14</a>
+</li>
+<li>
+<span>Sun. Oct 22</span>
+<a href='/2017/10/22/battlefleet-mars-learning-game-1.html'>Battlefleet Mars Learning Game 1</a>
+</li>
+<li>
+<span>Sun. Oct 15</span>
+<a href='/2017/10/15/race-for-the-galaxy-13.html'>Race for the Galaxy 13</a>
+</li>
+<li>
+<span>Sun. Oct 15</span>
+<a href='/2017/10/15/race-for-the-galaxy-12.html'>Race for the Galaxy 12</a>
+</li>
+<li>
+<span>Sat. Oct  7</span>
+<a href='/2017/10/07/space-empires-4x-2.html'>Space Empires 4x (2)</a>
+</li>
+<li>
+<span>Tue. Oct  3</span>
+<a href='/2017/10/03/couple-of-quick-card-games.html'>Couple of quick card games</a>
+</li>
+<li>
+<span>Sat. Sep 23</span>
+<a href='/2017/09/23/lotr-58-hunt-for-gollum-3.html'>LotR 58 - Hunt for Gollum (3)</a>
+</li>
+<li>
+<span>Mon. Sep  4</span>
+<a href='/2017/09/04/lotr-57-return-to-mirkwood-2.html'>LotR 57 - Return to Mirkwood (2)</a>
+</li>
+<li>
+<span>Mon. Sep  4</span>
+<a href='/2017/09/04/lotr-56-return-to-mirkwood-1.html'>LotR 56 - Return to Mirkwood (1)</a>
+</li>
+<li>
+<span>Mon. Sep  4</span>
+<a href='/2017/09/04/lotr-55-journey-along-the-anduin-8.html'>LotR 55 - Journey Along the Anduin (8)</a>
+</li>
+<li>
+<span>Mon. Sep  4</span>
+<a href='/2017/09/04/lotr-54-journey-along-the-anduin-7.html'>LotR 54 - Journey Along the Anduin (7)</a>
+</li>
+<li>
+<span>Sun. Sep  3</span>
+<a href='/2017/09/03/space-empires-4x-at-ego.html'>Space Empires 4x at EGO</a>
+</li>
+<li>
+<span>Sun. Sep  3</span>
+<a href='/2017/09/03/lotr-53-journey-along-the-anduin-6.html'>LotR 53 - Journey Along the Anduin (6)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

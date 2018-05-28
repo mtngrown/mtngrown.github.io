@@ -1,0 +1,838 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Leaving Earth 9, hard game
+</h1>
+<time class='updated' pubdate=''>May 28 2018</time>
+<p>Upshot: next game, don't forget to plan the haulage into Earth Orbit.</p>
+
+<p>First hard game in a while. I'm going to put my new mission planning
+skills to work for this one. It's done in three steps:</p>
+
+<ol>
+  <li>Calculate mission thrust and rocket requirements.</li>
+  <li>Determine timeline.</li>
+  <li>Determine cost vs. risk.</li>
+</ol>
+
+<p>The missions are:</p>
+
+<ol>
+  <li>Easy: Man in Space</li>
+  <li>Easy: Artificial Satellite</li>
+  <li>Easy: Sounding Rocket</li>
+  <li>Medium: Space Station</li>
+  <li>Medium: Venus Lander</li>
+  <li>Medium: Mercury Lander</li>
+  <li>Hard: Venus Station</li>
+  <li>Hard: Man on Venus</li>
+</ol>
+
+<p>This is an interesting set of missions. There is no way to win the game
+without making at least one of the Venus missions. Succeeding on the
+Man on Venus mission probably gets everything but the Mercury Lander
+mission as a by-product.</p>
+
+<p>The main planning exercise becomes getting a man to Venus and back, with
+the added criterion of having the man on Venus for one year to satisfy
+the Venus Station mission. Burly. Will be hard to test everything up
+front, and it's not clear at the start whether Saturn or Soyuz is the
+better vehicle.</p>
+
+<p>An interesting wrinkle on the Venus mission is whether to take an Eagle
+or an Aldrin Capsule. The Eagle is mass 1, the Aldrin is mass 3, and
+that matters for the accumulated difficulty of the mission. I'm going to
+try an Eagle capsule for this one, and hope that the radiation doesn't
+kill the crew. The Aldrin provides some radiation protection, perhaps
+try that next time.</p>
+
+<h4 id="man-on-venus-and-back-to-earth">Man on Venus and Back to Earth</h4>
+
+<p>Here's the thrust schedule:</p>
+
+<table class="center">
+  <thead>
+    <tr>
+      <th>Start</th>
+      <th>End</th>
+      <th>Diff.</th>
+      <th>Spacecraft</th>
+      <th>Mass</th>
+      <th>Payload</th>
+      <th>Mass</th>
+      <th>Time</th>
+      <th>Thrust</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>(return to Earth)</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Earth Orbit</td>
+      <td>Earth</td>
+      <td>0</td>
+      <td>Capsule</td>
+      <td>1</td>
+      <td>Astronauts</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Landing</td>
+    </tr>
+    <tr>
+      <td>Inner Planets</td>
+      <td>Earth Orbit</td>
+      <td>3</td>
+      <td>Atlas</td>
+      <td>4</td>
+      <td>Capsule, supplies</td>
+      <td>2</td>
+      <td>1</td>
+      <td>27</td>
+      <td>3 * (4 + 2) = 18 &lt; 27</td>
+    </tr>
+    <tr>
+      <td>Venus Orbit</td>
+      <td>Inner Planet</td>
+      <td>3</td>
+      <td>Atlas x 2</td>
+      <td>8</td>
+      <td>Atlas, Capsule, supplies x 2</td>
+      <td>7</td>
+      <td>1</td>
+      <td>54</td>
+      <td>3 * (8 + 7) = 45 &lt; 54</td>
+    </tr>
+    <tr>
+      <td>Venus</td>
+      <td>Venus Orbit</td>
+      <td>6</td>
+      <td>Atlas x 2</td>
+      <td>8</td>
+      <td>Capsule</td>
+      <td>1</td>
+      <td>0</td>
+      <td>54</td>
+      <td>6 * (8 + 1) = 54 &lt;= 54</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>(a year on Venus)</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Venus Orbit</td>
+      <td>Venus</td>
+      <td>0</td>
+      <td>Capsule</td>
+      <td>1</td>
+      <td>Capsule, supplies</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Landing</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>(manned mission)</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Inner Planets</td>
+      <td>Venus Orbit</td>
+      <td>3</td>
+      <td>Atlas</td>
+      <td>4</td>
+      <td>Capsule, supplies</td>
+      <td>2</td>
+      <td>1</td>
+      <td>27</td>
+      <td>3 * (4 + 2) = 18 &lt; 27</td>
+    </tr>
+    <tr>
+      <td>Earth Orbit</td>
+      <td>Inner Planets</td>
+      <td>3</td>
+      <td>2 x Atlas</td>
+      <td>8</td>
+      <td>Atlas, Capsule, 2 x supplies</td>
+      <td>7</td>
+      <td>1</td>
+      <td>27</td>
+      <td>3 * (8 + 7) = 45 &lt; 54</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>(provision Venus orbit)</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Inner Planets</td>
+      <td>Venus Orbit</td>
+      <td>3</td>
+      <td>2 x Soyuz</td>
+      <td>18</td>
+      <td>3 x Atlas, 8 x supplies, Capsule</td>
+      <td>21</td>
+      <td>1</td>
+      <td>107</td>
+      <td>3 * (18 + 21) = 117 &lt; 160</td>
+    </tr>
+    <tr>
+      <td>Earth Orbit</td>
+      <td>Inner Planets</td>
+      <td>3</td>
+      <td>Saturn</td>
+      <td>20</td>
+      <td>2 x Soyuz, 3 x Atlas, 8 x supplies, Capsule</td>
+      <td>43</td>
+      <td>1</td>
+      <td>200</td>
+      <td>3 * (20 + 43) = 189 &lt; 200</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="in-earth-orbit-by-1971">In Earth Orbit by 1971</h4>
+
+<ul>
+  <li>Saturn</li>
+  <li>Soyuz x 2</li>
+  <li>Atlas x 8</li>
+  <li>Supplies x 8</li>
+  <li>Capsule</li>
+  <li>Astronauts x 2</li>
+</ul>
+
+<h4 id="advancements">Advancements</h4>
+
+<p>These are the Advancements which need to be obtained to enable
+to Man on Venus mission:</p>
+
+<ol>
+  <li>Saturn</li>
+  <li>Soyuz</li>
+  <li>Atlas</li>
+  <li>Landing (almost surely use Juno for testing)</li>
+  <li>Rendezvous</li>
+  <li>Life Support</li>
+</ol>
+
+<p>This is $60-$70.</p>
+
+<p>Not sure how to apportion the spending yet, taking this to a
+spreadsheet.</p>
+
+<h3 id="section"><code>1956</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn Advancement</li>
+  <li>Atlas Advancement</li>
+  <li>Atlas</li>
+</ul>
+
+<h3 id="section-1"><code>1957</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Life Support Advancement</li>
+  <li>Soyuz Advancement</li>
+  <li>Atlas</li>
+</ul>
+
+<h3 id="section-2"><code>1958</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Landing Advancement</li>
+  <li>Saturn</li>
+</ul>
+
+<h3 id="section-3"><code>1959</code></h3>
+
+<p>Purchases:</p>
+
+<ul>
+  <li>Eagle x 2</li>
+</ul>
+
+<p>Test fire the Saturn with the capsules as payload, Success.
+Now there are 3 Capsules in Earth Orbit, and I can get a look at what's
+in the Outcome deck for Life Support.</p>
+
+<p>This leaves me with $7, so purchase another Atlas, and
+Supplies x 2.</p>
+
+<p>Time to check Life Support:</p>
+
+<ol>
+  <li>Eagle: Major Failure.</li>
+  <li>Eagle: Major Failure.</li>
+</ol>
+
+<p>This is interesting: I don't know whether these need to be brought back
+to Earth or not. I do know I cannot pull them down this year as Life
+Support testing is at the end of the year, they will have to drop down
+next year.</p>
+
+<h3 id="section-4"><code>1960</code></h3>
+
+<p>Drop the Eagle Capsules back to Earth to get automatically fixed at the
+end of the turn. This can be done because the Manuever is 0 Difficulty
+and the Landing Hazard is optional.</p>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+  <li>Atlas</li>
+</ul>
+
+<p>Launch Saturn with Atlas, Minor Failure purchase.</p>
+
+<p>Repair Eagles and Saturn.</p>
+
+<h3 id="section-5"><code>1961</code></h3>
+
+<p>Launch Saturn with Atlas and Eagle, Major Failure, purchased, bummer
+that destroyed the Atlas and the Eagle as well.</p>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+</ul>
+
+<p>Launch Saturn with Atlas and Eagle to Earth Orbit.</p>
+
+<p>Score: 3.</p>
+
+<ul>
+  <li>Sounding Rocket: 1</li>
+  <li>Artificial Satellite: 2</li>
+</ul>
+
+<p>Test Life Support, Major Failure and purchase.</p>
+
+<h3 id="section-6"><code>1962</code></h3>
+
+<p>Purchase</p>
+
+<ul>
+  <li>Rendezvous Advancement</li>
+  <li>Saturn</li>
+</ul>
+
+<p>Rendezvous (Success) separate Eagle from Atlas and bring Eagle back to Earth.</p>
+
+<p>Fix Eagle Capsule.</p>
+
+<h3 id="section-7"><code>1963</code></h3>
+
+<p>Saturn takes Atlas and Eagle to Earth Orbit</p>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Soyuz</li>
+  <li>Eagle</li>
+</ul>
+
+<p>Launch Soyuz and Eagle to Earth Orbit, Major Failure, purchased.</p>
+
+<p>Life Support test: Major Failure, purchased.</p>
+
+<h3 id="section-8"><code>1964</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+  <li>Atlas x 2</li>
+</ul>
+
+<h3 id="section-9"><code>1965</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+  <li>Atlas x 2</li>
+</ul>
+
+<h3 id="section-10"><code>1966</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+  <li>Astronaut x 2: Armstrong &amp; Aldrin</li>
+</ul>
+
+<h3 id="section-11"><code>1967</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Soyuz</li>
+  <li>Eagle</li>
+  <li>Supplies x 3</li>
+</ul>
+
+<p>Launch Soyuz with Eagle, Success, no Purchase</p>
+
+<p>Rendezvous, Minor Failure, purchase.</p>
+
+<p>Life Support test, Success. Life Support is now fully tested.</p>
+
+<p>So many failures this game, way more than successes</p>
+
+<p>At this point I need to figure out how much more stuff I need to get
+into Earth Orbit and get it up there. I'm running out of time.</p>
+
+<h3 id="section-12"><code>1968</code></h3>
+
+<p>Boost Saturn into Earth Orbit.</p>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+  <li>Soyuz</li>
+  <li>Supplies x 2</li>
+</ul>
+
+<h3 id="section-13"><code>1969</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+  <li>Soyuz</li>
+</ul>
+
+<p>Boost both Soyuz and 2 supplies into Earth Orbit.</p>
+
+<h3 id="section-14"><code>1970</code></h3>
+
+<p>Purchase:</p>
+
+<ul>
+  <li>Saturn</li>
+</ul>
+
+<p>Test Rendezvous between Saturn and two Soyuz, Success and purchase.</p>
+
+<p>Bring damaged Atlas back to Earth.</p>
+
+<h3 id="section-15"><code>1971</code></h3>
+
+<p>Fix Atlas.</p>
+
+<p>Purchase Saturn.</p>
+
+<p>Now I need to get some rockets into orbit. I'm running out of time. My
+planning didn't work correctly, and I failed to plan how to get stuff
+into orbit in time. I'm also out of head space for planning, it's Monday
+afternoon, and have to go back to work tomorrow, it's time to wrap this
+thing up. I'm going to shoot for Venus Station and not worry about
+bringing them back. Which is disappointing.</p>
+
+<p>Two Saturns boost 3 Atlas, 7 Supplies, a Capsule, Aldrin and Armstrong
+into Earth Orbit. Roll 3 &amp; 6 to pass Suborbital hazard.</p>
+
+<p>Rendezvous with Saturn/Soyuz rocket: Major Failure. Having Armstrong
+as Pilot reduces that to Minor Failure, but still, what a hassle. Buzz
+can fix it next turn, but it prevents starting the mission to Venus
+this turn. Bummer.</p>
+
+<p>Purchase: Atlas.</p>
+
+<h3 id="section-16"><code>1972</code></h3>
+
+<p>Achieve Space Station, score 6 points.</p>
+
+<p>Score: 9.</p>
+
+<p>Fix Atlas in Orbit.</p>
+
+<p>Purchase Soyuz, test fire, Success, purchased.</p>
+
+<p>Fire Saturn to Inner Planets.</p>
+
+<p>Roll for radiation hazard, 5 &amp; 3, both are fine.</p>
+
+<p>Purchase Atlas.</p>
+
+<p>Take Time token off.</p>
+
+<h3 id="section-17"><code>1973</code></h3>
+
+<p>Purchase Soyuz and test fire, Success. Amazing.</p>
+
+<p>Fire the two Soyuz to get to Venus Orbit next turn.</p>
+
+<p>Purchase Juno Advancement and 2 Juno. Test fire 1, Success,
+second, Success.</p>
+
+<p>Roll for radiation hazard, 8 &amp; 8.</p>
+
+<p>Time Token off.</p>
+
+<h3 id="section-18"><code>1974</code></h3>
+
+<p>Venus landing, taking down 2 Supplies, both Astronauts, the
+capsule and two Atlas. I won't need the Atlas as I'm calling the game
+here regardless. Draw Landing Outcome: Major Failure. Dang. Armstrong
+gets me a Minor Failure, since I dropped two supplies, I should be able
+to fix the craft with one, and survive the year with the other.</p>
+
+<p>This scores me Venus Lander for 11 points.</p>
+
+<p>Score: 20.</p>
+
+<h3 id="section-19"><code>1975</code></h3>
+
+<p>Having astronauts on Venus at beginning of year scores another 27
+points.</p>
+
+<p>Score: 47.</p>
+
+<p>I can do a Man in Space mission with pilot Alan Shepard, Minor Failure
+on Landing (not that I needed to do that, could have brought him back in
+on parachute). Unremitting. But this bumps my score up 2 points.</p>
+
+<p>Score: 49.</p>
+
+<h3 id="section-20"><code>1976</code></h3>
+
+<p>Game over.</p>
+
+<p>Final score is 49/94, which is a win.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>What I did not do well is determine how much gear I needed to get into
+Earth Orbit. Once I had the mission planned from Earth Orbit out, I just
+started winging it.</p>
+
+<p>What I didn't do is plan how to get all that gear into Earth Orbit. That
+was a serious problem. I managed to "win" regardless, but it still
+annoys me that I didn't do that planning as well. Getting rockets into
+Earth Orbit is a pretty big deal. Next game I'm going to focus on that.</p>
+
+<p>It would have been nice to have gotten the Mercury Lander as well, but
+given the outcome draws, I suspect the attempt would have failed.</p>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2018/05/27/fire-in-the-lake-13-and-more-at-ego.html' rel='prev'>Fire in the Lake (13) and more at EGO</a>
+</div>
+<div class='nextnav'>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/leaving-earth.html'>leaving-earth</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Mon. May 28</span>
+<a href='/2018/05/28/leaving-earth-9-hard-game.html'>Leaving Earth 9, hard game</a>
+</li>
+<li>
+<span>Sun. May 27</span>
+<a href='/2018/05/27/fire-in-the-lake-13-and-more-at-ego.html'>Fire in the Lake (13) and more at EGO</a>
+</li>
+<li>
+<span>Sat. May 19</span>
+<a href='/2018/05/19/high-frontier-3.html'>High Frontier 3</a>
+</li>
+<li>
+<span>Sun. May 13</span>
+<a href='/2018/05/13/the-arduous-beginning-3.html'>The Arduous Beginning 3</a>
+</li>
+<li>
+<span>Sun. Apr 29</span>
+<a href='/2018/04/29/high-frontier-2-basic-game.html'>High Frontier 2, basic game</a>
+</li>
+<li>
+<span>Fri. Apr 27</span>
+<a href='/2018/04/27/leaving-earth-8-normal-game.html'>Leaving Earth 8, normal game</a>
+</li>
+<li>
+<span>Sun. Apr 22</span>
+<a href='/2018/04/22/fire-in-the-lake-12.html'>Fire in the Lake 12 (and more)</a>
+</li>
+<li>
+<span>Sat. Apr 21</span>
+<a href='/2018/04/21/leaving-earth-7-outer-planets-2.html'>Leaving Earth 7, Outer Planets 2</a>
+</li>
+<li>
+<span>Sun. Apr  8</span>
+<a href='/2018/04/08/leaving-earth-6-outer-planets-1.html'>Leaving Earth 6, Outer Planets 1</a>
+</li>
+<li>
+<span>Sun. Mar 25</span>
+<a href='/2018/03/25/lotr-88-into-the-pit-17.html'>LotR 88 - Into the Pit (17)</a>
+</li>
+<li>
+<span>Sun. Mar 25</span>
+<a href='/2018/03/25/lotr-87-into-the-pit-16.html'>LotR 87 - Into the Pit (16)</a>
+</li>
+<li>
+<span>Sat. Mar 24</span>
+<a href='/2018/03/24/lotr-86-into-the-pit-15.html'>LotR 86 - Into the Pit (15)</a>
+</li>
+<li>
+<span>Sun. Mar 11</span>
+<a href='/2018/03/11/search-and-destroy-3-at-ego.html'>Search and Destroy (3) at EGO</a>
+</li>
+<li>
+<span>Sat. Mar 10</span>
+<a href='/2018/03/10/lotr-85-into-the-pit-14.html'>LotR 85 - Into the Pit (14)</a>
+</li>
+<li>
+<span>Sat. Mar  3</span>
+<a href='/2018/03/03/lotr-84-into-the-pit-13.html'>LotR 84 - Into the Pit (13)</a>
+</li>
+</ol>
+</aside>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class='container'>
+<div class='row'>
+<div class='span12'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li>
+<a href='/mastery/index.html'>Mastery</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class='row'>
+<div class='span8'>
+<div id='main' role='main'>
+<h2 id="turn-sequence-template">Turn Sequence Template</h2>
+
+<h3 id="command-phase">Command Phase</h3>
+
+<p class="turn-sequence">(4.11) The American player gets 20 Command Points to manuever,
+fight and supply his forces.</p>
+
+<p>US gets 20 points.</p>
+
+<h3 id="intelligence-phase">Intelligence Phase</h3>
+
+<p class="turn-sequence">The American player may expend Command Points to reveal face-down
+Landing Zone counters, and to attempt to Identify or Contact NVA
+units. There is no Intelligence Phase on Turn 15.</p>
+
+<h4 id="locate-lzs">Locate LZs</h4>
+
+<p class="turn-sequence">(5.0) Spend one command point to flip one LZ marker face up.</p>
+
+<h4 id="locate-nva">Locate NVA</h4>
+
+<p class="turn-sequence">(5.1) US may attempt to Identify or Contact NVA units. Either
+action succeeds on a d6 roll of 1, with DRMs of +1 per Command
+Point to a maximum of 3. To Identify, the successful roll moves 1 or
+more NVA units from Unknown Box to an appropriate Zone Display.
+Contact works in a similar manner.</p>
+
+<h3 id="st-american-assault-phase">1st American Assault Phase</h3>
+
+<h4 id="supply-segment">Supply Segment</h4>
+
+<p class="turn-sequence">(4.13A) American player may purchase supply counters to place at An Khe,
+1 Command Point per supply counter.</p>
+
+<h4 id="first-airstrike-segment">First Airstrike Segment</h4>
+
+<p class="turn-sequence">(7.0) Airstrikes may be against Locations containing
+(contacted) NVA units, or against a Zone Box on the Zone
+Display. The only column shift is for combat superiority.
+Sum the Strike factors of committed aircraft for determining
+combat strength, attack each NVA unit individually.</p>
+
+<h4 id="first-transport-segment">First Transport Segment</h4>
+
+<p class="turn-sequence">Helicopters cost 1 CP to move a unit or a Supply token.
+Pathfinder unit accompanying others turns any Location into
+an LZ.</p>
+
+<h4 id="ground-movement-segment">Ground Movement Segment</h4>
+
+<p class="turn-sequence">Ground Movement (10.1) Infantry units may either move from one location
+to a connected location, OR a HOLD market may be placed on the unit.
+Move up to 2 locations along connected major or minor road. Check for
+NVA Ambush condition (13.6).</p>
+
+<h4 id="support-segment">Support Segment</h4>
+
+<p class="turn-sequence">From table on page Rule 8 (p. 25), allocate artillery (1-2 CP),
+tactical air strikes (2 CP), and combat helicopter strikes (1 CP).</p>
+
+<h4 id="open-combat-segment">Open Combat Segment</h4>
+
+<p class="turn-sequence">Combat (11.0): either open combat, or ambush, only occurs in between
+American and NVA forces in the same location. American units are never
+required to attack. NVA <em>must</em> attack if American total combat strength is
+equal to or less than NVA total combat strength, otherwise <em>cannot</em> attack.</p>
+
+<h4 id="final-transport-segment">Final Transport Segment.</h4>
+
+<p class="turn-sequence">Same procedure as first transport segment.</p>
+
+<p><strong>End of 1st American Assault Phase</strong></p>
+
+<h3 id="st-nva-assault-phase">1st NVA Assault Phase</h3>
+
+<h4 id="first-target-determination-segment">First Target Determination Segment</h4>
+
+<p class="turn-sequence">Check for priority targets in Zones occupied by Identified NVA units
+(NVA units in the Zone Display), then check how many Identified units
+attack the priority target, then check to see if this is actually an
+ambush. Note that <em>Identified</em> NVA units in the <em>Zone Display</em> are the
+subject of this phase.</p>
+
+<h4 id="nva-offboard-movement-segment">NVA Offboard Movement Segment</h4>
+
+<p class="turn-sequence">Roll 2d6 and cross-reference NVA Offboard Movement Table.</p>
+
+<h4 id="second-target-determination-segment">Second Target Determination Segment</h4>
+
+<p class="turn-sequence">Skip if no Offboard Movement OR Turn 15, otherwise
+repeat First Target Determination Segment.</p>
+
+<h4 id="nva-ground-movement-segment">NVA Ground Movement Segment</h4>
+
+<p class="turn-sequence">Ground movement is conducted by <em>Contacted</em> NVA units, that is,
+NVA units which are at a Location on the map. Break ties by moving
+towards Pleiku if possible.</p>
+
+<h4 id="nva-ambush-segment">NVA Ambush Segment</h4>
+
+<p class="turn-sequence">Ambush (13.6) may occur if US ground forces first enter an NVA-occupied
+location, or NVA forces first enter a US-occupied, non-SF camp location.
+See Section 11.32 for Ambush results resolution.</p>
+
+<h4 id="nva-open-combat-segment">NVA Open Combat Segment</h4>
+
+<p class="turn-sequence">(11.1) NVA must initiate combat if NVA strength is equal to or
+greater than US combat strength, otherwise NVA Open Combat is prohibited
+(NVA ambush is still allowed).</p>
+
+<p class="turn-sequence">Start at Column 1 on CRT:
+1. Determine Combat superiority
+2. Determine Combat efficiency
+3. Ambush?
+4. Supporting locations?
+5. HOLD marker
+6. Artillery
+7. NVA night attack
+8. Out of supply
+9. Observation helicopters</p>
+
+<h4 id="nva-evasion-segment">NVA Evasion Segment</h4>
+
+<p class="turn-sequence">(13.7) NVA units attempt to evade if they are Broken or outnumbered.
+Broken units evade on a roll of 1-5. Subtract 1 for each adjacent
+location with only US forces. (13.73) Successful evasion moves the unit to the
+corresponding Zone Display box. Broken units move into Cambodia one box
+per successive phase.</p>
+
+<h4 id="american-maintenance-segment">American Maintenance Segment</h4>
+
+<p class="turn-sequence">Fatigued helicopters and Fired artillery are flipped to their combat
+ready side.</p>
+
+<p><strong>End of 1st NVA Assault Phase.</strong></p>
+
+<h3 id="nd-american-assault-phase">2nd American Assault Phase</h3>
+
+<h4 id="supply-segment-1">Supply Segment</h4>
+
+<p class="turn-sequence">American player may purchase supply counters for An Khe.</p>
+
+<h4 id="airstrike-segment">Airstrike Segment</h4>
+
+<p class="turn-sequence">(7.0) Airstrikes may be against Locations containing
+(contacted) NVA units, or against a Zone Box on the Zone
+Display. The only column shift is for combat superiority.
+Use the strike factor for determining combat strength.</p>
+
+<h4 id="first-transport-segment-1">First Transport Segment</h4>
+
+<p class="turn-sequence">Helicopters cost 1 CP to move a unit or a Supply token.</p>
+
+<h4 id="ground-movement-segment-1">Ground Movement Segment</h4>
+
+<p class="turn-sequence">Ground Movement (10.1) Infantry units may either move from one location
+to a connected location, OR a HOLD market may be placed on the unit.
+Move up to 2 locations along connected major or minor road.</p>
+
+<h4 id="support-segment-1">Support Segment</h4>
+
+<p class="turn-sequence">From table on page Rule 8 (p. 25), allocate artillery (1-2 CP),
+tactical air strikes (2 CP), and combat helicopter strikes (1 CP).</p>
+
+<h4 id="open-combat-segment-1">Open Combat Segment</h4>
+
+<p class="turn-sequence">Combat (11.0): either open combat, or ambush, only occurs in between
+American and NVA forces in the same location. American units are never
+required to attack. NVA <em>must</em> attack if American total combat strength is
+equal to or less than NVA total combat strength, otherwise <em>cannot</em> attack.</p>
+
+<h4 id="final-transport-segment-1">Final Transport Segment.</h4>
+
+<p class="turn-sequence">Same procedure as first transport segment.</p>
+
+<p><strong>End of 2nd American Assault Phase</strong></p>
+
+<h3 id="nd-nva-assault-phase">2nd NVA Assault Phase</h3>
+
+<h4 id="first-target-determination-segment-1">First Target Determination Segment</h4>
+
+<p class="turn-sequence">Check for priority targets in Zones occupied by Identified NVA units
+(NVA units in the Zone Display),
+then check how many Identified units atack the priority target, then
+check to see if this is actually an ambush. Note that <em>Identified</em> NVA
+units in the <em>Zone Display</em> are the subject of this phase.</p>
+
+<p class="turn-sequence">Priority targets, in decreasing order: Pleiku, any SF camp, any road
+location with US ground forces, any empty road location, any non-road
+location with US ground forces.</p>
+
+<h4 id="nva-offboard-movement-segment-1">NVA Offboard Movement Segment</h4>
+
+<p class="turn-sequence">Roll 2d6 and cross-reference NVA Offboard Movement Table.</p>
+
+<h4 id="second-target-determination-segment-1">Second Target Determination Segment</h4>
+
+<p class="turn-sequence">Skip if no Offboard Movement OR Turn 15, otherwise
+repeat First Target Determination Segment.</p>
+
+<h4 id="nva-ground-movement-segment-1">NVA Ground Movement Segment</h4>
+
+<p class="turn-sequence">Ground movement is conducted by <em>Contacted</em> NVA units, that is,
+NVA units which are at a Location on the map. Break ties by moving
+towards Pleiku if possible.</p>
+
+<h4 id="nva-ambush-segment-1">NVA Ambush Segment</h4>
+
+<p class="turn-sequence">Ambush (13.6) may occur if US ground forces first enter an NVA-occupied
+location, or NVA forces first enter a US-occupied, non-SF camp location.
+See Section 11.32 for Ambush results resolution.</p>
+
+<h4 id="nva-open-combat-segment-1">NVA Open Combat Segment</h4>
+
+<p class="turn-sequence">Start at Column 1 on CRT:
+1. Determine Combat superiority
+2. Determine Combat efficiency
+3. Ambush?
+4. Supporting locations?
+5. HOLD marker
+6. Artillery
+7. NVA night attack
+8. Out of supply
+9. Observation helicopters</p>
+
+<h4 id="nva-evasion-segment-1">NVA Evasion Segment</h4>
+
+<p class="turn-sequence">NVA units attempt to evade if they are Broken or outnumbered.</p>
+
+<h4 id="american-maintenance-segment-1">American Maintenance Segment</h4>
+
+<p class="turn-sequence">Fatigued helicopters and Fired artillery are flipped to their combat
+ready side.</p>
+
+<p><strong>End of 2nd NVA Assault Phase.</strong></p>
+
+<h3 id="supply-phase">Supply Phase</h3>
+
+<p class="turn-sequence">(4.5) All American supplied units on the map expend 1 step of supply.
+(6.3) Supply Consumption: For each supplied stack during this phase,
+reduce accompanying supply by one step.</p>
+
+<h3 id="fatigue-phase">Fatigue Phase</h3>
+
+<p class="turn-sequence">(4.4) American ground units in Pleiku, Plei Mei, or Duc Co
+camps, and the An Khe Box may remove 2 steps of Fatigue. See
+also Section 12.4.</p>
+
+<h3 id="victory-point-phase">Victory Point Phase</h3>
+
+<p class="turn-sequence">Compute the victory points every turn.</p>
+
+<h3 id="end-of-turn">End of Turn</h3>
+
+
+</div>
+</div>
+<div class='span4'>
+<div id='sidebar' role='sidebar'>
+<div class='sidebar'>
+<h3>Global sidebar 1</h3>
+<h3>Global sidebar 2</h3>
+<h3>The odd man out</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='span12'>
+<footer>
+Portal footer
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

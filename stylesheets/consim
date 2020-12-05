@@ -78,20 +78,25 @@ ul.taglist {
 .blog h1,
 .blog .h1 {
   font-size: 36px; }
+
 .blog h2,
 .blog .h2 {
   font-size: 24px; }
+
 .blog h3,
 .blog .h3 {
   font-size: 18px; }
+
 .blog h4,
 .blog .h4 {
   font-size: 16px;
   font-style: italic;
   text-decoration: underline; }
+
 .blog h5,
 .blog .h5 {
   font-size: 12px; }
+
 .blog h6,
 .blog .h6 {
   font-size: 12px;

@@ -820,47 +820,46 @@ PAVN inflicting damage on the defender's aircraft.</p>
 <p>First, we note that rolling 1 or 2 results in a "hit," but since PAVN
 has a mortar unit adjacent, PAVN gets a +1 DRM. Hence,</p>
 
-<script type="math/tex; mode=display">P(H) = 0.3.</script>
+\[P(H) = 0.3.\]
 
 <p>Given we have a hit,</p>
 
-<script type="math/tex; mode=display">P(D) = 0.4.</script>
+\[P(D) = 0.4.\]
 
 <p>Any damage at all results in a single column shift left. For Shift Left
-<script type="math/tex">S_L</script>, we have</p>
+\(S_L\), we have</p>
 
-<script type="math/tex; mode=display">P(S_L) = P(H)P(D) = 0.12.</script>
+\[P(S_L) = P(H)P(D) = 0.12.\]
 
 <h3 id="probability-of-two-pavn-step-losses">Probability of two PAVN step losses</h3>
 
 <p>Now let's check the probabilities on the Bombardment/Support Table. For
-the 10-14 column <script type="math/tex">(B_{10})</script>, rolling 1 or 2 results in <code>4F</code>. On the 6-9 column
-<script type="math/tex">(B_6)</script>,
-rolling 1 results in <code>4F</code>. For some two step loss <script type="math/tex">L_2</script>,</p>
+the 10-14 column \((B_{10})\), rolling 1 or 2 results in <code>4F</code>. On the 6-9 column
+\((B_6)\),
+rolling 1 results in <code>4F</code>. For some two step loss \(L_2\),</p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{align}
-P(L_2 |B_6) & = (0.12)(0.1) = 0.012, \\
-P(L_2 |B_{10}) & = (0.88)(0.2) = 0.176, \\
-P(\neg{L_2} |B_{10}) & = (0.88)(0.8) = 0.704, \\
-P(\neg{L_2}|B_6) & = (0.12)(0.9) = 0.108.
-\end{align} %]]></script>
+\[\begin{align}
+P(L_2 |B_6) &amp; = (0.12)(0.1) = 0.012, \\
+P(L_2 |B_{10}) &amp; = (0.88)(0.2) = 0.176, \\
+P(\neg{L_2} |B_{10}) &amp; = (0.88)(0.8) = 0.704, \\
+P(\neg{L_2}|B_6) &amp; = (0.12)(0.9) = 0.108.
+\end{align}\]
 
 <p>Now we have</p>
 
-<script type="math/tex; mode=display">P(L_2) = P(L_2 |B_6) + P(L_2|B_{10}) = 0.012 + 0.176 = 0.188.</script>
+\[P(L_2) = P(L_2 |B_6) + P(L_2|B_{10}) = 0.012 + 0.176 = 0.188.\]
 
-<p>This result makes sense. If we were rolling only on the <script type="math/tex">B_{10}</script>
+<p>This result makes sense. If we were rolling only on the \(B_{10}\)
 column it's easy to see there is a 20% chance of getting 2 step losses.
 But the small probability of being hit with ADF weights the result into
-the <script type="math/tex">B_6</script> column, just a small amount. So the odds are reduced just
+the \(B_6\) column, just a small amount. So the odds are reduced just
 over 1%, from 20% to 18.8%</p>
 
 <h3 id="probability-of-single-pavn-step-loss">Probability of single PAVN step loss</h3>
 
 <p>It's easy to compute the probability of losing exactly 1 step:</p>
 
-<script type="math/tex; mode=display">P(L_1) = P(L_1 |B_6) + P(L_1|B_{10}) = (0.12)(0.5) + (0.88)(0.5) = 0.06 + 0.44 = 0.50.</script>
+\[P(L_1) = P(L_1 |B_6) + P(L_1|B_{10}) = (0.12)(0.5) + (0.88)(0.5) = 0.06 + 0.44 = 0.50.\]
 
 <p>Now that's an interesting result, and one which can be seen by
 inspection!</p>
@@ -868,12 +867,12 @@ inspection!</p>
 <h3 id="pavn-loses-at-least-1-step">PAVN loses at least 1 step</h3>
 
 <p>To find the probability of losing <em>at least one step</em>, first
-compute the probability of losing no steps <script type="math/tex">P(L_0)</script>:</p>
+compute the probability of losing no steps \(P(L_0)\):</p>
 
-<script type="math/tex; mode=display">P(L_0) = (0.12)(0.4) + (0.88)(0.3) = 0.048 + 0.264 = 0.312</script>
+\[P(L_0) = (0.12)(0.4) + (0.88)(0.3) = 0.048 + 0.264 = 0.312\]
 
 <p>Now,
-<script type="math/tex">P(L_1) \cup P(L_2) = 1 - P(L_0) = 1 - 0.312 = 0.688.</script></p>
+\(P(L_1) \cup P(L_2) = 1 - P(L_0) = 1 - 0.312 = 0.688.\)</p>
 
 <p>In other words, there is about a 70% chance that Air Bombardment will
 reduce PAVN by at least 1 step.</p>
@@ -1058,64 +1057,64 @@ Recent Articles
 </h3>
 <ol>
 <li>
-<span>Tue. Aug 25</span>
-<a href='/2020/08/25/lotr-132-we-must-away-ere-break-of-day-7.html'>LotR 132 - We Must Away, Ere Break of Day (7)</a>
+<span>Sat. Dec  5</span>
+<a href='/2020/12/05/first-team-vietnam.html'>First Team: Vietnam (1)</a>
 </li>
 <li>
-<span>Mon. Aug 24</span>
-<a href='/2020/08/24/absolutely-aces-88.html'>Absolutely Aces (88)</a>
+<span>Wed. Nov 25</span>
+<a href='/2020/11/25/race-for-the-galaxy-21.html'>Race for the Galaxy (21)</a>
 </li>
 <li>
-<span>Sat. Aug 22</span>
-<a href='/2020/08/22/absolutely-aces-87.html'>Absolutely Aces (87)</a>
+<span>Sun. Nov 15</span>
+<a href='/2020/11/15/lotr-132-passage-through-mirkwood-31.html'>LotR 133 - Passage Through Mirkwood (31) and Jump Drive (8)</a>
 </li>
 <li>
-<span>Sun. Jul 19</span>
-<a href='/2020/07/19/absolutely-aces-86.html'>Absolutely Aces (86)</a>
+<span>Sun. Nov  8</span>
+<a href='/2020/11/08/absolutely-aces-101.html'>Absolutely Aces (101)</a>
 </li>
 <li>
-<span>Mon. Jul 13</span>
-<a href='/2020/07/13/absolutely-aces-85.html'>Absolutely Aces (85)</a>
+<span>Sun. Sep  6</span>
+<a href='/2020/09/06/ottoman-sunset-4.html'>Ottoman Sunset (4)</a>
 </li>
 <li>
-<span>Sun. Jul 12</span>
-<a href='/2020/07/12/absolutely-aces-84.html'>Absolutely Aces (84)</a>
+<span>Fri. Sep  4</span>
+<a href='/2020/09/04/absolutely-aces-100.html'>Absolutely Aces (100)</a>
 </li>
 <li>
-<span>Sat. Jul 11</span>
-<a href='/2020/07/11/absolutely-aces-83.html'>Absolutely Aces (83)</a>
+<span>Wed. Sep  2</span>
+<a href='/2020/09/02/absolutely-aces-99.html'>Absolutely Aces (99)</a>
 </li>
 <li>
-<span>Fri. Jul 10</span>
-<a href='/2020/07/10/absolutely-aces-82.html'>Absolutely Aces (82)</a>
+<span>Tue. Sep  1</span>
+<a href='/2020/09/01/absolutely-aces-98.html'>Absolutely Aces (98)</a>
 </li>
 <li>
-<span>Thu. Jul  9</span>
-<a href='/2020/07/09/absolutely-aces-81.html'>Absolutely Aces (81)</a>
+<span>Tue. Sep  1</span>
+<a href='/2020/09/01/absolutely-aces-97.html'>Absolutely Aces (97)</a>
 </li>
 <li>
-<span>Wed. Jul  8</span>
-<a href='/2020/07/08/absolutely-aces-80.html'>Absolutely Aces (80)</a>
+<span>Tue. Sep  1</span>
+<a href='/2020/09/01/absolutely-aces-96.html'>Absolutely Aces (96)</a>
 </li>
 <li>
-<span>Tue. Jul  7</span>
-<a href='/2020/07/07/absolutely-aces-79.html'>Absolutely Aces (79)</a>
+<span>Tue. Sep  1</span>
+<a href='/2020/09/01/absolutely-aces-95.html'>Absolutely Aces (95)</a>
 </li>
 <li>
-<span>Mon. Jul  6</span>
-<a href='/2020/07/06/absolutely-aces-78.html'>Absolutely Aces (78)</a>
+<span>Tue. Sep  1</span>
+<a href='/2020/09/01/absolutely-aces-94.html'>Absolutely Aces (94)</a>
 </li>
 <li>
-<span>Sun. Jul  5</span>
-<a href='/2020/07/05/absolutely-aces-77.html'>Absolutely Aces (77)</a>
+<span>Mon. Aug 31</span>
+<a href='/2020/08/31/absolutely-aces-93.html'>Absolutely Aces (93)</a>
 </li>
 <li>
-<span>Sat. Jul  4</span>
-<a href='/2020/07/04/absolutely-aces-76.html'>Absolutely Aces (76)</a>
+<span>Sun. Aug 30</span>
+<a href='/2020/08/30/absolutely-aces-92.html'>Absolutely Aces (92)</a>
 </li>
 <li>
-<span>Fri. Jul  3</span>
-<a href='/2020/07/03/absolutely-aces-75.html'>Absolutely Aces (75)</a>
+<span>Fri. Aug 28</span>
+<a href='/2020/08/28/absolutely-aces-91.html'>Absolutely Aces (91)</a>
 </li>
 </ol>
 </aside>

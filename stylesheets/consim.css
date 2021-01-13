@@ -1,5 +1,6 @@
 /* site global styling */
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -16,6 +17,17 @@ html, body {
 
 #push {
   height: 60px;
+}
+
+hr.fancy-rule {
+  border: none;
+  width: 75%;
+  height: 5px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.05), rgba(136, 177, 22, 0.35), rgba(0, 0, 0, 0.05));
+  background-image: -moz-linear-gradient(left, transparent, rgba(121, 153, 34, 0.15), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(121, 153, 34, 0.15), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(121, 153, 34, 0.15), transparent);
+  margin: 25px;
 }
 
 footer {
@@ -39,7 +51,8 @@ table.fire-record {
   border-bottom-width: 2px;
   margin-bottom: 1.5em;
 }
-table.fire-record td, table.fire-record th {
+table.fire-record td,
+table.fire-record th {
   padding: 2px 5px 2px 5px;
 }
 table.fire-record th {

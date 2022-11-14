@@ -1,0 +1,683 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://polyfill.io/v3/polyfill.min.js?features=es6'></script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+<li>
+<a href='/player-aids/index.html'>Player Aids</a>
+</li>
+<li>
+<a href='/mastery/index.html'>Mastery</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+Games
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/panzerblitz'>PanzerBlitz</a>
+</li>
+<li>
+<a href='/ogre'>Ogre Designer Edition</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Silver Bayonet 22 - more theorycrafting
+</h1>
+<time class='updated' pubdate=''>Nov  6 2022</time>
+<p>Several years ago I did a deep dive into how the very
+short <a href="/2017/01/15/silver-bayonet-theory-crafting-tea-time.html">Tea Plantation scenario
+(6a)</a>
+worked out in practice, specifically, how well balanced is it?
+Preliminary results from six plays indicated the scenario favors
+FWA 2:1, that is 4 of 6 plays to the FWA, PAVN winning the other
+two plays. At that time, I made an attempt, on paper, to work
+out the probabilities of various courses of action and results
+thereof. That effort was only partially successful.</p>
+
+<p>The following plays pick up where those left: quantifying
+the probabilities.</p>
+
+<h2 id="game-1-22">Game 1 (22)</h2>
+
+<h3 id="turn-1">Turn 1</h3>
+
+<p>There is only 1 turn in Scenario 6a.</p>
+
+<h4 id="offensive-bombardment-phase-101">Offensive Bombardment Phase [10.1]</h4>
+
+<p class="turn-sequence">1) Declare Bombardment using air points or artillery.</p>
+
+<p>Mortar fires at 2 strength, roll 8 for <code>-</code>.</p>
+
+<p class="turn-sequence">2) Declare and resolve ADF [14.0].</p>
+
+<p>N/A.</p>
+
+<p class="turn-sequence">3) Resolve Bombardment.</p>
+
+<p>VC Mortar, roll 10, no effect.</p>
+
+<h4 id="combat-coordination-phase">Combat Coordination Phase</h4>
+
+<p class="turn-sequence">1) Attack Coordination [7.0] which may negate declared Maneuver
+Combat declarations [8.0]</p>
+
+<p>For this we VC ER is 3 when out of range, roll 9, uncoordinated,</p>
+
+<h4 id="assault-combat-phase-90">Assault Combat Phase [9.0]</h4>
+
+<p class="turn-sequence">1) Defender allocates and resolves air and/or artillery for Defensive
+Bombardment [10.2]</p>
+
+<ul>
+  <li>All 10 Air points for Defensive Bombardment.</li>
+  <li>Air Defense is viable as VC have 16 steps adjacent the the Tea Plantation
+which is the Mission Hex in this case. Roll 10, no effect.</li>
+  <li>Air Bombard, roll 3 which is <code>3F</code>, one step loss with the Fatigue
+marker ignored in Defensive Bombardment (10.2.3).</li>
+</ul>
+
+<p class="turn-sequence">2) Defender rolls first on Assault Combat Table, applies DRMs and
+applies results immediately.</p>
+
+<p>US defends with 3, rolls 10 - 1 (UC) = 9 for no effect.</p>
+
+<p class="turn-sequence">3) Attacker rolls on Assault Combat Table, applies DRMs and results.</p>
+
+<p>VC bringing attack 12, roll 5 + 1 (UC) - 1 (3 attacking hexes = 5 for <code>1</code>,
+step loss from B/6/14.</p>
+
+<p class="turn-sequence">4) If units on both sides remain, both sides roll against highest ER in
+their stack for Efficiency Check. A roll less than or equal to the ER
+passes the Efficiency Check.</p>
+
+<ul>
+  <li>VC ER check roll 4, fail.</li>
+  <li>US ER check roll 8, fail.</li>
+</ul>
+
+<p class="turn-sequence">5) Units passing their Efficiency Check may roll again on the Assault
+Combat Table. This roll is simultaneous, results are not applied until
+both sides (if possible) have rolled.</p>
+
+<p class="turn-sequence">6) If Defender is eliminated, Assaulting units must advance.</p>
+
+<p>N/A.</p>
+
+<h2 id="games-23-26">Games 23-26</h2>
+
+<p>Here's a set of four games with just the essential mechanics extracted.
+The games were <a href="https://docs.google.com/spreadsheets/d/1UiNLou5WOMpFKa6Gg_Gyf6Ppp7L_JhK6ImvLFhitI58/edit#gid=0">recorded on a dedicated
+spreadsheet</a>,
+and the results copied here.</p>
+
+<h3 id="game-23">Game 23</h3>
+
+<p>FWA win.</p>
+
+<table class="scenario-table center">
+  <thead>
+    <tr>
+      <th style="text-align: center">Phase</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: center">VC total hits</th>
+      <th style="text-align: center">FWA total hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Offensive Bomb</td>
+      <td style="text-align: left">Roll 4, no effect.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Attack Coordination</td>
+      <td style="text-align: left">Roll 3, coordinated.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Bomb</td>
+      <td style="text-align: left">10 Air points, roll ADF 1, hits, roll 6 no change. Roll 4 for 3 which is 1 hit on VC</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 9 on Assault 2-3 for no effect.</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">Roll 10 - 1 on Assault 10-12 for no effect</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ER Check</td>
+      <td style="text-align: left">VC roll 9, US roll 3.</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 2 on Assault 2-3 for 1 VC hit.</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">N/A</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="game-24">Game 24</h3>
+
+<p>FWA win.</p>
+
+<table class="scenario-table center">
+  <thead>
+    <tr>
+      <th style="text-align: center">Phase</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: center">VC total hits</th>
+      <th style="text-align: center">FWA total hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Offensive Bomb</td>
+      <td style="text-align: left">VC roll 3 for no effect.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Attack Coordination</td>
+      <td style="text-align: left">Vc roll 7, uncoordinated</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Bomb</td>
+      <td style="text-align: left">ADF roll 6, no effect. Roll 9 for 1 VC hit.</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 1 for 1 VC hit.</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">Roll 1 + 1  (Uncoordinated) - 1 (3 hexes) for  for 2 hits, B/6/14 eliminated.</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ER Check</td>
+      <td style="text-align: left">VC roll 1, US roll 1.</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 7 - 1 = 6 for no effect.</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">Roll 10 + 1 = 11 for no effect, bummer, VC had a 60% chance of winning this one.</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="game-25">Game 25</h3>
+
+<p>FWA win.</p>
+
+<table class="scenario-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Phase</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: center">VC total hits</th>
+      <th style="text-align: center">FWA total hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Offensive Bomb</td>
+      <td style="text-align: left">Roll 2 for 1F, fatiigue on HQ.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Attack Coordination</td>
+      <td style="text-align: left">Roll 2, coordinated.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Bomb</td>
+      <td style="text-align: left">ADF roll 10 for no effect, roll 8 for 0 hits.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 7 for no effect.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">Roll 7 - 1 (3 hexes) on Assault 13-15 for 1 hit.</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ER Check</td>
+      <td style="text-align: left">VC roll 1, US roll 1</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 1 for 1 hit</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">Roll 8 -1 for 1 hit</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">2</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="game-26">Game 26</h3>
+
+<p>FWA win.</p>
+
+<table class="scenario-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Phase</th>
+      <th style="text-align: left">Description</th>
+      <th style="text-align: center">VC total hits</th>
+      <th style="text-align: center">FWA total hits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Offensive Bomb</td>
+      <td style="text-align: left">Roll 2 for 1F, fatigue on HQ</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Attack Coordination</td>
+      <td style="text-align: left">roll 7 uncoordinated</td>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Bomb</td>
+      <td style="text-align: left">ADF 5 no effect, roll 5 for 1 hit on VC</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Defensive Assault</td>
+      <td style="text-align: left">Roll 9 for no effect</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Offensive Assault</td>
+      <td style="text-align: left">Roll 2 + 1 - 1 on Assault 10-12 for 2 hits</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ER Check</td>
+      <td style="text-align: left">VC roll 8, US roll 9.</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">2</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="aar">AAR</h2>
+
+<p>Combining with the previous study, the win rate for VC is currently 2/11, which seems a little lower
+than it ought to be. My hunch is that it ought to be around 25%, maybe a closer to 30%. For 2 turn
+games, I'm pretty the win rate would be much higher, but I need to play a few to see.</p>
+
+<h3 id="more-probability">More probability</h3>
+
+<p>I worked on getting a complete probabilistic analysis for this scenario, but there is just too much
+complexity to deal with to do it all at once. I'm going to work on back calculating various
+probabilities to make it easier.</p>
+
+<h4 id="probability-of-taking-out-us-on-first-turn">Probability of taking out US on first turn</h4>
+
+<p>There several cases, starting with Offensive Bombardment:</p>
+
+<ol>
+  <li>Offensive bombardment does not destroy one step, \(O_{BF} = 0.90\).</li>
+  <li>Offensive bombardment does destroy one step, \(O_{BS} = 0.10\).</li>
+</ol>
+
+<p>Then we need to figure out which column the VC attack on, either Assault 10-12 \(A_{10}\)
+or Assault 13-15 \(A_{13}\). From the previous article, we can equate the probability that
+the the VC lose no steps during defensive bombardement \(A_{13} = L_0 = 0.312\).</p>
+
+<p>Again, two cases, coordination succeeds \(P(C_S) = 0.30\) or fails \(P(C_F) = 0.70\).</p>
+
+<p>Supposing bombing failed, then we have
+\(P(H_3|C_S) = 0.20\)
+and \(P(H_3|C_F) = 0.1\).</p>
+
+<p>Given a bombing failure \(O_{BF}\) and no VC step loss, we have (and I know the
+syntax here is likely nonsense)</p>
+
+\[P(H_3|O_{BF}) = P(O_{BF} \cap A_{13} \cap P(H_3|C_S)) \cup P(O_{BF} \cap A_{13} \cap P(H_3|C_F)) = (0.9)(0.312)(0.1+0.3) = 0.0842,\]
+
+<p>or around 8.5%.</p>
+
+<p>My game plays aren't seeing that, yet.</p>
+
+<p>With a VC step loss and bombing failure, I do not see a way for the VC to win in one turn, unless they
+make the ER check and can go another round of Assault combat.</p>
+
+<p>Next step is compute \(H_3\) for successful bombardment with no VC step loss.</p>
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2022/10/30/battle-of-trifernum-spqr-1.html' rel='prev'>Battle of Trifernum (SPQR 1)</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2022/11/13/lotr-245-246-to-catch-an-orc-3-4.html' rel='next'>LotR 245, 246 - To Catch an Orc (3,4)</a>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/silver-bayonet.html'>silver-bayonet</a>
+</li>
+<li class='tag'>
+<a href='/tags/vietnam.html'>vietnam</a>
+</li>
+<li class='tag'>
+<a href='/tags/theory-crafting.html'>theory-crafting</a>
+</li>
+<li class='tag'>
+<a href='/tags/tea-plantation.html'>tea-plantation</a>
+</li>
+<li class='tag'>
+<a href='/tags/scenario-6.html'>scenario-6</a>
+</li>
+<li class='tag'>
+<a href='/tags/scenario-6a.html'>scenario-6a</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sun. Nov 13</span>
+<a href='/2022/11/13/lotr-245-246-to-catch-an-orc-3-4.html'>LotR 245, 246 - To Catch an Orc (3,4)</a>
+</li>
+<li>
+<span>Sun. Nov  6</span>
+<a href='/2022/11/06/silver-bayonet-more-theorycrafting.html'>Silver Bayonet 22 - more theorycrafting</a>
+</li>
+<li>
+<span>Sun. Oct 30</span>
+<a href='/2022/10/30/battle-of-trifernum-spqr-1.html'>Battle of Trifernum (SPQR 1)</a>
+</li>
+<li>
+<span>Sun. Oct 23</span>
+<a href='/2022/10/23/lotr-243-244-to-catch-an-orc-1-2.html'>LotR 243, 244 - To Catch an Orc (1,2)</a>
+</li>
+<li>
+<span>Sat. Oct 22</span>
+<a href='/2022/10/22/lotr-242-the-battle-of-lake-town-5.html'>LotR 242 - The Battle of Lake Town (5)</a>
+</li>
+<li>
+<span>Sun. Oct 16</span>
+<a href='/2022/10/16/alexander-4-grandstanding-at-pelium.html'>Alexander 4 - Grandstanding at Pelium</a>
+</li>
+<li>
+<span>Sat. Oct 15</span>
+<a href='/2022/10/15/lotr-239-the-battle-of-lake-town-2.html'>LotR 239-241 - The Battle of Lake Town (2-4)</a>
+</li>
+<li>
+<span>Sat. Oct  8</span>
+<a href='/2022/10/08/lotr-237-shadow-and-flame-7.html'>LotR 237,8 - Shadow and Flame (7,8)</a>
+</li>
+<li>
+<span>Fri. Oct  7</span>
+<a href='/2022/10/07/lotr-236-shadow-and-flame-6.html'>LotR 236 - Shadow and Flame (6)</a>
+</li>
+<li>
+<span>Fri. Sep 30</span>
+<a href='/2022/09/30/lotr-235-branching-paths-1.html'>LotR 235 - Branching Paths (1)</a>
+</li>
+<li>
+<span>Sun. Sep 25</span>
+<a href='/2022/09/25/lotr-234-ungoliant-s-lair-1.html'>LotR 234 - Ungoliant's Lair (1)</a>
+</li>
+<li>
+<span>Thu. Sep 22</span>
+<a href='/2022/09/22/three-games-of-coup.html'>Three games of Coup</a>
+</li>
+<li>
+<span>Sun. Sep 18</span>
+<a href='/2022/09/18/lotr-233-the-fords-of-isen-3.html'>LotR 233 - The Fords of Isen (3)</a>
+</li>
+<li>
+<span>Mon. Sep  5</span>
+<a href='/2022/09/05/terraforming-mars-first-play.html'>Terraforming Mars first play</a>
+</li>
+<li>
+<span>Sun. Sep  4</span>
+<a href='/2022/09/04/lotr-231-2-the-ford-of-isen-1-2.html'>LotR 231,2 - The Ford of Isen (1,2)</a>
+</li>
+</ol>
+</aside>
+
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+<h3>
+Upcoming Fall 2015
+</h3>
+<p>
+Here's a load of upcoming plays for Fall 2015. These are all scheduled for solo
+plays to learn rules and scenarios.
+</p>
+<ul>
+<li>
+Brian Train's <i>Green Beret</i>. This is a two person game, which I'm going to
+solo a few turns on to get the rules figured out. It has hidden information
+which makes it fairly tedious to solo effectively.
+</li>
+<li>
+<i>Downtown</i>, GMT's game on the air war in the Vietnam War. Has a great reputation.
+My plan is to play the first couple of scenarios to learn the rules. I have an
+opponent lined up for future games. Really looking forward to this one.
+</li>
+<li>
+GDW's <i>Suez '73, The Battle of Chinese Farm</i>. Purported to be a classic. It has
+a number of scenarios, the first of which is a 1 turn effort which is what I'll
+play on this round. The campaign goes 10-12 turns.
+Update: <i>Tonkin</i> subsituted for this as I have found an opponent for Tonkin, and
+<i>Suez '73</i> turns out to be much more involved than I imagined.
+</li>
+<li>
+<i>Karelia '44</i>, an SCS game on the last(?)  battle of the Finnish-Russian Continuation
+War. I recall it's supposed to be pretty good. <b>Finns concede, hurt by a massive
+blunder allowing artillery to be overrun on a retreat back to the VTL.</b>
+</li>
+<li>
+<i>Case Blue</i> Kharkov 1942 scenario, 6 turns. This is doable even for me.
+</li>
+<li>
+Operation Dynamo from <i>France '40</i>. I've played Sickle Cut solo and opposed.
+<b>Allied sudden death win, enabled by French forces slipping off the south edge of
+the map.</b>
+</li>
+<li>
+<i>Hapsburg Eclipse</i>, a 4th play. I like these States of Siege games once in a
+while. They usually play pretty quickly as the game system hammers me. I've
+found the best way to win is to sit down for a "short, fast game."
+</li>
+</ul>
+<p>
+This is probably a good two months worth of play, maybe 3. I'll be playing a fair
+number of other games with opponents along the way.
+</p>
+<p>
+Updated August 30, 2015.
+</p>
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href='/pb'>Home</a>
+<a href='http://github.com/mtngrown/consim'>Source</a>
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

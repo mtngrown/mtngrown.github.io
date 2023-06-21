@@ -1,0 +1,608 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://polyfill.io/v3/polyfill.min.js?features=es6'></script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+StarForce 15
+</h1>
+<time class='updated' pubdate=''>Jun 20 2023</time>
+
+<p>From contributor John Garrett, a solitaire scenario:</p>
+
+<blockquote>
+  <p>I feel that the major drawback of the Starforce game is that there is only
+the one solitaire scenario (Rescue Mission 38.0) even though the basic game
+utilises a simple CRT. Therefore, the following scenario came into being.
+(42.0) The colonisation war.</p>
+</blockquote>
+
+<p>Here are the accompanying rules.</p>
+
+<h3 id="the-colonization-war">(42.0) The Colonization War</h3>
+
+<h4 id="introduction">(42.1) Introduction</h4>
+
+<p>In 2227. before the advent of the Solar Hemogeny and the
+L'Chal-dah, Rare starships had explored and colonised many of the surrounding
+star systems. However, there was a great deal of dissent against the
+home-orientated government (C.B.R.) and in 2229, incensed by the high level of
+taxation on mineral exploration, a committee of a new colonial rights council
+(C.R.C.) was established on HR 7703. Terrified at the unity this group had
+achieved, the C.B.R. asked for a delegation to be sent to discuss terms. The
+C.R.C. however unwittingly sent all their major leaders to the conference in a
+single starship as an act of good faith and the perfidious C.B.R. destroved the
+ship and taking advantage of the C.R.C.'s mornentary disunity, attacked at once
+and in a short campaign ruthlessiv subdued the revolt.  However, the loss of so
+many telesthenics was a severe setback to colonisation plans, the government
+itself being overthrown in the people's war the following year.</p>
+
+<h4 id="orders-of-battle-and-deployment">(42.2) Orders of battle and deployment</h4>
+
+<h5 id="cbr-player">C.B.R. player</h5>
+
+<table class="center starforce">
+  <thead>
+    <tr>
+      <th>Star systems and stargates</th>
+      <th style="text-align: center">Starforces</th>
+      <th>I.D.code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2036/+1 (70 Ophiuchi)</td>
+      <td style="text-align: center">4</td>
+      <td>(1)</td>
+    </tr>
+    <tr>
+      <td>1734/+14 (BD + 45)</td>
+      <td style="text-align: center">2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1636/-8 (36 Ophiuchi)</td>
+      <td style="text-align: center">2</td>
+      <td>(4)</td>
+    </tr>
+    <tr>
+      <td>1637/-8 (CD - 26 )</td>
+      <td style="text-align: center">0</td>
+      <td>(3)</td>
+    </tr>
+    <tr>
+      <td>1938/-7 (CD - 21 )</td>
+      <td style="text-align: center">0</td>
+      <td>(2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="crc-forces">C.R.C. forces</h5>
+
+<table class="center starforce">
+  <thead>
+    <tr>
+      <th>Star systems and stargate</th>
+      <th>Starforces</th>
+      <th>I.D.code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2833/-11 (HR 7703)</td>
+      <td>5</td>
+      <td>(B)</td>
+    </tr>
+    <tr>
+      <td>2734/42 (Altair)</td>
+      <td>3</td>
+      <td>(C)</td>
+    </tr>
+    <tr>
+      <td>2537/42 (BD + 4)</td>
+      <td>2</td>
+      <td>(E)</td>
+    </tr>
+    <tr>
+      <td>2433/-14 (Luyten 347-14)</td>
+      <td>0</td>
+      <td>(D)</td>
+    </tr>
+    <tr>
+      <td>2832/-14 (CD 45)</td>
+      <td>0</td>
+      <td>(A)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="special-rules">(42.3) Special rules</h4>
+
+<p>Only the Strategic CRT is used. The C.B.R, player moves
+all of his units first and then rolls for each C.R.C. starforce individually
+and moves them all before combat is resolved.</p>
+
+<h4 id="victory-conditions">(42.4) Victory conditions</h4>
+
+<p>The C.B.R. plaver must neutralise all the C.R.C.
+stargates by game-turn 6 or he auto. matically loses the game. The C.B.R.
+player also loses any of his stargates are neutralised.</p>
+
+<h4 id="crc-movement-table">(42.5) C.R.C. movement table</h4>
+
+<table class="center starforce">
+  <thead>
+    <tr>
+      <th>Starting point</th>
+      <th>ID</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CD-45</td>
+      <td>(A)</td>
+      <td>A</td>
+      <td>B</td>
+      <td>D</td>
+      <td>E</td>
+      <td>C</td>
+      <td>D</td>
+      <td>B</td>
+      <td>C</td>
+      <td>E</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>HR 7703</td>
+      <td>(B)</td>
+      <td>E</td>
+      <td>2</td>
+      <td>A</td>
+      <td>D</td>
+      <td>B</td>
+      <td>2</td>
+      <td>A</td>
+      <td>D</td>
+      <td>B</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Altair</td>
+      <td>(C)</td>
+      <td>B</td>
+      <td>E</td>
+      <td>1</td>
+      <td>C</td>
+      <td>A</td>
+      <td>1</td>
+      <td>C</td>
+      <td>E</td>
+      <td>1</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>Luyten 347</td>
+      <td>(D)</td>
+      <td>A</td>
+      <td>2</td>
+      <td>D</td>
+      <td>4</td>
+      <td>B</td>
+      <td>E</td>
+      <td>A</td>
+      <td>3</td>
+      <td>C</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>BD + 4</td>
+      <td>(E)</td>
+      <td>D</td>
+      <td>1</td>
+      <td>A</td>
+      <td>1</td>
+      <td>C</td>
+      <td>E</td>
+      <td>B</td>
+      <td>C</td>
+      <td>E</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Explanation For everv starforce a chit is drawn individually and is cross
+referenced on the table with its starting point to find the I.D, code of its
+new position. The chit is then replaced and another one drawn for the next
+starforce. If the stargate at the point of destination has been neutralised the
+starforce stays put.</p>
+
+<h4 id="rationale">(42.6) Rationale</h4>
+
+<p>This game was devised to be played quickly and simply yet still provide a
+challenge to a more experienced player. It is also intended to present a
+position not unlike standard 2-D with a few diversified strategies.</p>
+
+<hr />
+
+<p>Here's the setup:</p>
+
+<p class="center"><img src="/images/starforce/g15-setup.jpg" alt="StarForce Colonization War setup" /></p>
+
+<p>The player takes the role of the CBR faction, shown as the green counters,
+and moves first. They need to neutralize all the CRC stargates in 6 turns.
+Given the distance, I think this might be difficult.</p>
+
+<p>The CRC is shown with yellow counters with the chart above governing
+the movement of the CRC.</p>
+
+<h2 id="turn-1">Turn 1</h2>
+
+<p>Moved everything, but it's hard to keep track of which starforces
+moved where, and which systems are called what. Had to take some time
+to figure out how to log it, and made some map markers.</p>
+
+<p>Combat will be at Locations 2 and E.</p>
+
+<p>Location 2: This is a bare stargate with strength 5 after the first round.</p>
+
+<ul>
+  <li>Round 2: SG defend 3, attack 2, CRC B attack 3, defend 0. SG roll 2
+for elimination of B, who cannot damage SG as it needs a result of 2
+to be neutralized.</li>
+</ul>
+
+<p>Location E: There are 4 CRC units and 1 CBR.</p>
+
+<ul>
+  <li>First round: CBR defend 5, attack 3; CRC attack 2, defend 0.
+CBR roll eliminates D automatically, CRC roll 0 for no effect.</li>
+  <li>Second round: CBR 8 defense, 4 attack; CRC SG 5 attack 0 defense.
+CRC roll 4 for no effect, CBR roll 7 for 3 which neutralizes Stargate
+at Location E.</li>
+</ul>
+
+<p>And that's it for Turn 1.</p>
+
+<h2 id="turn-2">Turn 2</h2>
+
+<p>Moves are much smoother this turn. Combat at Locations 2, 4, and E.</p>
+
+<p>Location 2: With the Stargate, there is no first round combat.</p>
+
+<ul>
+  <li>Round 2: SG defend 3, attack 2; starforce F attack 3 defend 0.
+No effect from CRC attack, CBR roll 3 to eliminate F.</li>
+</ul>
+
+<p>Location 4: defending starforce present.</p>
+
+<ul>
+  <li>
+    <p>Round 1: CBR attack 0, defend 2; CRC attack 2, defend 0.
+CBR roll 0 for no effect, CRC roll 7 to eliminate Z.</p>
+  </li>
+  <li>
+    <p>Round 2: SG defend 3, attack 2; CRC unit C attack 3 defend 0.
+CRC roll for no effect. CBR roll 2 elininate unit C.</p>
+  </li>
+</ul>
+
+<p>Location C: There is a defender and a stargate.</p>
+
+<ul>
+  <li>Round 1: CBR defend 3, attack 3; CRC attack 3, defend 0.
+CBR roll 0 eliminate J. CRC roll 5 for no effect.</li>
+</ul>
+
+<p>-Round 2: CBR defend 8, attack 4; stargate attack 5, defend 0.
+CBR roll 3 to eliminate stargate, CRC roll 5 for no effect.</p>
+
+<p>Two stargates down, three to go. I think it's going to require
+overshifting to get to the remaining.</p>
+
+<p>Let's try another turn.</p>
+
+<h2 id="turn-3">Turn 3</h2>
+
+<p>I've been Doing It Wrong. It costs 4 movement to enter a hostile
+stargate, which means overshifting, or stopping right next to it
+then shifting in next turn. Will continue the play doing it correctly
+from here out.</p>
+
+<p>There is only combat at Location 2, with only a stargate there.</p>
+
+<p>Location 2:</p>
+
+<ul>
+  <li>Round 2: Defend 3, attack 2; CRC H attack 3, defend 0. CBR roll 2
+which eliminates.</li>
+</ul>
+
+<p>That's Turn 3. Onward.</p>
+
+<h2 id="turn-4">Turn 4</h2>
+
+<p>I'll be lucky if I can get my starforces close enough for next
+turn, otherwise it will come down to the last turn.</p>
+
+<p>Location 1: CRC ships A and K defended by CRB Y.</p>
+
+<ul>
+  <li>Round 1: CRB attack 2, defened 0; CRC attack 4, defend 0.
+CBR roll 8 eliminates both A and K, CRC roll 9 eliminates Y.</li>
+</ul>
+
+<p>This is interesting, as there is a chance of getting 2 more CRC
+ships at 1, which would be very bad news for the stargate there.</p>
+
+<p>But that's the turn. Onward.</p>
+
+<h2 id="turn-5">Turn 5</h2>
+
+<p>I could still lose this game.</p>
+
+<p>Location D: 2 CBR take on a stargate, and probably lose.</p>
+
+<ul>
+  <li>Round 1: stargate defend 5, attack 0; CBR attack 6, defend 0.
+CBR roll 8, stargate eliminated.</li>
+</ul>
+
+<p>Let's crank it out.</p>
+
+<h2 id="turn-6">Turn 6</h2>
+
+<p>Location A: no enemy starforces, proceed to round 2.</p>
+
+<ul>
+  <li>Round 2: Stargate defend 5, attack 0; CBR attack 6, defend 0.
+CBR roll 2, no effect. This continues until rolling 7, 8. 9, which
+took two more rolls.</li>
+</ul>
+
+<p>Location B:</p>
+
+<ul>
+  <li>Round 2: stargate defend 5, attack 0; CBR attack 9, defend 0.
+This is an auto kill.</li>
+</ul>
+
+<p>A notional win, but I played movement wrong. This was interesting
+enough to play again, at least one more time.</p>
+
+<h2 id="aar">AAR</h2>
+
+<p>Here is a conundrum. Suppose I have two starforces who shift into
+an lz with only a hostile stargate. Combat will ensure, starting "round 2."
+Suppose the stargate declares defense 5 and attack 0, and my starforces
+declare attack 6 and defense 0.</p>
+
+<p>On the face of it, no problem.</p>
+
+<p>However, the CRT states "Attacking Strength Points less Defending Strength Points."</p>
+
+<p>0 - 0 = 0.</p>
+
+<p>Examining the 0 column, the stargate can whittle down the attackers.</p>
+
+<p>I'm probably missing something in the rules, but I don't see it, and it's
+odd and entertaining enough I thought I'd toss it out to see what anyone
+might think.</p>
+
+
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2023/06/19/lotr-263-peril-in-pelargir-8.html' rel='prev'>LotR 263 - Peril in Pelargir (8)</a>
+</div>
+<div class='nextnav'>
+</div>
+</div>
+
+<hr class='blog-bottom-main'>
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/starforce.html'>starforce</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Tue. Jun 20</span>
+<a href='/2023/06/20/starforce-15.html'>StarForce 15</a>
+</li>
+<li>
+<span>Mon. Jun 19</span>
+<a href='/2023/06/19/lotr-263-peril-in-pelargir-8.html'>LotR 263 - Peril in Pelargir (8)</a>
+</li>
+<li>
+<span>Mon. Jun 19</span>
+<a href='/2023/06/19/lotr-262-peril-in-pelargir-7.html'>LotR 262 - Peril in Pelargir (7)</a>
+</li>
+<li>
+<span>Mon. Jun 19</span>
+<a href='/2023/06/19/lotr-261-peril-in-pelargir-6.html'>LotR 261 - Peril in Pelargir (6)</a>
+</li>
+<li>
+<span>Mon. Jun 19</span>
+<a href='/2023/06/19/lotr-260-peril-in-pelargir-5.html'>LotR 260 - Peril in Pelargir (5)</a>
+</li>
+<li>
+<span>Mon. Jun 19</span>
+<a href='/2023/06/19/lotr-259-peril-in-pelargir-4.html'>LotR 259 - Peril in Pelargir (4)</a>
+</li>
+<li>
+<span>Sun. Jun 18</span>
+<a href='/2023/06/18/next-war-taiwan-1.html'>Next War Taiwan 1</a>
+</li>
+<li>
+<span>Sat. Jun 17</span>
+<a href='/2023/06/17/lotr-258-the-battle-of-lake-town-9.html'>LotR 258 - The Battle of Lake Town (9)</a>
+</li>
+<li>
+<span>Fri. Jun 16</span>
+<a href='/2023/06/16/lotr-257-the-battle-of-lake-town-8.html'>LotR 257 - The Battle of Lake Town (8)</a>
+</li>
+<li>
+<span>Sun. Jun  4</span>
+<a href='/2023/06/04/alexander-6-the-crocus-fields.html'>Alexander 6 - The Crocus Fields</a>
+</li>
+<li>
+<span>Mon. May 29</span>
+<a href='/2023/05/29/lotr-253-254-the-dunland-trap.html'>LotR 253, 254 - The Dunland Trap</a>
+</li>
+<li>
+<span>Sun. May 28</span>
+<a href='/2023/05/28/lotr-252-into-fangorn.html'>LotR 252 - Into Fangorn</a>
+</li>
+<li>
+<span>Sun. May 21</span>
+<a href='/2023/05/21/cataphract-2-the-battle-of-the-utus-river-1.html'>Cataphract 2 - The Battle of the Utus River 1</a>
+</li>
+<li>
+<span>Sun. Apr 30</span>
+<a href='/2023/04/30/cataphract-1-the-catalaunian-fields.html'>Cataphract 1 - The Catalaunian Fields</a>
+</li>
+<li>
+<span>Sun. Apr 23</span>
+<a href='/2023/04/23/lotr-251-to-catch-an-orc-9.html'>LotR 251 - To Catch an Orc (9)</a>
+</li>
+</ol>
+</aside>
+
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -82,6 +82,11 @@ ul.taglist {
     display: inline;
     font-style: italic; }
 
+ol.letterlist {
+  list-style-type: upper-alpha; }
+  ol.letterlist li:before {
+    color: red; }
+
 .turn-sequence {
   font-style: italic;
   font-size: 90%;

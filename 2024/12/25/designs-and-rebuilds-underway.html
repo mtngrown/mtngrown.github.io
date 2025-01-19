@@ -1,0 +1,431 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://polyfill.io/v3/polyfill.min.js?features=es6'></script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Designs and rebuilds underway
+</h1>
+<time class='updated' pubdate=''>Dec 25 2024</time>
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2024/12/21/carn-dum-2-363.html' rel='prev'>Carn Dum - 2:363</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2024/12/25/intruders-in-chetwood-2-364.html' rel='next'>Intruders in Chetwood - 2:364</a>
+</div>
+</div>
+
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+</ul>
+<p>Merry Christmas 2024!</p>
+
+<p>If anyone were to follow me on Github, they might be aware
+that I have a design and a few game rebuilds underway. At
+the moment, Swedish Game Production <em>Linebacker 2</em> is getting
+the most attention. Other games, such as Vigard's <em>Nguyen Hue</em>
+are mothballed at the moment.</p>
+
+<p>There are several reasons why bringing these to completion has
+been challenging. But the main reason by far is</p>
+
+<p class="center"><strong>work priorities consistently trump game momentum</strong>.</p>
+
+<p>To repeat: If there is any consistency, it is this: game
+projects get interrupted by work projects.</p>
+
+<p>By the time I recover enough attention to work on games,
+momentum has already been lost, and it's often unclear what
+a go-forward priority might be. Other reasons compounding
+the difficulty:</p>
+
+<ul>
+  <li>
+    <p><strong>Lack of Project Management</strong>: Game projects, for the most part, are not
+subject to any project management control. This includes designs and rebuilds.
+I have been resistant to this as I'm already using Jira for both work and
+personal householding projects and tasks, and I do not want to add to an already
+too large backlog of tickets.</p>
+  </li>
+  <li>
+    <p><strong>No Definition of Done</strong>: similarly, for any particular project, the
+amount of potential work grows with the amount of work done. For example,
+when rebuilding a counter sheet, there is a significant delta in my
+mind between a sheet which is merely playable, and a sheet which is
+playable and elegantly designed. Getting to playable is not an
+insignificant hurdle. Elegance is a very, very deep rabbit hole.</p>
+  </li>
+  <li>
+    <p><strong>Lack of Prioritization</strong>: I have multiple projects in flight, most of
+which are some distance from any sort of done, but I don't have any
+notion of which projects could or should be finished next. And the
+remaining in what order? Unclear. It doesn't help that I am not
+sure exactly how many projects I do have in flight. I'm going to
+list what I know of right now, below.</p>
+  </li>
+</ul>
+
+<p>Fortunately, all of these issues are easily remedied. The most
+important of which is priority. Definition of Done is, essentially,
+can it be printed and played, distinguishing between necessary
+elements and nice to have elements. Project Management is the
+easiest, I have and have a lot of experience with a number of
+such tools.</p>
+
+<h2 id="ho-chi-minh-trail-hcmt">Ho Chi Minh Trail (HCMT)</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/hcmt">Github link</a></li>
+</ul>
+
+<p>This is my only design-from-scratch entry on this list.
+The game is playable in the sense that I have programmed
+the game play to run monte carlo simulations of the rules.
+In this first incarnation, it's more or less rock, paper,
+scissors if played two player. Solitaire play depends on
+sampling a random response, with replacement.</p>
+
+<p>Here is the result of <a href="2022/08/20/ho-chi-minh-trail-4.html">1000 play
+simulations</a>.</p>
+
+<p>The next step is writing a publishable version of the
+rules, printing them out, and getting some opposed
+play tests.</p>
+
+<p>Over time, I intend on versioning the rules as the game
+evolves, where each version is a completely playable game.
+It would be cool if each version supersetted the previous
+version, but that might be too constraining. We'll see
+how it works out.</p>
+
+<h2 id="fall-of-south-vietnam">Fall of South Vietnam</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/consim/tree/master/lib/fall-of-south-vietnam">Github
+link</a></li>
+</ul>
+
+<p>The goal here is creating a much better version of the map.
+The map which ships with the game is more or less functional,
+but it could be a lot more attractive, and more convenient.
+I might update the rules and counters as well, but the initial
+focus is the map.</p>
+
+<p>I put this on hold due to my inexperience tracing in Inkscape.
+I can start it again at some point. I may redo the counters as
+well.</p>
+
+<h2 id="the-company-war">The Company War</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/consim/tree/master/lib/the-company-war">Github
+link</a></li>
+</ul>
+
+<p>The idea is to rebuild the map, everything else is fine. The
+main issue with the map is that the various jump lines are
+difficult to distinguish from each other, the the type of jump
+line matters a lot for game play.</p>
+
+<h2 id="vigard-simulations-nguyen-hue">Vigard Simulations Nguyen Hue</h2>
+
+<ul>
+  <li><a href="https://github.com/doolin/vs-nguyen-hue">Github link</a></li>
+</ul>
+
+<p>I have what I think is the complete game in PDF format,
+including the map. The OCR is really rough. I have brought
+most of the rules over from the PDF. Each page requires a
+fair bit of manual effort to ensure the OCR copy retains
+fidelity with the original rules.</p>
+
+<p>Actually, now that I think about it, I do not have the
+counters for the game, which is probably why I put it aside.</p>
+
+<h2 id="swedish-game-production-linebacker-2">Swedish Game Production Linebacker 2</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/sgp-linebacker-2">Github link</a></li>
+</ul>
+
+<p>At the time of writing, this game is receiving the most attention.
+It will almost surely be the second playable rebuild, after
+the relatively complete Viet Nam below.</p>
+
+<p>Since the game files on the forum are only partically useful,
+I reached out to a few of the 7 people listed as owning the
+game and received a very nice PDF scan of the entire game.
+Nice enough that the next step is printing out this PDF and
+playing the game.</p>
+
+<p>I have a TODO list of what needs to be done to complete the
+rebuild. It's not that long, but it is the "remaining 90%"
+of the work.</p>
+
+<h2 id="game-science-viet-nam">Game Science Viet Nam</h2>
+
+<ul>
+  <li><a href="https://github.com/doolin/gs-viet-nam">Github link</a></li>
+</ul>
+
+<p>I have recreated almost everything save the map, which can be
+found in the forum files. It is definitely in a playable state,
+as proven by a third party for whom I sent the game materials.</p>
+
+<p>It doesn't warrant further attention as of the time writing.
+Future work will focus on streamlining it to speed up the
+play.</p>
+
+<h2 id="clf-enterprises-dien-bien-phu-the-french-in-indochina">CLF Enterprises Dien Bien Phu: The French in Indochina</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/clf-dien-bien-phu/tree/master">Github link</a></li>
+</ul>
+
+<p>Designers Leonard Kanterman and Douglas Bonforte.</p>
+
+<p>I believe the PDF I have has the complete game. As of this writing,
+I haven't printed or read the rules in detail. It's going to be a
+real project to rebuild it. For example, the counters are all black
+lines on white, but the rules state the French are blue and Viet
+Minh are red. A project for a later date.</p>
+
+<h2 id="ifw-street-without-joy">IFW Street Without Joy</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/ifw-street-without-joy/tree/master">Github links</a></li>
+</ul>
+
+<p>The designers do not appear to be listed in the rules which I have.</p>
+
+<p>I have a PDF file which I believe has the entire game,
+but I have not yet as of writing read through the rules
+or printed anything. This would be another pretty big project,
+and again, something for a later date.</p>
+
+<h2 id="ww-dien-bien-phu">WW Dien Bien Phu</h2>
+
+<ul>
+  <li><a href="https://github.com/mtngrown/ww-dien-bien-phu">Github link</a></li>
+</ul>
+
+<p>Designed by Claes Henrikson and Fredrik Malmberg.</p>
+
+<p>I have a PDF file which appears to be complete. Another big project
+for later. I may just print the entire PDF file for convenience.</p>
+
+<h2 id="conclusing-remarks">Conclusing remarks</h2>
+
+<p>I anticipate updating this article over the course of 2025 as
+various projects advance. It's currently not so much unfinished
+as incomplete, in this context there is a difference.</p>
+
+
+<hr class='blog-bottom-main'>
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2024/12/21/carn-dum-2-363.html' rel='prev'>Carn Dum - 2:363</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2024/12/25/intruders-in-chetwood-2-364.html' rel='next'>Intruders in Chetwood - 2:364</a>
+</div>
+</div>
+
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sat. Jan 18</span>
+<a href='/2025/01/18/silver-bayonet-30.html'>Silver Bayonet 30</a>
+</li>
+<li>
+<span>Sun. Jan  5</span>
+<a href='/2025/01/05/gunslinger-1.html'>Gunslinger 1</a>
+</li>
+<li>
+<span>Tue. Dec 31</span>
+<a href='/2024/12/31/2025-mastery-challenge.html'>2025 Mastery Challenge</a>
+</li>
+<li>
+<span>Sat. Dec 28</span>
+<a href='/2024/12/28/high-frontier-core-and-competition-56.html'>High Frontier Core and Competition - 56</a>
+</li>
+<li>
+<span>Sat. Dec 28</span>
+<a href='/2024/12/28/hcmt-7-the-spreadsheet.html'>HCMT 6 - the spreadsheet</a>
+</li>
+<li>
+<span>Fri. Dec 27</span>
+<a href='/2024/12/27/carn-dum-7-369.html'>Carn Dum - 7:369</a>
+</li>
+<li>
+<span>Wed. Dec 25</span>
+<a href='/2024/12/25/intruders-in-chetwood-2-364.html'>Intruders in Chetwood - 2:364</a>
+</li>
+<li>
+<span>Wed. Dec 25</span>
+<a href='/2024/12/25/designs-and-rebuilds-underway.html'>Designs and rebuilds underway</a>
+</li>
+<li>
+<span>Sat. Dec 21</span>
+<a href='/2024/12/21/carn-dum-2-363.html'>Carn Dum - 2:363</a>
+</li>
+<li>
+<span>Sun. Dec 15</span>
+<a href='/2024/12/15/silver-bayonet-28-29.html'>Silver Bayonet 28, 29</a>
+</li>
+<li>
+<span>Sat. Nov 16</span>
+<a href='/2024/11/16/combat-veteran-1.html'>Combat Veteran 1</a>
+</li>
+<li>
+<span>Fri. Nov 15</span>
+<a href='/2024/11/15/long-range-recon-patrol-1.html'>Long Range Recon Patrol 1</a>
+</li>
+<li>
+<span>Sat. Nov  9</span>
+<a href='/2024/11/09/ghosts-of-the-jungle-2.html'>Ghosts of the Jungle 2,3</a>
+</li>
+<li>
+<span>Tue. Oct 22</span>
+<a href='/2024/10/22/the-antlered-crown-10-361.html'>The Antlered Crown - 10:361</a>
+</li>
+<li>
+<span>Sun. Oct 20</span>
+<a href='/2024/10/20/celebrimbor-s-secret-4-360.html'>Celebrimbor's Secret 4:360</a>
+</li>
+</ol>
+</aside>
+
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

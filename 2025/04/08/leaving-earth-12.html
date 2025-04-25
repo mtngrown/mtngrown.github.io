@@ -1,0 +1,639 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://polyfill.io/v3/polyfill.min.js?features=es6'></script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+Leaving Earth 12
+</h1>
+<time class='updated' pubdate=''>Apr  8 2025</time>
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2025/04/05/high-frontier-61.html' rel='prev'>High Frontier 61</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2025/04/11/jump-drive-84.html' rel='next'>Jump Drive 84</a>
+</div>
+</div>
+
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/leaving-earth.html'>leaving-earth</a>
+</li>
+</ul>
+<p>(Game started March 10, 2025.)</p>
+
+<p>I've been doing a bit of spreadsheet programming lately.
+Both in terms of creating programs within spreadsheets,
+and programmatically creating spreadsheets, specifically
+on Google Drive. I'm paying for a Workspace account so I
+might as well use it. In the past, I kept up with successive
+releases of Microsoft Office because everyone else was
+using it, but I never used it myself and got tired of the
+expense and update cycle. Sheets isn't great, but it's
+good enough for what I want to do.</p>
+
+<p>Currently, I have a Ruby application (command line) which
+will create a sheet on my Google Drive account and
+pre-populate specified missions. This game is for helping
+determine what the next round of improvements will be.
+I haven't played Leaving Earth in many years, so it's
+going to take a couple of days of squeezing in the time
+to figure out the rules again.</p>
+
+<p>The solitaire game of Leaving Earth is distinctly
+different than the competitive game, at least for me.
+In the competitive game, players must take many more
+risks to win compared to the solitaire game. In the
+solitaire game, winning is a matter of planning, nearly
+all of which can be done up front, after the missions
+are chosen, and before any advancement is purchases.</p>
+
+<h2 id="planning-in-the-solitaire-game">Planning in the solitaire game</h2>
+
+<p>Since there is no competitive pressure, the game
+orients itself to the time clock. There is a 20
+year window to accomplish a victory, and every
+year and every mission can be scoped in advance.</p>
+
+<p>Planning can be separated into three stages:</p>
+
+<ol>
+  <li>Reverse calculation of mission needs from Earth Orbit;</li>
+  <li>Launching components into Earth Orbit;</li>
+  <li>Scheduling missions and advancements to minimize risk.</li>
+</ol>
+
+<p>In a competitive game, risk has to be assessed with
+the actions of the competition rather than the state
+of advancements alone.</p>
+
+<p>In the present game, Easy Mode, there are five
+Easy missions:</p>
+
+<ol>
+  <li>Mars Survey</li>
+  <li>Lunar Survey</li>
+  <li>Man In Orbit</li>
+  <li>Man in Space</li>
+  <li>Sounding Rocket</li>
+</ol>
+
+<p>In the solitaire game, these can be grouped into
+three, let's call them "projects." Each project
+consists of one or more more missions which can
+be accomplished all at once:</p>
+
+<p><strong>Project 1</strong>: Mars Survey. We need to get a Probe
+to Mars Orbit or Flyby, and have it be successful.</p>
+
+<p><strong>Project 2</strong>: Lunar Survey. We need get a Probe to
+Lunar Orbit or Flyby and have it be successful.</p>
+
+<p><strong>Project 3</strong>: Man in Orbit. Getting a man in orbit
+will satisfy the Man In Space and Sounding Rocket
+missions as well. It's likely that Sounding Rocket
+will also be satisfied during Advancement testing.</p>
+
+<h2 id="reverse-planning-or-working-backwards">Reverse planning, or, working backwards</h2>
+
+<p>The notion is to assume we have a successful mission
+completion state, and work backwards through the steps
+which produce that state.</p>
+
+<p>For example, a Mars Survey requires getting a Probe to
+Mars, which will work correctly (not have a Major or
+Minor Failure) when the Survey is attempted. Assuming
+the Probe succeeds, we need to get the Probe to Mars,
+which requires composing a spacecraft consisting of
+the Probe and a successfully operating Thruster. In
+turn, we need to get one or more thrusters succesfully
+launched into Earth Orbit.</p>
+
+<ul>
+  <li>Make a list of all the components I will need to
+purchase.</li>
+  <li>Make a list of the necessary advancements I will
+need to purchase.</li>
+  <li>Compute a few maneuvers without worrying about the
+spreadsheet for now.</li>
+</ul>
+
+<p>(<code>vim macro is @t</code>)</p>
+
+<h4 id="year-1956">Year 1956</h4>
+
+<ol>
+  <li>
+    <p>Purchases: Atlas and Soyuz Advancements for $20,
+and 1 Atlas rocket.</p>
+  </li>
+  <li>
+    <p>Planning: Early game planning is all about purchsing
+and however much risk mitigation by way of testing makes
+sense in the context of the game. For an easy solitaire
+game, we'll test everything to success, that is, remove
+all of the outcome cards.</p>
+  </li>
+</ol>
+
+<p>That's all the money spent for 1956.</p>
+
+<h4 id="year-1957">Year 1957</h4>
+
+<ol>
+  <li>Purchases: 3 Soyuz and 1 Probe.</li>
+  <li>Planning: We only lack the Surveying Advancement
+and we can start testing (and repurchasing) rockets.
+We don't even need a Rendezvous as once the rocket
+stages have fire they are discarded.</li>
+</ol>
+
+<h4 id="year-1958">Year 1958</h4>
+
+<p>For the Probe to work, we'll need to Survey, which also
+requires an Advancement. Or, we could start testing.
+Let's test Soyuz.</p>
+
+<ol>
+  <li>Purchases:</li>
+  <li>Planning: Test Soyuz twice, and if both successes
+then purchase an Atlas. If one or more failures, test
+to completion.</li>
+  <li>Testing: Soyuz 1: Failure; Soyuz 2: Success;
+Soyuz 3: Success.</li>
+</ol>
+
+<p>The Soyuz Advancement is complete!</p>
+
+<h4 id="year-1959">Year 1959</h4>
+
+<p>Getting a Man In Orbit will require a Capsule of some
+sort, so we'll need to add that to our list at some point.</p>
+
+<ol>
+  <li>Planning: Let's test all the Atlas rockets right now,
+and we'll need to purchase another one for complete testing.</li>
+  <li>Purchases:</li>
+  <li>Testing: Atlas success.</li>
+  <li>Action: purchase Atlas.</li>
+  <li>Action: test Atlas, success.</li>
+</ol>
+
+<p>Now we have one Outcome remaining on our Atlas Advancement.</p>
+
+<p><strong>BLUNDER</strong> I paid to remove the last Success Outcome,
+which was unnecessary. I could leave it on there as being
+the only remaining outcome, I would know what the result
+would be.</p>
+
+<h4 id="year-1960">Year 1960</h4>
+
+<p><strong>Planning</strong> Since Astronauts have 0 Mass (with respect to game play),
+we can choose the Apollo Capsule at Mass 1 to allow a single
+Soyuz to boost the Capsule into Orbit. The Apollo Capsule
+require the Landing Advancement, which we won't actually
+need in this game.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Purchase Surveying Advancement</li>
+  <li>Purchase Atlas rocket</li>
+  <li>Test Atlas rocket, success</li>
+</ol>
+
+<p>We're almost ready to start running the missions. In a competitve
+game, it makes sense to take more calculated risks.</p>
+
+<h4 id="year-1961">Year 1961</h4>
+
+<p><strong>Planning</strong>
+Let's purchase a Soyuz and start testing Surveying from
+Earth Orbit. This let's us be assured that our surveying
+won't fail at Luna and Mars. Also, this is likely superfluous,
+as the Probe is not damaged when Surveying fails, a point
+I believe I have been playing incorrectly in the past.
+This would hold true for Capsules as well. Nevertheless,
+let's do it anyway.</p>
+
+<p>We'll survey Solar Radiation.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Puchase Soyuz.</li>
+  <li>Launch Probe with Soyuz.</li>
+  <li>Test Surveying, major failure.</li>
+  <li>Test Surveying, success, Solar Radiation reveals
+"No Significant Radiation."</li>
+  <li>Test Surveying, success. I don't need to pay for
+this one as it's automatic. If it had been a Failure, I
+would have been stuck, as I only have $2 remaining, and
+would have to try again next turn. That's low risk with
+Surveying, could be more expensive with rockets.</li>
+</ol>
+
+<p>Score: 1 for Sounding Rocket.</p>
+
+<h4 id="year-1962">Year 1962</h4>
+
+<p><strong>Planning</strong> We can survey the moon no problem, and
+get set up for surverying Mars.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Purchase Soyuz x 2, Atlas x 1, Probe x 2. This</li>
+  <li>Launch Probe and Atlas to to Earth Orbit using
+both Soyuz as stages 1 &amp; 2.</li>
+  <li>Fire the Atlas to manuever to Lunar Flyby.</li>
+  <li>Survey Luna, finding Valuable Minerals.</li>
+</ol>
+
+<p>We still have a Probe in Earth Orbit, but it might be
+cheaper to boost a new one than to attempt the Rendezvous.</p>
+
+<p>Score 1 + 4 for Lunar Survey.</p>
+
+<h4 id="year-1963">Year 1963</h4>
+
+<p><strong>Planning</strong> For the Man In Orbit, we have to bring him
+back down again. Let's postpone that until the 3 year
+Mars mission is underway.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Purchase Soyuz x 2, Atlas x 1, Eagle Capsule.</li>
+  <li>Launch Probe and Atlas to to Earth Orbit using
+both Soyuz as stages 1 &amp; 2.</li>
+  <li>Fire the Atlas and Probe for Mars Flyby with 3 Time
+Tokens. Tokens are removed at the end of 1965, we can
+Survey Mars at the start of 1966 (we must, in fact, or
+the Probe will be lost).</li>
+</ol>
+
+<p>Remove one Time Token from Mar mission.</p>
+
+<h4 id="year-1964">Year 1964</h4>
+
+<p><strong>Planning</strong> now it's time to figure out how to get a
+man to orbit and back. We need to Test the Landing
+Advancement. Our options are to purchase a Juno
+Advancement and test with cheap rockets, or purchase
+Atlas rockets for more money, but save on the advancement
+cost. We'll need to buy a couple of Soyuz rockets as well,
+so those can be purchases where it best conserves the spend.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Purchase Landing Advancement, Soyuz, Atlas and Probe for $24.</li>
+</ol>
+
+<p>Can't do anything with the left over $1. In a competitive
+game, it might be worth buying gear or supplies for trading.</p>
+
+<p>Remove Time Token 2 from Mars mission.</p>
+
+<h4 id="year-1965">Year 1965</h4>
+
+<p><strong>Planning</strong> what I should have done last year is started
+Tests for Landing. I'll do that now.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Launch Atlas with Probe to Suborbital, test landing.</li>
+  <li>Purchase Soyuz, Atlas, Probe x 2.</li>
+</ol>
+
+<p>Remove last Time Token from Mars mission, will survey
+at the beginning of the next year to get more victory
+points.</p>
+
+<p><strong>Inventory</strong></p>
+
+<p>Soyuz, Atlas, Probe x 2, Eagle.</p>
+
+<h4 id="section">1966</h4>
+
+<p><strong>Planning</strong> The Landing Advancement still has 2 Outcomes
+on it, which need to be cleared, so that would be a good
+thing to do this turn. Also need to perform Mars Survey.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Launch Atlas and Probe to Suborbital.</li>
+  <li>Test Landing, pay $10 success.</li>
+  <li>
+    <p>Survey Mars, success finding Valuable Minerals.
+Score 5 points for 10 total.</p>
+
+    <p>This is technical a win for the game as I've now scored 10
+of 14 points, that is, more than half. Let's play it out
+and put a man in orbit and back.</p>
+  </li>
+  <li>Purchase Atlas for $4.</li>
+  <li>Launch Atlas, test Landing, success and no need to spend
+just discard it as it's the last Outcome.</li>
+  <li>Purchase Aldrin.</li>
+</ol>
+
+<h4 id="section-1">1967</h4>
+
+<p><strong>Planning</strong> it looks like I can just launch and land Aldrin
+and I've got the Man In Orbit mission. All the Advancements
+are tested and I have all the components necessary.</p>
+
+<p><strong>Actions</strong></p>
+
+<ol>
+  <li>Launch Soyuz with Eagle and Aldrin to Earth Orbit.</li>
+  <li>Land the Eagle capsule.</li>
+</ol>
+
+<p>Note: Man in Orbit and back also gains Man In Space and back,
+the total is 6 points.</p>
+
+<p>Score: 16.</p>
+
+<h2 id="some-pictures-associated-with-this-game">Some pictures associated with this game</h2>
+
+<p>At the beginning of a game, I like to get a notion of which
+rockets and other components I will need to conduct missions.
+Here's a picture of what I thought I would use, but it turns
+out I did not need the Ion rocket. What should be there is
+the Eagle Capsule.</p>
+
+<p class="center"><img src="/images/leaving-earth/g12-starting-rockets.jpg" alt="Components" /></p>
+
+<p>The missions are marked with black cones. I will use yellow or
+orange cones next time as the black cones are too difficult to
+see on the image.</p>
+
+<p class="center"><img src="/images/leaving-earth/g12-setup.jpg" alt="Setting up Game 12" /></p>
+
+<p>I initial started with CNES, and decided for some reason to
+change to NASA. I'm keeping the image below as I have a plan
+for working with the perspective.</p>
+
+<p class="center"><img src="/images/leaving-earth/game-12-start.jpg" alt="Perspective view" /></p>
+
+<h2 id="aar">AAR</h2>
+
+<p>Not a bad game. I ended up having to put it away to clear the
+table for a High Frontier game, but I was able to save the game
+state well enough to easily restart. The next game will be a
+Medium difficulty game, which will be after more Google Sheets
+updates.</p>
+
+<p>On a side note, I'm really disappointed that Google doesn't
+provided a publically supported API for better styling of
+individual cells. A real bummer and killed most of my
+motivation for automating with Google. Apparently they
+maintain a private API. I may have to dig into the actual
+API documentation though. This could be a limitation of
+the Ruby gem rather than the actual public API.</p>
+
+<h3 id="updates-for-spreadsheet">Updates for spreadsheet</h3>
+
+<ul>
+  <li>
+    <p>Add a "Spacecraft Thrust" column between G and H. This
+will for computation without the need for creating some
+sort of custom Javascript.</p>
+  </li>
+  <li>
+    <p>Center the text in more if not all of the columns.</p>
+  </li>
+  <li>
+    <p>Add an Earth Orbit tab on all sheets. Everything needs
+to go there anyway, and the usual technique is get things
+into orbit and assemble them there. That said, it might
+be fun to try to do a one shot for a Lunar or Mars Survey.</p>
+  </li>
+  <li>
+    <p>Add Total Score column with the formula already provisioned
+on the Schedule sheet.</p>
+  </li>
+</ul>
+
+<p>Also: check the actual API documentation to ensure GPT wasn't
+lying to me about what is and is not supported via the Ruby
+gem.</p>
+
+
+<hr class='blog-bottom-main'>
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2025/04/05/high-frontier-61.html' rel='prev'>High Frontier 61</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2025/04/11/jump-drive-84.html' rel='next'>Jump Drive 84</a>
+</div>
+</div>
+
+<h5>
+Tags
+</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/leaving-earth.html'>leaving-earth</a>
+</li>
+</ul>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-md-4'>
+<div class='sidebar'>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Tue. Apr 15</span>
+<a href='/2025/04/15/haml-yaml.html'>Haml/Yaml/Markdown</a>
+</li>
+<li>
+<span>Fri. Apr 11</span>
+<a href='/2025/04/11/jump-drive-84.html'>Jump Drive 84</a>
+</li>
+<li>
+<span>Tue. Apr  8</span>
+<a href='/2025/04/08/leaving-earth-12.html'>Leaving Earth 12</a>
+</li>
+<li>
+<span>Sat. Apr  5</span>
+<a href='/2025/04/05/high-frontier-61.html'>High Frontier 61</a>
+</li>
+<li>
+<span>Fri. Apr  4</span>
+<a href='/2025/04/04/jump-drive-83.html'>Jump Drive 83</a>
+</li>
+<li>
+<span>Fri. Apr  4</span>
+<a href='/2025/04/04/cadets-save-the-dakota.html'>Cadets save the Dakota</a>
+</li>
+<li>
+<span>Sun. Mar 30</span>
+<a href='/2025/03/30/hoplite-2-matinea.html'>Hoplite 2: Mantinea</a>
+</li>
+<li>
+<span>Sun. Mar 23</span>
+<a href='/2025/03/23/cadets-at-it-again.html'>Cadets at it again</a>
+</li>
+<li>
+<span>Sun. Mar 16</span>
+<a href='/2025/03/16/hf4a-60-5-cycles-or-bust.html'>HF4A 60: 5 Cycles or Bust</a>
+</li>
+<li>
+<span>Sat. Mar 15</span>
+<a href='/2025/03/15/more-star-fleet-battles.html'>More Star Fleet Battles</a>
+</li>
+<li>
+<span>Fri. Mar  7</span>
+<a href='/2025/03/07/jump-drive-82.html'>Jump Drive 82</a>
+</li>
+<li>
+<span>Tue. Mar  4</span>
+<a href='/2025/03/04/jump-drive-81.html'>Jump Drive 81</a>
+</li>
+<li>
+<span>Sun. Mar  2</span>
+<a href='/2025/03/02/long-cruel-woman.html'>Long Cruel Woman</a>
+</li>
+<li>
+<span>Sat. Mar  1</span>
+<a href='/2025/03/01/hf4a-58-the-assembly-assembles.html'>HF4A 59: The Assembly Assembles</a>
+</li>
+<li>
+<span>Sun. Feb 23</span>
+<a href='/2025/02/23/risk-more-family-games.html'>Risk & more family games</a>
+</li>
+</ol>
+</aside>
+
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

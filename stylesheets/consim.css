@@ -127,6 +127,15 @@ ol.letterlist li:before {
 .blog .h3 {
   font-size: 18px;
 }
+.blog h5.gametitle {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #777777;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25em;
+}
 .blog h4,
 .blog .h4 {
   font-size: 16px;
@@ -141,6 +150,10 @@ ol.letterlist li:before {
 .blog .h6 {
   font-size: 12px;
   font-style: italic;
+}
+
+.indented {
+  margin-left: 2em;
 }
 
 /*# sourceMappingURL=consim.css.map */

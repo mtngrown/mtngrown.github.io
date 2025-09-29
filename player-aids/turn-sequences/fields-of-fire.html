@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script src='http://code.jquery.com/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script src='https://polyfill.io/v3/polyfill.min.js?features=es6'></script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link href="/stylesheets/bootstrap.css" rel="stylesheet" />
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='active'>
+<a href='/'>Home</a>
+</li>
+<li>
+<a href='/about.html'>About</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-md-8 col-xs-12'>
+<h2 id="turn-">Turn ?</h2>
+
+<h3 id="friendly-higher-hq-event-phase">3.1 Friendly Higher HQ Event Phase</h3>
+
+<p class="turn-sequence"><strong>(Starting on Turn 2)</strong>
+- Draw an Action card; if the HQ icon is present, determine an event on the
+  Friendly Higher HQ Events Table.</p>
+
+<h3 id="defensive-missions-enemy-activity-phase">3.2 Defensive Missions: Enemy Activity Phase</h3>
+
+<h4 id="enemy-higher-hq-event-segment">3.2.1 Enemy Higher HQ Event Segment</h4>
+
+<p class="turn-sequence"><strong>(Starting on Turn 2)</strong>
+- Draw an Action card; if the HQ icon is present, determine an event on the
+  Enemy Higher HQ Events Table.</p>
+
+<h4 id="enemy-activity-check-segment">3.2.2 Enemy Activity Check Segment</h4>
+
+<ul class="turn-sequence">
+  <li>Place PC markers as indicated by the mission instructions.</li>
+  <li>Check every enemy unit on the map for activity.
+    <ul>
+      <li>Determine card order randomly.</li>
+      <li>On each card, check units based on their status on the Activity Check
+Hierarchy tables.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="friendly-command-phase">3.3 Friendly Command Phase</h3>
+
+<p class="turn-sequence">During the segments of this Phase:
+- For a unit or HQ to receive an order, it must be in the Chain of Command of
+  the HQ or leader issuing the order and in communication with it.</p>
+
+<h4 id="activation-segment">3.3.1 Activation Segment</h4>
+
+<p><strong>3.3.1a BN HQ Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>If the BN HQ is not on map, Activate the CO HQ.</li>
+  <li>If the BN HQ is on map, give it the maximum number of Commands (6 in daylight,
+4 in Limited Visibility) and expend them on orders to itself or other units
+(4.2). BN HQ does not save Commands.</li>
+  <li>If BN HQ is not available and no Runners are on the map, move on to the CO HQ
+Initiative Impulse.</li>
+</ul>
+
+<p><strong>3.3.1b CO HQ Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>If activated by the BN HQ, draw an Action card and give it the modified number
+of Activated Commands (4.1.2).</li>
+  <li>Save those Commands or expend them (and any saved Commands) on orders to
+itself or other units up to the maximum per turn according to Visibility and
+Experience Level, as indicated on the Command Display.</li>
+</ul>
+
+<p><strong>3.3.1c PLT HQ/CO Staff Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>Select a PLT HQ or CO Staff that was activated by the CO HQ, draw an Action
+card and give it the modified number of Activated Commands (4.1.2).</li>
+  <li>Save those Commands or expend them (and any saved Commands) on orders to
+itself or other units up to the maximum per turn according to Visibility and
+Experience Level.</li>
+  <li>Repeat for the next PLT HQ/CO Staff.</li>
+</ul>
+
+<h4 id="initiative-segment">3.3.2 Initiative Segment</h4>
+
+<p><strong>3.3.2a CO HQ Initiative Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>If not activated in 3.3.1, draw an Action card and give it the modified number
+of Initiative Commands (4.1.2).</li>
+  <li>Save those Commands or expend them (and any saved Commands) on orders to
+itself or other units up to the maximum per turn according to Visibility and
+Experience Level.</li>
+</ul>
+
+<p><strong>3.3.2b PLT HQ Initiative Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>Select a PLT HQ that was not activated in 3.3.1, draw an Action card and give
+it the modified number of Initiative Commands (4.1.2).</li>
+  <li>Save those Commands or expend them (and any saved Commands) on orders to
+itself or other units up to the maximum per turn according to Visibility and
+Experience Level.</li>
+  <li>Repeat for the next PLT HQ.</li>
+</ul>
+
+<p><strong>3.3.2c CO Staff Initiative Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>Select a CO Staff not activated in 3.3.1, give it one Command.</li>
+  <li>Save that Command or expend it (and any saved Commands) on orders to itself or
+other units up to the max per turn according to Visibility and Experience
+Level.</li>
+  <li>Repeat for the next CO Staff.</li>
+</ul>
+
+<p><strong>3.3.2d General Initiative Impulse</strong></p>
+
+<ul class="turn-sequence">
+  <li>Draw an Action card and expend on any units a number of Commands equal to the
+unmodified Initiative Commands. If this is a single-platoon mission, halve the
+number first (rounding down).</li>
+  <li>General Initiative Commands cannot be saved.</li>
+</ul>
+
+<h4 id="offensive-missionscombat-patrols-enemy-activity-phase">3.4 Offensive Missions/Combat Patrols: Enemy Activity Phase</h4>
+
+<h5 id="enemy-higher-hq-event-segment-1">3.4.1 Enemy Higher HQ Event Segment</h5>
+
+<p class="turn-sequence"><em>(Starting on Turn 2)</em>
+- Draw an Action card; if the HQ icon is present, determine an event on the
+  Enemy Higher HQ Events Table.</p>
+
+<h5 id="enemy-activity-check-segment-1">3.4.2 Enemy Activity Check Segment</h5>
+
+<ul class="turn-sequence">
+  <li>Enemies firing at cards without valid targets Shift/Cease fire.</li>
+  <li>Check every enemy unit on the map for activity.
+    <ul>
+      <li>Determine card order randomly.</li>
+      <li>On each card, check units based on their status on the Activity Check
+Hierarchy tables.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="mutual-capture--retreat-phase">3.5 Mutual Capture &amp; Retreat Phase</h3>
+
+<h4 id="capture-segment">3.5.1 Capture Segment</h4>
+
+<ul class="turn-sequence">
+  <li>Capture any Paralyzed or Litter Team alone on a card with Unpinned infantry
+units with a VOF rating from the opposing side (8.15).</li>
+  <li>If side does not take prisoners, Convert captured steps to casualties;
+otherwise, designate a guard step and remove guard and prisoner steps from
+play. Place on the Command Display.</li>
+  <li>Enemy casualties on unoccupied and friendly-occupied cards are captured as per
+8.15.1 (Enemies do not capture casualties).</li>
+</ul>
+
+<h4 id="retreat-segment">3.5.2 Retreat Segment</h4>
+
+<ul class="turn-sequence">
+  <li>Check for effects of CS Gas (4.4.3).</li>
+  <li>Retreat any Unpinned Paralyzed Team under a VOF marker one card. Priority is
+no VOF, then best Cover &amp; Concealment (random if equal), and mark Exposed.</li>
+  <li>Retreat any Unpinned Litter Team plus a Casualty under a VOF marker one card.
+Priority is no VOF, then best Cover &amp; Concealment (random if equal), and mark
+Exposed.</li>
+</ul>
+
+<h3 id="at-combat--vehicle-movement-phase">3.6 AT Combat &amp; Vehicle Movement Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Fire Activated AT-capable units and Move, Spot or Concentrate Fire with
+Activated Vehicles; if both sides have activated units, alternate sides,
+starting with the attacker. Carry out Reaction Fire. Flip each unit’s Activated
+marker as it finishes its action.</li>
+</ul>
+
+<h3 id="mutual-combat-phase">3.7 Mutual Combat Phase</h3>
+
+<h4 id="fire-mission-update-segment">3.7.1 Fire Mission Update Segment</h4>
+
+<ul class="turn-sequence">
+  <li>Remove existing Incoming!, Air Strike! and WP Fire Mission VOF markers.</li>
+  <li>Flip Pending markers to their active sides.</li>
+</ul>
+
+<h4 id="potential-contact-evaluation-segment">3.7.2 Potential Contact Evaluation Segment</h4>
+
+<ul class="turn-sequence">
+  <li>For each card with a PC marker and a friendly unit, draw the number of Action
+cards indicated on the Potential Contact Draw chart based on the PC marker and
+the Current Activity Level.</li>
+  <li>If a card states “Contact”, contact with the enemy has been made; determine
+the enemy package to use and placement per 8.3.</li>
+  <li>Place any applicable VOF and PDF markers and update the Current Activity
+marker before moving on to the next PC marker.</li>
+</ul>
+
+<h4 id="pinned-recovery-segment">3.7.3 Pinned Recovery Segment</h4>
+
+<ul class="turn-sequence">
+  <li>Remove Pinned markers from any vehicle or infantry units that are not under a
+VOF marker.</li>
+</ul>
+
+<h4 id="combat-effects-segment-do-not-adjust-vofpdf-until-38">3.7.4 Combat Effects Segment <em>(Do not adjust VOF/PDF until 3.8)</em></h4>
+
+<p class="turn-sequence">For each infantry unit on a card with a VOF marker:
+- Resolve any Flamethrower Attacks.
+- Determine the NCM.
+- Draw an Action card to determine if the fire is effective.
+- If the unit is hit, draw another Action card to determine the hit’s effect
+  based on the unit’s Experience Level.
+<em>(Update Ammo levels of units exerting Basic VOF as per 7.18.4)</em></p>
+
+<h3 id="clean-up-phase">3.8 Clean Up Phase</h3>
+
+<ul class="turn-sequence">
+  <li>Remove Pyrotechnic, Smoke, Illumination, Exposed, Moved/Fired, Concentrated
+Fire, Booby Trap, Grenade, and Grenade Miss markers.</li>
+  <li>Evacuate casualties from cards designated for casualty evacuation.</li>
+  <li>Enemies firing at cards without valid targets Shift/Cease fire.</li>
+  <li>If a Defensive Mission, remove any unresolved PC markers.</li>
+  <li>Reset Mine markers and adjust VOF, PDF and Activity Levels as result of 3.7.4
+and 3.8.</li>
+</ul>
+
+
+</div>
+<div class='col-md-4 col-xs-12'>
+<div class='sidebar'>
+<aside>
+<h3>
+Recent Articles
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Sun. Sep 28</span>
+<a href='/2025/09/28/dread-realm-4.html'>Dread Realm 4</a>
+</li>
+<li>
+<span>Sun. Sep 21</span>
+<a href='/2025/09/21/dread-realm-2-3.html'>Dread Realm 2 &amp; 3</a>
+</li>
+<li>
+<span>Sun. Sep 14</span>
+<a href='/2025/09/14/fields-of-fire-2-platoon-run-2.html'>DRAFT: Fields of Fire 2: Platoon Run 2</a>
+</li>
+<li>
+<span>Fri. Aug 15</span>
+<a href='/2025/08/15/fambly-uno-and-train.html'>Fambly Uno and Train</a>
+</li>
+<li>
+<span>Sun. Jul 27</span>
+<a href='/2025/07/27/the-dread-realm-1-375.html'>The Dread Realm 1 (375)</a>
+</li>
+<li>
+<span>Sat. Jul 26</span>
+<a href='/2025/07/26/gunslinger-2.html'>Gunslinger 2 &amp; Star Realms</a>
+</li>
+<li>
+<span>Sun. Jul 13</span>
+<a href='/2025/07/13/sunday-games-at-dos-palmas.html'>Sunday games at Dos Palmas</a>
+</li>
+<li>
+<span>Tue. Jul  8</span>
+<a href='/2025/07/08/jump-drive-96.html'>Jump Drive 96</a>
+</li>
+<li>
+<span>Sun. Jul  6</span>
+<a href='/2025/07/06/lotr-374-carn-dum-crushes-again.html'>LotR 374 - Carn Dum crushes again</a>
+</li>
+<li>
+<span>Sat. Jul  5</span>
+<a href='/2025/07/05/high-frontier-4a-63.html'>High Frontier 4A (63)</a>
+</li>
+<li>
+<span>Thu. Jul  3</span>
+<a href='/2025/07/03/jump-drive-ftw.html'>Jump Drive FTW</a>
+</li>
+<li>
+<span>Wed. Jul  2</span>
+<a href='/2025/07/02/jump-drive-with-minichips.html'>Jump Drive with minichips</a>
+</li>
+<li>
+<span>Sun. Jun 29</span>
+<a href='/2025/06/29/colony-wars-with-united-heroes-and-command.html'>Colony Wars with United Heroes and Command</a>
+</li>
+<li>
+<span>Sat. Jun 14</span>
+<a href='/2025/06/14/star-realms-frontiers-7.html'>Star Realms: Frontiers 7</a>
+</li>
+<li>
+<span>Sat. Jun  7</span>
+<a href='/2025/06/07/high-frontier-62.html'>High Frontier 62</a>
+</li>
+</ol>
+</aside>
+
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-md-12 col-xs-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>

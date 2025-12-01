@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* site global styling */
 html,
 body {
@@ -46,11 +47,6 @@ table.center {
   margin-bottom: 15px;
 }
 
-table.fire-record {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  margin-bottom: 1.5em;
-}
 table.fire-record td,
 table.fire-record th {
   padding: 2px 5px 2px 5px;
@@ -58,6 +54,11 @@ table.fire-record th {
 table.fire-record th {
   border-bottom-style: solid;
   border-bottom-width: 2px;
+}
+table.fire-record {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: 1.5em;
 }
 
 .center {
@@ -112,7 +113,33 @@ ol.letterlist li:before {
 .turn-sequence {
   font-style: italic;
   font-size: 90%;
-  color: #999;
+  color: #ecc9c9;
+}
+
+aside {
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 120%;
+  padding: 20px;
+  background: rgb(223, 216, 223);
+  color: #6a6767;
+  font-style: italic;
+}
+
+/* details with a triangle toggle */
+details summary {
+  cursor: pointer;
+}
+
+details summary::before {
+  content: "▼";
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+details[open] summary::before {
+  content: "▲";
 }
 
 .blog h1,

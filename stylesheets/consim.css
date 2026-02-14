@@ -5,11 +5,30 @@ body {
   height: 100%;
 }
 
+/* Restore Bootstrap 3 body font; BS5 uses system font stack */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Site-wide link hover: darker blue, no underline */
+a:hover,
+a:focus {
+  color: #003d82;
+  text-decoration: none;
+}
+
 #wrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -60px;
+}
+
+/* Match Bootstrap 3 container width; BS5 grows to 1320px on xxl */
+.container {
+  max-width: 1024px;
 }
 
 #wrap > .container {
@@ -95,6 +114,22 @@ table.fire-record {
   padding-right: 10px;
 }
 
+.tags-inline {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+.tags-inline h5 {
+  margin: 0;
+}
+.tags-inline ul.taglist {
+  margin: 0;
+  padding-left: 0;
+}
+.tags-inline.tags-pre-body {
+  margin-bottom: 1em;
+}
+
 ul.taglist {
   list-style: none;
 }
@@ -108,6 +143,50 @@ ol.letterlist {
 }
 ol.letterlist li:before {
   color: red;
+}
+
+/* Blog index listing: title as heading, not 1999 link */
+article.listing {
+  margin-bottom: 1.75em;
+}
+article.listing:first-child {
+  margin-top: 1.125em;
+}
+article.listing {
+  font-size: 0.9875em;
+}
+article.listing h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+article.listing h3 a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+article.listing h3 a:hover, article.listing h3 a:focus {
+  color: #003d82;
+  text-decoration: none;
+}
+article.listing .listing-excerpt .listing-date {
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 0.35em;
+}
+article.listing .listing-excerpt {
+  /* Run first paragraph on same line as date */
+}
+article.listing .listing-excerpt > p {
+  display: inline;
+}
+article.listing .listing-excerpt {
+  /* "read on" at end of last line of excerpt */
+}
+article.listing .listing-excerpt .more {
+  display: inline;
+}
+article.listing .listing-excerpt .more::before {
+  content: " ";
 }
 
 .turn-sequence {
@@ -127,6 +206,12 @@ aside {
   font-style: italic;
 }
 
+/* Same margin and padding as archive (aside) box, no other styling */
+.sidebar .sidebar-box {
+  margin-top: 1em;
+  padding: 20px;
+}
+
 /* details with a triangle toggle */
 details summary {
   cursor: pointer;
@@ -142,6 +227,9 @@ details[open] summary::before {
   content: "▲";
 }
 
+.blog > .hentry {
+  margin-top: 1.125em;
+}
 .blog h1,
 .blog .h1 {
   font-size: 36px;

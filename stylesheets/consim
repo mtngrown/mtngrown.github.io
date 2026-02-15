@@ -100,16 +100,38 @@ table.fire-record {
   .tags-inline h5 {
     margin: 0; }
   .tags-inline ul.taglist {
-    margin: 0;
+    margin: 0.3em 0 0 0;
     padding-left: 0; }
   .tags-inline.tags-pre-body {
     margin-bottom: 1em; }
 
 ul.taglist {
-  list-style: none; }
+  list-style: none;
+  margin: 0.3em 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em; }
   ul.taglist li.tag {
-    display: inline;
-    font-style: italic; }
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-style: normal; }
+    ul.taglist li.tag a {
+      display: inline-block;
+      padding: 0.20em 0.70em;
+      font-size: 0.9em;
+      font-weight: 500;
+      color: #555;
+      background-color: rgba(136, 177, 22, 0.08);
+      border: 1px solid rgba(136, 177, 22, 0.4);
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease; }
+      ul.taglist li.tag a:hover, ul.taglist li.tag a:focus {
+        color: #4a5f0f;
+        background-color: rgba(136, 177, 22, 0.18);
+        border-color: rgba(136, 177, 22, 0.7); }
 
 ol.letterlist {
   list-style-type: upper-alpha; }
@@ -160,6 +182,48 @@ aside {
   background: #dfd8df;
   color: #6a6767;
   font-style: italic; }
+
+/* Quote styling overrides (from previous Bootstrap 3 styles) */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+  font-size: 0.9em;
+  color: #444; }
+  blockquote p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.25; }
+  blockquote p:last-child {
+    margin-bottom: 0; }
+  blockquote small,
+  blockquote .small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999999; }
+    blockquote small::before,
+    blockquote .small::before {
+      content: "\2014 \00A0"; }
+  blockquote.pull-right {
+    padding-right: 15px;
+    padding-left: 0;
+    border-right: 5px solid #eeeeee;
+    border-left: 0; }
+    blockquote.pull-right p,
+    blockquote.pull-right small,
+    blockquote.pull-right .small {
+      text-align: right; }
+    blockquote.pull-right small::before,
+    blockquote.pull-right .small::before {
+      content: ""; }
+    blockquote.pull-right small::after,
+    blockquote.pull-right .small::after {
+      content: "\00A0 \2014"; }
+  blockquote::before, blockquote::after {
+    content: ""; }
 
 /* Same margin and padding as archive (aside) box, no other styling */
 .sidebar .sidebar-box {

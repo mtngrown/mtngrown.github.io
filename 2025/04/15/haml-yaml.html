@@ -146,12 +146,12 @@ final output being HTML as displayed here.</p>
 Among many choices for storing the game data, this project is
 using Yaml. It's easy to read, store, and process. Given Yaml,
 a decision has to be made whether to store all the games in a
-single file, or each game in it's own file. There are pros and
+single file, or each game in its own file. There are pros and
 cons for each.
 </p>
 <p>
 However, there is a strong argument that having each game in its own file
-reduces the cogitive load when the files need manual editing, or when a
+reduces the cognitive load when the files need manual editing, or when a
 new game is added. With a large single file, it's easier to create syntax
 errors and induce annoying debugging. With multiple smaller files,
 adding a new game is as easy as adding its relevant file. The tradeoff is
@@ -166,7 +166,7 @@ setting up the concatenation.
 </p>
 <p>
 Regardless of whether the data is stored in a single file or
-multiple files, Yaml is not the most efficent for data entry.
+multiple files, Yaml is not the most efficient for data entry.
 Dedicated data entry tools or spreadsheets are far more efficient.
 For this tiny application, writing a dedicated tool is out of
 scope, it would require a lot more web programming than warranted.
@@ -187,14 +187,14 @@ Batch processing reads all the files at once, then iterates over
 the collection of files to display the contents of each.
 </p>
 <p>
-The intersting aspect of this is that the processing is being done
+The interesting aspect of this is that the processing is being done
 from Ruby code embedded in the text of the file. The reader doesn't
 see the code, only what it outputs.
 </p>
 <h4>Individual file processing</h4>
 <p>
 The YAML formatted data for each game is loaded into a Ruby hash,
-where each game is explicitly named in the processor. Here's example
+where each game is explicitly named in the processor. Here's an example
 of the hash: {&quot;game&quot; =&gt; {&quot;title&quot; =&gt; &quot;Viet Nam&quot;, &quot;published&quot; =&gt; 1965, &quot;designer&quot; =&gt; &quot;Phil Orbanes&quot;, &quot;publisher&quot; =&gt; &quot;Game Science&quot;, &quot;comment&quot; =&gt; &quot;Given its initial publication in 1965, the game seems prescient to how the war eventually played out.&quot;}}.
 </p>
 <p>
@@ -226,7 +226,7 @@ published: 2013
 </div>
 <p>
 Each of the games above was individually added to this file, a very
-tedious process which nevetheless leverages having the game data
+tedious process which nevertheless leverages having the game data
 in an independent and parseable format.
 </p>
 <h4>Batched processing</h4>
@@ -357,6 +357,10 @@ Next:
 </h3>
 <ol>
 <li>
+<span>Sun. Feb 15</span>
+<a href="/2026/02/15/the-weather-hills-2.html">The Weather Hills 2</a>
+</li>
+<li>
 <span>Sat. Feb  7</span>
 <a href="/2026/02/07/gunslinger-more.html">Gunslinger 3</a>
 </li>
@@ -411,10 +415,6 @@ Next:
 <li>
 <span>Sun. Dec 28</span>
 <a href="/2025/12/28/star-realms-and-zombie-dice-38.html">Star Realms (28-30) and Zombie Dice (38)</a>
-</li>
-<li>
-<span>Fri. Dec 26</span>
-<a href="/2025/12/26/lord-of-the-rings-trick-taking-ch-1.html">Lord of the Rings Trick Taking Chs. 1 &amp; 2</a>
 </li>
 </ol>
 </aside>

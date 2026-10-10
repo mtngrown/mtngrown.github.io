@@ -1,0 +1,786 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='GNU Terry Pratchett' http-equiv='X-Clacks-Overhead'>
+<script crossorigin='anonymous' integrity='sha256-1Hmwk0Sl0aP6fE2yB7f4YlR/NuEPnjtWnPZh/Z+7nKI=' src='https://code.jquery.com/jquery-3.7.1.min.js' type='text/javascript'></script>
+<script src='/javascripts/mathjax-config.js' type='text/javascript'></script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+<link href='/images/pb_icon.png' rel='icon' type='image/png'>
+<link crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css' integrity='sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB' rel='stylesheet'>
+<link href="/stylesheets/consim.css" rel="stylesheet" />
+<script crossorigin='anonymous' integrity='sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI' src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js' type='text/javascript'></script>
+
+</head>
+<body>
+<div id='wrap'>
+<div class='navbar navbar-expand-md navbar-light bg-light fixed-top' role='navigation'>
+<div class='container'>
+<button aria-controls='navbarMain' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-bs-target='#navbarMain' data-bs-toggle='collapse' type='button'>
+<span class='navbar-toggler-icon'></span>
+</button>
+<div class='collapse navbar-collapse' id='navbarMain'>
+<ul class='navbar-nav me-auto'>
+<li class='nav-item active'>
+<a class='nav-link' href='/'>Home</a>
+</li>
+<li class='nav-item'>
+<a class='nav-link' href='/about.html'>About</a>
+</li>
+<li class='nav-item'>
+<a class='nav-link' href='/panzerblitz'>PanzerBlitz</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class='container'>
+<div class='row'>
+<div class='col-12 col-md-8 blog'>
+<article class='hentry'>
+<h1 class='entry-title'>
+SGP Linebacker 2
+</h1>
+<time class='updated' pubdate=''>Aug  8 2026</time>
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2026/07/19/silver-bayonet-operation-long-reach.html' rel='prev'>Silver Bayonet - Operation Long Reach</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2026/09/06/silver-bayonet-operation-long-reach-2.html' rel='next'>Silver Bayonet - Operation Long Reach (2)</a>
+</div>
+</div>
+
+<div class='tags-inline tags-pre-body'>
+<h5>Tags</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/sgp-linebacker-2.html'>sgp-linebacker-2</a>
+</li>
+</ul>
+</div>
+
+<p>It’s a restless day. I’ve had a nasty cold the last few days of the current
+week, which has thrown me off my game for everything. A pity as the Monday was
+stellar, particularly for being a first day back from a week of travel. Between
+plane and airport, I picked up some sort of bug. But now it’s Saturday, I’m
+feeling a bit better (but still not great), and itching to make some progress on
+anything at all.</p>
+
+<p>Returning to my rebuild of Linebacker 2 seems workable.
+I don’t recall exactly how I found this game, most likely
+via a BGG search for Vietnam-era games. With some effort
+I managed to locate some decent scans of all the parts of
+the game, and have been intermittently converting the scans
+to text for processing with LaTeX or rendering with SVG.
+I’m a big fan of text and vector formats, very easy to
+archive, and non-proprietary formats means I don’t get
+locked out of my own work when tools move from purchase
+to <del>ransomware</del> subscription.</p>
+
+<p>The Swedish Game Production Linebacker 2 from Combat
+magazine Issue 8 is on my 2026 12 plays list. In order to
+play it, it would be helpful to have an actually playable
+game to get on the table. Much of the hard initial work
+has been done, with map, counters, etc. designed, printed,
+trimmed. Putting it on the table, however, is an instant
+assessment of form factor. In this case, the form factor
+is not quite there yet.</p>
+
+<p>Here’s what I have so far:</p>
+
+<p class="center"><img src="/images/sgp-linebacker-2/rebuild-setup.jpeg" alt="Setting up the rebuild" /></p>
+
+<p>Unsolicited plug for Big Viking Mats: they are awesome and I
+need to invest in many more of the them. My usual opponent is
+green with envy, worth it for that alone. The plexi is 24x36
+inches.</p>
+
+<h2 id="learning-the-rules">Learning the rules</h2>
+
+<p>The rules to Linebacker 2 are just a few pamphlet-sized
+pages. It is not a complicated game. There aren’t that
+many moving parts, not that many mechanisms to learn and
+the Turn Sequence is short and straightforward. This is
+not to imply the rules are unambiguous, correct in every
+aspect, or even complete.</p>
+
+<p>It may be that game play will drive out some of the
+ambiguity. It will assuredly uncover more.</p>
+
+<h2 id="map-details">Map details</h2>
+
+<p>The map as originally published did not have a north arrow.
+From the relative position of the cities on the map, up
+is a little bit north of east. I like having north arrows
+on maps, so adding one to this map seemed like an obvious
+addition.</p>
+
+<h3 id="adding-a-north-arrow">Adding a North arrow</h3>
+
+<p>One way to do it is by Mark I Eyeball, just draw something
+plausible and call it good. The way I do this is by orienting
+the features such that north is up, then draw an arrow.
+Another way to do it is to acquire the latitude and longitude
+of a few relevant features, perhaps on this map Hanoi, Haiphong,
+and Nam Dinh, then compute a best fit north arrow. This is
+appealing, but would be time consuming to look up the data,
+write a best fit routine, etc.</p>
+
+<p>With Herman running on Fable 5, I just asked:</p>
+
+<blockquote>
+  <p>I took the six cities the map actually draws — Hanoi, Haiphong, Thái Nguyên,
+ Nam Định, Thanh Hóa, and Vinh — and paired each drawn position with its real
+ latitude and longitude projected onto a local flat plane. A similarity
+ Procrustes fit (rotation and scale only, no reflection) then finds the single
+ rotation that best lays the real constellation over the drawn one, and true
+ north is simply where that rotation sends the real north vector: 52.7°
+ counterclockwise of map-up. The fit’s residuals back it up — Hanoi lands
+ within 0.04 map units of its drawn position, and the worst city is off by
+ less than one.</p>
+</blockquote>
+
+<p>The natural map unit is centimeters, and the worst city in this case
+was Thanh Hoa, off by 0.84cm (about 4% of the map’s width).</p>
+
+<p>At this point, kudos to the designers, they nailed the relative locations
+of these 6 cities, which gives me a warm fuzzy feeling about the remaining
+features in the play area.</p>
+
+<h2 id="setting-up-to-play">Setting up to play</h2>
+
+<p>Echo Counters are how the game simulates Fog of Battle. The NV player
+Echo Counters (EC), when placed on the map, indicate which Aircraft
+are in the air and ready for movement or combat. This is straightforward.
+There are 10 airfields and 10 ECs for North Vietnam.</p>
+
+<p>The US places ECs into the US Holding Area on the map, with each EC
+corresponding to aircraft arranged the US Air Status Display. However,
+there are 23 ECs for the US, and only 20 positions in the US Air Status
+Display. Further confusing the situation is the positions are divided
+into four sets of 5, with each set numbered 1-5. There are 16 targets
+on the map: 10 airfields, 4 towns, 2 cities.</p>
+
+<p>Many questions suggest themselves:</p>
+
+<ol>
+  <li>Was the US scheme deliberate, and if so, why, and how
+do ECs numbering 1-23 correspond to Status indicators labeled 1-5?</li>
+  <li>If it wasn’t deliberate, is it a game development oversight?</li>
+  <li>Can targets be hit more than once in a turn?</li>
+  <li>Is each EC resolved in each turn?</li>
+</ol>
+
+<p>I am not a game developer. Apparently I am developing this game.</p>
+
+<p>This is making my head hurt. I’m going to take a break and go
+for a walk, probably up to the Tilden Park Steam Trains.
+A good walk before a sedentary conference extravaganza will
+make it go better. I like to take pictures on my walks.
+Here’s a seasonally appropriate view of the Golden Gate
+bridge from La Loma park.</p>
+
+<p class="center"><img src="/images/golden-gate-view-la-loma.jpeg" alt="Seasonally appropriate view of the Golden Gate
+bridge from La Loma" /></p>
+
+<p>Too early for the steam trains, but coyotes were out.</p>
+
+<hr />
+
+<p>And we’re back after a three week hiatus. It was a long walk!
+Actually, it was a long walk, but there was family, work, and
+travel drama occupying 20 of those 21 doys. Another long-ish
+walk provided an excuse for some Newportian productive meditation
+surfacing another list of questions for the US. Specifically,
+where are US plane counters actually placed at the beginning
+of a turn, including the first turn set up. Options include:</p>
+
+<ol>
+  <li>On the status display;</li>
+  <li>In holding box;</li>
+  <li>On map.</li>
+</ol>
+
+<p>Or does setup for the first turn differ from turns two onwards?
+I just realized I haven’t looked at the rules in three weeks.</p>
+
+<p>I feel like I’m straying into game design territory here. I am
+not a game designer.</p>
+
+<p>Given the setup, what are legitimate first moves? Here’s a list
+of possibilities:</p>
+
+<ol>
+  <li>From Holding Box to map;</li>
+  <li>From Status Display to map;</li>
+  <li>From Status Display to Holding Box.</li>
+</ol>
+
+<p>Then, I don’t see any hope for it, I’m going to have to set it
+up any which way and see how it plays out.</p>
+
+<p>Idea: dummy counters and named boxes for towns, cities, and airfields.</p>
+
+<h2 id="some-examples-of-play">Some examples of play</h2>
+
+<p>My usual opponent and I have a fool proof way of learning
+to play wargames: when in doubt, wing it. Winging it seems
+appropriate here, we’ll throw some planes on the map
+and see what happens.</p>
+
+<h3 id="lets-bomb-haiphong">Let’s bomb Haiphong!</h3>
+
+<p>We’ll fly a mission, to Haiphong, with B-52s, and drop some bombs.
+Here’s the details:</p>
+
+<ul>
+  <li>Aircraft: B-52 (9).</li>
+  <li>NV: SAM only.</li>
+</ul>
+
+<p>Assume the Echo counter was moved into the Haiphong zone
+the previous turn.</p>
+
+<ol>
+  <li>First SAM fire phase: NV fires 6 SAMs and roll 3-3, which is a whiff.</li>
+  <li>Air-to-Air combat phase: N/A.</li>
+  <li>Bombing phase:
+    <ul>
+      <li>A. Low-level flak attack segment: N/A.</li>
+      <li>B. Bombing phase: B-52 (9), roll 9 for 3 VP. Since this is
+   the first Haiphong bombing, it incurs a -5 VP on the US
+   player, so US nets -2 VP.</li>
+    </ul>
+  </li>
+  <li>Movement phase:
+    <ul>
+      <li>A. First player movement segment: B-52 (9) back to US Holding
+   Area box.</li>
+      <li>B. Second player movement segment: N/A, no MIGs in the air.</li>
+    </ul>
+  </li>
+  <li>Second SAM fire phase: N/A, no other Echo counters on the map,
+this is an example, remember?</li>
+  <li>Record the passage of one GAME TURN: N/A because example.</li>
+</ol>
+
+<p>Net -2 VP for the US.</p>
+
+<p>That was straightforward, encouraging! Let’s put some jets in the
+air and try another example.</p>
+
+<h3 id="air-superiority">Air superiority</h3>
+
+<p>Aircraft:</p>
+
+<ul>
+  <li>F4 (8)</li>
+  <li>MIG x 4 with status “May Attack”</li>
+</ul>
+
+<p>The action takes place around the Yen Dai airfiel, #9 on the map.</p>
+
+<ol>
+  <li>First SAM fire phase: Fire 6 SAM, roll 6-6 for 2 hits! Great
+result for the NVAF! As I read it, this is +2 VP for NV.</li>
+  <li>Air-to-Air combat phase:
+    <ul>
+      <li>A. Interception segment: NVAF rolls 6, no effect.</li>
+      <li>B. B-52 defensive fire segment: N/A.</li>
+      <li>C. Air superiority segment: US rolls 3, no effect.</li>
+    </ul>
+  </li>
+  <li>Bombing phase: N/A.</li>
+  <li>Movement phase:
+    <ul>
+      <li>A. First player movement segment: 6 F4 go to Holding Area.</li>
+      <li>B. Second player movement segment: 4 MIG move to Landing/Turn
+   Around status for Yen Dai.</li>
+    </ul>
+  </li>
+  <li>Second SAM fire phase: N/A.</li>
+  <li>Record the passage of one GAME TURN: Advance the counter.</li>
+</ol>
+
+<p>Making the reasonable assumption that a SAM hit results in a
+Downed Aircraft on the Victory Points table, NV nets 2 VP
+for this action.</p>
+
+<p>But how are the hits managed? There are Hit counters which are all
+colored NV pink, but no blue colored Hit counters. The strength
+values in the counter mix don’t lend themselves to making change.
+It’s reasonable to assume downed aircraft are out of play, but
+how are they tracked? I think there are two related issues here:</p>
+
+<ol>
+  <li>How to accurately represent the available aircraft after
+taking hits during combat, and;</li>
+  <li>How to keep track of the number of downed aircraft of appropriate
+types.</li>
+</ol>
+
+<p>Paper and pencil would work for Item 2. For Item 1, we’ll proceed
+with using the existing pink Hit Counters (HC), stacking hits
+the same way Cohesion is stacked in Great Battles of History
+until the next denominated strength counter can be used instead.</p>
+
+<p>I have a hunch I am going to make a new counter sheet extended
+with blue hit counters and strength values allowing “making change”
+as a result of combats. However, given all the aircraft counters
+are in play at the beginning of the game, it’s not clear at this
+moment how making change would work.</p>
+
+<h3 id="low-level-strike">Low level strike</h3>
+
+<ol>
+  <li>First SAM fire phase</li>
+  <li>Air-to-Air combat phase:
+    <ul>
+      <li>A. Interception segment</li>
+      <li>B. B-52 defensive fire segment</li>
+      <li>C. Air superiority segment</li>
+    </ul>
+  </li>
+  <li>Bombing phase:
+    <ul>
+      <li>A. Low-level flak attack segment</li>
+      <li>B. Bombing phase</li>
+    </ul>
+  </li>
+  <li>Movement phase:
+    <ul>
+      <li>A. First player movement segment</li>
+      <li>B. Second player movement segment</li>
+    </ul>
+  </li>
+  <li>Second SAM fire phase</li>
+  <li>Record the passage of one GAME TURN</li>
+</ol>
+
+<h3 id="escorted-bombers">Escorted bombers</h3>
+
+<ol>
+  <li>First SAM fire phase</li>
+  <li>Air-to-Air combat phase:
+    <ul>
+      <li>A. Interception segment</li>
+      <li>B. B-52 defensive fire segment</li>
+      <li>C. Air superiority segment</li>
+    </ul>
+  </li>
+  <li>Bombing phase:
+    <ul>
+      <li>A. Low-level flak attack segment</li>
+      <li>B. Bombing phase</li>
+    </ul>
+  </li>
+  <li>Movement phase:
+    <ul>
+      <li>A. First player movement segment</li>
+      <li>B. Second player movement segment</li>
+    </ul>
+  </li>
+  <li>Second SAM fire phase</li>
+  <li>Record the passage of one GAME TURN</li>
+</ol>
+
+<hr />
+
+<p>It’s a week, or many weeks later. Travel has come and
+gone, the routine is getting back into habit, and I’m
+examining my motivation to continue. Frankly, it’s kind of
+boring compared to working through my information technology
+backlog, also known as “programming projects,” of which there
+are many, and interesting, dating back in some cases decades.
+Sadly, prioritization remains as big a challenge as ever, and
+as Plantagenet Palliser noted, nobody has time these days.</p>
+
+<p>The more things change, etc.</p>
+
+<p>Believe it or not, after all this foam and spew, we’re just
+now at the top of Turn 1.</p>
+
+<p>The turn sequence implies that every EC is handled at each step.
+Since I put 12 ECs on the map, SAM first fire is conducted for
+all 12. I need to get some SAM markers. I’ll use tile spacers.
+To make it simple, I’m going to emplace the US forces into
+the target box directly from the Air Status Display. I’ll
+worry about movement later.</p>
+
+<ol>
+  <li>Bomb Hanoi with 12 B-52 escorted by 8 F4. But how does SAM
+work on a mixed mission? I am making the assumption that I can
+fly F4s on a B-52 mission, they are escorts, right? I need to
+review the literature. I read a whole book on Linebacker, of
+which I apparently retained very little. 6 SAMs, roll ‘em: 5-1, whiff.</li>
+  <li>Bomb Haiphong, 12 B-52, 8 F4. 6 SAMs (988), roll 5-3 whiff.</li>
+  <li>Bomb Hanoi, 12 B-52, 8 F4, 6 SAMs (982), roll 4-2 whiff.</li>
+  <li>Bomb Haiphong 12 B-52, 8 F4, 6 SAMs (976), roll 5-6, Score!
+B-52 gets 1 hit for 10 VP to NV.</li>
+  <li>Thanh Hoa with 12 B-52, roll 6-6 which is 2 hits on B-52, 20
+VPs to NV.</li>
+  <li>Vinh, 12 B-52, SAM roll 4-5, whiff as there is no escort.</li>
+  <li>Thai Nguyen, 12 B-52 SAM roll 2-3 whiff.</li>
+  <li>Than Hoa airfield, 10 F-111.</li>
+  <li>Dong Hi 6 F-111.</li>
+  <li>Yen Dai, 6 F-111.</li>
+  <li>Kep, Air Superiority 24 F-4.</li>
+  <li>Ninh Binh, Air Superiority 24 F-4.</li>
+</ol>
+
+<p>Here’s a shot with updated “large” components.</p>
+
+<p class="center"><img src="/images/sgp-linebacker-2/g1-t1-1.jpeg" alt="Part of the way into Turn 1" /></p>
+
+<h2 id="whats-to-like-about-the-game">What’s to like about the game</h2>
+
+<p>The game has several redeeming qualities. Linebacker 2 was
+operationally brutal requiring a large number of personnel
+ensuring a large amount of ordnance was delivered at the
+right time in the right place. The pace was intense, and
+that is reflected in the as the nine turns for each date.
+As with any respectable simulation of the US involvent in
+Vietnam, both sides can declare a victory of sorts by
+simply going the distance.</p>
+
+<p>Combat operations are simple to understand and perform,
+and if not statistically valid, it would not be terribly
+difficult to adjust the odds. B-52 tailgunners did ruin
+the day for at least two MIG-21s, and the game allows for
+that possibility with B-52 defensive fire. I like that!</p>
+
+<p>B-52 counters are demoninated in factors of three, which
+is historically accurate: 3 BUFFS to a “cell.” For example,
+Ivory cell with Ivory 01, Ivory 02, and Ivory 03. Cells
+were often grouped in “waves” of more or less three cells,
+which is ostensibly the 9 counter.</p>
+
+<p>Likewise, MIGs typically operated in pairs.</p>
+
+<p>The game has a small footprint, with even the “large”
+scale version easily fitting onto a small folding table.
+This includes map and fnaction placards, with room for
+dice tower or tray, counters, rules and beers if one
+is so inclined (I am not).</p>
+
+<h2 id="where-the-game-falls-flat">Where the game falls flat</h2>
+
+<p>Ok, so I only played part of Turn 1 on the first day of the
+campaign, but it was really clear I was going to be in for
+a brutal ride. It just didn’t feel like it was going to be
+any fun at all, at least not playing solitaire. Sadly,
+neither of my usual opponents joined me for a game. I
+probably should have asked them. Anyways, it felt like
+it was going to be a grueling experience so I ejected.</p>
+
+<h3 id="combat-incentives">Combat incentives</h3>
+
+<p>One of my usual opponents pointed out that combat is not
+properly incentivized:</p>
+
+<blockquote>
+  <p>…the FLAK CRT only allows the NV to shoot down one play [sic] (rarely two), so
+aircraft after the first are invulnerable. So you might as well send lots of
+them! Fighters are handled similarly, additional fighters get you a higher
+probability of a kill, but only at the very high end do you take out more than
+one aircraft. It seems like you want to bunch up your fighters because only
+groups of six have any hope of hitting a B-52 and you don’t know what you’re
+going up against.</p>
+</blockquote>
+
+<p>He has a point, but then again, USAF says no MIG-21s actually did
+down a B-52 and North Vietnam claims that two did. For the number of
+aircraft involved, there isn’t much difference between 0 and 2,
+so perhaps it did take six or more MIGs to have any hope of hitting.</p>
+
+<h3 id="counters">Counters</h3>
+
+<p>Specifically, Hit counters. There aren’t enough Hit counters to make
+change appropriately to account for downed aircraft. And the Hit
+counters are all NV pink. Where are the Hit counters for USAF?</p>
+
+<p>The aircraft counters are inconsistent, with a single aircraft
+and a numeral on the USAF counters, and two aircraft on the MIG
+counters. It’s not clear and not stated whether the number on
+the counter represents the number of aircraft, nor whether the
+MIG counters represent two aircraft. As it turns out, the intent
+can be inferred from history, provided one is already knowledgable.</p>
+
+<h3 id="the-rules">The rules</h3>
+
+<p>If I were to succinctly describe the rules, the best I could
+do is state that there really aren’t any rules, just suggestions.
+This is likely obvious from the preceding discussion. What’s
+worse is that the game isn’t really fixable without eliminating
+the existing ambiguity, then filling in the remaining gaps.
+In other words, there aren’t enough rules to determine exactly
+how to play the game, much less whether the game is worth playing.</p>
+
+<h3 id="would-i-play-it-again">Would I play it again?</h3>
+
+<p>I think so; it feels like there is a game here.
+Whether it’s the same game the designer envisioned I
+could not say. I’d put it back on the table under
+either of the following conditions, after sufficient
+and currently undisclosed time has passed (not
+2026 in other words):</p>
+
+<ol>
+  <li>
+    <p>Someone else really, <em>really</em> wants to play this
+thing, and is willing to put in the work necessary
+for at least incremental improvement. What this means
+is you have to wait for me to write down decisions
+and observations, that’s all. It would be less of
+“game play” and more of a “game development” situation.</p>
+  </li>
+  <li>
+    <p>I retire and find myself bored and decide to
+turn this into an actual solitaire game, which as
+I am thinking about it, might be pretty decent
+played as the US with the NV side under procedural
+control. I would dig very deep into the references
+to ensure as much actual history was incorporated
+into the game.</p>
+  </li>
+</ol>
+
+<p>A third condition (a complete non-starter) might be
+someone decides they need to pay me a lot of money
+to make the game playable. I’m not holding my breath.</p>
+
+<h2 id="upshot">Upshot</h2>
+
+<p>This is the second vintage rebuild I’ve done, and
+probably not the last. Rebuilding is getting easier
+with both personal experience and improved technical
+tools, not the least of which is LLM technology.
+OCR work is now more or less trivial in comparison
+to OCR work in years past.
+Graphics work is still fundamentally challenging,
+LLMs aren’t that good at it, they aren’t trained
+for graphic reconstruction.</p>
+
+<p>The mechanical parts such as laying out a
+counter sheet are much easier. Instead of writing
+the tools myself, I have an LLM write the tools.
+Overall, it’s fun and interesting, and one of these
+days perhaps I’ll resurrect an overlooked masterpiece.
+Probably not, but it doesn’t matter. This is about
+the journey not the destination.</p>
+
+<hr />
+<hr />
+
+<h3 id="placeholder">Placeholder</h3>
+
+<ol>
+  <li>First SAM fire phase</li>
+  <li>Air-to-Air combat phase:
+    <ul>
+      <li>A. Interception segment</li>
+      <li>B. B-52 defensive fire segment</li>
+      <li>C. Air superiority segment</li>
+    </ul>
+  </li>
+  <li>Bombing phase:
+    <ul>
+      <li>A. Low-level flak attack segment</li>
+      <li>B. Bombing phase</li>
+    </ul>
+  </li>
+  <li>Movement phase:
+    <ul>
+      <li>A. First player movement segment</li>
+      <li>B. Second player movement segment</li>
+    </ul>
+  </li>
+  <li>Second SAM fire phase</li>
+  <li>Record the passage of one GAME TURN</li>
+</ol>
+
+
+<hr class='blog-bottom-main'>
+<div class='navigation'>
+<div class='prevnav'>
+Previous:
+<a href='/2026/07/19/silver-bayonet-operation-long-reach.html' rel='prev'>Silver Bayonet - Operation Long Reach</a>
+</div>
+<div class='nextnav'>
+Next:
+<a href='/2026/09/06/silver-bayonet-operation-long-reach-2.html' rel='next'>Silver Bayonet - Operation Long Reach (2)</a>
+</div>
+</div>
+
+<div class='tags-inline'>
+<h5>Tags</h5>
+<ul class='taglist'>
+<li class='tag'>
+<a href='/tags/sgp-linebacker-2.html'>sgp-linebacker-2</a>
+</li>
+</ul>
+</div>
+<hr class='blog-archive-template'>
+</article>
+</div>
+<div class='col-12 col-md-4'>
+<div class='sidebar'>
+<aside>
+<h3>
+<a href='/archive.html'>Archive</a>
+</h3>
+<ol>
+<li>
+<span>Fri. Oct  9</span>
+<a href='/2026/10/09/aw-for-tf-mars-dice-game.html'>AW for TF Mars Dice Game</a>
+</li>
+<li>
+<span>Sun. Oct  4</span>
+<a href='/2026/10/04/silver-bayonet-long-reach-turns-8.html'>Silver Bayonet: Operation Long Reach, Turns 8-10</a>
+</li>
+<li>
+<span>Sat. Sep 19</span>
+<a href='/2026/09/19/lotr-394-temple-of-the-deceived.html'>LotR 394 - Temple of the Deceived</a>
+</li>
+<li>
+<span>Mon. Sep  7</span>
+<a href='/2026/09/07/lotr-391-the-thing-in-the-depths-3-4.html'>LotR 391 - The Thing in the Depths 3,4</a>
+</li>
+<li>
+<span>Sun. Sep  6</span>
+<a href='/2026/09/06/silver-bayonet-operation-long-reach-2.html'>Silver Bayonet - Operation Long Reach (2)</a>
+</li>
+<li>
+<span>Sat. Aug  8</span>
+<a href='/2026/08/08/sgp-linebacker-2.html'>SGP Linebacker 2</a>
+</li>
+<li>
+<span>Sun. Jul 19</span>
+<a href='/2026/07/19/silver-bayonet-operation-long-reach.html'>Silver Bayonet - Operation Long Reach</a>
+</li>
+<li>
+<span>Sat. Jul  4</span>
+<a href='/2026/07/04/lotr-389-watcher-in-the-water-1-2.html'>LotR 389 - The Thing in the Depths 1,2</a>
+</li>
+<li>
+<span>Sat. Jun 20</span>
+<a href='/2026/06/20/next-war-taiwan-and-star-realms-frontiers-10.html'>Next War: Taiwan and Star Realms Frontiers 10</a>
+</li>
+<li>
+<span>Sat. Jun 13</span>
+<a href='/2026/06/13/bloodtree-rebellion.html'>Bloodtree Rebellion</a>
+</li>
+<li>
+<span>Sat. May 30</span>
+<a href='/2026/05/30/pacific-war-pearl-harbor.html'>Pacific War - Pearl Harbor</a>
+</li>
+<li>
+<span>Wed. Apr 29</span>
+<a href='/2026/04/29/jump-drive-114.html'>Jump Drive 114</a>
+</li>
+<li>
+<span>Tue. Apr 28</span>
+<a href='/2026/04/28/jump-drive-112.html'>Jump Drive 112, 113</a>
+</li>
+<li>
+<span>Mon. Apr 27</span>
+<a href='/2026/04/27/jump-drive-110.html'>Jump Drive 110, 111</a>
+</li>
+<li>
+<span>Sun. Apr 26</span>
+<a href='/2026/04/26/jump-drive-109.html'>Jump Drive 109</a>
+</li>
+</ol>
+</aside>
+
+<div class='sidebar-box'>
+<h3>
+What to play next?
+</h3>
+<p>
+Deciding what to play next is always a tough call when faced with a closet
+full of games, all of which were purchased with intent to play. Here's one
+I'm dealing with the decision.
+</p>
+<ul>
+<li>
+<b>Something New</b>: this means both something new to me and a game which has
+been published recently, within the last two or three years.
+</li>
+<li>
+<b>Something Classic</b>: I've acquired a number of games properly considered
+"classic" which haven't yet been played. The current example would be
+PanzerGruppe Guderian.
+</li>
+<li>
+<b>Something Again</b>: mastery requires constant practice, which means playing
+games many, many times to allow nuance to appear.
+</li>
+<li>
+<b>Something Vietnam</b>: as I'm on a Vietnam binge. I don't have all the Vietnam
+games ever published, but I can say that I have a lot of them, and probably more
+than most people.
+</li>
+<li>
+<b>Something Obscure</b>: as it's fun to poke around in the dustier corners of
+game design.
+</li>
+<li>
+<b>Something Different</b>: break away from the same old publishers and try a game
+from one of the new kids on the block. Or, conversely, dip into legacy with a classic
+tried and true.
+</li>
+<li>
+<b>Something Light</b>: once in a while it's nice to actually finish a game all
+the way through in one sitting, in an hour or two.
+</li>
+<li>
+<b>Something Heavy</b>: if possible, it's nice to set up something big and complicated
+which can be left out for days or weeks or even months, for a leisurely stroll through
+a very large or long game.
+</li>
+</ul>
+<p>
+There are surely many more ways to choose, but the above method keeps me busy
+enough, helps me get both breadth and depth into my play, and provides me with
+a sense of progress.
+</p>
+</div>
+<div class='sidebar-box'>
+<h3>
+The odd man out
+</h3>
+<p>When there is an odd man out:</p>
+
+<ul>
+  <li>Have a solo game ready to play.</li>
+  <li>Keep score or advise on a game in progress.</li>
+  <li>Referee a game in progress.</li>
+</ul>
+
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id='push'></div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-12 col-md-12'>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+
+</div>
+</div>
+</div>
+</body>
+</html>
